@@ -714,7 +714,7 @@ msgstr "名字"
 #: boot/app.php:51
 #, fuzzy
 msgid "FluentBooking base plugin needs to be updated to the latest version."
-msgstr "FluentBooking 基礎插件需要更新到最新版本。"
+msgstr "FluentBooking 基礎外掛需要更新到最新版本。"
 
 #. Name of the plugin
 #, fuzzy

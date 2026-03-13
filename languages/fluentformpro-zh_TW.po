@@ -4405,7 +4405,7 @@ msgstr "Fluent Forms"
 
 #: src/Integrations/Mailster/Bootstrap.php:73
 msgid "Fluent Forms Mailster Integration Requires Mailster Plugin"
-msgstr "Fluent Forms Mailster 整合需要 Mailster 插件"
+msgstr "Fluent Forms Mailster 整合需要 Mailster 外掛"
 
 #: libs/ff_plugin_updater/ff-fluentform-pro-update.php:42 
 #: libs/ff_plugin_updater/updater/FluentFormAddOnChecker.php:248

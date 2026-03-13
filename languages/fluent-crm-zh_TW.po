@@ -4209,7 +4209,7 @@ msgstr "欄位值選項"
 #: app/Http/Controllers/CustomContactFieldsController.php:35
 #: app/Http/Controllers/CompanyController.php:730
 msgid "Fields saved successfully!"
-msgstr "欄位已成功保存！"
+msgstr "欄位已成功儲存！"
 
 #: app/Hooks/Handlers/CountryNames.php:317
 msgid "Fiji"
@@ -7175,7 +7175,7 @@ msgstr "請在刪除舊日誌之前審查"
 
 #: app/Services/TransStrings.php:966
 msgid "Please save the details as you can not retrieve again"
-msgstr "請保存詳細資訊，因為您無法再次獲取"
+msgstr "請儲存詳細資訊，因為您無法再次獲取"
 
 #: app/Services/TransStrings.php:967
 msgid "Please select a date and time"

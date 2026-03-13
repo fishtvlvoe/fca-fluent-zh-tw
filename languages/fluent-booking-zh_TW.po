@@ -5490,11 +5490,11 @@ msgstr "請等待主持人確認您的預約"
 #: app/Http/Controllers/SettingsController.php:313
 #, fuzzy
 msgid "Plugin has been installed Successfully"
-msgstr "插件已成功安裝"
+msgstr "外掛已成功安裝"
 
 #: app/Services/TransStrings.php:756
 msgid "Plugins that will extend your Fluent Booking Functionalities"
-msgstr "將擴展您的 Fluent Booking 功能的插件"
+msgstr "將擴展您的 Fluent Booking 功能的外掛"
 
 #: app/Hooks/Handlers/FrontEndHandler.php:664
 msgid "PM"
@@ -5545,7 +5545,7 @@ msgstr "優先級"
 
 #: app/Hooks/Handlers/TimeSlotServiceHandler.php:13
 msgid "Pro plugin is required for this event."
-msgstr "此活動需要專業版插件。"
+msgstr "此活動需要專業版外掛。"
 
 #: app/Hooks/Handlers/FrontEndHandler.php:643
 msgid "Processing"
@@ -5677,7 +5677,7 @@ msgstr "建議的圖片尺寸：600x600。正方形方向"
 
 #: app/Services/TransStrings.php:985
 msgid "Recommended Plugins and Addons"
-msgstr "推薦的插件和外掛"
+msgstr "推薦的外掛和外掛"
 
 #: app/Services/TransStrings.php:1063
 #, fuzzy
@@ -7745,7 +7745,7 @@ msgstr "您沒有權限匯出資料"
 #: app/Http/Controllers/SettingsController.php:265
 #, fuzzy
 msgid "You do not have permission to install plugins"
-msgstr "您沒有安裝插件的權限。"
+msgstr "您沒有安裝外掛的權限。"
 
 #: app/Services/TransStrings.php:208
 msgid "You don't have any feeds configured. Let's go"

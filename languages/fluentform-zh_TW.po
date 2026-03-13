@@ -8357,7 +8357,7 @@ msgstr "通知電子郵件發送自。"
 
 #: app/Modules/Registerer/TranslationString.php:815
 msgid "Notification saved successfully!"
-msgstr "通知保存成功！"
+msgstr "通知儲存成功！"
 
 #: app/Modules/AddOnModule.php:392
 msgid "Notion"
@@ -9449,7 +9449,7 @@ msgstr "請先驗證您的驗證碼，然後點選儲存。"
 
 #: app/Services/GlobalSettings/GlobalSettingsHelper.php:252
 msgid "Please validate your Turnstile first and then hit save."
-msgstr "請先驗證您的 Turnstile，然後再點選保存。"
+msgstr "請先驗證您的 Turnstile，然後再點選儲存。"
 
 #: app/Modules/Registerer/TranslationString.php:375
 msgid "Please write the error message if the form submission get invalid."
@@ -11006,7 +11006,7 @@ msgid ""
 "to import the forms."
 msgstr ""
 "選擇您要匯出的表單。當您點選下方下載按鈕時，Fluent Forms 會為您創建一個 JSON "
-"文件，以便您將其保存到您的電腦上。一旦您保存了下載的文件，您就可以使用導入工具導入表單。"
+"文件，以便您將其儲存到您的電腦上。一旦您儲存了下載的文件，您就可以使用導入工具導入表單。"
 
 #: app/Modules/Registerer/TranslationString.php:1736
 msgid ""
@@ -11016,7 +11016,7 @@ msgid ""
 "to import the forms."
 msgstr ""
 "選擇您要匯出的表單。當您點選下方下載按鈕時，Fluent Forms 會為您創建一個 JSON "
-"文件，以便您將其保存到您的電腦上。一旦您保存了下載的文件，您就可以使用導入工具導入表單。"
+"文件，以便您將其儲存到您的電腦上。一旦您儲存了下載的文件，您就可以使用導入工具導入表單。"
 
 #: app/Modules/Registerer/TranslationString.php:550
 msgid "Select the HTTP method used for the webhook request."
@@ -13364,7 +13364,7 @@ msgstr "今天"
 msgid ""
 "Toggle Admin Top Navigation on or off and Save the Settings. Please reload "
 "the page after changing this option."
-msgstr "切換管理員頂部導航的開關並保存設定。更改此選項後，請重新載入頁面。"
+msgstr "切換管理員頂部導航的開關並儲存設定。更改此選項後，請重新載入頁面。"
 
 #: app/Modules/Registerer/TranslationString.php:909
 msgid "Toggle Fullscreen"
