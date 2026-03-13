@@ -91,7 +91,8 @@ class FCA_Fluent_ZhTW {
 
         // 後台 JS i18n 修復：fluent-booking（45 條）、fluent-cart（8 條）、
         //                    fluent-crm（8 條）、fluent-player（5 條）、fluent-cart-pro（1 條）
-        add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n']);
+        // priority 100 確保在所有 wp_localize_script 輸出之後才執行
+        add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n'], 100);
     }
 
     /**
@@ -244,6 +245,7 @@ class FCA_Fluent_ZhTW {
             'Feb'   => '2月',
             'Mar'   => '3月',
             'Apr'   => '4月',
+            'May'   => '5月',
             'Jun'   => '6月',
             'Jul'   => '7月',
             'Aug'   => '8月',
@@ -447,7 +449,7 @@ class FCA_Fluent_ZhTW {
         <script>
         (function() {
             var _set = function(obj, key, val) {
-                if (obj && !obj[key]) { obj[key] = val; }
+                if (obj && !Object.prototype.hasOwnProperty.call(obj, key)) { obj[key] = val; }
             };
 
             // fluent-community（fluentComAdmin.i18n）
@@ -684,7 +686,7 @@ class FCA_Fluent_ZhTW {
         <script>
         (function() {
             var _set = function(obj, key, val) {
-                if (obj && !obj[key]) { obj[key] = val; }
+                if (obj && !Object.prototype.hasOwnProperty.call(obj, key)) { obj[key] = val; }
             };
             var _merge = function(target, src) {
                 if (!target || !src) return;
