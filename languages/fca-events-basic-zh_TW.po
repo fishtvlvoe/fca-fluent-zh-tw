@@ -2,7 +2,7 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: FCA Events Basic 1.0.1\n"
+"Project-Id-Version: FCA Events Basic 1.1.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-11 00:00+0000\n"
 "PO-Revision-Date: 2026-03-11 00:00+0800\n"
@@ -700,3 +700,387 @@ msgstr "活動的外部連結（選填）。"
 
 msgid "Short summary for event listings..."
 msgstr "活動列表的簡短摘要..."
+
+msgid "%label% Icon"
+msgstr "%label% 圖示"
+
+msgid "About"
+msgstr "關於"
+
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr "透過 WordPress 的「外掛」選單啟用此外掛"
+
+msgid "Add events to calendar (Google, Outlook, Yahoo, Apple)"
+msgstr "新增活動到日曆（Google、Outlook、Yahoo、Apple）"
+
+msgid "Add new category"
+msgstr "新增分類"
+
+msgid "After Activation"
+msgstr "啟用後"
+
+msgid "All Categories"
+msgstr "所有分類"
+
+msgid "All events"
+msgstr "所有活動"
+
+msgid "Allow visitors to share events externally"
+msgstr "允許訪客對外分享活動"
+
+msgid "Allow visitors to share events externally via social/link sharing"
+msgstr "允許訪客透過社群或連結分享活動"
+
+msgid "Allowed Roles"
+msgstr "允許的角色"
+
+msgid "Apply"
+msgstr "套用"
+
+msgid "Are you sure you want to delete the category \"%name%\"?"
+msgstr "確定要刪除分類「%name%」嗎？"
+
+msgid "Beautiful grid layout showing upcoming events with featured images and date badges."
+msgstr "美觀的格狀排版，顯示即將到來的活動、精選圖片與日期標籤。"
+
+msgid "Brief summary displayed on event cards."
+msgstr "顯示在活動卡片上的簡短摘要。"
+
+msgid "Calendar view"
+msgstr "日曆檢視"
+
+msgid "Can edit all events"
+msgstr "可編輯所有活動"
+
+msgid "Can edit own events"
+msgstr "可編輯自己的活動"
+
+msgid "Can users register for events?"
+msgstr "使用者可以報名活動嗎？"
+
+msgid "Cannot delete category that has events assigned to it"
+msgstr "無法刪除已有活動的分類"
+
+msgid "Category Management"
+msgstr "分類管理"
+
+msgid "Category created successfully"
+msgstr "分類已成功建立"
+
+msgid "Category deleted successfully"
+msgstr "分類已成功刪除"
+
+msgid "Category updated successfully"
+msgstr "分類已成功更新"
+
+msgid "Change calendar view"
+msgstr "切換日曆檢視"
+
+msgid "Check"
+msgstr "查詢"
+
+msgid "Checking..."
+msgstr "查詢中..."
+
+msgid "Choose Icon"
+msgstr "選擇圖示"
+
+msgid "Configure display options, date/time formats, and menu placement."
+msgstr "設定顯示選項、日期/時間格式與選單位置。"
+
+msgid "Configure what appears on individual event pages"
+msgstr "設定個別活動頁面的顯示內容"
+
+msgid "Control which Fluent Community roles can create and manage events"
+msgstr "控制哪些 Fluent Community 角色可以建立和管理活動"
+
+msgid "Create Event Form"
+msgstr "建立活動表單"
+
+msgid "Create Events"
+msgstr "建立活動"
+
+msgid "Create and manage events with title, description, date, time, and location"
+msgstr "建立並管理包含標題、說明、日期、時間和地點的活動"
+
+msgid "Custom SVG"
+msgstr "自訂 SVG"
+
+msgid "Description"
+msgstr "說明"
+
+msgid "Display the section title above event descriptions"
+msgstr "在活動說明上方顯示區塊標題"
+
+msgid "Does this work without Fluent Community?"
+msgstr "沒有 Fluent Community 可以使用嗎？"
+
+msgid "Draft support with child draft system"
+msgstr "支援子草稿系統"
+
+msgid "Edit All Events"
+msgstr "編輯所有活動"
+
+msgid "Emoji"
+msgstr "Emoji"
+
+msgid "Enter provider name (e.g., Discord, Jitsi)"
+msgstr "輸入供應商名稱（例如 Discord、Jitsi）"
+
+msgid "Enter username or email"
+msgstr "輸入使用者名稱或電子郵件"
+
+msgid "Event Detail Page"
+msgstr "活動詳細頁面"
+
+msgid "Event Settings"
+msgstr "活動設定"
+
+msgid "Event Type & Location"
+msgstr "活動類型與地點"
+
+msgid "Event details"
+msgstr "活動詳情"
+
+msgid "Events Grid View"
+msgstr "活動格狀檢視"
+
+msgid "Events Permissions"
+msgstr "活動權限"
+
+msgid "FAQ"
+msgstr "常見問題"
+
+msgid "FC Global Permissions"
+msgstr "FC 全域權限"
+
+msgid "FC Roles Detected"
+msgstr "已偵測到 FC 角色"
+
+msgid "Features"
+msgstr "功能特色"
+
+msgid "Fluent Community"
+msgstr "Fluent Community"
+
+msgid "Fluent Community plugin"
+msgstr "Fluent Community 外掛"
+
+msgid "Frequently Asked Questions"
+msgstr "常見問題"
+
+msgid "Full event details with two-column layout showing information and actions."
+msgstr "完整活動詳情，採雙欄排版顯示資訊與操作。"
+
+msgid "Full timezone support with user local time display"
+msgstr "完整時區支援，顯示使用者本地時間"
+
+msgid "Go to Events in your WordPress admin to create your first event"
+msgstr "前往 WordPress 後台的活動，建立您的第一個活動"
+
+msgid "Header menu label"
+msgstr "頁首選單標籤"
+
+msgid "How do drafts work?"
+msgstr "草稿如何運作？"
+
+msgid "Hybrid"
+msgstr "混合型"
+
+msgid "Installation"
+msgstr "安裝說明"
+
+msgid "Intuitive event creation interface with all options organized in sections."
+msgstr "直覺式活動建立介面，所有選項依區塊整齊排列。"
+
+msgid "Is it multisite compatible?"
+msgstr "支援多站台嗎？"
+
+msgid "Link available %hours% hours before event"
+msgstr "活動開始前 %hours% 小時顯示連結"
+
+msgid "Link for attendees to join the meeting"
+msgstr "供出席者加入會議的連結"
+
+msgid "Look up a user's permissions across the community and events"
+msgstr "查詢使用者在社群和活動中的所有權限"
+
+msgid "Make sure Fluent Community is installed and activated"
+msgstr "請確認 Fluent Community 已安裝並啟用"
+
+msgid "Manage Events"
+msgstr "管理活動"
+
+msgid "Manage event categories"
+msgstr "管理活動分類"
+
+msgid "Meeting Provider"
+msgstr "會議供應商"
+
+msgid "Month"
+msgstr "月"
+
+msgid "Month view"
+msgstr "月檢視"
+
+msgid "Multiple display views: Grid, List, and Week"
+msgstr "多種顯示方式：格狀、列表和週檢視"
+
+msgid "No categories created yet"
+msgstr "尚未建立任何分類"
+
+msgid "No. This plugin is specifically designed as an add-on for Fluent Community and requires it to function."
+msgstr "不行。此外掛專為 Fluent Community 設計，需要安裝 Fluent Community 才能運作。"
+
+msgid "Not in this basic version. FCA Events Basic is for displaying events only. For registration and ticketing, check out our premium version."
+msgstr "基本版不支援。FCA Events Basic 僅供顯示活動使用。如需報名和票務功能，請參考我們的進階版本。"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "PHP 7.4 or higher"
+msgstr "PHP 7.4 或更高版本"
+
+msgid "Page %current% of %total%"
+msgstr "第 %current% 頁，共 %total% 頁"
+
+msgid "Paste SVG code:"
+msgstr "貼上 SVG 程式碼："
+
+msgid "Paste a full <svg> element. It will be displayed at 20×20px in the menu."
+msgstr "貼上完整的 <svg> 元素，將以 20×20px 顯示在選單中。"
+
+msgid "Permissions Management"
+msgstr "權限管理"
+
+msgid "Permissions saved successfully."
+msgstr "權限已成功儲存。"
+
+msgid "Preview"
+msgstr "預覽"
+
+msgid "Provider Name"
+msgstr "供應商名稱"
+
+msgid "Recurring Event Not Available"
+msgstr "不支援週期性活動"
+
+msgid "Requirements"
+msgstr "系統需求"
+
+msgid "Reset"
+msgstr "重設"
+
+msgid "Save Permissions"
+msgstr "儲存權限"
+
+msgid "Save Settings"
+msgstr "儲存設定"
+
+msgid "Save/bookmark events for quick access"
+msgstr "儲存/書籤活動以快速存取"
+
+msgid "Schedule when link becomes visible"
+msgstr "設定連結顯示時間"
+
+msgid "Screenshots"
+msgstr "截圖"
+
+msgid "Seamless Fluent Community integration"
+msgstr "無縫整合 Fluent Community"
+
+msgid "Select Provider"
+msgstr "選擇供應商"
+
+msgid "Select month"
+msgstr "選擇月份"
+
+msgid "Select which FC roles can manage events. Admins can edit all events and access settings. Managers can edit all events. Moderators and Space Admins can only edit their own events."
+msgstr "選擇哪些 FC 角色可以管理活動。管理員可編輯所有活動並存取設定；管理者可編輯所有活動；版主和空間管理員只能編輯自己的活動。"
+
+msgid "Settings Access"
+msgstr "設定存取"
+
+msgid "Settings Page"
+msgstr "設定頁面"
+
+msgid "Settings saved successfully."
+msgstr "設定已成功儲存。"
+
+msgid "Show Share Button"
+msgstr "顯示分享按鈕"
+
+msgid "Show \"About This Event\" Title"
+msgstr "顯示「關於此活動」標題"
+
+msgid "Show link"
+msgstr "顯示連結"
+
+msgid "Simple events listing for Fluent Community. Basic event pages with calendar integration."
+msgstr "適用於 Fluent Community 的簡易活動列表，提供基本活動頁面與日曆整合。"
+
+msgid "Single Event Display"
+msgstr "單一活動顯示"
+
+msgid "Spaces"
+msgstr "空間"
+
+msgid "Support for both in-person and online events"
+msgstr "支援實體與線上活動"
+
+msgid "Text displayed for the Events link in the header menu"
+msgstr "頁首選單活動連結的顯示文字"
+
+msgid "The Events menu will automatically appear in your Fluent Community portal. You can configure settings via Events → Settings."
+msgstr "活動選單將自動出現在您的 Fluent Community 入口。您可透過「活動 → 設定」進行設定。"
+
+msgid "The join link will be hidden until this time"
+msgstr "加入連結將在此時間前隱藏"
+
+msgid "This is a recurring event from the legacy events system. Recurring events are not supported in the Basic version. Please contact your administrator for assistance."
+msgstr "這是來自舊版活動系統的週期性活動。基本版不支援週期性活動，請聯繫管理員協助處理。"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Upload the plugin files to /wp-content/plugins/fca-events-basic/"
+msgstr "將外掛檔案上傳至 /wp-content/plugins/fca-events-basic/"
+
+msgid "User Permission Check"
+msgstr "使用者權限查詢"
+
+msgid "Username or Email"
+msgstr "使用者名稱或電子郵件"
+
+msgid "Venue Address"
+msgstr "場地地址"
+
+msgid "View Details"
+msgstr "查看詳情"
+
+msgid "View details"
+msgstr "查看詳情"
+
+msgid "When editing a published event, you can click \"Save as Draft\" to create a child draft. The original event stays live while you work on changes. When ready, publish the draft to merge changes back into the original event."
+msgstr "編輯已發布的活動時，可點擊「儲存為草稿」建立子草稿。原始活動保持上線，您可在草稿中進行修改。準備好後，發布草稿即可將變更合併回原始活動。"
+
+msgid "WordPress 5.8 or higher"
+msgstr "WordPress 5.8 或更高版本"
+
+msgid "Yes, you can activate it on individual sites in a multisite network."
+msgstr "可以，您可以在多站台網路的個別站台上啟用。"
+
+msgid "hours before the event"
+msgstr "小時前"
+
+msgid "member (no manager role)"
+msgstr "成員（無管理者角色）"
+
+msgid "more"
+msgstr "更多"
+
+msgid "verified"
+msgstr "已驗證"
+
+msgid "✓ Saved!"
+msgstr "✓ 已儲存！"
