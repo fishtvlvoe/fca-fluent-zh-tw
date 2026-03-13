@@ -78,10 +78,20 @@ class FCA_Fluent_ZhTW {
         // 在外掛載入前搶先載入翻譯（priority 1，比一般外掛的 init 更早）
         add_action('plugins_loaded', [__CLASS__, 'load_translations'], 1);
 
-        // 修復 fca-events 設定頁缺少的 JS i18n 字串
+        // fca-events JS i18n 修復
         // fca-events 在 fluent_community/portal_head priority 10 注入 fcaEventsI18n
         // 我們用 priority 99 在它之後補上缺失字串
         add_action('fluent_community/portal_head', [__CLASS__, 'fix_fca_events_js_i18n'], 99);
+
+        // fca-push-notifications portal 路徑缺漏修復（inject_portal_scripts 少了 3 個 key）
+        add_action('fluent_community/portal_head', [__CLASS__, 'fix_fca_push_notifications_js_i18n'], 100);
+
+        // 前台 JS i18n 修復：fluent-community（2 條）、fluent-booking 前台（3 條）
+        add_action('wp_footer', [__CLASS__, 'fix_frontend_js_i18n'], 100);
+
+        // 後台 JS i18n 修復：fluent-booking（45 條）、fluent-cart（8 條）、
+        //                    fluent-crm（8 條）、fluent-player（5 條）、fluent-cart-pro（1 條）
+        add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n']);
     }
 
     /**
@@ -118,94 +128,242 @@ class FCA_Fluent_ZhTW {
         }
 
         $extra_strings = [
-            // 設定頁標題與按鈕
-            'Events Options' => '活動選項',
-            'Save Options' => '儲存選項',
-            'Saving...' => '儲存中...',
-            'Reset to Defaults' => '重設為預設值',
-            'Loading options...' => '載入選項中...',
-            'Options saved successfully' => '選項已成功儲存',
-            'Failed to save options' => '儲存選項失敗',
-            'Options Reset' => '選項已重設',
-            'Options have been reset to default values. Click Save to apply changes.' => '選項已重設為預設值。點擊儲存以套用變更。',
-            'Are you sure you want to reset all options to their default values? This action cannot be undone.' => '確定要將所有選項重設為預設值嗎？此操作無法復原。',
-            'Success' => '成功',
-            'Error' => '錯誤',
-            'Access Denied' => '存取被拒',
-            'You do not have permission to manage event options.' => '您沒有管理活動選項的權限。',
+            // ── 設定頁標題與按鈕 ──────────────────────────────────────
+            'Events Options'                    => '活動選項',
+            'Save Options'                      => '儲存選項',
+            'Saving...'                         => '儲存中...',
+            'Reset to Defaults'                 => '重設為預設值',
+            'Loading options...'                => '載入選項中...',
+            'Options saved successfully'        => '選項已成功儲存',
+            'Failed to save options'            => '儲存選項失敗',
+            'Options Reset'                     => '選項已重設',
+            'Options have been reset to default values. Click Save to apply changes.'
+                                                => '選項已重設為預設值。點擊儲存以套用變更。',
+            'Are you sure you want to reset all options to their default values? This action cannot be undone.'
+                                                => '確定要將所有選項重設為預設值嗎？此操作無法復原。',
+            'Success'                           => '成功',
+            'Error'                             => '錯誤',
+            'Access Denied'                     => '存取被拒',
+            'You do not have permission to manage event options.'
+                                                => '您沒有管理活動選項的權限。',
 
-            // 顯示設定
-            'Display Settings' => '顯示設定',
-            'General Settings' => '一般設定',
-            'Configure general event display and behavior' => '設定活動顯示與行為',
-            'Default Events List View' => '預設活動列表檢視',
-            'Choose the default view for the Events List page' => '選擇活動列表頁面的預設檢視方式',
-            'List View' => '列表檢視',
-            'Card View' => '卡片檢視',
-            'Calendar View' => '日曆檢視',
-            'Compact list with event details' => '精簡列表含活動詳情',
-            'Visual cards with images' => '含圖片的視覺卡片',
-            'Monthly calendar layout' => '月曆排版',
-            'Events Per Page' => '每頁活動數',
-            'Number of events to display per page' => '每頁顯示的活動數量',
-            'Between 5 and 50 events' => '介於 5 至 50 個活動',
-            'events' => '個活動',
-            'Show Past Events' => '顯示過去的活動',
-            'Display past events in the main events list' => '在主要活動列表中顯示已過去的活動',
-            'Show past events by default' => '預設顯示過去的活動',
-            'Show Categories' => '顯示分類',
-            'Display event categories in the list' => '在列表中顯示活動分類',
-            'Show category filters' => '顯示分類篩選器',
-            'Enable Search' => '啟用搜尋',
-            'Enable search and filtering' => '啟用搜尋和篩選功能',
-            'Show search functionality on events list' => '在活動列表顯示搜尋功能',
-            'Show Events Menu' => '顯示活動選單',
-            'Show Events menu in community navigation' => '在社群導覽中顯示活動選單',
-            'Show or hide the Events menu in the frontend community navigation' => '在前台社群導覽中顯示或隱藏活動選單',
+            // ── 顯示設定 ───────────────────────────────────────────────
+            'Display Settings'                  => '顯示設定',
+            'General Settings'                  => '一般設定',
+            'Configure general event display and behavior'
+                                                => '設定活動顯示與行為',
+            'Default Events List View'          => '預設活動列表檢視',
+            'Choose the default view for the Events List page'
+                                                => '選擇活動列表頁面的預設檢視方式',
+            'List View'                         => '列表檢視',
+            'Card View'                         => '卡片檢視',
+            'Calendar View'                     => '日曆檢視',
+            'Compact list with event details'   => '精簡列表含活動詳情',
+            'Visual cards with images'          => '含圖片的視覺卡片',
+            'Monthly calendar layout'           => '月曆排版',
+            'Events Per Page'                   => '每頁活動數',
+            'Number of events to display per page'
+                                                => '每頁顯示的活動數量',
+            'Between 5 and 50 events'           => '介於 5 至 50 個活動',
+            'events'                            => '個活動',
+            'Show Past Events'                  => '顯示過去的活動',
+            'Display past events in the main events list'
+                                                => '在主要活動列表中顯示已過去的活動',
+            'Show past events by default'       => '預設顯示過去的活動',
+            'Show Categories'                   => '顯示分類',
+            'Display event categories in the list'
+                                                => '在列表中顯示活動分類',
+            'Show category filters'             => '顯示分類篩選器',
+            'Enable Search'                     => '啟用搜尋',
+            'Enable search and filtering'       => '啟用搜尋和篩選功能',
+            'Show search functionality on events list'
+                                                => '在活動列表顯示搜尋功能',
+            'Show Events Menu'                  => '顯示活動選單',
+            'Show Events menu in community navigation'
+                                                => '在社群導覽中顯示活動選單',
+            'Show or hide the Events menu in the frontend community navigation'
+                                                => '在前台社群導覽中顯示或隱藏活動選單',
 
-            // 日期時間設定
-            'Date and Time Settings' => '日期與時間設定',
-            'Configure how dates, times, and timezones are displayed' => '設定日期、時間和時區的顯示方式',
-            'Date Format' => '日期格式',
-            'Choose how dates are displayed throughout the events system' => '選擇活動系統中日期的顯示方式',
-            'MM/DD/YYYY' => 'MM/DD/YYYY',
-            'DD/MM/YYYY' => 'DD/MM/YYYY',
-            'YYYY-MM-DD' => 'YYYY-MM-DD',
-            'Month Day, Year' => '月 日, 年',
-            'Day Month Year' => '日 月 年',
-            'Time Format' => '時間格式',
-            'Choose how times are displayed throughout the events system' => '選擇活動系統中時間的顯示方式',
-            '12-hour format' => '12 小時制',
-            '24-hour format' => '24 小時制',
-            'Default Timezone' => '預設時區',
-            'Set the default timezone for new events' => '設定新活動的預設時區',
-            'Show Timezone on Event Times' => '在活動時間顯示時區',
-            'Show timezone codes (e.g., GMT, EST)' => '顯示時區代碼（例如 GMT、EST）',
+            // ── 日期時間設定 ────────────────────────────────────────────
+            'Date and Time Settings'            => '日期與時間設定',
+            'Configure how dates, times, and timezones are displayed'
+                                                => '設定日期、時間和時區的顯示方式',
+            'Date Format'                       => '日期格式',
+            'Choose how dates are displayed throughout the events system'
+                                                => '選擇活動系統中日期的顯示方式',
+            'MM/DD/YYYY'                        => 'MM/DD/YYYY',
+            'DD/MM/YYYY'                        => 'DD/MM/YYYY',
+            'YYYY-MM-DD'                        => 'YYYY-MM-DD',
+            'Month Day, Year'                   => '月 日, 年',
+            'Day Month Year'                    => '日 月 年',
+            'Time Format'                       => '時間格式',
+            'Choose how times are displayed throughout the events system'
+                                                => '選擇活動系統中時間的顯示方式',
+            '12-hour format'                    => '12 小時制',
+            '24-hour format'                    => '24 小時制',
+            'Default Timezone'                  => '預設時區',
+            'Set the default timezone for new events'
+                                                => '設定新活動的預設時區',
+            'Show Timezone on Event Times'      => '在活動時間顯示時區',
+            'Show timezone codes (e.g., GMT, EST)'
+                                                => '顯示時區代碼（例如 GMT、EST）',
 
-            // 使用者本地時區
-            'Show User Local Timezone' => '顯示使用者本地時區',
-            "Display events in user's local timezone" => '以使用者的本地時區顯示活動',
-            "Show user's local timezone for events" => '為活動顯示使用者的本地時區',
-            'Local timezone only' => '僅本地時區',
-            'Event timezone + local in brackets' => '活動時區 + 括號內本地時間',
-            'Event timezone + time difference' => '活動時區 + 時差',
-            'Example: 13:00 - 14:00 ET' => '範例：13:00 - 14:00 ET',
-            'Example: 17:00 - 18:00 GMT' => '範例：17:00 - 18:00 GMT',
-            'Example: 17:00 - 18:00 GMT (13:00 - 14:00 ET)' => '範例：17:00 - 18:00 GMT（13:00 - 14:00 ET）',
-            'Example: 17:00 - 18:00 GMT (ET+4)' => '範例：17:00 - 18:00 GMT（ET+4）',
+            // ── 使用者本地時區 ──────────────────────────────────────────
+            'Show User Local Timezone'          => '顯示使用者本地時區',
+            "Display events in user's local timezone"
+                                                => '以使用者的本地時區顯示活動',
+            "Show user's local timezone for events"
+                                                => '為活動顯示使用者的本地時區',
+            'Local timezone only'               => '僅本地時區',
+            'Event timezone + local in brackets'=> '活動時區 + 括號內本地時間',
+            'Event timezone + time difference'  => '活動時區 + 時差',
+            'Example: 13:00 - 14:00 ET'        => '範例：13:00 - 14:00 ET',
+            'Example: 17:00 - 18:00 GMT'       => '範例：17:00 - 18:00 GMT',
+            'Example: 17:00 - 18:00 GMT (13:00 - 14:00 ET)'
+                                                => '範例：17:00 - 18:00 GMT（13:00 - 14:00 ET）',
+            'Example: 17:00 - 18:00 GMT (ET+4)'=> '範例：17:00 - 18:00 GMT（ET+4）',
 
-            // 電郵設定
-            'Email Settings' => '電子郵件設定',
-            'Email Notifications' => '電子郵件通知',
-            'Configure email notification preferences' => '設定電子郵件通知偏好',
-            'Default email notification settings' => '預設電子郵件通知設定',
-            'Enable email notifications by default' => '預設啟用電子郵件通知',
-            'Reminder Timing' => '提醒時間',
-            'Default reminder timing for events' => '活動的預設提醒時間',
-            '1 hour before' => '1 小時前',
-            '1 day before' => '1 天前',
-            '3 days before' => '3 天前',
-            '1 week before' => '1 週前',
+            // ── 電郵設定 ────────────────────────────────────────────────
+            'Email Settings'                    => '電子郵件設定',
+            'Email Notifications'               => '電子郵件通知',
+            'Configure email notification preferences'
+                                                => '設定電子郵件通知偏好',
+            'Default email notification settings'
+                                                => '預設電子郵件通知設定',
+            'Enable email notifications by default'
+                                                => '預設啟用電子郵件通知',
+            'Reminder Timing'                   => '提醒時間',
+            'Default reminder timing for events'=> '活動的預設提醒時間',
+            '1 hour before'                     => '1 小時前',
+            '1 day before'                      => '1 天前',
+            '3 days before'                     => '3 天前',
+            '1 week before'                     => '1 週前',
+
+            // ── 月份縮寫 ────────────────────────────────────────────────
+            'Jan'   => '1月',
+            'Feb'   => '2月',
+            'Mar'   => '3月',
+            'Apr'   => '4月',
+            'Jun'   => '6月',
+            'Jul'   => '7月',
+            'Aug'   => '8月',
+            'Sep'   => '9月',
+            'Oct'   => '10月',
+            'Nov'   => '11月',
+            'Dec'   => '12月',
+
+            // ── 星期縮寫 ────────────────────────────────────────────────
+            'Mon'   => '一',
+            'Tue'   => '二',
+            'Wed'   => '三',
+            'Thu'   => '四',
+            'Fri'   => '五',
+            'Sat'   => '六',
+            'Sun'   => '日',
+            'First' => '第一',
+            'Last'  => '最後',
+            'Every' => '每',
+
+            // ── 存取控制 ────────────────────────────────────────────────
+            'Access Restricted'                 => '存取受限',
+            'Access Rules'                      => '存取規則',
+            'Add Rule'                          => '新增規則',
+            'Enable access control for this event'
+                                                => '啟用此活動的存取控制',
+            'Enable registration restrictions'  => '啟用報名限制',
+            'Enable viewing restrictions'       => '啟用查看限制',
+            'Restrict who can view and register for this event based on user status, roles, or other criteria'
+                                                => '根據使用者狀態、角色或其他條件限制誰可以查看和報名此活動',
+            'Restricted Access Message'         => '存取受限訊息',
+            'Message shown to users who cannot access this event'
+                                                => '向無法存取此活動的使用者顯示的訊息',
+            'No access rules defined. Add at least one rule to restrict access.'
+                                                => '尚未定義存取規則。請新增至少一條規則以限制存取。',
+            'Select role...'                    => '選擇角色...',
+            'Viewing Restrictions'              => '查看限制',
+            'Visibility & Access'               => '可見度與存取',
+            'Control who can register for this event'
+                                                => '控制誰可以報名此活動',
+            'Control who can see this event in listings and on the event page'
+                                                => '控制誰可以在列表和活動頁面看到此活動',
+            'Hide from public event listings'   => '從公開活動列表中隱藏',
+            'Show restricted content to non-authorized users'
+                                                => '向未授權使用者顯示受限內容',
+            'If enabled, users will see the event content but with a restricted access notice'
+                                                => '啟用後，使用者可看到活動內容，但會顯示存取受限提示',
+            'Registration Restrictions'         => '報名限制',
+
+            // ── 分類管理 ────────────────────────────────────────────────
+            'Category Name'                     => '分類名稱',
+            'Brief description of this category'=> '此分類的簡短說明',
+            'Create Category'                   => '建立分類',
+            'Create New Category'               => '建立新分類',
+            'Creating...'                       => '建立中...',
+            'Enter category name'               => '輸入分類名稱',
+
+            // ── 活動狀態與錯誤 ──────────────────────────────────────────
+            'Date & Time TBD'                   => '日期與時間待定',
+            'Event Full'                        => '活動已額滿',
+            'Event Timezone'                    => '活動時區',
+            'Failed to load event'              => '載入活動失敗',
+            'Failed to register for event'      => '報名活動失敗',
+            'Registration failed'               => '報名失敗',
+            'Unregistration failed'             => '取消報名失敗',
+            'This event has already passed.'    => '此活動已結束。',
+            'This event has reached its capacity limit.'
+                                                => '此活動已達人數上限。',
+            'This event has reached its capacity limit, but you can join the waitlist.'
+                                                => '此活動已達人數上限，但您可以加入候補名單。',
+            'This event is restricted. Please contact the event organizer for access.'
+                                                => '此活動有存取限制。請聯絡活動主辦人以取得存取權限。',
+            'You do not have permission to manage events.'
+                                                => '您沒有管理活動的權限。',
+            'You do not have permission to view this event.'
+                                                => '您沒有查看此活動的權限。',
+
+            // ── 候補名單 ────────────────────────────────────────────────
+            'Remove from Waitlist'              => '從候補名單移除',
+            'Waitlist Notification'             => '候補名單通知',
+
+            // ── 電郵模板 ────────────────────────────────────────────────
+            'Email Templates'                   => '電子郵件模板',
+            'Manage Email Templates'            => '管理電子郵件模板',
+            'Use Default Template'              => '使用預設模板',
+            'Adhoc Notifications'               => '臨時通知',
+            'Customize email templates for this event. Leave blank to use default templates.'
+                                                => '自訂此活動的電子郵件模板。留空則使用預設模板。',
+            'Set up custom email notifications with specific triggers for this event'
+                                                => '為此活動設定具有特定觸發條件的自訂電子郵件通知',
+            'Email sent as reminder before the event'
+                                                => '活動前的提醒電子郵件',
+            'Email sent when event details are updated'
+                                                => '活動詳情更新時的電子郵件',
+            'Email sent when someone cancels their registration'
+                                                => '有人取消報名時的電子郵件',
+            'Email sent when someone is added to waitlist'
+                                                => '有人加入候補名單時的電子郵件',
+            'Email sent when someone registers for this event'
+                                                => '有人報名此活動時的電子郵件',
+            'Registration Cancellation'         => '報名取消通知',
+            'Registration Confirmation'         => '報名確認通知',
+
+            // ── 時區詳細設定 ────────────────────────────────────────────
+            'Display timezone codes next to event times'
+                                                => '在活動時間旁顯示時區代碼',
+            'Select the timezone where this event takes place. If different from system timezone, times will be displayed in both timezones.'
+                                                => '選擇此活動的時區。若與系統時區不同，時間將以兩種時區顯示。',
+
+            // ── 登入相關 ────────────────────────────────────────────────
+            'Log In'                            => '登入',
+            'Login Redirect URL'                => '登入後重新導向網址',
+            'Where to redirect users after login (optional)'
+                                                => '登入後重新導向使用者的位置（選填）',
+            'Please log in to access this event, or contact the event organizer for more information.'
+                                                => '請登入以存取此活動，或聯絡活動主辦人取得更多資訊。',
+            'https://example.com/login'         => 'https://example.com/login',
+
+            // ── 其他 ────────────────────────────────────────────────────
+            'Optional'                          => '選填',
         ];
 
         // 直接輸出 <script>，因為這是在 fluent_community/portal_head hook 裡
@@ -223,6 +381,256 @@ class FCA_Fluent_ZhTW {
             } else {
                 window.fcaEventsI18n = _extraI18n;
             }
+        })();
+        </script>
+        <?php
+    }
+
+    /**
+     * 修復 fca-push-notifications 在 Fluent Community portal 路徑的 JS i18n 缺失
+     *
+     * inject_portal_scripts() 方法注入的 JSON 少了 3 個 key，
+     * 而 wp_localize_script 路徑（一般頁面）已完整定義。
+     * 這裡補齊 portal 情境下的缺漏。
+     */
+    public static function fix_fca_push_notifications_js_i18n() {
+        $locale = determine_locale();
+        if (strpos($locale, 'zh_TW') === false) {
+            return;
+        }
+        ?>
+        <script>
+        (function() {
+            if (typeof window.fca_push_vars === 'undefined') return;
+            if (!window.fca_push_vars['testNotificationTitle']) {
+                window.fca_push_vars['testNotificationTitle'] = '測試通知';
+            }
+            if (!window.fca_push_vars['testNotificationBody']) {
+                window.fca_push_vars['testNotificationBody'] = '這是來自 FCA 推播通知的測試通知！若您看到此訊息，表示通知功能正常運作。';
+            }
+            if (!window.fca_push_vars['testingNotifications']) {
+                window.fca_push_vars['testingNotifications'] = '正在測試通知...';
+            }
+        })();
+        </script>
+        <?php
+    }
+
+    /**
+     * 修復前台 JS i18n 缺失字串
+     *
+     * 包含：
+     * - fluent-community：2 條（fluentComAdmin.i18n）
+     * - fluent-booking 前台：3 條（fluentCalendarPublicVars.i18）
+     *
+     * 掛在 wp_footer priority 100，確保在 wp_localize_script 輸出之後執行。
+     */
+    public static function fix_frontend_js_i18n() {
+        $locale = determine_locale();
+        if (strpos($locale, 'zh_TW') === false) {
+            return;
+        }
+
+        $fluent_community = [
+            "You haven't finished your comment yet. Do you want to leave without finishing?"
+                => '您還沒完成留言，確定要離開嗎？',
+            "You haven't finished your post yet. Do you want to leave without finishing?"
+                => '您還沒完成貼文，確定要離開嗎？',
+        ];
+
+        $fluent_booking_public = [
+            'File size should be less than'             => '檔案大小不得超過',
+            'Go to previous page'                       => '前往上一頁',
+            'You must accept the terms and conditions.' => '您必須接受條款與條件。',
+        ];
+        ?>
+        <script>
+        (function() {
+            var _set = function(obj, key, val) {
+                if (obj && !obj[key]) { obj[key] = val; }
+            };
+
+            // fluent-community（fluentComAdmin.i18n）
+            var _fci = window.fluentComAdmin && window.fluentComAdmin.i18n;
+            var _fcTr = <?php echo json_encode($fluent_community, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+            if (_fci) {
+                for (var k in _fcTr) { _set(_fci, k, _fcTr[k]); }
+            }
+
+            // fluent-booking 前台（fluentCalendarPublicVars.i18）
+            var _fbi = window.fluentCalendarPublicVars && window.fluentCalendarPublicVars.i18;
+            var _fbTr = <?php echo json_encode($fluent_booking_public, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+            if (_fbi) {
+                for (var k in _fbTr) { _set(_fbi, k, _fbTr[k]); }
+            }
+        })();
+        </script>
+        <?php
+    }
+
+    /**
+     * 修復管理後台 JS i18n 缺失字串
+     *
+     * 包含：
+     * - fluent-booking 後台：45 條（fluentFrameworkAdmin.trans）
+     * - fluent-player 後台：5 條（fluentFrameworkAdmin.trans，與 booking 共用物件）
+     * - fluent-cart 後台：6 條（fluentCartAdminApp.trans）
+     * - fluent-cart Block Editor：2 條（fluent_cart_block_translation）
+     * - fluent-cart-pro：1 條（fct_authorize_dot_net_data.translations）
+     * - fluent-crm 後台：8 條（fcAdmin.trans）
+     *
+     * 掛在 admin_footer，確保在 wp_localize_script 輸出之後執行。
+     */
+    public static function fix_admin_js_i18n() {
+        $locale = determine_locale();
+        if (strpos($locale, 'zh_TW') === false) {
+            return;
+        }
+
+        // fluent-booking 後台（也包含 fluent-player 後台，共用 fluentFrameworkAdmin.trans）
+        $fluent_framework_admin = [
+            // fluent-booking 後台缺漏
+            'Are you sure you want to delete this coupon?'
+                => '確定要刪除這個優惠券？',
+            'Coupon Code is required'           => '優惠券代碼為必填',
+            'Coupon Module (Pro Required)'      => '優惠券模組（需要 Pro）',
+            'Coupon Module is enabled'          => '優惠券模組已啟用',
+            'Default Duration is required'      => '預設時長為必填',
+            'Delete Coupon'                     => '刪除優惠券',
+            'Discount is required'              => '折扣為必填',
+            "Don't Reject"                      => '不拒絕',
+            "Don't have a license key?"         => '沒有授權金鑰？',
+            'Enable Coupon Module'              => '啟用優惠券模組',
+            'Event Name'                        => '活動名稱',
+            'Export Guests'                     => '匯出訪客',
+            'Frontend Portal (Pro Required)'    => '前台入口（需要 Pro）',
+            'Group (Pro Required)'              => '群組（需要 Pro）',
+            'If no date is set, last date of current year will be used as the maximum date.'
+                => '若未設定日期，將以當年最後一天作為最大日期。',
+            'Image'                             => '圖片',
+            'Link Copied'                       => '連結已複製',
+            'Marketing Automation with FluentCRM'
+                => '以 FluentCRM 進行行銷自動化',
+            'Meeting link is required'          => '會議連結為必填',
+            'Monetize your booking with FluentCart'
+                => '以 FluentCart 將預約商業化',
+            'No events found'                   => '找不到活動',
+            "No, Don't cancel"                  => '否，不取消',
+            "No, Don't delete"                  => '否，不刪除',
+            'Offline'                           => '離線',
+            'Only JSON files are allowed'       => '只允許 JSON 檔案',
+            'Please enter username and password'=> '請輸入帳號與密碼',
+            'Please fill all the required fields'
+                => '請填寫所有必填欄位',
+            'Please select at least one available time'
+                => '請至少選擇一個可用時段',
+            'Please wait while we save your settings'
+                => '儲存設定中，請稍候',
+            'Reliable Email delivery with FluentSMTP'
+                => '使用 FluentSMTP 確保可靠的電子郵件傳送',
+            'Seamlessly integrate FluentCart to sell paid bookings and manage products directly from your appointments.'
+                => '無縫整合 FluentCart，直接在預約中銷售付費預約並管理產品。',
+            'Search Guest'                      => '搜尋訪客',
+            'Segment your guests, send bulk emails, run automations using FluentCRM.'
+                => '使用 FluentCRM 細分訪客、發送大量電子郵件、執行自動化流程。',
+            "Select remote calendar in where to add new events to when you're booked."
+                => '選擇在您被預約時要新增活動的遠端日曆。',
+            'Setup Recommended Features'        => '設定推薦功能',
+            'Start Time'                        => '開始時間',
+            'This feature'                      => '此功能',
+            'Title is required'                 => '標題為必填',
+            'To monetize your booking with FluentCart'
+                => '若要以 FluentCart 將預約商業化',
+            'Upload failed'                     => '上傳失敗',
+            'We highly recommend this for monetization.'
+                => '強烈建議啟用此功能以利商業化。',
+            'We highly recommend to enable this feature.'
+                => '強烈建議啟用此功能。',
+            'We recommend this for reliable email delivery.'
+                => '建議啟用此功能以確保可靠的電子郵件傳送。',
+            "You don't have any feeds configured. Let's go"
+                => '您尚未設定任何 Feed，立即前往',
+            'to install and activate FluentCart.'
+                => '以安裝並啟用 FluentCart。',
+
+            // fluent-player 後台缺漏（共用同一 fluentFrameworkAdmin.trans 物件）
+            'Back to analytics'                 => '返回分析',
+            'Duration'                          => '時長',
+            "Let's Go Home"                     => '返回首頁',
+            'User not found'                    => '找不到使用者',
+            'Video not found'                   => '找不到影片',
+        ];
+
+        // fluent-cart 後台（fluentCartAdminApp.trans）
+        $fluent_cart_admin = [
+            'Filename too long. Maximum 160 characters allowed'
+                => '檔案名稱過長，最多允許 160 個字元',
+            "If you don't select any country, all countries will be available for tax calculation. Are you sure you want to proceed?"
+                => '如果您不選擇任何國家，所有國家都可進行稅金計算。確定要繼續嗎？',
+            "Oops! That page can't be found."   => '糟糕！找不到該頁面。',
+            "Status controls the product's visibility on the public page and its purchasability. 'Publish' indicates that it is live and can be purchased, 'Draft' signifies that it is in private editing, and 'Schedule' means it will be publish on a specified date. 'Private' means,  Only visible to adminstrators but can be purchased via direct purchase link. The status can only be changed once pricing is set."
+                => "狀態控制產品在公開頁面的可見性及可購買性。「發布」表示已上線且可購買，「草稿」表示正在私下編輯，「排程」表示將在指定日期發布，「私密」表示只有管理員可見但可透過直接購買連結購買。狀態只能在設定定價後變更。",
+            "Switching to 'Simple' will permanently delete all variations except the first one."
+                => '切換為「簡單」商品將永久刪除除第一個以外的所有變體。',
+            "The night's still young!"          => '夜還長著呢！',
+        ];
+
+        // fluent-cart Block Editor（fluent_cart_block_translation）
+        $fluent_cart_block = [
+            "Automatically use the current page's product context."
+                => '自動使用目前頁面的產品內容。',
+            "We couldn't find any products matching your search"
+                => '找不到符合您搜尋條件的產品',
+        ];
+
+        // fluent-crm 後台（fcAdmin.trans）
+        $fluent_crm_admin = [
+            'Date Of Birth'         => '生日',
+            'Evening vibes!'        => '傍晚好！',
+            'Good afternoon'        => '午安！',
+            'Good evening'          => '晚安！',
+            'Good morning'          => '早安！',
+            'SMS Status'            => '簡訊狀態',
+            'Step into the moonlight!'
+                                    => '月光下見！',
+            "The night's still young!"
+                                    => '夜還長著呢！',
+        ];
+
+        // fluent-cart-pro（fct_authorize_dot_net_data.translations）
+        $fluent_cart_pro_authnet = [
+            'Tokenization failed. Please verify the details.'
+                => '代幣化失敗，請確認相關資訊。',
+        ];
+        ?>
+        <script>
+        (function() {
+            var _set = function(obj, key, val) {
+                if (obj && !obj[key]) { obj[key] = val; }
+            };
+            var _merge = function(target, src) {
+                if (!target || !src) return;
+                for (var k in src) { _set(target, k, src[k]); }
+            };
+
+            // fluent-booking 後台 + fluent-player 後台（共用 fluentFrameworkAdmin.trans）
+            var _ffa = window.fluentFrameworkAdmin && window.fluentFrameworkAdmin.trans;
+            _merge(_ffa, <?php echo json_encode($fluent_framework_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-cart 後台（fluentCartAdminApp.trans）
+            var _fca = window.fluentCartAdminApp && window.fluentCartAdminApp.trans;
+            _merge(_fca, <?php echo json_encode($fluent_cart_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-cart Block Editor（fluent_cart_block_translation）
+            _merge(window.fluent_cart_block_translation, <?php echo json_encode($fluent_cart_block, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-crm 後台（fcAdmin.trans）
+            var _fcAdm = window.fcAdmin && window.fcAdmin.trans;
+            _merge(_fcAdm, <?php echo json_encode($fluent_crm_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-cart-pro Authorize.Net（fct_authorize_dot_net_data.translations）
+            var _authnet = window.fct_authorize_dot_net_data && window.fct_authorize_dot_net_data.translations;
+            _merge(_authnet, <?php echo json_encode($fluent_cart_pro_authnet, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
         })();
         </script>
         <?php
