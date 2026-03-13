@@ -353,7 +353,7 @@ msgid "December"
 msgstr "十二月"
 
 msgid "Default email notification settings"
-msgstr "預設電子郵件通知設定"
+msgstr "預設電子電子郵件通知設定"
 
 msgid "Default Event Capacity"
 msgstr "預設活動容量"
@@ -447,16 +447,16 @@ msgid "Edit Events"
 msgstr "編輯活動"
 
 msgid "Email"
-msgstr "電子郵件"
+msgstr "電子電子郵件"
 
 msgid "Email Settings"
-msgstr "電子郵件設定"
+msgstr "電子電子郵件設定"
 
 msgid "Enable Email Notifications"
-msgstr "啟用電子郵件通知"
+msgstr "啟用電子電子郵件通知"
 
 msgid "Enable email notifications by default"
-msgstr "預設啟用電子郵件通知"
+msgstr "預設啟用電子電子郵件通知"
 
 msgid "Enable event registration"
 msgstr "啟用活動註冊"
@@ -504,7 +504,7 @@ msgid "Enter a compelling event title"
 msgstr "輸入一個引人注目的活動標題"
 
 msgid "Enter email address"
-msgstr "請輸入電子郵件地址"
+msgstr "請輸入電子電子郵件地址"
 
 msgid "Enter full name"
 msgstr "請輸入全名"
@@ -716,7 +716,7 @@ msgid "Failed to promote from waitlist"
 msgstr "未能從候補名單晉升"
 
 msgid "Failed to save options"
-msgstr "保存選項失敗"
+msgstr "儲存選項失敗"
 
 msgid "Failed to search users"
 msgstr "搜尋使用者失敗"
@@ -1256,7 +1256,7 @@ msgid "Save"
 msgstr "節省"
 
 msgid "Save Event"
-msgstr "保存活動"
+msgstr "儲存活動"
 
 msgid "Save Options"
 msgstr "儲存選項"
@@ -1673,7 +1673,7 @@ msgid "Add New"
 msgstr "新增"
 
 msgid "Email Templates"
-msgstr "電子郵件模板"
+msgstr "電子電子郵件模板"
 
 msgid "Event Tags"
 msgstr "活動標籤"
@@ -1700,19 +1700,19 @@ msgid "No events found."
 msgstr "找不到任何活動。"
 
 msgid "Email templates are now managed using the new template system. You can:"
-msgstr "電子郵件模板現在使用新的模板系統管理。您可以："
+msgstr "電子電子郵件模板現在使用新的模板系統管理。您可以："
 
 msgid "Manage Email Templates"
-msgstr "管理電子郵件模板"
+msgstr "管理電子電子郵件模板"
 
 msgid "Create and edit email templates using the WordPress editor"
-msgstr "使用 WordPress 編輯器建立和編輯電子郵件模板"
+msgstr "使用 WordPress 編輯器建立和編輯電子電子郵件模板"
 
 msgid "Create New Template"
 msgstr "建立新模板"
 
 msgid "Create a new email template"
-msgstr "建立新的電子郵件模板"
+msgstr "建立新的電子電子郵件模板"
 
 msgid "Template Categories"
 msgstr "模板分類"
@@ -1748,10 +1748,10 @@ msgid "Configure general event display and behavior"
 msgstr "設定活動顯示方式與行為"
 
 msgid "Configure email notification preferences"
-msgstr "設定電子郵件通知偏好"
+msgstr "設定電子電子郵件通知偏好"
 
 msgid "Email Notifications"
-msgstr "電子郵件通知"
+msgstr "電子電子郵件通知"
 
 msgid "Registration Canceled"
 msgstr "報名已取消"
@@ -1775,7 +1775,7 @@ msgid "Your position on the waitlist is: %d"
 msgstr "您在候補名單上的順位為：%d"
 
 msgid "You will be automatically promoted to confirmed status if a spot becomes available, and you will receive an email notification."
-msgstr "如果有名額釋出，您將自動晉升為已確認狀態，並會收到電子郵件通知。"
+msgstr "如果有名額釋出，您將自動晉升為已確認狀態，並會收到電子電子郵件通知。"
 
 msgid "Event Details:"
 msgstr "活動詳情："
@@ -1850,13 +1850,13 @@ msgid "The name of the registered user"
 msgstr "報名者姓名"
 
 msgid "The email of the registered user"
-msgstr "報名者電子郵件"
+msgstr "報名者電子電子郵件"
 
 msgid "The unique registration ID"
 msgstr "唯一報名編號"
 
 msgid "Email Template"
-msgstr "電子郵件模板"
+msgstr "電子電子郵件模板"
 
 msgid "Add New Template"
 msgstr "新增模板"
@@ -1889,7 +1889,7 @@ msgid "Set as default template for this category"
 msgstr "設為此分類的預設模板"
 
 msgid "Email Subject"
-msgstr "電子郵件主旨"
+msgstr "電子電子郵件主旨"
 
 msgid "Event title"
 msgstr "活動標題"
@@ -1907,7 +1907,7 @@ msgid "User name"
 msgstr "使用者名稱"
 
 msgid "User email"
-msgstr "使用者電子郵件"
+msgstr "使用者電子電子郵件"
 
 msgid "Registration ID"
 msgstr "報名編號"
@@ -2177,10 +2177,10 @@ msgid "Registration promoted successfully"
 msgstr "報名晉升成功"
 
 msgid "Name and email are required for manual registration"
-msgstr "手動報名需要填寫姓名和電子郵件"
+msgstr "手動報名需要填寫姓名和電子電子郵件"
 
 msgid "A registration with this email already exists"
-msgstr "此電子郵件已有報名紀錄"
+msgstr "此電子電子郵件已有報名紀錄"
 
 msgid "This event is full"
 msgstr "此活動已額滿"

@@ -75,7 +75,7 @@ msgstr "取得我的 API Key"
 
 #: app/EmailProviders/MailchimpProvider.php:73
 msgid "Mailing List"
-msgstr "郵件清單"
+msgstr "電子郵件清單"
 
 #: app/EmailProviders/MailchimpProvider.php:75
 msgid "Select a list"
@@ -164,7 +164,7 @@ msgstr "啟用 Webhook"
 
 #: app/EmailProviders/WebhookProvider.php:113
 msgid "Enable webhook integration to send email submissions to external URLs"
-msgstr "啟用 Webhook 整合，將電子郵件提交傳送至外部 URL"
+msgstr "啟用 Webhook 整合，將電子電子郵件提交傳送至外部 URL"
 
 #: app/EmailProviders/WebhookProvider.php:119
 msgid "Webhook Configurations"
@@ -172,7 +172,7 @@ msgstr "Webhook 設定"
 
 #: app/EmailProviders/WebhookProvider.php:120
 msgid "Configure webhook endpoints to send email data"
-msgstr "設定 Webhook 端點以傳送電子郵件資料"
+msgstr "設定 Webhook 端點以傳送電子電子郵件資料"
 
 #: app/EmailProviders/WebhookProvider.php:121
 msgid "Add Webhook"
@@ -200,11 +200,11 @@ msgstr "請求方法"
 
 #: app/EmailProviders/WebhookProvider.php:152
 msgid "Email Field Name"
-msgstr "電子郵件欄位名稱"
+msgstr "電子電子郵件欄位名稱"
 
 #: app/EmailProviders/WebhookProvider.php:154
 msgid "The name of the field that will contain the email address in the request"
-msgstr "請求中包含電子郵件地址的欄位名稱"
+msgstr "請求中包含電子電子郵件地址的欄位名稱"
 
 #: app/EmailProviders/WebhookProvider.php:159
 msgid "Headers"

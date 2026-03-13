@@ -1241,7 +1241,7 @@ msgstr "儲存內容"
 
 #: views/courses.php:254
 msgid "Save Course"
-msgstr "保存課程"
+msgstr "儲存課程"
 
 #: views/metadata.php:144
 msgid "Save Metadata"
@@ -1249,7 +1249,7 @@ msgstr "儲存元資料"
 
 #: includes/Admin.php:210
 msgid "Saved successfully!"
-msgstr "保存成功！"
+msgstr "儲存成功！"
 
 #: views/comments.php:41
 msgid "Search comments..."
@@ -1438,7 +1438,7 @@ msgstr "空間模板（JSON）"
 
 #: views/comments.php:49 views/comments.php:145
 msgid "Spam"
-msgstr "垃圾郵件"
+msgstr "垃圾電子郵件"
 
 #: views/comments.php:141 views/posts.php:160 views/spaces.php:166
 #: views/spaces.php:350 views/courses.php:160 views/courses.php:220

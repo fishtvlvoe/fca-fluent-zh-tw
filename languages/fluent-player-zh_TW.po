@@ -152,7 +152,7 @@ msgstr "完成率"
 #: app/Hooks/actions.php:193
 msgid ""
 "Connect FluentPlayer with Mailchimp to add email subscribers to your lists."
-msgstr "將 FluentPlayer 與 Mailchimp 連接，即可將電子電子郵件訂閱者新增至您的清單。"
+msgstr "將 FluentPlayer 與 Mailchimp 連接，即可將電子電子電子郵件訂閱者新增至您的清單。"
 
 #: app/Http/Controllers/IntegrationController.php:128
 msgid "Connection test successful"
@@ -230,15 +230,15 @@ msgstr "編輯媒體"
 
 #: app/Services/EmailProviderService.php:327
 msgid "Email Address"
-msgstr "電子電子郵件"
+msgstr "電子電子電子郵件"
 
 #: app/Hooks/Handlers/EmailCollectionHandler.php:166
 msgid "Email collected successfully"
-msgstr "已成功收集電子電子郵件"
+msgstr "已成功收集電子電子電子郵件"
 
 #: app/Services/EmailCollectionService.php:173
 msgid "Email sent successfully"
-msgstr "電子郵件已成功發送"
+msgstr "電子電子郵件已成功發送"
 
 #: app/Services/Translations/admin-translations.php:33
 msgid "End date"
@@ -251,7 +251,7 @@ msgstr "獲取頻道資訊時出錯：%s"
 
 #: app/Services/Translations/frontend-translations.php:10
 msgid "Error submitting email. Please try again."
-msgstr "電子郵件提交出錯，請重試。"
+msgstr "電子電子郵件提交出錯，請重試。"
 
 #: app/Http/Controllers/YouTubeController.php:75
 msgid "Failed to connect to YouTube"
@@ -267,7 +267,7 @@ msgstr "分析統計資料載入失敗"
 
 #: app/Services/EmailCollectionService.php:173
 msgid "Failed to send email"
-msgstr "電子郵件發送失敗"
+msgstr "電子電子郵件發送失敗"
 
 #: app/EmailProviders/AbstractEmailProvider.php:144
 msgid "Field validation not implemented for this provider"
@@ -344,7 +344,7 @@ msgstr "無效的頻道 ID 格式"
 
 #: app/Hooks/Handlers/EmailCollectionHandler.php:239
 msgid "Invalid email address"
-msgstr "無效的電子電子郵件地址"
+msgstr "無效的電子電子電子郵件地址"
 
 #: app/Hooks/Handlers/EmailCollectionHandler.php:86
 #: app/Hooks/Handlers/EmailCollectionHandler.php:90
@@ -477,7 +477,7 @@ msgstr "下一個影片"
 
 #: app/Services/EmailProviderService.php:286
 msgid "No email submissions found to export"
-msgstr "找不到要匯出的電子電子郵件提交"
+msgstr "找不到要匯出的電子電子電子郵件提交"
 
 #: app/Views/Layers/LayerRenderer.php:259
 msgid "No form selected"
@@ -563,11 +563,11 @@ msgstr "請檢查您的網路連線或確認視訊來源。"
 
 #: app/Services/Translations/frontend-translations.php:16
 msgid "Please enter a valid email address"
-msgstr "請輸入有效的電子電子郵件地址"
+msgstr "請輸入有效的電子電子電子郵件地址"
 
 #: app/Services/Translations/frontend-translations.php:17
 msgid "Please enter your email address"
-msgstr "請輸入您的電子電子郵件地址"
+msgstr "請輸入您的電子電子電子郵件地址"
 
 #: app/Blocks/MediaBlock.php:189
 msgid "Please select a media to display."
@@ -676,7 +676,7 @@ msgstr "所選語言"
 
 #: app/Hooks/actions.php:187
 msgid "Send collected emails to any external service via webhooks."
-msgstr "透過網路鉤子將收集到的電子電子郵件傳送到任何外部服務。"
+msgstr "透過網路鉤子將收集到的電子電子電子郵件傳送到任何外部服務。"
 
 #: app/Http/Controllers/SettingsController.php:46
 msgid "Setting key is required"

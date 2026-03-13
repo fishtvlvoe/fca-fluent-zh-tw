@@ -133,7 +133,7 @@ msgstr "Apple 事件已更新"
 
 #: app/Services/Integrations/Calendars/AppleCalendar/Bootstrap.php:113
 msgid "Apple ID (Email)"
-msgstr "Apple ID （電子郵件）"
+msgstr "Apple ID （電子電子郵件）"
 
 #: app/Modules/Coupon/CouponService.php:99
 #, fuzzy
@@ -235,7 +235,7 @@ msgstr "預訂已確認"
 #, fuzzy
 #| msgid "Booking Cancelled by Organizer (email to Attendee)"
 msgid "Booking Declined by Organizer (SMS to Attendee)"
-msgstr "召集人取消了預訂（向出席者發送電子郵件）"
+msgstr "召集人取消了預訂（向出席者發送電子電子郵件）"
 
 #: app/Services/Integrations/Woo/Bootstrap.php:141
 msgid "Booking Details"
@@ -264,13 +264,13 @@ msgstr "預訂已重新安排"
 #, fuzzy
 #| msgid "Booking Rescheduled by Attendee (email to Organizer)"
 msgid "Booking Rescheduled by Attendee (SMS to Organizer)"
-msgstr "出席者重新安排預訂（向召集人發送電子郵件）"
+msgstr "出席者重新安排預訂（向召集人發送電子電子郵件）"
 
 #: app/Services/Integrations/Twilio/TwilioHelper.php:210
 #, fuzzy
 #| msgid "Booking Rescheduled by Organizer (email to Attendee)"
 msgid "Booking Rescheduled by Organizer (SMS to Attendee)"
-msgstr "由召集人重新安排預訂（發送給出席者的電子郵件）"
+msgstr "由召集人重新安排預訂（發送給出席者的電子電子郵件）"
 
 #: app/Services/Integrations/Twilio/Bootstrap.php:510
 #, fuzzy
@@ -464,7 +464,7 @@ msgstr "文件"
 
 #: app/Services/ReceiptHelper.php:164
 msgid "Email"
-msgstr "電子郵件"
+msgstr "電子電子郵件"
 
 #: app/Services/Integrations/Calendars/AppleCalendar/Bootstrap.php:76
 msgid "Enable Apple Calendar Integration"
@@ -958,7 +958,7 @@ msgstr "Nextcloud 活動已更新"
 
 #: app/Services/Integrations/Calendars/NextCloud/Bootstrap.php:116
 msgid "Nextcloud ID (Username/ Email)"
-msgstr "Nextcloud ID（使用者名/電子郵件）"
+msgstr "Nextcloud ID（使用者名/電子電子郵件）"
 
 #: app/Services/Integrations/ZoomMeeting/ZoomHelper.php:49
 msgid "No zoom credentials found"
@@ -971,7 +971,7 @@ msgstr "注意："
 
 #: app/Http/Controllers/TwilioController.php:52
 msgid "Notifications has been saved"
-msgstr "通知已保存"
+msgstr "通知已儲存"
 
 #: app/Services/Integrations/PaymentMethods/PaymentHelper.php:198 
 #: app/Services/Integrations/PaymentMethods/Offline/Offline.php:18 
@@ -1188,7 +1188,7 @@ msgstr "付款摘要"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/Paypal.php:348
 msgid "Payment was sent to non-confirmed or non-registered email address."
-msgstr "付款已發送到未經確認或未註冊的電子郵件位址。"
+msgstr "付款已發送到未經確認或未註冊的電子電子郵件位址。"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/Paypal.php:20 
 #: app/Services/Integrations/PaymentMethods/Paypal/Paypal.php:375
@@ -1207,7 +1207,7 @@ msgstr "必須先升級 PayPal 帳戶，然後才能接受此付款"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/Paypal.php:286
 msgid "Paypal Email"
-msgstr "PayPal 電子郵件"
+msgstr "PayPal 電子電子郵件"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/API/IPN.php:99
 msgid "Paypal IPN Error"
@@ -1250,7 +1250,7 @@ msgstr "請啟用至少一種付款方式"
 
 #: app/Http/Controllers/PaymentMethodController.php:50
 msgid "Please enter a valid email address"
-msgstr "請輸入有效的電子郵件位址"
+msgstr "請輸入有效的電子電子郵件位址"
 
 #: app/Hooks/Handlers/FrontendRenderer.php:303
 #, fuzzy
@@ -1385,13 +1385,13 @@ msgstr "沙箱模式"
 
 #: app/Services/Integrations/Calendars/Google/Bootstrap.php:154
 msgid "Save Google API Configuration"
-msgstr "保存Google API配置"
+msgstr "儲存Google API配置"
 
 #: app/Services/Integrations/Twilio/Bootstrap.php:105 
 #: app/Services/Integrations/Calendars/NextCloud/Bootstrap.php:101 
 #: app/Services/Integrations/Calendars/AppleCalendar/Bootstrap.php:97
 msgid "Save Settings"
-msgstr "保存設置"
+msgstr "儲存設置"
 
 #. Explanation for the cache duration setting. %1$s is the calendar title, %2$s is the calendar title repeated.
 #: app/Services/Integrations/Calendars/NextCloud/Bootstrap.php:92 
@@ -1572,13 +1572,13 @@ msgid ""
 "password. Generate App Specific Password at %s Your credentials will be "
 "stored as encrypted."
 msgstr ""
-"若要連接到 Apple 伺服器，請輸入您的 Apple 電子郵件和應用程式專用密碼。 在 %s 生成應用程式專用密碼您的憑證將以加密方式儲存。"
+"若要連接到 Apple 伺服器，請輸入您的 Apple 電子電子郵件和應用程式專用密碼。 在 %s 生成應用程式專用密碼您的憑證將以加密方式儲存。"
 
 #: app/Services/Integrations/Calendars/NextCloud/Bootstrap.php:115
 msgid ""
 "To connect to Nextcloud Server, please enter your Nextcloud Email/Username "
 "and app specific password. Your credentials will be stored as encrypted."
-msgstr "若要連接到 Nextcloud 伺服器，請輸入您的 Nextcloud 電子郵件／使用者名稱和應用程式專用密碼。您的憑證將以加密方式儲存。"
+msgstr "若要連接到 Nextcloud 伺服器，請輸入您的 Nextcloud 電子電子郵件／使用者名稱和應用程式專用密碼。您的憑證將以加密方式儲存。"
 
 #: app/Services/Integrations/Calendars/AppleCalendar/Bootstrap.php:70
 msgid ""
@@ -1766,7 +1766,7 @@ msgstr "您的認證無法儲存。請確認認證有效"
 #: app/Services/Integrations/Calendars/NextCloud/Bootstrap.php:690 
 #: app/Services/Integrations/Calendars/AppleCalendar/Bootstrap.php:679
 msgid "Your credential has been saved"
-msgstr "您的憑證已保存"
+msgstr "您的憑證已儲存"
 
 #: app/Http/Controllers/LicenseController.php:74
 msgid "Your license key has been successfully deactivated"
@@ -1806,7 +1806,7 @@ msgstr "您的 Twilio API 金鑰無效。"
 
 #: app/Http/Controllers/ZoomController.php:120
 msgid "Zoom account email is empty"
-msgstr "Zoom 帳戶電子郵件為空"
+msgstr "Zoom 帳戶電子電子郵件為空"
 
 #: app/Services/Integrations/ZoomMeeting/ZoomHelper.php:108
 msgid "Zoom Account ID"
@@ -1836,7 +1836,7 @@ msgstr "Zoom 憑證已斷線並刪除"
 
 #: app/Http/Controllers/ZoomController.php:130
 msgid "Zoom credentials has been validated and saved securely"
-msgstr "Zoom 憑證已驗證並安全保存"
+msgstr "Zoom 憑證已驗證並安全儲存"
 
 #: app/Http/Controllers/ZoomController.php:163
 msgid "Zoom credentials not found"
