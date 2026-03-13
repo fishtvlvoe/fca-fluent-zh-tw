@@ -1,0 +1,411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Hub\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-05 18:16+0000\n"
+"PO-Revision-Date: 2025-12-05 18:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
+"X-Domain: fca-hub"
+
+#: includes/class-hub-core.php:222 includes/class-hub-core.php:410
+msgid "A fatal error occurred. Please check the error log."
+msgstr "發生致命錯誤。請查看錯誤日誌。"
+
+#: views/tabs/tab-license.php:59
+msgid "Activate License"
+msgstr "啟用授權"
+
+#: views/tabs/tab-license.php:49
+msgid "Activate Your License"
+msgstr "啟用您的授權"
+
+#: views/tabs/tab-addons.php:179
+msgid "Active"
+msgstr "啟用中"
+
+#: views/admin-settings.php:19
+msgid "Add-ons"
+msgstr "附加元件"
+
+#: includes/class-hub-core.php:441
+msgid "Addon deleted successfully"
+msgstr "附加外掛已成功刪除"
+
+#: includes/class-hub-core.php:208
+msgid "Addon installed successfully"
+msgstr "附加外掛安裝成功"
+
+#: includes/class-hub-addon-manager.php:448
+msgid "Addon is already installed"
+msgstr "附加外掛已安裝"
+
+#: includes/class-hub-update-manager.php:252
+#: includes/class-hub-addon-manager.php:609
+#: includes/class-hub-addon-manager.php:654
+msgid "Addon is not installed"
+msgstr "附加外掛未安裝"
+
+#: includes/class-hub-update-manager.php:248
+#: includes/class-hub-addon-manager.php:444
+#: includes/class-hub-addon-manager.php:605
+#: includes/class-hub-addon-manager.php:650
+msgid "Addon not found"
+msgstr "找不到附加外掛"
+
+#: includes/class-hub-core.php:193 includes/class-hub-core.php:240
+#: includes/class-hub-core.php:381 includes/class-hub-core.php:429
+msgid "Addon slug is required"
+msgstr "需要附加外掛代稱"
+
+#: includes/class-hub-core.php:250
+msgid "Addon status updated"
+msgstr "附加外掛狀態已更新"
+
+#: includes/class-hub-core.php:216 includes/class-hub-core.php:404
+#: includes/class-hub-core.php:448
+msgid "An error occurred: "
+msgstr "發生錯誤："
+
+#: includes/class-hub-addon-manager.php:587
+msgid "API request failed"
+msgstr "API 請求失敗"
+
+#: views/tabs/tab-addons.php:24
+msgid "Available Add-ons"
+msgstr "可用的附加外掛"
+
+#: views/tabs/tab-addons.php:132 views/tabs/tab-addons.php:146
+msgid "Beta"
+msgstr "Beta"
+
+#: views/tabs/tab-settings.php:57
+msgid "Beta Testing"
+msgstr "Beta 測試"
+
+#: views/admin-settings.php:33
+msgid "Central hub for managing all FCA addons"
+msgstr "管理所有 FCA 附加外掛的中心"
+
+#. Description of the plugin
+msgid ""
+"Central hub for managing all FCA addons - license management and addon "
+"installation"
+msgstr "管理所有 FCA 附加外掛的中心 — 授權管理與外掛安裝"
+
+#: views/tabs/tab-addons.php:32
+msgid "Check for Updates"
+msgstr "檢查更新"
+
+#: views/tabs/tab-license.php:44
+msgid "Check License Status"
+msgstr "檢查授權狀態"
+
+#: views/tabs/tab-settings.php:16
+msgid "Configure how FCA Hub behaves on your site."
+msgstr "設定 FCA Hub 在您網站上的運作方式。"
+
+#: views/tabs/tab-license.php:40
+msgid "Deactivate License"
+msgstr "停用授權"
+
+#: views/tabs/tab-addons.php:185
+msgid "Delete Addon"
+msgstr "刪除附加外掛"
+
+#: includes/class-hub-addon-manager.php:668
+msgid "Deletion failed"
+msgstr "刪除失敗"
+
+#: views/tabs/tab-settings.php:44 views/tabs/tab-settings.php:79
+msgid "Disabled"
+msgstr "已停用"
+
+#: views/tabs/tab-license.php:67
+msgid "Don't have a license?"
+msgstr "還沒有授權嗎？"
+
+#: includes/class-hub-update-manager.php:273
+#: includes/class-hub-addon-manager.php:464
+msgid "Download URL not available"
+msgstr "下載連結不可用"
+
+#: includes/class-hub-api-client.php:190 includes/class-hub-api-client.php:279
+#: includes/class-hub-addon-manager.php:596
+msgid "Download URL not provided"
+msgstr "未提供下載連結"
+
+#: views/tabs/tab-settings.php:67
+msgid "Enable Beta Testing"
+msgstr "啟用 Beta 測試"
+
+#: views/tabs/tab-settings.php:59
+msgid ""
+"Enable beta testing to see and install beta versions of addons. Beta addons "
+"may be unstable and are for testing purposes only."
+msgstr "啟用 Beta 測試功能即可檢視和安裝附加外掛的 Beta 版本。Beta 版附加外掛可能不穩定，僅供測試之用。"
+
+#: views/tabs/tab-settings.php:44 views/tabs/tab-settings.php:79
+msgid "Enabled"
+msgstr "已啟用"
+
+#: views/tabs/tab-license.php:56
+msgid "Enter your license key"
+msgstr "請輸入您的授權金鑰"
+
+#: views/tabs/tab-license.php:50
+msgid "Enter your license key to activate FCA Hub and unlock all features."
+msgstr "輸入您的授權金鑰以啟用 FCA Hub 並解鎖所有功能。"
+
+#: views/tabs/tab-addons.php:162
+#, php-format
+msgid "Expected: %s"
+msgstr "預期值：%s"
+
+#: views/tabs/tab-license.php:28 views/tabs/tab-license.php:33
+msgid "Expires On:"
+msgstr "到期日："
+
+#. Name of the plugin
+#: includes/class-hub-core.php:89 views/admin-settings.php:32
+msgid "FCA Hub"
+msgstr "FCA Hub"
+
+#: fca-hub.php:32 includes/class-hub-activator.php:31
+msgid "FCA Hub requires Fluent Community to be installed and activated."
+msgstr "FCA Hub 需要安裝並啟用 Fluent Community。"
+
+#: includes/class-hub-activator.php:25
+msgid "FCA Hub requires PHP 7.4 or higher."
+msgstr "FCA Hub 需要 PHP 7.4 或更高版本。"
+
+#: includes/class-hub-activator.php:19
+msgid "FCA Hub requires WordPress 5.8 or higher."
+msgstr "FCA Hub 需要 WordPress 5.8 或更高版本。"
+
+#: includes/class-hub-core.php:88 views/tabs/tab-settings.php:15
+msgid "FCA Hub Settings"
+msgstr "FCA Hub 設定"
+
+#. Author of the plugin
+msgid "Fluent Community Add-ons"
+msgstr "Fluent Community 附加外掛"
+
+#: views/tabs/tab-license.php:69
+msgid "Get Premium Membership"
+msgstr "取得進階會員"
+
+#: views/tabs/tab-settings.php:48
+msgid ""
+"Hide all FCA plugins (except Hub) from the WordPress Plugins admin page."
+msgstr "從 WordPress 外掛管理頁面隱藏所有 FCA 外掛（Hub 除外）。"
+
+#: views/tabs/tab-settings.php:32
+msgid "Hide FCA Plugins"
+msgstr "隱藏 FCA 外掛"
+
+#. Author URI of the plugin
+msgid "https://fluentcommunityaddons.com"
+msgstr "https://fluentcommunityaddons.com"
+
+#. URI of the plugin
+msgid "https://fluentcommunityaddons.com/fca-hub"
+msgstr "https://fluentcommunityaddons.com/fca-hub"
+
+#: views/tabs/tab-addons.php:179
+msgid "Inactive"
+msgstr "停用"
+
+#: views/tabs/tab-addons.php:196
+msgid "Install"
+msgstr "安裝"
+
+#: views/tabs/tab-addons.php:25
+msgid "Install and manage all FCA add-ons from one place"
+msgstr "在一處安裝和管理所有 FCA 附加外掛"
+
+#: includes/class-hub-addon-manager.php:502
+msgid "Installation failed. Please check file permissions and try again."
+msgstr "安裝失敗。請檢查檔案權限並重試。"
+
+#: includes/class-hub-addon-manager.php:500
+msgid "Installation failed: "
+msgstr "安裝失敗："
+
+#: includes/class-hub-api-client.php:130 includes/class-hub-api-client.php:328
+msgid "Invalid response from update server"
+msgstr "更新伺服器回傳無效回應"
+
+#: views/admin-settings.php:21
+msgid "License"
+msgstr "授權"
+
+#: includes/class-hub-core.php:283
+msgid "License activated successfully"
+msgstr "授權啟用成功"
+
+#: includes/class-hub-core.php:279
+msgid "License activation failed"
+msgstr "授權啟用失敗"
+
+#: includes/class-hub-core.php:304
+msgid "License deactivated successfully"
+msgstr "授權已成功停用"
+
+#: includes/class-hub-core.php:269
+msgid "License key is required"
+msgstr "需要授權金鑰"
+
+#: includes/class-hub-update-manager.php:261
+#: includes/class-hub-addon-manager.php:537
+msgid "License key required"
+msgstr "需要授權金鑰"
+
+#: views/admin-settings.php:49 views/tabs/tab-addons.php:43
+msgid "License Required"
+msgstr "需要授權"
+
+#: views/admin-settings.php:42
+msgid "Licensed"
+msgstr "已授權"
+
+#: views/tabs/tab-license.php:34
+msgid "Never"
+msgstr "永不過期"
+
+#: includes/class-hub-core.php:185 includes/class-hub-core.php:233
+#: includes/class-hub-core.php:263 includes/class-hub-core.php:295
+#: includes/class-hub-core.php:314 includes/class-hub-core.php:329
+#: includes/class-hub-core.php:347 includes/class-hub-core.php:373
+#: includes/class-hub-core.php:422
+msgid "Permission denied"
+msgstr "權限不足"
+
+#: views/tabs/tab-settings.php:22
+msgid "Plugin Visibility"
+msgstr "外掛可見性"
+
+#: views/tabs/tab-addons.php:29
+msgid "Refresh Registry"
+msgstr "重新整理註冊表"
+
+#: includes/class-hub-core.php:357 includes/class-hub-addon-manager.php:381
+msgid "Registry refreshed successfully"
+msgstr "註冊表已成功重新整理"
+
+#: views/tabs/tab-settings.php:91
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: views/admin-settings.php:20
+msgid "Settings"
+msgstr "設定"
+
+#: views/tabs/tab-license.php:22
+msgid "Status:"
+msgstr "狀態："
+
+#: views/tabs/tab-license.php:18
+msgid "Thank you for activating your license for FCA Hub."
+msgstr "感謝您啟用 FCA Hub 的授權。"
+
+#: views/tabs/tab-addons.php:114
+msgid "Update Available"
+msgstr "有可用更新"
+
+#: includes/class-hub-update-manager.php:318
+msgid "Update failed. Please try again."
+msgstr "更新失敗，請重試。"
+
+#: includes/class-hub-update-manager.php:316
+msgid "Update failed: "
+msgstr "更新失敗："
+
+#: includes/class-hub-core.php:396
+msgid "Update installed successfully"
+msgstr "更新已成功安裝"
+
+#: includes/class-hub-api-client.php:89 includes/class-hub-api-client.php:144
+#: includes/class-hub-api-client.php:290
+msgid "Update server URL not configured"
+msgstr "更新伺服器 URL 未設定"
+
+#: views/tabs/tab-addons.php:128 views/tabs/tab-addons.php:143
+#, php-format
+msgid "v%s"
+msgstr "v%s"
+
+#: includes/class-hub-addon-manager.php:454
+msgid "Valid license required to install addons"
+msgstr "安裝附加外掛需要有效授權"
+
+#: views/tabs/tab-settings.php:83
+msgid ""
+"When enabled, beta addons will be visible and available for installation."
+msgstr "啟用後，Beta 版附加外掛將可見並可供安裝。"
+
+#: views/tabs/tab-settings.php:24
+msgid ""
+"When enabled, FCA plugins will be hidden from the WordPress Plugins page. "
+"You can still manage them through FCA Hub."
+msgstr "啟用後，FCA 外掛將從 WordPress 外掛頁面隱藏。您仍可透過 FCA Hub 管理它們。"
+
+#: views/tabs/tab-addons.php:44
+msgid "You need to activate your license to install add-ons."
+msgstr "您需要啟用授權才能安裝附加外掛。"
+
+#: views/tabs/tab-license.php:17
+msgid "Your License is Active"
+msgstr "您的授權已啟用中"
+
+#: includes/class-hub-core.php
+msgid "FCA Launcher"
+msgstr "FCA 啟動器"
+
+#: includes/class-hub-core.php
+msgid "Central launcher for managing all FCA addons"
+msgstr "管理所有 FCA 附加元件的中央啟動器"
+
+#: includes/class-hub-core.php
+msgid "Configure how FCA Launcher behaves on your site."
+msgstr "設定 FCA 啟動器在您網站上的運作方式。"
+
+#: includes/class-hub-core.php
+msgid "Enter your license key to activate FCA Launcher and unlock all features."
+msgstr "輸入您的授權金鑰以啟用 FCA 啟動器並解鎖所有功能。"
+
+#: includes/class-hub-core.php
+msgid "FCA Launcher Settings"
+msgstr "FCA 啟動器設定"
+
+#: includes/class-hub-core.php
+msgid "FCA Launcher requires Fluent Community to be installed and activated."
+msgstr "FCA 啟動器需要安裝並啟用 Fluent Community。"
+
+#: includes/class-hub-core.php
+msgid "FCA Launcher requires PHP 7.4 or higher."
+msgstr "FCA 啟動器需要 PHP 7.4 或更高版本。"
+
+#: includes/class-hub-core.php
+msgid "FCA Launcher requires WordPress 5.8 or higher."
+msgstr "FCA 啟動器需要 WordPress 5.8 或更高版本。"
+
+#: includes/class-hub-core.php
+msgid "Hide all FCA plugins (except Launcher) from the WordPress Plugins admin page."
+msgstr "從 WordPress 外掛管理頁面隱藏所有 FCA 外掛（啟動器除外）。"
+
+#: includes/class-hub-core.php
+msgid "Thank you for activating your license for FCA Launcher."
+msgstr "感謝您啟用 FCA 啟動器的授權。"
+
+#: includes/class-hub-core.php
+msgid "When enabled, FCA plugins will be hidden from the WordPress Plugins page. You can still manage them through FCA Launcher."
+msgstr "啟用後，FCA 外掛將從 WordPress 外掛頁面隱藏。您仍可透過 FCA 啟動器管理它們。"
+

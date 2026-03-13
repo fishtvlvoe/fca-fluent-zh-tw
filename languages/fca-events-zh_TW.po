@@ -1,0 +1,2303 @@
+# Copyright (C) 2024 FCA Events
+# This file is distributed under the same license as the FCA Events package.
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Events 0.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2026-02-25 07:11+0800\n"
+"Last-Translator: fish yu\n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8"
+
+msgid "1 day before"
+msgstr "前一天"
+
+msgid "1 hour before"
+msgstr "提早1小時"
+
+msgid "1 week before"
+msgstr "一週前"
+
+msgid "12-hour format"
+msgstr "12小時制"
+
+msgid "24-hour format"
+msgstr "24小時制"
+
+msgid "3 days before"
+msgstr "3天前"
+
+msgid "Access Denied"
+msgstr "拒絕訪問"
+
+msgid "Actions"
+msgstr "行動"
+
+msgid "Activate License"
+msgstr "啟動授權"
+
+msgid "Activate Now"
+msgstr "立即啟用"
+
+msgid "Activating license..."
+msgstr "正在啟動授權…"
+
+msgid "Active filters:"
+msgstr "啟用篩選器："
+
+msgid "Add Attendee"
+msgstr "新增與會者"
+
+msgid "Add custom form fields as columns"
+msgstr "新增自訂表單欄位作為列"
+
+msgid "Add Featured Image"
+msgstr "新增特色圖片"
+
+msgid "Add New Category"
+msgstr "新增類別"
+
+# Calendar Integration
+msgid "Add to Calendar"
+msgstr "新增到日曆"
+
+msgid "Added to Waitlist! ⏰"
+msgstr "已加入候補名單！ ⏰"
+
+msgid "After"
+msgstr "後"
+
+msgid "All Categories"
+msgstr "所有類別"
+
+msgid "All Events"
+msgstr "所有活動"
+
+msgid "All instances of the recurring event deleted successfully"
+msgstr "所有重複事件均已成功刪除。"
+
+msgid "All Registration Types"
+msgstr "所有註冊類型"
+
+msgid "All Statuses"
+msgstr "所有狀態"
+
+msgid "Allow community members to register for this event"
+msgstr "允許社區成員註冊參加此活動"
+
+msgid "Allow Waitlist"
+msgstr "允許候補名單"
+
+msgid "Already Registered"
+msgstr "已註冊"
+
+msgid "Already registered"
+msgstr "已註冊"
+
+# Date and time formatting
+msgid "AM"
+msgstr "是"
+
+msgid ""
+"Any special instructions for joining (e.g., password, dial-in numbers, "
+"technical requirements)"
+msgstr "加入時的任何特殊說明（例如，密碼、撥入號碼、技術要求）"
+
+msgid "Apple Calendar"
+msgstr "蘋果日曆"
+
+msgid "April"
+msgstr "四月"
+
+msgid "Are you sure you want to deactivate the license?"
+msgstr "您確定要停用授權嗎？"
+
+msgid "Are you sure you want to delete"
+msgstr "您確定要刪除嗎？"
+
+msgid "Are you sure you want to delete the registration for"
+msgstr "您確定要刪除註冊資訊嗎？"
+
+msgid "Are you sure you want to delete the waitlist entry for"
+msgstr "您確定要刪除候補名單條目嗎？"
+
+msgid "Are you sure you want to duplicate"
+msgstr "您確定要複製嗎？"
+
+msgid "Are you sure you want to remove yourself from the waitlist?"
+msgstr "您確定要從候補名單中移除自己嗎？"
+
+msgid ""
+"Are you sure you want to reset all options to their default values? This "
+"action cannot be undone."
+msgstr "您確定要將所有選項重設為預設值嗎？此操作無法撤銷。"
+
+msgid "Are you sure you want to unregister from this event?"
+msgstr "您確定要取消註冊本次活動嗎？"
+
+msgid "Are you sure?"
+msgstr "你確定嗎？"
+
+msgid "Attendee"
+msgstr "與會者"
+
+# Attendees
+msgid "Attendees"
+msgstr "與會者"
+
+msgid "August"
+msgstr "八月"
+
+msgid "Average Attendance"
+msgstr "平均出勤率"
+
+msgid "Back to Events"
+msgstr "返回活動"
+
+msgid "Berlin"
+msgstr "柏林"
+
+msgid "Between 5 and 50 events"
+msgstr "5 至 50 場活動"
+
+msgid "Brief summary for event listings"
+msgstr "活動清單簡要概述"
+
+msgid "Browse Events"
+msgstr "瀏覽活動"
+
+msgid "Calendar Added! 📅"
+msgstr "日曆已新增！ 📅"
+
+msgid "Calendar View"
+msgstr "日曆視圖"
+
+# Event Editor Page
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cancel Event"
+msgstr "取消活動"
+
+msgid "Cancel Registration"
+msgstr "取消註冊"
+
+msgid "Cancellation Rate"
+msgstr "取消率"
+
+msgid "Cancelled"
+msgstr "取消"
+
+msgid "Capacity"
+msgstr "容量"
+
+msgid "Capacity (High to Low)"
+msgstr "容量（從高到低）"
+
+msgid "Capacity (Low to High)"
+msgstr "容量（從低到高）"
+
+msgid "Capacity must be a number"
+msgstr "容量必須是一個數字"
+
+msgid "Card View"
+msgstr "卡片視圖"
+
+msgid "Categories"
+msgstr "類別"
+
+msgid "Category"
+msgstr "類別"
+
+msgid "Central Time"
+msgstr "中部時間"
+
+msgid "characters"
+msgstr "人物"
+
+msgid ""
+"Check this if the event will be held online via video conferencing or "
+"streaming"
+msgstr "請確認活動是否將透過視訊會議或串流媒體在線上舉行。"
+
+msgid "Choose how dates are displayed throughout the events system"
+msgstr "選擇日期在整個事件系統中的顯示方式"
+
+msgid "Choose how times are displayed throughout the events system"
+msgstr "選擇在整個事件系統中顯示時間的方式"
+
+msgid "Choose the default view for the Events List page"
+msgstr "選擇「事件清單」頁面的預設視圖"
+
+msgid "Choose your preferred calendar application:"
+msgstr "選擇您喜歡的日曆應用程式："
+
+msgid "Choose..."
+msgstr "選擇..."
+
+msgid "Clear all filters"
+msgstr "清除所有篩選條件"
+
+msgid "Clear Filters"
+msgstr "清除篩選條件"
+
+msgid "Click Here to Renew Your License"
+msgstr "點選此處續訂您的授權"
+
+msgid "Click to upload or drag and drop"
+msgstr "點選上傳或拖放"
+
+msgid "Collect additional information from attendees during registration"
+msgstr "在註冊期間收集與會者的其他資訊"
+
+msgid "Coming Soon"
+msgstr "即將推出"
+
+msgid "Compact list with event details"
+msgstr "包含活動詳情的精簡列表"
+
+msgid "Complete address or meeting details"
+msgstr "完整地址或會議詳情"
+
+msgid "Complete Registration"
+msgstr "完成註冊"
+
+msgid "Completed"
+msgstr "已完成"
+
+msgid "Configure how events are displayed to users"
+msgstr "設定事件向使用者的顯示方式"
+
+msgid "Confirmed"
+msgstr "確認的"
+
+msgid ""
+"Create all event instances immediately. If unchecked, events will be "
+"generated as needed."
+msgstr "立即建立所有事件實例。如果未選取此項，事件將根據需要產生。"
+
+msgid "Create custom form for this event"
+msgstr "為此活動建立自訂表單"
+
+msgid "Create Event"
+msgstr "建立事件"
+
+# Permissions
+msgid "Create Events"
+msgstr "建立事件"
+
+msgid "Create First Event"
+msgstr "建立第一個事件"
+
+msgid "Create multiple instances of this event based on a schedule"
+msgstr "根據日程安排建立此事件的多個實例"
+
+msgid "Create your first event to get started with event management."
+msgstr "建立您的第一個活動，即可開始使用活動管理功能。"
+
+msgid "Customize Columns"
+msgstr "自訂列"
+
+msgid "Daily"
+msgstr "日常的"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Date (Newest)"
+msgstr "日期（最新）"
+
+msgid "Date (Oldest)"
+msgstr "日期（最早）"
+
+# Date and Time Format Settings
+msgid "Date Format"
+msgstr "日期格式"
+
+msgid "Date is required"
+msgstr "需要日期"
+
+msgid "Date TBD"
+msgstr "日期待定"
+
+# Recurring event intervals
+msgid "day"
+msgstr "天"
+
+msgid "Day Month Year"
+msgstr "日 月 年"
+
+msgid "Days"
+msgstr "天"
+
+msgid "days"
+msgstr "天"
+
+msgid "DD/MM/YYYY"
+msgstr "日/月/年"
+
+msgid "Deactivate License"
+msgstr "停用授權"
+
+msgid "Deactivating license..."
+msgstr "正在停用授權…"
+
+msgid "December"
+msgstr "十二月"
+
+msgid "Default email notification settings"
+msgstr "預設電子郵件通知設定"
+
+msgid "Default Event Capacity"
+msgstr "預設事件容量"
+
+msgid "Default Event Duration"
+msgstr "預設事件持續時間"
+
+msgid "Default Event Settings"
+msgstr "預設事件設定"
+
+msgid "Default Events List View"
+msgstr "預設事件清單視圖"
+
+msgid "Default reminder timing for events"
+msgstr "事件的預設提醒時間"
+
+msgid "Default Timezone"
+msgstr "預設時區"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete all instances of recurring events"
+msgstr "刪除所有重複事件的實例"
+
+msgid "Delete all instances of this recurring event"
+msgstr "刪除所有此類重複事件"
+
+msgid "Delete Event"
+msgstr "刪除事件"
+
+msgid "Delete Events"
+msgstr "刪除事件"
+
+msgid "Delete only the selected instances"
+msgstr "僅刪除選定的實例"
+
+msgid "Delete only this instance"
+msgstr "僅刪除此實例"
+
+msgid "Delete Recurring Event"
+msgstr "刪除重複事件"
+
+msgid "Delete Selected"
+msgstr "刪除所選內容"
+
+msgid "Describe what makes this event special..."
+msgstr "請描述一下這次活動的特別之處…"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Details"
+msgstr "細節"
+
+msgid "Display event categories in the list"
+msgstr "在清單中顯示事件類別"
+
+msgid "Display past events in the main events list"
+msgstr "在主事件清單中顯示過往事件"
+
+msgid "Display Settings"
+msgstr "顯示設定"
+
+msgid "Download iCal"
+msgstr "下載 iCal"
+
+# Status
+msgid "Draft"
+msgstr "草稿"
+
+msgid "Duplicate"
+msgstr "複製"
+
+msgid "e.g., Community Center, Conference Hall"
+msgstr "例如：社區中心、會議廳"
+
+msgid "e.g., Zoom, Google Meet, Microsoft Teams, YouTube Live"
+msgstr "例如：Zoom、Google Meet、Microsoft Teams、YouTube Live"
+
+msgid "Eastern Time"
+msgstr "美國東部時間"
+
+msgid "Edit"
+msgstr "編輯"
+
+msgid "Edit Event"
+msgstr "編輯事件"
+
+msgid "Edit Events"
+msgstr "編輯事件"
+
+msgid "Email"
+msgstr "電子郵件"
+
+msgid "Email Settings"
+msgstr "電子郵件設定"
+
+msgid "Enable Email Notifications"
+msgstr "啟用電子郵件通知"
+
+msgid "Enable email notifications by default"
+msgstr "預設啟用電子郵件通知"
+
+msgid "Enable event registration"
+msgstr "啟用活動註冊"
+
+msgid "Enable Event Reminders"
+msgstr "啟用事件提醒"
+
+msgid "Enable Registration Confirmations"
+msgstr "啟用註冊確認"
+
+msgid "Enable Search"
+msgstr "啟用搜尋"
+
+msgid "Enable search and filtering"
+msgstr "啟用搜尋和篩選功能"
+
+msgid "Enable waitlist"
+msgstr "啟用候補名單"
+
+msgid "End After"
+msgstr "結束於"
+
+msgid "End Date"
+msgstr "結束日期"
+
+msgid "End date"
+msgstr "結束日期"
+
+msgid "End Date & Time"
+msgstr "結束日期和時間"
+
+msgid "End date must be after start date"
+msgstr "結束日期必須晚於開始日期"
+
+msgid "End Time"
+msgstr "結束時間"
+
+msgid "End time must be after start time"
+msgstr "結束時間必須晚於開始時間"
+
+msgid "Ends"
+msgstr "結束"
+
+msgid "Enter a compelling event title"
+msgstr "輸入一個引人注目的活動標題"
+
+msgid "Enter email address"
+msgstr "請輸入電子郵件地址"
+
+msgid "Enter full name"
+msgstr "請輸入全名"
+
+msgid "Enter image description (optional):"
+msgstr "請輸入圖片描述（可選）："
+
+msgid "Enter image URL:"
+msgstr "請輸入圖片網址："
+
+msgid "Enter link text:"
+msgstr "輸入連結文字："
+
+# Rich text editor
+msgid "Enter URL:"
+msgstr "輸入網址："
+
+msgid "Enter video URL (YouTube, Vimeo, or direct link):"
+msgstr "請輸入影片網址（YouTube、Vimeo 或直接連結）："
+
+msgid "Enter your license key"
+msgstr "請輸入您的授權金鑰"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid ""
+"Error activating license. Please verify your license is correct and try "
+"again."
+msgstr "啟動授權時發生錯誤。請確認您的授權正確無誤後重試。"
+
+msgid "Error cancelling registration"
+msgstr "取消註冊時發生錯誤"
+
+# Errors
+msgid "Error creating event"
+msgstr "建立事件時出錯"
+
+msgid "Error deleting event"
+msgstr "刪除事件時出錯"
+
+msgid "Error joining waitlist"
+msgstr "加入候補名單時出錯"
+
+msgid "Error leaving waitlist"
+msgstr "離開候補名單時出錯"
+
+msgid "Error registering for event"
+msgstr "註冊事件時發生錯誤"
+
+msgid "Error updating event"
+msgstr "更新事件時出錯"
+
+msgid "Event"
+msgstr "事件"
+
+msgid "Event Cancellation Notice"
+msgstr "活動取消通知"
+
+msgid "Event cancelled successfully"
+msgstr "活動已成功取消"
+
+msgid "Event Capacity"
+msgstr "活動容量"
+
+msgid "Event Categories"
+msgstr "活動類別"
+
+msgid "Event Category"
+msgstr "活動類別"
+
+# Messages
+msgid "Event created successfully"
+msgstr "事件已成功創建"
+
+msgid "Event Date"
+msgstr "活動日期"
+
+msgid "Event date is required"
+msgstr "活動日期為必填項"
+
+msgid "Event deleted successfully"
+msgstr "事件已成功刪除"
+
+msgid "Event Description"
+msgstr "活動描述"
+
+msgid "Event Details"
+msgstr "活動詳情"
+
+msgid "Event details have been updated"
+msgstr "活動詳情已更新"
+
+msgid "Event duplicated successfully"
+msgstr "事件已成功複製"
+
+msgid "Event has been downloaded as iCal file"
+msgstr "事件已下載為 iCal 文件"
+
+msgid "Event Image"
+msgstr "活動圖片"
+
+msgid "Event Information"
+msgstr "活動資訊"
+
+msgid "Event Location"
+msgstr "活動地點"
+
+msgid "Event not found"
+msgstr "找不到事件"
+
+msgid "Event Price"
+msgstr "活動價格"
+
+# Email Templates
+msgid "Event Registration Confirmation"
+msgstr "活動報名確認"
+
+# Registrations Management Page
+msgid "Event Registrations"
+msgstr "活動註冊"
+
+msgid "Event registrations will appear here once people sign up."
+msgstr "活動註冊資訊將在人們註冊後顯示在此。"
+
+msgid "Event Reminder"
+msgstr "活動提醒"
+
+# Settings
+msgid "Event Settings"
+msgstr "事件設定"
+
+msgid "Event Status"
+msgstr "事件狀態"
+
+msgid "Event Time"
+msgstr "事件時間"
+
+# Event Fields
+msgid "Event Title"
+msgstr "事件標題"
+
+msgid "Event Update"
+msgstr "事件更新"
+
+msgid "Event updated successfully"
+msgstr "事件已成功更新"
+
+msgid "event(s) selected"
+msgstr "已選擇事件"
+
+msgid "event(s)?"
+msgstr "事件？"
+
+msgid "event(s)? This action cannot be undone."
+msgstr "事件？此操作無法撤銷。"
+
+# Event Management
+msgid "Events"
+msgstr "活動"
+
+# Events Options Page
+msgid "Events Options"
+msgstr "事件選項"
+
+msgid "Events Per Page"
+msgstr "每頁事件數"
+
+msgid "Events will appear here once they are created."
+msgstr "事件創建後將顯示在此。"
+
+msgid "Expires:"
+msgstr "到期日："
+
+msgid "Export CSV"
+msgstr "匯出 CSV 文件"
+
+msgid "Failed to add user"
+msgstr "新增使用者失敗"
+
+msgid "Failed to add user to event"
+msgstr "無法將使用者新增至事件中"
+
+msgid "Failed to delete event"
+msgstr "刪除事件失敗"
+
+msgid "Failed to delete events"
+msgstr "刪除事件失敗"
+
+msgid "Failed to delete registration"
+msgstr "刪除註冊失敗"
+
+msgid "Failed to delete registrations"
+msgstr "刪除註冊資訊失敗"
+
+msgid "Failed to delete selected registrations"
+msgstr "刪除選定註冊資訊失敗"
+
+msgid "Failed to delete waitlist entry"
+msgstr "刪除候補名單條目失敗"
+
+msgid "Failed to duplicate event"
+msgstr "事件複製失敗"
+
+msgid "Failed to duplicate events"
+msgstr "事件複製失敗"
+
+msgid "Failed to promote from waitlist"
+msgstr "未能從候補名單晉升"
+
+msgid "Failed to save options"
+msgstr "保存選項失敗"
+
+msgid "Failed to search users"
+msgstr "搜尋使用者失敗"
+
+msgid "Failed to unregister from event"
+msgstr "無法從活動中取消註冊"
+
+msgid "FCA Events License"
+msgstr "FCA 活動授權"
+
+msgid "Featured Image"
+msgstr "特色圖片"
+
+msgid "February"
+msgstr "二月"
+
+# Filters and Search
+msgid "Filter Events"
+msgstr "篩選事件"
+
+msgid "Form Template"
+msgstr "表單模板"
+
+msgid "Friday"
+msgstr "星期五"
+
+msgid "from waitlist to confirmed registration"
+msgstr "從候補名單到確認註冊"
+
+msgid "Full Address"
+msgstr "完整地址"
+
+msgid "General Settings"
+msgstr "常規設定"
+
+msgid "Generate events ahead of time"
+msgstr "提前產生事件"
+
+msgid "Google Calendar"
+msgstr "Google 日曆"
+
+msgid "has been added to the event"
+msgstr "已加入活動中"
+
+msgid "has been promoted from waitlist"
+msgstr "已從候補名單中晉升"
+
+msgid "Hide"
+msgstr "隱藏"
+
+msgid "https://zoom.us/j/123456789 or https://meet.google.com/abc-defg-hij"
+msgstr "https://zoom.us/j/123456789 或 https://meet.google.com/abc-defg-hij"
+
+msgid "iCal Downloaded! 📥"
+msgstr "iCal已下載！ 📥"
+
+msgid "Image"
+msgstr "影像"
+
+msgid "Invalid license key. Please verify your license is correct."
+msgstr "授權金鑰無效。請確認您的授權金鑰正確。"
+
+msgid "Invalid request"
+msgstr "無效請求"
+
+msgid "is required"
+msgstr "是必須的"
+
+# Month names
+msgid "January"
+msgstr "一月"
+
+msgid "Join Meeting"
+msgstr "加入會議"
+
+msgid "Join Waitlist"
+msgstr "加入候補名單"
+
+msgid "Joining Instructions"
+msgstr "加入說明"
+
+msgid "July"
+msgstr "七月"
+
+msgid "June"
+msgstr "六月"
+
+msgid "Leave empty for unlimited capacity"
+msgstr "留空可無限容納"
+
+msgid "Leave Waitlist"
+msgstr "離開候補名單"
+
+# License Management
+msgid "License"
+msgstr "授權"
+
+msgid "License activated successfully!"
+msgstr "授權已成功啟用！"
+
+msgid "License deactivated successfully!"
+msgstr "授權已成功停用！"
+
+msgid "License Status"
+msgstr "授權狀態"
+
+msgid "List View"
+msgstr "清單視圖"
+
+msgid "Loading event details..."
+msgstr "正在加載活動詳情…"
+
+msgid "Loading event editor..."
+msgstr "正在載入事件編輯器..."
+
+msgid "Loading events..."
+msgstr "正在加載事件..."
+
+msgid "Loading options..."
+msgstr "正在載入選項…"
+
+msgid "Loading registrations..."
+msgstr "正在加載註冊資訊…"
+
+msgid "Loading your events..."
+msgstr "正在加載您的事件..."
+
+msgid "Loading..."
+msgstr "載入中..."
+
+msgid "Location"
+msgstr "地點"
+
+msgid "Location is required"
+msgstr "需要提供位置資訊"
+
+msgid "Location TBD"
+msgstr "地點待定"
+
+msgid "Login Required"
+msgstr "需要登入"
+
+msgid "London"
+msgstr "倫敦"
+
+msgid "Make this a recurring event"
+msgstr "將此設為重複事件"
+
+msgid "Manage Attendees"
+msgstr "管理與會者"
+
+msgid "Manage Event Settings"
+msgstr "管理事件設定"
+
+# Events Manage Page
+msgid "Manage Events"
+msgstr "管理事件"
+
+msgid "Manage Registrations"
+msgstr "管理註冊"
+
+msgid "Manage Templates"
+msgstr "管理模板"
+
+msgid "March"
+msgstr "三月"
+
+msgid "Maximum attendees"
+msgstr "最大出席人數"
+
+msgid "May"
+msgstr "五月"
+
+msgid "Meeting/Joining Link"
+msgstr "會議/加入連結"
+
+msgid "MM/DD/YYYY"
+msgstr "月/日/年"
+
+msgid "Monday"
+msgstr "週一"
+
+msgid "month"
+msgstr "月"
+
+msgid "Month Day, Year"
+msgstr "月 日 年"
+
+msgid "Monthly"
+msgstr "每月"
+
+msgid "Monthly calendar layout"
+msgstr "月曆佈局"
+
+msgid "Months"
+msgstr "月"
+
+msgid "months"
+msgstr "幾個月"
+
+msgid "more"
+msgstr "更多的"
+
+msgid "Most Popular Event"
+msgstr "最受歡迎活動"
+
+msgid "Mountain Time"
+msgstr "山區時間"
+
+msgid "My Events"
+msgstr "我的活動"
+
+msgid "My Registrations"
+msgstr "我的註冊資訊"
+
+msgid "Name"
+msgstr "姓名"
+
+msgid "Network error. Please try again."
+msgstr "網路錯誤，請重試。"
+
+msgid "Never"
+msgstr "永不過期"
+
+msgid "Next"
+msgstr "下一個"
+
+msgid "Next Month"
+msgstr "下個月"
+
+msgid "Next Week"
+msgstr "下週"
+
+msgid ""
+"No activation sites left. Please deactivate unused sites or purchase another "
+"license."
+msgstr "所有啟動網站均已用完。請停用未使用的網站或購買新的授權。"
+
+msgid "No attendees found"
+msgstr "找不到與會者"
+
+msgid "No End Date"
+msgstr "無結束日期"
+
+msgid "No events created yet"
+msgstr "目前還沒有創建任何事件"
+
+msgid "No events found"
+msgstr "找不到任何事件"
+
+msgid "No events match your filters"
+msgstr "沒有符合您篩選條件的事件"
+
+msgid "No events yet"
+msgstr "目前還沒有活動"
+
+msgid "No past events"
+msgstr "沒有過往事件"
+
+msgid "No registrations found"
+msgstr "找不到註冊資訊"
+
+msgid "No registrations yet"
+msgstr "目前尚無註冊。"
+
+msgid "No upcoming events"
+msgstr "暫無活動"
+
+msgid "No users found"
+msgstr "找不到使用者"
+
+msgid "No users found matching"
+msgstr "找不到符合的使用者"
+
+msgid "No, cancel"
+msgstr "不，取消"
+
+msgid "Notification Settings"
+msgstr "通知設定"
+
+msgid "November"
+msgstr "十一月"
+
+msgid "Number of events to display per page"
+msgstr "每頁顯示的事件數量"
+
+msgid "Number of occurrences"
+msgstr "出現次數"
+
+msgid "Occurrences"
+msgstr "事件"
+
+msgid "October"
+msgstr "十月"
+
+msgid "of"
+msgstr "的"
+
+msgid "On"
+msgstr "在"
+
+msgid "On Waitlist"
+msgstr "候補名單"
+
+msgid "Oops! Something went wrong"
+msgstr "糟糕！出問題了"
+
+msgid "Opening Apple Calendar to add event..."
+msgstr "開啟 Apple 日曆新增事件..."
+
+msgid "Opening Google Calendar to add event..."
+msgstr "開啟 Google 日曆新增活動..."
+
+msgid "Opening Outlook Calendar to add event..."
+msgstr "開啟 Outlook 行事曆新增事件..."
+
+msgid "Optional - defaults to event start time"
+msgstr "可選 - 預設為事件開始時間"
+
+msgid "Optional - leave empty for single-time events"
+msgstr "可選 - 僅用於一次性活動，請留空。"
+
+msgid "Options"
+msgstr "選項"
+
+msgid "Options have been reset to default values. Click Save to apply changes."
+msgstr "選項已重設為預設值。點選“儲存”以應用變更。"
+
+msgid "Options Reset"
+msgstr "選項重置"
+
+msgid "Options saved successfully"
+msgstr "選項已成功儲存"
+
+msgid "Or manually enter details"
+msgstr "或手動輸入詳細資訊"
+
+msgid "Outlook"
+msgstr "前景"
+
+msgid "Pacific Time"
+msgstr "太平洋時間"
+
+msgid "Page"
+msgstr "頁"
+
+msgid "Paris"
+msgstr "巴黎"
+
+msgid "Part of a recurring series"
+msgstr "系列的一部分"
+
+msgid "PAST"
+msgstr "過去的"
+
+msgid "Past"
+msgstr "過去的"
+
+msgid "Past Events"
+msgstr "往事"
+
+msgid "people"
+msgstr "人們"
+
+msgid "Platform/Provider"
+msgstr "平台/提供者"
+
+msgid "Please click here to renew your license"
+msgstr "請點選此處續訂您的授權"
+
+msgid "Please enter a license key."
+msgstr "請輸入授權金鑰。"
+
+msgid "Please log in to register for events"
+msgstr "請登入註冊活動"
+
+msgid ""
+"Please provide the following information to complete your registration for"
+msgstr "請提供以下資訊以完成您的註冊。"
+
+msgid "Please try again"
+msgstr "請重試"
+
+msgid "PM"
+msgstr "午安"
+
+msgid "Position"
+msgstr "位置"
+
+# Pagination
+msgid "Previous"
+msgstr "以前的"
+
+msgid "Price"
+msgstr "價格"
+
+msgid "Price must be a number"
+msgstr "價格必須為數字"
+
+msgid "Private Event"
+msgstr "私人活動"
+
+msgid "Promote"
+msgstr "推動"
+
+msgid "Public Event"
+msgstr "公共活動"
+
+msgid "Publish Event"
+msgstr "發布活動"
+
+msgid "Published"
+msgstr "已發布"
+
+msgid "Recommended: 800x400px or larger"
+msgstr "建議尺寸：800x400像素或更大"
+
+# Recurring Events
+msgid "Recurring Event"
+msgstr "重複事件"
+
+# My Events Page
+msgid "Refresh"
+msgstr "重新整理"
+
+# Registration
+msgid "Register"
+msgstr "登記"
+
+msgid "Register for Event"
+msgstr "註冊參加活動"
+
+msgid "Registering..."
+msgstr "註冊..."
+
+msgid "Registration"
+msgstr "登記"
+
+msgid "Registration Cancelled"
+msgstr "註冊已取消"
+
+msgid "Registration cancelled successfully"
+msgstr "註冊已成功取消"
+
+msgid "Registration Closed"
+msgstr "報名已關閉"
+
+msgid "Registration Closes"
+msgstr "報名截止。"
+
+msgid "Registration closes:"
+msgstr "報名截止："
+
+msgid "Registration Confirmed"
+msgstr "註冊已確認"
+
+msgid "Registration Date"
+msgstr "註冊日期"
+
+msgid "Registration Deadline"
+msgstr "報名截止日期"
+
+msgid "Registration deleted successfully"
+msgstr "註冊資訊已成功刪除"
+
+msgid "Registration editing will be available in a future update"
+msgstr "註冊資訊編輯功能將在未來的更新中推出。"
+
+msgid "Registration Form"
+msgstr "報名表"
+
+msgid "Registration Full"
+msgstr "註冊已完成"
+
+msgid "Registration not found"
+msgstr "註冊資訊找不到"
+
+msgid "Registration Opens"
+msgstr "註冊開放"
+
+msgid "Registration Rate"
+msgstr "註冊率"
+
+msgid "Registration successful"
+msgstr "註冊成功"
+
+msgid "registration(s)"
+msgstr "註冊"
+
+msgid "registration(s) deleted successfully"
+msgstr "註冊資訊已成功刪除"
+
+msgid "Registrations"
+msgstr "註冊"
+
+msgid "Reminder Timing"
+msgstr "提醒時間"
+
+msgid "Remove"
+msgstr "消除"
+
+msgid "Remove Attendee"
+msgstr "移除與會者"
+
+msgid "Removed from Waitlist"
+msgstr "已從候補名單中移除"
+
+msgid "Repeat"
+msgstr "重複"
+
+msgid "Repeat Every"
+msgstr "重複所有"
+
+msgid "Repeat every"
+msgstr "重複所有步驟"
+
+msgid "Repeat on"
+msgstr "重複"
+
+msgid "Require Approval"
+msgstr "需要批准"
+
+msgid "Require custom registration form"
+msgstr "需要自訂註冊表單"
+
+msgid "Reset to Defaults"
+msgstr "恢復預設設定"
+
+msgid "results"
+msgstr "結果"
+
+msgid "Saturday"
+msgstr "週六"
+
+# Actions
+msgid "Save"
+msgstr "節省"
+
+msgid "Save Event"
+msgstr "保存事件"
+
+msgid "Save Options"
+msgstr "儲存選項"
+
+msgid "Saving..."
+msgstr "儲存..."
+
+msgid "Search Events"
+msgstr "搜尋事件"
+
+# Events List Page
+msgid "Search events..."
+msgstr "搜尋事件..."
+
+msgid "Search for a member"
+msgstr "尋找成員"
+
+msgid "Search Users"
+msgstr "搜尋使用者"
+
+msgid "Searching"
+msgstr "搜尋"
+
+msgid "Select All"
+msgstr "全選"
+
+msgid "Select an existing template or create a custom form"
+msgstr "選擇現有範本或建立自訂表單"
+
+msgid "Select category..."
+msgstr "選擇類別..."
+
+msgid "selected"
+msgstr "已選"
+
+msgid "Selected events and their recurring instances deleted successfully"
+msgstr "選定事件及其重複實例已成功刪除"
+
+msgid "Selected events deleted successfully"
+msgstr "選定事件已成功刪除"
+
+msgid "Selected events duplicated successfully"
+msgstr "選定事件已成功複製"
+
+msgid "Selected User"
+msgstr "選定使用者"
+
+msgid "Selected:"
+msgstr "已選："
+
+msgid "September"
+msgstr "九月"
+
+msgid "Set the default timezone for event times"
+msgstr "設定活動時間的預設時區"
+
+msgid "Shanghai"
+msgstr "上海"
+
+msgid "Short Summary"
+msgstr "簡要概述"
+
+msgid "Show"
+msgstr "展示"
+
+msgid "Show Categories"
+msgstr "顯示類別"
+
+msgid "Show category filters"
+msgstr "顯示類別篩選器"
+
+msgid "Show Past Events"
+msgstr "顯示過往活動"
+
+msgid "Show past events by default"
+msgstr "預設顯示過往事件"
+
+msgid "Show search functionality on events list"
+msgstr "在事件清單中顯示搜尋功能"
+
+msgid "Showing"
+msgstr "顯示"
+
+msgid ""
+"Some of the selected events are part of recurring series. What would you "
+"like to delete?"
+msgstr "部分選定活動屬於系列活動。您想刪除哪些活動？"
+
+msgid "Something went wrong"
+msgstr "出問題了"
+
+msgid "Sort By"
+msgstr "排序方式"
+
+msgid "Spots Remaining"
+msgstr "剩餘名額"
+
+msgid "spots taken"
+msgstr "拍攝地點"
+
+msgid "Start Date"
+msgstr "開始日期"
+
+msgid "Start Date & Time"
+msgstr "開始日期和時間"
+
+msgid "Start Time"
+msgstr "開始時間"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Status:"
+msgstr "狀態："
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Success! 🎉"
+msgstr "成功了！ 🎉"
+
+# Day names
+msgid "Sunday"
+msgstr "星期日"
+
+msgid "Sydney"
+msgstr "雪梨"
+
+msgid "TBD"
+msgstr "待定"
+
+msgid "The FCA Events license needs to be activated."
+msgstr "需要啟動 FCA 賽事授權。"
+
+msgid "The URL where participants can join the virtual event"
+msgstr "參與者可以加入虛擬活動的網址"
+
+msgid "This action cannot be undone."
+msgstr "此操作無法撤銷。"
+
+msgid ""
+"This event is part of a recurring series. What would you like to delete?"
+msgstr "此活動是系列活動的一部分。您想刪除哪些內容？"
+
+msgid "This is a reminder for your upcoming event"
+msgstr "這是您即將參加的活動的提醒"
+
+msgid "This is a virtual/online event"
+msgstr "這是一場線上/虛擬活動"
+
+msgid "This Month"
+msgstr "本月"
+
+msgid "This Week"
+msgstr "本星期"
+
+msgid "Thursday"
+msgstr "週四"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "Time Format"
+msgstr "時間格式"
+
+msgid "Time is required"
+msgstr "需要時間"
+
+msgid "Time TBD"
+msgstr "時間待定"
+
+msgid "Timezone"
+msgstr "時區"
+
+# Form Labels
+msgid "Title"
+msgstr "標題"
+
+msgid "Title (A-Z)"
+msgstr "標題（A-Z）"
+
+msgid "Title (Z-A)"
+msgstr "標題（Z-A）"
+
+# Validation Messages
+msgid "Title is required"
+msgstr "標題為必填項"
+
+msgid "to"
+msgstr "到"
+
+msgid "Today"
+msgstr "今天"
+
+msgid "Tokyo"
+msgstr "東京"
+
+msgid "Tomorrow"
+msgstr "明天"
+
+msgid "Total Attendees"
+msgstr "總出席人數"
+
+# Statistics
+msgid "Total Events"
+msgstr "總事件"
+
+msgid "Total Registrations"
+msgstr "註冊總數"
+
+msgid "Try adjusting your filters to find events."
+msgstr "嘗試調整篩選條件以尋找活動。"
+
+msgid "Tuesday"
+msgstr "週二"
+
+msgid "Type name or email to search..."
+msgstr "輸入姓名或信箱地址搜尋…"
+
+msgid "Unpublish Event"
+msgstr "取消發布活動"
+
+msgid "Unregister"
+msgstr "取消註冊"
+
+msgid "Until"
+msgstr "直到"
+
+msgid "UPCOMING"
+msgstr "即將推出"
+
+msgid "Upcoming"
+msgstr "即將推出"
+
+msgid "Upcoming Events"
+msgstr "即將舉行的活動"
+
+msgid "Update Event"
+msgstr "更新事件"
+
+msgid "Use this space to provide detailed information about your event."
+msgstr "請在此處提供有關您活動的詳細資訊。"
+
+msgid "User added successfully"
+msgstr "使用者新增成功"
+
+msgid "User already registered"
+msgstr "使用者已註冊"
+
+msgid "User removed successfully"
+msgstr "使用者已成功移除"
+
+msgid "Venue Name"
+msgstr "場地名稱"
+
+msgid "View"
+msgstr "看法"
+
+msgid "View Event"
+msgstr "查看活動"
+
+msgid "View Event Statistics"
+msgstr "查看活動統計資訊"
+
+msgid "View Registrations"
+msgstr "查看註冊資訊"
+
+msgid "Virtual"
+msgstr "虛擬的"
+
+msgid "Virtual Event"
+msgstr "虛擬活動"
+
+msgid "Virtual Event Instructions"
+msgstr "虛擬活動須知"
+
+msgid "Visual cards with images"
+msgstr "帶有圖片的視覺卡片"
+
+# Waitlist
+msgid "Waitlist"
+msgstr "候補名單"
+
+msgid "Waitlist entry deleted successfully"
+msgstr "候補名單條目已成功刪除"
+
+msgid "Waitlist Full"
+msgstr "候補名單已滿"
+
+msgid "Waitlist joined successfully"
+msgstr "已成功加入候補名單"
+
+msgid "Waitlist left successfully"
+msgstr "候補名單已成功退出"
+
+msgid "Waitlist Position"
+msgstr "候補名單位置"
+
+msgid "Watch Video"
+msgstr "觀看影片"
+
+msgid "Wednesday"
+msgstr "週三"
+
+msgid "week"
+msgstr "星期"
+
+msgid "Weekly"
+msgstr "每週"
+
+msgid "Weeks"
+msgstr "週"
+
+msgid "weeks"
+msgstr "週"
+
+msgid "Welcome to"
+msgstr "歡迎來到"
+
+msgid "When"
+msgstr "什麼時候"
+
+msgid ""
+"When event is full, allow users to join a waitlist. They will be "
+"automatically promoted when spots become available."
+msgstr "活動名額已滿時，允許使用者加入候補名單。當有空位時，候補名單上的使用者將自動獲得入場資格。"
+
+msgid "Where"
+msgstr "在哪裡"
+
+msgid "year"
+msgstr "年"
+
+msgid "Yearly"
+msgstr "每年"
+
+msgid "Years"
+msgstr "年"
+
+msgid "years"
+msgstr "年"
+
+msgid "Yes, delete it"
+msgstr "是的，刪除它"
+
+msgid ""
+"You are all set for this event. We will send you updates as the date "
+"approaches."
+msgstr "您已為本次活動做好一切準備。我們將隨著活動日期的臨近向您發送最新消息。"
+
+msgid "You are on the waitlist for this event. Your position:"
+msgstr "您已進入本次活動的候補名單。您的排名："
+
+# Additional strings for Vue component
+msgid "You are registered!"
+msgstr "您已成功註冊！"
+
+msgid "You do not have permission to manage event options."
+msgstr "您沒有管理活動選項的權限。"
+
+msgid "You do not have permission to manage event registrations."
+msgstr "您沒有管理活動註冊的權限。"
+
+msgid "You do not have permission to perform this action"
+msgstr "您沒有執行此操作的權限"
+
+msgid "You have been added to the waitlist. Your position:"
+msgstr "您已被加入候補名單。您的排名："
+
+msgid "You have been removed from the waitlist"
+msgstr "您已從候補名單中移除。"
+
+msgid "You have not registered for any upcoming events yet."
+msgstr "您尚未註冊參加任何即將舉行的活動。"
+
+msgid "You have successfully registered for"
+msgstr "您已成功註冊。"
+
+msgid "You have successfully registered for this event!"
+msgstr "您已成功報名參加本次活動！"
+
+msgid "You have successfully unregistered from this event"
+msgstr "您已成功取消註冊本次活動"
+
+msgid "You will be automatically promoted if a spot becomes available."
+msgstr "如果有空缺職位，您將自動晉升。"
+
+msgid "Your browser does not support the video tag."
+msgstr "您的瀏覽器不支援影片標籤。"
+
+msgid "Your event history will appear here."
+msgstr "您的活動歷史記錄將顯示在此。"
+
+msgid "Your FCA Events license has expired at"
+msgstr "您的 FCA 活動授權已過期。"
+
+msgid "Your license has expired at"
+msgstr "您的授權已過期。"
+
+msgid "Your registration has been cancelled for"
+msgstr "您的註冊已被取消。"
+
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#
+# Missing translations added 2026-02-25 07:11
+#
+
+msgid "Add New Event"
+msgstr "新增活動"
+
+msgid "Add New"
+msgstr "新增"
+
+msgid "Email Templates"
+msgstr "電子郵件模板"
+
+msgid "Event Tags"
+msgstr "活動標籤"
+
+msgid "Tags"
+msgstr "標籤"
+
+msgid "Event Utils"
+msgstr "活動工具"
+
+msgid "Events Dashboard"
+msgstr "活動儀表板"
+
+msgid "Create New Event"
+msgstr "建立新活動"
+
+msgid "View All Events"
+msgstr "檢視所有活動"
+
+msgid "Recent Events"
+msgstr "近期活動"
+
+msgid "No events found."
+msgstr "找不到任何活動。"
+
+msgid "Email templates are now managed using the new template system. You can:"
+msgstr "電子郵件模板現在使用新的模板系統管理。您可以："
+
+msgid "Manage Email Templates"
+msgstr "管理電子郵件模板"
+
+msgid "Create and edit email templates using the WordPress editor"
+msgstr "使用 WordPress 編輯器建立和編輯電子郵件模板"
+
+msgid "Create New Template"
+msgstr "建立新模板"
+
+msgid "Create a new email template"
+msgstr "建立新的電子郵件模板"
+
+msgid "Template Categories"
+msgstr "模板分類"
+
+msgid "Default Template"
+msgstr "預設模板"
+
+msgid "Registration Confirmation"
+msgstr "報名確認"
+
+msgid "Waitlist Notification"
+msgstr "候補通知"
+
+msgid "Registration Cancellation"
+msgstr "取消報名"
+
+msgid "None"
+msgstr "無"
+
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+msgid "Show Events Menu in Community Navigation"
+msgstr "在社群導覽列中顯示活動選單"
+
+msgid "Display the Events menu in the frontend community navigation."
+msgstr "在前端社群導覽列中顯示活動選單。"
+
+msgid "Save Settings"
+msgstr "儲存設定"
+
+msgid "Configure general event display and behavior"
+msgstr "設定活動顯示方式與行為"
+
+msgid "Configure email notification preferences"
+msgstr "設定電子郵件通知偏好"
+
+msgid "Email Notifications"
+msgstr "電子郵件通知"
+
+msgid "Registration Canceled"
+msgstr "報名已取消"
+
+msgid "Event Updated"
+msgstr "活動已更新"
+
+msgid "You're In! Confirmed for: %s"
+msgstr "報名成功！已確認參加：%s"
+
+msgid "Hello %s,"
+msgstr "%s 您好，"
+
+msgid "Your registration for \"%s\" has been confirmed!"
+msgstr "您報名「%s」的申請已確認！"
+
+msgid "You have been added to the waitlist for \"%s\"."
+msgstr "您已被加入「%s」的候補名單。"
+
+msgid "Your position on the waitlist is: %d"
+msgstr "您在候補名單上的順位為：%d"
+
+msgid "You will be automatically promoted to confirmed status if a spot becomes available, and you will receive an email notification."
+msgstr "如果有名額釋出，您將自動晉升為已確認狀態，並會收到電子郵件通知。"
+
+msgid "Event Details:"
+msgstr "活動詳情："
+
+msgid "Title: "
+msgstr "標題："
+
+msgid "Date & Time: "
+msgstr "日期與時間："
+
+msgid "Venue: "
+msgstr "場地："
+
+msgid "Location: "
+msgstr "地點："
+
+msgid "Description:"
+msgstr "描述："
+
+msgid "Thank you for registering!"
+msgstr "感謝您的報名！"
+
+msgid "You are now confirmed for \"%s\"."
+msgstr "您已確認參加「%s」。"
+
+msgid "We look forward to seeing you at the event!"
+msgstr "期待在活動中與您見面！"
+
+msgid "Your registration for \"%s\" has been cancelled as requested."
+msgstr "您報名「%s」的申請已依要求取消。"
+
+msgid "If you have any questions, please contact us."
+msgstr "如有任何問題，請與我們聯繫。"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Hours"
+msgstr "小時"
+
+msgid "Add Another Reminder"
+msgstr "新增提醒"
+
+msgid "Subject"
+msgstr "主旨"
+
+msgid "Message"
+msgstr "訊息"
+
+msgid "Available placeholders:"
+msgstr "可用的佔位符："
+
+msgid "Save Changes"
+msgstr "儲存變更"
+
+msgid "The name of your website"
+msgstr "您的網站名稱"
+
+msgid "The title of the event"
+msgstr "活動標題"
+
+msgid "The date of the event"
+msgstr "活動日期"
+
+msgid "The time of the event"
+msgstr "活動時間"
+
+msgid "The location of the event"
+msgstr "活動地點"
+
+msgid "The name of the registered user"
+msgstr "報名者姓名"
+
+msgid "The email of the registered user"
+msgstr "報名者電子郵件"
+
+msgid "The unique registration ID"
+msgstr "唯一報名編號"
+
+msgid "Email Template"
+msgstr "電子郵件模板"
+
+msgid "Add New Template"
+msgstr "新增模板"
+
+msgid "Edit Template"
+msgstr "編輯模板"
+
+msgid "New Template"
+msgstr "新模板"
+
+msgid "View Template"
+msgstr "檢視模板"
+
+msgid "Search Templates"
+msgstr "搜尋模板"
+
+msgid "No templates found"
+msgstr "找不到模板"
+
+msgid "No templates found in Trash"
+msgstr "回收桶中找不到模板"
+
+msgid "Template Category"
+msgstr "模板分類"
+
+msgid "Template Settings"
+msgstr "模板設定"
+
+msgid "Set as default template for this category"
+msgstr "設為此分類的預設模板"
+
+msgid "Email Subject"
+msgstr "電子郵件主旨"
+
+msgid "Event title"
+msgstr "活動標題"
+
+msgid "Event date"
+msgstr "活動日期"
+
+msgid "Event time"
+msgstr "活動時間"
+
+msgid "Event location"
+msgstr "活動地點"
+
+msgid "User name"
+msgstr "使用者名稱"
+
+msgid "User email"
+msgstr "使用者電子郵件"
+
+msgid "Registration ID"
+msgstr "報名編號"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Default Registration Confirmation"
+msgstr "預設報名確認"
+
+msgid "Registration Confirmation: {event_title}"
+msgstr "報名確認：{event_title}"
+
+msgid "Default Event Reminder"
+msgstr "預設活動提醒"
+
+msgid "Reminder: {event_title} is Coming Soon"
+msgstr "提醒：{event_title} 即將開始"
+
+msgid "Default Waitlist Notification"
+msgstr "預設候補通知"
+
+msgid "Waitlist Confirmation: {event_title}"
+msgstr "候補確認：{event_title}"
+
+msgid "Default Cancellation Notification"
+msgstr "預設取消通知"
+
+msgid "Registration Canceled: {event_title}"
+msgstr "報名取消：{event_title}"
+
+msgid "Default Event Update Notification"
+msgstr "預設活動更新通知"
+
+msgid "Event Update: {event_title}"
+msgstr "活動更新：{event_title}"
+
+msgid "Event Archives"
+msgstr "活動彙整"
+
+msgid "Event Attributes"
+msgstr "活動屬性"
+
+msgid "Parent Event:"
+msgstr "上層活動："
+
+msgid "New Event"
+msgstr "新活動"
+
+msgid "View Events"
+msgstr "檢視活動"
+
+msgid "Search Event"
+msgstr "搜尋活動"
+
+msgid "Not found"
+msgstr "找不到"
+
+msgid "Not found in Trash"
+msgstr "回收桶中找不到"
+
+msgid "Event Featured Image"
+msgstr "活動精選圖片"
+
+msgid "Set event featured image"
+msgstr "設定活動精選圖片"
+
+msgid "Remove event featured image"
+msgstr "移除活動精選圖片"
+
+msgid "Use as event featured image"
+msgstr "用作活動精選圖片"
+
+msgid "Insert into event"
+msgstr "插入至活動"
+
+msgid "Uploaded to this event"
+msgstr "已上傳至此活動"
+
+msgid "Events list"
+msgstr "活動列表"
+
+msgid "Events list navigation"
+msgstr "活動列表導覽"
+
+msgid "Filter events list"
+msgstr "篩選活動列表"
+
+msgid "Community Events"
+msgstr "社群活動"
+
+msgid "Search Categories"
+msgstr "搜尋分類"
+
+msgid "Parent Category"
+msgstr "上層分類"
+
+msgid "Parent Category:"
+msgstr "上層分類："
+
+msgid "Edit Category"
+msgstr "編輯分類"
+
+msgid "Update Category"
+msgstr "更新分類"
+
+msgid "New Category Name"
+msgstr "新分類名稱"
+
+msgid "Search Tags"
+msgstr "搜尋標籤"
+
+msgid "Popular Tags"
+msgstr "熱門標籤"
+
+msgid "All Tags"
+msgstr "所有標籤"
+
+msgid "Edit Tag"
+msgstr "編輯標籤"
+
+msgid "Update Tag"
+msgstr "更新標籤"
+
+msgid "Add New Tag"
+msgstr "新增標籤"
+
+msgid "New Tag Name"
+msgstr "新標籤名稱"
+
+msgid "Separate tags with commas"
+msgstr "以逗號分隔標籤"
+
+msgid "Add or remove tags"
+msgstr "新增或移除標籤"
+
+msgid "Choose from the most used tags"
+msgstr "從最常使用的標籤中選擇"
+
+msgid "No tags found."
+msgstr "找不到標籤。"
+
+msgid "Registration Settings"
+msgstr "報名設定"
+
+msgid "Start Date & Time:"
+msgstr "開始日期與時間："
+
+msgid "End Date & Time:"
+msgstr "結束日期與時間："
+
+msgid "Venue:"
+msgstr "場地："
+
+msgid "Location/Address:"
+msgstr "地點/地址："
+
+msgid "Enable Registration"
+msgstr "啟用報名"
+
+msgid "Event Capacity:"
+msgstr "活動人數上限："
+
+msgid "Leave empty for unlimited"
+msgstr "留空表示不限人數"
+
+msgid "Registration Deadline:"
+msgstr "報名截止日期："
+
+msgid "Enable Custom Registration Form"
+msgstr "啟用自訂報名表單"
+
+msgid "When enabled, attendees will need to fill out a custom form before registration is complete."
+msgstr "啟用後，參加者需要填寫自訂表單才能完成報名。"
+
+msgid "Form Template:"
+msgstr "表單模板："
+
+msgid "Create Custom Form for this Event"
+msgstr "為此活動建立自訂表單"
+
+msgid "Select an existing form template, or leave blank to create a custom form for this event only."
+msgstr "選擇現有的表單模板，或留空以僅為此活動建立自訂表單。"
+
+msgid "Manage Form Templates"
+msgstr "管理表單模板"
+
+msgid "Use the Event Editor in the community portal to build forms and manage templates."
+msgstr "使用社群入口的活動編輯器來建立表單和管理模板。"
+
+msgid "Disabled"
+msgstr "已停用"
+
+msgid "You do not have permission to view this event"
+msgstr "您沒有權限檢視此活動"
+
+msgid "Failed to create event"
+msgstr "建立活動失敗"
+
+msgid "Failed to update event"
+msgstr "更新活動失敗"
+
+msgid "Successfully added to waitlist"
+msgstr "已成功加入候補名單"
+
+msgid "Successfully registered for event"
+msgstr "已成功報名活動"
+
+msgid "Successfully unregistered from event"
+msgstr "已成功取消活動報名"
+
+msgid "No registration IDs provided"
+msgstr "未提供報名編號"
+
+msgid "Failed to delete registrations: %s"
+msgstr "刪除報名失敗：%s"
+
+msgid "You do not have permission to delete this event"
+msgstr "您沒有權限刪除此活動"
+
+msgid "No event IDs provided"
+msgstr "未提供活動編號"
+
+msgid "Event ID %d not found"
+msgstr "找不到活動編號 %d"
+
+msgid "No permission to delete event ID %d"
+msgstr "沒有權限刪除活動編號 %d"
+
+msgid "Failed to delete event ID %d"
+msgstr "刪除活動編號 %d 失敗"
+
+msgid "Failed to delete events: %s"
+msgstr "刪除活動失敗：%s"
+
+msgid "Failed to duplicate event ID %d"
+msgstr "複製活動編號 %d 失敗"
+
+msgid "Failed to duplicate events: %s"
+msgstr "複製活動失敗：%s"
+
+msgid "Invalid options data"
+msgstr "選項資料無效"
+
+msgid "Events per page must be between 5 and 50"
+msgstr "每頁活動數必須介於 5 到 50 之間"
+
+msgid "Invalid default view"
+msgstr "預設檢視方式無效"
+
+msgid "Invalid reminder timing"
+msgstr "提醒時間無效"
+
+msgid "Invalid date format"
+msgstr "日期格式無效"
+
+msgid "Invalid time format"
+msgstr "時間格式無效"
+
+msgid "Invalid timezone"
+msgstr "時區無效"
+
+msgid "Invalid timezone display mode"
+msgstr "時區顯示模式無效"
+
+msgid "Registration promoted successfully"
+msgstr "報名晉升成功"
+
+msgid "Name and email are required for manual registration"
+msgstr "手動報名需要填寫姓名和電子郵件"
+
+msgid "A registration with this email already exists"
+msgstr "此電子郵件已有報名紀錄"
+
+msgid "This event is full"
+msgstr "此活動已額滿"
+
+msgid "Registration failed. Please try again."
+msgstr "報名失敗，請再試一次。"
+
+msgid "Search query is required"
+msgstr "請輸入搜尋關鍵字"
+
+msgid "Failed to retrieve categories"
+msgstr "取得分類失敗"
+
+msgid "Category name is required"
+msgstr "請輸入分類名稱"
+
+msgid "A category with this name already exists"
+msgstr "此名稱的分類已存在"
+
+msgid "Failed to create category"
+msgstr "建立分類失敗"
+
+msgid "Category created successfully"
+msgstr "分類建立成功"
+
+msgid "Parent Events:"
+msgstr "上層活動："
+
+msgid "No events found in Trash."
+msgstr "回收桶中找不到活動。"
+
+msgid "You are already registered for this event"
+msgstr "您已經報名此活動"
+
+msgid "Registration deadline has passed"
+msgstr "報名截止日期已過"
+
+msgid "You are not registered for this event"
+msgstr "您尚未報名此活動"
+
+msgid "Unregistration failed. Please try again."
+msgstr "取消報名失敗，請再試一次。"
+
+msgid "This registration is not on the waitlist"
+msgstr "此報名不在候補名單上"
+
+msgid "Failed to promote registration"
+msgstr "晉升報名失敗"
+
+msgid "FCA Events requires Fluent Community to be installed and activated."
+msgstr "FCA Events 需要安裝並啟用 Fluent Community。"
+
+msgctxt "Post Type General Name"
+msgid "Events"
+msgstr "活動"
+
+msgctxt "Post Type Singular Name"
+msgid "Event"
+msgstr "活動"
+
+msgctxt "taxonomy general name"
+msgid "Event Categories"
+msgstr "活動分類"
+
+msgctxt "taxonomy singular name"
+msgid "Event Category"
+msgstr "活動分類"
+
+msgctxt "taxonomy general name"
+msgid "Event Tags"
+msgstr "活動標籤"
+
+msgctxt "taxonomy singular name"
+msgid "Event Tag"
+msgstr "活動標籤"
+
+msgctxt "post type general name"
+msgid "Events"
+msgstr "活動"
+
+msgctxt "post type singular name"
+msgid "Event"
+msgstr "活動"
+
+msgctxt "admin menu"
+msgid "Events"
+msgstr "活動"
+
+msgctxt "add new on admin bar"
+msgid "Event"
+msgstr "活動"
+
+msgctxt "event"
+msgid "Add New"
+msgstr "新增"
+
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 小時"
+
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "%d 週"
+
+msgid "Successfully deleted %d registration"
+msgid_plural "Successfully deleted %d registrations"
+msgstr[0] "已成功刪除 %d 筆報名"
+
+msgid "Successfully deleted %d event"
+msgid_plural "Successfully deleted %d events"
+msgstr[0] "已成功刪除 %d 個活動"
+
+msgid "Successfully duplicated %d event"
+msgid_plural "Successfully duplicated %d events"
+msgstr[0] "已成功複製 %d 個活動"
+

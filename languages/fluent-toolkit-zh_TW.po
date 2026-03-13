@@ -1,0 +1,47 @@
+# Translation of Fluent Toolkit in Traditional Chinese (Taiwan)
+# Copyright (C) 2026
+# This file is distributed under the same license as the Fluent Toolkit plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Toolkit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-13\n"
+"PO-Revision-Date: 2026-03-13\n"
+"Last-Translator: \n"
+"Language-Team: Traditional Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fluent-toolkit\n"
+
+msgid "A plugin dedicated to test beta features and functionalities before go live."
+msgstr "專為在正式上線前測試 Beta 功能的外掛。"
+
+msgid "Fluent Toolkit"
+msgstr "Fluent Toolkit"
+
+msgid "Invalid nonce."
+msgstr "無效的 nonce。"
+
+msgid "No beta version found."
+msgstr "找不到 Beta 版本。"
+
+msgid "No version found."
+msgstr "找不到版本。"
+
+msgid "Plugin installed successfully."
+msgstr "外掛安裝成功。"
+
+msgid "Plugin is already up to date."
+msgstr "外掛已是最新版本。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "WPManageNinja"
+msgstr "WPManageNinja"
+
+msgid "You do not have permission to install a plugin."
+msgstr "您沒有安裝外掛的權限。"

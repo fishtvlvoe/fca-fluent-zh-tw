@@ -1,0 +1,208 @@
+# Copyright (C) 2025 Fluent Community Add-ons
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Multi Reactions 1.0.0\n"
+"Report-Msgid-Bugs-To: https://fluentcommunityaddons.com/\n"
+"POT-Creation-Date: 2025-01-01T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-12-05 19:00+0000\n"
+"Last-Translator: fish yu\n"
+"Language-Team: 繁體中文\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: fca-multi-reactions\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8"
+
+#: views/admin-settings.php:165
+msgid "+ Add"
+msgstr "+ 新增"
+
+#: views/admin-settings.php:149
+msgid "Border thickness around each emoji to create visual separation."
+msgstr "每個表情符號周圍都有加粗的邊框，以創造視覺上的分隔感。"
+
+#: views/admin-settings.php:240
+msgid ""
+"Changing or disabling reactions will not affect existing reactions in the "
+"database. They will simply not be displayed."
+msgstr "更改或停用反應不會影響資料庫中已有的反應。它們只會不再顯示。"
+
+#: views/admin-settings.php:94
+msgid ""
+"Choose which emoji to use for comment reactions (replaces the default heart)."
+msgstr "選擇用於評論反應的表情符號（替換預設的愛心）。"
+
+#: views/admin-settings.php:72
+msgid "Comment Reaction Emoji"
+msgstr "評論表情符號"
+
+#: views/admin-settings.php:160
+msgid ""
+"Configure the available reaction types. Drag to reorder, toggle to "
+"enable/disable."
+msgstr "設定可用的反應類型。拖曳即可重新排序，切換即可啟用/停用。"
+
+#: views/admin-settings.php:101
+msgid "Counter Display Emojis"
+msgstr "櫃檯展示表情符號"
+
+#: views/admin-settings.php:124
+msgid "Emoji Overlap"
+msgstr "表情符號重疊"
+
+#: views/admin-settings.php:140
+msgid "Emoji Stroke"
+msgstr "表情符號描邊"
+
+#: views/admin-settings.php:57
+msgid "Enable Comment Reactions"
+msgstr "啟用評論反應"
+
+#: views/admin-settings.php:42
+msgid "Enable Multi-Reactions"
+msgstr "啟用多重反應"
+
+#: views/admin-settings.php:62
+msgid "Enable reaction functionality on comments"
+msgstr "啟用評論的回覆功能"
+
+#. Description of the plugin
+msgid ""
+"Enhanced reaction system with multiple reaction types (like, love, laugh, "
+"wow, sad, angry) for Fluent Community posts and comments. Replace the "
+"default heart reaction with a dropdown picker featuring six emoji reactions."
+msgstr ""
+"Fluent Community "
+"的貼文和評論新增了增強型表情系統，支援多種表情類型（按讚、喜歡、笑、哇、難過、生氣）。預設的心形表情被替換為包含六個表情符號的下拉選擇器。"
+
+#: includes/class-reactions-api.php:898
+msgid "Failed to update reaction type."
+msgstr "反應類型更新失敗。"
+
+#. Plugin Name of the plugin
+msgid "FCA Multi Reactions"
+msgstr "FCA多重反應"
+
+#: fca-multi-reactions.php:45
+msgid ""
+"FCA Multi-Reactions requires Fluent Community to be installed and activated."
+msgstr "FCA Multi-Reactions 需要安裝並啟動 Fluent Community。"
+
+#: includes/class-reactions-admin.php:32 views/admin-settings.php:27
+msgid "FCA Multi-Reactions Settings"
+msgstr "FCA多重反應設定"
+
+#. Author of the plugin
+msgid "Fluent Community Add-ons"
+msgstr "Fluent 社群外掛"
+
+#: views/admin-settings.php:37
+msgid "General Settings"
+msgstr "常規設定"
+
+#: views/admin-settings.php:117
+msgid ""
+"How many reaction emojis to show in the counter summary next to reaction "
+"counts."
+msgstr "在反應計數旁邊的計數器摘要中顯示多少個反應表情符號？"
+
+#: views/admin-settings.php:133
+msgid ""
+"How much the emojis overlap each other in the summary. Higher = more overlap."
+msgstr "摘要中表情符號的重疊程度。數值越高，重疊越多。"
+
+#: includes/class-reactions-api.php:42 includes/class-reactions-api.php:118
+#: includes/class-reactions-api.php:158 includes/class-reactions-api.php:332
+#: includes/class-reactions-api.php:466 includes/class-reactions-api.php:591
+#: includes/class-reactions-api.php:854
+msgid "Invalid object ID."
+msgstr "無效的物件 ID。"
+
+#: includes/class-reactions-api.php:47 includes/class-reactions-api.php:861
+msgid "Invalid reaction type."
+msgstr "無效的反應類型。"
+
+#: includes/class-reactions-admin.php:33
+msgid "Multi-Reactions"
+msgstr "多反應"
+
+#: includes/class-reactions-api.php:875
+msgid "No existing reaction found to update."
+msgstr "找不到可更新的現有反應。"
+
+#: includes/class-reactions-api.php:387
+msgid "No valid feed IDs provided."
+msgstr "未提供有效的訂閱源 ID。"
+
+#: views/admin-settings.php:239
+msgid "Note:"
+msgstr "筆記："
+
+#: includes/class-reactions-api.php:98
+msgid "Reaction added successfully."
+msgstr "反應已成功新增。"
+
+#: includes/class-reactions-api.php:142
+msgid "Reaction removed successfully."
+msgstr "反應物已成功去除。"
+
+#: includes/class-reactions-api.php:892
+msgid "Reaction type updated successfully."
+msgstr "反應類型已成功更新。"
+
+#: views/admin-settings.php:158
+msgid "Reaction Types"
+msgstr "反應類型"
+
+#: views/admin-settings.php:47
+msgid "Replace default heart reactions with multi-reactions"
+msgstr "將預設心臟反應替換為多重反應"
+
+#: views/admin-settings.php:250
+msgid "Reset to Defaults"
+msgstr "恢復預設設定"
+
+#: views/admin-settings.php:246
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: includes/class-reactions-admin.php:399
+#: includes/class-reactions-admin.php:415
+msgid "Settings have been reset to defaults."
+msgstr "設定已重設為預設值。"
+
+#: includes/class-reactions-admin.php:410
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: views/admin-settings.php:50
+msgid ""
+"When enabled, the default Fluent Community heart reaction will be replaced "
+"with multiple reaction options."
+msgstr "啟用後，Fluent Community 的預設心形表情將會被多個表情選項取代。"
+
+#: views/admin-settings.php:65
+msgid ""
+"When enabled, users can react to comments with multiple emoji options. If "
+"disabled, comments will use the default Fluent Community reaction system."
+msgstr "啟用此功能後，使用者可以使用多種表情符號選項回應評論。如果停用此功能，則評論將使用 Fluent Community 的預設回覆系統。"
+
+#: includes/class-reactions-admin.php:393
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限來存取此頁面。"
+
+#: includes/class-reactions-api.php:34
+msgid "You must be logged in to react."
+msgstr "您必須登入才能發表評論。"
+
+#: includes/class-reactions-api.php:111
+msgid "You must be logged in to remove reaction."
+msgstr "您必須登入才能刪除評論。"
+
+#: includes/class-reactions-api.php:846
+msgid "You must be logged in to update reactions."
+msgstr "您必須登入才能更新評論。"

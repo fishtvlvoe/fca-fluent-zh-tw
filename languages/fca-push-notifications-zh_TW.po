@@ -1,0 +1,2751 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Push Notifications 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-11 00:00+0000\n"
+"PO-Revision-Date: 2026-03-11 00:00+0800\n"
+"Last-Translator: BuyGo <info@aiver.me>\n"
+"Language-Team: Traditional Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Claude Code\n"
+
+#: fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-banner.php
+
+#: includes/class-fca-push-widget.php
+
+#: includes/class-fca-push-widget.php
+
+#: includes/class-fca-push-widget.php
+
+#: includes/class-fca-push-widget.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/admin-settings.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-log.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: includes/class-fca-push-notifications.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-dashboard.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-settings.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-testing.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-subscribers.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: views/tabs/tab-help.php
+
+#: includes/class-fca-push-user-settings.php
+
+#: includes/class-fca-push-profile-widget.php
+
+msgid "FCA Push Notifications requires Fluent Community to be installed and activated."
+msgstr "FCA Push Notifications 需要安裝並啟用 Fluent Community。"
+
+msgid "Enable Notifications"
+msgstr "啟用通知"
+
+msgid "Get notified about new activity in"
+msgstr "接收以下新動態通知"
+
+msgid "Enable"
+msgstr "啟用"
+
+msgid "Not now"
+msgstr "暫時不要"
+
+msgid "Enabling..."
+msgstr "啟用中..."
+
+msgid "Successfully subscribed to push notifications!"
+msgstr "已成功訂閱推播通知！"
+
+msgid "Failed to subscribe to push notifications"
+msgstr "訂閱推播通知失敗"
+
+msgid "Notification permission denied. Please enable in browser settings."
+msgstr "通知權限已被拒絕，請在瀏覽器設定中啟用。"
+
+msgid "Push notifications not supported in this browser."
+msgstr "此瀏覽器不支援推播通知。"
+
+msgid "Invalid subscription data"
+msgstr "無效的訂閱資料"
+
+msgid "Failed to extract subscription keys"
+msgstr "無法擷取訂閱金鑰"
+
+msgid "Failed to save subscription to server"
+msgstr "無法將訂閱儲存至伺服器"
+
+msgid "Security check failed"
+msgstr "安全性驗證失敗"
+
+msgid "User not logged in"
+msgstr "使用者未登入"
+
+msgid "Notification preferences saved successfully"
+msgstr "通知偏好設定已儲存"
+
+msgid "Insufficient permissions"
+msgstr "權限不足"
+
+msgid "Banner dismissed"
+msgstr "橫幅已關閉"
+
+msgid "Stay Connected!"
+msgstr "保持連線！"
+
+msgid "Get instant notifications about new messages, posts, and community updates."
+msgstr "即時接收新訊息、新文章及社群動態通知。"
+
+msgid "Not Now"
+msgstr "暫時不要"
+
+msgid "Notifications enabled successfully!"
+msgstr "通知已成功啟用！"
+
+msgid "Notifications are blocked. Please enable them in your browser settings."
+msgstr "通知已被封鎖，請在瀏覽器設定中啟用。"
+
+msgid "Notifications require a secure connection (HTTPS)."
+msgstr "通知需要安全連線 (HTTPS)。"
+
+msgid "Notifications are not supported in this browser."
+msgstr "此瀏覽器不支援通知功能。"
+
+msgid "Failed to enable notifications. Please try again."
+msgstr "啟用通知失敗，請再試一次。"
+
+msgid "Widget dismissed"
+msgstr "小工具已關閉"
+
+msgid "Stay updated with instant notifications."
+msgstr "透過即時通知隨時掌握最新動態。"
+
+msgid "Notifications enabled!"
+msgstr "通知已啟用！"
+
+msgid "Notifications blocked. Enable in browser settings."
+msgstr "通知已被封鎖，請在瀏覽器設定中啟用。"
+
+msgid "Push Notifications"
+msgstr "推播通知"
+
+msgid "Manage your push notification preferences"
+msgstr "管理你的推播通知偏好設定"
+
+msgid "Current Status"
+msgstr "目前狀態"
+
+msgid "Browser Support"
+msgstr "瀏覽器支援"
+
+msgid "Permission"
+msgstr "權限"
+
+msgid "Subscription"
+msgstr "訂閱"
+
+msgid "Granted"
+msgstr "已授予"
+
+msgid "Denied"
+msgstr "已拒絕"
+
+msgid "Not Requested"
+msgstr "尚未請求"
+
+msgid "Active"
+msgstr "啟用中"
+
+msgid "Inactive"
+msgstr "未啟用"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Test Notification"
+msgstr "測試通知"
+
+msgid "Send PWA Test Notification"
+msgstr "傳送 PWA 測試通知"
+
+msgid "Send a test notification only to PWA subscriptions (Android WebAPK)"
+msgstr "僅對 PWA 訂閱（Android WebAPK）傳送測試通知"
+
+msgid "Sending PWA-only test notification..."
+msgstr "正在傳送 PWA 測試通知..."
+
+msgid "PWA test notification sent successfully"
+msgstr "PWA 測試通知已成功傳送"
+
+msgid "Failed to send PWA test notification"
+msgstr "傳送 PWA 測試通知失敗"
+
+msgid "No PWA subscription found for your account. Open the PWA, enable notifications, and try again."
+msgstr "找不到你帳號的 PWA 訂閱。請開啟 PWA、啟用通知後再試一次。"
+
+msgid "Failed to send PWA test notification. Check server logs for details."
+msgstr "傳送 PWA 測試通知失敗，請查看伺服器日誌了解詳情。"
+
+msgid "Error sending PWA test notification."
+msgstr "傳送 PWA 測試通知時發生錯誤。"
+
+msgid "Fatal error sending PWA test notification."
+msgstr "傳送 PWA 測試通知時發生嚴重錯誤。"
+
+msgid "PWA test notification sent to %d device."
+msgstr "PWA 測試通知已傳送至 %d 台裝置。"
+
+msgid "PWA test notification sent to %d devices."
+msgstr "PWA 測試通知已傳送至 %d 台裝置。"
+
+msgid "Unsubscribe"
+msgstr "取消訂閱"
+
+msgid "Permission denied. Please enable notifications in your browser settings."
+msgstr "權限被拒絕，請在瀏覽器設定中啟用通知。"
+
+msgid "Push notification system not initialized. Please refresh the page."
+msgstr "推播通知系統尚未初始化，請重新整理頁面。"
+
+msgid "Failed to enable push notifications. Please try again."
+msgstr "啟用推播通知失敗，請再試一次。"
+
+msgid "Test notification sent! You should receive it shortly."
+msgstr "測試通知已傳送！你應該很快就會收到。"
+
+msgid "Failed to send test notification:"
+msgstr "傳送測試通知失敗："
+
+msgid "Failed to send test notification. Please try again."
+msgstr "傳送測試通知失敗，請再試一次。"
+
+msgid "Are you sure you want to unsubscribe from push notifications?"
+msgstr "確定要取消訂閱推播通知嗎？"
+
+msgid "Failed to unsubscribe. Please try again."
+msgstr "取消訂閱失敗，請再試一次。"
+
+msgid "Dashboard"
+msgstr "儀表板"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Testing"
+msgstr "測試"
+
+msgid "Subscribers"
+msgstr "訂閱者"
+
+msgid "Notification Log"
+msgstr "通知記錄"
+
+msgid "Help"
+msgstr "說明"
+
+msgid "Real-time notifications for your community"
+msgstr "為你的社群提供即時通知"
+
+msgid "Welcome to Push Notifications"
+msgstr "歡迎使用推播通知"
+
+msgid "Monitor your push notification system status and subscriber engagement"
+msgstr "監控推播通知系統狀態與訂閱者互動情況"
+
+msgid "Push Notifications Disabled"
+msgstr "推播通知已停用"
+
+msgid "Enable push notifications in Settings to start sending notifications to your users."
+msgstr "請在設定中啟用推播通知，開始向使用者發送通知。"
+
+msgid "VAPID Keys Required"
+msgstr "需要 VAPID 金鑰"
+
+msgid "Generate VAPID keys in Settings to enable push notifications."
+msgstr "請在設定中產生 VAPID 金鑰以啟用推播通知。"
+
+msgid "Quick Stats"
+msgstr "快速統計"
+
+msgid "Last 7 Days"
+msgstr "最近 7 天"
+
+msgid "Total Subscribers"
+msgstr "總訂閱數"
+
+msgid "Active Users"
+msgstr "活躍使用者"
+
+msgid "Notifications Sent"
+msgstr "已發送通知"
+
+msgid "Device Distribution"
+msgstr "裝置分佈"
+
+msgid "Breakdown of subscribers by device platform"
+msgstr "依裝置平台分類的訂閱者統計"
+
+msgid "Desktop"
+msgstr "桌面版"
+
+msgid "Android"
+msgstr "Android"
+
+msgid "iOS"
+msgstr "iOS"
+
+msgid "Integration Status"
+msgstr "整合狀態"
+
+msgid "Fluent Community"
+msgstr "Fluent Community"
+
+msgid "Better Messages"
+msgstr "Better Messages"
+
+msgid "Fluent Messaging"
+msgstr "Fluent Messaging"
+
+msgid "FCA PWA"
+msgstr "FCA PWA"
+
+msgid "Connected"
+msgstr "已連線"
+
+msgid "Disabled"
+msgstr "已停用"
+
+msgid "Not installed"
+msgstr "未安裝"
+
+msgid "Enable or disable push notifications for your site"
+msgstr "啟用或停用網站的推播通知"
+
+msgid "Turn on push notifications for your community members"
+msgstr "為社群成員開啟推播通知"
+
+msgid "VAPID Keys"
+msgstr "VAPID 金鑰"
+
+msgid "VAPID keys are required for secure push notifications"
+msgstr "安全的推播通知需要 VAPID 金鑰"
+
+msgid "Public Key"
+msgstr "公開金鑰"
+
+msgid "Private Key"
+msgstr "私密金鑰"
+
+msgid "Subject Email"
+msgstr "主旨信箱"
+
+msgid "Contact email for push notification service (used in VAPID subject)"
+msgstr "推播通知服務的聯絡信箱（用於 VAPID 主旨）"
+
+msgid "VAPID Keys Configured"
+msgstr "VAPID 金鑰已設定"
+
+msgid "Your VAPID keys are configured and ready to use."
+msgstr "你的 VAPID 金鑰已設定完成，可以使用了。"
+
+msgid "Generate New Keys"
+msgstr "產生新金鑰"
+
+msgid "Local Development Note"
+msgstr "本機開發備註"
+
+msgid "Notification Icon"
+msgstr "通知圖示"
+
+msgid "Customize the icon shown in push notifications"
+msgstr "自訂推播通知顯示的圖示"
+
+msgid "Icon URL"
+msgstr "圖示網址"
+
+msgid "Upload Icon"
+msgstr "上傳圖示"
+
+msgid "Notification Popup Settings"
+msgstr "通知彈出視窗設定"
+
+msgid "Customize how users are prompted to enable push notifications"
+msgstr "自訂提示使用者啟用推播通知的方式"
+
+msgid "Popup Type"
+msgstr "彈出視窗類型"
+
+msgid "Banner (Bottom)"
+msgstr "橫幅（底部）"
+
+msgid "Banner (Top)"
+msgstr "橫幅（頂部）"
+
+msgid "Bottom Right"
+msgstr "右下角"
+
+msgid "Bottom Left"
+msgstr "左下角"
+
+msgid "Enable Sidebar Widget"
+msgstr "啟用側邊欄小工具"
+
+msgid "Show a notification prompt in the Fluent Community sidebar"
+msgstr "在 Fluent Community 側邊欄顯示通知提示"
+
+msgid "Delay Before Showing (seconds)"
+msgstr "顯示前延遲（秒）"
+
+msgid "Dismiss Days"
+msgstr "關閉天數"
+
+msgid "Days to wait before showing the popup again if dismissed"
+msgstr "關閉後需等待幾天才會再次顯示彈出視窗"
+
+msgid "Popup Title"
+msgstr "彈出視窗標題"
+
+msgid "Popup Message"
+msgstr "彈出視窗訊息"
+
+msgid "Enable Button Text"
+msgstr "啟用按鈕文字"
+
+msgid "Dismiss Button Text"
+msgstr "關閉按鈕文字"
+
+msgid "Integrations"
+msgstr "整合"
+
+msgid "Enable Fluent Community Integration"
+msgstr "啟用 Fluent Community 整合"
+
+msgid "Event Types"
+msgstr "事件類型"
+
+msgid "Configure which Fluent Community events trigger push notifications"
+msgstr "設定哪些 Fluent Community 事件會觸發推播通知"
+
+msgid "New Posts"
+msgstr "新文章"
+
+msgid "Feed Created"
+msgstr "動態已建立"
+
+msgid "New Comments"
+msgstr "新留言"
+
+msgid "Comment"
+msgstr "留言"
+
+msgid "Mentions"
+msgstr "提及"
+
+msgid "Mention"
+msgstr "提及"
+
+msgid "New Followers"
+msgstr "新追蹤者"
+
+msgid "New Follower"
+msgstr "新追蹤者"
+
+msgid "New Space Member"
+msgstr "新空間成員"
+
+msgid "Join Request"
+msgstr "加入申請"
+
+msgid "Better Messages Integration"
+msgstr "Better Messages 整合"
+
+msgid "Enable Better Messages Notifications"
+msgstr "啟用 Better Messages 通知"
+
+msgid "Fluent Messaging Integration"
+msgstr "Fluent Messaging 整合"
+
+msgid "Enable Fluent Messaging Notifications"
+msgstr "啟用 Fluent Messaging 通知"
+
+msgid "Advanced Settings"
+msgstr "進階設定"
+
+msgid "Fine-tune your push notification system"
+msgstr "微調你的推播通知系統"
+
+msgid "Logged-in Users Only"
+msgstr "僅限登入使用者"
+
+msgid "Only allow logged-in users to subscribe to push notifications"
+msgstr "僅允許已登入的使用者訂閱推播通知"
+
+msgid "Automatic Cleanup"
+msgstr "自動清理"
+
+msgid "Expired and invalid subscriptions are automatically removed when notifications fail."
+msgstr "當通知發送失敗時，過期和無效的訂閱會自動移除。"
+
+msgid "Debug Mode"
+msgstr "除錯模式"
+
+msgid "Enable console logging for troubleshooting. Disable for production sites."
+msgstr "啟用主控台記錄以進行疑難排解，正式網站請停用。"
+
+msgid "Save Settings"
+msgstr "儲存設定"
+
+msgid "Generating..."
+msgstr "產生中..."
+
+msgid "VAPID Keys Generated"
+msgstr "VAPID 金鑰已產生"
+
+msgid "New VAPID keys have been generated and populated. Click \"Save Settings\" below to apply them."
+msgstr "新的 VAPID 金鑰已產生並填入，請點擊下方「儲存設定」套用。"
+
+msgid "Failed to generate VAPID keys:"
+msgstr "產生 VAPID 金鑰失敗："
+
+msgid "Unknown error"
+msgstr "未知錯誤"
+
+msgid "Failed to generate VAPID keys. Please try again."
+msgstr "產生 VAPID 金鑰失敗，請再試一次。"
+
+msgid "Select Notification Icon"
+msgstr "選擇通知圖示"
+
+msgid "Use this image"
+msgstr "使用此圖片"
+
+msgid "Testing Tools"
+msgstr "測試工具"
+
+msgid "Comprehensive testing suite for push notifications"
+msgstr "推播通知的完整測試套件"
+
+msgid "Enable push notifications in Settings to use testing tools."
+msgstr "請在設定中啟用推播通知以使用測試工具。"
+
+msgid "Generate VAPID keys in Settings to use testing tools."
+msgstr "請在設定中產生 VAPID 金鑰以使用測試工具。"
+
+msgid "Quick Tests"
+msgstr "快速測試"
+
+msgid "Essential tests to verify your push notification system"
+msgstr "驗證推播通知系統的基本測試"
+
+msgid "Check Browser"
+msgstr "檢查瀏覽器"
+
+msgid "Check if your browser supports push notifications"
+msgstr "檢查你的瀏覽器是否支援推播通知"
+
+msgid "Check Subscription"
+msgstr "檢查訂閱"
+
+msgid "Check your current subscription status"
+msgstr "檢查你目前的訂閱狀態"
+
+msgid "Send Test Push"
+msgstr "傳送測試推播"
+
+msgid "Send a push notification to yourself"
+msgstr "傳送推播通知給自己"
+
+msgid "Request Permission"
+msgstr "請求權限"
+
+msgid "Request browser notification permission"
+msgstr "請求瀏覽器通知權限"
+
+msgid "Desktop Notification"
+msgstr "桌面通知"
+
+msgid "Show a desktop notification directly"
+msgstr "直接顯示桌面通知"
+
+msgid "Debug Push System"
+msgstr "偵錯推播系統"
+
+msgid "Run system diagnostics"
+msgstr "執行系統診斷"
+
+msgid "Advanced Tests"
+msgstr "進階測試"
+
+msgid "Advanced testing for integration and mobile devices"
+msgstr "整合及行動裝置的進階測試"
+
+msgid "Test FC Integration"
+msgstr "測試 FC 整合"
+
+msgid "Test Fluent Community integration"
+msgstr "測試 Fluent Community 整合"
+
+msgid "Mobile Notification"
+msgstr "行動裝置通知"
+
+msgid "Send mobile-optimized notification"
+msgstr "傳送行動裝置最佳化通知"
+
+msgid "Check Device Type"
+msgstr "檢查裝置類型"
+
+msgid "Detect current device type (Android, iOS, Windows, Firefox)"
+msgstr "偵測目前裝置類型（Android、iOS、Windows、Firefox）"
+
+msgid "Clear Current Device"
+msgstr "清除目前裝置"
+
+msgid "Unsubscribe this device"
+msgstr "取消訂閱此裝置"
+
+msgid "Diagnose Permissions"
+msgstr "診斷權限"
+
+msgid "Check notification permissions and troubleshoot issues"
+msgstr "檢查通知權限並排除問題"
+
+msgid "View Subscriptions"
+msgstr "檢視訂閱"
+
+msgid "Display all active push subscriptions"
+msgstr "顯示所有有效的推播訂閱"
+
+msgid "Debug Log"
+msgstr "除錯記錄"
+
+msgid "Clear Log"
+msgstr "清除記錄"
+
+msgid "Debug log ready. Click any test button to begin."
+msgstr "除錯記錄已就緒，點擊任一測試按鈕開始。"
+
+msgid "Configuration"
+msgstr "設定"
+
+msgid "Current configuration and environment details"
+msgstr "目前的設定與環境詳細資訊"
+
+msgid "Enabled"
+msgstr "已啟用"
+
+msgid "HTTPS"
+msgstr "HTTPS"
+
+msgid "HTTPS Recommended"
+msgstr "建議使用 HTTPS"
+
+msgid "Configured"
+msgstr "已設定"
+
+msgid "Missing"
+msgstr "缺少"
+
+msgid "This will unsubscribe your current device. Continue?"
+msgstr "這將會取消訂閱你目前的裝置，要繼續嗎？"
+
+msgid "Manage %s active push notification subscriptions"
+msgstr "管理 %s 個有效的推播通知訂閱"
+
+msgid "Refresh"
+msgstr "重新整理"
+
+msgid "Cleanup Invalid"
+msgstr "清理無效訂閱"
+
+msgid "Unique Users"
+msgstr "不重複使用者"
+
+msgid "User"
+msgstr "使用者"
+
+msgid "Device"
+msgstr "裝置"
+
+msgid "Subscribed"
+msgstr "已訂閱"
+
+msgid "Endpoint"
+msgstr "端點"
+
+msgid "Guest"
+msgstr "訪客"
+
+msgid "Test"
+msgstr "測試"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Previous"
+msgstr "上一頁"
+
+msgid "Page %d of %d"
+msgstr "第 %d 頁，共 %d 頁"
+
+msgid "Next"
+msgstr "下一頁"
+
+msgid "No Subscribers Yet"
+msgstr "目前沒有訂閱者"
+
+msgid "Subscribers will appear here once users opt-in to push notifications"
+msgstr "使用者選擇加入推播通知後，訂閱者將會顯示在這裡"
+
+msgid "Bulk Actions"
+msgstr "批次操作"
+
+msgid "Manage multiple subscriptions at once"
+msgstr "一次管理多個訂閱"
+
+msgid "Use with Caution"
+msgstr "請謹慎使用"
+
+msgid "Bulk operations cannot be undone. Make sure you understand what each action does."
+msgstr "批次操作無法復原，請確認你了解每個操作的功能。"
+
+msgid "Send Test to All"
+msgstr "傳送測試給所有人"
+
+msgid "Clear All Subscriptions"
+msgstr "清除所有訂閱"
+
+msgid "This will remove invalid and expired subscriptions. Continue?"
+msgstr "這將會移除無效和過期的訂閱，要繼續嗎？"
+
+msgid "Cleanup complete! Removed %d invalid subscriptions."
+msgstr "清理完成！已移除 %d 個無效訂閱。"
+
+msgid "Cleanup failed:"
+msgstr "清理失敗："
+
+msgid "Error during cleanup. Please try again."
+msgstr "清理時發生錯誤，請再試一次。"
+
+msgid "Test notification sent!"
+msgstr "測試通知已傳送！"
+
+msgid "Failed:"
+msgstr "失敗："
+
+msgid "Error sending test notification"
+msgstr "傳送測試通知時發生錯誤"
+
+msgid "Delete this subscription?"
+msgstr "要刪除此訂閱嗎？"
+
+msgid "Failed to delete subscription"
+msgstr "刪除訂閱失敗"
+
+msgid "Error deleting subscription"
+msgstr "刪除訂閱時發生錯誤"
+
+msgid "Send a test notification to ALL subscribers?"
+msgstr "要傳送測試通知給所有訂閱者嗎？"
+
+msgid "Sending..."
+msgstr "傳送中..."
+
+msgid "Test notifications sent to all subscribers!"
+msgstr "測試通知已傳送給所有訂閱者！"
+
+msgid "Error sending test notifications"
+msgstr "傳送測試通知時發生錯誤"
+
+msgid "WARNING: This will delete ALL subscriptions. This cannot be undone. Continue?"
+msgstr "警告：這將會刪除所有訂閱，此操作無法復原。要繼續嗎？"
+
+msgid "Are you absolutely sure? All users will need to re-subscribe."
+msgstr "你確定嗎？所有使用者都需要重新訂閱。"
+
+msgid "All subscriptions cleared"
+msgstr "所有訂閱已清除"
+
+msgid "Failed to clear subscriptions"
+msgstr "清除訂閱失敗"
+
+msgid "Error clearing subscriptions"
+msgstr "清除訂閱時發生錯誤"
+
+msgid "macOS"
+msgstr "macOS"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Chrome"
+msgstr "Chrome"
+
+msgid "Firefox"
+msgstr "Firefox"
+
+msgid "Safari"
+msgstr "Safari"
+
+msgid "Edge"
+msgstr "Edge"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "View recent push notifications sent from your site. Use this to verify notifications are working correctly."
+msgstr "檢視從你網站傳送的近期推播通知，用來確認通知是否正常運作。"
+
+msgid "Total Entries"
+msgstr "總筆數"
+
+msgid "Sent"
+msgstr "已傳送"
+
+msgid "Failed"
+msgstr "失敗"
+
+msgid "Max Size"
+msgstr "最大容量"
+
+msgid "No notifications logged yet"
+msgstr "目前沒有通知記錄"
+
+msgid "Notifications will appear here as they are sent. Try sending a test notification to see it in action."
+msgstr "通知傳送後會顯示在這裡，試著傳送一則測試通知看看效果。"
+
+msgid "Send Test Notification"
+msgstr "傳送測試通知"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Type"
+msgstr "類型"
+
+msgid "Title"
+msgstr "標題"
+
+msgid "Recipient"
+msgstr "收件者"
+
+msgid "Triggered By"
+msgstr "觸發者"
+
+msgid "Time"
+msgstr "時間"
+
+msgid "ago"
+msgstr "前"
+
+msgid "Log Settings"
+msgstr "記錄設定"
+
+msgid "Configure how many notification entries to keep in the log."
+msgstr "設定記錄中要保留多少筆通知。"
+
+msgid "Maximum Log Entries"
+msgstr "最大記錄筆數"
+
+msgid "Older entries will be automatically removed when the limit is reached."
+msgstr "達到上限時，較舊的記錄會自動移除。"
+
+msgid "Save Log Settings"
+msgstr "儲存記錄設定"
+
+msgid "Are you sure you want to clear the notification log? This cannot be undone."
+msgstr "確定要清除通知記錄嗎？此操作無法復原。"
+
+msgid "Failed to clear log"
+msgstr "清除記錄失敗"
+
+msgid "An error occurred"
+msgstr "發生錯誤"
+
+msgid "Getting Started"
+msgstr "開始使用"
+
+msgid "Quick start guide to push notifications"
+msgstr "推播通知快速入門指南"
+
+msgid "Generate VAPID Keys"
+msgstr "產生 VAPID 金鑰"
+
+msgid "Configure Integrations"
+msgstr "設定整合"
+
+msgid "Test Your Setup"
+msgstr "測試你的設定"
+
+msgid "Monitor Subscribers"
+msgstr "監控訂閱者"
+
+msgid "Requirements"
+msgstr "需求"
+
+msgid "What you need for push notifications to work"
+msgstr "推播通知運作所需的條件"
+
+msgid "HTTPS (Recommended)"
+msgstr "HTTPS（建議）"
+
+msgid "Push notifications work best with HTTPS. Some browsers require it."
+msgstr "推播通知在 HTTPS 下運作最佳，部分瀏覽器要求必須使用。"
+
+msgid "Modern Browser"
+msgstr "現代瀏覽器"
+
+msgid "Chrome, Firefox, Edge, Safari (iOS 16.4+), and Opera support push notifications."
+msgstr "Chrome、Firefox、Edge、Safari（iOS 16.4+）及 Opera 支援推播通知。"
+
+msgid "User Permission"
+msgstr "使用者權限"
+
+msgid "Users must grant notification permission when prompted by their browser."
+msgstr "使用者必須在瀏覽器提示時授予通知權限。"
+
+msgid "Required for secure push notification authentication. Generated automatically."
+msgstr "安全推播通知驗證所需，自動產生。"
+
+msgid "How It Works"
+msgstr "運作方式"
+
+msgid "Understanding the push notification flow"
+msgstr "了解推播通知流程"
+
+msgid "1. User Subscription"
+msgstr "1. 使用者訂閱"
+
+msgid "2. Event Triggers"
+msgstr "2. 事件觸發"
+
+msgid "3. Notification Delivery"
+msgstr "3. 通知傳送"
+
+msgid "4. User Interaction"
+msgstr "4. 使用者互動"
+
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
+msgid "Common issues and how to fix them"
+msgstr "常見問題及解決方式"
+
+msgid "Notifications not being received"
+msgstr "沒有收到通知"
+
+msgid "Check the following:"
+msgstr "請檢查以下事項："
+
+msgid "Push notifications are enabled in Settings"
+msgstr "已在設定中啟用推播通知"
+
+msgid "VAPID keys are configured"
+msgstr "已設定 VAPID 金鑰"
+
+msgid "User has granted notification permission"
+msgstr "使用者已授予通知權限"
+
+msgid "Browser supports push notifications"
+msgstr "瀏覽器支援推播通知"
+
+msgid "User is subscribed (check Subscribers tab)"
+msgstr "使用者已訂閱（請檢查訂閱者分頁）"
+
+msgid "Permission request not showing"
+msgstr "未顯示權限請求"
+
+msgid "Notifications work on desktop but not mobile"
+msgstr "通知在桌面版正常但行動裝置無效"
+
+msgid "Mobile push notifications require:"
+msgstr "行動裝置推播通知需要："
+
+msgid "HTTPS (mandatory for mobile)"
+msgstr "HTTPS（行動裝置必須）"
+
+msgid "iOS 16.4 or later for Safari"
+msgstr "Safari 需 iOS 16.4 或更新版本"
+
+msgid "Chrome, Firefox, or Edge on Android"
+msgstr "Android 上的 Chrome、Firefox 或 Edge"
+
+msgid "User to add site to home screen (iOS)"
+msgstr "使用者需將網站加到主畫面（iOS）"
+
+msgid "Error: \"Subscription expired\""
+msgstr "錯誤：「訂閱已過期」"
+
+msgid "VAPID key mismatch error"
+msgstr "VAPID 金鑰不符錯誤"
+
+msgid "Browser Compatibility"
+msgstr "瀏覽器相容性"
+
+msgid "Which browsers support push notifications"
+msgstr "哪些瀏覽器支援推播通知"
+
+msgid "Browser"
+msgstr "瀏覽器"
+
+msgid "Note on iOS:"
+msgstr "iOS 注意事項："
+
+msgid "Best Practices"
+msgstr "最佳實踐"
+
+msgid "Tips for effective push notifications"
+msgstr "有效推播通知的建議"
+
+msgid "Request Permission at the Right Time"
+msgstr "在適當時機請求權限"
+
+msgid "Keep Messages Relevant"
+msgstr "保持訊息的相關性"
+
+msgid "Use Clear, Concise Text"
+msgstr "使用清楚簡潔的文字"
+
+msgid "Test Regularly"
+msgstr "定期測試"
+
+msgid "Monitor Subscription Health"
+msgstr "監控訂閱健康狀態"
+
+msgid "Need Help?"
+msgstr "需要幫助？"
+
+msgid "Get support and additional resources"
+msgstr "取得支援與更多資源"
+
+msgid "Still Having Issues?"
+msgstr "仍有問題？"
+
+msgid "Contact Support"
+msgstr "聯絡客服"
+
+msgid "FCA Push Notifications"
+msgstr "FCA 推播通知"
+
+msgid "Enable Push Notifications"
+msgstr "啟用推播通知"
+
+msgid "Setup Required"
+msgstr "需要設定"
+
+msgid "Notifications Enabled"
+msgstr "通知已啟用"
+
+msgid "Notifications Disabled"
+msgstr "通知已停用"
+
+msgid "Notification permission was denied"
+msgstr "通知權限已被拒絕"
+
+msgid "Notifications are blocked. Please enable in browser settings."
+msgstr "通知已被封鎖，請在瀏覽器設定中啟用。"
+
+msgid "Service worker not ready. Please refresh the page and try again."
+msgstr "Service Worker 尚未就緒，請重新整理頁面後再試。"
+
+msgid "Web Push server not initialized. Check VAPID keys in settings."
+msgstr "Web Push 伺服器尚未初始化，請在設定中確認 VAPID 金鑰。"
+
+msgid "Failed to subscribe to notifications"
+msgstr "訂閱通知失敗"
+
+msgid "Notifications enabled for this device!"
+msgstr "此裝置已啟用通知！"
+
+msgid "Notifications will be sent to your PWA"
+msgstr "通知將傳送至你的 PWA"
+
+msgid "Notifications will be sent to your browser"
+msgstr "通知將傳送至你的瀏覽器"
+
+msgid "Not logged in"
+msgstr "未登入"
+
+msgid "Device fingerprint required"
+msgstr "需要裝置識別碼"
+
+msgid "Invalid endpoint"
+msgstr "無效的端點"
+
+msgid "Thread ID required"
+msgstr "需要對話串 ID"
+
+msgid "Subscription not found or not owned by you"
+msgstr "找不到訂閱或該訂閱不屬於你"
+
+msgid "Subscription removed"
+msgstr "訂閱已移除"
+
+msgid "Failed to remove subscription"
+msgstr "移除訂閱失敗"
+
+msgid "Failed to register activity"
+msgstr "登錄活動失敗"
+
+msgid "Activity registered"
+msgstr "活動已登錄"
+
+msgid "Activity unregistered"
+msgstr "活動已取消登錄"
+
+msgid "Plugin Activation Error"
+msgstr "外掛啟用錯誤"
+
+msgid "Every Minute (FCA Push)"
+msgstr "每分鐘（FCA 推播）"
+
+msgid "PWA Integration Active"
+msgstr "PWA 整合已啟用"
+
+msgid "FCA PWA plugin detected. Push notifications will integrate with the PWA service worker for enhanced functionality."
+msgstr "偵測到 FCA PWA 外掛。推播通知將與 PWA Service Worker 整合以增強功能。"
+
+msgid "%1$s commented on your post: %2$s"
+msgstr "%1$s 在你的文章留言：%2$s"
+
+msgid "%1$s also commented on: %2$s"
+msgstr "%1$s 也在以下文章留言：%2$s"
+
+msgid "%1$s mentioned you in a comment"
+msgstr "%1$s 在留言中提及了你"
+
+msgid "%s mentioned you in a post"
+msgstr "%s 在文章中提及了你"
+
+msgid "%1$s loved your post: %2$s"
+msgstr "%1$s 對你的文章按了愛心：%2$s"
+
+msgid "%s is now following you"
+msgstr "%s 開始追蹤你了"
+
+msgid "%1$s requested to join %2$s"
+msgstr "%1$s 申請加入 %2$s"
+
+msgid "%1$s joined %2$s"
+msgstr "%1$s 加入了 %2$s"
+
+msgid "%1$s joined %2$s (request approved)"
+msgstr "%1$s 已加入 %2$s（申請已通過）"
+
+msgid "%1$s accepted the invitation to join %2$s"
+msgstr "%1$s 接受了加入 %2$s 的邀請"
+
+msgid "You have been added as %s in %s"
+msgstr "你已被新增為 %s 在 %2$s 中的成員"
+
+msgid "This is a test notification from FCA Push Notifications! If you see this, notifications are working correctly."
+msgstr "這是來自 FCA 推播通知的測試通知！如果你看到此訊息，表示通知正常運作。"
+
+msgid "This is a test notification from FCA Push Notifications! If you see this, notifications are working."
+msgstr "這是來自 FCA 推播通知的測試通知！如果你看到此訊息，表示通知正常運作。"
+
+msgid "New Community Post"
+msgstr "新社群文章"
+
+msgid "New Comment"
+msgstr "新留言"
+
+msgid "New Reply"
+msgstr "新回覆"
+
+msgid "New Reaction"
+msgstr "新按讚反應"
+
+msgid "Member Joined"
+msgstr "成員加入"
+
+msgid "Space Joined"
+msgstr "已加入空間"
+
+msgid "Space Member Joined"
+msgstr "空間成員加入"
+
+msgid "Space Join"
+msgstr "加入空間"
+
+msgid "Space Post"
+msgstr "空間文章"
+
+msgid "Space Join Requests"
+msgstr "空間加入申請"
+
+msgid "Role Updated"
+msgstr "角色已更新"
+
+msgid "Role Update"
+msgstr "角色更新"
+
+msgid "Role Updates"
+msgstr "角色更新"
+
+msgid "Reply"
+msgstr "回覆"
+
+msgid "Reaction"
+msgstr "按讚反應"
+
+msgid "Reactions"
+msgstr "按讚反應"
+
+msgid "Review"
+msgstr "審核"
+
+msgid "Someone"
+msgstr "某人"
+
+msgid "A moderator"
+msgstr "一位管理員"
+
+msgid "A new member"
+msgstr "一位新成員"
+
+msgid "a member"
+msgstr "一位成員"
+
+msgid "a new post"
+msgstr "一篇新文章"
+
+msgid "a space"
+msgstr "一個空間"
+
+msgid "the community"
+msgstr "社群"
+
+msgid "your post"
+msgstr "你的文章"
+
+msgid "You were mentioned"
+msgstr "你被提及了"
+
+msgid "View Post"
+msgstr "查看文章"
+
+msgid "View Profile"
+msgstr "查看個人檔案"
+
+msgid "View Space"
+msgstr "查看空間"
+
+msgid "View Thread"
+msgstr "查看對話串"
+
+msgid "View"
+msgstr "查看"
+
+msgid "Standalone Mode"
+msgstr "獨立模式"
+
+msgid "Removed %d subscription(s)"
+msgstr "已移除 %d 個訂閱"
+
+msgid "Cleared %d subscription(s)"
+msgstr "已清除 %d 個訂閱"
+
+msgid "Cleanup complete! Removed %d invalid subscription(s)"
+msgstr "清理完成！已移除 %d 個無效訂閱"
+
+msgid "User #%d"
+msgstr "使用者 #%d"
+
+msgid "Zero Configuration Required"
+msgstr "無需額外設定"
+
+msgid "Fluent Community Integration"
+msgstr "Fluent Community 整合"
+
+msgid "System Ready"
+msgstr "系統已就緒"
+
+msgid "Your push notification system is configured and ready to send notifications."
+msgstr "你的推播通知系統已設定完成，可以開始傳送通知。"
+
+msgid "Status of connected platforms and plugins"
+msgstr "已連線平台和外掛的狀態"
+
+msgid "Popup & Widget Settings"
+msgstr "彈出視窗與小工具設定"
+
+msgid "Popup Settings"
+msgstr "彈出視窗設定"
+
+msgid "Popup Style"
+msgstr "彈出視窗樣式"
+
+msgid "Choose how the notification prompt is displayed to users"
+msgstr "選擇通知提示向使用者顯示的方式"
+
+msgid "Popup (Floating)"
+msgstr "彈出視窗（浮動）"
+
+msgid "Popup Position"
+msgstr "彈出視窗位置"
+
+msgid "Position for the floating popup (only applies to \"Popup\" style)"
+msgstr "浮動彈出視窗的位置（僅適用於「彈出視窗」樣式）"
+
+msgid "Top Right"
+msgstr "右上角"
+
+msgid "Top Left"
+msgstr "左上角"
+
+msgid "Re-show After (days)"
+msgstr "重新顯示間隔（天）"
+
+msgid "Sidebar Widget"
+msgstr "側邊欄小工具"
+
+msgid "Show a push notification widget in the Fluent Community sidebar (desktop only)"
+msgstr "在 Fluent Community 側邊欄顯示推播通知小工具（僅限桌面版）"
+
+msgid "Widget Title"
+msgstr "小工具標題"
+
+msgid "Widget Message"
+msgstr "小工具訊息"
+
+msgid "Widget Button Text"
+msgstr "小工具按鈕文字"
+
+msgid "Widget Position (Sidebar)"
+msgstr "小工具位置（側邊欄）"
+
+msgid "Widget Position (Profile Page)"
+msgstr "小工具位置（個人檔案頁）"
+
+msgid "Choose where the push notification management widget appears on user profile pages"
+msgstr "選擇推播通知管理小工具在使用者個人檔案頁的顯示位置"
+
+msgid "Choose where the widget appears in the main activity sidebar"
+msgstr "選擇小工具在主要動態側邊欄的顯示位置"
+
+msgid "Top of Sidebar (Before content)"
+msgstr "側邊欄頂部（內容前）"
+
+msgid "Bottom of Sidebar (After content)"
+msgstr "側邊欄底部（內容後）"
+
+msgid "Top of Profile Sidebar (Before content)"
+msgstr "個人檔案側邊欄頂部（內容前）"
+
+msgid "Bottom of Profile Sidebar (After content)"
+msgstr "個人檔案側邊欄底部（內容後）"
+
+msgid "Notification Tray Icon"
+msgstr "通知托盤圖示"
+
+msgid "Customize the icon shown in the device notification tray/center when push notifications arrive"
+msgstr "自訂推播通知到達時，裝置通知托盤/中心顯示的圖示"
+
+msgid "Separate from PWA App Icon"
+msgstr "與 PWA 應用程式圖示分開設定"
+
+msgid "This icon appears in the notification tray when users receive push notifications. The PWA home screen icon is configured separately in the PWA plugin settings."
+msgstr "使用者收到推播通知時，此圖示會顯示在通知托盤中。PWA 主畫面圖示需在 PWA 外掛設定中另行設定。"
+
+msgid "Recommended size: 192x192 pixels. PNG format works best. If not set, defaults to your site icon."
+msgstr "建議尺寸：192x192 像素，PNG 格式效果最佳。未設定時，預設使用網站圖示。"
+
+msgid "Subject (mailto)"
+msgstr "主旨（mailto）"
+
+msgid "Paste your VAPID public key here..."
+msgstr "請在此貼上你的 VAPID 公開金鑰..."
+
+msgid "Paste your VAPID private key here..."
+msgstr "請在此貼上你的 VAPID 私密金鑰..."
+
+msgid "This key is shared with browsers to enable push subscriptions"
+msgstr "此金鑰與瀏覽器共用以啟用推播訂閱"
+
+msgid "Keep this key secret - it's used to sign push notifications"
+msgstr "請妥善保管此金鑰，它用於簽署推播通知"
+
+msgid "If you regenerate VAPID keys, all existing subscriptions become invalid. Use the \"Cleanup Invalid\" button in the Subscribers tab to remove them."
+msgstr "若你重新產生 VAPID 金鑰，所有現有訂閱都將失效。請使用訂閱者分頁中的「清理無效訂閱」按鈕來移除它們。"
+
+msgid "Generate keys using \"Generate New Keys\" button, or for local development, generate at"
+msgstr "使用「產生新金鑰」按鈕產生金鑰，或在本機開發時，可至以下網址產生："
+
+msgid "and paste them below."
+msgstr "然後貼到下方欄位。"
+
+msgid "and paste them into the fields below. Keys are editable!"
+msgstr "然後貼到下方欄位。金鑰可以手動編輯！"
+
+msgid "If key generation fails on local environments (LocalWP, MAMP, etc.), generate keys at"
+msgstr "若在本機環境（LocalWP、MAMP 等）產生金鑰失敗，請至以下網址產生："
+
+msgid "Note: Debug mode is also automatically enabled when WP_DEBUG is true."
+msgstr "注意：當 WP_DEBUG 設為 true 時，除錯模式也會自動啟用。"
+
+msgid "Notify post authors when someone comments"
+msgstr "有人留言時通知文章作者"
+
+msgid "Notify post authors when someone reacts to their post"
+msgstr "有人對文章按讚反應時通知文章作者"
+
+msgid "Notify users when someone follows them"
+msgstr "有人追蹤時通知使用者"
+
+msgid "Notify users when they are mentioned in posts or comments"
+msgstr "使用者在文章或留言中被提及時通知他們"
+
+msgid "Notify space members when new posts are created"
+msgstr "建立新文章時通知空間成員"
+
+msgid "Notify space admins when someone requests to join a private space"
+msgstr "有人申請加入私人空間時通知空間管理員"
+
+msgid "Notify space admins when a new member joins"
+msgstr "有新成員加入時通知空間管理員"
+
+msgid "Notify users when their role is updated in a space"
+msgstr "使用者在空間中的角色被更新時通知他們"
+
+msgid "Send push notifications for community events"
+msgstr "傳送社群事件的推播通知"
+
+msgid "Send push notifications for new chat messages"
+msgstr "傳送新聊天訊息的推播通知"
+
+msgid "Better Messages integration works automatically using official hooks. Just enable it below."
+msgstr "Better Messages 整合透過官方 hooks 自動運作，在下方啟用即可。"
+
+msgid "Send push notifications for Better Messages conversations"
+msgstr "傳送 Better Messages 對話的推播通知"
+
+msgid "Send push notifications for Fluent Messaging conversations"
+msgstr "傳送 Fluent Messaging 對話的推播通知"
+
+msgid "Send push notifications for new messages and unread counts"
+msgstr "傳送新訊息與未讀計數的推播通知"
+
+msgid "Push notifications are not enabled. Please enable them in Settings."
+msgstr "推播通知尚未啟用，請在設定中啟用。"
+
+msgid "Push notifications work best with HTTPS enabled. Some browsers require it for push notifications to function."
+msgstr "推播通知在啟用 HTTPS 時運作最佳，部分瀏覽器要求必須使用 HTTPS 才能運作。"
+
+msgid "Push subscriptions can expire. The plugin automatically removes expired subscriptions. Users will need to refresh the page to re-subscribe."
+msgstr "推播訂閱可能會過期，外掛會自動移除過期訂閱，使用者需重新整理頁面以重新訂閱。"
+
+msgid "The popup and sidebar widget are only shown to logged-in users. Guests will not see them or be prompted to subscribe."
+msgstr "彈出視窗和側邊欄小工具只向已登入的使用者顯示，訪客不會看到或被提示訂閱。"
+
+msgid "Go to Settings tab and click \"Generate New Keys\""
+msgstr "前往設定分頁並點選「產生新金鑰」"
+
+msgid "Toggle the enable switch in Settings"
+msgstr "在設定中切換啟用開關"
+
+msgid "Enable Fluent Community, Better Messages, etc."
+msgstr "啟用 Fluent Community、Better Messages 等"
+
+msgid "Use the Testing tab to send a test notification"
+msgstr "使用測試分頁傳送測試通知"
+
+msgid "Check the Subscribers tab to see who's subscribed"
+msgstr "查看訂閱者分頁以了解誰已訂閱"
+
+msgid "Allow notifications when your browser asks"
+msgstr "瀏覽器請求時允許通知"
+
+msgid "Click \"Enable Notifications\" button above"
+msgstr "點選上方「啟用通知」按鈕"
+
+msgid "How to enable push notifications"
+msgstr "如何啟用推播通知"
+
+msgid "Quick Status"
+msgstr "快速狀態"
+
+msgid "System Information"
+msgstr "系統資訊"
+
+msgid "Testing Environment Ready"
+msgstr "測試環境已就緒"
+
+msgid "Use the tools below to test your push notification system."
+msgstr "使用下方工具測試你的推播通知系統。"
+
+msgid "Real-time output from test operations"
+msgstr "測試操作的即時輸出"
+
+msgid "Test Browser Support"
+msgstr "測試瀏覽器支援"
+
+msgid "Test Desktop Notification"
+msgstr "測試桌面通知"
+
+msgid "Test Mobile Notification"
+msgstr "測試行動裝置通知"
+
+msgid "Test Fluent Community notification integration"
+msgstr "測試 Fluent Community 通知整合"
+
+msgid "Test data cleared"
+msgstr "測試資料已清除"
+
+msgid "Testing notifications..."
+msgstr "正在測試通知..."
+
+msgid "Run comprehensive system diagnostics"
+msgstr "執行完整系統診斷"
+
+msgid "Request notification permission from the browser"
+msgstr "向瀏覽器請求通知權限"
+
+msgid "Show a test notification using the browser Notification API"
+msgstr "使用瀏覽器 Notification API 顯示測試通知"
+
+msgid "Send a test push notification to your current device"
+msgstr "傳送測試推播通知至你目前的裝置"
+
+msgid "Verify if your browser is subscribed to push notifications"
+msgstr "確認你的瀏覽器是否已訂閱推播通知"
+
+msgid "Send notification optimized for mobile devices"
+msgstr "傳送針對行動裝置最佳化的通知"
+
+msgid "Unsubscribe current device from push notifications"
+msgstr "取消目前裝置的推播通知訂閱"
+
+msgid "Not Configured"
+msgstr "未設定"
+
+msgid "Not Supported"
+msgstr "不支援"
+
+msgid "Not Asked"
+msgstr "尚未詢問"
+
+msgid "Not Subscribed"
+msgstr "未訂閱"
+
+msgid "Not Available"
+msgstr "不可用"
+
+msgid "Not Registered"
+msgstr "未登錄"
+
+msgid "Not Installed"
+msgstr "未安裝"
+
+msgid "Supported"
+msgstr "支援"
+
+msgid "Ready"
+msgstr "就緒"
+
+msgid "Registered"
+msgstr "已登錄"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Permission Status"
+msgstr "權限狀態"
+
+msgid "Push Subscription"
+msgstr "推播訂閱"
+
+msgid "Service Worker"
+msgstr "Service Worker"
+
+msgid "Check your WordPress debug log for detailed error messages. Enable WP_DEBUG in wp-config.php to see diagnostic information."
+msgstr "請查看 WordPress 除錯日誌取得詳細錯誤訊息。在 wp-config.php 中啟用 WP_DEBUG 以查看診斷資訊。"
+
+msgid "The browser may have blocked permission requests. Users need to manually enable notifications in their browser settings, then refresh the page."
+msgstr "瀏覽器可能已封鎖權限請求。使用者需要在瀏覽器設定中手動啟用通知，然後重新整理頁面。"
+
+msgid "Total Subscriptions"
+msgstr "訂閱總數"
+
+msgid "Last Used"
+msgstr "最後使用"
+
+msgid "Loading subscriptions..."
+msgstr "載入訂閱中..."
+
+msgid "Failed to load subscriptions"
+msgstr "載入訂閱失敗"
+
+msgid "No subscriptions found"
+msgstr "找不到訂閱"
+
+msgid "No active subscriptions"
+msgstr "沒有有效訂閱"
+
+msgid "Subscribers will appear here once users opt-in to notifications"
+msgstr "使用者選擇加入通知後，訂閱者將會顯示在這裡"
+
+msgid "You have %d active subscription(s):"
+msgstr "你有 %d 個有效訂閱："
+
+msgid "You have no active push notification subscriptions on any devices."
+msgstr "你在任何裝置上都沒有有效的推播通知訂閱。"
+
+msgid "This device"
+msgstr "此裝置"
+
+msgid "Unknown Device"
+msgstr "未知裝置"
+
+msgid "Your User ID"
+msgstr "你的使用者 ID"
+
+msgid "Remove this device from push notifications?"
+msgstr "要從推播通知中移除此裝置嗎？"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Removing..."
+msgstr "移除中..."
+
+msgid "Unsubscribing..."
+msgstr "取消訂閱中..."
+
+msgid "Send Test"
+msgstr "傳送測試"
+
+msgid "Mac"
+msgstr "Mac"
+
+msgid "iPhone/iPad"
+msgstr "iPhone/iPad"
+
+msgid "iOS (iPhone/iPad)"
+msgstr "iOS（iPhone/iPad）"
+
+msgid "Chrome Browser"
+msgstr "Chrome 瀏覽器"
+
+msgid "Firefox Browser"
+msgstr "Firefox 瀏覽器"
+
+msgid "Safari Browser"
+msgstr "Safari 瀏覽器"
+
+msgid "Edge Browser"
+msgstr "Edge 瀏覽器"
+
+msgid "Upload"
+msgstr "上傳"
+
+msgid "Dismiss"
+msgstr "關閉"
+
+msgid "Add This Device"
+msgstr "新增此裝置"
+
+msgid "Manage your notification subscriptions"
+msgstr "管理你的通知訂閱"
+
+msgid "Use \"Send Test\" to verify it's working"
+msgstr "使用「傳送測試」確認是否正常運作"
+
+msgid "Use the Testing tab to regularly verify notifications are working on all devices and browsers."
+msgstr "定期使用測試分頁確認所有裝置和瀏覽器上的通知是否正常運作。"
+
+msgid "Regularly check the Subscribers tab and use \"Cleanup Invalid\" to remove expired subscriptions."
+msgstr "定期查看訂閱者分頁，並使用「清理無效訂閱」移除過期訂閱。"
+
+msgid "Only send notifications for events users care about. Too many notifications will cause users to unsubscribe."
+msgstr "只傳送使用者在意的事件通知，通知太多會導致使用者取消訂閱。"
+
+msgid "Notification space is limited, especially on mobile. Keep titles short and bodies descriptive."
+msgstr "通知空間有限，尤其在行動裝置上。標題請保持簡短，內文則要描述清楚。"
+
+msgid "Don't ask for permission immediately. Wait until the user has engaged with your site and understands the value of notifications."
+msgstr "不要立即要求權限，等到使用者已與你的網站互動並了解通知價值後再詢問。"
+
+msgid "iOS Safari requires users to add your site to their home screen before push notifications will work. This creates a PWA (Progressive Web App) that can receive notifications."
+msgstr "iOS Safari 要求使用者將你的網站加到主畫面後，推播通知才能運作。這會建立一個可以接收通知的 PWA（漸進式網頁應用程式）。"
+
+msgid "When a user visits your site, their browser requests permission to show notifications. If granted, the browser creates a unique push subscription and sends it to your server."
+msgstr "使用者造訪你的網站時，其瀏覽器會請求顯示通知的權限。若獲得授權，瀏覽器會建立唯一的推播訂閱並傳送至你的伺服器。"
+
+msgid "When something happens (new comment, post, message, etc.), the plugin detects the event through Fluent Community, Better Messages, or Fluent Messaging hooks."
+msgstr "當事件發生時（新留言、文章、訊息等），外掛透過 Fluent Community、Better Messages 或 Fluent Messaging 的 hooks 偵測事件。"
+
+msgid "The server sends the notification to the push service (FCM for Android, APNs for iOS, etc.), which delivers it to the user's device."
+msgstr "伺服器將通知傳送至推播服務（Android 為 FCM，iOS 為 APNs 等），再由推播服務傳送至使用者裝置。"
+
+msgid "When the user clicks the notification, they are taken directly to the relevant page (post, comment, message, etc.)."
+msgstr "使用者點選通知時，會直接跳轉至相關頁面（文章、留言、訊息等）。"

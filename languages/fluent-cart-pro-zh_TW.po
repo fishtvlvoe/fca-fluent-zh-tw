@@ -1,0 +1,1862 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FluentCart Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-01 05:47+0000\n"
+"PO-Revision-Date: 2026-02-25 12:41+0000\n"
+"Last-Translator: 老魚\n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.9; php-8.3.23\n"
+"X-Domain: fluent-cart-pro"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:209
+msgid " after"
+msgstr " 之後"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:213
+msgid " sign-up fee"
+msgstr " 註冊費"
+
+#: app/Modules/PaymentMethods/MollieGateway/Webhook/MollieIPN.php:293
+msgid " via Mollie"
+msgstr " 透過 Mollie"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:213
+msgid " with"
+msgstr " 與"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:283
+msgid "#0d3d75"
+msgstr "#0d3d75"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:276
+msgid "#0F4B8D"
+msgstr "#0F4B8D"
+
+#: app/Modules/Integrations/WebhookConnect.php:167
+#: app/Modules/Integrations/WebhookConnect.php:206
+msgid "+ Add more"
+msgstr "+ 新增更多"
+
+#: app/Services/Translations/Translations.php:11
+msgid "A New Era of Commerce With WordPress"
+msgstr "WordPress 電商新時代"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:132
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:167
+msgid "Accesses Removed from the connected student on order revoke"
+msgstr "訂單撤銷時已移除連結學員的存取權限"
+
+#: app/Services/Onboarding/CoreDependencyHandler.php:80
+msgid "Activate Plugin"
+msgstr "啟用外掛"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:319
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:324
+msgid "Activated Methods"
+msgstr "已啟用的付款方式"
+
+#: app/Modules/Licensing/Concerns/CanManageLicenseSites.php:125
+msgid "Activation mismatched"
+msgstr "啟用不符"
+
+#: app/Modules/Licensing/Concerns/CanManageLicenseSites.php:119
+msgid "Activation not found"
+msgstr "找不到啟用紀錄"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:52
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:59
+msgid "Add to Courses"
+msgstr "新增至課程"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:64
+msgid "Add to LearnDash Groups"
+msgstr "新增至 LearnDash 群組"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:71
+msgid "Add to Memberships"
+msgstr "新增至會員方案"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:213
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:243
+msgid "Add webhook"
+msgstr "新增 webhook"
+
+#: app/Modules/Integrations/WebhookConnect.php:184
+msgid "All Data"
+msgstr "所有資料"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:249
+msgid "Allow customers to pay with bank accounts."
+msgstr "允許顧客使用銀行帳戶付款。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:507
+msgid "An error occurred while loading Paddle."
+msgstr "載入 Paddle 時發生錯誤。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:506
+msgid "An error occurred. Please try again."
+msgstr "發生錯誤，請重試。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:107
+msgid "API key is required."
+msgstr "必須填寫 API 金鑰。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:317
+msgid "API Login ID, Transaction Key and Client Key are required."
+msgstr "必須填寫 API 登入 ID、交易金鑰與使用者端金鑰。"
+
+#: app/Services/Translations/Translations.php:21
+msgid "Are you sure to delete this?"
+msgstr "確定要刪除嗎？"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:45
+msgid "Authorize.Net"
+msgstr "Authorize.Net"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:254
+msgid "Authorize.Net checkout Form Button Text"
+msgstr "Authorize.Net 結帳表單按鈕文字"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:261
+msgid "Authorize.Net Checkout Form Header Text"
+msgstr "Authorize.Net 結帳表單標題文字"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:323
+msgid "Authorize.Net credentials verified successfully!"
+msgstr "Authorize.Net 憑證驗證成功！"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:135
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:141
+msgid "Authorize.Net declined the transaction."
+msgstr "Authorize.Net 拒絕了此交易。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:170
+msgid "Authorize.Net Fraud Approved"
+msgstr "Authorize.Net 詐欺審核通過"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:93
+msgid ""
+"Authorize.Net is not configured correctly. Please contact the site "
+"administrator."
+msgstr "Authorize.Net 設定不正確，請聯絡網站管理員。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:82
+msgid "Authorize.Net is not enabled."
+msgstr "Authorize.Net 尚未啟用。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:95
+msgid "Authorize.Net marked the payment as declined/void."
+msgstr "Authorize.Net 將此付款標記為拒絕/作廢。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetHelper.php:141
+msgid "Authorize.Net marked transaction as pending review."
+msgstr "Authorize.Net 將此交易標記為待審核。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:144
+msgid "Authorize.Net Payment Captured"
+msgstr "Authorize.Net 付款已擷取"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:195
+msgid "Authorize.Net Payment Failed"
+msgstr "Authorize.Net 付款失敗"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:138
+msgid "Authorize.Net payment form failed to load."
+msgstr "Authorize.Net 付款表單載入失敗。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetHelper.php:140
+msgid "Authorize.Net Pending"
+msgstr "Authorize.Net 待處理"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:363
+msgid "Authorize.Net Subscription Cancelled"
+msgstr "Authorize.Net 訂閱已取消"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:383
+msgid "Authorize.Net Subscription Expired"
+msgstr "Authorize.Net 訂閱已到期"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:403
+msgid "Authorize.Net Subscription Expiring"
+msgstr "Authorize.Net 訂閱即將到期"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:325
+msgid "Authorize.Net Subscription Payment"
+msgstr "Authorize.Net 訂閱付款"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:443
+msgid "Authorize.Net Subscription Payment Failed"
+msgstr "Authorize.Net 訂閱付款失敗"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:423
+msgid "Authorize.Net Subscription Payment Terminated"
+msgstr "Authorize.Net 訂閱付款已終止"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:163
+msgid "Available payment methods on Checkout"
+msgstr "結帳時可用的付款方式"
+
+#: app/Modules/Licensing/Services/LicenseHelper.php:119
+msgid "Back to License List"
+msgstr "返回授權清單"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:278
+msgid "Background color for the Authorize.Net payment button. Default: #0F4B8D"
+msgstr "Authorize.Net 付款按鈕的背景顏色。預設值：#0F4B8D"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:323
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:261
+msgid "Beta Notice"
+msgstr "Beta 公告"
+
+#: app/Services/Translations/Translations.php:18
+msgid ""
+"Built for lightning-fast processing, your store will perform under any "
+"stress without breaking your server"
+msgstr "專為高速處理打造，您的商店能在任何負載下運作，不會拖垮伺服器"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:275
+msgid "Button Background Color"
+msgstr "按鈕背景顏色"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:282
+msgid "Button Hover Color"
+msgstr "按鈕懸停顏色"
+
+#: app/Services/Translations/Translations.php:19
+msgid "cancel"
+msgstr "取消"
+
+#: app/Services/PluginManager/PluginLicenseManager.php:45
+msgid "Check Update"
+msgstr "檢查更新"
+
+#: app/Services/Translations/Translations.php:15
+msgid "Clean, Modern Interface"
+msgstr "簡潔、現代的介面"
+
+#: app/Services/PluginManager/FluentLicensing.php:265
+msgid "Click Here to Renew Your License"
+msgstr "點選這裡續約您的授權"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:136
+msgid "Click the button to securely enter your payment details."
+msgstr "點選按鈕安全輸入您的付款資訊。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:390
+msgid "Color of the Paddle checkout button"
+msgstr "Paddle 結帳按鈕的顏色"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:298
+msgid ""
+"Configure this URL in your Authorize.Net dashboard under Account > Settings >"
+" Webhooks."
+msgstr "在 Authorize.Net 後台的帳戶 > 設定 > Webhooks 中設定此 URL。"
+
+#: app/Services/Translations/Translations.php:20
+msgid "confirm"
+msgstr "確認"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:501
+msgid "Confirmation failed"
+msgstr "確認失敗"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:591
+#, php-format
+msgid ""
+"Currency %s is not supported by Paddle. Please check supported currencies."
+msgstr "Paddle 不支援幣別 %s。請查看支援的幣別。"
+
+#: app/Modules/Integrations/WebhookConnect.php:157
+msgid "Custom Headers"
+msgstr "自訂標頭"
+
+#: app/Modules/Integrations/WebhookConnect.php:122
+msgid "Custom headers to include in the webhook request"
+msgstr "要包含在 webhook 請求中的自訂標頭"
+
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:58
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:120
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:161
+msgid "Customer not found"
+msgstr "找不到顧客"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:373
+msgid "Dark"
+msgstr "深色"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:209
+msgid "day"
+msgstr "天"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Price.php:203
+msgid "Days"
+msgstr "天"
+
+#: app/Modules/Integrations/WebhookConnect.php:101
+msgid "DELETE"
+msgstr "DELETE"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:412
+msgid "Disable Webhook Verification"
+msgstr "停用 Webhook 驗證"
+
+#: app/Services/PluginManager/PluginLicenseManager.php:43
+msgid "Docs"
+msgstr "文件"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:289
+msgid "Enable Debug Logging"
+msgstr "啟用除錯記錄"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:248
+msgid "Enable e-Check (ACH)"
+msgstr "啟用 e-Check (ACH)"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:262
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:263
+msgid "Enter Payment Details"
+msgstr "輸入付款資訊"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:215
+msgid "Enter The Webhook URL:"
+msgstr "輸入 Webhook URL："
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:244
+msgid "Enter The Webhook URL: "
+msgstr "輸入 Webhook URL："
+
+#: app/Services/PluginManager/Updater.php:317
+#: app/Services/ProPluginManager/Updater.php:317
+msgid "Error"
+msgstr "錯誤"
+
+#: app/Services/Onboarding/OutsideInstaller.php:62
+msgid "Error downloading plugin"
+msgstr "下載外掛時發生錯誤"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:505
+msgid "Error occurred"
+msgstr "發生錯誤"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:503
+#, php-format
+msgid "Error: %s"
+msgstr "錯誤：%s"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:500
+msgid "Error: Missing transaction ID"
+msgstr "錯誤：缺少交易 ID"
+
+#: app/Services/PluginManager/FluentLicensing.php:264
+msgid "expired at"
+msgstr "已過期於"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:353
+msgid "External"
+msgstr "外部"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:46
+msgid "Failed to cancel subscription."
+msgstr "取消訂閱失敗。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:495
+msgid "Failed to create order"
+msgstr "建立訂單失敗"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:65
+msgid "Failed to create order bump"
+msgstr "建立加購推薦失敗"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:353
+msgid "Failed to create subscription in Mollie. Error: "
+msgstr "在 Mollie 建立訂閱失敗。錯誤："
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:138
+msgid "Failed to delete order bump"
+msgstr "刪除加購推薦失敗"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:499
+msgid "Failed to prepare valid Paddle items from order data."
+msgstr "無法從訂單資料準備有效的 Paddle 項目。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:280
+msgid "Failed to reactivate subscription."
+msgstr "重新啟用訂閱失敗。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:91
+msgid "Failed to sync subscription."
+msgstr "同步訂閱失敗。"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:123
+msgid "Failed to update order bump"
+msgstr "更新加購推薦失敗"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:44
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:51
+msgid "Feed Title"
+msgstr "動態標題"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:268
+msgid "Fluent Cart Checkout Button Text"
+msgstr "Fluent Cart 結帳按鈕文字"
+
+#: app/Services/Onboarding/CoreDependencyHandler.php:15
+#: app/Services/Onboarding/CoreDependencyHandler.php:16
+msgid "FluentCart"
+msgstr "FluentCart"
+
+#. Name of the plugin
+msgid "FluentCart Pro"
+msgstr "FluentCart Pro"
+
+#: app/Services/Translations/Translations.php:12
+msgid ""
+"FluentCart requires the Core Plugin to be installed first. Let's get you set "
+"up in just one click."
+msgstr "FluentCart 需要先安裝核心外掛。只需一鍵即可完成設定。"
+
+#. Author of the plugin
+msgid "FluentCart Team"
+msgstr "FluentCart 團隊"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:408
+msgid "Font size of the Paddle checkout button"
+msgstr "Paddle 結帳按鈕的字體大小"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Price.php:134
+msgid "For"
+msgstr "持續"
+
+#: app/Modules/Integrations/WebhookConnect.php:112
+msgid "Form Data"
+msgstr "表單資料"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:171
+#, php-format
+msgid "Fraud approved via webhook. Transaction ID: %s"
+msgstr "透過 webhook 詐欺審核通過。交易 ID：%s"
+
+#: app/Modules/Integrations/WebhookConnect.php:98
+msgid "GET"
+msgstr "GET"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:234
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:263
+msgid ""
+"Get your API key from Paddle Dashboard > Developer Tools > Authentication"
+msgstr "從 Paddle 後台 > 開發者工具 > 驗證取得您的 API 金鑰"
+
+#: app/Services/Translations/Translations.php:14
+msgid ""
+"Go from Setup to first sale in minutes. Configuration is straightforward "
+"with the Onboarding Wizard."
+msgstr "幾分鐘內即可從設定到首次銷售。透過設定精靈輕鬆完成設定。"
+
+#. %s is a link to Paddle webhook docs
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:212
+#, php-format
+msgid "Go to Developer Tools > Notifications > %s"
+msgstr "前往開發者工具 > 通知 > %s"
+
+#: app/Services/Onboarding/CoreDependencyHandler.php:140
+msgid "Go to FluentCart Dashboard"
+msgstr "前往 FluentCart 後台"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:242
+msgid "Go to Settings > Webhooks >"
+msgstr "前往設定 > Webhooks >"
+
+#: app/Modules/Integrations/WebhookConnect.php:160
+msgid "Header Name"
+msgstr "標頭名稱"
+
+#: app/Modules/Integrations/WebhookConnect.php:161
+msgid "Header Value"
+msgstr "標頭值"
+
+#: app/Services/PluginManager/PluginLicenseManager.php:44
+msgid "Help & Support"
+msgstr "說明與支援"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:285
+msgid "Hover color for the Authorize.Net payment button. Default: #0d3d75"
+msgstr "Authorize.Net 付款按鈕的懸停顏色。預設值：#0d3d75"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:396
+msgid "Hover color of the Paddle checkout button"
+msgstr "Paddle 結帳按鈕的懸停顏色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:208
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:240
+msgid "How to configure?"
+msgstr "如何設定？"
+
+#: app/Modules/Integrations/WebhookConnect.php:87
+msgid "https://example.com/webhook-endpoint"
+msgstr "https://example.com/webhook-endpoint"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluentcart.com"
+msgstr "https://fluentcart.com"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:332
+msgid ""
+"If enabled, only the selected Mollie payment methods will be displayed "
+"during checkout."
+msgstr "啟用後，結帳時只會顯示選定的 Mollie 付款方式。"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:76
+msgid ""
+"If you enable this, on refund or subscription validity expiration, the "
+"selected groups and courses will be removed from the customer."
+msgstr "啟用此選項後，退款或訂閱到期時，將會從顧客移除所選的群組和課程。"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:83
+msgid ""
+"If you enable this, on refund or subscription validity expiration, the "
+"selected memberships and courses will be removed from the customer."
+msgstr "啟用此選項後，退款或訂閱到期時，將會從顧客移除所選的會員方案和課程。"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:241
+msgid "In your Mollie Dashboard:"
+msgstr "在您的 Mollie 後台："
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:209
+msgid "In your Paddle Dashboard:"
+msgstr "在您的 Paddle 後台："
+
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:216
+msgid "Initial Payment"
+msgstr "首次付款"
+
+#: app/Services/Onboarding/CoreDependencyHandler.php:77
+msgid "Install Plugin"
+msgstr "安裝外掛"
+
+#: app/Modules/Integrations/WebhookConnect.php:77
+msgid "Integration Title"
+msgstr "整合標題"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:349
+msgid "Internal"
+msgstr "內部"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:102
+msgid "Invalid expiration date!"
+msgstr "無效的到期日！"
+
+#: app/Modules/Licensing/Services/LicenseHelper.php:99
+#: app/Modules/Licensing/Services/LicenseHelper.php:222
+#: app/Modules/Licensing/Services/LicenseHelper.php:248
+#: app/Modules/Licensing/Services/LicenseHelper.php:255
+msgid "Invalid License key provided."
+msgstr "提供的授權金鑰無效。"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:482
+msgid "Invalid package data"
+msgstr "無效的套件資料"
+
+#: app/Services/Onboarding/CoreDependencyHandler.php:144
+msgid "Invalid plugin or file mods are disabled."
+msgstr "無效的外掛或檔案修改已停用。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:60
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:70
+msgid "Invalid refund amount. Please check the items available refund amounts."
+msgstr "退款金額無效。請確認各項目可退款金額。"
+
+#: app/Http/Requests/RoleRequest.php:38
+msgid "Invalid role."
+msgstr "無效的角色。"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:137
+msgid "Invalid status!"
+msgstr "無效的狀態！"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:248
+msgid "Invalid subscription or payment method."
+msgstr "無效的訂閱或付款方式。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetRefund.php:37
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:32
+msgid "Invalid transaction ID for refund."
+msgstr "退款的交易 ID 無效。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:71
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:257
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:35
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:187
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:217
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:245
+#: app/Modules/PaymentMethods/MollieGateway/MollieSubscriptions.php:30
+#: app/Modules/PaymentMethods/MollieGateway/MollieSubscriptions.php:132
+msgid "Invalid vendor subscription ID."
+msgstr "無效的供應商訂閱 ID。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:66
+msgid "Invalid webhook payload."
+msgstr "無效的 webhook 資料。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Webhook/WebhookVerifier.php:65
+#: app/Modules/PaymentMethods/PaddleGateway/Webhook/WebhookVerifier.php:107
+#: app/Modules/PaymentMethods/PaddleGateway/Webhook/WebhookVerifier.php:111
+#: app/Modules/PaymentMethods/PaddleGateway/API/API.php:183
+msgid "Invalid webhook signature"
+msgstr "無效的 webhook 簽名"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:61
+msgid "Invalid webhook signature."
+msgstr "無效的 webhook 簽名。"
+
+#: app/Http/Controllers/ProductController.php:58
+msgid "Inventory update failed"
+msgstr "庫存更新失敗"
+
+#: app/Http/Controllers/ProductController.php:63
+msgid "Inventory updated successfully"
+msgstr "庫存更新成功"
+
+#: app/Modules/Promotional/OrderBump/OrderBumpBoot.php:304
+msgid "Item has been added to your cart"
+msgstr "商品已加入您的購物車"
+
+#: app/Modules/Promotional/OrderBump/OrderBumpBoot.php:240
+msgid "Item has been removed from your cart"
+msgstr "商品已從您的購物車移除"
+
+#: app/Modules/Integrations/WebhookConnect.php:111
+msgid "JSON"
+msgstr "JSON"
+
+#: app/Http/Requests/RoleRequest.php:53
+msgid "Key is required."
+msgstr "必須填寫金鑰。"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:87
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:175
+msgid "LearnDash Integration Success"
+msgstr "LearnDash 整合成功"
+
+#: app/Modules/Licensing/Hooks/license-actions.php:37
+msgid "License"
+msgstr "授權"
+
+#: app/Modules/Licensing/Services/LicenseHelper.php:238
+#: app/Modules/Licensing/Services/LicenseHelper.php:244
+msgid "License activation could not be found"
+msgstr "找不到授權啟用紀錄"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:233
+msgid "License deleted successfully!"
+msgstr "授權已成功刪除！"
+
+#: app/Services/PluginManager/FluentLicensing.php:264
+msgid "license has been"
+msgstr "授權已"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:392
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:525
+msgid "License is not enabled for this product"
+msgstr "此產品尚未啟用授權"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:160
+msgid "License limit has been updated successfully!"
+msgstr "授權上限已成功更新！"
+
+#: app/Modules/Licensing/Services/LicenseHelper.php:118
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:118
+msgid "License not found"
+msgstr "找不到授權"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:311
+msgid "License not found or does not match with the item_id"
+msgstr "找不到授權或與 item_id 不符"
+
+#: app/Modules/Licensing/Licensing.php:75
+msgid "License Settings"
+msgstr "授權設定"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:384
+msgid "License settings not found for this product"
+msgstr "找不到此產品的授權設定"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:146
+msgid "License status has been updated successfully!"
+msgstr "授權狀態已成功更新！"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:109
+msgid "License validity extended!"
+msgstr "授權有效期已延長！"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:112
+msgid "License validity reduced!"
+msgstr "授權有效期已縮短！"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:38
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:106
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:298
+msgid "license_key, site_url and item_id is required"
+msgstr "必須提供 license_key、site_url 和 item_id"
+
+#: app/Modules/Licensing/Licensing.php:61
+msgid "Licenses"
+msgstr "授權"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseGenerationHandler.php:86
+msgid "Licenses generated successfully"
+msgstr "授權已成功產生"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:94
+msgid "LifterLMS"
+msgstr "LifterLMS"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:204
+msgid "LifterLMS Integration Success"
+msgstr "LifterLMS 整合成功"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:369
+msgid "Light"
+msgstr "淺色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:260
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:274
+msgid "Live API Key"
+msgstr "正式 API 金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:203
+msgid "Live API Login ID"
+msgstr "正式 API 登入 ID"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:213
+msgid "Live Client Key"
+msgstr "正式使用者端金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:267
+msgid "Live Client Token / Public Key"
+msgstr "正式使用者端 Token / 公開金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:234
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:331
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:269
+msgid "Live credentials"
+msgstr "正式環境憑證"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:218
+msgid "Live Signature Key"
+msgstr "正式簽名金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:208
+msgid "Live Transaction Key"
+msgstr "正式交易金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:274
+msgid "Live Webhook Secret"
+msgstr "正式 Webhook 金鑰"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:276
+msgid "live_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+msgstr "live_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:162
+msgid "Loading payment methods..."
+msgstr "正在載入付款方式..."
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:290
+msgid "Log Authorize.Net API interactions for troubleshooting."
+msgstr "記錄 Authorize.Net API 互動以便疑難排解。"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:18
+msgid "Manage Course accesses with FluentCart + LearnDash"
+msgstr "透過 FluentCart + LearnDash 管理課程存取權限"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:22
+msgid "Manage Course accesses with FluentCart + LifterLMS"
+msgstr "透過 FluentCart + LifterLMS 管理課程存取權限"
+
+#: app/Modules/StockManagement/StockManagement.php:22
+msgid "Manage stock of your products easier than ever!"
+msgstr "前所未有地輕鬆管理產品庫存！"
+
+#: app/Http/Controllers/ProductController.php:91
+#: app/Http/Controllers/ProductController.php:97
+msgid "Manage stock update failed"
+msgstr "庫存管理更新失敗"
+
+#: app/Http/Controllers/ProductController.php:102
+msgid "Manage stock updated successfully"
+msgstr "庫存管理更新成功"
+
+#: app/Services/Translations/Translations.php:16
+msgid ""
+"Manage your store with a clean dashboard that gives you everything you need "
+"in an intuitive workflow."
+msgstr "使用簡潔的後台管理您的商店，直覺的操作流程提供您所需的一切。"
+
+#: app/Modules/Integrations/WebhookConnect.php:189
+msgid "Map Payload Data"
+msgstr "對應資料載荷"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:116
+msgid "Marked license as lifetime!"
+msgstr "已將授權標記為終身有效！"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:284
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:364
+msgid ""
+"Minimum 7 days is required for subscription. Please change the subscription "
+"interval to at weekly or greater"
+msgstr "訂閱最少需要 7 天。請將訂閱週期調整為每週或更長"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:40
+msgid "Mollie"
+msgstr "Mollie"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:213
+msgid "Mollie Payment Authorized"
+msgstr "Mollie 付款已授權"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:116
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:159
+msgid "Mollie Payment Confirmation"
+msgstr "Mollie 付款確認"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:248
+msgid ""
+"Mollie payment gateway is currently in beta. Test properly before going live!"
+msgstr "Mollie 付款閘道目前為 Beta 版。上線前請充分測試！"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:353
+msgid "Mollie Subscription Creation Failed"
+msgstr "Mollie 訂閱建立失敗"
+
+#: app/Modules/Integrations/WebhookConnect.php:79
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:46
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:53
+msgid "Name"
+msgstr "名稱"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:48
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:55
+msgid ""
+"Name of this feed, it will be used to identify this feed in the list of feeds"
+msgstr "此動態的名稱，用於在動態列表中識別此動態"
+
+#: app/Modules/Integrations/WebhookConnect.php:81
+msgid ""
+"Name of this feed, it will be used to identify this integration in the list "
+"of integrations"
+msgstr "此動態的名稱，用於在整合列表中識別此整合"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:502
+msgid "Network error"
+msgstr "網路錯誤"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:543
+msgid "No downloadable file found for this product"
+msgstr "找不到此產品的可下載檔案"
+
+#: app/Modules/Integrations/WebhookConnect.php:152
+msgid "No Headers"
+msgstr "無標頭"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:88
+msgid ""
+"No Mollie payment methods are activated for Live mode. Please contact site "
+"owner."
+msgstr "正式模式未啟用任何 Mollie 付款方式。請聯絡網站擁有者。"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:91
+msgid ""
+"No Mollie payment methods are activated for Test mode. Please contact site "
+"owner."
+msgstr "測試模式未啟用任何 Mollie 付款方式。請聯絡網站擁有者。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:498
+msgid ""
+"No Paddle price IDs found in order data. Please ensure Paddle products are "
+"properly configured."
+msgstr "在訂單資料中找不到 Paddle 價格 ID。請確認 Paddle 產品已正確設定。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:106
+msgid "No subscription found for this order"
+msgstr "找不到此訂單的訂閱"
+
+#: app/Services/Onboarding/OutsideInstaller.php:52
+msgid "No valid url provided to install!"
+msgstr "未提供有效的安裝 URL！"
+
+#: app/Modules/Promotional/PromotionalInit.php:16
+msgid "Offer Bump Products in checkout and make more revenue per order"
+msgstr "在結帳時推薦加購商品，提高每筆訂單的營收"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:414
+msgid "Only disable this for testing purposes. Keep enabled for production."
+msgstr "僅在測試時停用此功能。正式環境請保持啟用。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:241
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:270
+msgid "Optional: Used for frontend checkout integration"
+msgstr "選填：用於前端結帳整合"
+
+#: app/Modules/Promotional/PromotionalInit.php:15
+msgid "Order Bump"
+msgstr "加購推薦"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:70
+msgid "Order bump created successfully"
+msgstr "加購推薦已成功建立"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:143
+msgid "Order bump deleted successfully"
+msgstr "加購推薦已成功刪除"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:84
+msgid "Order bump not found"
+msgstr "找不到加購推薦"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:128
+msgid "Order bump updated successfully"
+msgstr "加購推薦已成功更新"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:494
+msgid "Order creation failed"
+msgstr "建立訂單失敗"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:497
+msgid "Order handler is not properly configured"
+msgstr "訂單處理器設定不正確"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:496
+msgid "Order handler not available"
+msgstr "訂單處理器不可用"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:78
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:278
+msgid "Order has been placed successfully"
+msgstr "訂單已成功建立"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:173
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:102
+msgid "Order info retrieved!"
+msgstr "已取得訂單資訊！"
+
+#: app/Modules/Licensing/Hooks/license-actions.php:39
+msgid "Order Licenses"
+msgstr "訂單授權"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:51
+msgid "Paddle"
+msgstr "Paddle"
+
+#: app/Modules/PaymentMethods/PaddleGateway/API/API.php:41
+#, php-format
+msgid "Paddle API key is missing for mode: %s"
+msgstr "Paddle API 金鑰遺失，模式：%s"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:388
+msgid "Paddle Checkout Button Color"
+msgstr "Paddle 結帳按鈕顏色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:406
+msgid "Paddle Checkout Button Font Size"
+msgstr "Paddle 結帳按鈕字體大小"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:394
+msgid "Paddle Checkout Button Hover Color"
+msgstr "Paddle 結帳按鈕懸停顏色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:381
+msgid "Paddle Checkout Button Text"
+msgstr "Paddle 結帳按鈕文字"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:400
+msgid "Paddle Checkout Button Text Color"
+msgstr "Paddle 結帳按鈕文字顏色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:365
+msgid "Paddle Checkout Theme"
+msgstr "Paddle 結帳主題"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:491
+msgid "Paddle client token is missing or invalid."
+msgstr "Paddle 使用者端 token 遺失或無效。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:113
+msgid "Paddle gateway credentials verified successfully!"
+msgstr "Paddle 閘道憑證驗證成功！"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Confirmations.php:185
+msgid "Paddle Payment Confirmation"
+msgstr "Paddle 付款確認"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:311
+msgid ""
+"Paddle payment gateway is currently in beta. Test properly before going live!"
+msgstr "Paddle 付款閘道目前為 Beta 版。上線前請充分測試！"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:490
+msgid "Paddle SDK is not loaded. Please ensure the Paddle script is included."
+msgstr "Paddle SDK 未載入。請確認已包含 Paddle 腳本。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Webhook/WebhookVerifier.php:13
+#: app/Modules/PaymentMethods/PaddleGateway/API/API.php:173
+msgid "Paddle webhook secret is missing"
+msgstr "缺少 Paddle webhook 金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:66
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:74
+msgid "Partial refund not allowed without any items selected."
+msgstr "未選擇任何項目時不允許部分退款。"
+
+#: app/Modules/Integrations/WebhookConnect.php:100
+msgid "PATCH"
+msgstr "PATCH"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:160
+msgid "Pay Now"
+msgstr "立即付款"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:255
+msgid "Pay now"
+msgstr "立即付款"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:48
+msgid ""
+"Pay securely with Authorize.Net using credit/debit cards or e-check (ACH)."
+msgstr "透過 Authorize.Net 使用信用卡/簽帳卡或 e-Check (ACH) 安全付款。"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:164
+msgid "Pay securely with Mollie"
+msgstr "透過 Mollie 安全付款"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:45
+msgid "Pay securely with Mollie - Credit Card, PayPal, SEPA, and more"
+msgstr "透過 Mollie 安全付款 - 信用卡、PayPal、SEPA 等"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:54
+msgid "Pay securely with Paddle - Complete payment solution"
+msgstr "透過 Paddle 安全付款 - 完整付款解決方案"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:380
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:383
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:492
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSettings.php:48
+msgid "Pay with Paddle"
+msgstr "使用 Paddle 付款"
+
+#: app/Modules/Integrations/WebhookConnect.php:192
+msgid "Payload Key"
+msgstr "資料載荷鍵"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Confirmations.php:72
+msgid "Payment already confirmed. Redirecting...!"
+msgstr "付款已確認，正在跳轉...！"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:213
+msgid "Payment Authorized in Mollie. Transaction ID: "
+msgstr "已在 Mollie 授權付款。交易 ID："
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:145
+#, php-format
+msgid "Payment captured via webhook. Transaction ID: %s"
+msgstr "透過 webhook 擷取付款。交易 ID：%s"
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:116
+msgid ""
+"Payment confirmation received from Mollie for previously authorized payment. "
+"Transaction ID: "
+msgstr "已收到 Mollie 針對先前授權付款的確認。交易 ID："
+
+#: app/Modules/PaymentMethods/MollieGateway/Confirmations.php:159
+msgid "Payment confirmation received from Mollie. Transaction ID: "
+msgstr "已收到 Mollie 付款確認。交易 ID："
+
+#: app/Modules/PaymentMethods/PaddleGateway/Confirmations.php:185
+msgid "Payment confirmation received from Paddle. Transaction ID:"
+msgstr "已收到 Paddle 付款確認。交易 ID："
+
+#: app/Modules/PaymentMethods/PaddleGateway/Confirmations.php:109
+msgid "Payment confirmed successfully. Redirecting...!"
+msgstr "付款確認成功，正在跳轉...！"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:137
+msgid "Payment details saved."
+msgstr "付款資訊已儲存。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:504
+msgid "Payment failed"
+msgstr "付款失敗"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:196
+#, php-format
+msgid "Payment failed via webhook. Transaction ID: %s"
+msgstr "透過 webhook 付款失敗。交易 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/API/AuthorizeDotNetAPI.php:154
+msgid "Payment failed with an unknown error."
+msgstr "付款因不明錯誤而失敗。"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:24
+msgid "Payment ID not found for refund"
+msgstr "找不到退款的付款 ID"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Confirmations.php:93
+#, php-format
+msgid "Payment is not completed. Current status: %s"
+msgstr "付款尚未完成。目前狀態：%s"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:290
+msgid ""
+"Payment method switching is not directly supported by Paddle. Please cancel "
+"and recreate the subscription."
+msgstr "Paddle 不直接支援切換付款方式。請取消並重新建立訂閱。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:43
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:166
+msgid "Payment token could not be generated. Please try again."
+msgstr "無法產生付款 token，請重試。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:269
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:270
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:161
+msgid "Place Order"
+msgstr "送出訂單"
+
+#: app/Modules/Integrations/WebhookConnect.php:97
+msgid "POST"
+msgstr "POST"
+
+#: app/Modules/Licensing/Licensing.php:21
+msgid "Product Licensing"
+msgstr "產品授權"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:376
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:516
+msgid "Product not found"
+msgstr "找不到產品"
+
+#: app/Modules/Integrations/WebhookConnect.php:99
+msgid "PUT"
+msgstr "PUT"
+
+#: app/Services/Translations/Translations.php:13
+msgid "Quick & Easy Setup"
+msgstr "快速輕鬆設定"
+
+#: app/Modules/Promotional/OrderBump/OrderBumpBoot.php:93
+msgid "Recommended"
+msgstr "推薦"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:300
+msgid ""
+"Recommended events: net.authorize.payment.authcapture.created, net.authorize."
+"payment.fraud.approved, net.authorize.payment.fraud.declined, net.authorize."
+"payment.void.created, net.authorize.payment.refund.created, net.authorize."
+"customer.subscription.cancelled, net.authorize.customer.subscription.expired,"
+" net.authorize.customer.subscription.expiring."
+msgstr "建議事件：net.authorize.payment.authcapture.created、net.authorize.payment.fraud.approved、net.authorize.payment.fraud.declined、net.authorize.payment.void.created、net.authorize.payment.refund.created、net.authorize.customer.subscription.cancelled、net.authorize.customer.subscription.expired、net.authorize.customer.subscription.expiring。"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieProcessor.php:192
+#: app/Modules/PaymentMethods/MollieGateway/MollieProcessor.php:311
+msgid "Redirecting to Mollie payment page..."
+msgstr "正在跳轉至 Mollie 付款頁面..."
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:159
+msgid "Redirecting to Mollie..."
+msgstr "正在跳轉至 Mollie..."
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:43
+#, php-format
+msgid "Refund amount %s exceeds available amount %s"
+msgstr "退款金額 %s 超過可退款金額 %s"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:86
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:215
+msgid "Refund amount is required."
+msgstr "必須填寫退款金額。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleHelper.php:111
+msgid ""
+"Refund could not be processed in paddle. Please check on your paddle account"
+msgstr "無法在 Paddle 處理退款。請查看您的 Paddle 帳戶"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:80
+msgid ""
+"Refund could not be processed with Mollie. Please check your Mollie account"
+msgstr "無法透過 Mollie 處理退款。請查看您的 Mollie 帳戶"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetRefund.php:80
+msgid "Refund could not be processed. Please check your Authorize.Net account."
+msgstr "無法處理退款。請查看您的 Authorize.Net 帳戶。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetRefund.php:29
+msgid ""
+"Refund is not supported for eCheck Payment from admin panel. Please use "
+"Authorize.Net dashboard to refund."
+msgstr "管理後台不支援 eCheck 付款退款。請使用 Authorize.Net 後台進行退款。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetRefund.php:90
+msgid "Refund was initiated but no refund transaction ID was returned."
+msgstr "已發起退款，但未返回退款交易 ID。"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:75
+msgid ""
+"Remove from selected Courses/Groups on Refund or Subscription Access "
+"Expiration "
+msgstr "退款或訂閱到期時從所選課程/群組中移除"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:82
+msgid ""
+"Remove from selected Courses/Memberships on Refund or Subscription Access "
+"Expiration "
+msgstr "退款或訂閱到期時從所選課程/會員方案中移除"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:330
+msgid "Render Selected Methods Only (Coming soon)"
+msgstr "僅顯示所選付款方式（即將推出）"
+
+#: app/Modules/Integrations/WebhookConnect.php:126
+msgid "Request Body"
+msgstr "請求主體"
+
+#: app/Modules/Integrations/WebhookConnect.php:107
+msgid "Request Format"
+msgstr "請求格式"
+
+#: app/Modules/Integrations/WebhookConnect.php:118
+msgid "Request Headers"
+msgstr "請求標頭"
+
+#: app/Modules/Integrations/WebhookConnect.php:93
+msgid "Request Method"
+msgstr "請求方法"
+
+#: app/Modules/Integrations/WebhookConnect.php:85
+msgid "Request URL"
+msgstr "請求 URL"
+
+#: app/Services/Translations/Translations.php:17
+msgid "Robust & Reliable Performance"
+msgstr "穩健可靠的效能"
+
+#: app/Http/Controllers/RoleController.php:91
+msgid "Role deleted successfully"
+msgstr "角色已成功刪除"
+
+#: app/Http/Controllers/RoleController.php:71
+msgid "Role key is required"
+msgstr "必須填寫角色金鑰"
+
+#: app/Http/Controllers/RoleController.php:54
+msgid "Role synced successfully"
+msgstr "角色已成功同步"
+
+#: app/Modules/Licensing/Licensing.php:22
+msgid "Sale Licenses of your products easier than ever!"
+msgstr "前所未有地輕鬆銷售產品授權！"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:231
+msgid "Sandbox API Key"
+msgstr "沙箱 API 金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:238
+msgid "Sandbox Client Token / Public Key"
+msgstr "沙箱使用者端 Token / 公開金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:245
+msgid "Sandbox Webhook Secret"
+msgstr "沙箱 Webhook 金鑰"
+
+#: app/Modules/Promotional/OrderBump/OrderBumpBoot.php:185
+msgid "Save"
+msgstr "儲存"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:493
+msgid "Secure payment powered by Paddle"
+msgstr "由 Paddle 提供安全付款"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:245
+msgid "Select all events"
+msgstr "選擇所有事件"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:53
+msgid "Select Learndash Courses"
+msgstr "選擇 LearnDash 課程"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:65
+msgid "Select LearnDash Groups"
+msgstr "選擇 LearnDash 群組"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:60
+msgid "Select LifterLMS Courses"
+msgstr "選擇 LifterLMS 課程"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:72
+msgid "Select Memberships"
+msgstr "選擇會員方案"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:217
+msgid "Select the following events:"
+msgstr "選擇以下事件："
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:70
+msgid "Select the groups you would like to add the customer to"
+msgstr "選擇要將顧客加入的群組"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:54
+msgid "Select the LearnDash Courses you would like to add."
+msgstr "選擇要新增的 LearnDash 課程。"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:61
+msgid "Select the LifterLMS Courses you would like to add."
+msgstr "選擇要新增的 LifterLMS 課程。"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:77
+msgid "Select the memberships you would like to add the customer to"
+msgstr "選擇要將顧客加入的會員方案"
+
+#: app/Modules/Integrations/WebhookConnect.php:193
+msgid "Select Value"
+msgstr "選擇值"
+
+#: app/Modules/Integrations/WebhookConnect.php:185
+msgid "Selected Fields"
+msgstr "已選欄位"
+
+#: app/Modules/Integrations/WebhookConnect.php:22
+msgid "Send data anywhere via webhook"
+msgstr "透過 webhook 將資料發送到任何地方"
+
+#: app/Modules/Licensing/Http/Controllers/ProductLicenseController.php:83
+msgid "Settings has been updated successfully."
+msgstr "設定已成功更新。"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieProcessor.php:64
+msgid "Shipping"
+msgstr "運費"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:371
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:388
+msgid "Shipping Fee"
+msgstr "運費"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Processor.php:213
+msgid "Signup Fee"
+msgstr "註冊費"
+
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:198
+msgid "Site deactivated successfully"
+msgstr "網站已成功停用"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:201
+msgid "Site has been activated successfully!"
+msgstr "網站已成功啟用！"
+
+#: app/Modules/Licensing/Http/Controllers/LicenseController.php:180
+msgid "Site has been deactivated successfully!"
+msgstr "網站已成功停用！"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:323
+msgid "Site not found"
+msgstr "找不到網站"
+
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:204
+msgid "Site not found or not activated for this license"
+msgstr "找不到網站或此授權尚未啟用"
+
+#: app/Modules/StockManagement/StockManagement.php:21
+msgid "Stock Management"
+msgstr "庫存管理"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:226
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:316
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:253
+msgid "Store Mode notice"
+msgstr "商店模式通知"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:364
+#, php-format
+msgid "Subscription cancelled via webhook. Subscription ID: %s"
+msgstr "透過 webhook 取消訂閱。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:384
+#, php-format
+msgid "Subscription expired via webhook. Subscription ID: %s"
+msgstr "透過 webhook 訂閱已到期。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:404
+#, php-format
+msgid "Subscription expiring via webhook. Subscription ID: %s"
+msgstr "透過 webhook 訂閱即將到期。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:254
+msgid "Subscription is already completed."
+msgstr "訂閱已完成。"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:157
+msgid "Subscription not found."
+msgstr "找不到訂閱。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:232
+msgid "Subscription paused successfully"
+msgstr "訂閱已成功暫停"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:444
+#, php-format
+msgid "Subscription payment failed via webhook. Subscription ID: %s"
+msgstr "透過 webhook 訂閱付款失敗。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:424
+#, php-format
+msgid "Subscription payment terminated via webhook. Subscription ID: %s"
+msgstr "透過 webhook 訂閱付款已終止。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:326
+#, php-format
+msgid "Subscription payment via webhook. Subscription ID: %s"
+msgstr "透過 webhook 訂閱付款。訂閱 ID：%s"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:303
+msgid ""
+"Subscription reactivation is not directly supported by Paddle. Please create "
+"a new subscription."
+msgstr "Paddle 不直接支援重新啟用訂閱。請建立新的訂閱。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:260
+msgid "Subscription resumed successfully"
+msgstr "訂閱已成功恢復"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:151
+msgid "Subscription UID is required."
+msgstr "必須填寫訂閱 UID。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:278
+msgid "Subscription updated successfully"
+msgstr "訂閱已成功更新"
+
+#: app/Services/Onboarding/OutsideInstaller.php:34
+msgid "Successfully enabled"
+msgstr "已成功啟用"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:345
+msgid "Tax Mode"
+msgstr "稅務模式"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:361
+msgid "Tax mode to use for Paddle transactions"
+msgstr "Paddle 交易使用的稅務模式"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:292
+msgid "Test API Key"
+msgstr "測試 API 金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:181
+msgid "Test API Login ID"
+msgstr "測試 API 登入 ID"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:191
+msgid "Test Client Key"
+msgstr "測試使用者端金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:240
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:337
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:287
+msgid "Test credentials"
+msgstr "測試環境憑證"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:196
+msgid "Test Signature Key"
+msgstr "測試簽名金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:186
+msgid "Test Transaction Key"
+msgstr "測試交易金鑰"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:294
+msgid "test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+msgstr "test_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:402
+msgid "Text color of the Paddle checkout button"
+msgstr "Paddle 結帳按鈕的文字顏色"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:384
+msgid "Text to display on the Paddle checkout button"
+msgstr "Paddle 結帳按鈕顯示的文字"
+
+#: app/Modules/Integrations/WebhookConnect.php:131
+msgid "The data sent in the request body."
+msgstr "在請求主體中發送的資料。"
+
+#: app/Modules/Integrations/WebhookConnect.php:114
+msgid "The format in which the data will be sent"
+msgstr "資料傳送的格式"
+
+#: app/Modules/Integrations/WebhookConnect.php:103
+msgid "The HTTP method to use for the webhook request"
+msgstr "webhook 請求使用的 HTTP 方法"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:139
+msgid "The license is not Active. Please contact the support."
+msgstr "此授權未啟用。請聯絡客服。"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:132
+msgid "The license key is expired. Please renew or purchase a new license"
+msgstr "授權金鑰已過期。請續約或購買新的授權"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:170
+msgid ""
+"The parent order of this subscription is not in a valid state for "
+"reactivation."
+msgstr "此訂閱的母訂單狀態不適合重新啟用。"
+
+#. Description of the plugin
+msgid "The Pro version of FluentCart - A New Era of Commerce with WordPress"
+msgstr "FluentCart 進階版 - WordPress 電商新時代"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:177
+msgid "The product variant for this subscription is not valid."
+msgstr "此訂閱的產品規格無效。"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:161
+msgid "The recurring amount for this subscription is not valid."
+msgstr "此訂閱的週期金額無效。"
+
+#: app/Modules/Integrations/WebhookConnect.php:89
+msgid "The URL to which the webhook request will be sent"
+msgstr "webhook 請求將發送至的 URL"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:377
+msgid "Theme to use for Paddle checkout modal"
+msgstr "Paddle 結帳彈窗使用的主題"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:188
+msgid ""
+"This license key has no activation limit. Please upgrade or purchase a new "
+"license."
+msgstr "此授權金鑰已無啟用額度。請升級或購買新的授權。"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:507
+msgid "This license key is not valid"
+msgstr "此授權金鑰無效"
+
+#: app/Modules/Licensing/Hooks/Handlers/LicenseApiHandler.php:125
+msgid ""
+"This license key is not valid for this product. Did you provide the valid "
+"license key?"
+msgstr "此授權金鑰不適用於此產品。您是否提供了正確的授權金鑰？"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:165
+msgid "This subscription cannot be reactivated."
+msgstr "此訂閱無法重新啟用。"
+
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:188
+msgid ""
+"This subscription is not available for renew. Please purchase a new one!"
+msgstr "此訂閱無法續約。請購買新的訂閱！"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:61
+msgid "This subscription is not using Authorize.Net as payment method."
+msgstr "此訂閱未使用 Authorize.Net 作為付款方式。"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieSubscriptions.php:20
+msgid "This subscription is not using Mollie as payment method."
+msgstr "此訂閱未使用 Mollie 作為付款方式。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/PaddleSubscriptions.php:25
+msgid "This subscription is not using Paddle as payment method."
+msgstr "此訂閱未使用 Paddle 作為付款方式。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:257
+msgid "This text will be displayed on the Authorize.Net popup form button."
+msgstr "此文字將顯示在 Authorize.Net 彈出表單按鈕上。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:264
+msgid "This text will be displayed on the Authorize.Net popup form header."
+msgstr "此文字將顯示在 Authorize.Net 彈出表單標題上。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:271
+msgid "This text will be displayed on the Fluent Cart checkout button."
+msgstr "此文字將顯示在 Fluent Cart 結帳按鈕上。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Price.php:134
+msgid "Times"
+msgstr "次"
+
+#: app/Modules/Promotional/Http/Controllers/OrderBumpController.php:51
+msgid "Title and source object id are required"
+msgstr "必須填寫標題和來源物件 ID"
+
+#: app/Http/Requests/RoleRequest.php:52
+msgid "Title is required."
+msgstr "必須填寫標題。"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieProcessor.php:83
+msgid "Total Tax"
+msgstr "總稅額"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:130
+msgid "Transaction is held for review by Authorize.Net."
+msgstr "此交易正由 Authorize.Net 審核中。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Price.php:203
+msgid "Trial"
+msgstr "試用"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieHelper.php:209
+msgid "trial"
+msgstr "試用"
+
+#: app/Modules/Licensing/Http/Controllers/CustomerProfileController.php:21
+msgid "Unable to find licenses"
+msgstr "找不到授權"
+
+#: app/Modules/PaymentMethods/MollieGateway/MollieProcessor.php:184
+msgid "Unable to get checkout URL from Mollie"
+msgstr "無法從 Mollie 取得結帳 URL"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:92
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:523
+msgid "Unable to process payment. No transaction ID returned by Authorize.Net."
+msgstr "無法處理付款。Authorize.Net 未返回交易 ID。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetSubscriptions.php:519
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:425
+msgid ""
+"Unable to process subscription. No subscription ID returned by Authorize.Net."
+msgstr "無法處理訂閱。Authorize.Net 未返回訂閱 ID。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/API/AuthorizeDotNetAPI.php:79
+msgid "Unknown Authorize.Net API request error"
+msgstr "未知的 Authorize.Net API 請求錯誤"
+
+#: app/Modules/PaymentMethods/PaddleGateway/API/API.php:215
+msgid "Unknown Paddle API error"
+msgstr "未知的 Paddle API 錯誤"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Price.php:136
+msgid "Until Cancel"
+msgstr "直到取消"
+
+#: app/Hooks/Handlers/UpgradeHandler.php:154
+msgid "Upgrade Discount"
+msgstr "升級折扣"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:357
+msgid "Use Paddle Account Settings"
+msgstr "使用 Paddle 帳戶設定"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:248
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:277
+msgid "Used to verify webhook signatures"
+msgstr "用於驗證 webhook 簽名"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:145
+msgid "User creation failed from LearnDash Integration"
+msgstr "從 LearnDash 整合建立使用者失敗"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:180
+msgid "User creation failed from LifterLMS Integration"
+msgstr "從 LifterLMS 整合建立使用者失敗"
+
+#: app/Modules/Integrations/LMS/LearnDashLMSConnect.php:176
+#, php-format
+msgid "User has been added to courses: %s and groups: %s"
+msgstr "使用者已加入課程：%s 和群組：%s"
+
+#: app/Modules/Integrations/LMS/LifterLMSConnect.php:205
+#, php-format
+msgid "User has been added to courses: %s and memberships: %s"
+msgstr "使用者已加入課程：%s 和會員方案：%s"
+
+#: app/Http/Requests/RoleRequest.php:26
+msgid "User not found."
+msgstr "找不到使用者。"
+
+#: app/Modules/Licensing/Http/Controllers/ProductLicenseController.php:56
+#, php-format
+msgid "Validity type is required for %s."
+msgstr "%s 必須填寫有效期類型。"
+
+#: app/Http/Controllers/ProductController.php:19
+msgid "Variant not found"
+msgstr "找不到規格"
+
+#: app/Services/PluginManager/PluginLicenseManager.php:43
+msgid "View FluentCRM documentation"
+msgstr "查看 FluentCRM 文件"
+
+#: app/Services/PluginManager/PluginLicenseManager.php:44
+msgid "Visit Support"
+msgstr "前往支援"
+
+#: app/Modules/Integrations/WebhookConnect.php:20
+#: app/Modules/Integrations/WebhookConnect.php:141
+msgid "Webhook"
+msgstr "Webhook"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:252
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:281
+msgid "Webhook Configuration"
+msgstr "Webhook 設定"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:81
+msgid "Webhook ignored. Entity not supported."
+msgstr "已忽略 Webhook。不支援此實體。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:292
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:304
+msgid "Webhook is configured and listening to the following events:"
+msgstr "Webhook 已設定並正在監聽以下事件："
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:75
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/Webhook/IPN.php:105
+msgid "Webhook processed."
+msgstr "Webhook 已處理。"
+
+#: app/Modules/Integrations/WebhookConnect.php:279
+#: app/Modules/Integrations/WebhookConnect.php:290
+msgid "Webhook Request Failed"
+msgstr "Webhook 請求失敗"
+
+#: app/Modules/Integrations/WebhookConnect.php:299
+msgid "Webhook Request Sent"
+msgstr "Webhook 請求已發送"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:295
+msgid "Webhook URL"
+msgstr "Webhook URL"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:204
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:290
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:302
+msgid "Webhook URL:"
+msgstr "Webhook URL："
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:237
+msgid "Webhook URL: "
+msgstr "Webhook URL："
+
+#: app/Modules/Integrations/WebhookConnect.php:153
+msgid "With Headers"
+msgstr "附帶標頭"
+
+#. %1$s Item Title
+#: app/Hooks/Handlers/SubscriptionRenewalHandler.php:265
+#, php-format
+msgid "You are reactivating your subscription: %1$s ."
+msgstr "您正在重新啟用訂閱：%1$s。"
+
+#. %1$s Item Title, %2$s Variation Title
+#: app/Hooks/Handlers/UpgradeHandler.php:146
+#, php-format
+msgid "You are upgrading your plan from %1$s to %2$s."
+msgstr "您正在將方案從 %1$s 升級為 %2$s。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:207
+msgid ""
+"You can do it by following the instructions below. Or provide valid API Key "
+"and save the settings and reload."
+msgstr "您可以按照以下說明操作，或提供有效的 API 金鑰並儲存設定後重新載入。"
+
+#: app/Services/Translations/Translations.php:10
+#, php-format
+msgid ""
+"You can replace this module from %s/resources/admin/Components/Dashboard."
+"vue%s"
+msgstr "您可以從 %s/resources/admin/Components/Dashboard.vue%s 替換此模組"
+
+#: app/Services/PluginManager/Updater.php:317
+#: app/Services/ProPluginManager/Updater.php:317
+msgid "You do not have permission to install plugin updates"
+msgstr "您沒有安裝外掛更新的權限"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:180
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:508
+msgid "You have already paid for this order."
+msgstr "您已付款此訂單。"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNetProcessor.php:408
+msgid "You have already subscribed to this plan."
+msgstr "您已訂閱此方案。"
+
+#: app/Modules/PaymentMethods/MollieGateway/Mollie.php:239
+msgid ""
+"You should configure your Mollie webhooks to get all updates of your "
+"payments remotely."
+msgstr "您應設定 Mollie webhook，以便遠端接收所有付款更新。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:206
+msgid ""
+"You should configure your Paddle webhooks to get all updates of your "
+"payments remotely."
+msgstr "您應設定 Paddle webhook，以便遠端接收所有付款更新。"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:262
+msgid "Your live API key"
+msgstr "您的正式 API 金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:204
+msgid "Your live API Login ID"
+msgstr "您的正式 API 登入 ID"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:214
+msgid "Your live Client Key"
+msgstr "您的正式使用者端金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:269
+msgid "Your live client token"
+msgstr "您的正式使用者端 token"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:219
+msgid "Your live Signature Key"
+msgstr "您的正式簽名金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:209
+msgid "Your live Transaction Key"
+msgstr "您的正式交易金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:276
+msgid "Your live webhook secret"
+msgstr "您的正式 webhook 金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:233
+msgid "Your sandbox API key"
+msgstr "您的沙箱 API 金鑰"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:240
+msgid "Your sandbox client token"
+msgstr "您的沙箱使用者端 token"
+
+#: app/Modules/PaymentMethods/PaddleGateway/Paddle.php:247
+msgid "Your sandbox webhook secret"
+msgstr "您的沙箱 webhook 金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:182
+msgid "Your test API Login ID"
+msgstr "您的測試 API 登入 ID"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:192
+msgid "Your test Client Key"
+msgstr "您的測試使用者端金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:197
+msgid "Your test Signature Key"
+msgstr "您的測試簽名金鑰"
+
+#: app/Modules/PaymentMethods/AuthorizeDotNetGateway/AuthorizeDotNet.php:187
+msgid "Your test Transaction Key"
+msgstr "您的測試交易金鑰"
+

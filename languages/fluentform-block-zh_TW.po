@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Forms Block 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-11 00:00+0000\n"
+"PO-Revision-Date: 2026-03-11 00:00+0800\n"
+"Last-Translator: BuyGo <info@aiver.me>\n"
+"Language-Team: Traditional Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Claude Code\n"
+
+#. Plugin Name of the plugin
+msgid "Fluent Forms Block"
+msgstr "Fluent Forms 區塊"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/fluentform-block"
+msgstr "https://wordpress.org/plugins/fluentform-block"
+
+#. Description of the plugin
+msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
+msgstr "Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊建立進階聯絡表單。"
+
+#. Author of the plugin
+msgid "wpmetablock"
+msgstr "wpmetablock"
+
+#. Author URI of the plugin
+msgid "https://github.com/wpmetablock"
+msgstr "https://github.com/wpmetablock"
+
+#: app/Ctrl/BlockCtrl.php:60
+msgid "Session Expired!!"
+msgstr "工作階段已過期！！"
+
+#: app/Ctrl/BlockCtrl.php:69
+msgid "Please select a valid fluentform."
+msgstr "請選擇一個有效的 Fluent Form 表單。"
+
+#: app/Ctrl/BlockCtrl.php:83
+msgid "Fluent Form Block"
+msgstr "Fluent Form 區塊"
+
+#: app/Helper/Fns.php:48
+msgid "Select a Form"
+msgstr "選擇表單"
+
+msgid "Margin & Padding"
+msgstr "外距 & 內距"
+
+msgid "Margin Top"
+msgstr "上方外距"
+
+msgid "Margin Bottom"
+msgstr "下方外距"
+
+msgid "Padding"
+msgstr "內距"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Background Transition"
+msgstr "背景轉場"
+
+msgid "Enable Overlay"
+msgstr "啟用覆蓋層"
+
+msgid "Border"
+msgstr "邊框"
+
+msgid "Border Radius"
+msgstr "圓角"
+
+msgid "Shadow"
+msgstr "陰影"
+
+msgid "Show/Hide Condition"
+msgstr "顯示/隱藏條件"
+
+msgid "Hide on desktop"
+msgstr "桌面版隱藏"
+
+msgid "Hide on Tablet"
+msgstr "平板隱藏"
+
+msgid "Hide on Mobile"
+msgstr "手機隱藏"
+
+msgid "Z-Index"
+msgstr "Z-Index"
+
+msgid "Coustom CSS"
+msgstr "自訂 CSS"
+
+msgid "Left"
+msgstr "靠左"
+
+msgid "Middle"
+msgstr "置中"
+
+msgid "Right"
+msgstr "靠右"
+
+msgid "Background Color"
+msgstr "背景顏色"
+
+msgid "Background Image"
+msgstr "背景圖片"
+
+msgid "Upload Image"
+msgstr "上傳圖片"
+
+msgid "Background Position"
+msgstr "背景位置"
+
+msgid "Background Attachment"
+msgstr "背景附件"
+
+msgid "Background Repeat"
+msgstr "背景重複"
+
+msgid "Background Size"
+msgstr "背景尺寸"
+
+msgid "Border Style"
+msgstr "邊框樣式"
+
+msgid "Border Color"
+msgstr "邊框顏色"
+
+msgid "Shadow Color"
+msgstr "陰影顏色"
+
+msgid "Horizontal Offset"
+msgstr "水平偏移"
+
+msgid "Vertical Offset"
+msgstr "垂直偏移"
+
+msgid "Shadow Blur"
+msgstr "陰影模糊"
+
+msgid "Shadow Spread"
+msgstr "陰影擴散"
+
+msgid "Shadow Transition"
+msgstr "陰影轉場"
+
+msgid "Desktop"
+msgstr "桌面版"
+
+msgid "Tablet"
+msgstr "平板"
+
+msgid "Mobile"
+msgstr "手機"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Component props options is mandatory"
+msgstr "元件的 props 選項為必填"
+
+msgid "Font Family"
+msgstr "字型"
+
+msgid "Font Size"
+msgstr "字體大小"
+
+msgid "Font Weight"
+msgstr "字體粗細"
+
+msgid "Font Style"
+msgstr "字體樣式"
+
+msgid "Text Transform"
+msgstr "文字轉換"
+
+msgid "Letter Spacing"
+msgstr "字距"
+
+msgid "Line Height"
+msgstr "行高"
+
+msgid "No Fluentform found."
+msgstr "找不到 Fluent Form 表單。"
+
+msgid "To use the features of this block, please install and activate the "
+msgstr "若要使用此區塊的功能，請安裝並啟用 "
+
+msgid "Fluent Forms"
+msgstr "Fluent Forms"
+
+msgid "Please Select A Form"
+msgstr "請選擇一個表單"
+
+msgid "Classic"
+msgstr "經典"
+
+msgid "Gradient"
+msgstr "漸層"
+
+msgid "Left Top"
+msgstr "左上"
+
+msgid "Left Center"
+msgstr "左中"
+
+msgid "Left Bottom"
+msgstr "左下"
+
+msgid "Right Top"
+msgstr "右上"
+
+msgid "Right Center"
+msgstr "右中"
+
+msgid "Right Bottom"
+msgstr "右下"
+
+msgid "Center Top"
+msgstr "中上"
+
+msgid "Center Center"
+msgstr "正中"
+
+msgid "Center Bottom"
+msgstr "中下"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "Cover"
+msgstr "覆蓋"
+
+msgid "Contain"
+msgstr "包含"
+
+msgid "No Repeat"
+msgstr "不重複"
+
+msgid "Repeat"
+msgstr "重複"
+
+msgid "Repeat X"
+msgstr "水平重複"
+
+msgid "Repeat Y"
+msgstr "垂直重複"
+
+msgid "Scroll"
+msgstr "捲動"
+
+msgid "Fixed"
+msgstr "固定"
+
+msgid "None"
+msgstr "無"
+
+msgid "Lowercase"
+msgstr "小寫"
+
+msgid "Capitalize"
+msgstr "首字大寫"
+
+msgid "Uppercase"
+msgstr "大寫"
+
+msgid "Light"
+msgstr "細"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Medium"
+msgstr "中"
+
+msgid "Semi Bold"
+msgstr "半粗"
+
+msgid "Bold"
+msgstr "粗體"
+
+msgid "Extra Bold"
+msgstr "特粗"
+
+msgid "Heavy Bold"
+msgstr "極粗"
+
+msgid "Italic"
+msgstr "斜體"
+
+msgid "Oblique"
+msgstr "傾斜"
+
+msgid "H1"
+msgstr "H1"
+
+msgid "H2"
+msgstr "H2"
+
+msgid "H3"
+msgstr "H3"
+
+msgid "H4"
+msgstr "H4"
+
+msgid "H5"
+msgstr "H5"
+
+msgid "H6"
+msgstr "H6"
+
+msgid "1 Col"
+msgstr "1 欄"
+
+msgid "2 Col"
+msgstr "2 欄"
+
+msgid "3 Col"
+msgstr "3 欄"
+
+msgid "4 Col"
+msgstr "4 欄"
+
+msgid "5 Col"
+msgstr "5 欄"
+
+msgid "6 Col"
+msgstr "6 欄"
+
+msgid "7 Col"
+msgstr "7 欄"
+
+msgid "8 Col"
+msgstr "8 欄"
+
+msgid "Span"
+msgstr "Span"
+
+msgid "P"
+msgstr "P"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Fluent Form"
+msgstr "Fluent Form"
+
+msgid "Form list from plugin fluent form list"
+msgstr "Fluent Form 外掛的表單列表"
+
+msgid "Display Labels"
+msgstr "顯示標籤"
+
+msgid "Display Placeholder"
+msgstr "顯示預留文字"
+
+msgid "Display Error Message"
+msgstr "顯示錯誤訊息"
+
+msgid "Alignment"
+msgstr "對齊"
+
+msgid "Alignment field working when form max width field value set"
+msgstr "設定表單最大寬度後，對齊欄位才會生效"
+
+msgid "Label"
+msgstr "標籤"
+
+msgid "Typography"
+msgstr "字型排版"
+
+msgid "Color"
+msgstr "顏色"
+
+msgid "Space"
+msgstr "間距"
+
+msgid "Input/Textarea/Select"
+msgstr "輸入框/文字區域/下拉選單"
+
+msgid "Input Width"
+msgstr "輸入框寬度"
+
+msgid "Input Height"
+msgstr "輸入框高度"
+
+msgid "Margin"
+msgstr "外距"
+
+msgid "Textarea"
+msgstr "文字區域"
+
+msgid "Textarea Width"
+msgstr "文字區域寬度"
+
+msgid "Textarea Height"
+msgstr "文字區域高度"
+
+msgid "Placeholder"
+msgstr "預留文字"
+
+msgid "Checkbox & Radio"
+msgstr "核取方塊 & 圓形選項"
+
+msgid "Label Color"
+msgstr "標籤顏色"
+
+msgid "Checked Color"
+msgstr "已勾選顏色"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Item To Label Space"
+msgstr "項目到標籤間距"
+
+msgid "Item Bottom Space"
+msgstr "項目下方間距"
+
+msgid "Border Width"
+msgstr "邊框寬度"
+
+msgid "Checkbox Rounded Corners"
+msgstr "核取方塊圓角"
+
+msgid "Section Break"
+msgstr "分隔線"
+
+msgid "Heading"
+msgstr "標題"
+
+msgid "Text Color"
+msgstr "文字顏色"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Custom HTML"
+msgstr "自訂 HTML"
+
+msgid "Submit Button"
+msgstr "提交按鈕"
+
+msgid "Hover Text Color"
+msgstr "滑鼠懸停文字顏色"
+
+msgid "Hover Background Color"
+msgstr "滑鼠懸停背景顏色"
+
+msgid "Width"
+msgstr "寬度"
+
+msgid "Height"
+msgstr "高度"
+
+msgid "Box Shadow"
+msgstr "方塊陰影"
+
+msgid "Success Message"
+msgstr "成功訊息"
+
+msgid "Error Message"
+msgstr "錯誤訊息"
+
+msgctxt "block title"
+msgid "Fluent Form Block"
+msgstr "Fluent Form 區塊"
+
+msgctxt "block description"
+msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
+msgstr "Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊建立進階聯絡表單。"
+
+msgctxt "block keyword"
+msgid "gutenberg form"
+msgstr "gutenberg 表單"
+
+msgctxt "block keyword"
+msgid "contact form"
+msgstr "聯絡表單"
+
+msgctxt "block keyword"
+msgid "forms"
+msgstr "表單"
+
+msgctxt "block keyword"
+msgid "custom form"
+msgstr "自訂表單"
+
+msgctxt "block keyword"
+msgid "form builder"
+msgstr "表單建立器"
