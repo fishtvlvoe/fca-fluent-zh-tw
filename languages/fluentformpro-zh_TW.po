@@ -11358,3 +11358,15 @@ msgstr ""
 #: src/Payments/PaymentHelper.php:955
 msgid "{subscription_amount} for each {billing_interval}"
 msgstr "{subscription_amount} 對應每個 {billing_interval}"
+
+#: src/classes/Chat/ChatField.php
+msgid "This field is required"
+msgstr "此欄位為必填"
+
+#: src/classes/Chat/ChatField.php
+msgid "OpenAI Content"
+msgstr "OpenAI 內容"
+
+#: src/Components/SaveProgressButton.php
+msgid "Your progress has been successfully saved. Resume anytime using the link below."
+msgstr "您的進度已成功儲存。您可以隨時使用下方連結繼續填寫。"
