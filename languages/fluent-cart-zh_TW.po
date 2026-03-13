@@ -29791,7 +29791,7 @@ msgstr "越南語"
 #: app/Services/Translations/admin-translation.php:1912
 #: app/Services/Translations/block-editor-translation.php:384
 msgid "View"
-msgstr "看法"
+msgstr "查看"
 
 #. 1: Post or product title
 #: app/Services/Renderer/CartRenderer.php:194

@@ -891,7 +891,7 @@ msgstr "視訊時間"
 
 #: app/Services/Translations/admin-translations.php:90
 msgid "View"
-msgstr "看法"
+msgstr "查看"
 
 #: app/Services/Translations/admin-translations.php:91
 msgid "View Demo"

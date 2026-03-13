@@ -7807,7 +7807,7 @@ msgstr "設定你的寄件者姓名、電子郵件地址和電子郵件頁尾。
 
 #: app/Services/TransStrings.php:1246 app/Hooks/Handlers/PortalHandler.php:176
 msgid "Settings"
-msgstr "[TEST] 設定"
+msgstr "設定"
 
 #: app/Services/TransStrings.php:1247
 msgid "Settings could not be loaded"

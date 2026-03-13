@@ -1513,7 +1513,7 @@ msgid "Venue Name"
 msgstr "場地名稱"
 
 msgid "View"
-msgstr "看法"
+msgstr "查看"
 
 msgid "View Event"
 msgstr "查看活動"
