@@ -13,6 +13,10 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+// GitHub 自動更新器
+require_once __DIR__ . '/updater.php';
+new FCA_Fluent_ZhTW_Updater(__FILE__, '1.0.0');
+
 /**
  * 載入翻譯檔
  *
