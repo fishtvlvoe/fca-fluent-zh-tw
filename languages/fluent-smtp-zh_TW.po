@@ -1558,7 +1558,7 @@ msgstr "(需要重新驗證)"
 
 #: app/Services/TransStrings.php:15
 msgid "(Default: US East(N.Virginia) / us - east - 1)"
-msgstr "(預設：美東 (北維吉尼亞) / us-east-1)"
+msgstr "（預設：美東（北維吉尼亞）/ us-east-1）"
 
 #: app/Hooks/Handlers/AdminMenuHandler.php:85
 msgid ""

@@ -68,7 +68,7 @@ msgstr "啟用多重反應"
 
 #: views/admin-settings.php:62
 msgid "Enable reaction functionality on comments"
-msgstr "啟用評論的回覆功能"
+msgstr "啟用留言回應功能"
 
 #. Description of the plugin
 msgid ""

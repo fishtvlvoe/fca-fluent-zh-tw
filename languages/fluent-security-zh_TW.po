@@ -2186,7 +2186,7 @@ msgstr "你嘗試得太多了。請在 %d 分鐘後嘗試"
 
 #: app/Hooks/Handlers/TwoFaHandler.php:276
 msgid "You can also login by clicking the following button"
-msgstr "也可點選以下按鈕登入"
+msgstr "您也可以點擊以下按鈕登入"
 
 #: app/Services/TransStrings.php:276
 msgid ""

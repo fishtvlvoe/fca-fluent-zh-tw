@@ -8615,7 +8615,7 @@ msgstr "貼文網址可能不正確"
 
 #: app/Services/TransStrings.php:1682
 msgid "the quiz."
-msgstr "測驗"
+msgstr "測驗。"
 
 #: app/Services/TransStrings.php:1348
 msgid ""
