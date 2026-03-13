@@ -597,6 +597,84 @@ class FCA_Fluent_ZhTW {
                                     => '夜還長著呢！',
         ];
 
+        // fluent-security 後台（fluentAuthAdmin.i18n）
+        $fluent_security_admin = [
+            'All the file changes are marked as ignored previously. You can review the files and check if you want to keep them on ignored lists or not.'
+                => '所有檔案變更皆已在先前標記為忽略。您可以查看這些檔案，並檢查是否要將它們保留在忽略清單中。',
+            'Custimize your default system emails sent by WordPress. Make it beautiful, use your own contents.'
+                => '自訂由 WordPress 發送的預設系統電子郵件。讓它更美觀，使用您自己的內容。',
+            'Disable Magic Login for specific user roles (Leave blank to enable magic login for all users)'
+                => '針對特定使用者角色停用 Magic Login（留白以為所有使用者啟用 Magic Login）',
+            'Disable REST Endpoint for wp users query for public (Recommended: Disable)'
+                => '停用針對公眾的 wp 使用者查詢 REST 端點（建議：停用）',
+            'Enable auto-scanning of your Core WordPress files and get emails if there has any un-authorized file changes.'
+                => '啟用您的 WordPress 核心檔案自動掃描，若發現任何未經授權的檔案變更，您將收到電子郵件。',
+            'Ensure your WordPress core files remain secure by detecting any unauthorized changes or tampering'
+                => '透過偵測任何未經授權的變更或竄改，確保您的 WordPress 核心檔案保持安全。',
+            'FluentAuth found some file changes but you marked them as ignored them previously'
+                => 'FluentAuth 發現一些檔案變更，但您已先前將它們標記為忽略',
+            'FluentAuth has scanned your site and found no unauthorized changes in WordPress core files.'
+                => 'FluentAuth 已掃描您的網站，且在 WordPress 核心檔案中未發現任何未經授權的變更。',
+            'For more information how to setup Facebook app for social authentication please'
+                => '有關如何為社交認證設定 Facebook 應用程式的更多資訊，請',
+            'For more information how to setup Github app for social authentication please'
+                => '有關如何為社交認證設定 Github 應用程式的更多資訊，請',
+            'For more information how to setup google app for social authentication please'
+                => '有關如何為社交認證設定 Google 應用程式的更多資訊，請',
+            'Full Authentication Flow ShortCode (includes Login Form, Registration Form and Password Reset Form)'
+                => '完整認證流程短代碼（包含登入表單、註冊表單和密碼重設表單）',
+            'If a user fails to log in %1s times within %2s minutes minutes, the system will block the user for %3s minutes.'
+                => '如果使用者在 %2s 分鐘內登入失敗 %1s 次，系統將封鎖該使用者 %3s 分鐘。',
+            'If you want to change the notification email address or disable scanning service,'
+                => '如果您想變更通知電子郵件地址或停用掃描服務，',
+            'Look like there has some file changes has been detected. Please review individual files and take necesarry actions.'
+                => '看起來偵測到一些檔案變更。請查看個別檔案並採取必要措施。',
+            'Please add the following code in your wp-config.php file (please replace the *** with your app values)'
+                => '請在您的 wp-config.php 檔案中加入以下程式碼（請將 *** 取代為您的應用程式值）',
+            'Please fill up the form and get a free API key to enable Security Scan and Automatted Notification. This API key will be used to send you email from FluentAuth Service. (You need the free API key just once)'
+                => '請填寫表單以取得免費的 API 金鑰，來啟用安全掃描與自動通知。此 API 金鑰將用於由 FluentAuth 服務向您發送電子郵件。（您只需要取得一次免費的 API 金鑰）',
+            'Please get a free API key to enable Scheduled Scanning and get notified when FluentAuth detects file changes.'
+                => '請取得免費的 API 金鑰以啟用定期掃描，並在 FluentAuth 偵測到檔案變更時收到通知。',
+            'Please note, If there has redirect_to query parameter in the Login Page URL, it will be used for redirection instead of these set rule.'
+                => '請注意，如果登入頁面 URL 中有 redirect_to 查詢參數，它將被用於重新導向，而不是這些設定的規則。',
+            'Replace Default Signup Form with Secure form with Email Verfication (Recommended: Enable)'
+                => '使用帶有電子郵件驗證的安全表單取代預設註冊表單（建議：啟用）',
+            'This email notification is disabled. So no email notification will be sent for this event.'
+                => '此電子郵件通知已停用。因此不會為此事件發送電子郵件通知。',
+            'This email will use the system default content. If you want to customize the email subject and body please switch to Custimized Content.'
+                => '此電子郵件將使用系統預設內容。如果您想自訂電子郵件主旨和內文，請切換到「自訂內容」。',
+            'To use Google One-Tap feature, you need to add your website domain in the Authorized JavaScript origins section of your Google app settings.'
+                => '若要使用 Google One-Tap 功能，您需要在您的 Google 應用程式設定的「已授權的 JavaScript 來源」區段中加入您的網站網域。',
+            'You can scan your site to detect unauthorized changes in WordPress core files. After scanning, FluentAuth will display any security issues found.'
+                => '您可以掃描您的網站以偵測 WordPress 核心檔案中未經授權的變更。掃描後，FluentAuth 將顯示發現的任何安全性問題。',
+            'You may remove the h3 content or change it. If you want to define customized redirect URL then use shortcode:'
+                => '您可以移除或變更 h3 的內容。如果您想定義自訂的重新導向 URL，請使用短代碼：',
+        ];
+
+        // fluent-smtp 後台（FluentMailAdmin.trans）
+        $fluent_smtp_admin = [
+            ' connection.'                              => ' 連線。',
+            ' in the '                                  => ' 在 ',
+            ' option in the Google Cloud Project.'      => ' 選項在 Google Cloud Project 中。',
+            '*** It is very important to put '          => '*** 非常重要的是要把 ',
+            'Connection Name '                          => '連線名稱 ',
+            'Discord Channel Details: '                 => 'Discord 頻道詳細資訊：',
+            'FluentSMTP does not store your email notifications data. '
+                => 'FluentSMTP 不會儲存您的電子郵件通知資料。',
+            'Follow this link to get an API Key from ElasticEmail: '
+                => '點擊此連結從 ElasticEmail 取得 API 金鑰：',
+            'If you find an issue or have a suggestion please '
+                => '若您發現任何問題或有任何建議，請 ',
+            'If you have a minute, consider '           => '如果您有空，請考慮 ',
+            'Meet '                                     => '認識 ',
+            'Please '                                   => '請 ',
+            'Please authenticate with Google to get '   => '請向 Google 驗證以取得 ',
+            'Please authenticate with Office365 to get '=> '請向 Office365 驗證以取得 ',
+            'Region '                                   => '區域 ',
+            'Sender Email '                             => '寄件者電子郵件 ',
+            'Slack Channel Details: '                   => 'Slack 頻道詳細資訊：',
+        ];
+
         // fluent-cart-pro（fct_authorize_dot_net_data.translations）
         $fluent_cart_pro_authnet = [
             'Tokenization failed. Please verify the details.'
@@ -631,6 +709,14 @@ class FCA_Fluent_ZhTW {
             // fluent-cart-pro Authorize.Net（fct_authorize_dot_net_data.translations）
             var _authnet = window.fct_authorize_dot_net_data && window.fct_authorize_dot_net_data.translations;
             _merge(_authnet, <?php echo json_encode($fluent_cart_pro_authnet, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-security 後台（fluentAuthAdmin.i18n）
+            var _fsecI18n = window.fluentAuthAdmin && window.fluentAuthAdmin.i18n;
+            _merge(_fsecI18n, <?php echo json_encode($fluent_security_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+
+            // fluent-smtp 後台（FluentMailAdmin.trans）
+            var _fsmtpTr = window.FluentMailAdmin && window.FluentMailAdmin.trans;
+            _merge(_fsmtpTr, <?php echo json_encode($fluent_smtp_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
         })();
         </script>
         <?php
