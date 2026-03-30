@@ -8,13 +8,16 @@ on:
       - 'languages/**'
       - 'fca-fluent-zh-tw.php'
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
 
     steps:
       - name: 檢出代碼
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -25,25 +28,35 @@ jobs:
           echo "version=${VERSION}" >> $GITHUB_OUTPUT
           echo "版本號: $VERSION"
 
-      - name: 打包外掛
-        run: bash build.sh
+      - name: 檢查 Release 是否已存在
+        id: check
+        run: |
+          if gh release view "v${{ steps.version.outputs.version }}" > /dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 列出打包的檔案
-        run: ls -lh *.zip || echo "未找到 zip 檔案"
+      - name: 打包外掛
+        if: steps.check.outputs.exists == 'false'
+        run: |
+          bash build.sh
+          # build.sh 輸出到上層目錄，移到當前目錄
+          mv ../fca-fluent-zh-tw-*.zip . 2>/dev/null || true
+          ls -lh fca-fluent-zh-tw-*.zip
 
       - name: 建立 Release
-        uses: softprops/action-gh-release@v1
+        if: steps.check.outputs.exists == 'false'
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.version.outputs.version }}
-          name: 版本 ${{ steps.version.outputs.version }}
+          name: v${{ steps.version.outputs.version }}
           body: |
-            ## 更新內容
-            - 翻譯字串更新與修正
-            - 支援外掛版本同步
+            ## FCA & Fluent 繁體中文翻譯包 v${{ steps.version.outputs.version }}
 
-            詳見 Git 提交記錄
+            翻譯字串更新與修正。詳見 Git 提交記錄。
           files: fca-fluent-zh-tw-*.zip
           draft: false
           prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
