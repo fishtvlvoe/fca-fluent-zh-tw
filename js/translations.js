@@ -183,9 +183,49 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Bio':                      '簡介',
     };
 
-    // ── FCA PWA（Analytics + Service Worker UI）────────────────────────
+    // ── FCA PWA（設定 + Analytics + Service Worker UI）─────────────────
     var fcaPwa = {
+        // 設定頁面 tabs
+        'Manifest':                 'Manifest',
+        'Install Prompt':           '安裝提示',
+        'Advanced':                 '進階',
+        'Diagnostics':              '診斷',
+        'ACTIVE':                   '啟用中',
+        'Progressive Web App for Fluent Community':
+                                    'Fluent Community 漸進式網頁應用程式',
+        // 基本設定
+        'Basic Configuration':      '基本設定',
+        'Configure the basic settings for your Progressive Web App':
+                                    '設定漸進式網頁應用程式的基本選項',
+        'Setup Progress':           '設定進度',
+        'Enable PWA functionality': '啟用 PWA 功能',
+        'Set App Name':             '設定應用程式名稱',
+        'Upload App Icon':          '上傳應用程式圖示',
+        'Generate Manifest File':   '產生 Manifest 檔案',
+        'Enable Progressive Web App functionality for your community':
+                                    '為您的社群啟用漸進式網頁應用程式功能',
+        'The full name of your app as it appears to users':
+                                    '使用者看到的應用程式完整名稱',
+        'Hide for me':              '為我隱藏',
+        'Hide for all':             '為所有人隱藏',
+        'Run Diagnostics':          '執行診斷',
+        // Analytics 頁面
         'PWA Analytics':            'PWA 分析',
+        'Track installation, usage, and engagement metrics for your Progressive Web App':
+                                    '追蹤漸進式網頁應用程式的安裝、使用和互動指標',
+        'Total Installs':           '總安裝數',
+        'Unique Users':             '不重複使用者',
+        'Total Events':             '總事件數',
+        'Conversion Rate':          '轉換率',
+        'Last 30 Days':             '最近 30 天',
+        'Events by Type':           '依類型分類的事件',
+        'Events Timeline':          '事件時間軸',
+        'No event data yet':        '尚無事件資料',
+        'No timeline data yet':     '尚無時間軸資料',
+        'How Analytics Work':       '分析運作方式',
+        'PWA Analytics automatically tracks user interactions including install prompt views, installation completions, dismissals, and app usage. Data is collected anonymously and stored locally in your WordPress database.':
+                                    'PWA 分析會自動追蹤使用者互動，包括安裝提示瀏覽次數、安裝完成次數、關閉次數和應用程式使用情況。資料以匿名方式收集，並儲存在您的 WordPress 資料庫中。',
+        // Service Worker UI
         'Event tracked':            '事件已追蹤',
         'Event type is required':   '事件類型為必填',
         'Failed to track event':    '追蹤事件失敗',
@@ -210,6 +250,19 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
 
     // ── FCA Comments ──────────────────────────────────────────────────
     var fcaComments = {
+        'FCA Comments Settings':    'FCA 留言設定',
+        'Connect WordPress content to Fluent Community spaces.':
+                                    '將 WordPress 內容連結至 Fluent Community 空間。',
+        'Assignment Rules':         '指派規則',
+        'Appearance':               '外觀',
+        'Legacy & Advanced':        '舊版與進階',
+        'Use rules to automatically assign posts to specific spaces based on multiple conditions.':
+                                    '使用規則根據多個條件自動將文章指派到特定空間。',
+        'No rules created yet. Click the button below to add your first rule.':
+                                    '尚未建立任何規則。點擊下方按鈕新增您的第一條規則。',
+        'Add New Rule':             '新增規則',
+        'Save All Settings':        '儲存所有設定',
+        'Save Changes':             '儲存變更',
         'Community Discussion':     '社群討論',
         'Join the Discussion':      '加入討論',
         'FCA Comments':             'FCA 留言',
