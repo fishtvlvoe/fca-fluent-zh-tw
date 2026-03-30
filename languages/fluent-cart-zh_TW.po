@@ -7041,7 +7041,7 @@ msgstr "已到貨"
 #: app/Services/Translations/admin-translation.php:532
 #: app/Http/Controllers/TemplateController.php:17
 msgid "Delivery Slip Template"
-msgstr "送貨單模板"
+msgstr "送貨單範本"
 
 #: app/Services/Localization/i18n/states.php:1415
 msgid "Delta"
@@ -7255,7 +7255,7 @@ msgstr "折扣值"
 #: app/Services/Translations/admin-translation.php:563
 #: app/Http/Controllers/TemplateController.php:19
 msgid "Dispatch Slip Template"
-msgstr "出貨單模板"
+msgstr "出貨單範本"
 
 #: app/Hooks/Handlers/BlockEditors/MiniCartBlockEditor.php:76
 msgid "Display a button for shoppers to quickly view their cart."
@@ -12473,7 +12473,7 @@ msgstr "發票號碼 #"
 #: app/Services/Translations/admin-translation.php:890
 #: app/Http/Controllers/TemplateController.php:15
 msgid "Invoice Template"
-msgstr "發票模板"
+msgstr "發票範本"
 
 #: app/Services/Localization/i18n/states.php:674
 msgid "Ionian Islands"
@@ -18702,7 +18702,7 @@ msgstr "軟體套件「%s」未安裝"
 #: app/Services/Translations/admin-translation.php:1191
 #: app/Http/Controllers/TemplateController.php:16
 msgid "Packing Slip Template"
-msgstr "裝箱單模板"
+msgstr "裝箱單範本"
 
 #: app/Modules/Templating/Bricks/Elements/ProductAddToCart.php:172
 #: app/Modules/Templating/Bricks/Elements/ProductAddToCart.php:343
@@ -20203,7 +20203,7 @@ msgstr "預覽"
 
 #: app/Services/Translations/admin-translation.php:1273
 msgid "Preview Template"
-msgstr "預覽模板"
+msgstr "預覽範本"
 
 #: app/Services/Translations/TransStrings.php:265
 #: app/Services/Translations/admin-translation.php:1274
@@ -20864,7 +20864,7 @@ msgstr "產品分類"
 #: app/Services/Translations/block-editor-translation.php:260
 #: app/Hooks/Handlers/BlockEditors/RelatedProduct/InnerBlocks/InnerBlocks.php:48
 msgid "Product Template"
-msgstr "商品模板"
+msgstr "商品範本"
 
 #: app/Services/Translations/admin-translation.php:1305
 #: app/Services/Translations/block-editor-translation.php:261
@@ -21974,7 +21974,7 @@ msgstr "重置篩選條件"
 
 #: app/Services/Translations/admin-translation.php:1397
 msgid "Reset Template"
-msgstr "重置模板"
+msgstr "重置範本"
 
 #: app/Services/Tax/TaxManager.php:276
 msgid "Rest of the World"
@@ -23507,7 +23507,7 @@ msgstr "選擇稅類"
 
 #: app/Services/Translations/admin-translation.php:1535
 msgid "Select template"
-msgstr "選擇模板"
+msgstr "選擇範本"
 
 #: api/StoreSettings.php:322
 msgid "Select the character used to separate thousands or decimals in prices."
@@ -24271,7 +24271,7 @@ msgstr "運費"
 #: app/Services/Translations/admin-translation.php:1582
 #: app/Http/Controllers/TemplateController.php:18
 msgid "Shipping Slip Template"
-msgstr "出貨單模板"
+msgstr "出貨單範本"
 
 #: app/Services/Translations/admin-translation.php:1583
 msgid "Shipping Status"
@@ -26786,11 +26786,11 @@ msgstr "特萊爾曼"
 
 #: app/Modules/Templating/BlockTemplates/TemplateParts/ProductModalTemplatePart.php:340
 msgid "Template content cannot be empty."
-msgstr "模板內容不能為空。"
+msgstr "範本內容不能為空。"
 
 #: app/Modules/Templating/BlockTemplates/ProductModalTemplate.php:48
 msgid "Template for Single Product Modal."
-msgstr "單品展示模板。"
+msgstr "單品展示範本。"
 
 #: app/Modules/Templating/BlockTemplates/ProductCategoryTemplate.php:38
 msgctxt "Template name"
@@ -26814,7 +26814,7 @@ msgstr "產品模型"
 
 #: app/Http/Controllers/TemplateController.php:48
 msgid "Template saved successfully"
-msgstr "模板已成功儲存"
+msgstr "範本已成功儲存"
 
 #: app/Services/Tax/TaxManager.php:111
 msgid "Ten"
@@ -32669,7 +32669,7 @@ msgstr "— 選取條件 —"
 #~ msgstr "外掛已是最新版本。"
 
 #~ msgid "Receipt template"
-#~ msgstr "收據模板"
+#~ msgstr "收據範本"
 
 #~ msgid "Selected Product:"
 #~ msgstr "精選商品："

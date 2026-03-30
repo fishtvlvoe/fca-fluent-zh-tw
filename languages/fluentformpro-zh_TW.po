@@ -2649,7 +2649,7 @@ msgstr "延遲"
 msgid ""
 "Define the mapping template for generate options. Use placeholders to "
 "dynamically insert values from the database records."
-msgstr "定義產生選項的對應模板。使用佔位符從資料庫記錄動態插入值。"
+msgstr "定義產生選項的對應範本。使用佔位符從資料庫記錄動態插入值。"
 
 #: src/classes/Inventory/InventoryController.php:179
 msgid "Deleted Successfully"
@@ -3908,7 +3908,7 @@ msgid ""
 "ConvertKit account and go to<br>Profile -> Account Settings -> Account Info"
 msgstr ""
 "輸入您的 ConvertKit API Key，如果您沒有<br>請登入您的 ConvertKit 帳戶並前往<br>個人資料 -> 帳戶設定 -> "
-"帳戶信息"
+"帳戶資訊"
 
 #: src/Integrations/ConvertKit/Bootstrap.php:54
 msgid ""
@@ -3917,7 +3917,7 @@ msgid ""
 "Info"
 msgstr ""
 "輸入您的 ConvertKit API 密碼，如果您沒有<br>請登入您的 ConvertKit 帳戶並前往<br>個人資料 -> 帳戶設定 -> "
-"帳戶信息"
+"帳戶資訊"
 
 #: src/Integrations/Drip/Bootstrap.php:49
 msgid ""
@@ -4532,7 +4532,7 @@ msgstr "表單 ID"
 
 #: src/classes/FormStyler.php:79
 msgid "Form Style Template"
-msgstr "表單樣式模板"
+msgstr "表單樣式範本"
 
 #: src/Integrations/UserRegistration/Bootstrap.php:381
 msgid "Form Validation"
@@ -8574,7 +8574,7 @@ msgstr "選擇您想要的結帳風格類型。"
 #: src/Integrations/ClickSend/Bootstrap.php:316 
 #: src/Integrations/ClickSend/Bootstrap.php:381
 msgid "Select your message body type e.g. Input Message or Template Message."
-msgstr "選擇您的訊息主體類型，例如輸入訊息或模板訊息。"
+msgstr "選擇您的訊息主體類型，例如輸入訊息或範本訊息。"
 
 #: src/Payments/PaymentMethods/Stripe/ConnectConfig.php:193
 msgid "Selected Account does not exist"

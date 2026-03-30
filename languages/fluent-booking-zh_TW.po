@@ -4780,7 +4780,7 @@ msgstr "此排程未找到特定日期的覆寫"
 msgid ""
 "No Template found. Please make sure you are using latest version of Fluent "
 "Forms"
-msgstr "找不到模板。請確認您使用的是最新版本的 Fluent Forms"
+msgstr "找不到範本。請確認您使用的是最新版本的 Fluent Forms"
 
 #: app/Services/TransStrings.php:523
 msgid "No, Don't cancel"

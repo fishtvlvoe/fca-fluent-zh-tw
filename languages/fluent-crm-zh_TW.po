@@ -901,7 +901,7 @@ msgstr "API Token"
 
 #: app/Services/TransStrings.php:22
 msgid "API Username:"
-msgstr "API 用户名："
+msgstr "API 使用者名："
 
 #: app/Services/CrmMigrator/Api/ConvertKit.php:61
 msgid "API_Error"
@@ -1027,7 +1027,7 @@ msgstr "您確定要刪除此序列嗎？"
 
 #: app/Services/TransStrings.php:485
 msgid "Are you sure you want to delete this template?"
-msgstr "您確定要刪除此模板嗎？"
+msgstr "您確定要刪除此範本嗎？"
 
 #: app/Services/TransStrings.php:1074
 msgid "Are you sure you want to remove contacts to selected company?"
@@ -1231,7 +1231,7 @@ msgstr "返回序列"
 
 #: app/Services/TransStrings.php:1689
 msgid "Back To Templates"
-msgstr "返回模板"
+msgstr "返回範本"
 
 #: app/Services/TransStrings.php:173
 msgid "Background Color"
@@ -3108,11 +3108,11 @@ msgstr "刪除序列"
 
 #: app/Services/TransStrings.php:479
 msgid "Delete Template"
-msgstr "刪除模板"
+msgstr "刪除範本"
 
 #: app/Services/TransStrings.php:480
 msgid "Delete Templates"
-msgstr "刪除模板"
+msgstr "刪除範本"
 
 #: app/Services/TransStrings.php:483
 msgid "Delete this group"
@@ -3140,7 +3140,7 @@ msgstr "描述"
 
 #: app/Http/Controllers/SettingsController.php:127
 msgid "Design Template"
-msgstr "設計模板"
+msgstr "設計範本"
 
 #: app/Services/TransStrings.php:490
 msgid "Design Your Button"
@@ -3191,7 +3191,7 @@ msgstr "請勿從不受信任的來源匯入區段。"
 
 #: app/Services/TransStrings.php:911
 msgid "Do not import templates from untrusted sources."
-msgstr "請勿從不受信任的來源匯入模板。"
+msgstr "請勿從不受信任的來源匯入範本。"
 
 #: app/Services/AutoSubscribe.php:325
 msgid "Do not show the checkbox if current user already in subscribed state"
@@ -3449,7 +3449,7 @@ msgstr "編輯主旨"
 
 #: app/Services/TransStrings.php:538
 msgid "Edit Template"
-msgstr "編輯模板"
+msgstr "編輯範本"
 
 #: app/Services/TransStrings.php:539
 msgid "Edit The Form"
@@ -3585,7 +3585,7 @@ msgstr "電子電子郵件確認"
 
 #: app/Http/Controllers/SettingsController.php:128
 msgid "Email Design Template for this double-optin email"
-msgstr "此雙重認證電子電子郵件的電子電子郵件設計模板"
+msgstr "此雙重認證電子電子郵件的電子電子郵件設計範本"
 
 #: app/Services/TransStrings.php:584
 msgid "Email field is required"
@@ -4577,7 +4577,7 @@ msgstr "漏斗資料已更改"
 
 #: app/Http/Controllers/FunnelController.php:963
 msgid "Funnel has been created from template"
-msgstr "漏斗已從模板建立"
+msgstr "漏斗已從範本建立"
 
 #: app/Http/Controllers/FunnelController.php:140
 msgid "Funnel has been created. Please configure now"
@@ -7078,7 +7078,7 @@ msgstr "請提供一個名稱，方便您識別"
 
 #: app/Services/TransStrings.php:960
 msgid "Please provide a template name"
-msgstr "請提供模板名稱"
+msgstr "請提供範本名稱"
 
 #: app/Services/TransStrings.php:961
 msgid "Please provide a time"
@@ -7308,7 +7308,7 @@ msgstr "波蘭"
 
 #: app/Services/TransStrings.php:1688
 msgid "Popular pre-built funnel templates"
-msgstr "熱門預建漏斗模板"
+msgstr "熱門預建漏斗範本"
 
 #: app/Hooks/Handlers/CountryNames.php:729
 msgid "Portugal"
@@ -8501,7 +8501,7 @@ msgstr "選擇目標標籤"
 
 #: app/Services/TransStrings.php:1168
 msgid "Select Template"
-msgstr "選擇模板"
+msgstr "選擇範本"
 
 #: app/Services/TransStrings.php:1186
 msgid "Select the fields that user can manage"
@@ -9225,7 +9225,7 @@ msgstr "抱歉，根據您的選擇，找不到任何訂閱者"
 #: app/Services/TransStrings.php:592
 msgid ""
 "Sorry you can not insert the selected template type in this email campaign"
-msgstr "抱歉，您無法在此電子電子郵件活動中插入所選的模板類型"
+msgstr "抱歉，您無法在此電子電子郵件活動中插入所選的範本類型"
 
 #: app/Services/TransStrings.php:1277
 msgid "Sorry! No docs found"
@@ -9441,7 +9441,7 @@ msgstr "已為所選訂閱者變更狀態"
 
 #: app/Http/Controllers/TemplateController.php:275
 msgid "Status has been changed for the selected templates"
-msgstr "已為所選模板變更狀態"
+msgstr "已為所選範本變更狀態"
 
 #: app/Http/Controllers/FunnelController.php:690
 #, php-format
@@ -9826,27 +9826,27 @@ msgstr "目標使用者角色"
 
 #: app/Services/TransStrings.php:1327
 msgid "Template export is only available on pro version of FluentCRM"
-msgstr "模板匯出僅在 FluentCRM 專業版可用"
+msgstr "範本匯出僅在 FluentCRM 專業版可用"
 
 #: app/Services/TransStrings.php:1325
 msgid "Template Name"
-msgstr "模板名稱"
+msgstr "範本名稱"
 
 #: app/Http/Controllers/TemplateController.php:161
 msgid "Template successfully created"
-msgstr "模板已成功建立"
+msgstr "範本已成功建立"
 
 #: app/Http/Controllers/TemplateController.php:193
 msgid "Template successfully duplicated"
-msgstr "模板已成功複製"
+msgstr "範本已成功複製"
 
 #: app/Http/Controllers/TemplateController.php:244
 msgid "Template successfully updated"
-msgstr "模板已成功更新"
+msgstr "範本已成功更新"
 
 #: app/Services/TransStrings.php:1326
 msgid "Template Title"
-msgstr "模板標題"
+msgstr "範本標題"
 
 #: app/Services/TransStrings.php:1328
 msgid "Test email successfully sent to"

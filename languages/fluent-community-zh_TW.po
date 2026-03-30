@@ -691,7 +691,7 @@ msgstr "%s 有新貼文發表"
 #: Modules/Gutenberg/EditorBlock.php:97
 msgid ""
 "A Page Template that render your WP content into FluentCommunity UI Frame"
-msgstr "將您的 WP 內容呈現到 FluentCommunity UI 框架中的頁面模板"
+msgstr "將您的 WP 內容呈現到 FluentCommunity UI 框架中的頁面範本"
 
 #. %s is replaced by the email address
 #: Modules/Auth/AuthHelper.php:333
@@ -3798,7 +3798,7 @@ msgstr "選單類別"
 
 #: Modules/Gutenberg/EditorBlock.php:96
 msgid "FluentCommunity Page Template"
-msgstr "FluentCommunity 頁面模板"
+msgstr "FluentCommunity 頁面範本"
 
 #: boot/app.php:71
 msgid "FluentCommunityPro Plugin needs to be updated to the latest version."
@@ -6304,7 +6304,7 @@ msgstr "沒有權限"
 
 #: app/Services/AdminTransStrings.php:66
 msgid "Pick a Fluent Community Template"
-msgstr "選擇一個模板"
+msgstr "選擇一個範本"
 
 #: app/Services/TransStrings.php:990
 #| msgid "Space Emoji"
@@ -8375,7 +8375,7 @@ msgstr "開始書寫或輸入 / 來選擇課程內容的區塊"
 
 #: app/Services/AdminTransStrings.php:84
 msgid "Start your journey with our expertly crafted templates"
-msgstr "使用我們精心製作的模板開始你的旅程"
+msgstr "使用我們精心製作的範本開始你的旅程"
 
 #: app/Services/TransStrings.php:1319
 #: Modules/Integrations/FluentCRM/ProfileSection.php:80

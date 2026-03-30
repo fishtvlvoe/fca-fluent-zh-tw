@@ -1887,7 +1887,7 @@ msgstr "系統電子電子郵件發送給使用者"
 
 #: app/Services/TransStrings.php:239
 msgid "Template Settings"
-msgstr "模板設定"
+msgstr "範本設定"
 
 #: app/Hooks/Handlers/LoginCustomizerHandler.php:207
 msgid "terms and conditions."

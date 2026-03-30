@@ -403,7 +403,7 @@ msgstr "文件"
 
 #: views/import.php:63
 msgid "Download Sample Templates"
-msgstr "下載範例模板"
+msgstr "下載範例範本"
 
 #: views/posts.php:51 views/posts.php:163 views/posts.php:371
 #: views/spaces.php:48 views/spaces.php:169 views/spaces.php:354
@@ -1430,11 +1430,11 @@ msgstr "空間管理器"
 
 #: views/import.php:81
 msgid "Spaces Template (CSV)"
-msgstr "空間模板（CSV）"
+msgstr "空間範本（CSV）"
 
 #: views/import.php:86
 msgid "Spaces Template (JSON)"
-msgstr "空間模板（JSON）"
+msgstr "空間範本（JSON）"
 
 #: views/comments.php:49 views/comments.php:145
 msgid "Spam"
@@ -1646,7 +1646,7 @@ msgstr "URL"
 
 #: views/import.php:65
 msgid "Use these templates to prepare your import data"
-msgstr "使用這些模板準備您的匯入資料"
+msgstr "使用這些範本準備您的匯入資料"
 
 #: views/media.php:170
 msgid "Used In"

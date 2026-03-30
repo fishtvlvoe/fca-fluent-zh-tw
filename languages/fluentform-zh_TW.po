@@ -2804,7 +2804,7 @@ msgstr "建立或更新文章"
 #: app/Modules/Registerer/TranslationString.php:605
 msgid ""
 "Create PDF template feed and you can download the PDFs from each submission"
-msgstr "建立 PDF 模板資料串流，您可以下載每個提交的 PDF"
+msgstr "建立 PDF 範本資料串流，您可以下載每個提交的 PDF"
 
 #: app/Modules/AddOnModule.php:129
 msgid ""
@@ -3228,7 +3228,7 @@ msgstr "定義使用者可以選擇的最多項目。"
 msgid ""
 "Define the mapping template for generate options. Use placeholders to "
 "dynamically insert values from the database records."
-msgstr "定義生成選項的映射模板。使用佔位符動態插入資料庫記錄中的值。"
+msgstr "定義生成選項的映射範本。使用佔位符動態插入資料庫記錄中的值。"
 
 #: app/Modules/Registerer/TranslationString.php:22
 #: app/Modules/Registerer/TranslationString.php:699
@@ -5474,7 +5474,7 @@ msgstr "當客戶透過聯盟行銷連結被轉介到您的網站時，自動產
 msgid ""
 "Generate PDF from your form submissions. You can create PDF templates and "
 "download / send via email too."
-msgstr "從表單提交內容生成 PDF。您也可以建立 PDF 模板並下載／透過電子電子郵件發送。"
+msgstr "從表單提交內容生成 PDF。您也可以建立 PDF 範本並下載／透過電子電子郵件發送。"
 
 #: app/Modules/Registerer/TranslationString.php:2178
 msgid "GEO API Token"
@@ -8231,7 +8231,7 @@ msgstr "找不到訂閱付款"
 msgid ""
 "No Template found. Please make sure you are using latest version of Fluent "
 "Forms"
-msgstr "找不到模板。請確保您使用的是最新版本的 Fluent Forms。"
+msgstr "找不到範本。請確保您使用的是最新版本的 Fluent Forms。"
 
 #: app/Modules/Registerer/TranslationString.php:1833
 msgid "No, Thanks"
@@ -9323,7 +9323,7 @@ msgstr "請向我們報告，我們承諾會盡快修復。"
 
 #: app/Modules/Registerer/TranslationString.php:611
 msgid "Please Select a Template"
-msgstr "請選擇一個模板"
+msgstr "請選擇一個範本"
 
 #: app/Modules/Registerer/TranslationString.php:1543
 msgid "Please select a user first"
@@ -9537,7 +9537,7 @@ msgstr "預設的表單欄位"
 
 #: app/Modules/Registerer/TranslationString.php:200
 msgid "Predefined Form Templates"
-msgstr "預定義表格模板"
+msgstr "預定義表格範本"
 
 #: app/Services/FormBuilder/ElementCustomization.php:565
 msgid "Prefix Label"
@@ -11074,7 +11074,7 @@ msgstr "選擇付款方式。為了測試目的，您應該選擇測試模式，
 
 #: app/Modules/Registerer/TranslationString.php:1681
 msgid "Select the PDF template you would like to map."
-msgstr "選擇您要對應的 PDF 模板。"
+msgstr "選擇您要對應的 PDF 範本。"
 
 #: app/Modules/Registerer/TranslationString.php:2199
 msgid "Select the placement of error message."
@@ -11100,7 +11100,7 @@ msgstr "選擇類型"
 
 #: app/Modules/Registerer/TranslationString.php:1559
 msgid "Select User for this submission"
-msgstr "選擇此提交的用户"
+msgstr "選擇此提交的使用者"
 
 #: app/Modules/Registerer/TranslationString.php:565
 msgid "Select Value"
@@ -12687,7 +12687,7 @@ msgstr "範本"
 
 #: app/Modules/Registerer/TranslationString.php:1424
 msgid "Template Mapping"
-msgstr "模板映射"
+msgstr "範本映射"
 
 #: app/Services/FormBuilder/ElementCustomization.php:170
 #: app/Services/FormBuilder/DefaultElements.php:1463
@@ -14625,7 +14625,7 @@ msgstr "您可以選擇旋轉門的外觀"
 
 #: app/Modules/Registerer/TranslationString.php:518
 msgid "You can select PDF attachments from your created PDF templates"
-msgstr "您可以從您建立的 PDF 模板中選擇 PDF 附加檔案"
+msgstr "您可以從您建立的 PDF 範本中選擇 PDF 附加檔案"
 
 #: app/Modules/Registerer/TranslationString.php:659
 msgid ""
