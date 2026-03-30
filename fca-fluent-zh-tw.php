@@ -3,7 +3,7 @@
  * Plugin Name: FCA & Fluent 繁體中文翻譯包
  * Plugin URI: https://aiver.me
  * Description: 為所有 FCA 系列與 Fluent 系列外掛提供繁體中文翻譯，不修改原始外掛檔案，更新外掛不受影響。
- * Version: 1.4.0
+ * Version: 1.5.0
  * Author: BuyGo
  * License: GPL v2 or later
  * Text Domain: fca-fluent-zh-tw
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 
 // GitHub 自動更新器
 require_once __DIR__ . '/updater.php';
-new FCA_Fluent_ZhTW_Updater(__FILE__, '1.4.0');
+new FCA_Fluent_ZhTW_Updater(__FILE__, '1.5.0');
 
 /**
  * 載入翻譯檔
@@ -32,8 +32,10 @@ class FCA_Fluent_ZhTW {
     private static $domains = [
         // FCA 系列
         'fca-boards',
+        'fca-comments',
         'fca-content-manager',
         'fca-course-blocks',
+        'fca-display-name',
         'fca-events',
         'fca-events-basic',
         'fca-global-search',
@@ -95,6 +97,10 @@ class FCA_Fluent_ZhTW {
         //                    fluent-crm（8 條）、fluent-player（5 條）、fluent-cart-pro（1 條）
         // priority 100 確保在所有 wp_localize_script 輸出之後才執行
         add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n'], 100);
+
+        // DOM 文字替換注入器：處理 Vue/React 直接渲染的後台 UI 字串
+        // 涵蓋：fluent-player-pro、fluent-crm、fca-widgets、fce-shortcodes、fca-boards
+        add_action('admin_enqueue_scripts', [__CLASS__, 'enqueue_dom_translator']);
     }
 
     /**
@@ -724,6 +730,80 @@ class FCA_Fluent_ZhTW {
         })();
         </script>
         <?php
+    }
+    /**
+     * 載入 DOM 文字替換注入器（translations.js + translator.js）
+     *
+     * 針對使用 Vue.js / React 渲染後台 UI 的外掛，
+     * gettext / wp_localize_script 無法覆蓋直接硬編碼在 JS 元件中的文字，
+     * 因此改用 MutationObserver 在 DOM 渲染後替換對應的文字節點。
+     *
+     * 只在以下外掛的後台頁面載入，避免影響其他頁面：
+     * - fluent-player-pro：  page=fluent-player*
+     * - fluent-crm：         page=fluentcrm*
+     * - fca-widgets：        page=fca-widgets*
+     * - fce-shortcodes：     page=fce-shortcodes*
+     * - fca-boards：         page=fca-boards*
+     */
+    public static function enqueue_dom_translator() {
+        // 只在繁體中文環境下執行
+        $locale = determine_locale();
+        if (strpos($locale, 'zh_TW') === false) {
+            return;
+        }
+
+        // 判斷目前是否在相關外掛的後台頁面
+        $screen_id = '';
+        $page      = isset($_GET['page']) ? sanitize_text_field($_GET['page']) : '';
+
+        $relevant_pages = [
+            'fluent-player',    // fluent-player-pro 設定頁
+            'fluentcrm',        // fluent-crm（fluentcrm-admin 等）
+            'fca-widgets',      // fca-widgets
+            'fce-shortcodes',   // fce-shortcodes 設定頁
+            'fca-boards',       // fca-boards
+            'fca-display-name', // fca-display-name 設定頁
+        ];
+
+        $is_relevant = false;
+        foreach ($relevant_pages as $prefix) {
+            if (strpos($page, $prefix) === 0) {
+                $is_relevant = true;
+                break;
+            }
+        }
+
+        if (!$is_relevant) {
+            return;
+        }
+
+        $plugin_url     = plugin_dir_url(__FILE__);
+        $plugin_version = '1.4.0';
+
+        // 先載入翻譯字典
+        wp_enqueue_script(
+            'fca-zh-tw-translations',
+            $plugin_url . 'js/translations.js',
+            [],
+            $plugin_version,
+            true // 放在 footer
+        );
+
+        // 再載入注入器（依賴字典）
+        wp_enqueue_script(
+            'fca-zh-tw-translator',
+            $plugin_url . 'js/translator.js',
+            ['fca-zh-tw-translations'],
+            $plugin_version,
+            true // 放在 footer
+        );
+
+        // 注入頁面識別符，方便未來擴充依頁面過濾翻譯
+        wp_add_inline_script(
+            'fca-zh-tw-translations',
+            'window.FCA_ZH_TW_PAGE_CONTEXT = ' . wp_json_encode($page) . ';',
+            'before'
+        );
     }
 }
 
