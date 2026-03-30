@@ -1868,3 +1868,48 @@ msgstr "Zoom 會議已使用新資料更新"
 #: app/Services/Integrations/ZoomMeeting/Bootstrap.php:71
 msgid "Zoom Video"
 msgstr "Zoom 影片"
+
+msgid "Check Update"
+msgstr "檢查更新"
+
+msgid "Click Here to Renew Your License"
+msgstr "點擊此處更新您的授權"
+
+msgid "Click Here to purchase another license"
+msgstr "點擊此處購買另一個授權"
+
+msgid "Docs"
+msgstr "說明文件"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Help & Support"
+msgstr "說明與支援"
+
+msgid "No license key available"
+msgstr "沒有可用的授權金鑰"
+
+msgid "No license key found"
+msgstr "找不到授權金鑰"
+
+msgid "View FluentBooking documentation"
+msgstr "查看 FluentBooking 說明文件"
+
+msgid "Visit Support"
+msgstr "前往支援"
+
+msgid "You do not have permission to install plugin updates"
+msgstr "您無權安裝外掛更新"
+
+msgid "Your license has been expired at "
+msgstr "您的授權已於 "
+
+msgid "expired at"
+msgstr "於以下日期到期"
+
+msgid "license has been"
+msgstr "授權已"
+
+msgid "to renew your license"
+msgstr "以更新您的授權"

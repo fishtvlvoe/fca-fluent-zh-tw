@@ -2296,3 +2296,6 @@ msgstr "您的設定已成功儲存。"
 #: app/Services/AuthService.php:308
 msgid "Your verification code has beeen expired. Please try again"
 msgstr "您的驗證碼已過期。請重試"
+
+msgid "A verification code has been sent to %s. Please provide the code below:"
+msgstr "驗證碼已發送至 %s，請在下方輸入驗證碼："

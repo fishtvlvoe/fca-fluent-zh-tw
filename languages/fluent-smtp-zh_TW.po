@@ -2479,3 +2479,63 @@ msgstr "https://fluentsmtp.com"
 #: fluent-smtp.php app/Hooks/Handlers/AdminMenuHandler.php:108
 msgid "FluentSMTP"
 msgstr "FluentSMTP"
+
+msgid " connection."
+msgstr "連線。"
+
+msgid " in the "
+msgstr "在"
+
+msgid " option in the Google Cloud Project."
+msgstr "Google Cloud 專案中的選項。"
+
+msgid "*** It is very important to put "
+msgstr "*** 請務必填入"
+
+msgid "Connection Error: "
+msgstr "連線錯誤："
+
+msgid "Connection Name "
+msgstr "連線名稱"
+
+msgid "Discord Channel Details: "
+msgstr "Discord 頻道詳細資訊："
+
+msgid "FluentSMTP does not store your email notifications data. "
+msgstr "FluentSMTP 不會儲存您的電子郵件通知資料。"
+
+msgid "Follow this link to get an API Key from ElasticEmail: "
+msgstr "請點擊此連結從 ElasticEmail 取得 API 金鑰："
+
+msgid "If you find an issue or have a suggestion please "
+msgstr "如果您發現問題或有建議，請"
+
+msgid "If you have a minute, consider "
+msgstr "如果您有時間，請考慮"
+
+msgid "Meet "
+msgstr "認識"
+
+msgid "Please "
+msgstr "請"
+
+msgid "Please authenticate with Google to get "
+msgstr "請透過 Google 驗證以取得"
+
+msgid "Please authenticate with Office365 to get "
+msgstr "請透過 Office365 驗證以取得"
+
+msgid "Possible Conflict: "
+msgstr "可能衝突："
+
+msgid "Receiver's Telegram Username: "
+msgstr "接收者的 Telegram 使用者名稱："
+
+msgid "Region "
+msgstr "區域"
+
+msgid "Sender Email "
+msgstr "寄件人電子郵件"
+
+msgid "Slack Channel Details: "
+msgstr "Slack 頻道詳細資訊："

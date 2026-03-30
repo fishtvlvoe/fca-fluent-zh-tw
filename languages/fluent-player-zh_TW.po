@@ -916,3 +916,117 @@ msgstr "觀看時間"
 #: app/Services/Translations/admin-translations.php:95
 msgid "Youtube"
 msgstr "Youtube"
+
+msgid "Advertisement"
+msgstr "廣告"
+
+msgid "Audio"
+msgstr "音訊"
+
+msgid "Backward 10 seconds"
+msgstr "後退 10 秒"
+
+msgid "Backward 10s"
+msgstr "後退 10 秒"
+
+msgid "Call to action"
+msgstr "行動呼籲"
+
+msgid "Could not create ODS archive."
+msgstr "無法建立 ODS 壓縮檔。"
+
+msgid "Email address"
+msgstr "電子郵件地址"
+
+msgid "Email signup"
+msgstr "電子郵件訂閱"
+
+msgid "Enter Fullscreen"
+msgstr "進入全螢幕"
+
+msgid "Enter PiP"
+msgstr "進入子母畫面"
+
+msgid "Exit Fullscreen"
+msgstr "離開全螢幕"
+
+msgid "Exit PiP"
+msgstr "離開子母畫面"
+
+msgid "Failed to load setting. Please try again."
+msgstr "載入設定失敗，請再試一次。"
+
+msgid "Failed to load settings. Please try again."
+msgstr "載入設定失敗，請再試一次。"
+
+msgid "Failed to reset settings. Please try again."
+msgstr "重設設定失敗，請再試一次。"
+
+msgid "Failed to update settings. Please try again."
+msgstr "更新設定失敗，請再試一次。"
+
+msgid "Fluent Player"
+msgstr "Fluent Player"
+
+msgid "FluentPlayer Pro"
+msgstr "FluentPlayer Pro"
+
+msgid "Forward 10 seconds"
+msgstr "快進 10 秒"
+
+msgid "Forward 10s"
+msgstr "快進 10 秒"
+
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+msgid "Hotspot"
+msgstr "熱點"
+
+msgid "Media player"
+msgstr "媒體播放器"
+
+msgid "Mute"
+msgstr "靜音"
+
+msgid "Pause"
+msgstr "暫停"
+
+msgid "Picture in Picture"
+msgstr "子母畫面"
+
+msgid "Play"
+msgstr "播放"
+
+msgid "Playlist"
+msgstr "播放清單"
+
+msgid "Seek"
+msgstr "跳轉"
+
+msgid "Skip email signup"
+msgstr "略過電子郵件訂閱"
+
+msgid "Speed"
+msgstr "播放速度"
+
+msgid "Subscribe on YouTube"
+msgstr "訂閱 YouTube"
+
+msgid "Toggle Playlist"
+msgstr "切換播放清單"
+
+msgid "Toggle navigation menu"
+msgstr "切換導覽選單"
+
+msgid "Unmute"
+msgstr "取消靜音"
+
+msgid "Volume"
+msgstr "音量"
+
+msgid "https://fluentplayer.com"
+msgstr "https://fluentplayer.com"
+
+msgid "techjewel"
+msgstr "techjewel"

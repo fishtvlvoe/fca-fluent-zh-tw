@@ -7879,3 +7879,21 @@ msgstr "Zoom 視訊"
 #: app/Models/CalendarSlot.php:732
 msgid "Zoom Video (Pro)"
 msgstr "Zoom 視訊（專業版）"
+
+msgid "Email Summary of Your Bookings (Last %d Day)"
+msgstr "您的預約摘要電子郵件（最近 %d 天）"
+
+msgid "File size should be less than"
+msgstr "檔案大小須小於"
+
+msgid "Max files reached"
+msgstr "已達最大檔案數量"
+
+msgid "Recurring Event does not support this feature"
+msgstr "週期性活動不支援此功能"
+
+msgid "Security check failed. Please refresh and try again."
+msgstr "安全性驗證失敗，請重新整理後再試一次。"
+
+msgid "Too many requests. Please try again in a minute."
+msgstr "請求次數過多，請一分鐘後再試。"

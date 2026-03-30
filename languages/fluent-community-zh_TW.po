@@ -11248,3 +11248,273 @@ msgstr "VK 使用者名稱"
 #: app/Services/TransStrings.php
 msgid "{count} new posts available"
 msgstr "有 {count} 篇新貼文"
+
+msgid "%s fields"
+msgstr "%s 個欄位"
+
+msgid "+%d more image"
+msgstr "還有 %d 張圖片"
+
+msgid "Add Field"
+msgstr "新增欄位"
+
+msgid "Add Group"
+msgstr "新增群組"
+
+msgid "Add to Space"
+msgstr "加入空間"
+
+msgid "Admins Only"
+msgstr "僅限管理員"
+
+msgid "Approve Content"
+msgstr "核准內容"
+
+msgid "Are you sure you want to delete this group?"
+msgstr "確定要刪除此群組嗎？"
+
+msgid "At least one option is required for this field type"
+msgstr "此欄位類型至少需要一個選項"
+
+msgid "Control Bar Color"
+msgstr "控制列顏色"
+
+msgid "Custom Profile Fields"
+msgstr "自訂個人資料欄位"
+
+msgid "Custom Profile Fields Settings"
+msgstr "自訂個人資料欄位設定"
+
+msgid "Description (shown on edit form)"
+msgstr "說明（顯示於編輯表單）"
+
+msgid "Dismiss Reports"
+msgstr "關閉檢舉"
+
+msgid "Dismissed"
+msgstr "已關閉"
+
+msgid "Eager"
+msgstr "立即載入"
+
+msgid "Edit Field"
+msgstr "編輯欄位"
+
+msgid "Enable Custom Profile Fields"
+msgstr "啟用自訂個人資料欄位"
+
+msgid "Export"
+msgstr "匯出"
+
+msgid "Export (Pro)"
+msgstr "匯出（Pro）"
+
+msgid "Field Groups"
+msgstr "欄位群組"
+
+msgid "Field Label"
+msgstr "欄位標籤"
+
+msgid "Field Type"
+msgstr "欄位類型"
+
+msgid "Fields in this group will be moved to the default group."
+msgstr "此群組的欄位將移至預設群組。"
+
+msgid "Flagged automatically by the site rule"
+msgstr "已依站台規則自動標記"
+
+msgid "Get Feature Updates via email"
+msgstr "透過電子郵件接收功能更新"
+
+msgid "Group"
+msgstr "群組"
+
+msgid "Group Label"
+msgstr "群組標籤"
+
+msgid "Group label is required"
+msgstr "群組標籤為必填"
+
+msgid "Group name"
+msgstr "群組名稱"
+
+msgid "Idle"
+msgstr "閒置時載入"
+
+msgid "If Contact Already Exists?"
+msgstr "如果聯絡人已存在？"
+
+msgid "Invalid request"
+msgstr "無效的請求"
+
+msgid "Invalid request. Please refresh the page and try again."
+msgstr "無效的請求，請重新整理頁面後再試一次。"
+
+msgid "Keep it blank to run on any lesson"
+msgstr "留空則套用至所有課程"
+
+msgid "Keep it blank to run on any section"
+msgstr "留空則套用至所有單元"
+
+msgid "Label is required"
+msgstr "標籤為必填"
+
+msgid "Load Strategy"
+msgstr "載入策略"
+
+msgid "Loads during browser idle time"
+msgstr "在瀏覽器閒置時載入"
+
+msgid "Loads immediately on page load"
+msgstr "頁面載入時立即載入"
+
+msgid "Loads only on click"
+msgstr "僅在點擊時載入"
+
+msgid "Loads when scrolled into view"
+msgstr "滾動至可見區域時載入"
+
+msgid "Logged In"
+msgstr "已登入"
+
+msgid "Logged-In Users"
+msgstr "已登入的使用者"
+
+msgid "Member status has been updated"
+msgstr "會員狀態已更新"
+
+msgid "Most Recent"
+msgstr "最新"
+
+msgid "Move Field"
+msgstr "移動欄位"
+
+msgid "No data available to export."
+msgstr "沒有可匯出的資料。"
+
+msgid "No fields in this group. Click + to add one."
+msgstr "此群組尚無欄位，點擊 + 以新增。"
+
+msgid "No groups configured yet."
+msgstr "尚未設定任何群組。"
+
+msgid "No reports to review"
+msgstr "沒有待審核的檢舉"
+
+msgid "No results found"
+msgstr "找不到結果"
+
+msgid "Optional description shown to users when editing their profile"
+msgstr "使用者編輯個人資料時顯示的選填說明"
+
+msgid "Options"
+msgstr "選項"
+
+msgid "Options (Key-Value)"
+msgstr "選項（鍵值對）"
+
+msgid "Owner & Admins"
+msgstr "擁有者與管理員"
+
+msgid "Placeholder"
+msgstr "預留位置"
+
+msgid "Placeholder text"
+msgstr "預留位置文字"
+
+msgid "Play"
+msgstr "播放"
+
+msgid "Public (Everyone)"
+msgstr "公開（所有人）"
+
+msgid "Publish Content"
+msgstr "發佈內容"
+
+msgid "Search Followers..."
+msgstr "搜尋追蹤者..."
+
+msgid "Search Followings..."
+msgstr "搜尋追蹤中..."
+
+msgid "Select which lessons this automation will run for"
+msgstr "選擇此自動化要套用的課程"
+
+msgid "Slug already exists. Please use a different slug"
+msgstr "別名已存在，請使用不同的別名"
+
+msgid "Slug cannot be empty"
+msgstr "別名不能為空"
+
+msgid "Sorry! This survey configuration is invalid"
+msgstr "抱歉！此問卷設定無效"
+
+msgid "Sorry, this post is not in an editable state."
+msgstr "抱歉，此貼文目前無法編輯。"
+
+msgid "Sorry, you cannot access this community"
+msgstr "抱歉，您無法存取此社群"
+
+msgid "Sorry, you cannot update this config. Please activate pro"
+msgstr "抱歉，您無法更新此設定，請先啟用 Pro 版本"
+
+msgid "Sort followers by"
+msgstr "追蹤者排序依據"
+
+msgid "Sort followings by"
+msgstr "追蹤中排序依據"
+
+msgid "System"
+msgstr "系統"
+
+msgid "This automation will be initiated when a user joins a space"
+msgstr "當使用者加入空間時，將觸發此自動化"
+
+msgid "This will dismiss all reports and keep the content published. Continue?"
+msgstr "這將關閉所有檢舉並保持內容發佈狀態，確定繼續？"
+
+msgid "This will unpublish the content from public view. Continue?"
+msgstr "這將從公開檢視中取消發佈內容，確定繼續？"
+
+msgid "Unpublish Content"
+msgstr "取消發佈內容"
+
+msgid "Update Field"
+msgstr "更新欄位"
+
+msgid "Update Group"
+msgstr "更新群組"
+
+msgid "Visible"
+msgstr "可見"
+
+msgid "Yes, Approve"
+msgstr "是，核准"
+
+msgid "Yes, Dismiss"
+msgstr "是，關閉"
+
+msgid "Yes, Publish"
+msgstr "是，發佈"
+
+msgid "Yes, Unpublish"
+msgstr "是，取消發佈"
+
+msgid "You are not allowed to view this profile's membership."
+msgstr "您無權檢視此個人資料的會員資格。"
+
+msgid "You cannot change the slug as it is defined in the config file"
+msgstr "您無法變更別名，因為它已在設定檔中定義"
+
+msgid "You cannot delete this group. It has spaces"
+msgstr "您無法刪除此群組，因為它包含空間"
+
+msgid "You cannot resend this invitation"
+msgstr "您無法重新發送此邀請"
+
+msgid "You do not have permission to view this profile's content."
+msgstr "您無權檢視此個人資料的內容。"
+
+msgid "Your request is pending"
+msgstr "您的請求正在等待中"

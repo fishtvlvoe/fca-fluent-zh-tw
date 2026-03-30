@@ -1318,3 +1318,60 @@ msgstr "您無法追蹤/取消追蹤自己。"
 #: app/Http/Controllers/FollowController.php:106
 msgid "You cannot follow/unfollow a blocked user"
 msgstr "您無法追蹤/取消追蹤已封鎖的使用者"
+
+msgid "%s is required"
+msgstr "%s 為必填"
+
+msgid "Additional Information"
+msgstr "其他資訊"
+
+msgid "Custom profile fields have been saved successfully"
+msgstr "自訂個人資料欄位已成功儲存"
+
+msgid "Date"
+msgstr "日期"
+
+msgid "Dropdown"
+msgstr "下拉選單"
+
+msgid "Fill in additional information about yourself."
+msgstr "填寫關於您自己的其他資訊。"
+
+msgid "Multi Select"
+msgstr "多選"
+
+msgid "Number"
+msgstr "數字"
+
+msgid "Radio"
+msgstr "單選按鈕"
+
+msgid "Text"
+msgstr "文字"
+
+msgid "Textarea"
+msgstr "文字區域"
+
+msgid "The comment has been unpublished and is no longer visible to others."
+msgstr "該留言已取消發佈，其他人將無法看到。"
+
+msgid "The post has been unpublished and is no longer visible to others."
+msgstr "該貼文已取消發佈，其他人將無法看到。"
+
+msgid "URL"
+msgstr "網址"
+
+msgid "Word: %s"
+msgstr "關鍵字：%s"
+
+msgid "You do not have permission to install plugins."
+msgstr "您無權安裝外掛。"
+
+msgid "Your post contains a restricted word and has been sent for review."
+msgstr "您的貼文包含受限詞彙，已送交審核。"
+
+msgid "Your post has been sent for review as per community guidelines."
+msgstr "您的貼文已依社群指引送交審核。"
+
+msgid "Your post has been sent for review as per space guidelines."
+msgstr "您的貼文已依空間指引送交審核。"

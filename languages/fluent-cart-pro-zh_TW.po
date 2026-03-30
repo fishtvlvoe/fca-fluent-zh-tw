@@ -1860,3 +1860,54 @@ msgstr "您的測試簽名金鑰"
 msgid "Your test Transaction Key"
 msgstr "您的測試交易金鑰"
 
+
+msgid "Activation limit must be greater than or equal to 0"
+msgstr "啟用次數限制必須大於或等於 0"
+
+msgid "Create / Update WP User with Custom Roles on order events"
+msgstr "在訂單事件時建立/更新具有自訂角色的 WP 使用者"
+
+msgid "Map User Meta (optional)"
+msgstr "對應使用者中繼資料（選填）"
+
+msgid "Meta Key"
+msgstr "中繼資料鍵"
+
+msgid "Optionally, map user meta field with checkout/order data"
+msgstr "選擇性地將使用者中繼資料欄位與結帳/訂單資料對應"
+
+msgid "Replace Existing Roles"
+msgstr "取代現有角色"
+
+msgid "Required Checkout Fields"
+msgstr "必填結帳欄位"
+
+msgid "User Create / Update"
+msgstr "建立/更新使用者"
+
+msgid "User Meta Maps"
+msgstr "使用者中繼資料對應"
+
+msgid "User Meta Value"
+msgstr "使用者中繼資料值"
+
+msgid "User Role"
+msgstr "使用者角色"
+
+msgid "User Role Removed"
+msgstr "使用者角色已移除"
+
+msgid "User creation failed from WP User Integration"
+msgstr "從 WP 使用者整合建立使用者失敗"
+
+msgid "User has been created and assigned user role: %s"
+msgstr "使用者已建立並指派角色：%s"
+
+msgid "User has been updated and assigned user role: %s"
+msgstr "使用者已更新並指派角色：%s"
+
+msgid "WP User Create/Update"
+msgstr "建立/更新 WP 使用者"
+
+msgid "WP User Integration Success"
+msgstr "WP 使用者整合成功"
