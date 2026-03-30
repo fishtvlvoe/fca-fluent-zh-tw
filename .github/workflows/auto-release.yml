@@ -1,0 +1,49 @@
+name: 自動發布 Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'languages/**'
+      - 'fca-fluent-zh-tw.php'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 檢出代碼
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 取得最新版本號
+        id: version
+        run: |
+          VERSION=$(grep "Version:" fca-fluent-zh-tw.php | head -1 | sed 's/.*Version: //;s/ .*//')
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "版本號: $VERSION"
+
+      - name: 打包外掛
+        run: bash build.sh
+
+      - name: 列出打包的檔案
+        run: ls -lh *.zip || echo "未找到 zip 檔案"
+
+      - name: 建立 Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: 版本 ${{ steps.version.outputs.version }}
+          body: |
+            ## 更新內容
+            - 翻譯字串更新與修正
+            - 支援外掛版本同步
+
+            詳見 Git 提交記錄
+          files: fca-fluent-zh-tw-*.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

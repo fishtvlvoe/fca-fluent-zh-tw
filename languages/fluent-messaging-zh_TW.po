@@ -1,0 +1,1054 @@
+# Translation of Fluent Messaging in Traditional Chinese (Taiwan)
+# Copyright (C) 2026
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fluent Messaging\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-18 10:26+0000\n"
+"PO-Revision-Date: 2026-03-30 00:00+0800\n"
+"Last-Translator: BuyGo <support@buygo.me>\n"
+"Language-Team: zh_TW\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: BuyGo Translation\n"
+"X-Domain: fluent-messaging"
+
+#. %d is the number of characters remaining
+#: app/Hooks/Handlers/ChatAppHandler.php:209
+msgid "%d character remaining"
+msgstr "剩餘 %d 個字元"
+
+#. %d is the number of characters remaining
+#: app/Hooks/Handlers/ChatAppHandler.php:211
+msgid "%d characters remaining"
+msgstr "剩餘 %d 個字元"
+
+#. %d is the number of members
+#: app/Hooks/Handlers/ChatAppHandler.php:213
+msgid "%d member"
+msgstr "%d 位成員"
+
+#. %d is the number of members
+#: app/Hooks/Handlers/ChatAppHandler.php:215
+msgid "%d members"
+msgstr "%d 位成員"
+
+#: app/Views/email/message.php:31
+#, php-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#. %s are user display names who are typing
+#: app/Hooks/Handlers/ChatAppHandler.php:217
+#, php-format
+msgid "%s and %s are typing..."
+msgstr "%s 和 %s 正在輸入..."
+
+#. %1$s is the user display name, %2$s is the number of other users typing
+#: app/Hooks/Handlers/ChatAppHandler.php:219
+#, php-format
+msgid "%s and %s others are typing..."
+msgstr "%s 和其他 %s 位正在輸入..."
+
+#. %s is the user display name who is typing
+#: app/Hooks/Handlers/ChatAppHandler.php:221
+#, php-format
+msgid "%s is typing..."
+msgstr "%s 正在輸入..."
+
+#. %s is the number of unread messages
+#: app/Hooks/Handlers/ChatAppHandler.php:223
+#, php-format
+msgid "%s unread message"
+msgstr "%s 則未讀訊息"
+
+#. %s is the number of unread messages
+#: app/Hooks/Handlers/ChatAppHandler.php:233
+#, php-format
+msgid "%s unread messages"
+msgstr "%s 則未讀訊息"
+
+#. %s is the number of days, e.g. "3d" for 3 days ago
+#: app/Hooks/Handlers/ChatAppHandler.php:225
+#, php-format
+msgid "%sd"
+msgstr "%s 天"
+
+#. %s is the number of hours, e.g. "5h" for 5 hours ago
+#: app/Hooks/Handlers/ChatAppHandler.php:227
+#, php-format
+msgid "%sh"
+msgstr "%s 小時"
+
+#. %s is the number of minutes, e.g. "2m" for 2 minutes ago
+#: app/Hooks/Handlers/ChatAppHandler.php:229
+#, php-format
+msgid "%sm"
+msgstr "%s 分鐘"
+
+#. %s is the number of months, e.g. "3mo" for 3 months ago
+#: app/Hooks/Handlers/ChatAppHandler.php:231
+#, php-format
+msgid "%smo"
+msgstr "%s 個月"
+
+#. %s is the number of weeks, e.g. "2w" for 2 weeks ago
+#: app/Hooks/Handlers/ChatAppHandler.php:235
+#, php-format
+msgid "%sw"
+msgstr "%s 週"
+
+#. %s is the number of years, e.g. "1y" for 1 year ago
+#: app/Hooks/Handlers/ChatAppHandler.php:237
+#, php-format
+msgid "%sy"
+msgstr "%s 年"
+
+#: app/Services/EmailNotificationMail.php:46
+msgid "1 new message in your inbox"
+msgstr "您的收件匣有 1 則新訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:238
+msgid "About"
+msgstr "關於"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:239
+msgid "Active now"
+msgstr "目前上線"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:246
+msgid "Add emoji"
+msgstr "新增表情符號"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:247
+msgid "Add reaction"
+msgstr "新增回應"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:248
+msgid "ago"
+msgstr "前"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:240
+msgid "AM"
+msgstr "上午"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:249
+msgid "An error occurred"
+msgstr "發生錯誤"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:241
+msgid "Apr"
+msgstr "4 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:242
+msgid "April"
+msgstr "四月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:250
+msgid ""
+"Are you sure you want to delete this conversation? All messages will be "
+"permanently removed."
+msgstr "確定要刪除此對話嗎？所有訊息將被永久移除。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:251
+msgid "Are you sure you want to delete this message?"
+msgstr "確定要刪除這則訊息嗎？"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:252
+msgid "Are you sure you want to leave this chat?"
+msgstr "確定要離開此聊天嗎？"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:253
+msgid "Are you sure?"
+msgstr "確定嗎？"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:243
+msgid "at"
+msgstr "於"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:254
+msgid "Attach file"
+msgstr "附加檔案"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:255
+msgid "Attachment"
+msgstr "附件"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:244
+msgid "Aug"
+msgstr "8 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:245
+msgid "August"
+msgstr "八月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:256
+msgid "Back"
+msgstr "返回"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:257
+msgid "Badge"
+msgstr "徽章"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:258
+msgid "Block"
+msgstr "封鎖"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:259
+msgid "Block user"
+msgstr "封鎖使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:260
+msgid "Blocked"
+msgstr "已封鎖"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:261
+msgid "Cancel"
+msgstr "取消"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:57
+#: app/Hooks/Handlers/ChatAppHandler.php:262
+msgid "Chat"
+msgstr "聊天"
+
+#: app/Services/ChatHelper.php:411 app/Http/Controllers/ChatController.php:689
+#, php-format
+msgid "Chat between %1$s & %2$s"
+msgstr "%1$s 與 %2$s 的對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:263
+msgid "Chat info"
+msgstr "聊天資訊"
+
+#. Description of the plugin
+msgid "Chat Plugin for FluentCommunity"
+msgstr "FluentCommunity 即時聊天外掛"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:264
+msgid "Chats"
+msgstr "聊天列表"
+
+#: boot/app.php:37
+msgid "Check Update"
+msgstr "檢查更新"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:267
+msgid "Choose a conversation from the list to start messaging"
+msgstr "從列表中選擇對話以開始傳訊"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:265
+msgid "Click to retry"
+msgstr "點擊重試"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:266
+msgid "Close"
+msgstr "關閉"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:268
+msgid "Communities"
+msgstr "社群"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:269
+#: app/Services/Integrations/CrmSendMessageAction.php:23
+msgid "Community"
+msgstr "社群"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:270
+msgid "Confirm"
+msgstr "確認"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:271
+msgid "Conversation"
+msgstr "對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:272
+msgid "Conversation deleted successfully"
+msgstr "對話已成功刪除"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:273
+msgid "Conversations"
+msgstr "對話列表"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:274
+msgid "day"
+msgstr "天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:275
+msgid "days"
+msgstr "天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:276
+msgid "Dec"
+msgstr "12 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:277
+msgid "December"
+msgstr "十二月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:278
+msgid "Delete"
+msgstr "刪除"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:279
+msgid "Delete conversation"
+msgstr "刪除對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:280
+msgid "Delete message"
+msgstr "刪除訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:281
+msgid "Delivered"
+msgstr "已送達"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:282
+msgid "Details"
+msgstr "詳細資訊"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:283
+msgid "Direct Messages"
+msgstr "私人訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:284
+msgid "Edit"
+msgstr "編輯"
+
+#: app/Services/EmailNotificationMail.php:191
+msgid "Email subject or body is empty."
+msgstr "電子郵件主旨或內容為空。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:285
+msgid "Emoji"
+msgstr "表情符號"
+
+#: app/Http/Controllers/ChatController.php:506
+msgid "Emoji is required"
+msgstr "表情符號為必填"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:286
+msgid "Error"
+msgstr "錯誤"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:287
+msgid "Failed to delete message. Please try again."
+msgstr "訊息刪除失敗，請再試一次。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:291
+msgid "Failed to join chat. Please try again."
+msgstr "加入聊天失敗，請再試一次。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:292
+msgid "Failed to leave chat. Please try again."
+msgstr "離開聊天失敗，請再試一次。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:293
+msgid "Failed to send message. Please try again."
+msgstr "訊息傳送失敗，請再試一次。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:294
+msgid "Failed to update block status. Please try again."
+msgstr "更新封鎖狀態失敗，請再試一次。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:295
+msgid "Failed to upload image"
+msgstr "圖片上傳失敗"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:288
+msgid "Feb"
+msgstr "2 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:289
+msgid "February"
+msgstr "二月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:296
+msgid "File"
+msgstr "檔案"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:297
+msgid "Files"
+msgstr "檔案"
+
+#. Name of the plugin
+msgid "Fluent Messaging"
+msgstr "Fluent Messaging"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:298
+msgid "Fluent Messaging is not properly initialized"
+msgstr "Fluent Messaging 尚未正確初始化"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:290
+msgid "Friday"
+msgstr "星期五"
+
+#: app/Services/EmailNotificationMail.php:161
+#, php-format
+msgid "Hi %s,"
+msgstr "您好，%s，"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:299
+msgid "Hide details"
+msgstr "隱藏詳細資訊"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:300
+msgid "hour"
+msgstr "小時"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:301
+msgid "hours"
+msgstr "小時"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://fluentcommunity.co"
+msgstr "https://fluentcommunity.co"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:302
+msgid "Image"
+msgstr "圖片"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:303
+msgid "Images"
+msgstr "圖片"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:304
+msgid "Info"
+msgstr "資訊"
+
+#: app/Http/Controllers/ChatController.php:513
+msgid "Invalid reaction emoji"
+msgstr "無效的回應表情符號"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:305
+msgid "Jan"
+msgstr "1 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:306
+msgid "January"
+msgstr "一月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:307
+msgid "Join chat"
+msgstr "加入聊天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:308
+msgid "Jul"
+msgstr "7 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:309
+msgid "July"
+msgstr "七月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:310
+msgid "Jun"
+msgstr "6 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:311
+msgid "June"
+msgstr "六月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:312
+msgid "Just now"
+msgstr "剛剛"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:313
+msgid "Last seen"
+msgstr "上次上線"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:314
+msgid "Leave chat"
+msgstr "離開聊天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:315
+msgid "Less"
+msgstr "收起"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:316
+msgid "Load more"
+msgstr "載入更多"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:320
+msgid "Loading more..."
+msgstr "載入中..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:321
+msgid "Loading..."
+msgstr "載入中..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:317
+msgid "Mar"
+msgstr "3 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:318
+msgid "March"
+msgstr "三月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:319
+msgid "May"
+msgstr "五月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:322
+msgid "member"
+msgstr "成員"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:324
+msgid "Members"
+msgstr "成員"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:323
+msgid "members"
+msgstr "位成員"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:134
+#: app/Hooks/Handlers/ChatAppHandler.php:325
+msgid "Message"
+msgstr "訊息"
+
+#: app/Http/Controllers/ChatController.php:488
+msgid "Message deleted successfully"
+msgstr "訊息已成功刪除"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:42
+msgid "Message to send"
+msgstr "要傳送的訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:326
+msgid "Messages"
+msgstr "訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:327
+msgid "Messaging is disabled"
+msgstr "傳訊功能已停用"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:330
+msgid "Messaging is not available for you in this chat"
+msgstr "您在此聊天中無法使用傳訊功能"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:331
+msgid "Messaging is not available in this chat"
+msgstr "此聊天不提供傳訊功能"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:328
+msgid "Minimize"
+msgstr "最小化"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:332
+msgid "minute"
+msgstr "分鐘"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:333
+msgid "minutes"
+msgstr "分鐘"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:329
+msgid "Monday"
+msgstr "星期一"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:334
+msgid "month"
+msgstr "個月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:335
+msgid "months"
+msgstr "個月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:336
+msgid "More"
+msgstr "更多"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:337
+msgid "More Actions"
+msgstr "更多操作"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:338
+msgid "More options"
+msgstr "更多選項"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:339
+msgid "New message"
+msgstr "新訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:340
+msgid "Next"
+msgstr "下一步"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:341
+msgid "No"
+msgstr "否"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:342
+msgid "No conversations yet"
+msgstr "目前沒有對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:343
+msgid "No messages yet"
+msgstr "目前沒有訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:344
+msgid "No results found"
+msgstr "找不到結果"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:348
+msgid "No results found. Try a different search."
+msgstr "找不到結果，請嘗試不同的搜尋條件。"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:349
+msgid "No users found"
+msgstr "找不到使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:345
+msgid "Nov"
+msgstr "11 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:346
+msgid "November"
+msgstr "十一月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:350
+msgid "Now"
+msgstr "現在"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:347
+msgid "now"
+msgstr "剛剛"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:356
+msgid "Oct"
+msgstr "10 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:357
+msgid "October"
+msgstr "十月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:351
+msgid "Offline"
+msgstr "離線"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:352
+msgid "OK"
+msgstr "確定"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:358
+msgid "Online"
+msgstr "上線"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:359
+msgid "Only images are supported"
+msgstr "僅支援圖片格式"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:353
+msgid "Open chat"
+msgstr "開啟聊天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:354
+msgid "Open full chat"
+msgstr "開啟完整聊天視窗"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:355
+msgid "Open messaging"
+msgstr "開啟傳訊"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:360
+msgid "Please wait while we search for users..."
+msgstr "正在搜尋使用者，請稍候..."
+
+#: app/Services/Integrations/CrmSendMessageAction.php:45
+msgid "Please write your message as markdown format"
+msgstr "請以 Markdown 格式撰寫訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:361
+msgid "PM"
+msgstr "下午"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:362
+msgid "Preview"
+msgstr "預覽"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:363
+msgid "Read"
+msgstr "已讀"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:364
+msgid "Remove"
+msgstr "移除"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:365
+msgid "Reply"
+msgstr "回覆"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:366
+msgid "Reply to message"
+msgstr "回覆訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:368
+msgid "Saturday"
+msgstr "星期六"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:367
+msgid "Save"
+msgstr "儲存"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:369
+msgid "Search"
+msgstr "搜尋"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:373
+msgid "Search conversations"
+msgstr "搜尋對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:374
+msgid "Search for someone to send them a direct message"
+msgstr "搜尋使用者以傳送私人訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:375
+msgid "Search for someone..."
+msgstr "搜尋使用者..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:376
+msgid "Search messages"
+msgstr "搜尋訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:377
+msgid "Search users"
+msgstr "搜尋使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:378
+msgid "Searching..."
+msgstr "搜尋中..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:372
+msgid "Select a conversation"
+msgstr "選擇對話"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:53
+msgid "Select send from Admin/Moderator"
+msgstr "選擇以管理員／版主身份傳送"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:54
+msgid "Select Sender"
+msgstr "選擇傳送者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:379
+msgid "Send"
+msgstr "傳送"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:25
+#: app/Services/Integrations/CrmSendMessageAction.php:38
+msgid "Send Inbox Message to FluentCommunity Messaging"
+msgstr "傳送收件匣訊息至 FluentCommunity Messaging"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:380
+msgid "Send message"
+msgstr "傳送訊息"
+
+#: app/Services/Integrations/CrmSendMessageAction.php:24
+#: app/Services/Integrations/CrmSendMessageAction.php:37
+msgid "Send Message to Community Member"
+msgstr "傳送訊息給社群成員"
+
+#: app/Services/ChatHelper.php:405
+msgid "Sender or recipient not found"
+msgstr "找不到傳送者或收件者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:381
+msgid "Sending..."
+msgstr "傳送中..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:382
+msgid "Sent"
+msgstr "已傳送"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:370
+msgid "Sep"
+msgstr "9 月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:371
+msgid "September"
+msgstr "九月"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:383
+msgid "Show details"
+msgstr "顯示詳細資訊"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:384
+msgid "Show less"
+msgstr "顯示較少"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:385
+msgid "Show more"
+msgstr "顯示更多"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:386
+msgid "Show unreads only"
+msgstr "只顯示未讀"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:387
+msgid "Showing unreads only"
+msgstr "目前只顯示未讀"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:388
+msgid "Something went wrong"
+msgstr "發生問題"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:390
+msgid "Start a conversation"
+msgstr "開始對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:391
+msgid "Start a new conversation to get started"
+msgstr "建立新對話以開始使用"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:392
+msgid "Start the conversation by sending a message"
+msgstr "傳送訊息以開始對話"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:389
+msgid "Sunday"
+msgstr "星期日"
+
+#. Author of the plugin
+msgid "techjewel"
+msgstr "techjewel"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:393
+msgid "This action cannot be undone."
+msgstr "此操作無法復原。"
+
+#: app/Http/Controllers/ChatController.php:190
+#: app/Http/Controllers/ChatController.php:214
+#: app/Http/Controllers/ChatController.php:303
+#: app/Http/Controllers/ChatController.php:998
+msgid "This chat thread could not be found or is no longer active"
+msgstr "找不到此聊天串或該串已停用"
+
+#: app/Http/Controllers/ChatController.php:967
+msgid "This thread could not be found or cannot be deleted"
+msgstr "找不到此討論串或無法刪除"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:396
+msgid "This user is unavailable"
+msgstr "此使用者目前無法使用"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:397
+msgid "Thread"
+msgstr "討論串"
+
+#: app/Http/Controllers/ChatController.php:595
+msgid "Thread already exist in this community"
+msgstr "此社群中已存在該討論串"
+
+#: app/Http/Controllers/ChatController.php:987
+msgid "Thread deleted successfully"
+msgstr "討論串已成功刪除"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:398
+msgid "Threads"
+msgstr "討論串"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:394
+msgid "Thursday"
+msgstr "星期四"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:399
+msgid "To:"
+msgstr "收件者："
+
+#: app/Hooks/Handlers/ChatAppHandler.php:400
+msgid "Today"
+msgstr "今天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:401
+msgid "Try a different search term"
+msgstr "請嘗試不同的搜尋關鍵字"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:402
+msgid "Try again"
+msgstr "再試一次"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:395
+msgid "Tuesday"
+msgstr "星期二"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:403
+msgid "Type a message..."
+msgstr "輸入訊息..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:404
+msgid "Unavailable"
+msgstr "無法使用"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:405
+msgid "Unblock"
+msgstr "解除封鎖"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:406
+msgid "Unblock user"
+msgstr "解除封鎖使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:407
+msgid "Unknown"
+msgstr "未知"
+
+#: app/Services/ChatHelper.php:344
+msgid "Unknown User"
+msgstr "未知使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:408
+msgid "Upload"
+msgstr "上傳"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:409
+msgid "Upload image"
+msgstr "上傳圖片"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:410
+msgid "User"
+msgstr "使用者"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:411
+msgid "Username"
+msgstr "使用者名稱"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:412
+msgid "Users"
+msgstr "使用者"
+
+#: app/Services/EmailNotificationMail.php:171
+msgid "View All Messages"
+msgstr "查看所有訊息"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:413
+msgid "View Community"
+msgstr "查看社群"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:414
+msgid "View Profile"
+msgstr "查看個人資料"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:415
+msgid "Wednesday"
+msgstr "星期三"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:416
+msgid "week"
+msgstr "週"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:417
+msgid "weeks"
+msgstr "週"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:418
+msgid "Write your message..."
+msgstr "撰寫訊息..."
+
+#: app/Hooks/Handlers/ChatAppHandler.php:419
+msgid "year"
+msgstr "年"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:420
+msgid "years"
+msgstr "年"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:421
+msgid "Yes"
+msgstr "是"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:422
+msgid "Yesterday"
+msgstr "昨天"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:423
+msgid "You"
+msgstr "您"
+
+#: app/Http/Controllers/ChatController.php:887
+msgid "You are already in this thread"
+msgstr "您已在此討論串中"
+
+#: app/Http/Controllers/ChatController.php:589
+msgid "You are not allowed to create thread in this community"
+msgstr "您無權在此社群建立討論串"
+
+#: app/Http/Controllers/ChatController.php:478
+msgid "You are not allowed to delete this message"
+msgstr "您無權刪除此訊息"
+
+#: app/Http/Controllers/ChatController.php:681
+msgid "You are not allowed to initiate a message"
+msgstr "您無權發起訊息"
+
+#: app/Http/Controllers/ChatController.php:499
+msgid "You are not allowed to react to this message"
+msgstr "您無權對此訊息作出回應"
+
+#: app/Http/Controllers/ChatController.php:311
+#: app/Http/Controllers/ChatController.php:317
+msgid "You are not allowed to send message to this thread"
+msgstr "您無權傳送訊息至此討論串"
+
+#: app/Http/Controllers/ChatController.php:331
+msgid "You are not allowed to send messages in this thread"
+msgstr "您無權在此討論串傳送訊息"
+
+#: app/Http/Controllers/ChatController.php:1004
+msgid "You are not allowed to upload a file"
+msgstr "您無權上傳檔案"
+
+#: app/Http/Controllers/ChatController.php:196
+#: app/Http/Controllers/ChatController.php:222
+#: app/Http/Controllers/ChatController.php:280
+#: app/Http/Controllers/ChatController.php:463
+msgid "You are not allowed to view this thread"
+msgstr "您無權查看此討論串"
+
+#: app/Http/Controllers/ChatController.php:835
+msgid "You are not allowed to view this thread members"
+msgstr "您無權查看此討論串的成員"
+
+#: app/Http/Controllers/ChatController.php:978
+msgid "You are not authorized to delete this thread"
+msgstr "您沒有授權刪除此討論串"
+
+#: app/Http/Controllers/ChatController.php:908
+#: app/Http/Controllers/ChatController.php:932
+#: app/Http/Controllers/ChatController.php:956
+msgid "You are not in this thread"
+msgstr "您不在此討論串中"
+
+#: app/Http/Controllers/ChatController.php:651
+msgid "You can not create thread with yourself"
+msgstr "您無法與自己建立討論串"
+
+#: app/Services/EmailNotificationMail.php:167
+#, php-format
+msgid "You have %s new messages waiting for you in your inbox."
+msgstr "您的收件匣有 %s 則新訊息等待您查閱。"
+
+#: app/Services/EmailNotificationMail.php:165
+msgid "You have a new message waiting for you in your inbox."
+msgstr "您的收件匣有一則新訊息等待您查閱。"
+
+#: app/Http/Controllers/ChatController.php:932
+#: app/Hooks/Handlers/ChatAppHandler.php:424
+msgid "You have blocked this user"
+msgstr "您已封鎖此使用者"
+
+#: app/Http/Controllers/ChatController.php:887
+msgid "You have joined the thread"
+msgstr "您已加入此討論串"
+
+#: app/Http/Controllers/ChatController.php:908
+msgid "You have left the thread"
+msgstr "您已離開此討論串"
+
+#: app/Hooks/Handlers/ChatAppHandler.php:425
+msgid "You have left this chat"
+msgstr "您已離開此聊天"
+
+#: app/Http/Controllers/ChatController.php:956
+msgid "You have unblocked this user"
+msgstr "您已解除封鎖此使用者"

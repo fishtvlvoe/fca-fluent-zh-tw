@@ -1,0 +1,284 @@
+# Translation of FCA Global Search for Fluent Community in Traditional Chinese (Taiwan)
+# Copyright (C) 2026 Fluent Community Add-ons
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Global Search 1.1.0\n"
+"Report-Msgid-Bugs-To: https://fluentcommunityaddons.com/support\n"
+"Last-Translator: BuyGo <support@buygo.me>\n"
+"Language-Team: zh_TW\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-01-20T12:00:00+00:00\n"
+"PO-Revision-Date: 2026-03-30 00:00+0800\n"
+"X-Generator: BuyGo Translation\n"
+"X-Domain: fca-global-search"
+
+#. Plugin Name of the plugin
+msgid "FCA Global Search for Fluent Community"
+msgstr "FCA 全域搜尋（Fluent Community）"
+
+#. #-#-#-#-#  fca-global-search-zh_TW.po (FCA Global Search 1.1.0)  #-#-#-#-#
+#. Plugin URI of the plugin
+#. #-#-#-#-#  fca-global-search-zh_TW.po (FCA Global Search 1.1.0)  #-#-#-#-#
+#. Author URI of the plugin
+msgid "https://fluentcommunityaddons.com/"
+msgstr "https://fluentcommunityaddons.com/"
+
+#. Description of the plugin
+msgid ""
+"Advanced global search across posts, courses, lessons, members, and events "
+"in Fluent Community"
+msgstr ""
+"在 Fluent Community 中跨貼文、課程、課程單元、成員與活動的進階全域搜尋功能"
+
+#. Author of the plugin
+msgid "Fluent Community Add-ons"
+msgstr "Fluent Community Add-ons"
+
+#: includes/class-fca-search-api.php:415
+msgid "Untitled Post"
+msgstr "未命名文章"
+
+#: includes/class-fca-search-admin-settings.php:61
+msgid "First Name"
+msgstr "名字"
+
+#: includes/class-fca-search-admin-settings.php:62
+msgid "Last Name"
+msgstr "姓氏"
+
+#: includes/class-fca-search-admin-settings.php:63
+msgid "Nickname"
+msgstr "暱稱"
+
+#: includes/class-fca-search-admin-settings.php:64
+msgid "Biographical Info"
+msgstr "個人簡介"
+
+#: includes/class-fca-search-admin-settings.php:65
+msgid "Billing First Name"
+msgstr "帳單名字"
+
+#: includes/class-fca-search-admin-settings.php:66
+msgid "Billing Last Name"
+msgstr "帳單姓氏"
+
+#: includes/class-fca-search-admin-settings.php:67
+msgid "Billing Company"
+msgstr "帳單公司"
+
+#: includes/class-fca-search-admin-settings.php:68
+msgid "Billing Email"
+msgstr "帳單電子郵件"
+
+#: includes/class-fca-search-admin-settings.php:69
+msgid "Billing Phone"
+msgstr "帳單電話"
+
+#: includes/class-fca-search-admin-settings.php:70
+msgid "Billing Address"
+msgstr "帳單地址"
+
+#: includes/class-fca-search-admin-settings.php:71
+msgid "Billing City"
+msgstr "帳單城市"
+
+#: includes/class-fca-search-admin-settings.php:72
+msgid "Billing State"
+msgstr "帳單州／省"
+
+#: includes/class-fca-search-admin-settings.php:73
+msgid "Billing Postcode"
+msgstr "帳單郵遞區號"
+
+#: includes/class-fca-search-admin-settings.php:74
+msgid "Billing Country"
+msgstr "帳單國家"
+
+#: includes/class-fca-search-admin-settings.php:75
+msgid "Shipping First Name"
+msgstr "收件名字"
+
+#: includes/class-fca-search-admin-settings.php:76
+msgid "Shipping Last Name"
+msgstr "收件姓氏"
+
+#: includes/class-fca-search-admin-settings.php:77
+msgid "Shipping Company"
+msgstr "收件公司"
+
+#: includes/class-fca-search-admin-settings.php:78
+msgid "Shipping Address"
+msgstr "收件地址"
+
+#: includes/class-fca-search-admin-settings.php:79
+msgid "Shipping City"
+msgstr "收件城市"
+
+#: includes/class-fca-search-admin-settings.php:80
+msgid "Shipping State"
+msgstr "收件州／省"
+
+#: includes/class-fca-search-admin-settings.php:81
+msgid "Shipping Postcode"
+msgstr "收件郵遞區號"
+
+#: includes/class-fca-search-admin-settings.php:82
+msgid "Shipping Country"
+msgstr "收件國家"
+
+#: includes/class-fca-search-admin-settings.php:85
+msgid "Yoast SEO Title"
+msgstr "Yoast SEO 標題"
+
+#: includes/class-fca-search-admin-settings.php:86
+msgid "Yoast SEO Description"
+msgstr "Yoast SEO 描述"
+
+#: includes/class-fca-search-admin-settings.php:87
+msgid "Yoast Focus Keyword"
+msgstr "Yoast 焦點關鍵字"
+
+#: includes/class-fca-search-admin-settings.php:167
+#: includes/class-fca-search-admin-settings.php:248
+msgid "Global Search Settings"
+msgstr "全域搜尋設定"
+
+#: includes/class-fca-search-admin-settings.php:168
+msgid "Global Search"
+msgstr "全域搜尋"
+
+#: includes/class-fca-search-admin-settings.php:250
+msgid "Configure which content types should appear in global search results."
+msgstr "設定哪些內容類型應顯示在全域搜尋結果中。"
+
+#: includes/class-fca-search-admin-settings.php:263
+#: includes/class-fca-search-admin-settings.php:268
+msgid "Content Types"
+msgstr "內容類型"
+
+#: includes/class-fca-search-admin-settings.php:274
+#: includes/class-fca-search-admin-settings.php:367
+msgid "Community Posts"
+msgstr "社群貼文"
+
+#: includes/class-fca-search-admin-settings.php:275
+msgid "Posts from Fluent Community spaces"
+msgstr "來自 Fluent Community 空間的貼文"
+
+#: includes/class-fca-search-admin-settings.php:279
+msgid "Comments"
+msgstr "留言"
+
+#: includes/class-fca-search-admin-settings.php:280
+msgid "Comments on community posts"
+msgstr "社群貼文的留言"
+
+#: includes/class-fca-search-admin-settings.php:284
+#: includes/class-fca-search-admin-settings.php:368
+msgid "Spaces"
+msgstr "空間"
+
+#: includes/class-fca-search-admin-settings.php:285
+msgid "Community spaces and groups"
+msgstr "社群空間與群組"
+
+#: includes/class-fca-search-admin-settings.php:289
+#: includes/class-fca-search-admin-settings.php:369
+msgid "Courses"
+msgstr "課程"
+
+#: includes/class-fca-search-admin-settings.php:290
+msgid "Learning courses and modules"
+msgstr "學習課程與模組"
+
+#: includes/class-fca-search-admin-settings.php:294
+#: includes/class-fca-search-admin-settings.php:370
+msgid "Lessons"
+msgstr "課程單元"
+
+#: includes/class-fca-search-admin-settings.php:295
+msgid "Individual course lessons"
+msgstr "個別課程單元"
+
+#: includes/class-fca-search-admin-settings.php:299
+#: includes/class-fca-search-admin-settings.php:366
+msgid "Members"
+msgstr "成員"
+
+#: includes/class-fca-search-admin-settings.php:300
+msgid "Community member profiles"
+msgstr "社群成員個人資料"
+
+#: includes/class-fca-search-admin-settings.php:304
+msgid "Events"
+msgstr "活動"
+
+#: includes/class-fca-search-admin-settings.php:305
+msgid "Community events and activities"
+msgstr "社群活動"
+
+#: includes/class-fca-search-admin-settings.php:309
+msgid "Blog Posts"
+msgstr "部落格文章"
+
+#: includes/class-fca-search-admin-settings.php:310
+msgid "Standard WordPress blog posts"
+msgstr "標準 WordPress 部落格文章"
+
+#: includes/class-fca-search-admin-settings.php:314
+msgid "Pages"
+msgstr "頁面"
+
+#: includes/class-fca-search-admin-settings.php:315
+msgid "WordPress pages"
+msgstr "WordPress 頁面"
+
+#: includes/class-fca-search-admin-settings.php:319
+msgid "Documentation"
+msgstr "說明文件"
+
+#: includes/class-fca-search-admin-settings.php:320
+msgid "Knowledge Base documentation articles"
+msgstr "知識庫說明文章"
+
+#: includes/class-fca-search-admin-settings.php:351
+msgid "Meta Fields Search"
+msgstr "自訂欄位搜尋"
+
+#: includes/class-fca-search-admin-settings.php:353
+msgid ""
+"Configure which meta fields should be included in search for each content "
+"type."
+msgstr "設定各內容類型的搜尋應包含哪些自訂欄位。"
+
+#: includes/class-fca-search-admin-settings.php:384
+msgid "Meta Fields"
+msgstr "自訂欄位"
+
+#: includes/class-fca-search-admin-settings.php:422
+msgid "Search Behavior"
+msgstr "搜尋行為"
+
+#: includes/class-fca-search-admin-settings.php:424
+msgid ""
+"Disabled content types will not appear in search results or filter options."
+msgstr "已停用的內容類型不會出現在搜尋結果或篩選選項中。"
+
+#: includes/class-fca-search-admin-settings.php:425
+msgid ""
+"Enabled meta fields will be searched in addition to standard fields (title, "
+"content, etc.)."
+msgstr "啟用的自訂欄位將與標準欄位（標題、內容等）一同被搜尋。"
+
+#: includes/class-fca-search-admin-settings.php:426
+msgid "Changes take effect immediately after saving."
+msgstr "變更在儲存後立即生效。"
+
+#: includes/class-fca-search-admin-settings.php:427
+msgid "Users will only see content they have permission to access."
+msgstr "使用者只會看到他們有權限存取的內容。"

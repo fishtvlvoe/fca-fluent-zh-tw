@@ -105,10 +105,15 @@ msgstr "已註冊"
 msgid "AM"
 msgstr "是"
 
+#, fuzzy
 msgid ""
 "Any special instructions for joining (e.g., password, dial-in numbers, "
 "technical requirements)"
-msgstr "加入時的任何特殊說明（例如，密碼、撥入號碼、技術要求）"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"加入時的任何特殊說明（例如，密碼、撥入號碼、技術要求）\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"加入活動的特別說明（例如：密碼、撥入號碼、技術需求）"
 
 msgid "Apple Calendar"
 msgstr "蘋果日曆"
@@ -134,10 +139,15 @@ msgstr "您確定要複製嗎？"
 msgid "Are you sure you want to remove yourself from the waitlist?"
 msgstr "您確定要從候補名單中移除自己嗎？"
 
+#, fuzzy
 msgid ""
 "Are you sure you want to reset all options to their default values? This "
 "action cannot be undone."
-msgstr "您確定要將所有選項重設為預設值嗎？此操作無法撤銷。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"您確定要將所有選項重設為預設值嗎？此操作無法撤銷。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"確定要將所有選項重設為預設值嗎？此操作無法復原。"
 
 msgid "Are you sure you want to unregister from this event?"
 msgstr "您確定要取消註冊本次活動嗎？"
@@ -222,10 +232,15 @@ msgstr "中部時間"
 msgid "characters"
 msgstr "人物"
 
+#, fuzzy
 msgid ""
 "Check this if the event will be held online via video conferencing or "
 "streaming"
-msgstr "請確認活動是否將透過視訊會議或串流媒體在線上舉行。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"請確認活動是否將透過視訊會議或串流媒體在線上舉行。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"若活動將透過視訊會議或串流方式線上舉辦，請勾選此項"
 
 msgid "Choose how dates are displayed throughout the events system"
 msgstr "選擇日期在整個活動系統中的顯示方式"
@@ -278,10 +293,15 @@ msgstr "設定活動向使用者的顯示方式"
 msgid "Confirmed"
 msgstr "確認的"
 
+#, fuzzy
 msgid ""
 "Create all event instances immediately. If unchecked, events will be "
 "generated as needed."
-msgstr "立即建立所有活動實例。如果未選取此項，活動將根據需要產生。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"立即建立所有活動實例。如果未選取此項，活動將根據需要產生。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"立即建立所有活動場次。若未勾選，活動將依需要自動產生。"
 
 msgid "Create custom form for this event"
 msgstr "為此活動建立自訂表單"
@@ -531,10 +551,15 @@ msgstr "請輸入您的授權金鑰"
 msgid "Error"
 msgstr "錯誤"
 
+#, fuzzy
 msgid ""
 "Error activating license. Please verify your license is correct and try "
 "again."
-msgstr "啟動授權時發生錯誤。請確認您的授權正確無誤後重試。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"啟動授權時發生錯誤。請確認您的授權正確無誤後重試。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"啟用授權時發生錯誤，請確認授權是否正確後再試一次。"
 
 msgid "Error cancelling registration"
 msgstr "取消註冊時發生錯誤"
@@ -950,10 +975,15 @@ msgstr "下個月"
 msgid "Next Week"
 msgstr "下週"
 
+#, fuzzy
 msgid ""
 "No activation sites left. Please deactivate unused sites or purchase another "
 "license."
-msgstr "所有啟動網站均已用完。請停用未使用的網站或購買新的授權。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"所有啟動網站均已用完。請停用未使用的網站或購買新的授權。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"已無剩餘啟用站台數，請停用未使用的站台或購買另一個授權。"
 
 msgid "No attendees found"
 msgstr "找不到與會者"
@@ -1093,9 +1123,14 @@ msgstr "請輸入授權金鑰。"
 msgid "Please log in to register for events"
 msgstr "請登入註冊活動"
 
+#, fuzzy
 msgid ""
 "Please provide the following information to complete your registration for"
-msgstr "請提供以下資訊以完成您的註冊。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"請提供以下資訊以完成您的註冊。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"請提供以下資訊以完成報名"
 
 msgid "Please try again"
 msgstr "請重試"
@@ -1340,10 +1375,15 @@ msgstr "在活動清單中顯示搜尋功能"
 msgid "Showing"
 msgstr "顯示"
 
+#, fuzzy
 msgid ""
 "Some of the selected events are part of recurring series. What would you "
 "like to delete?"
-msgstr "部分選定活動屬於系列活動。您想刪除哪些活動？"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"部分選定活動屬於系列活動。您想刪除哪些活動？\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"部分已選取的活動屬於週期性系列活動，您想要刪除哪些？"
 
 msgid "Something went wrong"
 msgstr "出問題了"
@@ -1397,9 +1437,14 @@ msgstr "參與者可以加入虛擬活動的網址"
 msgid "This action cannot be undone."
 msgstr "此操作無法撤銷。"
 
+#, fuzzy
 msgid ""
 "This event is part of a recurring series. What would you like to delete?"
-msgstr "此活動是系列活動的一部分。您想刪除哪些內容？"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"此活動是系列活動的一部分。您想刪除哪些內容？\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"此活動屬於週期性系列活動，您想要刪除哪些？"
 
 msgid "This is a reminder for your upcoming event"
 msgstr "這是您即將參加的活動的提醒"
@@ -1579,10 +1624,16 @@ msgstr "歡迎來到"
 msgid "When"
 msgstr "什麼時候"
 
+#, fuzzy
 msgid ""
 "When event is full, allow users to join a waitlist. They will be "
 "automatically promoted when spots become available."
-msgstr "活動名額已滿時，允許使用者加入候補名單。當有空位時，候補名單上的使用者將自動獲得入場資格。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"活動名額已滿時，允許使用者加入候補名單。當有空位時，候補名單上的使用者將自動"
+"獲得入場資格。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"活動名額額滿時，允許使用者加入候補名單，有名額時將自動升級。"
 
 msgid "Where"
 msgstr "在哪裡"
@@ -1602,10 +1653,15 @@ msgstr "年"
 msgid "Yes, delete it"
 msgstr "是的，刪除它"
 
+#, fuzzy
 msgid ""
 "You are all set for this event. We will send you updates as the date "
 "approaches."
-msgstr "您已為本次活動做好一切準備。我們將隨著活動日期的臨近向您發送最新消息。"
+msgstr ""
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"您已為本次活動做好一切準備。我們將隨著活動日期的臨近向您發送最新消息。\n"
+"#-#-#-#-#  fca-events-zh_TW.po (FCA Events 0.1.2)  #-#-#-#-#\n"
+"您已成功報名此活動，活動日期臨近時我們會傳送通知給您。"
 
 msgid "You are on the waitlist for this event. Your position:"
 msgstr "您已進入本次活動的候補名單。您的排名："
@@ -1665,7 +1721,6 @@ msgstr "YYYY-MM-DD"
 #
 # Missing translations added 2026-02-25 07:11
 #
-
 msgid "Add New Event"
 msgstr "新增活動"
 
@@ -1774,7 +1829,9 @@ msgstr "您已被加入「%s」的候補名單。"
 msgid "Your position on the waitlist is: %d"
 msgstr "您在候補名單上的順位為：%d"
 
-msgid "You will be automatically promoted to confirmed status if a spot becomes available, and you will receive an email notification."
+msgid ""
+"You will be automatically promoted to confirmed status if a spot becomes "
+"available, and you will receive an email notification."
 msgstr "如果有名額釋出，您將自動晉升為已確認狀態，並會收到電子電子郵件通知。"
 
 msgid "Event Details:"
@@ -2080,7 +2137,9 @@ msgstr "報名截止日期："
 msgid "Enable Custom Registration Form"
 msgstr "啟用自訂報名表單"
 
-msgid "When enabled, attendees will need to fill out a custom form before registration is complete."
+msgid ""
+"When enabled, attendees will need to fill out a custom form before "
+"registration is complete."
 msgstr "啟用後，參加者需要填寫自訂表單才能完成報名。"
 
 msgid "Form Template:"
@@ -2089,13 +2148,17 @@ msgstr "表單模板："
 msgid "Create Custom Form for this Event"
 msgstr "為此活動建立自訂表單"
 
-msgid "Select an existing form template, or leave blank to create a custom form for this event only."
+msgid ""
+"Select an existing form template, or leave blank to create a custom form for "
+"this event only."
 msgstr "選擇現有的表單模板，或留空以僅為此活動建立自訂表單。"
 
 msgid "Manage Form Templates"
 msgstr "管理表單模板"
 
-msgid "Use the Event Editor in the community portal to build forms and manage templates."
+msgid ""
+"Use the Event Editor in the community portal to build forms and manage "
+"templates."
 msgstr "使用社群入口的活動編輯器來建立表單和管理模板。"
 
 msgid "Disabled"
@@ -2300,37 +2363,3 @@ msgstr[0] "已成功刪除 %d 個活動"
 msgid "Successfully duplicated %d event"
 msgid_plural "Successfully duplicated %d events"
 msgstr[0] "已成功複製 %d 個活動"
-
-
-msgid "Any special instructions for joining (e.g., password, dial-in numbers, technical requirements)"
-msgstr "加入活動的特別說明（例如：密碼、撥入號碼、技術需求）"
-
-msgid "Are you sure you want to reset all options to their default values? This action cannot be undone."
-msgstr "確定要將所有選項重設為預設值嗎？此操作無法復原。"
-
-msgid "Check this if the event will be held online via video conferencing or streaming"
-msgstr "若活動將透過視訊會議或串流方式線上舉辦，請勾選此項"
-
-msgid "Create all event instances immediately. If unchecked, events will be generated as needed."
-msgstr "立即建立所有活動場次。若未勾選，活動將依需要自動產生。"
-
-msgid "Error activating license. Please verify your license is correct and try again."
-msgstr "啟用授權時發生錯誤，請確認授權是否正確後再試一次。"
-
-msgid "No activation sites left. Please deactivate unused sites or purchase another license."
-msgstr "已無剩餘啟用站台數，請停用未使用的站台或購買另一個授權。"
-
-msgid "Please provide the following information to complete your registration for"
-msgstr "請提供以下資訊以完成報名"
-
-msgid "Some of the selected events are part of recurring series. What would you like to delete?"
-msgstr "部分已選取的活動屬於週期性系列活動，您想要刪除哪些？"
-
-msgid "This event is part of a recurring series. What would you like to delete?"
-msgstr "此活動屬於週期性系列活動，您想要刪除哪些？"
-
-msgid "When event is full, allow users to join a waitlist. They will be automatically promoted when spots become available."
-msgstr "活動名額額滿時，允許使用者加入候補名單，有名額時將自動升級。"
-
-msgid "You are all set for this event. We will send you updates as the date approaches."
-msgstr "您已成功報名此活動，活動日期臨近時我們會傳送通知給您。"
