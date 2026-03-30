@@ -3,7 +3,7 @@
  * Plugin Name: FCA & Fluent 繁體中文翻譯包
  * Plugin URI: https://aiver.me
  * Description: 為所有 FCA 系列與 Fluent 系列外掛提供繁體中文翻譯，不修改原始外掛檔案，更新外掛不受影響。
- * Version: 1.5.2
+ * Version: 1.6.0
  * Author: BuyGo
  * License: GPL v2 or later
  * Text Domain: fca-fluent-zh-tw
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 
 // GitHub 自動更新器
 require_once __DIR__ . '/updater.php';
-new FCA_Fluent_ZhTW_Updater(__FILE__, '1.5.2');
+new FCA_Fluent_ZhTW_Updater(__FILE__, '1.6.0');
 
 /**
  * 載入翻譯檔
@@ -99,7 +99,9 @@ class FCA_Fluent_ZhTW {
         add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n'], 100);
 
         // DOM 文字替換注入器：處理 Vue/React 直接渲染的後台 UI 字串
-        // 涵蓋：fluent-player-pro、fluent-crm、fca-widgets、fce-shortcodes、fca-boards
+        // 涵蓋：fluent-player-pro、fluent-crm、fca-widgets、fce-shortcodes、fca-boards、
+        //        fca-hub、fca-global-search、fca-content-manager、fca-multi-reactions、
+        //        fce-quick-fixes、fca-course-blocks
         add_action('admin_enqueue_scripts', [__CLASS__, 'enqueue_dom_translator']);
     }
 
@@ -757,14 +759,19 @@ class FCA_Fluent_ZhTW {
         $page      = isset($_GET['page']) ? sanitize_text_field($_GET['page']) : '';
 
         $relevant_pages = [
-            'fluent-player',    // fluent-player-pro 設定頁
-            'fluentcrm',        // fluent-crm（fluentcrm-admin 等）
-            'fca-widgets',      // fca-widgets
-            'fce-shortcodes',   // fce-shortcodes 設定頁
-            'fca-boards',       // fca-boards
-            'fca-display-name', // fca-display-name 設定頁
-            'fca-pwa',          // FCA PWA 設定頁 + Analytics
-            'fca-comments',     // FCA Comments 設定頁
+            'fluent-player',        // fluent-player-pro 設定頁
+            'fluentcrm',            // fluent-crm（fluentcrm-admin 等）
+            'fca-widgets',          // fca-widgets
+            'fce-shortcodes',       // fce-shortcodes 設定頁
+            'fca-boards',           // fca-boards
+            'fca-display-name',     // fca-display-name 設定頁
+            'fca-pwa',              // FCA PWA 設定頁 + Analytics
+            'fca-comments',         // FCA Comments 設定頁
+            'fca-hub-settings',     // FCA Hub 附加元件管理器
+            'fca-content-manager',  // FCA Content Manager（及子頁面）
+            'fca-cm-',              // FCA Content Manager 子頁面前綴
+            'fca-multi-reactions',  // FCA Multi-Reactions 設定頁
+            'fce-quick-fixes',      // FCE Quick Fixes 設定頁
         ];
 
         $is_relevant = false;
@@ -780,7 +787,7 @@ class FCA_Fluent_ZhTW {
         }
 
         $plugin_url     = plugin_dir_url(__FILE__);
-        $plugin_version = '1.4.0';
+        $plugin_version = '1.6.0';
 
         // 先載入翻譯字典
         wp_enqueue_script(

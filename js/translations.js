@@ -119,6 +119,7 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Portal URL':               '入口網址',
         'Portal Slug':              '入口網址代稱',
         'Import Demo Content':      '匯入範例內容',
+        'Copied!':                  '已複製！',
     };
 
     // ── FCA Boards（看板管理）─────────────────────────────────────────
@@ -268,9 +269,239 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'FCA Comments':             'FCA 留言',
     };
 
+    // ── FCA Hub（附加元件管理器）──────────────────────────────────────
+    var fcaHub = {
+        // hub-admin.js 硬編碼字串（按鈕狀態 + 訊息）
+        'Please enter a license key':   '請輸入授權金鑰',
+        'Activating...':                '啟用中...',
+        'License activated successfully!':
+                                        '授權已成功啟用！',
+        'License activation failed':    '授權啟用失敗',
+        'Request failed. Please try again.':
+                                        '請求失敗，請再試一次。',
+        'Activate License':             '啟用授權',
+        'Are you sure you want to deactivate your license?':
+                                        '確定要停用您的授權嗎？',
+        'Deactivating...':              '停用中...',
+        'License deactivation failed':  '授權停用失敗',
+        'Deactivate License':           '停用授權',
+        'License status checked successfully':
+                                        '授權狀態已成功檢查',
+        'Failed to check license status':
+                                        '檢查授權狀態失敗',
+        'Checking...':                  '檢查中...',
+        'Check License Status':         '檢查授權狀態',
+        'Installing...':                '安裝中...',
+        'Installing addon...':          '安裝附加元件中...',
+        'Addon installed successfully!':'附加元件已成功安裝！',
+        'Installation failed':          '安裝失敗',
+        'Install':                      '安裝',
+        'Activating addon...':          '啟用附加元件中...',
+        'Deactivating addon...':        '停用附加元件中...',
+        'Addon status updated':         '附加元件狀態已更新',
+        'Active':                       '已啟用',
+        'Inactive':                     '未啟用',
+        'Failed to update addon status':'更新附加元件狀態失敗',
+        'Refreshing...':                '重新整理中...',
+        'Registry refreshed successfully!':
+                                        '登錄檔已成功重新整理！',
+        'Failed to refresh registry':   '重新整理登錄檔失敗',
+        'Checking for updates...':      '檢查更新中...',
+        'All addons are up to date!':   '所有附加元件均已是最新版本！',
+        'Failed to check for updates':  '檢查更新失敗',
+        'Updating...':                  '更新中...',
+        'Updating addon...':            '更新附加元件中...',
+        'Update installed successfully!':
+                                        '更新已成功安裝！',
+        'Update failed':                '更新失敗',
+        'Update Available':             '有可用更新',
+        'Deleting addon...':            '刪除附加元件中...',
+        'Addon deleted successfully!':  '附加元件已成功刪除！',
+        'Deletion failed':              '刪除失敗',
+        'Enabled':                      '已啟用',
+        'Disabled':                     '已停用',
+    };
+
+    // ── FCA Global Search（社群搜尋頁面）─────────────────────────────
+    var fcaGlobalSearch = {
+        // search-page.js Vue template 硬編碼字串
+        'Search':                       '搜尋',
+        'Search posts, comments, spaces, courses, lessons, members, events, blogs, pages, and docs...':
+                                        '搜尋貼文、留言、空間、課程、課節、成員、活動、部落格、頁面和文件...',
+        'All Results':                  '全部結果',
+        'Posts':                        '貼文',
+        'Comments':                     '留言',
+        'Spaces':                       '空間',
+        'Courses':                      '課程',
+        'Lessons':                      '課節',
+        'Members':                      '成員',
+        'Events':                       '活動',
+        'Blogs':                        '部落格',
+        'Pages':                        '頁面',
+        'Docs':                         '文件',
+        'Search filters will appear here':
+                                        '搜尋篩選器將顯示於此',
+        'Searching...':                 '搜尋中...',
+        'Start searching':              '開始搜尋',
+        'Search for posts, comments, spaces, courses, lessons, members, events, blogs, and pages':
+                                        '搜尋貼文、留言、空間、課程、課節、成員、活動、部落格和頁面',
+        'Public Space':                 '公開空間',
+        'Private Space':                '私密空間',
+        'No results found':             '找不到結果',
+        'Try adjusting your search terms or check the spelling.':
+                                        '請嘗試調整搜尋關鍵字或確認拼寫是否正確。',
+        'result found':                 '個結果',
+        'results found':                '個結果',
+    };
+
+    // ── FCA Content Manager（內容管理員）────────────────────────────
+    var fcaContentManager = {
+        // admin.js 硬編碼字串
+        'Choose Thumbnail Image':       '選擇縮圖',
+        'Use this image':               '使用此圖片',
+        'Manage community members, handle enrollments, and control user access across spaces and courses.':
+                                        '管理社群成員、處理報名，以及控制各空間和課程的使用者存取。',
+        'View and edit all metadata entries across your community.':
+                                        '查看並編輯整個社群的所有中繼資料條目。',
+        'Manage spaces with full editing capabilities and bulk operations.':
+                                        '以完整編輯功能和批次操作管理空間。',
+        'Export your content for backup, migration, or analysis.':
+                                        '匯出內容以進行備份、遷移或分析。',
+        'Import content from CSV and JSON files with advanced mapping options.':
+                                        '從 CSV 和 JSON 檔案匯入內容，提供進階對應選項。',
+        'This feature requires a Pro license. Upgrade to edit courses!':
+                                        '此功能需要 Pro 授權。請升級以編輯課程！',
+        'Course editing requires a Pro license!':
+                                        '課程編輯需要 Pro 授權！',
+        'Please select a table for export':
+                                        '請選擇要匯出的表格',
+        'Show Logs':                    '顯示日誌',
+        'Hide Logs':                    '隱藏日誌',
+        'Import failed.':               '匯入失敗。',
+        'AJAX import failed. Check console for details.':
+                                        'AJAX 匯入失敗，請查看主控台以了解詳情。',
+        'Uploading...':                 '上傳中...',
+        'Import completed successfully!':
+                                        '匯入已成功完成！',
+        'Failed to load statistics':    '載入統計資料失敗',
+        'Posts':                        '貼文',
+        'Comments':                     '留言',
+        'Courses':                      '課程',
+        'Lessons':                      '課節',
+        'Course lessons':               '課程課節',
+        'Members':                      '成員',
+        'Reactions':                    '反應',
+        'Media Files':                  '媒體檔案',
+        'Images, videos, and files':    '圖片、影片和檔案',
+        'Spaces':                       '空間',
+        'Are you sure you want to delete this item?':
+                                        '確定要刪除此項目嗎？',
+        'Are you sure you want to delete this media file?':
+                                        '確定要刪除此媒體檔案嗎？',
+        'Untitled':                     '未命名',
+        'Untitled Course':              '未命名課程',
+        'Unknown':                      '未知',
+        'Are you sure you want to delete this metadata?':
+                                        '確定要刪除此中繼資料嗎？',
+        'No courses found':             '找不到課程',
+        'No media files found':         '找不到媒體檔案',
+        'Never':                        '從不',
+        'Yes':                          '是',
+        'No':                           '否',
+        'Failed to load course structure':
+                                        '載入課程結構失敗',
+        'Order updated':                '順序已更新',
+        'Item deleted':                 '項目已刪除',
+        'Failed to delete item':        '刪除項目失敗',
+        'Item duplicated':              '項目已複製',
+        'Failed to duplicate item':     '複製項目失敗',
+        'Move this section and all its lessons to another course.':
+                                        '將此章節及其所有課節移至另一個課程。',
+        'Move this lesson to another course or section.':
+                                        '將此課節移至另一個課程或章節。',
+        'Please select a target course':'請選擇目標課程',
+        'Item moved successfully':      '項目已成功移動',
+        'Failed to move item':          '移動項目失敗',
+        'No course selected':           '未選擇課程',
+        'Course updated successfully':  '課程已成功更新',
+        'Failed to update metadata':    '更新中繼資料失敗',
+        'Metadata not found':           '找不到中繼資料',
+        'Invalid metadata ID':          '無效的中繼資料 ID',
+        'Metadata updated successfully':'中繼資料已成功更新',
+        'Failed to delete media':       '刪除媒體失敗',
+        'Failed to delete media files': '刪除媒體檔案失敗',
+        'Failed to load media details': '載入媒體詳情失敗',
+        'Media deleted successfully':   '媒體已成功刪除',
+        'Topic added':                  '主題已新增',
+        'Failed to add topic':          '新增主題失敗',
+        'Topic removed':                '主題已移除',
+        'Failed to remove topic':       '移除主題失敗',
+        'Failed to load comment':       '載入留言失敗',
+        'Failed to update posts':       '更新貼文失敗',
+        // import-export.js 字串
+        'Please select a content type to export.':
+                                        '請選擇要匯出的內容類型。',
+        'None':                         '無',
+        'Export failed.':               '匯出失敗。',
+        'An error occurred: ':          '發生錯誤：',
+        'Please upload a JSON or CSV file.':
+                                        '請上傳 JSON 或 CSV 檔案。',
+        'File size exceeds 50MB limit.':'檔案大小超過 50MB 限制。',
+        'Please upload a file to continue.':
+                                        '請上傳檔案以繼續。',
+        'Export file created successfully.':
+                                        '匯出檔案已成功建立。',
+        'items exported.':              '個項目已匯出。',
+    };
+
+    // ── FCA Multi-Reactions（多表情反應設定）───────────────────────────
+    var fcaMultiReactions = {
+        // admin.js 硬編碼字串
+        'Please enable at least one reaction type.':
+                                        '請至少啟用一種反應類型。',
+        'Multi-Reactions settings saved successfully!':
+                                        '多反應設定已成功儲存！',
+        'Are you sure you want to reset all Multi-Reactions settings to defaults?\n\nThis will:\n• Delete all current settings\n• Recreate the database option\n• Reset all reactions to default values\n• Disable multi-reactions\n\nThis action cannot be undone.':
+                                        '確定要將所有多反應設定重設為預設值嗎？\n\n此操作將：\n• 刪除所有目前的設定\n• 重新建立資料庫選項\n• 將所有反應重設為預設值\n• 停用多反應功能\n\n此操作無法復原。',
+        'Reaction Name':                '反應名稱',
+        'Emoji':                        '表情符號',
+        'Delete this reaction':         '刪除此反應',
+    };
+
+    // ── FCE Quick Fixes（快速修復設定頁，PHP echo 硬編碼）────────────
+    var fceQuickFixes = {
+        // class-settings-page.php create_admin_page() 中的字串
+        'FCE Quick Fixes Settings':     'FCE 快速修復設定',
+        'Available Quick Fixes':        '可用的快速修復',
+        'Enable this fix':              '啟用此修復',
+        'Custom Code':                  '自訂程式碼',
+        'Header Code':                  '標頭程式碼',
+        'Add custom code to the <head> section (perfect for Google Analytics, meta tags, etc.)':
+                                        '在 <head> 區塊新增自訂程式碼（適合 Google Analytics、meta 標籤等）',
+        'Custom CSS':                   '自訂 CSS',
+        'Add custom CSS to be applied to the community portal.':
+                                        '新增自訂 CSS 套用至社群入口網站。',
+        'Custom JavaScript':            '自訂 JavaScript',
+        'Add custom JavaScript to be applied to the community portal.':
+                                        '新增自訂 JavaScript 套用至社群入口網站。',
+    };
+
+    // ── FCA Course Blocks（影片播放器）──────────────────────────────
+    var fcaCourseBlocks = {
+        // player.js 中 buildExternalChapters() 硬編碼字串
+        'Chapters':                     '章節',
+        'No video configured. Please add a video URL in the editor.':
+                                        '尚未設定影片，請在編輯器中新增影片網址。',
+    };
+
     // 合併所有字典（後面的同 key 會覆蓋前面）
     var merged = {};
-    var sources = [fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards, fcaDisplayName, fcaPwa, fcaComments];
+    var sources = [
+        fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards,
+        fcaDisplayName, fcaPwa, fcaComments,
+        fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
+        fceQuickFixes, fcaCourseBlocks
+    ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];
         for (var k in src) {
