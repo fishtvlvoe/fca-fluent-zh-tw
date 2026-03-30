@@ -183,9 +183,41 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Bio':                      '簡介',
     };
 
+    // ── FCA PWA（Analytics + Service Worker UI）────────────────────────
+    var fcaPwa = {
+        'PWA Analytics':            'PWA 分析',
+        'Event tracked':            '事件已追蹤',
+        'Event type is required':   '事件類型為必填',
+        'Failed to track event':    '追蹤事件失敗',
+        'Add to Home Screen':       '加到主畫面',
+        'Tap the Share button':     '點擊分享按鈕',
+        'Scroll down and tap Add to Home Screen':
+                                    '向下滑動並點擊「加到主畫面」',
+        'Tap Add to install':       '點擊「加入」以安裝',
+        'The app will appear on your home screen just like a regular app.':
+                                    '應用程式將會出現在您的主畫面上，就像一般的 App 一樣。',
+        'Add to your device':       '加入您的裝置',
+        'Open the browser menu':    '開啟瀏覽器選單',
+        'Follow the prompts to install':
+                                    '按照提示完成安裝',
+        'You are back online — refreshing...':
+                                    '您已重新上線 — 正在重新整理...',
+        'You are offline':          '您目前離線',
+        'A new version of this app is available.':
+                                    '此應用程式有新版本可用。',
+        'Update Now':               '立即更新',
+    };
+
+    // ── FCA Comments ──────────────────────────────────────────────────
+    var fcaComments = {
+        'Community Discussion':     '社群討論',
+        'Join the Discussion':      '加入討論',
+        'FCA Comments':             'FCA 留言',
+    };
+
     // 合併所有字典（後面的同 key 會覆蓋前面）
     var merged = {};
-    var sources = [fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards, fcaDisplayName];
+    var sources = [fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards, fcaDisplayName, fcaPwa, fcaComments];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];
         for (var k in src) {

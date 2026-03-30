@@ -162,7 +162,7 @@ msgstr "啟用 PWA"
 msgid ""
 "FCA Push Notifications plugin is active. Push notification handlers will be "
 "automatically integrated with your PWA service worker."
-msgstr "FCA推播通知外掛程式已啟用。推播通知處理程序將自動與您的PWA服務工作執行緒整合。"
+msgstr "FCA 推播通知外掛已啟用。推播通知處理程式將自動整合到您的 PWA Service Worker 中。"
 
 #: includes/class-pwa-core.php:203
 msgid "FCA PWA"
@@ -176,7 +176,7 @@ msgstr "FCA PWA 需要安裝並啟動 Fluent Community。"
 msgid ""
 "FCA PWA requires HTTPS to be enabled. PWA features only work on secure "
 "connections."
-msgstr "FCA PWA 需要啟用 HTTPS。 PWA 功能僅在安全連線下才能正常運作。"
+msgstr "FCA PWA 需要啟用 HTTPS。PWA 功能僅在安全連線下運作。"
 
 #: includes/class-pwa-activator.php:25
 msgid "FCA PWA requires PHP 7.4 or higher."
@@ -304,7 +304,7 @@ msgstr "無效的主題顏色格式"
 msgid ""
 "It looks like you're not connected to the internet. Some features may not be"
 " available."
-msgstr "您似乎沒有網路連線。部分功能可能無法使用。"
+msgstr "看起來您未連線到網際網路。部分功能可能無法使用。"
 
 #: views/admin-settings.php:148
 msgid "Landscape"
@@ -430,7 +430,7 @@ msgstr "偵測到推播通知"
 msgid ""
 "PWA features require HTTPS to be enabled. Please configure SSL/TLS on your "
 "server to use PWA functionality."
-msgstr "PWA 功能需要啟用 HTTPS。請在您的伺服器上設定 SSL/TLS 以使用 PWA 功能。"
+msgstr "PWA 功能需要啟用 HTTPS。請在伺服器上設定 SSL/TLS 以使用 PWA 功能。"
 
 #: views/admin-settings.php:364
 msgid "Quick Actions"

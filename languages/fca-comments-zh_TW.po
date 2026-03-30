@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Comments\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-30 00:00+0000\n"
+"PO-Revision-Date: 2026-03-30 00:00+0000\n"
+"Last-Translator: BuyGo <facemarketin@gmail.com>\n"
+"Language-Team: BuyGo\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: FCA Fluent ZH-TW\n"
+
+msgid "All Terms"
+msgstr "所有條件"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Any Taxonomy"
+msgstr "任何分類法"
+
+msgid "Community Discussion"
+msgstr "社群討論"
+
+msgid "FCA Comments"
+msgstr "FCA 留言"
+
+msgid "Join the Discussion"
+msgstr "加入討論"
+
+msgid "Match ALL conditions (AND)"
+msgstr "符合所有條件（AND）"
+
+msgid "Match ANY condition (OR)"
+msgstr "符合任一條件（OR）"
+
+msgid "Post Type: %s"
+msgstr "文章類型：%s"
+
+msgid "Read the full post →"
+msgstr "閱讀完整文章 →"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Select Space"
+msgstr "選擇空間"
+
+msgid "Select Taxonomy"
+msgstr "選擇分類法"
+
+msgid "Select Term"
+msgstr "選擇條件"
+
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+msgid "Taxonomy: %s (Term: %s)"
+msgstr "分類法：%s（條件：%s）"
+
+msgid "Unnamed Rule"
+msgstr "未命名規則"
+
+msgid "or explore %s"
+msgstr "或探索 %s"
