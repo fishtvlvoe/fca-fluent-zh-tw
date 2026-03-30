@@ -13064,3 +13064,1879 @@ msgstr "位訂閱者"
 #: app/Http/Controllers/SubscriberController.php:309
 msgid "subscribers"
 msgstr "位訂閱者"
+
+msgid " Install FluentCart to sale Products, Subscriptions, Digital Downloads."
+msgstr " 安裝 FluentCart 以銷售商品、訂閱方案及數位下載內容。"
+
+msgid " Recorded at: "
+msgstr " 記錄時間："
+
+msgid " status was set from Pepipost Webhook API. Reason: "
+msgstr " 狀態由 Pepipost Webhook API 設定。原因："
+
+msgid " status was set from Postmark Webhook API."
+msgstr " 狀態由 Postmark Webhook API 設定。"
+
+msgid " status was set from SparkPost Webhook API."
+msgstr " 狀態由 SparkPost Webhook API 設定。"
+
+msgid " was set by Mailgun webhook API with event name: "
+msgstr " 由 Mailgun Webhook API 設定，事件名稱："
+
+msgid "%d subscribers have been attached to the selected automation funnel"
+msgstr "已將 %d 位訂閱者加入所選的自動化流程"
+
+msgid "%d subscribers have been attached to the selected company"
+msgstr "已將 %d 位訂閱者加入所選的公司"
+
+msgid "%d subscribers have been attached to the selected email sequence"
+msgstr "已將 %d 位訂閱者加入所選的電子郵件序列"
+
+msgid "%d subscribers have been detached from the selected company"
+msgstr "已將 %d 位訂閱者從所選公司移除"
+
+msgid ""
+"(Optional) The selected tags will be removed from the contact (if it exists)"
+msgstr "（選填）所選標籤將從聯絡人中移除（如果存在）"
+
+msgid "(Subscribers can view and manage all available lists)"
+msgstr "（訂閱者可以查看並管理所有可用清單）"
+
+msgid "(Subscribers can view and manage specific lists only)"
+msgstr "（訂閱者只能查看並管理特定清單）"
+
+msgid "A webhook already exists for %s provider"
+msgstr "%s 供應商的 Webhook 已存在"
+
+msgid "Abandoned Cart Settings Require WooCommerce"
+msgstr "購物車放棄設定需要 WooCommerce"
+
+msgid "Abandoned Carts"
+msgstr "放棄的購物車"
+
+msgid "Action:"
+msgstr "動作："
+
+msgid "Activate Fluent Forms"
+msgstr "啟用 Fluent Forms"
+
+msgid "Add Condition to check your contact's properties"
+msgstr "新增條件以檢查聯絡人屬性"
+
+msgid "Add Lesson title"
+msgstr "新增課程單元標題"
+
+msgid "Add Property"
+msgstr "新增屬性"
+
+msgid "Add this to your wp-config.php file to enable these tools."
+msgstr "將此內容加入您的 wp-config.php 檔案以啟用這些工具。"
+
+msgid "Add to Calendar"
+msgstr "加入行事曆"
+
+msgid "Advanced Filter requires FluentCRM Pro"
+msgstr "進階篩選需要 FluentCRM Pro"
+
+msgid "All FluentCRM Database Tables have been reset"
+msgstr "所有 FluentCRM 資料庫資料表已重置"
+
+msgid "All SMS Activities"
+msgstr "所有 SMS 活動"
+
+msgid "All companies have been processed"
+msgstr "所有公司已處理完畢"
+
+msgid "All contacts and subscriber data"
+msgstr "所有聯絡人與訂閱者資料"
+
+msgid "All contacts have been processed"
+msgstr "所有聯絡人已處理完畢"
+
+msgid "All logs have been deleted"
+msgstr "所有日誌已刪除"
+
+msgid ""
+"All selected lists and subscribers have been added successfully to this "
+"sequence. Emails will be sent as per your configuration"
+msgstr "所有選定的清單與訂閱者已成功加入此序列。電子郵件將依您的設定發送。"
+
+msgid "All your email history from this recurring campaign will be shown here."
+msgstr "此週期性行銷活動的所有電子郵件記錄將顯示於此。"
+
+msgid ""
+"Allow FluentCRM to fetch profile images from Gravatar service based on "
+"contact email addresses."
+msgstr "允許 FluentCRM 根據聯絡人電子郵件地址從 Gravatar 服務取得大頭照。"
+
+msgid ""
+"Allow automatic login for connected WordPress users when they click this "
+"smart link in an email."
+msgstr "允許已連結的 WordPress 使用者點擊電子郵件中的智慧連結時自動登入。"
+
+msgid ""
+"Allow contacts to unsubscribe immediately without additional confirmation "
+"steps or feedback forms."
+msgstr "允許聯絡人立即取消訂閱，無需額外的確認步驟或意見回饋表單。"
+
+msgid "Amazon SES Bounce Handler"
+msgstr "Amazon SES 退信處理"
+
+msgid "An error occurred"
+msgstr "發生錯誤"
+
+msgid "Anonymous Tracking"
+msgstr "匿名追蹤"
+
+msgid "Assign or remove tags when a contact is assigned to a user role."
+msgstr "當聯絡人被指派使用者角色時，新增或移除標籤。"
+
+msgid "Assign roles, set permissions, and manage team access."
+msgstr "指派角色、設定權限並管理團隊存取權限。"
+
+msgid "At least 4GB Server Memory (RAM)."
+msgstr "伺服器記憶體（RAM）至少需要 4GB。"
+
+msgid "Automate subscriber tagging and segmentation with every click."
+msgstr "透過每次點擊自動化訂閱者標籤和分群。"
+
+msgid "Automatically cancelled because a cart has been recovered"
+msgstr "已自動取消，因為購物車已被找回"
+
+msgid "Automatically cancelled because the cart has been lost"
+msgstr "已自動取消，因為購物車已流失"
+
+msgid "Automatically map tags from %s in FluentCRM"
+msgstr "自動將 %s 的標籤對應到 FluentCRM"
+
+msgid ""
+"Automatically mark a cart as recovered when the corresponding FluentCart "
+"order status changes to the selected status."
+msgstr "當對應的 FluentCart 訂單狀態變更為選定狀態時，自動將購物車標記為已找回。"
+
+msgid ""
+"Automatically mark a cart as recovered when the corresponding WooCommerce "
+"order status changes to the selected status."
+msgstr "當對應的 WooCommerce 訂單狀態變更為選定狀態時，自動將購物車標記為已找回。"
+
+msgid ""
+"Automatically remove FluentCRM contact data when the associated WordPress "
+"user account is deleted."
+msgstr "當關聯的 WordPress 使用者帳號被刪除時，自動移除 FluentCRM 聯絡人資料。"
+
+msgid "Automation Priority"
+msgstr "自動化優先順序"
+
+msgid "Automation workflows and triggers"
+msgstr "自動化工作流程與觸發條件"
+
+msgid "Back to campaign title and layout"
+msgstr "返回行銷活動標題與版面配置"
+
+msgid ""
+"Based on your time selection, the SMS messages will be scheduled within that "
+"range randomly"
+msgstr "根據您選擇的時間，SMS 訊息將在該範圍內隨機排程發送"
+
+msgid "Basic information about your business that appears in emails and forms."
+msgstr "顯示於電子郵件和表單中的基本業務資訊。"
+
+msgid "Better conversion"
+msgstr "更好的轉換率"
+
+msgid "Billing Address"
+msgstr "帳單地址"
+
+msgid "Billing City"
+msgstr "帳單城市"
+
+msgid "Billing Country"
+msgstr "帳單國家"
+
+msgid "Billing Full Name"
+msgstr "帳單全名"
+
+msgid "Billing Phone"
+msgstr "帳單電話"
+
+msgid "Billing Postcode"
+msgstr "帳單郵遞區號"
+
+msgid "Billing State"
+msgstr "帳單州／省"
+
+msgid "Block Settings"
+msgstr "區塊設定"
+
+msgid "Block: Heading"
+msgstr "區塊：標題"
+
+msgid "Block: Paragraph"
+msgstr "區塊：段落"
+
+msgid "Bounce notification received from PostalServer."
+msgstr "收到來自 PostalServer 的退信通知。"
+
+msgid "Broadcast/Schedule This SMS Campaign Now"
+msgstr "立即廣播／排程此 SMS 行銷活動"
+
+msgid ""
+"Business Name, Business Address, and Unsubscribe URL are mandatory to comply "
+"with the CAN-SPAM Act Guidelines. Without these, your emails may end up in "
+"the spam folder. It is also ideal to have the Manage Email Subscriptions URL "
+"in the email footer. These are added here by default."
+msgstr "業務名稱、業務地址和取消訂閱 URL 是遵守 CAN-SPAM 法規的必填項目。缺少這些資訊，您的電子郵件可能會進入垃圾郵件資料夾。在電子郵件頁尾加入管理電子郵件訂閱 URL 也是最佳做法。這些資訊預設已在此加入。"
+
+msgid "Buy Now"
+msgstr "立即購買"
+
+msgid "By Status"
+msgstr "依狀態"
+
+msgid "Campaign history and email templates"
+msgstr "行銷活動記錄與電子郵件範本"
+
+msgid "Campaign search keyword"
+msgstr "行銷活動搜尋關鍵字"
+
+msgid "Cannot advance a subscriber with status: %s"
+msgstr "無法推進狀態為 %s 的訂閱者"
+
+msgid "Cart Abandoned - FluentCart"
+msgstr "購物車放棄 - FluentCart"
+
+msgid "Cart Billing Email"
+msgstr "購物車帳單電子郵件"
+
+msgid "Cart Data"
+msgstr "購物車資料"
+
+msgid "Cart Items"
+msgstr "購物車商品"
+
+msgid "Cart Items Categories"
+msgstr "購物車商品分類"
+
+msgid "Cart Items Count"
+msgstr "購物車商品數量"
+
+msgid "Cart Recovered (All Time)"
+msgstr "已找回購物車（總計）"
+
+msgid "Cart Recovered (This Month)"
+msgstr "已找回購物車（本月）"
+
+msgid "Cart Recovery"
+msgstr "購物車找回"
+
+msgid "Cart Recovery URL"
+msgstr "購物車找回連結"
+
+msgid "Cart Shipping Total"
+msgstr "購物車運費總計"
+
+msgid "Cart Subtotal (only products)"
+msgstr "購物車小計（僅商品）"
+
+msgid "Cart Tax Total"
+msgstr "購物車稅費總計"
+
+msgid "Checking..."
+msgstr "檢查中..."
+
+msgid "Checkout Draft"
+msgstr "結帳草稿"
+
+msgid "Choose an action:"
+msgstr "選擇動作："
+
+msgid "Choose your SMS provider"
+msgstr "選擇您的 SMS 供應商"
+
+msgid "Click here to view media content"
+msgstr "點擊此處查看媒體內容"
+
+msgid "Clicks Count"
+msgstr "點擊次數"
+
+msgid "Company name already exists. Please use a different company name"
+msgstr "公司名稱已存在，請使用不同的公司名稱"
+
+msgid "Compare Value"
+msgstr "比較值"
+
+msgid "Complaint received from ToSend Webhook API."
+msgstr "收到來自 ToSend Webhook API 的投訴。"
+
+msgid "Complete business address with city, state, and country."
+msgstr "包含城市、州／省和國家的完整業務地址。"
+
+msgid "Completing Installation..."
+msgstr "正在完成安裝..."
+
+msgid "Condition"
+msgstr "條件"
+
+msgid ""
+"Configure the default sender information for your emails. This will be used "
+"when no specific sender is set."
+msgstr "設定電子郵件的預設寄件者資訊。當未設定特定寄件者時將使用此設定。"
+
+msgid ""
+"Configure your redirect URLs based on tags (Will redirect to the provided "
+"URL if any selected tag matches the contact)"
+msgstr "根據標籤設定重新導向 URL（如果任何選定標籤符合聯絡人，將重新導向至指定 URL）"
+
+msgid "Confirm delete"
+msgstr "確認刪除"
+
+msgid "Congratulations! Your License Key is Valid & Activated"
+msgstr "恭喜！您的授權金鑰有效且已啟用"
+
+msgid ""
+"Connect your WordPress emails securely with FluentSMTP, the ultimate SMTP & "
+"email service integration plugin."
+msgstr "使用 FluentSMTP（終極 SMTP 和電子郵件服務整合外掛）安全地連接您的 WordPress 電子郵件。"
+
+msgid "Contact Creation Webhook"
+msgstr "聯絡人建立 Webhook"
+
+msgid "Contact Data"
+msgstr "聯絡人資料"
+
+msgid ""
+"Contact creation has been skipped because the contact already exists in the "
+"database"
+msgstr "聯絡人建立已略過，因為該聯絡人已存在於資料庫中"
+
+msgid "Contact has been successfully updated."
+msgstr "聯絡人已成功更新。"
+
+msgid "Contacts have been attached to this campaign"
+msgstr "聯絡人已加入此行銷活動"
+
+msgid "Continue To Next Step [Review]"
+msgstr "繼續下一步驟【審查】"
+
+msgid ""
+"Control whether subscribers can view and manage their list subscriptions "
+"from the preference page."
+msgstr "控制訂閱者是否可以在偏好設定頁面查看並管理其清單訂閱。"
+
+msgid "Copied to clipboard"
+msgstr "已複製到剪貼簿"
+
+msgid ""
+"Copy this URL and paste it in your email service provider's webhook settings."
+msgstr "複製此 URL 並貼入您的電子郵件服務供應商的 Webhook 設定中。"
+
+msgid "Copy to clipboard"
+msgstr "複製到剪貼簿"
+
+msgid ""
+"Could not load template data. The template URL may be unavailable or not "
+"allowed."
+msgstr "無法載入範本資料。範本 URL 可能無法使用或不被允許。"
+
+msgid "Create Your First SMS Campaign"
+msgstr "建立您的第一個 SMS 行銷活動"
+
+msgid "Current Status:"
+msgstr "目前狀態："
+
+msgid "Current usage:"
+msgstr "目前使用量："
+
+msgid "Custom Company Fields"
+msgstr "自訂公司欄位"
+
+msgid "Database Cleanup Suggestion"
+msgstr "資料庫清理建議"
+
+msgid "Date: Monday, 10:00 AM"
+msgstr "日期：星期一，上午 10:00"
+
+msgid "Deferred delivery from Brevo Webhook API. Reason: "
+msgstr "來自 Brevo Webhook API 的延遲投遞。原因："
+
+msgid "Delete Contact when corresponding WordPress user is deleted"
+msgstr "當對應的 WordPress 使用者被刪除時，刪除聯絡人"
+
+msgid ""
+"Deleting will erase all your FluentCRM data forever — no way to get it back. "
+"Save a backup first."
+msgstr "刪除將永久清除您所有的 FluentCRM 資料——無法復原。請先儲存備份。"
+
+msgid "Developer Mode Required:"
+msgstr "需要開發者模式："
+
+msgid ""
+"Development mode is not activated. So you cannot use this feature. You can "
+"define \"FLUENTCRM_IS_DEV_FEATURES\" in your wp-config to enable this feature"
+msgstr "開發模式未啟用，因此您無法使用此功能。您可以在 wp-config 中定義 \"FLUENTCRM_IS_DEV_FEATURES\" 以啟用此功能"
+
+msgid "Do more with %s + FluentCRM"
+msgstr "使用 %s + FluentCRM 發揮更大效益"
+
+msgid "Do more with EDD + FluentCRM"
+msgstr "使用 EDD + FluentCRM 發揮更大效益"
+
+msgid "Do more with LearnDash + FluentCRM"
+msgstr "使用 LearnDash + FluentCRM 發揮更大效益"
+
+msgid "Do more with LearnPress + FluentCRM"
+msgstr "使用 LearnPress + FluentCRM 發揮更大效益"
+
+msgid "Do more with LifterLMS + FluentCRM"
+msgstr "使用 LifterLMS + FluentCRM 發揮更大效益"
+
+msgid "Do more with MemberPress + FluentCRM"
+msgstr "使用 MemberPress + FluentCRM 發揮更大效益"
+
+msgid "Do more with PaidMembership Pro + FluentCRM"
+msgstr "使用 PaidMembership Pro + FluentCRM 發揮更大效益"
+
+msgid "Do more with Restrict Content Pro + FluentCRM"
+msgstr "使用 Restrict Content Pro + FluentCRM 發揮更大效益"
+
+msgid "Do more with TutorLMS + FluentCRM"
+msgstr "使用 TutorLMS + FluentCRM 發揮更大效益"
+
+msgid "Do more with Wishlist Member + FluentCRM"
+msgstr "使用 Wishlist Member + FluentCRM 發揮更大效益"
+
+msgid "Do more with WooCommerce + FluentCRM"
+msgstr "使用 WooCommerce + FluentCRM 發揮更大效益"
+
+msgid "Do not import sms campaigns from untrusted sources."
+msgstr "請勿從不受信任的來源匯入 SMS 行銷活動。"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Double OptIn Settings"
+msgstr "雙重確認訂閱設定"
+
+msgid "Down"
+msgstr "向下"
+
+msgid "Draft Revenue"
+msgstr "草稿收益"
+
+msgid "Dynamic Text will be available on real email"
+msgstr "動態文字將在實際電子郵件中顯示"
+
+msgid "Email Footer"
+msgstr "電子郵件頁尾"
+
+msgid "Email Open (estimated)"
+msgstr "電子郵件開啟（估計）"
+
+msgid "Email Service"
+msgstr "電子郵件服務"
+
+msgid ""
+"Emails have been scheduled from %s to %s. Scheduled emails will be sent "
+"automatically."
+msgstr "電子郵件已排程從 %s 到 %s 發送。排程的電子郵件將自動發送。"
+
+msgid "Empty request body"
+msgstr "請求內容為空"
+
+msgid "Enable Abandoned Cart Settings"
+msgstr "啟用購物車放棄設定"
+
+msgid "Enable Click Tracking"
+msgstr "啟用點擊追蹤"
+
+msgid "Enable Email Tracking"
+msgstr "啟用電子郵件追蹤"
+
+msgid "Enable SMS Module"
+msgstr "啟用 SMS 模組"
+
+msgid ""
+"Enable SMS module to send SMS via FluentCRM. You can use SMS in Automations "
+"and Campaigns."
+msgstr "啟用 SMS 模組以透過 FluentCRM 發送 SMS。您可以在自動化和行銷活動中使用 SMS。"
+
+msgid "Enable Tag based double optin redirect (Require FluentCRM Pro)"
+msgstr "啟用基於標籤的雙重確認訂閱重新導向（需要 FluentCRM Pro）"
+
+msgid ""
+"Enable one-click unsubscribe (If enabled then no feedback will be asked)"
+msgstr "啟用一鍵取消訂閱（啟用後將不會詢問意見回饋）"
+
+msgid "Enable or Disable AI Integration on Visual Builder"
+msgstr "啟用或停用視覺化編輯器的 AI 整合"
+
+msgid ""
+"Enable or Disable Multi-Thread Email Sending. If you enable this, FluentCRM "
+"try to send emails in parallel."
+msgstr "啟用或停用多執行緒電子郵件發送。啟用後，FluentCRM 將嘗試平行發送電子郵件。"
+
+msgid ""
+"Enable or disable tracking of email link clicks for compliance with privacy "
+"regulations."
+msgstr "啟用或停用電子郵件連結點擊追蹤，以符合隱私法規。"
+
+msgid ""
+"Enable or disable tracking of email opens for compliance with privacy "
+"regulations."
+msgstr "啟用或停用電子郵件開啟追蹤，以符合隱私法規。"
+
+msgid ""
+"Enable this to prevent the automation from running multiple times for the "
+"same contact if it is currently active in this automation"
+msgstr "啟用此選項可防止自動化對同一聯絡人重複執行（如果該聯絡人目前仍在此自動化流程中）"
+
+msgid "Enable to log FluentCRM system events. Useful for debugging purpose."
+msgstr "啟用以記錄 FluentCRM 系統事件，有助於除錯。"
+
+msgid "Enable tracking to monitor email performance and subscriber engagement."
+msgstr "啟用追蹤以監控電子郵件效能和訂閱者參與度。"
+
+msgid "Entity not found"
+msgstr "找不到實體"
+
+msgid "Entrance (%s)"
+msgstr "進入（%s）"
+
+msgid "Error!"
+msgstr "錯誤！"
+
+msgid "Event Count"
+msgstr "事件次數"
+
+msgid "Event Reminder"
+msgstr "活動提醒"
+
+msgid "Expires On"
+msgstr "到期日"
+
+msgid "Failed to copy"
+msgstr "複製失敗"
+
+msgid "Failed to copy webhook URL"
+msgstr "複製 Webhook URL 失敗"
+
+msgid "Failed to load business settings"
+msgstr "載入業務設定失敗"
+
+msgid "Failed to save settings."
+msgstr "儲存設定失敗。"
+
+msgid "Failed to update webhook"
+msgstr "更新 Webhook 失敗"
+
+msgid "Fast setup"
+msgstr "快速設定"
+
+msgid "Feature List"
+msgstr "功能列表"
+
+msgid ""
+"Filter by user role, please make sure your users are synced with your "
+"FluentCRM contacts"
+msgstr "依使用者角色篩選，請確保您的使用者已與 FluentCRM 聯絡人同步"
+
+msgid "Fluent Boards"
+msgstr "Fluent Boards"
+
+msgid "Fluent Boards has been installed and activated"
+msgstr "Fluent Boards 已安裝並啟用"
+
+msgid "Fluent Booking"
+msgstr "Fluent Booking"
+
+msgid "Fluent Booking has been installed and activated"
+msgstr "Fluent Booking 已安裝並啟用"
+
+msgid ""
+"Fluent CRM automatically detects and uses Fluent SMTP. All Fluent CRM emails "
+"will automatically route through Fluent SMTP. This includes: Campaign emails,"
+" Automation emails, Double opt-in emails, Transactional emails"
+msgstr "Fluent CRM 自動偵測並使用 Fluent SMTP。所有 Fluent CRM 電子郵件將自動透過 Fluent SMTP 路由，包括：行銷活動電子郵件、自動化電子郵件、雙重確認訂閱電子郵件、交易電子郵件"
+
+msgid "Fluent Community"
+msgstr "Fluent Community"
+
+msgid "Fluent Community has been installed and activated"
+msgstr "Fluent Community 已安裝並啟用"
+
+msgid "Fluent Forms is not installed"
+msgstr "Fluent Forms 未安裝"
+
+msgid "FluentCRM Email"
+msgstr "FluentCRM 電子郵件"
+
+msgid ""
+"FluentCRM Pro plugin is required to use the conditional logic for this "
+"trigger. Please install and activate FluentCRM Pro to use this feature."
+msgstr "使用此觸發條件的條件邏輯需要 FluentCRM Pro 外掛。請安裝並啟用 FluentCRM Pro 以使用此功能。"
+
+msgid ""
+"FluentCRM is not configured yet! Please configure your FluentCRM API first"
+msgstr "FluentCRM 尚未設定！請先設定您的 FluentCRM API"
+
+msgid ""
+"FluentCRM will generate a random coupon code for each contact. Use a prefix "
+"to make something like 'YOUR_PREFIX-XYZHS4'."
+msgstr "FluentCRM 將為每位聯絡人產生隨機優惠券代碼。使用前綴可建立類似 'YOUR_PREFIX-XYZHS4' 的格式。"
+
+msgid "FluentCart Data Sync"
+msgstr "FluentCart 資料同步"
+
+msgid "FluentCart has been installed and activated"
+msgstr "FluentCart 已安裝並啟用"
+
+msgid ""
+"FluentCommunity integrates with FluentCRM, allowing you to run Email "
+"Campaigns, Automations, and Add/Remove CRM contacts to Fluent Community "
+"members."
+msgstr "FluentCommunity 與 FluentCRM 整合，允許您執行電子郵件行銷活動、自動化，以及新增／移除 FluentCommunity 會員的 CRM 聯絡人。"
+
+msgid "FluentSMTP - The ultimate SMTP & Email Service Plugin for WordPress"
+msgstr "FluentSMTP - WordPress 終極 SMTP 和電子郵件服務外掛"
+
+msgid "FluentSMTP Logs"
+msgstr "FluentSMTP 日誌"
+
+msgid "For Event Key"
+msgstr "事件金鑰"
+
+msgid ""
+"For FluentCRM users, we built a fast SMTP/Amazon SES plugin to manage all "
+"WordPress."
+msgstr "為 FluentCRM 使用者，我們建立了一個快速的 SMTP/Amazon SES 外掛來管理所有 WordPress 電子郵件。"
+
+msgid "Form Entries"
+msgstr "表單提交記錄"
+
+msgid "Form not found"
+msgstr "找不到表單"
+
+msgid "Free"
+msgstr "免費"
+
+msgid "Fri"
+msgstr "五"
+
+msgid "Get Started"
+msgstr "開始使用"
+
+msgid ""
+"Global Double Opt-in Settings: When selected, this list will adhere to the "
+"global double opt-in configuration. List-Specific Double Opt-in Settings: "
+"When selected, subscribers added to this list will follow the list-specific "
+"double opt-in configuration. If no list-specific settings are configured, "
+"the global double opt-in settings will apply."
+msgstr "全域雙重確認訂閱設定：選取後，此清單將遵循全域雙重確認訂閱設定。清單特定雙重確認訂閱設定：選取後，加入此清單的訂閱者將遵循清單特定的雙重確認訂閱設定。如果沒有清單特定設定，將套用全域雙重確認訂閱設定。"
+
+msgid "Global Settings"
+msgstr "全域設定"
+
+msgid "Global style settings have been updated"
+msgstr "全域樣式設定已更新"
+
+msgid "Hard bounce from ToSend Webhook API. Reason: "
+msgstr "來自 ToSend Webhook API 的硬退信。原因："
+
+msgid ""
+"If enabled, it will restart the automation for a contact if the contact is "
+"already in the automation. Otherwise, it will skip if it already exists"
+msgstr "啟用後，如果聯絡人已在自動化流程中，將重新啟動自動化。否則，如果已存在則略過"
+
+msgid "If you already have a good sending speed. Do not enable this feature."
+msgstr "如果您已有良好的發送速度，請勿啟用此功能。"
+
+msgid ""
+"If you check any of the events, then this feed will only run for the "
+"selected events"
+msgstr "如果您勾選任何事件，則此資料來源僅會針對選定的事件執行"
+
+msgid ""
+"If you enable this, the contact will be forcefully subscribed regardless of "
+"the contact's current status"
+msgstr "如果您啟用此選項，無論聯絡人的目前狀態如何，都將強制訂閱"
+
+msgid ""
+"If you enable, then it will only run this automation for subscribed contacts"
+msgstr "如果您啟用，則此自動化僅會對已訂閱的聯絡人執行"
+
+msgid ""
+"If you have multiple automations for abandoned cart, you can set the "
+"priority. The higher the priority means it will match earlier. Only one "
+"abandoned cart automation will run per abandonment depending on your "
+"conditional logic."
+msgstr "如果您有多個購物車放棄自動化，可以設定優先順序。優先順序越高意味著它將越早比對。根據您的條件邏輯，每次放棄只會執行一個購物車放棄自動化。"
+
+msgid ""
+"If you think everything is alright. You can broadcast/Schedule the sms now."
+msgstr "如果您認為一切正常，可以立即廣播／排程 SMS。"
+
+msgid ""
+"If you use Amazon SES for sending your WordPress emails. This section is for "
+"you"
+msgstr "如果您使用 Amazon SES 發送 WordPress 電子郵件，此區段適合您"
+
+msgid "Import Summary"
+msgstr "匯入摘要"
+
+msgid "Import has been completed. You may close this modal now."
+msgstr "匯入已完成。您現在可以關閉此視窗。"
+
+msgid ""
+"Import your exported sms campaigns JSON file here. Please upload your JSON "
+"file."
+msgstr "在此匯入您匯出的 SMS 行銷活動 JSON 檔案。請上傳您的 JSON 檔案。"
+
+msgid "In how many minutes will the cart be recoverable"
+msgstr "購物車可被找回的分鐘數"
+
+msgid ""
+"Include FluentCRM contact information in WordPress personal data exports for "
+"GDPR compliance."
+msgstr "在 WordPress 個人資料匯出中包含 FluentCRM 聯絡人資訊，以符合 GDPR 規範。"
+
+msgid "Inside group conditions are <b>match all</b>"
+msgstr "群組內的條件為<b>全部符合</b>"
+
+msgid "Installing Fluent Forms..."
+msgstr "正在安裝 Fluent Forms..."
+
+msgid "Installing..."
+msgstr "安裝中..."
+
+msgid ""
+"Integrate %s with FluentCRM and segment your members by different group, "
+"send super targeted emails, onboarding emails, cross promote more groups and "
+"many more."
+msgstr "將 %s 與 FluentCRM 整合，依不同群組對會員進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多群組等。"
+
+msgid ""
+"Integrate FluentCRM with Easy Digital Downloads and segment your customers "
+"by purchase behavior, send super targeted emails, onboarding emails, cross "
+"promotions and many more."
+msgstr "將 FluentCRM 與 Easy Digital Downloads 整合，依購買行為對客戶進行分群，發送超精準電子郵件、入門電子郵件、交叉促銷等。"
+
+msgid ""
+"Integrate FluentCRM with WooCommerce and segment your customers by purchase "
+"behavior, send super targeted emails, onboarding emails, cross promotions "
+"and many more."
+msgstr "將 FluentCRM 與 WooCommerce 整合，依購買行為對客戶進行分群，發送超精準電子郵件、入門電子郵件、交叉促銷等。"
+
+msgid ""
+"Integrate LearnDash with FluentCRM and segment your students by courses, "
+"send super targeted emails, onboarding emails, cross promote more courses "
+"and many more."
+msgstr "將 LearnDash 與 FluentCRM 整合，依課程對學生進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多課程等。"
+
+msgid ""
+"Integrate LearnPress with FluentCRM and segment your students by courses, "
+"send super targeted emails, onboarding emails, cross promote more courses "
+"and many more."
+msgstr "將 LearnPress 與 FluentCRM 整合，依課程對學生進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多課程等。"
+
+msgid ""
+"Integrate LifterLMS with FluentCRM and segment your students by courses, "
+"send super targeted emails, onboarding emails, cross promote more courses "
+"and many more."
+msgstr "將 LifterLMS 與 FluentCRM 整合，依課程對學生進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多課程等。"
+
+msgid ""
+"Integrate MemberPress with FluentCRM and segment your members by membership "
+"levels, send super targeted emails, onboarding emails, cross promote more "
+"levels and many more."
+msgstr "將 MemberPress 與 FluentCRM 整合，依會員等級對會員進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多等級等。"
+
+msgid ""
+"Integrate PaidMembership Pro with FluentCRM and segment your members by "
+"membership levels, send super targeted emails, onboarding emails, cross "
+"promote more levels and many more."
+msgstr "將 PaidMembership Pro 與 FluentCRM 整合，依會員等級對會員進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多等級等。"
+
+msgid ""
+"Integrate Restrict Content Pro with FluentCRM and segment your members by "
+"membership levels, send super targeted emails, onboarding emails, cross "
+"promote more levels and many more."
+msgstr "將 Restrict Content Pro 與 FluentCRM 整合，依會員等級對會員進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多等級等。"
+
+msgid ""
+"Integrate TutorLMS with FluentCRM and segment your students by courses, send "
+"super targeted emails, onboarding emails, cross promote more courses and "
+"many more."
+msgstr "將 TutorLMS 與 FluentCRM 整合，依課程對學生進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多課程等。"
+
+msgid ""
+"Integrate Wishlist Member with FluentCRM and segment your members by "
+"membership levels, send super targeted emails, onboarding emails, cross "
+"promote more levels and many more."
+msgstr "將 Wishlist Member 與 FluentCRM 整合，依會員等級對會員進行分群，發送超精準電子郵件、入門電子郵件、交叉推廣更多等級等。"
+
+msgid ""
+"Internal use only. Hidden from customers. Use commas for multiple emails."
+msgstr "僅供內部使用。對客戶隱藏。多個電子郵件地址請用逗號分隔。"
+
+msgid "Intro + CTA"
+msgstr "介紹 + 行動呼籲"
+
+msgid "Invalid JSON payload"
+msgstr "無效的 JSON 資料"
+
+msgid "Invalid SMS provider selected"
+msgstr "選擇了無效的 SMS 供應商"
+
+msgid "Invalid or missing security token."
+msgstr "安全性令牌無效或遺失。"
+
+msgid "Invalid status value"
+msgstr "無效的狀態值"
+
+msgid "Invalid subscription status"
+msgstr "無效的訂閱狀態"
+
+msgid "Is a customer? (Pro Required)"
+msgstr "是客戶？（需要 Pro 版本）"
+
+msgid "Item"
+msgstr "項目"
+
+msgid "Label has been created successfully"
+msgstr "標籤已成功建立"
+
+msgid "Labels have been updated successfully"
+msgstr "標籤已成功更新"
+
+msgid "License Key"
+msgstr "授權金鑰"
+
+msgid "List could not be found"
+msgstr "找不到清單"
+
+msgid "Location: Online"
+msgstr "地點：線上"
+
+msgid "Logo has been updated successfully"
+msgstr "標誌已成功更新"
+
+msgid ""
+"Looks like we could not determine your info. Please fill out the form and "
+"get an unsubscribe link via email."
+msgstr "看來我們無法確認您的資訊。請填寫表單並透過電子郵件取得取消訂閱連結。"
+
+msgid ""
+"Looks like we could not determine your info. Please fill out the form and "
+"get your email subscription management link via email."
+msgstr "看來我們無法確認您的資訊。請填寫表單並透過電子郵件取得您的電子郵件訂閱管理連結。"
+
+msgid "Looks like you did not broadcast any sms campaign yet"
+msgstr "看來您尚未廣播任何 SMS 行銷活動"
+
+msgid "Looks like your license has expired"
+msgstr "看來您的授權已到期"
+
+msgid "Looks like your license has expired!"
+msgstr "看來您的授權已到期！"
+
+msgid "Lost Revenue"
+msgstr "流失收益"
+
+msgid "Manually skipped by admin"
+msgstr "由管理員手動略過"
+
+msgid "Map Columns"
+msgstr "對應欄位"
+
+msgid "Mark Cart as Recovered when FluentCart Order Status Changes to:"
+msgstr "當 FluentCart 訂單狀態變更為以下狀態時，將購物車標記為已找回："
+
+msgid "Mark cart as Lost if no order within set days"
+msgstr "如果在設定天數內未下訂單，將購物車標記為流失"
+
+msgid "Match Value"
+msgstr "符合值"
+
+msgid "Match by tracking event title"
+msgstr "依追蹤事件標題比對"
+
+msgid "Match one or more tracking events for your contacts."
+msgstr "為您的聯絡人比對一個或多個追蹤事件。"
+
+msgid "Match the product categories on the cart"
+msgstr "比對購物車上的商品分類"
+
+msgid "Match the products on the cart"
+msgstr "比對購物車上的商品"
+
+msgid "Max Execution Time"
+msgstr "最長執行時間"
+
+msgid "Max Execution Time of PHP value should be within 50-60 seconds."
+msgstr "PHP 最長執行時間值應在 50-60 秒之間。"
+
+msgid "Maximum Emails Per Second:"
+msgstr "每秒最多電子郵件數："
+
+msgid "Message"
+msgstr "訊息"
+
+msgid ""
+"Messages are being scheduled and sending in the background at the same time"
+msgstr "訊息正在背景排程並同時發送"
+
+msgid ""
+"Messages have been scheduled from %s to %s. Scheduled messages will be sent "
+"automatically."
+msgstr "訊息已排程從 %s 到 %s 發送。排程訊息將自動發送。"
+
+msgid "Mon"
+msgstr "一"
+
+msgid "Multiple CPU on the server."
+msgstr "伺服器上的多個 CPU。"
+
+msgid "Name is required"
+msgstr "姓名為必填"
+
+msgid "Name of the segment"
+msgstr "分群名稱"
+
+msgid "Need help? Reply to this email and our team will assist you."
+msgstr "需要協助？回覆此電子郵件，我們的團隊將為您提供協助。"
+
+msgid "New Order Paid in FluentCart"
+msgstr "FluentCart 新訂單已付款"
+
+msgid "Next (Connect)"
+msgstr "下一步（連接）"
+
+msgid "Next Run:"
+msgstr "下次執行："
+
+msgid "Next Schedule:"
+msgstr "下次排程："
+
+msgid "No Active Automation Found!"
+msgstr "找不到啟用中的自動化！"
+
+msgid "No Campaign Found!"
+msgstr "找不到行銷活動！"
+
+msgid "No Contact Found!"
+msgstr "找不到聯絡人！"
+
+msgid "No active Abandoned Cart automation for: %s."
+msgstr "沒有適用於 %s 的啟用中購物車放棄自動化。"
+
+msgid "No block_type provided; nothing created."
+msgstr "未提供 block_type；未建立任何內容。"
+
+msgid "No carts selected to delete"
+msgstr "未選擇要刪除的購物車"
+
+msgid "No corresponding subscriber found in this funnel"
+msgstr "在此漏斗中找不到對應的訂閱者"
+
+msgid "No entries found"
+msgstr "找不到記錄"
+
+msgid "No integrations found matching your search or filter."
+msgstr "找不到符合您搜尋或篩選條件的整合。"
+
+msgid "No recipients"
+msgstr "沒有收件者"
+
+msgid "No submission found"
+msgstr "找不到提交記錄"
+
+msgid ""
+"Note: Anonymous tracking will not collect identifiable information about "
+"contacts, data will be aggregated & may be less accurate."
+msgstr "注意：匿名追蹤不會收集聯絡人的可識別資訊，資料將被彙總且可能較不精確。"
+
+msgid ""
+"Note: Anonymous tracking will not collect identifiable information about "
+"contacts, data will be aggregated & may be less accurate. Also your smart "
+"links & revenue tracking by emails report will not work."
+msgstr "注意：匿名追蹤不會收集聯絡人的可識別資訊，資料將被彙總且可能較不精確。此外，您的智慧連結和按電子郵件追蹤的收益報告將無法運作。"
+
+msgid ""
+"Note: Disabling click tracking will not show click rates in email reports. "
+"Also your smart links & revenue tracking by emails report will not work."
+msgstr "注意：停用點擊追蹤將不會在電子郵件報告中顯示點擊率。此外，您的智慧連結和按電子郵件追蹤的收益報告將無法運作。"
+
+msgid ""
+"Note: Disabling open tracking will not show open rates in email reports."
+msgstr "注意：停用開啟追蹤將不會在電子郵件報告中顯示開啟率。"
+
+msgid ""
+"Note: The associated contacts in this campaign will receive SMS messages "
+"shortly."
+msgstr "注意：此行銷活動的相關聯絡人將很快收到 SMS 訊息。"
+
+msgid "Notifications about transactions, balance and exclusive offers."
+msgstr "關於交易、餘額和專屬優惠的通知。"
+
+msgid "On Draft"
+msgstr "草稿中"
+
+msgid "On Hold"
+msgstr "暫停中"
+
+msgid "Only run this automation for subscribed contacts"
+msgstr "僅對已訂閱的聯絡人執行此自動化"
+
+msgid "Open smartcodes"
+msgstr "開啟智慧代碼"
+
+msgid "Operational"
+msgstr "運作中"
+
+msgid "Optout Revenue"
+msgstr "取消訂閱收益"
+
+msgid "Overdue: "
+msgstr "逾期："
+
+msgid "Permanently Erase FluentCRM Data"
+msgstr "永久清除 FluentCRM 資料"
+
+msgid "Permission Denied"
+msgstr "權限被拒"
+
+msgid "Please configure FluentSMTP to send emails from your WordPress site."
+msgstr "請設定 FluentSMTP 以從您的 WordPress 網站發送電子郵件。"
+
+msgid "Please do not close this window while processing this bulk action"
+msgstr "處理此批量操作時，請勿關閉此視窗"
+
+msgid "Please input"
+msgstr "請輸入"
+
+msgid ""
+"Please install and activate WooCommerce to access Abandoned Cart Settings."
+msgstr "請安裝並啟用 WooCommerce 以存取購物車放棄設定。"
+
+msgid ""
+"Please make sure your server meets the following requirements for optimal "
+"performance."
+msgstr "請確保您的伺服器符合以下需求以獲得最佳效能。"
+
+msgid "Please map the fields"
+msgstr "請對應欄位"
+
+msgid ""
+"Please note that, some email clients send false-positive for email open "
+"pixel tracking so it may not 100% correct."
+msgstr "請注意，某些電子郵件用戶端對電子郵件開啟像素追蹤會有誤報，因此可能不是 100% 正確。"
+
+msgid ""
+"Please paste this URL into your SMTP2Go's Webhook settings to enable Bounce "
+"Handling with FluentCRM"
+msgstr "請將此 URL 貼入您的 SMTP2Go Webhook 設定中，以啟用 FluentCRM 的退信處理功能"
+
+msgid ""
+"Please paste this URL into your ToSend's Webhook settings to enable Bounce "
+"Handling with FluentCRM. Select both Bounce and Complaint events."
+msgstr "請將此 URL 貼入您的 ToSend Webhook 設定中，以啟用 FluentCRM 的退信處理功能。請同時選擇退信和投訴事件。"
+
+msgid ""
+"Please provide details after a contact confirms double opt-in from email"
+msgstr "請提供聯絡人從電子郵件確認雙重確認訂閱後的詳細資訊"
+
+msgid "Please select a form to view entries"
+msgstr "請選擇表單以查看記錄"
+
+msgid "Please select new category"
+msgstr "請選擇新分類"
+
+msgid "Please select new type"
+msgstr "請選擇新類型"
+
+msgid "Please select what will happen once a contact confirms double opt-in"
+msgstr "請選擇聯絡人確認雙重確認訂閱後將發生的動作"
+
+msgid "Price"
+msgstr "價格"
+
+msgid "Primary Action"
+msgstr "主要動作"
+
+msgid "Priority of this abandon cart automation trigger"
+msgstr "此購物車放棄自動化觸發條件的優先順序"
+
+msgid "Privacy Reminder"
+msgstr "隱私提醒"
+
+msgid "Problem with loading the editor?"
+msgstr "載入編輯器時發生問題？"
+
+msgid "Processing %s of %s contacts"
+msgstr "正在處理第 %s／%s 位聯絡人"
+
+msgid "Processing Revenue"
+msgstr "處理中收益"
+
+msgid "Provide the basic information of your sms campaign."
+msgstr "提供您 SMS 行銷活動的基本資訊。"
+
+msgid "Provided slug already exists in another list"
+msgstr "提供的代稱已存在於另一個清單中"
+
+msgid "Provided slug already exists in another tag"
+msgstr "提供的代稱已存在於另一個標籤中"
+
+msgid "Purchases"
+msgstr "購買記錄"
+
+msgid "Qty"
+msgstr "數量"
+
+msgid "REST API key has been created for the selected user"
+msgstr "已為所選使用者建立 REST API 金鑰"
+
+msgid ""
+"Rate limit of your SMTP/Email Sending Service is within the max email "
+"sending rate set in email settings."
+msgstr "SMTP/電子郵件發送服務的速率限制在電子郵件設定中設定的最大發送速率範圍內。"
+
+msgid "Read More"
+msgstr "閱讀更多"
+
+msgid "Receive data via webhooks and automate contact creation."
+msgstr "透過 Webhook 接收資料並自動建立聯絡人。"
+
+msgid "Recent Campaigns"
+msgstr "最近的行銷活動"
+
+msgid "Recent Contacts"
+msgstr "最近的聯絡人"
+
+msgid "Recipient settings have been updated"
+msgstr "收件者設定已更新"
+
+msgid ""
+"Records of all emails sent, including subject lines and delivery status."
+msgstr "所有已發送電子郵件的記錄，包括主旨列和投遞狀態。"
+
+msgid ""
+"Recover missed sales, eliminate 60% of lost opportunities, and watch your "
+"revenue soar with FluentCRM abandoned cart automation."
+msgstr "找回流失的銷售，消除 60% 的失去機會，使用 FluentCRM 購物車放棄自動化讓您的收益飆升。"
+
+msgid "Recovered Revenue"
+msgstr "已找回收益"
+
+msgid "Recovery Rate"
+msgstr "找回率"
+
+msgid "Redirect URL (After Double Optin Confirmation)"
+msgstr "重新導向 URL（雙重確認訂閱確認後）"
+
+msgid "Reminder: Upcoming Event"
+msgstr "提醒：即將到來的活動"
+
+msgid ""
+"Remove the last octet of IP addresses before storing them in activity logs "
+"for privacy compliance."
+msgstr "在儲存到活動日誌之前移除 IP 位址的最後一個段，以符合隱私規範。"
+
+msgid "Response"
+msgstr "回應"
+
+msgid "Reusable email sections for FluentCRM editor."
+msgstr "FluentCRM 編輯器的可重複使用電子郵件區段。"
+
+msgid "Run the automation actions even if the contact status is not subscribed"
+msgstr "即使聯絡人狀態非訂閱中，也執行自動化動作"
+
+msgid "SMS"
+msgstr "SMS"
+
+msgid "SMS Bounced"
+msgstr "SMS 退回"
+
+msgid "SMS Pending"
+msgstr "SMS 待發送"
+
+msgid "SMS Provider"
+msgstr "SMS 供應商"
+
+msgid "SMS Provider is required"
+msgstr "SMS 供應商為必填"
+
+msgid "SMS Settings"
+msgstr "SMS 設定"
+
+msgid "SMS Subscribed"
+msgstr "SMS 已訂閱"
+
+msgid "SMS Unsubscribed"
+msgstr "SMS 已取消訂閱"
+
+msgid "SMS Webhook"
+msgstr "SMS Webhook"
+
+msgid "SMS webhooks are available in Fluent Campaign Pro version only."
+msgstr "SMS Webhook 僅在 Fluent Campaign Pro 版本中可用。"
+
+msgid ""
+"SMS webhooks cannot be edited. Please delete and create a new one if changes "
+"are needed."
+msgstr "SMS Webhook 無法編輯。如果需要變更，請刪除並建立新的 Webhook。"
+
+msgid "SMS webhooks retrieved successfully"
+msgstr "已成功取得 SMS Webhook"
+
+msgid "SMTP2Go"
+msgstr "SMTP2Go"
+
+msgid "SMTP2Go Bounce Handler Webhook URL"
+msgstr "SMTP2Go 退信處理 Webhook URL"
+
+msgid "Sat"
+msgstr "六"
+
+msgid "Save Draft"
+msgstr "儲存草稿"
+
+msgid "Saving..."
+msgstr "儲存中..."
+
+msgid "Schedule the SMS messages"
+msgstr "排程 SMS 訊息"
+
+msgid "Search Contact"
+msgstr "搜尋聯絡人"
+
+msgid "Search entries..."
+msgstr "搜尋記錄..."
+
+msgid "Search here..."
+msgstr "在此搜尋..."
+
+msgid "Secondary Action"
+msgstr "次要動作"
+
+msgid "Security check failed. Invalid nonce."
+msgstr "安全性驗證失敗。無效的 Nonce。"
+
+msgid "Select Date & Time Range that you want to send the SMS messages"
+msgstr "選擇您要發送 SMS 訊息的日期和時間範圍"
+
+msgid "Select Event Key"
+msgstr "選擇事件金鑰"
+
+msgid "Select Filter"
+msgstr "選擇篩選條件"
+
+msgid "Select Labels"
+msgstr "選擇標籤"
+
+msgid "Select Provider"
+msgstr "選擇供應商"
+
+msgid "Select SMS Provider"
+msgstr "選擇 SMS 供應商"
+
+msgid "Select Search Options"
+msgstr "選擇搜尋選項"
+
+msgid "Select Time"
+msgstr "選擇時間"
+
+msgid "Select a provider for reliable, compliant message delivery"
+msgstr "選擇供應商以可靠且合規地投遞訊息"
+
+msgid "Select section"
+msgstr "選擇區段"
+
+msgid "Select tags (Optional)"
+msgstr "選擇標籤（選填）"
+
+msgid ""
+"Select which Fluent Form fields pair with their<br /> respective FluentCRM "
+"fields."
+msgstr "選擇 Fluent Form 欄位與對應的 FluentCRM 欄位配對。"
+
+msgid "Selected Campaigns have been deleted permanently"
+msgstr "所選行銷活動已永久刪除"
+
+msgid "Selected Companies have been attached successfully"
+msgstr "所選公司已成功加入"
+
+msgid "Selected Companies have been deleted permanently"
+msgstr "所選公司已永久刪除"
+
+msgid "Selected Contacts have been deleted permanently"
+msgstr "所選聯絡人已永久刪除"
+
+msgid "Selected Funnels have been deleted permanently"
+msgstr "所選漏斗已永久刪除"
+
+msgid "Selected Lists have been removed permanently"
+msgstr "所選清單已永久移除"
+
+msgid "Selected Subscribers have been deleted"
+msgstr "所選訂閱者已刪除"
+
+msgid "Selected Tags have been removed permanently"
+msgstr "所選標籤已永久移除"
+
+msgid "Selected Templates have been deleted permanently"
+msgstr "所選範本已永久刪除"
+
+msgid "Selected carts have been deleted successfully"
+msgstr "所選購物車已成功刪除"
+
+msgid "Selected emails have been deleted"
+msgstr "所選電子郵件已刪除"
+
+msgid "Selected subscribers have been removed from this automation funnel"
+msgstr "所選訂閱者已從此自動化漏斗中移除"
+
+msgid "Send SMS messages Now"
+msgstr "立即發送 SMS 訊息"
+
+msgid "Send a welcome email to new subscribers"
+msgstr "向新訂閱者發送歡迎電子郵件"
+
+msgid "Send the SMS messages right now"
+msgstr "立即發送 SMS 訊息"
+
+msgid "Server Memory Limit"
+msgstr "伺服器記憶體限制"
+
+msgid ""
+"Server Side Cron is not enabled. Please consider enabling server side cron."
+msgstr "未啟用伺服器端 Cron。請考慮啟用伺服器端 Cron。"
+
+msgid "Set Up FluentSMTP"
+msgstr "設定 FluentSMTP"
+
+msgid ""
+"Set the number of days to skip abandoned cart tracking after a customer "
+"places an order."
+msgstr "設定客戶下訂單後跳過購物車放棄追蹤的天數。"
+
+msgid ""
+"Set the rate limit for sending emails to prevent server overload and comply "
+"with SMTP restrictions."
+msgstr "設定電子郵件發送的速率限制，以防止伺服器過載並符合 SMTP 限制。"
+
+msgid "Settings has been saved successfully"
+msgstr "設定已成功儲存"
+
+msgid "Share your main message here in one short paragraph."
+msgstr "在此用一段簡短文字分享您的主要訊息。"
+
+msgid "Shipping Address"
+msgstr "送貨地址"
+
+msgid ""
+"Show GDPR consent message on the checkout page to inform customers about "
+"cart data tracking."
+msgstr "在結帳頁面顯示 GDPR 同意訊息，告知客戶購物車資料追蹤。"
+
+msgid ""
+"Show a default Gravatar image when no profile photo is available for the "
+"contact."
+msgstr "當聯絡人沒有可用的大頭照時，顯示預設的 Gravatar 圖片。"
+
+msgid "Simple Footer Note"
+msgstr "簡單頁尾備注"
+
+msgid "Simple workflow"
+msgstr "簡單工作流程"
+
+msgid "Simulated"
+msgstr "模擬"
+
+msgid "Skip if contact already exists in FluentCRM"
+msgstr "如果聯絡人已存在於 FluentCRM 中，則略過"
+
+msgid ""
+"Skip name update if an existing contact has old data (per primary field)"
+msgstr "如果現有聯絡人有舊資料，則略過姓名更新（依主要欄位）"
+
+msgid "Skip this automation if the contact is already in active state."
+msgstr "如果聯絡人已處於啟用狀態，則略過此自動化。"
+
+msgid "Slow Response"
+msgstr "回應緩慢"
+
+msgid "Smartcodes"
+msgstr "智慧代碼"
+
+msgid "Soft bounce (delayed) from PostalServer. Reason: "
+msgstr "來自 PostalServer 的軟退信（延遲）。原因："
+
+msgid "Soft bounce from Brevo Webhook API. Reason: "
+msgstr "來自 Brevo Webhook API 的軟退信。原因："
+
+msgid "Soft bounce from ElasticEmail Webhook API. Category: "
+msgstr "來自 ElasticEmail Webhook API 的軟退信。分類："
+
+msgid "Soft bounce from PostalServer. Reason: "
+msgstr "來自 PostalServer 的軟退信。原因："
+
+msgid "Soft bounce from SMTP2GO Webhook API. Reason: "
+msgstr "來自 SMTP2GO Webhook API 的軟退信。原因："
+
+msgid "Soft bounce from SendGrid Webhook API. Reason: "
+msgstr "來自 SendGrid Webhook API 的軟退信。原因："
+
+msgid "Soft bounce from ToSend Webhook API. Reason: "
+msgstr "來自 ToSend Webhook API 的軟退信。原因："
+
+msgid "Soft bounce was set by Mailgun webhook API."
+msgstr "軟退信由 Mailgun Webhook API 設定。"
+
+msgid "Sorry! You cannot update your profile."
+msgstr "抱歉！您無法更新您的個人資料。"
+
+msgid "Sorry, contact already exists"
+msgstr "抱歉，聯絡人已存在"
+
+msgid "Sorry, you are not allowed to access this page."
+msgstr "抱歉，您不被允許存取此頁面。"
+
+msgid "Sorry, you do not have access to this page."
+msgstr "抱歉，您沒有存取此頁面的權限。"
+
+msgid "Sorry, your nonce did not verify."
+msgstr "抱歉，您的 Nonce 驗證失敗。"
+
+msgid "Specify Matching Conditions"
+msgstr "指定符合條件"
+
+msgid ""
+"Specify which contact properties need to be matched. If the conditions match "
+"then the automation will run."
+msgstr "指定需要符合的聯絡人屬性。如果條件符合，則自動化將執行。"
+
+msgid "Start writing your email..."
+msgstr "開始撰寫您的電子郵件..."
+
+msgid "Status for new contacts not in FluentCRM Database."
+msgstr "不在 FluentCRM 資料庫中的新聯絡人的狀態。"
+
+msgid "Step"
+msgstr "步驟"
+
+msgid ""
+"Stores open activity data, including when and how many times an email was "
+"opened."
+msgstr "儲存開啟活動資料，包括電子郵件開啟的時間和次數。"
+
+msgid "Submission #%d - %s"
+msgstr "提交記錄 #%d - %s"
+
+msgid "Submitted At"
+msgstr "提交時間"
+
+msgid "Subscriber has been advanced"
+msgstr "訂閱者已推進"
+
+msgid "Subscriber has been removed from this automation funnel"
+msgstr "訂閱者已從此自動化漏斗中移除"
+
+msgid "Subscribers have been added to this email sequence"
+msgstr "訂閱者已加入此電子郵件序列"
+
+msgid "Sun"
+msgstr "日"
+
+msgid "Supercharge your Community Site by upgrading FluentCRM Pro"
+msgstr "升級 FluentCRM Pro 讓您的社群網站更強大"
+
+msgid "Supercharge your Digital Downloads store by upgrading FluentCRM Pro"
+msgstr "升級 FluentCRM Pro 讓您的數位下載商店更強大"
+
+msgid "Supercharge your LMS by upgrading FluentCRM Pro"
+msgstr "升級 FluentCRM Pro 讓您的 LMS 更強大"
+
+msgid "Supercharge your Membership Site by upgrading FluentCRM Pro"
+msgstr "升級 FluentCRM Pro 讓您的會員網站更強大"
+
+msgid "Supercharge your WooCommerce store by upgrading FluentCRM Pro"
+msgstr "升級 FluentCRM Pro 讓您的 WooCommerce 商店更強大"
+
+msgid "System activity records such as imports, exports, and contact updates."
+msgstr "系統活動記錄，例如匯入、匯出和聯絡人更新。"
+
+msgid "System logs and analytics data"
+msgstr "系統日誌和分析資料"
+
+msgid "Tag could not be found"
+msgstr "找不到標籤"
+
+msgid "Tags, lists, and custom fields"
+msgstr "標籤、清單和自訂欄位"
+
+msgid "Target sequence not found"
+msgstr "找不到目標序列"
+
+msgid "Targeted Tags"
+msgstr "目標標籤"
+
+msgid "Template not found"
+msgstr "找不到範本"
+
+msgid ""
+"Test email successfully sent to %1$s, The dynamic tags may not be replaced "
+"in the test email"
+msgstr "測試電子郵件已成功發送至 %1$s，動態標籤在測試電子郵件中可能未被替換"
+
+msgid "The Deleted Modules will be:"
+msgstr "將要刪除的模組為："
+
+msgid "The company name field is required."
+msgstr "公司名稱欄位為必填。"
+
+msgid ""
+"The compare value will be matched with selected event & last recorded value "
+"of the selected event key"
+msgstr "比較值將與所選事件及所選事件金鑰的最後記錄值進行比對"
+
+msgid "The email field is required."
+msgstr "電子郵件欄位為必填。"
+
+msgid "The item was modified elsewhere."
+msgstr "此項目已在其他地方被修改。"
+
+msgid ""
+"The provided value for your selected event will be matched with the event "
+"occurrence count"
+msgstr "您所選事件的提供值將與事件發生次數進行比對"
+
+msgid ""
+"There are around %d contacts that can be resumed to your newly added "
+"automation steps"
+msgstr "約有 %d 位聯絡人可以恢復到您新增的自動化步驟"
+
+msgid ""
+"This Funnel will be initiated when a cart has been abandoned in FluentCart"
+msgstr "當 FluentCart 中有購物車被放棄時，此漏斗將啟動"
+
+msgid ""
+"This integration between FluentCRM and FluentBooking simplifies the process "
+"of adding event attendees to your FluentCRM customer list for business "
+"growth and marketing lead collection."
+msgstr "FluentCRM 與 FluentBooking 的整合簡化了將活動出席者加入 FluentCRM 客戶名單的過程，有助於業務成長和行銷潛在客戶收集。"
+
+msgid ""
+"This is a placeholder for <strong>{pageTitle}</strong>. Implement the full "
+"UI next."
+msgstr "這是 <strong>{pageTitle}</strong> 的佔位符。下一步實作完整的使用者介面。"
+
+msgid "This name shows as the sender in recipients' inbox."
+msgstr "此名稱在收件者的收件匣中顯示為寄件者。"
+
+msgid "This name will appear as the sender in recipient inboxes"
+msgstr "此名稱將在收件者的收件匣中顯示為寄件者"
+
+msgid ""
+"This will get only the contacts who got email in the selected campaign and "
+"then filter by email open/link clicked or not. <br />Please note that, some "
+"email clients send false-positive for email open pixel tracking so it may "
+"not 100% correct."
+msgstr "這將僅取得在所選行銷活動中收到電子郵件的聯絡人，然後依電子郵件開啟／連結點擊與否進行篩選。<br />請注意，某些電子郵件用戶端對電子郵件開啟像素追蹤會有誤報，因此可能不是 100% 正確。"
+
+msgid "This will permanently delete the webhook. Continue?"
+msgstr "這將永久刪除 Webhook。是否繼續？"
+
+msgid "This will run once new order will be placed as paid in FluentCRM"
+msgstr "當新訂單在 FluentCRM 中標記為已付款時，此動作將執行一次"
+
+msgid "This will run once new order will be placed as paid in FluentCart"
+msgstr "當新訂單在 FluentCart 中標記為已付款時，此動作將執行一次"
+
+msgid "Thu"
+msgstr "四"
+
+msgid "Tickets"
+msgstr "票券"
+
+msgid "Time of the day"
+msgstr "一天中的時間"
+
+msgid "Timing Configuration"
+msgstr "時間設定"
+
+msgid "To Learn More"
+msgstr "了解更多"
+
+msgid "ToSend"
+msgstr "ToSend"
+
+msgid "ToSend Bounce Handler Webhook URL"
+msgstr "ToSend 退信處理 Webhook URL"
+
+msgid "Track email opens and engagement"
+msgstr "追蹤電子郵件開啟和參與度"
+
+msgid "Track link clicks in emails"
+msgstr "追蹤電子郵件中的連結點擊"
+
+msgid "Tracking"
+msgstr "追蹤"
+
+msgid "Tracking for WooCommerce"
+msgstr "WooCommerce 追蹤"
+
+msgid "Tracks when contacts clicked links inside your emails."
+msgstr "追蹤聯絡人點擊電子郵件中連結的時間。"
+
+msgid "True if all conditions match"
+msgstr "如果所有條件都符合則為真"
+
+msgid "True if any of the conditions match"
+msgstr "如果任何條件符合則為真"
+
+msgid "Tue"
+msgstr "二"
+
+msgid ""
+"Turn customers into leads, gather knowledge from FluentCRM and track "
+"customer support history easily. Our FluentCRM integration makes it easy for "
+"your support and marketing team to collaborate!"
+msgstr "將客戶轉化為潛在客戶，從 FluentCRM 收集知識並輕鬆追蹤客戶支援記錄。我們的 FluentCRM 整合讓您的支援和行銷團隊易於協作！"
+
+msgid "Two Button Row"
+msgstr "雙按鈕列"
+
+msgid "Type new group name to create"
+msgstr "輸入新群組名稱以建立"
+
+msgid "Type to search..."
+msgstr "輸入以搜尋..."
+
+msgid "Unsupported block_type"
+msgstr "不支援的 block_type"
+
+msgid "Untitled"
+msgstr "未命名"
+
+msgid "Upgrade to FluentCRM Pro to Get Abandoned Cart"
+msgstr "升級至 FluentCRM Pro 以取得購物車放棄功能"
+
+msgid "Upgrade to FluentCRM Pro to Get Incoming Webhooks"
+msgstr "升級至 FluentCRM Pro 以取得傳入 Webhook 功能"
+
+msgid "Upgrade to FluentCRM Pro to Get SMS Settings"
+msgstr "升級至 FluentCRM Pro 以取得 SMS 設定"
+
+msgid "Upgrade to FluentCRM Pro to enable this feature"
+msgstr "升級至 FluentCRM Pro 以啟用此功能"
+
+msgid "Upload CSV File"
+msgstr "上傳 CSV 檔案"
+
+msgid ""
+"Use ##crm.manage_subscription_url##, ##crm.unsubscribe_url## shortcode to "
+"fetch the Unsubscribe URL and Manage Email Subscriptions URL."
+msgstr "使用 ##crm.manage_subscription_url##、##crm.unsubscribe_url## 短代碼取得取消訂閱 URL 和管理電子郵件訂閱 URL。"
+
+msgid ""
+"Use #activate_link# for plain url or {{crm.activate_button|Confirm "
+"Subscription}} for default button"
+msgstr "使用 #activate_link# 作為純 URL，或使用 {{crm.activate_button|Confirm Subscription}} 作為預設按鈕"
+
+msgid "Use Alternative Editor"
+msgstr "使用替代編輯器"
+
+msgid "Use List Specific Double Opt-in Settings"
+msgstr "使用清單特定的雙重確認訂閱設定"
+
+msgid ""
+"Use smartcode {{opt_out label='No Thanks'}} to let users opt out of cart "
+"tracking."
+msgstr "使用智慧代碼 {{opt_out label='No Thanks'}} 讓使用者選擇退出購物車追蹤。"
+
+msgid ""
+"Use smartcodes: {{crm.business_name}} to fetch Your Business Name and {{crm."
+"business_address}} to fetch Your Business Address anywhere inside your email."
+msgstr "使用智慧代碼：{{crm.business_name}} 取得您的業務名稱，{{crm.business_address}} 取得您的業務地址，可在電子郵件中的任何位置使用。"
+
+msgid ""
+"Use the email set in your domain/SMTP. Mismatches may cause delivery issues."
+msgstr "使用您的網域/SMTP 中設定的電子郵件。不符可能導致投遞問題。"
+
+msgid "User Tracking"
+msgstr "使用者追蹤"
+
+msgid ""
+"User will be redirected to the URL which matches based on the tags at first "
+"match"
+msgstr "使用者將被重新導向至根據標籤首次符合的 URL"
+
+msgid "View Data Cleanup"
+msgstr "查看資料清理"
+
+msgid "View Draft Email"
+msgstr "查看草稿電子郵件"
+
+msgid "View Entries"
+msgstr "查看記錄"
+
+msgid "View history of actions executed within your automation workflows."
+msgstr "查看在自動化工作流程中執行的動作記錄。"
+
+msgid "View related documentation"
+msgstr "查看相關文件"
+
+msgid "Wait until next day(s) of the week"
+msgstr "等到本週的下一個指定日"
+
+msgid "Waiting Type"
+msgstr "等待類型"
+
+msgid "Webhook Type"
+msgstr "Webhook 類型"
+
+msgid "Webhook URL copied to clipboard"
+msgstr "Webhook URL 已複製到剪貼簿"
+
+msgid "Webhook URL copied to clipboard!"
+msgstr "Webhook URL 已複製到剪貼簿！"
+
+msgid "Webhook created successfully"
+msgstr "Webhook 已成功建立"
+
+msgid "Webhook not found"
+msgstr "找不到 Webhook"
+
+msgid "Webhook updated successfully"
+msgstr "Webhook 已成功更新"
+
+msgid "Wed"
+msgstr "三"
+
+msgid "Welcome Email"
+msgstr "歡迎電子郵件"
+
+msgid "Welcome to our newsletter"
+msgstr "歡迎加入我們的電子報"
+
+msgid "We’ve finished importing your contacts."
+msgstr "我們已完成匯入您的聯絡人。"
+
+msgid ""
+"When selected, subscribers added to this list will follow the list-specific "
+"double opt-in configuration. If no list-specific settings are configured, "
+"the global double opt-in settings will apply."
+msgstr "選取後，加入此清單的訂閱者將遵循清單特定的雙重確認訂閱設定。如果沒有清單特定設定，將套用全域雙重確認訂閱設定。"
+
+msgid ""
+"When selected, this list will adhere to the global double opt-in "
+"configuration."
+msgstr "選取後，此清單將遵循全域雙重確認訂閱設定。"
+
+msgid ""
+"When this setting is turned on, users will need to provide an additional "
+"form of authentication, like a code sent to their email, in order to log in."
+msgstr "啟用此設定後，使用者需要提供額外的身份驗證形式，例如發送到其電子郵件的驗證碼，才能登入。"
+
+msgid "When you send the SMS messages?"
+msgstr "您何時發送 SMS 訊息？"
+
+msgid "Why people choose us"
+msgstr "為什麼人們選擇我們"
+
+msgid ""
+"With FluentBoards integration with FluentCRM, you can connect with clients, "
+"manage team members, and keep your clients informed on autopilot!"
+msgstr "透過 FluentBoards 與 FluentCRM 的整合，您可以與客戶聯繫、管理團隊成員，並讓您的客戶在自動化模式下保持知情！"
+
+msgid "Yes, I want to Delete Old Logs"
+msgstr "是的，我要刪除舊日誌"
+
+msgid ""
+"You can filter your contacts based on activity in a specific automation "
+"funnel."
+msgstr "您可以根據特定自動化漏斗中的活動篩選聯絡人。"
+
+msgid ""
+"You can filter your contacts based on activity in a specific email sequences."
+msgstr "您可以根據特定電子郵件序列中的活動篩選聯絡人。"
+
+msgid ""
+"You can use multiple email campaign archives with the following shortcode: "
+"[fluent_crm_campaign_archives ids=1101,5,1100,1072 status=all search=Summer "
+"limit=50]. If the parameters ids, status, search, or limit are missing, the "
+"values from the global campaign archive settings will be used."
+msgstr "您可以使用以下短代碼使用多個電子郵件行銷活動封存：[fluent_crm_campaign_archives ids=1101,5,1100,1072 status=all search=Summer limit=50]。如果缺少 ids、status、search 或 limit 參數，將使用全域行銷活動封存設定中的值。"
+
+msgid "You do not have permission to autosave this item"
+msgstr "您沒有自動儲存此項目的權限"
+
+msgid "You do not have permission to view these entries"
+msgstr "您沒有查看這些記錄的權限"
+
+msgid "You do not have permission to view this submission."
+msgstr "您沒有查看此提交記錄的權限。"
+
+msgid ""
+"You don't have any supported ecommerce plugin installed for abandoned cart "
+"feature. Currently, FluentCRM supports, WooCommerce & FluentCart for this "
+"feature"
+msgstr "您尚未安裝任何支援購物車放棄功能的電子商務外掛。目前，FluentCRM 支援 WooCommerce 和 FluentCart 的此功能"
+
+msgid ""
+"You have %s email history in the database. Consider cleaning up old email "
+"history to speed up your next email campaign."
+msgstr "您的資料庫中有 %s 封電子郵件記錄。考慮清理舊的電子郵件記錄以加速您的下一個電子郵件行銷活動。"
+
+msgid "You have opted out from cart tracking"
+msgstr "您已選擇退出購物車追蹤"
+
+msgid "You must select woo defined paid statuses to mark the cart as recovered"
+msgstr "您必須選擇 WooCommerce 定義的已付款狀態，才能將購物車標記為已找回"
+
+msgid "Your license key is valid and activated"
+msgstr "您的授權金鑰有效且已啟用"
+
+msgid "bounced status was set from ElasticEmail Webhook API. Category: "
+msgstr "退信狀態由 ElasticEmail Webhook API 設定。分類："
+
+msgid "bounced status was set from SendGrid Webhook API. Reason: "
+msgstr "退信狀態由 SendGrid Webhook API 設定。原因："
+
+msgid "complained status was set from ElasticEmail Webhook API."
+msgstr "投訴狀態由 ElasticEmail Webhook API 設定。"
+
+msgid "complained status was set from SendGrid Webhook API."
+msgstr "投訴狀態由 SendGrid Webhook API 設定。"
+
+msgid "contact added in any of the selected lists"
+msgstr "聯絡人已加入任一所選清單"
+
+msgid "contacts have been processed"
+msgstr "聯絡人已處理完畢"
+
+msgid "does not include"
+msgstr "不包含"
+
+msgid "filter_type and current_id are required"
+msgstr "filter_type 和 current_id 為必填"
+
+msgid "in "
+msgstr "在"
+
+msgid "out of"
+msgstr "共"
+
+msgid "page"
+msgstr "頁"
+
+msgid "to recover lost sales."
+msgstr "以找回流失的銷售。"
+
+msgid "unsubscribed status was set from ElasticEmail Webhook API."
+msgstr "取消訂閱狀態由 ElasticEmail Webhook API 設定。"
+
+msgid "unsubscribed status was set from SendGrid Webhook API."
+msgstr "取消訂閱狀態由 SendGrid Webhook API 設定。"
+
