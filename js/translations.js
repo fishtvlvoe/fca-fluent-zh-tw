@@ -512,106 +512,195 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Checkout':                         '結帳',
         'CRM':                              'CRM',
         'Diagnostics':                      '診斷',
-        // 一般設定
+        // 一般設定 — 標題
         'Multi-Currency':                   '多幣別',
         'Multi-Currency Enabled':           '啟用多幣別',
         'Enable Multi-Currency':            '啟用多幣別',
-        'Master switch for display-layer multi-currency across the store.':
-                                            '全站顯示層多幣別的主開關。',
         'Base Currency':                    '基準幣別',
-        'Base currency currently in use.':  '目前使用中的基準幣別。',
         'Default Display Currency':         '預設顯示幣別',
-        'Currency shown to visitors before any preference is detected.':
-                                            '在偵測到訪客偏好前所顯示的幣別。',
         'URL Parameter':                    'URL 參數',
-        'Allow currency switching via URL (e.g. ?currency=EUR).':
-                                            '允許透過 URL 切換幣別（例如 ?currency=EUR）。',
         'URL Parameter Key':                'URL 參數名稱',
         'Cookie Persistence':               'Cookie 持久化',
-        'Remember visitor currency preference in browser cookies.':
-                                            '在瀏覽器 Cookie 中記住訪客的幣別偏好。',
         'Cookie Lifetime (days)':           'Cookie 有效期（天）',
         'Account Persistence':              '帳號持久化',
         'Geo Detection':                    '地理位置偵測',
-        'Stale Fallback':                   '匯率過期備援',
-        'Uninstall':                        '解除安裝',
+        'Stale Rate Fallback':              '匯率過期備援',
+        'Remove Data on Uninstall':         '解除安裝時刪除資料',
         'Keep data':                        '保留資料',
         'Delete all':                       '刪除所有資料',
-        // 匯率
-        'Provider':                         '供應商',
+        // 一般設定 — 說明文字
+        'Master switch for display-layer multi-currency across the store.':
+                                            '全站顯示層多幣別的主開關。',
+        'ISO 4217 code. All payments are settled in this currency.':
+                                            'ISO 4217 代碼。所有付款均以此幣別結算。',
+        'Currency shown to visitors before any preference is detected.':
+                                            '在偵測到訪客偏好前所顯示的幣別。',
+        'Allow currency switching via URL (e.g. ?currency=EUR).':
+                                            '允許透過 URL 切換幣別（例如 ?currency=EUR）。',
+        'Remember visitor currency preference in browser cookies.':
+                                            '在瀏覽器 Cookie 中記住訪客的幣別偏好。',
+        'Remember currency preference in the logged-in user account. Disable this if you want logged-in sessions to respect the default display currency on every fresh visit.':
+                                            '在登入帳號中記住幣別偏好。若希望每次登入都重設為預設顯示幣別，請停用此選項。',
+        'Automatically detect visitor currency based on their country. Requires a geolocation provider.':
+                                            '依據訪客所在國家自動偵測幣別，需要地理位置服務。',
+        'What to do when rates are outdated beyond the threshold.':
+                                            '匯率超過過期門檻時的處理方式。',
+        'If enabled, all tables and settings will be removed when the plugin is uninstalled.':
+                                            '啟用後，解除安裝外掛時將刪除所有資料表和設定。',
+        // 匯率 — 標題
+        'Rate Provider':                    '匯率供應商',
+        'API Key':                          'API 金鑰',
+        'Refresh Interval (hours)':         '更新間隔（小時）',
+        'Stale Threshold (hours)':          '過期門檻（小時）',
+        'Rounding Mode':                    '進位模式',
+        'Rate Freshness Badge':             '匯率時效標記',
+        'Current Rates':                    '目前匯率',
+        'Refresh Now':                      '立即更新',
+        // 匯率 — 說明文字
+        'Service used to fetch exchange rates.':
+                                            '用於取得匯率的服務。',
+        'How often to fetch new exchange rates.':
+                                            '自動取得最新匯率的頻率。',
+        'Rates older than this will trigger an admin warning.':
+                                            '超過此時限的匯率將觸發後台警告。',
+        'How converted prices are rounded.':
+                                            '換算後價格的進位方式。',
+        'Display a badge indicating when rates were last updated.':
+                                            '顯示標記以說明匯率最後更新時間。',
+        // 匯率 — 選項
         'European Central Bank (free)':     '歐洲中央銀行（免費）',
         'ExchangeRate-API (free tier)':     'ExchangeRate-API（免費方案）',
         'Open Exchange Rates':              'Open Exchange Rates',
         'Manual rates':                     '手動匯率',
-        'API Key':                          'API 金鑰',
-        'Rate':                             '匯率',
-        'Rate value':                       '匯率數值',
-        'Rates refreshed.':                 '匯率已更新。',
-        'Rate refresh failed.':             '匯率更新失敗。',
-        'Rounding':                         '四捨五入',
-        'Rounding mode':                    '進位模式',
         'Round half up (standard)':         '四捨五入（標準）',
         'Round half down':                  '五捨六入',
         'Always round up':                  '無條件進位',
         'Always round down':                '無條件捨去',
-        'Freshness badge':                  '更新時效標記',
-        'Stale threshold':                  '過期門檻',
-        'Fetched':                          '已取得',
-        'Quote':                            '報價',
-        // 幣別清單操作
+        'Truncate (no rounding)':           '截斷（不進位）',
+        'Show base currency':               '顯示基準幣別',
+        'Use last known rate':              '使用最後已知匯率',
+        // 匯率 — 空狀態
+        'No exchange rates yet. Add display currencies and trigger a refresh.':
+                                            '尚無匯率資料，請新增顯示幣別並觸發更新。',
+        // 幣別清單
         'Drag to reorder':                  '拖曳以重新排序',
         'Select currency':                  '選擇幣別',
+        'Search and add a currency\u2026':  '搜尋並新增幣別…',
         'Comma (,)':                        '逗號（,）',
         'Dot (.)':                          '句點（.）',
+        'Space':                            '空格',
         'Decimals':                         '小數位數',
         'Separator':                        '分隔符號',
         'Position':                         '位置',
         'Symbol':                           '符號',
-        // 切換器設定
+        'Left ($100)':                      '左側（$100）',
+        'Left space ($ 100)':               '左側加空格（$ 100）',
+        'Right (100$)':                     '右側（100$）',
+        'Right space (100 $)':              '右側加空格（100 $）',
+        'Favorite Currencies':              '常用幣別',
+        'Comma-separated ISO codes pinned above the rest, for example: EUR, USD, GBP':
+                                            '以逗號分隔的 ISO 代碼，固定顯示在清單最上方，例如：EUR、USD、GBP',
+        // 切換器設定 — 標題
+        'Layout Defaults':                  '版面預設值',
+        'Default Preset':                   '預設樣式',
+        'Trigger Content':                  '觸發器內容',
+        'Dropdown Content':                 '下拉選單內容',
+        'Search Mode':                      '搜尋模式',
+        'Label Position':                   '標籤位置',
+        'Baseline geometry for inheriting switcher blocks.':
+                                            '繼承此切換器區塊的基準版面設定。',
+        'Visual style used by switcher blocks that inherit global defaults.':
+                                            '使用全域預設值的切換器區塊所套用的視覺樣式。',
+        'Choose what appears in the closed switcher button.':
+                                            '選擇切換器按鈕收合時的顯示內容。',
+        'Choose what each currency row displays inside the dropdown.':
+                                            '選擇下拉選單中每個幣別列的顯示內容。',
+        'Useful when you expose more than a handful of currencies.':
+                                            '當幣別種類較多時建議啟用。',
+        'Where the optional label should sit relative to the switcher.':
+                                            '選填標籤相對於切換器的顯示位置。',
+        'Optional trust-building context shown at the bottom of the dropdown.':
+                                            '顯示在下拉選單底部的選填說明文字。',
+        // 切換器設定 — 選項
         'Preset':                           '預設樣式',
         'Pill':                             '膠囊形',
         'Minimal':                          '極簡',
         'Glass':                            '玻璃質感',
         'Contrast':                         '對比',
+        'Subtle':                           '低調',
         'Size':                             '大小',
         'Small':                            '小',
         'Medium':                           '中',
         'Large':                            '大',
         'Auto':                             '自動',
-        'Dropdown direction':               '下拉方向',
         'Auto direction':                   '自動方向',
+        'Auto position':                    '自動位置',
+        'Auto width':                       '自動寬度',
+        'Full width':                       '全寬',
         'Up':                               '向上',
         'Down':                             '向下',
-        'Dropdown position':                '下拉位置',
-        'Auto position':                    '自動位置',
         'Start':                            '開頭',
         'End':                              '結尾',
-        'Label position':                   '標籤位置',
         'Before':                           '之前',
         'After':                            '之後',
         'Above':                            '上方',
         'Below':                            '下方',
         'Inline search':                    '內嵌搜尋',
-        'Auto width':                       '自動寬度',
-        'Show base currency':               '顯示基準幣別',
         'Show favorites first':             '優先顯示常用幣別',
         'Show active indicator':            '顯示啟用指示器',
         'Show context note':                '顯示說明文字',
         'Codes':                            '代碼',
         'Names':                            '名稱',
         'Flags':                            '國旗',
-        // 結帳
+        'Symbols':                          '符號',
+        // 結帳設定
+        'Checkout Disclosure':              '結帳說明',
+        'Disclosure Text':                  '說明文字',
         'Checkout context':                 '結帳說明',
         'Full note':                        '完整說明',
-        // CRM
+        'Show a notice at checkout that payment is processed in the base currency.':
+                                            '在結帳時顯示提示，說明付款將以基準幣別處理。',
+        'Supports placeholders: {base_currency}, {display_currency}, {rate}':
+                                            '支援佔位符：{base_currency}、{display_currency}、{rate}',
+        // CRM 設定
         'FluentCRM Sync':                   'FluentCRM 同步',
-        'Tag contacts in FluentCRM based on their currency preference.':
-                                            '依據幣別偏好在 FluentCRM 中為聯絡人加上標籤。',
-        // 狀態 / 訊息
+        'FluentCommunity Sync':             'FluentCommunity 同步',
+        'FluentCommunity':                  'FluentCommunity',
+        'Preferred Currency Field':         '偏好幣別欄位',
+        'Last Order Currency Field':        '最後訂單幣別欄位',
+        'Last Order FX Rate Field':         '最後訂單匯率欄位',
+        'Tag Prefix':                       '標籤前綴',
+        'Auto-create Tags':                 '自動建立標籤',
+        'Footer Context':                   '頁尾說明',
+        'Tag contacts and update custom fields based on currency preference.':
+                                            '依據幣別偏好為聯絡人加標籤並更新自訂欄位。',
+        'Sync currency preference to FluentCommunity user meta.':
+                                            '將幣別偏好同步至 FluentCommunity 使用者資料。',
+        'Tags created as {prefix}{CODE}, e.g. currency:EUR':
+                                            '標籤格式為 {prefix}{CODE}，例如 currency:EUR',
+        'Automatically create tags for each currency.':
+                                            '為每個幣別自動建立標籤。',
+        // 診斷
+        'Option Elements':                  '選項元素',
+        'Trigger Elements':                 '觸發器元素',
+        'Active check':                     '狀態確認',
+        'Tax & Duties':                     '稅費',
+        'Status':                           '狀態',
+        'Fetched':                          '已取得',
+        'Quote':                            '報價',
+        'Missing':                          '缺少',
+        'Not found':                        '找不到',
+        // 匯率 / 提供商補充
+        'Provider':                         '供應商',
+        'Rate':                             '匯率',
+        'Rate value':                       '匯率數值',
+        'Rates refreshed.':                 '匯率已更新。',
+        'Rate refresh failed.':             '匯率更新失敗。',
+        'Freshness badge':                  '更新時效標記',
+        // 狀態 / 通用訊息
         'Enabled':                          '已啟用',
         'Disabled':                         '已停用',
         'Active':                           '啟用',
-        'Active check':                     '狀態確認',
         'Save':                             '儲存',
         'Saving...':                        '儲存中...',
         'Settings saved.':                  '設定已儲存。',
@@ -621,8 +710,6 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Failed to load diagnostics.':      '載入診斷資料失敗。',
         'Network error. Please check your connection.':
                                             '網路錯誤，請確認您的連線狀態。',
-        'Missing':                          '缺少',
-        'Not found':                        '找不到',
         'On':                               '開',
         'Off':                              '關',
         'Yes':                              '是',
@@ -631,6 +718,8 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Base':                             '基準',
         'Flag':                             '國旗',
         'Name':                             '名稱',
+        'Default':                          '預設',
+        'Drag to reorder':                  '拖曳以重新排序',
     };
 
     // 合併所有字典（後面的同 key 會覆蓋前面）
