@@ -681,6 +681,17 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Automatically create tags for each currency.':
                                             '為每個幣別自動建立標籤。',
         // 診斷
+        'Plugin':                           '外掛',
+        'Dependencies':                     '相依套件',
+        'Rates':                            '匯率統計',
+        'Version':                          '版本',
+        'DB Version':                       '資料庫版本',
+        'Total rates':                      '匯率總數',
+        'Stale rates':                      '過期匯率',
+        'Feature Flags':                    '功能旗標',
+        'Switcher Events':                  '切換事件',
+        'Top Switched Currencies':          '最常切換幣別',
+        'No switch data yet.':              '尚無切換資料。',
         'Option Elements':                  '選項元素',
         'Trigger Elements':                 '觸發器元素',
         'Active check':                     '狀態確認',
