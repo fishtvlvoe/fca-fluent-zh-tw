@@ -502,13 +502,145 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Upcoming Events':              '即將舉行的活動',
     };
 
+    // ── FCHub Multi-Currency（後台設定頁）───────────────────────────────
+    var fchubMultiCurrency = {
+        // 頁籤
+        'General':                          '一般',
+        'Currencies':                       '幣別',
+        'Exchange Rates':                   '匯率',
+        'Switcher':                         '切換器',
+        'Checkout':                         '結帳',
+        'CRM':                              'CRM',
+        'Diagnostics':                      '診斷',
+        // 一般設定
+        'Multi-Currency':                   '多幣別',
+        'Multi-Currency Enabled':           '啟用多幣別',
+        'Enable Multi-Currency':            '啟用多幣別',
+        'Master switch for display-layer multi-currency across the store.':
+                                            '全站顯示層多幣別的主開關。',
+        'Base Currency':                    '基準幣別',
+        'Base currency currently in use.':  '目前使用中的基準幣別。',
+        'Default Display Currency':         '預設顯示幣別',
+        'Currency shown to visitors before any preference is detected.':
+                                            '在偵測到訪客偏好前所顯示的幣別。',
+        'URL Parameter':                    'URL 參數',
+        'Allow currency switching via URL (e.g. ?currency=EUR).':
+                                            '允許透過 URL 切換幣別（例如 ?currency=EUR）。',
+        'URL Parameter Key':                'URL 參數名稱',
+        'Cookie Persistence':               'Cookie 持久化',
+        'Remember visitor currency preference in browser cookies.':
+                                            '在瀏覽器 Cookie 中記住訪客的幣別偏好。',
+        'Cookie Lifetime (days)':           'Cookie 有效期（天）',
+        'Account Persistence':              '帳號持久化',
+        'Geo Detection':                    '地理位置偵測',
+        'Stale Fallback':                   '匯率過期備援',
+        'Uninstall':                        '解除安裝',
+        'Keep data':                        '保留資料',
+        'Delete all':                       '刪除所有資料',
+        // 匯率
+        'Provider':                         '供應商',
+        'European Central Bank (free)':     '歐洲中央銀行（免費）',
+        'ExchangeRate-API (free tier)':     'ExchangeRate-API（免費方案）',
+        'Open Exchange Rates':              'Open Exchange Rates',
+        'Manual rates':                     '手動匯率',
+        'API Key':                          'API 金鑰',
+        'Rate':                             '匯率',
+        'Rate value':                       '匯率數值',
+        'Rates refreshed.':                 '匯率已更新。',
+        'Rate refresh failed.':             '匯率更新失敗。',
+        'Rounding':                         '四捨五入',
+        'Rounding mode':                    '進位模式',
+        'Round half up (standard)':         '四捨五入（標準）',
+        'Round half down':                  '五捨六入',
+        'Always round up':                  '無條件進位',
+        'Always round down':                '無條件捨去',
+        'Freshness badge':                  '更新時效標記',
+        'Stale threshold':                  '過期門檻',
+        'Fetched':                          '已取得',
+        'Quote':                            '報價',
+        // 幣別清單操作
+        'Drag to reorder':                  '拖曳以重新排序',
+        'Select currency':                  '選擇幣別',
+        'Comma (,)':                        '逗號（,）',
+        'Dot (.)':                          '句點（.）',
+        'Decimals':                         '小數位數',
+        'Separator':                        '分隔符號',
+        'Position':                         '位置',
+        'Symbol':                           '符號',
+        // 切換器設定
+        'Preset':                           '預設樣式',
+        'Pill':                             '膠囊形',
+        'Minimal':                          '極簡',
+        'Glass':                            '玻璃質感',
+        'Contrast':                         '對比',
+        'Size':                             '大小',
+        'Small':                            '小',
+        'Medium':                           '中',
+        'Large':                            '大',
+        'Auto':                             '自動',
+        'Dropdown direction':               '下拉方向',
+        'Auto direction':                   '自動方向',
+        'Up':                               '向上',
+        'Down':                             '向下',
+        'Dropdown position':                '下拉位置',
+        'Auto position':                    '自動位置',
+        'Start':                            '開頭',
+        'End':                              '結尾',
+        'Label position':                   '標籤位置',
+        'Before':                           '之前',
+        'After':                            '之後',
+        'Above':                            '上方',
+        'Below':                            '下方',
+        'Inline search':                    '內嵌搜尋',
+        'Auto width':                       '自動寬度',
+        'Show base currency':               '顯示基準幣別',
+        'Show favorites first':             '優先顯示常用幣別',
+        'Show active indicator':            '顯示啟用指示器',
+        'Show context note':                '顯示說明文字',
+        'Codes':                            '代碼',
+        'Names':                            '名稱',
+        'Flags':                            '國旗',
+        // 結帳
+        'Checkout context':                 '結帳說明',
+        'Full note':                        '完整說明',
+        // CRM
+        'FluentCRM Sync':                   'FluentCRM 同步',
+        'Tag contacts in FluentCRM based on their currency preference.':
+                                            '依據幣別偏好在 FluentCRM 中為聯絡人加上標籤。',
+        // 狀態 / 訊息
+        'Enabled':                          '已啟用',
+        'Disabled':                         '已停用',
+        'Active':                           '啟用',
+        'Active check':                     '狀態確認',
+        'Save':                             '儲存',
+        'Saving...':                        '儲存中...',
+        'Settings saved.':                  '設定已儲存。',
+        'Failed to load settings.':         '載入設定失敗。',
+        'Failed to save settings.':         '儲存設定失敗。',
+        'Failed to load exchange rates.':   '載入匯率失敗。',
+        'Failed to load diagnostics.':      '載入診斷資料失敗。',
+        'Network error. Please check your connection.':
+                                            '網路錯誤，請確認您的連線狀態。',
+        'Missing':                          '缺少',
+        'Not found':                        '找不到',
+        'On':                               '開',
+        'Off':                              '關',
+        'Yes':                              '是',
+        'No':                               '否',
+        'None':                             '無',
+        'Base':                             '基準',
+        'Flag':                             '國旗',
+        'Name':                             '名稱',
+    };
+
     // 合併所有字典（後面的同 key 會覆蓋前面）
     var merged = {};
     var sources = [
         fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards,
         fcaDisplayName, fcaPwa, fcaComments,
         fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
-        fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces
+        fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces,
+        fchubMultiCurrency
     ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];
