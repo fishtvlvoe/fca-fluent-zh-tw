@@ -10649,10 +10649,6 @@ msgstr "還有 %d 張圖片"
 #: app/Services/TransStrings.php
 msgid "1 new post available"
 msgstr "有 1 篇新貼文"
-
-msgid "A verification code has been sent to %s. Please provide the code below:"
-msgstr "驗證碼已發送至 %s。請在下方輸入驗證碼："
-
 #: app/Http/Controllers/SettingController.php
 msgid "Active FluentPlayer"
 msgstr "啟用 FluentPlayer"

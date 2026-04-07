@@ -648,9 +648,6 @@ msgstr "步驟 6：測試連線"
 
 #: app/Integrations/BunnyCDNStorageIntegration.php:119
 #: app/Integrations/BunnyCDNStreamIntegration.php:114
-msgid "After saving your settings, use the \"Test Connection\" button to verify that the integration is working correctly."
-msgstr "儲存設定後，使用「測試連線」按鈕確認整合是否正常運作。"
-
 #: app/Integrations/BunnyCDNStorageIntegration.php:128
 msgid "Enable BunnyCDN Storage"
 msgstr "啟用 BunnyCDN Storage"
@@ -951,3 +948,6 @@ msgstr "此播放清單為空，請新增媒體項目。"
 #: boot/app.php:45
 msgid "Check Update"
 msgstr "檢查更新"
+
+msgid "After saving your settings, use the \"Test Connection\" button to verify that the integration is working correctly."
+msgstr "儲存設定後，使用「測試連線」按鈕驗證整合是否正常運作。"
