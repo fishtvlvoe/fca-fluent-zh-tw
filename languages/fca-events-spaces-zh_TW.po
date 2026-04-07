@@ -1,0 +1,91 @@
+# Copyright (C) 2026 Fluent Community Add-ons
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FCA Events Spaces 1.0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-08 00:00+0000\n"
+"PO-Revision-Date: 2026-04-08 00:00+0800\n"
+"Last-Translator: BuyGo <info@aiver.me>\n"
+"Language-Team: Traditional Chinese (Taiwan)\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Claude Code\n"
+
+#: fca-events-spaces.php
+msgid "FCA Events Spaces requires FCA Events Basic to be installed and activated."
+msgstr "FCA Events Spaces 需要先安裝並啟用 FCA Events Basic。"
+
+msgid "FCA Events Spaces requires Fluent Community to be installed and activated."
+msgstr "FCA Events Spaces 需要先安裝並啟用 Fluent Community。"
+
+msgid "Plugin Activation Error"
+msgstr "外掛啟用錯誤"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Events"
+msgstr "活動"
+
+msgid "Enable events for this space"
+msgstr "為此空間啟用活動"
+
+msgid "Allow members to create and view events specific to this space."
+msgstr "允許成員建立並查看此空間的專屬活動。"
+
+msgid "Show upcoming events widget in sidebar"
+msgstr "在側邊欄顯示即將舉行的活動小工具"
+
+msgid "Display a widget with upcoming space events in the sidebar."
+msgstr "在側邊欄顯示包含即將舉行的空間活動的小工具。"
+
+msgid "Widget Title"
+msgstr "小工具標題"
+
+msgid "Title displayed above the events widget."
+msgstr "顯示在活動小工具上方的標題。"
+
+msgid "Widget Position"
+msgstr "小工具位置"
+
+msgid "Where to display the events widget in the space sidebar."
+msgstr "活動小工具在空間側邊欄的顯示位置。"
+
+msgid "Before activity feed"
+msgstr "在動態消息之前"
+
+msgid "After activity feed"
+msgstr "在動態消息之後"
+
+msgid "Widget Event Count"
+msgstr "小工具活動數量"
+
+msgid "Number of upcoming events to display in the widget."
+msgstr "小工具中顯示的即將舉行活動數量。"
+
+#: includes/Space_Events_Widget.php
+msgid "Space Events"
+msgstr "空間活動"
+
+msgid "Upcoming Events"
+msgstr "即將舉行的活動"
+
+msgid "No upcoming events"
+msgstr "沒有即將舉行的活動"
+
+msgid "Loading..."
+msgstr "載入中..."
+
+msgid "Unable to load events"
+msgstr "無法載入活動"
+
+msgid "Error loading events"
+msgstr "載入活動時發生錯誤"
+
+msgid "Space not found"
+msgstr "找不到空間"
+
+msgid "Events are not enabled for this space"
+msgstr "此空間未啟用活動功能"

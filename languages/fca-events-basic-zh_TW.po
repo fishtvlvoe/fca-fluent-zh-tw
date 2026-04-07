@@ -2,7 +2,7 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: FCA Events Basic 1.1.1\n"
+"Project-Id-Version: FCA Events Basic 1.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-11 00:00+0000\n"
 "PO-Revision-Date: 2026-03-11 00:00+0800\n"
@@ -1084,3 +1084,12 @@ msgstr "已驗證"
 
 msgid "✓ Saved!"
 msgstr "✓ 已儲存！"
+
+msgid "%1$s requires %2$s to be installed and activated."
+msgstr "%1$s 需要先安裝並啟用 %2$s。"
+
+msgid "No upcoming events"
+msgstr "沒有即將舉行的活動"
+
+msgid "View all"
+msgstr "查看全部"

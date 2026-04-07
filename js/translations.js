@@ -494,13 +494,21 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
                                         '尚未設定影片，請在編輯器中新增影片網址。',
     };
 
+    // ── FCA Events Spaces（空間活動小工具）──────────────────────────
+    var fcaEventsSpaces = {
+        'Loading...':                   '載入中...',
+        'Error loading events':         '載入活動時發生錯誤',
+        'No upcoming events':           '沒有即將舉行的活動',
+        'Upcoming Events':              '即將舉行的活動',
+    };
+
     // 合併所有字典（後面的同 key 會覆蓋前面）
     var merged = {};
     var sources = [
         fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards,
         fcaDisplayName, fcaPwa, fcaComments,
         fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
-        fceQuickFixes, fcaCourseBlocks
+        fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces
     ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];
