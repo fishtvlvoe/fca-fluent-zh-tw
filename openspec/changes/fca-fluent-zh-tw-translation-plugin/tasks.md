@@ -21,15 +21,15 @@
 
 ## 4. 翻譯涵蓋範圍管理
 
-- [ ] 4.1 確認 $domains 陣列與 languages/ 目錄的 .po 檔一一對應（Auto-detection of new plugins 驗收）
+- [x] 4.1 確認 $domains 陣列與 languages/ 目錄的 .po 檔一一對應（Auto-detection of new plugins 驗收）
 - [ ] 4.2 在 CLAUDE.md 的「新增翻譯流程」補上 .mo compilation requirement 步驟：每次新增後執行 `msgfmt` 並確認 exit code 0
 - [ ] 4.3 建立 `scripts/check-coverage.sh` — 掃描 $domains 陣列，確認每個 domain 都有對應 .po/.mo，回報缺漏
-- [ ] 4.4 驗證 fca-fluent-zh-tw.php 的 init hook 使用 priority=1（使用 init hook priority=1 進行優先載入），確認早於原始外掛的 priority=10 載入
+- [x] 4.4 驗證 fca-fluent-zh-tw.php 的 init hook 使用 priority=1（使用 init hook priority=1 進行優先載入），確認早於原始外掛的 priority=10 載入
 - [ ] 4.5 確認 $domains 陣列採用靜態 $domains 陣列手動維護策略，不自動掃描，並在 CLAUDE.md 記錄新增 domain 的 checklist
 - [ ] 4.6 將 sed 批次替換作為標準修復工具的指令寫入 `scripts/fix-email-duplication.sh`，供未來維護使用
 
 ## 5. 驗收
 
 - [ ] 5.1 在測試站重新整理 FluentCart 電子郵件設定頁，確認「電子郵件設定」顯示正確（不再出現「電子電子電子郵件」）
-- [ ] 5.2 執行 `grep -rc "電子電子" languages/` 確認全庫殘留 = 0
-- [ ] 5.3 執行 spectra validate 確認所有 spec 需求都有對應任務覆蓋
+- [x] 5.2 執行 `grep -rc "電子電子" languages/` 確認全庫殘留 = 0
+- [x] 5.3 執行 spectra validate 確認所有 spec 需求都有對應任務覆蓋

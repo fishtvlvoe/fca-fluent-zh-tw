@@ -1,1 +1,3 @@
 *.zip
+.spectra/
+openspec/.vector-search.db*

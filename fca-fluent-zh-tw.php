@@ -70,8 +70,6 @@ class FCA_Fluent_ZhTW {
         'fluentformpro',
         // FCHub 系列
         'fchub-multi-currency',
-        // 第三方相容
-        'wpkj-alipay-gateway-for-fluentcart',
     ];
 
     /**
