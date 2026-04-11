@@ -2170,7 +2170,7 @@ msgstr "設定"
 
 #: app/Services/TransStrings.php:333
 msgid "Configure Media Storage"
-msgstr "設定媒體存儲"
+msgstr "設定媒體儲存"
 
 #: app/Services/TransStrings.php:334
 msgid "Configure the appearance and behavior of your login form."

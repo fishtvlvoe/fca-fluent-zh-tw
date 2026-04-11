@@ -387,7 +387,7 @@ msgstr "創建帳戶"
 
 #: app/Services/TransStrings.php:45
 msgid "Credential Storage Method"
-msgstr "憑證存儲方式"
+msgstr "憑證儲存方式"
 
 #: app/Services/TransStrings.php:46
 msgid ""

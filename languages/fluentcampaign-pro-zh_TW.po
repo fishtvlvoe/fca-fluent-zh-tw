@@ -825,7 +825,7 @@ msgstr "CRM - 進階報表"
 
 #: app/Services/Integrations/WooCommerce/WooSmartCodeParse.php:241
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: app/Services/BaseAdvancedReport.php:46
 #: app/Services/BaseAdvancedReport.php:143

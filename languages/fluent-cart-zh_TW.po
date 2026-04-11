@@ -4764,7 +4764,7 @@ msgstr "結帳建立帳號欄位"
 
 #: api/StoreSettings.php:292
 msgid "Checkout Currency"
-msgstr "結帳貨幣"
+msgstr "結帳幣別"
 
 #: app/Services/Translations/admin-translation.php:329
 msgid "Checkout Customization"
@@ -5332,7 +5332,7 @@ msgstr "列"
 #: app/Services/Localization/i18n/states.php:715
 #: app/Services/Localization/i18n/states.php:1501
 msgid "Colón"
-msgstr "科隆 (貨幣)"
+msgstr "科隆 (幣別)"
 
 #: app/Services/Localization/i18n/states.php:716
 msgid "Comayagua"
@@ -6326,11 +6326,11 @@ msgstr "庫拉索"
 #: app/Helpers/EditorShortCodeHelper.php:180
 #: app/Services/Translations/admin-translation.php:462
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: api/StoreSettings.php:358
 msgid "Currency Formatting"
-msgstr "貨幣格式"
+msgstr "幣別格式"
 
 #: app/Services/Translations/admin-translation.php:463
 msgid "Current"
@@ -18108,7 +18108,7 @@ msgstr "訂單創建失敗。"
 
 #: app/Helpers/EditorShortCodeHelper.php:225
 msgid "Order Currency"
-msgstr "訂單貨幣"
+msgstr "訂單幣別"
 
 #: app/Helpers/EditorShortCodeHelper.php:221
 msgid "Order Customer Id"
@@ -19381,7 +19381,7 @@ msgstr "PayPal 開發者"
 
 #: app/Modules/PaymentMethods/PayPalGateway/PayPal.php:625
 msgid "PayPal does not support the currency you are using!"
-msgstr "PayPal 不支援您正在使用的貨幣！"
+msgstr "PayPal 不支援您正在使用的幣別！"
 
 #: app/Modules/PaymentMethods/PayPalGateway/PayPal.php:51
 msgid ""
@@ -20005,7 +20005,7 @@ msgstr "請先設定交易"
 
 #: app/Modules/PaymentMethods/PayPalGateway/API/PayPalPartnerRenderer.php:61
 msgid "Please setup your store country and currency first. "
-msgstr "請先設定您的商店國家和貨幣。"
+msgstr "請先設定您的商店國家和幣別。"
 
 #: app/Modules/PaymentMethods/PayPalGateway/API/PayPalPartnerRenderer.php:73
 msgid "Please try again in a moment."
@@ -23371,7 +23371,7 @@ msgstr "選擇課程"
 
 #: app/Services/Translations/admin-translation.php:1487
 msgid "Select Currency"
-msgstr "選擇貨幣"
+msgstr "選擇幣別"
 
 #: api/Confirmation.php:68
 msgid "Select custom page"
@@ -23448,7 +23448,7 @@ msgstr "選擇結帳時付款選項的視覺呈現方式。"
 
 #: api/StoreSettings.php:359
 msgid "Select how the currency should be formatted."
-msgstr "選擇貨幣的格式。"
+msgstr "選擇幣別的格式。"
 
 #: app/Helpers/Status.php:467
 msgid "Select in which event you want to trigger this feed"
@@ -23650,7 +23650,7 @@ msgstr "選擇客戶管理個人資料、訂單和下載內容的頁面。"
 
 #: api/StoreSettings.php:293
 msgid "Select the primary currency for your store."
-msgstr "選擇您商店的主要貨幣。"
+msgstr "選擇您商店的主要幣別。"
 
 #: app/Services/Translations/admin-translation.php:1539
 msgid "Select the product categories that this tax class will be applied to."
@@ -25764,7 +25764,7 @@ msgstr "商店所在國家為必填。"
 
 #: app/Services/Translations/admin-translation.php:1656
 msgid "Store Currency"
-msgstr "商店貨幣"
+msgstr "商店幣別"
 
 #: app/Http/Controllers/DashboardController.php:28
 msgid "Store details such as addresses, company info etc."

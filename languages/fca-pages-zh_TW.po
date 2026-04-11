@@ -534,7 +534,7 @@ msgstr "選擇要包含在選單中的頁面："
 
 #: includes/class-fca-settings.php:632
 msgid "Settings are stored securely and persist between page refreshes."
-msgstr "設定資訊安全存儲，頁面刷新後依然有效。"
+msgstr "設定資訊安全儲存，頁面刷新後依然有效。"
 
 #: includes/class-fca-settings.php:365
 msgid "Settings saved successfully."

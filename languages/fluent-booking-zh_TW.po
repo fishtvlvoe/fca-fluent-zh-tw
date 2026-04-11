@@ -1989,12 +1989,12 @@ msgstr "CRM 個人檔案"
 
 #: app/Services/TransStrings.php:501 app/Services/Helper.php:1859
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: app/Services/TransStrings.php:660
 #, fuzzy
 msgid "Currency Position"
-msgstr "貨幣頭寸"
+msgstr "幣別頭寸"
 
 #: app/Services/TransStrings.php:449
 msgid "Current DateTime:"

@@ -2908,23 +2908,23 @@ msgstr "Cura&ccedil;ao"
 #: app/Services/FormBuilder/EditorShortCode.php:94
 #: app/Modules/Registerer/TranslationString.php:2016
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: app/Modules/Registerer/TranslationString.php:617
 msgid "Currency "
-msgstr "貨幣 "
+msgstr "幣別 "
 
 #: app/Modules/Registerer/TranslationString.php:1899
 msgid "Currency Separators"
-msgstr "貨幣分隔符"
+msgstr "幣別分隔符"
 
 #: app/Modules/Registerer/TranslationString.php:1895
 msgid "Currency Settings"
-msgstr "貨幣設定"
+msgstr "幣別設定"
 
 #: app/Modules/Registerer/TranslationString.php:1898
 msgid "Currency Sign Position"
-msgstr "貨幣符號位置"
+msgstr "幣別符號位置"
 
 #: app/Modules/Registerer/TranslationString.php:178
 msgid "Current Page"
@@ -3198,7 +3198,7 @@ msgstr "預設類別"
 
 #: app/Modules/Registerer/TranslationString.php:1896
 msgid "Default Currency"
-msgstr "預設貨幣"
+msgstr "預設幣別"
 
 #: app/Modules/Registerer/TranslationString.php:928
 msgid "Default is 'fluentform'"
@@ -6076,7 +6076,7 @@ msgstr "我接受"
 msgid ""
 "I consent to have this website store my submitted information so they can "
 "respond to my inquiry"
-msgstr "我同意讓本網站存儲我提交的資訊，以便他們回覆我的諮詢"
+msgstr "我同意讓本網站儲存我提交的資訊，以便他們回覆我的諮詢"
 
 #: app/Services/FluentConversational/Classes/Form.php:367
 msgid "I don't accept"
@@ -9735,7 +9735,7 @@ msgstr "提供您的說明文字。如果您保持空白，則您的表單名稱
 msgid ""
 "Provide your default currency.You can also change your currency to each form "
 "in form's payment settings"
-msgstr "提供您的預設貨幣。您也可以在表單的付款設定中為每個表單更改貨幣。"
+msgstr "提供您的預設幣別。您也可以在表單的付款設定中為每個表單更改幣別。"
 
 #: app/Modules/Registerer/TranslationString.php:926
 msgid "public"
@@ -10783,7 +10783,7 @@ msgstr ""
 #: app/Modules/Registerer/TranslationString.php:618
 #: app/Modules/Registerer/TranslationString.php:1988
 msgid "Select Currency"
-msgstr "選擇貨幣"
+msgstr "選擇幣別"
 
 #: app/Modules/Registerer/TranslationString.php:318
 msgid "Select date and time"

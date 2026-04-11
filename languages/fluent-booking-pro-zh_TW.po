@@ -1091,7 +1091,7 @@ msgstr "由於 PayPal IPN 中的金額無效，付款失敗"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/Paypal.php:212
 msgid "Payment failed due to invalid currency in Paypal IPN"
-msgstr "由於 PayPal IPN 中的貨幣無效，付款失敗"
+msgstr "由於 PayPal IPN 中的幣別無效，付款失敗"
 
 #: app/Services/Integrations/PaymentMethods/Paypal/API/IPN.php:100
 msgid "Payment failed for paypal IPN error"
@@ -1161,7 +1161,7 @@ msgstr "由於國際帳戶規定，必須通過 PayPal 手動接受付款"
 msgid ""
 "Payment received in non-shop currency and must be accepted manually through "
 "PayPal"
-msgstr "以非商店貨幣接收的付款，必須通過 PayPal 手動接受"
+msgstr "以非商店幣別接收的付款，必須通過 PayPal 手動接受"
 
 #: app/Services/Integrations/PaymentMethods/BasePaymentMethod.php:567
 msgid "Payment Refunded Successfully"

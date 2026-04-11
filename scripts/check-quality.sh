@@ -11,8 +11,10 @@ check_msgstr_block() {
   local file="$2"
   local line_base="$3"
 
-  if [[ "$block" == *"貨幣"* ]]; then
-    echo "$file:$line_base: 禁用術語：貨幣"
+  # 「貨幣化」是合法金融動詞（monetize），排除後才檢查「貨幣」
+  local block_no_monetize="${block//貨幣化/}"
+  if [[ "$block_no_monetize" == *"貨幣"* ]]; then
+    echo "$file:$line_base: 禁用術語：貨幣（應改為「幣別」）"
     total_violations=$((total_violations + 1))
   fi
 

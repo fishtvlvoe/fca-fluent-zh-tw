@@ -15,18 +15,18 @@
 
 ## 3. 翻譯品質標準落地
 
-- [ ] 3.1 在 CLAUDE.md 補充 Consistent terminology 術語表（幣別/結帳/儲存設定/電子郵件），作為未來 PR review 基準
-- [ ] 3.2 建立 `scripts/check-quality.sh` — 自動掃描 languages/*.po 檢查禁用術語與 Format specifier preservation，輸出違規行號
-- [ ] 3.3 測試 check-quality.sh 對 fluentform-zh_TW.po 執行，確認無誤報
+- [x] 3.1 在 CLAUDE.md 補充 Consistent terminology 術語表（幣別/結帳/儲存設定/電子郵件），作為未來 PR review 基準
+- [x] 3.2 建立 `scripts/check-quality.sh` — 自動掃描 languages/*.po 檢查禁用術語與 Format specifier preservation，輸出違規行號
+- [x] 3.3 測試 check-quality.sh 對 fluentform-zh_TW.po 執行，確認無誤報（發現 37 個真實違規待修）
 
 ## 4. 翻譯涵蓋範圍管理
 
 - [x] 4.1 確認 $domains 陣列與 languages/ 目錄的 .po 檔一一對應（Auto-detection of new plugins 驗收）
-- [ ] 4.2 在 CLAUDE.md 的「新增翻譯流程」補上 .mo compilation requirement 步驟：每次新增後執行 `msgfmt` 並確認 exit code 0
-- [ ] 4.3 建立 `scripts/check-coverage.sh` — 掃描 $domains 陣列，確認每個 domain 都有對應 .po/.mo，回報缺漏
+- [x] 4.2 在 CLAUDE.md 的「新增翻譯流程」補上 .mo compilation requirement 步驟：每次新增後執行 `msgfmt` 並確認 exit code 0
+- [x] 4.3 建立 `scripts/check-coverage.sh` — 掃描 $domains 陣列，確認每個 domain 都有對應 .po/.mo，回報缺漏
 - [x] 4.4 驗證 fca-fluent-zh-tw.php 的 init hook 使用 priority=1（使用 init hook priority=1 進行優先載入），確認早於原始外掛的 priority=10 載入
-- [ ] 4.5 確認 $domains 陣列採用靜態 $domains 陣列手動維護策略，不自動掃描，並在 CLAUDE.md 記錄新增 domain 的 checklist
-- [ ] 4.6 將 sed 批次替換作為標準修復工具的指令寫入 `scripts/fix-email-duplication.sh`，供未來維護使用
+- [x] 4.5 確認 $domains 陣列採用靜態 $domains 陣列手動維護策略，不自動掃描，並在 CLAUDE.md 記錄新增 domain 的 checklist
+- [x] 4.6 將 sed 批次替換作為標準修復工具的指令寫入 `scripts/fix-email-duplication.sh`，供未來維護使用
 
 ## 5. 驗收
 

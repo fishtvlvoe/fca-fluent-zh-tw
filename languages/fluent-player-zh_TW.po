@@ -87,7 +87,7 @@ msgstr "瀏覽器"
 
 #: app/Services/Translations/admin-translations.php:16
 msgid "BunnyCDN Storage"
-msgstr "BunnyCDN 存儲"
+msgstr "BunnyCDN 儲存"
 
 #: app/Services/Translations/admin-translations.php:17
 msgid "BunnyCDN Stream"
@@ -95,7 +95,7 @@ msgstr "BunnyCDN 串流媒體"
 
 #: app/Services/Translations/admin-translations.php:18
 msgid "BunnyCDN Stream or Storage"
-msgstr "BunnyCDN 流或存儲"
+msgstr "BunnyCDN 流或儲存"
 
 #: app/Services/Translations/frontend-translations.php:5
 msgid "Cancel autoplay"

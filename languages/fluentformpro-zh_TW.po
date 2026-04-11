@@ -914,7 +914,7 @@ msgstr "金額"
 
 #: src/Integrations/Pipedrive/Bootstrap.php:288
 msgid "Amount value. Currency is pipedrive default currency."
-msgstr "金額值。貨幣為 Pipedrive 預設貨幣。"
+msgstr "金額值。幣別為 Pipedrive 預設幣別。"
 
 #: src/views/receipt/payment_info_list.php:3
 msgid "Amount:"
@@ -2448,11 +2448,11 @@ msgstr "CSV 數據源"
 
 #: src/Integrations/Pipedrive/Bootstrap.php:405
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: src/Integrations/Pipedrive/Bootstrap.php:406
 msgid "Currency Code"
-msgstr "貨幣代碼"
+msgstr "幣別代碼"
 
 #: src/Components/Post/Components/PostUpdate.php:168
 msgid "Current User Post"
@@ -6645,7 +6645,7 @@ msgstr "由於國際帳戶法規，付款必須通過 PayPal 手動接受"
 msgid ""
 "Payment received in non-shop currency and must be accepted manually through "
 "PayPal"
-msgstr "付款以非商店貨幣收取，必須通過 PayPal 手動接受"
+msgstr "付款以非商店幣別收取，必須通過 PayPal 手動接受"
 
 #: src/Payments/Classes/PaymentEntries.php:179
 msgid "Payment record cleared from transaction history and order items"

@@ -11725,7 +11725,7 @@ msgstr "從頭開始建立"
 
 #: app/Services/ExternalIntegrations/FluentCart/SmartCode/SmartCodeRegister.php:21
 msgid "Currency"
-msgstr "貨幣"
+msgstr "幣別"
 
 #: app/Services/TransStrings.php:1314
 msgid "Current status of the subscriber in the funnel"
