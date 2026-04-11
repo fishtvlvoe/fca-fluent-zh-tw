@@ -46,7 +46,8 @@ msgstr "警報"
 msgid ""
 "Apply enhanced styling to the lesson viewer including improved header, "
 "sidebar appearance, content layout, and visual refinements."
-msgstr "對課程檢視器套用增強樣式，包括改進標題、側邊欄外觀、內容版面和視覺優化。"
+msgstr ""
+"對課程檢視器套用增強樣式，包括改進標題、側邊欄外觀、內容版面和視覺優化。"
 
 #: includes/class-course-blocks-admin.php:169
 msgid "Available Blocks"
@@ -549,8 +550,8 @@ msgid ""
 "custom blocks that integrate seamlessly with Fluent Community's SPA "
 "environment."
 msgstr ""
-"適用於 Fluent Community 課程編輯器的自訂 Gutenberg 區塊。支援與 Fluent Community 的 SPA "
-"環境無縫整合的自訂區塊。"
+"適用於 Fluent Community 課程編輯器的自訂 Gutenberg 區塊。支援與 Fluent "
+"Community 的 SPA 環境無縫整合的自訂區塊。"
 
 #: includes/class-course-blocks-admin.php:229
 msgid ""

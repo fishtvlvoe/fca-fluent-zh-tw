@@ -26,7 +26,7 @@ msgstr ""
 
 #: app/Http/Controllers/CampaignsProController.php:37
 msgid "%d Emails has been scheduled to resend"
-msgstr "%d 封電子電子郵件已排程重新發送"
+msgstr "%d 封電子郵件已排程重新發送"
 
 #: app/Services/PostParser/views/latest-post/layout-6.php:31
 #: app/Services/PostParser/views/latest-post/layout-7.php:33
@@ -116,7 +116,7 @@ msgstr "有效訂閱"
 #: app/Http/Controllers/DynamicSegmentController.php:193
 msgid ""
 "Activity on your site login, email link click or various other activities"
-msgstr "您在網站上的登入、電子電子郵件連結點選或其他活動"
+msgstr "您在網站上的登入、電子郵件連結點選或其他活動"
 
 #: app/Services/Funnel/Actions/AddActivityAction.php:56
 msgid "Activity Title"
@@ -278,7 +278,7 @@ msgstr "所有授權"
 #: app/Services/Integrations/AffiliateWP/AffiliateWPAffActiveTrigger.php:75
 #: app/Services/Funnel/Triggers/UserLoginTrigger.php:46
 msgid "An Automated double-optin email will be sent for new subscribers"
-msgstr "將會寄送自動化的雙重選擇加入電子電子郵件給新訂閱者"
+msgstr "將會寄送自動化的雙重選擇加入電子郵件給新訂閱者"
 
 #: app/Http/Controllers/RecurringCampaignController.php:66
 #: app/Http/Controllers/RecurringCampaignController.php:152
@@ -361,7 +361,7 @@ msgstr "找不到關聯使用者"
 #: app/Http/Controllers/ManagerController.php:62
 #: app/Http/Controllers/ManagerController.php:103
 msgid "Associate user could not be found with this email"
-msgstr "找不到使用此電子電子郵件地址的關聯使用者"
+msgstr "找不到使用此電子郵件地址的關聯使用者"
 
 #: app/Modules/AbandonCart/Woo/WooCartTrackingInit.php:686
 #: app/Modules/AbandonCart/Woo/WooCartTrackingInit.php:868
@@ -433,11 +433,11 @@ msgstr "取消自動化"
 
 #: app/Services/Funnel/Actions/RemoveFromEmailSequenceAction.php:22
 msgid "Cancel Sequence Emails"
-msgstr "取消序列電子電子郵件"
+msgstr "取消序列電子郵件"
 
 #: app/Services/Funnel/Actions/RemoveFromEmailSequenceAction.php:23
 msgid "Cancel Sequence Emails for the contact"
-msgstr "取消聯繫人的序列電子電子郵件"
+msgstr "取消聯繫人的序列電子郵件"
 
 #: app/Services/Funnel/Actions/RemoveFromFunnelAction.php:62
 msgid "Cancelled by Automation ID: "
@@ -641,7 +641,7 @@ msgstr "聯絡人資料"
 
 #: app/Http/Controllers/DynamicSegmentController.php:135
 msgid "Contact Email"
-msgstr "聯絡人電子電子郵件"
+msgstr "聯絡人電子郵件"
 
 #: app/Services/Integrations/CRM/AdvancedReport.php:42
 msgid "Contact Growth"
@@ -704,7 +704,7 @@ msgstr "複製此連結"
 
 #: app/Hooks/Handlers/DataExporter.php:981
 msgid "Could not create the email campaign"
-msgstr "無法建立電子電子郵件行銷活動"
+msgstr "無法建立電子郵件行銷活動"
 
 #: app/Services/Integrations/WooCommerce/AutomationConditions.php:128
 msgid "Count how many times a specific product was purchased by this contact"
@@ -787,7 +787,7 @@ msgstr "建立 WP 使用者"
 msgid ""
 "Create WP User with a role if user is not already registered with contact "
 "email"
-msgstr "如果使用者尚未使用聯絡電子電子郵件註冊，則建立具有角色的 WP 使用者"
+msgstr "如果使用者尚未使用聯絡電子郵件註冊，則建立具有角色的 WP 使用者"
 
 #: app/Hooks/Handlers/DataExporter.php:565
 #: app/Modules/AbandonCart/Woo/AbandonCartAutomationTrigger.php:226
@@ -996,66 +996,66 @@ msgstr "EDD 定期訂閱有效"
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:22
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:23
 msgid "Email"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 #: app/Hooks/Handlers/FLBuilderServiceFluentCrm.php:161
 msgid "Email Address is not valid"
-msgstr "電子電子郵件地址無效"
+msgstr "電子郵件地址無效"
 
 #: app/Http/Controllers/RecurringCampaignController.php:337
 msgid "Email body has been successfully updated"
-msgstr "電子電子郵件內容已成功更新"
+msgstr "電子郵件內容已成功更新"
 
 #: app/Http/Controllers/RecurringCampaignController.php:328
 msgid "Email body is required"
-msgstr "電子電子郵件內容必填"
+msgstr "電子郵件內容必填"
 
 #: app/Hooks/Handlers/DataExporter.php:1015
 msgid "Email Campaigns has been successfully imported"
-msgstr "電子電子郵件行銷活動已成功匯入"
+msgstr "電子郵件行銷活動已成功匯入"
 
 #: app/Http/Controllers/RecurringCampaignController.php:138
 msgid "Email data has been updated"
-msgstr "電子電子郵件資料已更新"
+msgstr "電子郵件資料已更新"
 
 #: app/Http/Controllers/CampaignsProController.php:91
 msgid "Email has been resent"
-msgstr "電子電子郵件已重新發送"
+msgstr "電子郵件已重新發送"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:76
 msgid "Email has been triggered by Automation Funnel ID: "
-msgstr "電子電子郵件已由自動化漏斗 ID 觸發："
+msgstr "電子郵件已由自動化漏斗 ID 觸發："
 
 #: app/Hooks/Handlers/CampaignArchiveFront.php:22
 msgid "Email Newsletter Archive features is not enabled"
-msgstr "電子電子郵件時事通訊檔案功能尚未啟用"
+msgstr "電子郵件時事通訊檔案功能尚未啟用"
 
 #: app/Hooks/Handlers/CampaignArchiveFront.php:33
 msgid "Email Newsletter could not be found"
-msgstr "找不到電子電子郵件時事通訊"
+msgstr "找不到電子郵件時事通訊"
 
 #: app/Services/Integrations/CRM/AdvancedReport.php:45
 msgid "Email Sending Stats"
-msgstr "電子電子郵件發送統計"
+msgstr "電子郵件發送統計"
 
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:23
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:38
 msgid "Email Sequence Completed"
-msgstr "電子電子郵件序列已完成"
+msgstr "電子郵件序列已完成"
 
 #: app/Http/Controllers/SequenceController.php:187
 #: app/Http/Controllers/SequenceMailController.php:183
 msgid "Email sequence successfully deleted"
-msgstr "電子電子郵件序列已成功刪除"
+msgstr "電子郵件序列已成功刪除"
 
 #: app/Http/Controllers/RecurringCampaignController.php:310
 #, php-format
 msgid "Email status has been changed to %s"
-msgstr "電子電子郵件狀態已變更為 %s"
+msgstr "電子郵件狀態已變更為 %s"
 
 #: app/Http/Controllers/DynamicSegmentController.php:228
 msgid "Enable Last Email Activity Filter"
-msgstr "啟用最後電子電子郵件活動篩選器"
+msgstr "啟用最後電子郵件活動篩選器"
 
 #: app/Modules/AbandonCart/Woo/AbandonCartAutomationTrigger.php:82
 msgid ""
@@ -1223,13 +1223,13 @@ msgstr "導入失敗"
 
 #: app/Http/Controllers/DynamicSegmentController.php:223
 msgid "Filter By Email Activities"
-msgstr "依電子電子郵件活動篩選"
+msgstr "依電子郵件活動篩選"
 
 #: app/Http/Controllers/DynamicSegmentController.php:224
 msgid ""
 "Filter your contacts by from email open or email link click metrics. Leave "
 "the values blank for not applying"
-msgstr "依電子電子郵件開啟或電子電子郵件連結點選次數篩選聯絡人。留空則不應用"
+msgstr "依電子郵件開啟或電子郵件連結點選次數篩選聯絡人。留空則不應用"
 
 #: app/Services/Integrations/LifterLms/AutomationConditions.php:65
 #: app/Services/Integrations/LifterLms/DeepIntegration.php:94
@@ -1339,7 +1339,7 @@ msgstr "漏斗跳過，因為找不到群組"
 #: app/Services/Funnel/Actions/UpdateUserMetaAction.php:61
 #: app/Services/Funnel/Actions/ChangeUserRoleAction.php:59
 msgid "Funnel Skipped because no user found with the email address"
-msgstr "漏斗跳過，因為找不到具有此電子電子郵件地址的使用者"
+msgstr "漏斗跳過，因為找不到具有此電子郵件地址的使用者"
 
 #: app/Services/Funnel/Actions/HTTPSendDataAction.php:173
 msgid "Funnel Skipped because provided url is not valid"
@@ -1460,7 +1460,7 @@ msgstr "如果聯絡人存在？"
 
 #: app/Services/Funnel/Actions/ChangeUserRoleAction.php:22
 msgid "If user exist with the contact email then you can change user role"
-msgstr "如果使用者存在且其聯絡人電子電子郵件相同，則您可以變更使用者角色"
+msgstr "如果使用者存在且其聯絡人電子郵件相同，則您可以變更使用者角色"
 
 #: app/Services/Funnel/Actions/ChangeUserRoleAction.php:49
 msgid ""
@@ -1541,7 +1541,7 @@ msgstr "如果您留空，則會設定自動生成的密碼。"
 msgid ""
 "If you leave blank then email will be used as username. If provided username "
 "is not available then email address will be used for username"
-msgstr "如果您留空，則會使用電子電子郵件作為使用者名稱。如果提供的使用者名稱不可用，則會使用電子電子郵件地址作為使用者名稱。"
+msgstr "如果您留空，則會使用電子郵件作為使用者名稱。如果提供的使用者名稱不可用，則會使用電子郵件地址作為使用者名稱。"
 
 #: app/Services/Funnel/Actions/UserRegistrationAction.php:83
 msgid ""
@@ -1794,25 +1794,25 @@ msgstr "最後聯絡活動"
 #: app/Modules/AbandonCart/Woo/AbandonCartAutomationTrigger.php:272
 #: app/Services/Funnel/Conditions/FunnelCondition.php:204
 msgid "Last Email Clicked"
-msgstr "最後電子電子郵件點選"
+msgstr "最後電子郵件點選"
 
 #: app/Http/Controllers/DynamicSegmentController.php:238
 msgid "Last Email Link Clicked"
-msgstr "最後電子電子郵件連結點選"
+msgstr "最後電子郵件連結點選"
 
 #: app/Http/Controllers/DynamicSegmentController.php:232
 msgid "Last Email Open"
-msgstr "最後電子電子郵件打開"
+msgstr "最後電子郵件打開"
 
 #: app/Modules/AbandonCart/Woo/AbandonCartAutomationTrigger.php:277
 #: app/Services/Funnel/Conditions/FunnelCondition.php:209
 msgid "Last Email Open (approximately)"
-msgstr "最後電子電子郵件打開（大約）"
+msgstr "最後電子郵件打開（大約）"
 
 #: app/Modules/AbandonCart/Woo/AbandonCartAutomationTrigger.php:267
 #: app/Services/Funnel/Conditions/FunnelCondition.php:199
 msgid "Last Email Sent"
-msgstr "最後電子電子郵件發送"
+msgstr "最後電子郵件發送"
 
 #: app/Services/Integrations/LifterLms/AutomationConditions.php:59
 #: app/Services/Integrations/LifterLms/DeepIntegration.php:88
@@ -2150,7 +2150,7 @@ msgstr "新的 EDD 訂單成功"
 #: app/Hooks/Handlers/RecurringCampaignHandler.php:232
 #, php-format
 msgid "New recurring email has been created in your site %s"
-msgstr "新的循環電子電子郵件已在您的網站 %s 上建立"
+msgstr "新的循環電子郵件已在您的網站 %s 上建立"
 
 #: app/Services/Integrations/SureCart/SureCartPaymentSuccessTrigger.php:41
 msgid "New SureCart Order (paid) has been places"
@@ -2222,7 +2222,7 @@ msgstr "沒有標題"
 
 #: app/Hooks/Handlers/CampaignArchiveFront.php:39
 msgid "No published email newsletter found"
-msgstr "找不到已發布的電子電子郵件通訊"
+msgstr "找不到已發布的電子郵件通訊"
 
 #: app/Http/Controllers/SequenceController.php:210
 msgid "No Subscribers found based on your selection"
@@ -2402,7 +2402,7 @@ msgstr "密碼"
 msgid ""
 "Paste this link in any email or page. When a contact click this link then it "
 "will be recorded and redirect to the url as provided bellow."
-msgstr "將此連結貼到任何電子電子郵件或網頁中。當聯絡人點選此連結時，它將被記錄並重新導向到下方提供的 URL。"
+msgstr "將此連結貼到任何電子郵件或網頁中。當聯絡人點選此連結時，它將被記錄並重新導向到下方提供的 URL。"
 
 #: app/Services/Funnel/Actions/RemoveFromFunnelAction.php:24
 msgid "Pause/Cancel another automation for contact"
@@ -2555,7 +2555,7 @@ msgstr "請選擇您要匯入的會員類型或會員群組。"
 
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:47
 msgid "Please select the email sequences that need to be watched for completed"
-msgstr "請選擇需要監控完成的電子電子郵件序列。"
+msgstr "請選擇需要監控完成的電子郵件序列。"
 
 #: app/Services/Integrations/LifterLms/LessonCompletedTrigger.php:81
 #: app/Services/Integrations/LifterLms/CourseCompletedTrigger.php:77
@@ -2645,7 +2645,7 @@ msgstr "私人備註"
 
 #. Description of the plugin
 msgid "Pro Email Automation and Integration Addon for FluentCRM"
-msgstr "FluentCRM 專業電子電子郵件自動化與整合外掛"
+msgstr "FluentCRM 專業電子郵件自動化與整合外掛"
 
 #: app/Modules/AbandonCart/AbandonCartController.php:136
 msgid "Processing Revenue"
@@ -2734,7 +2734,7 @@ msgstr "RCP"
 
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:49
 msgid "Re-assign Sequence Emails?"
-msgstr "重新分配序列電子電子郵件？"
+msgstr "重新分配序列電子郵件？"
 
 #: app/Modules/AbandonCart/AbandonCartController.php:131
 msgid "Recovered Revenue"
@@ -2751,11 +2751,11 @@ msgstr "循環 (僅續約)"
 
 #: app/Http/Controllers/RecurringCampaignController.php:476
 msgid "Recurring Email campaign has been deleted"
-msgstr "循環電子電子郵件活動已刪除"
+msgstr "循環電子郵件活動已刪除"
 
 #: app/Hooks/Handlers/DataExporter.php:818
 msgid "Recurring Email Campaigns has been successfully imported"
-msgstr "定期電子電子郵件行銷活動已成功匯入"
+msgstr "定期電子郵件行銷活動已成功匯入"
 
 #: app/Services/Integrations/Edd/EddRecurringExpired.php:24
 #: app/Services/Integrations/Edd/EddRecurringExpired.php:40
@@ -2781,7 +2781,7 @@ msgstr "遠端 URL"
 
 #: app/Services/Funnel/Actions/RemoveFromEmailSequenceAction.php:34
 msgid "Remove Email Sequences"
-msgstr "移除電子電子郵件序列"
+msgstr "移除電子郵件序列"
 
 #: app/Services/Integrations/LifterLms/RemoveFromCourseAction.php:22
 #: app/Services/Integrations/LifterLms/RemoveFromCourseAction.php:34
@@ -2973,7 +2973,7 @@ msgstr "為此事件重新啟動自動化多次，以針對聯繫人。（僅在
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:50
 msgid ""
 "Restart the sequence emails if the contact already in the email sequence"
-msgstr "如果聯繫人已在電子電子郵件序列中，請重新啟動序列電子電子郵件"
+msgstr "如果聯繫人已在電子郵件序列中，請重新啟動序列電子郵件"
 
 #: app/Services/Integrations/RCP/RCPMembershipTrigger.php:23
 #: app/Services/Integrations/RCP/RCPMembershipCancelTrigger.php:23
@@ -2997,7 +2997,7 @@ msgstr "銷售額（今天）"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:35
 msgid "Schedule Campaign Email"
-msgstr "排程活動電子電子郵件"
+msgstr "排程活動電子郵件"
 
 #: app/Http/Controllers/DynamicSegmentController.php:306
 msgid "Segment has been created"
@@ -3092,7 +3092,7 @@ msgstr "選擇活動"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:43
 msgid "Select Campaign Email"
-msgstr "選擇活動電子電子郵件"
+msgstr "選擇活動電子郵件"
 
 #: app/Services/Integrations/CRM/RemoveFromCompanyTrigger.php:53
 #: app/Services/Integrations/CRM/CompanyAppliedTrigger.php:52
@@ -3132,12 +3132,12 @@ msgstr "選擇課程以瞭解課程"
 
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:44
 msgid "Select Email Sequence"
-msgstr "選擇電子電子郵件序列"
+msgstr "選擇電子郵件序列"
 
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:42
 #: app/Services/Funnel/Actions/RemoveFromEmailSequenceAction.php:38
 msgid "Select Email Sequences"
-msgstr "選擇電子電子郵件序列"
+msgstr "選擇電子郵件序列"
 
 #: app/Services/Integrations/RCP/RCPImporter.php:126
 #: app/Services/Integrations/LifterLms/LifterImporter.php:154
@@ -3420,7 +3420,7 @@ msgstr "選擇要從聯繫人處取消的自動化"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:36
 msgid "Select which campaign email will be scheduled to this contact"
-msgstr "選擇將安排給此聯繫人的營銷活動電子電子郵件"
+msgstr "選擇將安排給此聯繫人的營銷活動電子郵件"
 
 #: app/Services/Integrations/WooCommerce/AutomationConditions.php:136
 msgid ""
@@ -3466,13 +3466,13 @@ msgstr "當使用者離開此組時，將刪除選定的聯繫人標籤"
 #: app/Http/Controllers/RecurringCampaignController.php:257
 #: app/Http/Controllers/RecurringCampaignController.php:417
 msgid "Selected Recurring Email Campaigns has been deleted"
-msgstr "選定的定期電子電子郵件行銷活動已被刪除"
+msgstr "選定的定期電子郵件行銷活動已被刪除"
 
 #: app/Services/Funnel/Actions/ChangeUserRoleAction.php:43
 msgid ""
 "Selected Role will be applied if there has a user with contact's email "
 "address"
-msgstr "如果有使用者具有聯繫人的電子電子郵件位址，則將應用所選角色"
+msgstr "如果有使用者具有聯繫人的電子郵件位址，則將應用所選角色"
 
 #: app/Http/Controllers/DynamicSegmentController.php:370
 msgid "Selected segment has been deleted"
@@ -3534,7 +3534,7 @@ msgstr "所選標籤將在會員註冊時應用於聯繫人。"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:24
 msgid "Send an Email from your existing campaign"
-msgstr "從現有行銷活動發送電子電子郵件"
+msgstr "從現有行銷活動發送電子郵件"
 
 #: app/Services/Funnel/Actions/HTTPSendDataAction.php:90
 msgid "Send as Form Method"
@@ -3546,11 +3546,11 @@ msgstr "以 JSON 格式發送"
 
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:25
 msgid "Send Automated Emails based on your Sequence settings"
-msgstr "根據您的 Sequence 設定發送自動電子電子郵件"
+msgstr "根據您的 Sequence 設定發送自動電子郵件"
 
 #: app/Services/Funnel/Actions/SendCampaignEmailAction.php:23
 msgid "Send Campaign Email"
-msgstr "發送行銷活動電子電子郵件"
+msgstr "發送行銷活動電子郵件"
 
 #: app/Services/Funnel/Actions/HTTPSendDataAction.php:155
 msgid ""
@@ -3573,29 +3573,29 @@ msgstr "透過 GET 或 POST 方法將資料發送到外部伺服器"
 #: app/Services/Integrations/LearnDash/AddToCourseAction.php:54
 #: app/Services/Integrations/TutorLms/AddToCourseAction.php:53
 msgid "Send default WordPress Welcome Email for new WordPress users"
-msgstr "為新的 WordPress 使用者發送預設的 WordPress 歡迎電子電子郵件"
+msgstr "為新的 WordPress 使用者發送預設的 WordPress 歡迎電子郵件"
 
 #: app/Services/Integrations/ElementorFormIntegration/FormWidget.php:102
 msgid ""
 "Send Double Optin Email for new or pending contacts. If you don't enable "
 "this then contact will be added as subscribed state."
-msgstr "為新聯繫人或待處理聯繫人發送 Double Optin 電子電子郵件。如果您不啟用此功能，則聯繫人將新增為subscribed狀態。"
+msgstr "為新聯繫人或待處理聯繫人發送 Double Optin 電子郵件。如果您不啟用此功能，則聯繫人將新增為subscribed狀態。"
 
 #: app/Services/Funnel/Actions/UserRegistrationAction.php:89
 msgid "Send WordPress user notification email"
-msgstr "發送 WordPress 使用者通知電子電子郵件"
+msgstr "發送 WordPress 使用者通知電子郵件"
 
 #: app/Http/Controllers/SequenceMailController.php:83
 msgid "Sequence email has been created"
-msgstr "序列電子電子郵件已創建"
+msgstr "序列電子郵件已創建"
 
 #: app/Http/Controllers/SequenceMailController.php:116
 msgid "Sequence email has been duplicated"
-msgstr "序列電子電子郵件已重複"
+msgstr "序列電子郵件已重複"
 
 #: app/Http/Controllers/SequenceMailController.php:165
 msgid "Sequence email has been updated"
-msgstr "序列電子電子郵件已更新"
+msgstr "序列電子郵件已更新"
 
 #: app/Http/Controllers/SequenceController.php:49
 msgid "Sequence has been created"
@@ -3608,7 +3608,7 @@ msgstr "序列已更新"
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:24
 #: app/Services/Funnel/Actions/AddEmailSequenceAction.php:37
 msgid "Set Sequence Emails"
-msgstr "設定序列電子電子郵件"
+msgstr "設定序列電子郵件"
 
 #: app/Services/Integrations/Edd/AdvancedReport.php:94
 msgid "Settings -> Integrations Settings -> Edd"
@@ -3689,12 +3689,12 @@ msgstr "SmartLinks 模組已成功啟用"
 
 #: app/Http/Controllers/CampaignsProController.php:20
 msgid "Sorry no failed campaign emails found"
-msgstr "抱歉，沒有找到失敗的活動電子電子郵件"
+msgstr "抱歉，沒有找到失敗的活動電子郵件"
 
 #: app/Http/Controllers/CampaignsProController.php:47
 #: app/Http/Controllers/CampaignsProController.php:57
 msgid "Sorry! No emails found"
-msgstr "抱歉！沒有找到電子電子郵件"
+msgstr "抱歉！沒有找到電子郵件"
 
 #: app/Http/Controllers/DynamicSegmentController.php:361
 msgid "Sorry! No segment found"
@@ -4075,7 +4075,7 @@ msgstr "提供的 JSON 檔無效。"
 
 #: app/Hooks/Handlers/DataExporter.php:388
 msgid "The provided JSON file is not valid. No valid email sequence found"
-msgstr "提供的 JSON 檔無效。找不到有效的電子電子郵件序列"
+msgstr "提供的 JSON 檔無效。找不到有效的電子郵件序列"
 
 #: app/Hooks/Handlers/DataExporter.php:520
 msgid ""
@@ -4473,7 +4473,7 @@ msgstr "此區隔包含您訂閱的所有聯繫人，這些聯繫人也是您的
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:24
 #: app/Services/Funnel/Benchmarks/EmailSequenceCompletedBenchmark.php:39
 msgid "This will run once a selected email sequence is completed for a contact"
-msgstr "這將在為聯繫人完成選定的電子電子郵件序列後運行"
+msgstr "這將在為聯繫人完成選定的電子郵件序列後運行"
 
 #: app/Services/Funnel/Benchmarks/LinkClickBenchmark.php:36
 #: app/Services/Funnel/Benchmarks/LinkClickBenchmark.php:52
@@ -5021,7 +5021,7 @@ msgstr "WordPress 觸發器"
 msgid ""
 "WordPress user will be created if no user found with the contact's email "
 "address"
-msgstr "如果找不到使用聯繫人電子電子郵件地址的使用者，將創建 WordPress 使用者"
+msgstr "如果找不到使用聯繫人電子郵件地址的使用者，將創建 WordPress 使用者"
 
 #: app/Services/DynamicSegments/WpUserSegment.php:20
 msgid "WordPress Users"
@@ -5245,7 +5245,7 @@ msgstr "序列已重新套用"
 
 #: app/Http/Controllers/CampaignsProController.php:109
 msgid "Sorry! No unopened emails found"
-msgstr "抱歉！找不到未開啟的電子電子郵件"
+msgstr "抱歉！找不到未開啟的電子郵件"
 
 #: app/Services/Integrations/WooCommerce/WooSmartCodeParse.php:358
 msgid "Start Date"
@@ -5287,7 +5287,7 @@ msgstr "試用結束日期"
 
 #: app/Http/Controllers/CampaignsProController.php:143
 msgid "Unopened Emails has been resent"
-msgstr "未開啟的電子電子郵件已重新發送"
+msgstr "未開啟的電子郵件已重新發送"
 
 #: app/Services/Funnel/Actions/ChangeContactStatusAction.php:32
 msgid "Unsubscribed by Automation Action"

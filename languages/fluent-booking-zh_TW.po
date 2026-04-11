@@ -26,7 +26,7 @@ msgstr " 前"
 
 #: app/Services/Helper.php:1873
 msgid " Email"
-msgstr " 電子電子郵件"
+msgstr " 電子郵件"
 
 #: app/Services/EditorShortCodeParser.php:156
 msgid " from now"
@@ -251,7 +251,7 @@ msgstr "90 分鐘"
 msgid ""
 "A confirmation has been sent to your email address along with meeting "
 "location details."
-msgstr "確認信已發送至您的電子電子郵件地址，其中包含會議地點詳細資訊。"
+msgstr "確認信已發送至您的電子郵件地址，其中包含會議地點詳細資訊。"
 
 #. %1$s is the opening anchor tag, %2$s is the closing anchor tag.
 #: app/Services/Integrations/FluentForms/FluentFormInit.php:357
@@ -490,7 +490,7 @@ msgstr "地址"
 
 #: app/Services/TransStrings.php:595
 msgid "Admin Email"
-msgstr "管理員電子電子郵件"
+msgstr "管理員電子郵件"
 
 #: app/Services/TransStrings.php:752
 msgid "Administrator"
@@ -627,7 +627,7 @@ msgstr "金額"
 #: app/Services/Integrations/FluentCRM/CancelBookingTrigger.php:88
 #: app/Services/Integrations/FluentCRM/BookingCompletedTrigger.php:86
 msgid "An Automated double-optin email will be sent for new subscribers"
-msgstr "將會為新訂閱者發送自動雙重選擇確認電子電子郵件"
+msgstr "將會為新訂閱者發送自動雙重選擇確認電子郵件"
 
 #: app/Services/TransStrings.php:133
 msgid "API Error:"
@@ -662,7 +662,7 @@ msgstr "無法建立預約"
 
 #: app/Services/Integrations/FluentForms/FluentFormInit.php:288
 msgid "Appointment could not be created because email is not given or invalid"
-msgstr "無法建立預約，因為電子電子郵件未提供或無效"
+msgstr "無法建立預約，因為電子郵件未提供或無效"
 
 #: app/Services/Integrations/FluentForms/BookingElement.php:69
 msgid "Appointment Date & Time is required"
@@ -786,7 +786,7 @@ msgstr "參加者電話號碼（含國碼）"
 
 #: app/Services/TransStrings.php:307
 msgid "Attendee's Email"
-msgstr "參加者的電子電子郵件"
+msgstr "參加者的電子郵件"
 
 #: app/Services/TransStrings.php:306
 msgid "Attendee's Name"
@@ -925,11 +925,11 @@ msgstr "預訂 #%1$s 的狀態已於 %3$s 更改為 %2$s。 %4$s查看預訂%5$s
 #, fuzzy, php-format
 #| msgid "Booking %s email %s to %s"
 msgid "Booking %1$s email %2$s to %3$s"
-msgstr "預約 %s 電子電子郵件 %s 至 %s"
+msgstr "預約 %s 電子郵件 %s 至 %s"
 
 #: app/Services/Helper.php:1634
 msgid "Booking Approval Request to Host (email to Organizer)"
-msgstr "預約批准請求給主辦人（發送給組織者的電子電子郵件）"
+msgstr "預約批准請求給主辦人（發送給組織者的電子郵件）"
 
 #: app/Services/Integrations/FluentCRM/BookingRescheduledTrigger.php:72
 #: app/Services/Integrations/FluentCRM/NewBookingTrigger.php:72
@@ -959,11 +959,11 @@ msgstr "預約已取消"
 
 #: app/Services/Helper.php:1598
 msgid "Booking Cancelled by Attendee (email to Organizer)"
-msgstr "預約已由參加者取消（發送給組織者的電子電子郵件）"
+msgstr "預約已由參加者取消（發送給組織者的電子郵件）"
 
 #: app/Services/Helper.php:1607
 msgid "Booking Cancelled by Organizer (email to Attendee)"
-msgstr "預約已由組織者取消（發送給參加者的電子電子郵件）"
+msgstr "預約已由組織者取消（發送給參加者的電子郵件）"
 
 #: app/Services/Integrations/FluentCRM/CancelBookingTrigger.php:69
 msgid "Booking Cancelled Funnel"
@@ -987,11 +987,11 @@ msgstr "預訂確認"
 
 #: app/Services/Helper.php:1549
 msgid "Booking Confirmation Email to Attendee"
-msgstr "預約確認電子電子郵件給參加者"
+msgstr "預約確認電子郵件給參加者"
 
 #: app/Services/Helper.php:1558
 msgid "Booking Confirmation Email to Organizer (You)"
-msgstr "預約確認電子電子郵件給組織者（您）"
+msgstr "預約確認電子郵件給組織者（您）"
 
 #: app/Services/TransStrings.php:647
 #: app/Http/Controllers/SchedulesController.php:509
@@ -1010,7 +1010,7 @@ msgstr "預約日期"
 
 #: app/Services/Helper.php:1651
 msgid "Booking Declined by Organizer (email to Attendee)"
-msgstr "預約已由組織者拒絕（發送給參加者的電子電子郵件）"
+msgstr "預約已由組織者拒絕（發送給參加者的電子郵件）"
 
 #: app/Http/Controllers/SchedulesController.php:313
 msgid "Booking Deleted Successfully!"
@@ -1086,7 +1086,7 @@ msgstr "預訂被拒絕"
 #: app/Services/EmailNotificationService.php:196
 #, fuzzy, php-format
 msgid "Booking reminder email %1$s to %2$s"
-msgstr "預約提醒電子電子郵件 %1$s 至 %2$s"
+msgstr "預約提醒電子郵件 %1$s 至 %2$s"
 
 #. Name of the user who rejected the booking
 #: app/Models/Booking.php:732
@@ -1745,7 +1745,7 @@ msgstr "設定 Twilio 以發送簡訊通知"
 
 #: app/Services/TransStrings.php:605
 msgid "Configure your email settings for booking related emails"
-msgstr "設定您的電子電子郵件設定以接收預約相關電子電子郵件"
+msgstr "設定您的電子郵件設定以接收預約相關電子郵件"
 
 #: app/Services/TransStrings.php:607
 msgid "Configure your global payment settings for booking related payments"
@@ -1833,7 +1833,7 @@ msgstr "連接您的 Zoom 帳戶，在預訂活動時建立會議。"
 
 #: app/Services/TransStrings.php:589
 msgid "Connected Zoom Account Email:"
-msgstr "已連接的 Zoom 帳戶電子電子郵件："
+msgstr "已連接的 Zoom 帳戶電子郵件："
 
 #: app/Services/TransStrings.php:747
 msgid "Connected Zoom Accounts"
@@ -2026,7 +2026,7 @@ msgstr "自訂預訂取消和重新排程欄位"
 
 #: app/Services/TransStrings.php:969
 msgid "Customize the email notifications sent to attendees and organizers"
-msgstr "自訂發送給參與者和組織者的電子電子郵件通知"
+msgstr "自訂發送給參與者和組織者的電子郵件通知"
 
 #: app/Services/TransStrings.php:915
 msgid "Customize the questions asked on the booking page"
@@ -2162,7 +2162,7 @@ msgstr "預設時長"
 
 #: app/Http/Controllers/SettingsController.php:33
 msgid "Default Name that will be used to send email)"
-msgstr "用於發送電子電子郵件的預設姓名）"
+msgstr "用於發送電子郵件的預設姓名）"
 
 #: app/Services/Integrations/Elementor/Widgets/FcalBookings.php:110
 #, fuzzy
@@ -2171,7 +2171,7 @@ msgstr "違約期"
 
 #: app/Http/Controllers/SettingsController.php:58
 msgid "Default Reply to Email (Optional)"
-msgstr "預設回覆電子電子郵件（選填）"
+msgstr "預設回覆電子郵件（選填）"
 
 #: app/Http/Controllers/SettingsController.php:50
 msgid "Default Reply to Name (Optional)"
@@ -2394,53 +2394,53 @@ msgstr "例如：4"
 #: app/Services/TransStrings.php:497 app/Services/Helper.php:1474
 #: app/Hooks/Handlers/FrontEndHandler.php:667
 msgid "Email"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:122
 msgid "Email Address"
-msgstr "電子電子郵件地址"
+msgstr "電子郵件地址"
 
 #: app/Http/Controllers/SettingsController.php:43
 msgid "email as per your domain/SMTP settings"
-msgstr "根據您的網域/SMTP 設定發送電子電子郵件"
+msgstr "根據您的網域/SMTP 設定發送電子郵件"
 
 #: app/Services/TransStrings.php:228
 msgid "Email Body"
-msgstr "電子電子郵件內容"
+msgstr "電子郵件內容"
 
 #: app/Http/Controllers/SettingsController.php:84
 msgid "Email Footer for Booking related emails (Optional)"
-msgstr "與預訂相關電子電子郵件的電子電子郵件頁尾（可選）"
+msgstr "與預訂相關電子郵件的電子郵件頁尾（可選）"
 
 #: app/Services/TransStrings.php:386
 msgid "Email Frequency?"
-msgstr "電子電子郵件頻率？"
+msgstr "電子郵件頻率？"
 
 #: app/Services/Integrations/CalendarIntegrationService.php:98
 msgid "Email is required"
-msgstr "電子電子郵件為必填欄位"
+msgstr "電子郵件為必填欄位"
 
 #: app/Services/Integrations/FluentForms/FluentFormInit.php:127
 msgid ""
 "Email is required for this appointment. Looks like this field does not have "
 "email field selected."
-msgstr "此預約需要電子電子郵件地址。看起來這個欄位沒有選擇電子電子郵件欄位。"
+msgstr "此預約需要電子郵件地址。看起來這個欄位沒有選擇電子郵件欄位。"
 
 #: app/Services/Integrations/FluentForms/FluentFormInit.php:131
 msgid "Email is required for this appointment. Please provide a valid email"
-msgstr "此預約需要電子電子郵件地址。請提供有效的電子電子郵件地址。"
+msgstr "此預約需要電子郵件地址。請提供有效的電子郵件地址。"
 
 #: app/Hooks/Handlers/AdminMenuHandler.php:715
 msgid "Email Notification"
-msgstr "電子電子郵件通知"
+msgstr "電子郵件通知"
 
 #: app/Services/TransStrings.php:280
 msgid "Email Notification Settings"
-msgstr "電子電子郵件通知設定"
+msgstr "電子郵件通知設定"
 
 #: app/Services/TransStrings.php:385
 msgid "Email Notifications"
-msgstr "電子電子郵件通知"
+msgstr "電子郵件通知"
 
 msgid "Email Summary of Your Bookings (Last %d Day)"
 msgid_plural "Email Summary of Your Bookings (Last %d Days)"
@@ -2448,11 +2448,11 @@ msgstr[0] "您的預約摘要電子郵件（最近 %d 天）"
 
 #: app/Services/BookingService.php:15
 msgid "Email, Start Time and timezone are required to create a booking"
-msgstr "建立預約需要電子電子郵件、開始時間和時區。"
+msgstr "建立預約需要電子郵件、開始時間和時區。"
 
 #: app/Services/TransStrings.php:604
 msgid "Emailing Settings"
-msgstr "電子電子郵件設定"
+msgstr "電子郵件設定"
 
 #: app/Services/TransStrings.php:150
 #, fuzzy
@@ -2567,7 +2567,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:240
 msgid "Enable this notification email"
-msgstr "啟用此通知電子電子郵件"
+msgstr "啟用此通知電子郵件"
 
 #: app/Services/TransStrings.php:673
 msgid "Enable this sms notification"
@@ -2683,7 +2683,7 @@ msgstr "輸入折扣"
 
 #: app/Services/TransStrings.php:238
 msgid "Enter email addresses separated by commas"
-msgstr "輸入以逗號分隔的電子電子郵件地址"
+msgstr "輸入以逗號分隔的電子郵件地址"
 
 #: app/Services/TransStrings.php:264
 msgid "Enter Event Title"
@@ -3235,7 +3235,7 @@ msgstr "Fluent CRM"
 
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:292
 msgid "FluentCRM API called skipped because no valid email available"
-msgstr "Fluent CRM API 呼叫跳過，因為沒有有效的電子電子郵件地址"
+msgstr "Fluent CRM API 呼叫跳過，因為沒有有效的電子郵件地址"
 
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:117
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:142
@@ -3308,7 +3308,7 @@ msgstr "星期五"
 
 #: app/Http/Controllers/SettingsController.php:41
 msgid "From Email Address"
-msgstr "發送電子電子郵件地址"
+msgstr "發送電子郵件地址"
 
 #: app/Services/TransStrings.php:169
 msgid "from global settings."
@@ -3320,7 +3320,7 @@ msgstr "發送者姓名"
 
 #: app/Http/Controllers/SettingsController.php:31
 msgid "From Name for emails"
-msgstr "電子電子郵件發送者姓名"
+msgstr "電子郵件發送者姓名"
 
 #: app/Services/TransStrings.php:843
 msgid "from the event end time"
@@ -3512,7 +3512,7 @@ msgstr "客人"
 #: app/Services/Helper.php:1772
 #: app/Services/Integrations/FluentCRM/CrmSmartCode.php:82
 msgid "Guest Email"
-msgstr "客人電子電子郵件"
+msgstr "客人電子郵件"
 
 #: app/Services/Integrations/FluentForms/BookingElement.php:112
 msgid "Guest Fields"
@@ -3633,7 +3633,7 @@ msgstr "主機資料"
 #: app/Services/Helper.php:1746 app/Services/Helper.php:1823
 #: app/Services/Integrations/FluentCRM/CrmSmartCode.php:103
 msgid "Host Email"
-msgstr "主機電子電子郵件"
+msgstr "主機電子郵件"
 
 #: app/Services/Integrations/Elementor/Widgets/FcalCalendar.php:104
 #, fuzzy
@@ -3690,7 +3690,7 @@ msgstr "您想如何提供您在此活動類型的可用性？"
 
 #: app/Services/TransStrings.php:598
 msgid "How often to send summary email?"
-msgstr "多久發送一次摘要電子電子郵件？"
+msgstr "多久發送一次摘要電子郵件？"
 
 #: app/Services/Integrations/FluentForms/BookingElement.php:246
 msgid "HTML Response"
@@ -3797,7 +3797,7 @@ msgstr "親自（主辦單位地址）"
 
 #: app/Services/TransStrings.php:602
 msgid "In which day to send the email?"
-msgstr "在那一整天發送電子電子郵件？"
+msgstr "在那一整天發送電子郵件？"
 
 #: app/Services/TransStrings.php:685
 msgid "Inactive"
@@ -3810,7 +3810,7 @@ msgstr "不活躍"
 
 #: app/Http/Controllers/SettingsController.php:77
 msgid "Include ICS file attachment in booking confirmation emails"
-msgstr "在預訂確認電子電子郵件中包含 ICS 檔案附件"
+msgstr "在預訂確認電子郵件中包含 ICS 檔案附件"
 
 #: app/Services/TransStrings.php:319
 msgid "Indefinitely into the future"
@@ -3876,7 +3876,7 @@ msgstr "無效的日期範圍"
 
 #: app/Http/Controllers/SchedulesController.php:166
 msgid "Invalid email address"
-msgstr "無效的電子電子郵件地址"
+msgstr "無效的電子郵件地址"
 
 #: app/Hooks/Handlers/DataImporter.php:33
 #: app/Hooks/Handlers/DataImporter.php:43
@@ -3931,7 +3931,7 @@ msgstr "邀請者地址："
 
 #: app/Services/TransStrings.php:537
 msgid "Invitee Email"
-msgstr "邀請者電子電子郵件"
+msgstr "邀請者電子郵件"
 
 #: app/Services/TransStrings.php:536
 msgid "Invitee Name"
@@ -4332,7 +4332,7 @@ msgstr "在此管理您的付款優惠券並為您的客戶建立折扣代碼。
 #: app/Services/TransStrings.php:594
 msgid ""
 "Manage your settings related emails, notifications and other general settings"
-msgstr "管理您的設定相關電子電子郵件、通知和其他一般設定"
+msgstr "管理您的設定相關電子郵件、通知和其他一般設定"
 
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:114
 msgid "Map Primary Fields"
@@ -4956,7 +4956,7 @@ msgstr "在新分頁中開啟連結"
 
 #: app/Services/TransStrings.php:970
 msgid "Optimize your email notifications for confirmations and declines"
-msgstr "優化您的電子電子郵件通知以供確認和拒絕"
+msgstr "優化您的電子郵件通知以供確認和拒絕"
 
 #: app/Services/TransStrings.php:971
 msgid "Optimize your sms notifications for confirmations and declines"
@@ -5285,30 +5285,30 @@ msgstr "請將此短代碼添加到您選擇的頁面："
 msgid ""
 "Please confirm that you would like to cancel this event. A cancellation "
 "email will also go out to the invitee"
-msgstr "請確認您要取消此活動。一封取消電子電子郵件也會發送給邀請人"
+msgstr "請確認您要取消此活動。一封取消電子郵件也會發送給邀請人"
 
 #: app/Services/TransStrings.php:521
 msgid ""
 "Please confirm that you would like to reject this event. A rejection email "
 "will also go out to the invitee"
-msgstr "請確認您要拒絕此活動。一封拒絕電子電子郵件也會發送給邀請人"
+msgstr "請確認您要拒絕此活動。一封拒絕電子郵件也會發送給邀請人"
 
 #: app/Services/TransStrings.php:351
 msgid "Please ensure the cancel link is included in the confirmation email"
-msgstr "請確保取消連結已包含在確認電子電子郵件中"
+msgstr "請確保取消連結已包含在確認電子郵件中"
 
 #: app/Services/TransStrings.php:350
 msgid "Please ensure the cancel link is removed from the confirmation email"
-msgstr "請確保取消連結已從確認電子電子郵件中移除"
+msgstr "請確保取消連結已從確認電子郵件中移除"
 
 #: app/Services/TransStrings.php:353
 msgid "Please ensure the reschedule link is included in the confirmation email"
-msgstr "請確保重新排程連結已包含在確認電子電子郵件中"
+msgstr "請確保重新排程連結已包含在確認電子郵件中"
 
 #: app/Services/TransStrings.php:352
 msgid ""
 "Please ensure the reschedule link is removed from the confirmation email"
-msgstr "請確保重新排程連結已從確認電子電子郵件中移除"
+msgstr "請確保重新排程連結已從確認電子郵件中移除"
 
 #: app/Services/TransStrings.php:53
 msgid "Please enter a keyword"
@@ -5316,7 +5316,7 @@ msgstr "請輸入關鍵字"
 
 #: app/Http/Controllers/BookingController.php:82
 msgid "Please enter attendee's email address"
-msgstr "請輸入參加者的電子電子郵件地址"
+msgstr "請輸入參加者的電子郵件地址"
 
 #: app/Http/Controllers/BookingController.php:81
 msgid "Please enter attendee's name"
@@ -5324,11 +5324,11 @@ msgstr "請輸入參加者的姓名"
 
 #: app/Hooks/Handlers/FrontEndHandler.php:730
 msgid "Please enter provide a valid email address"
-msgstr "請輸入有效的電子電子郵件地址"
+msgstr "請輸入有效的電子郵件地址"
 
 #: app/Hooks/Handlers/FrontEndHandler.php:729
 msgid "Please enter your email address"
-msgstr "請輸入您的電子電子郵件地址"
+msgstr "請輸入您的電子郵件地址"
 
 #: app/Hooks/Handlers/FrontEndHandler.php:728
 msgid "Please enter your name"
@@ -5372,7 +5372,7 @@ msgstr "請先提供一個縮網址"
 
 #: app/Http/Controllers/BookingController.php:83
 msgid "Please provide a valid email address"
-msgstr "請提供有效的電子電子郵件地址"
+msgstr "請提供有效的電子郵件地址"
 
 #: app/Services/Integrations/FluentForms/FluentFormInit.php:163
 msgid "Please provide a valid location for this meeting"
@@ -5578,11 +5578,11 @@ msgstr "個人資料照片"
 
 #: app/Http/Controllers/SettingsController.php:42
 msgid "Provide Valid Email Address that will be used to send emails"
-msgstr "提供將用於發送電子電子郵件的有效電子電子郵件地址"
+msgstr "提供將用於發送電子郵件的有效電子郵件地址"
 
 #: app/Services/TransStrings.php:239
 msgid "Provided email addresses will set as CC to this email notification"
-msgstr "提供的電子電子郵件地址將設定為此電子電子郵件通知的副本"
+msgstr "提供的電子郵件地址將設定為此電子郵件通知的副本"
 
 #: app/Services/TransStrings.php:425
 msgid "Publicly Accessible"
@@ -5780,7 +5780,7 @@ msgstr "相關付款"
 #, php-format
 #| msgid "Reminder email sent to %s."
 msgid "Reminder email %1$s to %2$s."
-msgstr "提醒電子電子郵件已發送給 %1$s to %2$s."
+msgstr "提醒電子郵件已發送給 %1$s to %2$s."
 
 #: app/Services/TransStrings.php:136
 msgid "Remote Calendar Sync Settings"
@@ -5814,7 +5814,7 @@ msgstr "重複至"
 
 #: app/Http/Controllers/SettingsController.php:57
 msgid "Reply to Email (Optional)"
-msgstr "回覆電子電子郵件（選填）"
+msgstr "回覆電子郵件（選填）"
 
 #: app/Http/Controllers/SettingsController.php:48
 msgid "Reply to Name"
@@ -5892,7 +5892,7 @@ msgstr "重新排程預約email %s 到 %s"
 #, fuzzy, php-format
 #| msgid "Rescheduling email %s to %s"
 msgid "Rescheduling email %1$s to %2$s"
-msgstr "重新排程電子電子郵件 %s 到 %s"
+msgstr "重新排程電子郵件 %s 到 %s"
 
 #: app/Services/TransStrings.php:579
 msgid "Reserve spots"
@@ -5984,7 +5984,7 @@ msgstr "儲存優惠券"
 
 #: app/Services/TransStrings.php:283
 msgid "Save Email"
-msgstr "儲存電子電子郵件"
+msgstr "儲存電子郵件"
 
 #: app/Services/TransStrings.php:112
 msgid "Save Feed"
@@ -6095,7 +6095,7 @@ msgstr "密鑰"
 
 #: app/Services/GlobalModules/GlobalModules.php:52
 msgid "Segment your guests, send bulk emails, run automations using FluentCRM"
-msgstr "使用 FluentCRM 將您的來賓分組、發送大量電子電子郵件、執行自動化"
+msgstr "使用 FluentCRM 將您的來賓分組、發送大量電子郵件、執行自動化"
 
 #: app/Services/TransStrings.php:54 app/Services/Helper.php:1498
 msgid "Select"
@@ -6238,7 +6238,7 @@ msgstr "選擇頻率"
 
 #: app/Services/TransStrings.php:635
 msgid "Select Guest Email Field"
-msgstr "選擇賓客電子電子郵件欄位"
+msgstr "選擇賓客電子郵件欄位"
 
 #: app/Services/TransStrings.php:636
 msgid "Select Guest Name Field"
@@ -6375,12 +6375,12 @@ msgstr "發送*"
 
 #: app/Services/TransStrings.php:986
 msgid "Send Confirmation Email"
-msgstr "發送確認電子電子郵件"
+msgstr "發送確認電子郵件"
 
 #: app/Services/GlobalModules/GlobalModules.php:72
 #, fuzzy
 msgid "Send emails using FluentSMTP with your booking field"
-msgstr "使用 FluentSMTP 發送包含您的預訂欄位的電子電子郵件"
+msgstr "使用 FluentSMTP 發送包含您的預訂欄位的電子郵件"
 
 #: app/Services/EmailNotificationService.php:100
 #: app/Services/EmailNotificationService.php:191
@@ -6726,7 +6726,7 @@ msgstr "提交按鈕文字"
 #: app/Services/Integrations/FluentBoards/Bootstrap.php:161
 #: app/Services/Integrations/FluentBoards/Bootstrap.php:163
 msgid "Submitter Email"
-msgstr "提交者電子電子郵件"
+msgstr "提交者電子郵件"
 
 #: app/Services/Integrations/FluentBoards/Bootstrap.php:154
 #: app/Services/Integrations/FluentBoards/Bootstrap.php:156
@@ -6760,7 +6760,7 @@ msgstr "摘要"
 
 #: app/Services/TransStrings.php:786
 msgid "Summary Email"
-msgstr "摘要電子電子郵件"
+msgstr "摘要電子郵件"
 
 #: app/Services/TransStrings.php:763
 msgid "sun"
@@ -6949,7 +6949,7 @@ msgstr "此預約無法取消。"
 
 #: app/Views/emails/summary_report.php:182
 msgid "This email has been generated by fluent booking"
-msgstr "此電子電子郵件是由 Fluent Booking 生成"
+msgstr "此電子郵件是由 Fluent Booking 生成"
 
 #: app/Services/TransStrings.php:919
 msgid "This feature is available in FluentBooking Pro"
@@ -7344,17 +7344,17 @@ msgid ""
 "You can use any SMTP service like Amazon SES, Sendgrid, Mailgun, "
 "ElasticEMail or any SMTP with FluentSMTP (it's free)."
 msgstr ""
-"使用 FluentSMTP 確保您的網站能夠可靠、安全地發送電子電子郵件。您可以將任何 "
-"SMTP 服務（例如 Amazon SES、Sendgrid、Mailgun、ElasticEMail 或任何其他 SMTP "
-"服務）與 FluentSMTP 搭配使用（它是免費的）。"
+"使用 FluentSMTP 確保您的網站能夠可靠、安全地發送電子郵件。您可以將任何 SMTP "
+"服務（例如 Amazon SES、Sendgrid、Mailgun、ElasticEMail 或任何其他 SMTP 服務）"
+"與 FluentSMTP 搭配使用（它是免費的）。"
 
 #: app/Http/Controllers/SettingsController.php:70
 msgid "Use host email for reply-to value for booking emails to guests"
-msgstr "使用主機電子電子郵件作為回覆地址，用於預訂電子電子郵件給訪客"
+msgstr "使用主機電子郵件作為回覆地址，用於預訂電子郵件給訪客"
 
 #: app/Http/Controllers/SettingsController.php:63
 msgid "Use host name as From Name for booking emails to guests"
-msgstr "使用主機姓名作為發送者姓名，用於預訂電子電子郵件給訪客"
+msgstr "使用主機姓名作為發送者姓名，用於預訂電子郵件給訪客"
 
 #: app/Services/TransStrings.php:840
 msgid "Use Native Payment Methods by FluentBooking"
@@ -7770,8 +7770,8 @@ msgid ""
 "have received this email because signed up for an event or made a booking on "
 "our website."
 msgstr ""
-"您可以在此處提供您的公司名稱、位址等，例如： <br />您收到這封電子電子郵件是因"
-"為您在我們的網站上註冊了活動或進行了預訂。"
+"您可以在此處提供您的公司名稱、位址等，例如： <br />您收到這封電子郵件是因為您"
+"在我們的網站上註冊了活動或進行了預訂。"
 
 #. %s is replaced with the booking frequency (e.g., "daily", "weekly").
 #: app/Views/emails/summary_report.php:129
@@ -7800,7 +7800,7 @@ msgstr "您的預約別名只接受字母數字值。請勿提供任何空格或
 #: app/Services/BookingFieldService.php:87
 #: app/Services/BookingFieldService.php:93
 msgid "Your Email"
-msgstr "您的電子電子郵件"
+msgstr "您的電子郵件"
 
 #: app/Services/Integrations/FluentBoards/Bootstrap.php:94
 #: app/Services/Integrations/FluentCRM/Bootstrap.php:108

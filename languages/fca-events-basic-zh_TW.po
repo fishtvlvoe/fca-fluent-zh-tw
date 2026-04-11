@@ -405,7 +405,7 @@ msgid "Venue name and address"
 msgstr "場地名稱與地址"
 
 msgid "Email"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 msgid "Access Control"
 msgstr "存取控制"
@@ -828,7 +828,7 @@ msgid "Enter provider name (e.g., Discord, Jitsi)"
 msgstr "輸入供應商名稱（例如 Discord、Jitsi）"
 
 msgid "Enter username or email"
-msgstr "輸入使用者名稱或電子電子郵件"
+msgstr "輸入使用者名稱或電子郵件"
 
 msgid "Event Detail Page"
 msgstr "活動詳細頁面"
@@ -1050,7 +1050,7 @@ msgid "User Permission Check"
 msgstr "使用者權限查詢"
 
 msgid "Username or Email"
-msgstr "使用者名稱或電子電子郵件"
+msgstr "使用者名稱或電子郵件"
 
 msgid "Venue Address"
 msgstr "場地地址"

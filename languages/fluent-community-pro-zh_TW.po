@@ -202,12 +202,12 @@ msgstr "根據您的提交值有條件地允許此整合"
 
 #: app/Services/Integrations/FluentCRM/CourseLeaveTrigger.php:46
 msgid "An Automated double-opt-in email will be sent for new subscribers"
-msgstr "將為新訂閱者發送一封自動雙重確認電子電子郵件"
+msgstr "將為新訂閱者發送一封自動雙重確認電子郵件"
 
 #: app/Modules/LeaderBoard/UserLevelUpgradedTrigger.php:47
 #: app/Services/Integrations/FluentCRM/SpaceLeaveTrigger.php:46
 msgid "An Automated double-optin email will be sent for new subscribers"
-msgstr "將為新訂閱者發送一封自動雙重確認電子電子郵件"
+msgstr "將為新訂閱者發送一封自動雙重確認電子郵件"
 
 #: app/Modules/Integrations/Paymattic/Bootstrap.php:97
 msgid ""
@@ -221,7 +221,7 @@ msgstr "驗證設定已成功更新"
 
 #: app/Modules/Integrations/Paymattic/Bootstrap.php:134
 msgid "Auto Login & Password Reset Email (For New Users Only)"
-msgstr "自動登入和密碼重設電子電子郵件（僅限新使用者）"
+msgstr "自動登入和密碼重設電子郵件（僅限新使用者）"
 
 #: app/Modules/UserBadge/Controllers/UserBadgeController.php:64
 msgid "Badges saved successfully"
@@ -338,7 +338,7 @@ msgstr "文件"
 
 #: app/Modules/Webhooks/WebhookModule.php:46
 msgid "Email is required"
-msgstr "電子電子郵件為必填"
+msgstr "電子郵件為必填"
 
 #: app/Services/Integrations/FluentCRM/AddToCourseAction.php:26
 #: app/Services/Integrations/FluentCRM/AddToCourseAction.php:42
@@ -447,7 +447,7 @@ msgstr "如果聯絡人已存在？"
 msgid ""
 "If you enable this, . The newly created user will get the welcome email send "
 "by WordPress to with the login info & password reset link"
-msgstr "如果您啟用此功能，新建立的使用者將收到 WordPress 發送的歡迎電子電子郵件，其中包含登入資訊和密碼重設連結"
+msgstr "如果您啟用此功能，新建立的使用者將收到 WordPress 發送的歡迎電子郵件，其中包含登入資訊和密碼重設連結"
 
 #: app/Services/Integrations/FluentCRM/AddBadgeAction.php:61
 msgid ""
@@ -908,14 +908,14 @@ msgstr "所選使用者已成功從空間中移除"
 
 #: app/Modules/Integrations/Paymattic/Bootstrap.php:141
 msgid "Send default WordPress welcome email to user after registration"
-msgstr "註冊後向使用者發送預設的 WordPress 歡迎電子電子郵件"
+msgstr "註冊後向使用者發送預設的 WordPress 歡迎電子郵件"
 
 #: app/Services/Integrations/FluentCRM/AddToSpaceAction.php:74
 #: app/Services/Integrations/FluentCRM/AddBadgeAction.php:70
 #: app/Services/Integrations/FluentCRM/AddOrRemoveVerificationAction.php:63
 #: app/Services/Integrations/FluentCRM/AddToCourseAction.php:57
 msgid "Send WordPress Welcome Email for new WP Users"
-msgstr "向新 WordPress 使用者發送歡迎電子電子郵件"
+msgstr "向新 WordPress 使用者發送歡迎電子郵件"
 
 #: app/Modules/Quiz/QuizHelper.php:15
 msgid "Single Choice"
@@ -1063,7 +1063,7 @@ msgstr "FluentCommunity 外掛的進階版"
 msgid ""
 "These settings will apply only if the provided email address is not a "
 "registered WordPress user"
-msgstr "只有當提供的電子電子郵件地址不是已註冊的 WordPress 使用者時，這些設定才會生效"
+msgstr "只有當提供的電子郵件地址不是已註冊的 WordPress 使用者時，這些設定才會生效"
 
 #: app/Services/Integrations/FluentCRM/SpaceLeaveTrigger.php:35
 msgid "This automation will be initiated when a user leaves a Space"

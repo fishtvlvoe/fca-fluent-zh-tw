@@ -22,8 +22,12 @@ msgid "https://wordpress.org/plugins/fluentform-block"
 msgstr "https://wordpress.org/plugins/fluentform-block"
 
 #. Description of the plugin
-msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
-msgstr "Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊建立進階聯絡表單。"
+msgid ""
+"Fluent forms block is the extension of Fluent forms plugin.You can build "
+"advanced Contact form by Fluent form  block."
+msgstr ""
+"Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊"
+"建立進階聯絡表單。"
 
 #. Author of the plugin
 msgid "wpmetablock"
@@ -474,8 +478,12 @@ msgid "Fluent Form Block"
 msgstr "Fluent Form 區塊"
 
 msgctxt "block description"
-msgid "Fluent forms block is the extension of Fluent forms plugin.You can build advanced Contact form by Fluent form  block."
-msgstr "Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊建立進階聯絡表單。"
+msgid ""
+"Fluent forms block is the extension of Fluent forms plugin.You can build "
+"advanced Contact form by Fluent form  block."
+msgstr ""
+"Fluent Forms 區塊是 Fluent Forms 外掛的擴充套件，你可以使用 Fluent Form 區塊"
+"建立進階聯絡表單。"
 
 msgctxt "block keyword"
 msgid "gutenberg form"

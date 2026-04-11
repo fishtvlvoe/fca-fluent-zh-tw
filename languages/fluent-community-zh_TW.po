@@ -618,7 +618,7 @@ msgstr "2FA 代碼"
 msgid ""
 "<strong>Error:</strong> This email address is already registered. Please "
 "login or try resetting your password."
-msgstr "<strong>錯誤：</strong>電子電子郵件地址已註冊。請登入或嘗試重設密碼"
+msgstr "<strong>錯誤：</strong>電子郵件地址已註冊。請登入或嘗試重設密碼"
 
 #: Modules/Auth/AuthHelper.php:100
 #: Modules/Auth/Classes/InvitationService.php:104
@@ -633,7 +633,7 @@ msgstr "<strong>錯誤</strong>：請輸入使用者名稱。"
 
 #: Modules/Auth/AuthHelper.php:38 Modules/Auth/Classes/InvitationService.php:40
 msgid "<strong>Error</strong>: Please type your email address."
-msgstr "<strong>錯誤</strong>：請輸入你的電子電子郵件地址。"
+msgstr "<strong>錯誤</strong>：請輸入你的電子郵件地址。"
 
 #: Modules/Auth/AuthHelper.php:32 Modules/Auth/Classes/InvitationService.php:34
 msgid "<strong>Error</strong>: Sorry, that username is not allowed."
@@ -641,7 +641,7 @@ msgstr "<strong>錯誤</strong>：抱歉，不允許使用該使用者名稱。"
 
 #: Modules/Auth/AuthHelper.php:40 Modules/Auth/Classes/InvitationService.php:42
 msgid "<strong>Error</strong>: The email address is not correct."
-msgstr "<strong>錯誤</strong>：電子電子郵件地址不正確。"
+msgstr "<strong>錯誤</strong>：電子郵件地址不正確。"
 
 #: Modules/Auth/AuthHelper.php:27 Modules/Auth/Classes/InvitationService.php:29
 msgid ""
@@ -661,7 +661,7 @@ msgstr ""
 #: app/Services/ProfileHelper.php:476
 #, php-format
 msgid "[%s] Email Change Request"
-msgstr "[%s] 電子電子郵件更改請求"
+msgstr "[%s] 電子郵件更改請求"
 
 #. Relative Date Formats
 #: app/Hooks/Handlers/PortalHandler.php:560
@@ -1135,7 +1135,7 @@ msgstr "根據您的提交值，有條件地允許此整合"
 
 #: app/Services/TransStrings.php:177
 msgid "Allow users to change their account email address"
-msgstr "允許使用者變更其帳戶電子電子郵件地址"
+msgstr "允許使用者變更其帳戶電子郵件地址"
 
 #: app/Services/TransStrings.php:178
 #| msgid "Users can change their community username"
@@ -1205,7 +1205,7 @@ msgstr "為新訂閱者發送一封確認信，訂閱電子報。"
 #: Modules/Integrations/FluentCRM/LessonCompletedTrigger.php:54
 #: Modules/Integrations/FluentCRM/CourseTopicCompletedTrigger.php:54
 msgid "An Automated double-optin email will be sent for new subscribers"
-msgstr "將為新訂閱者發送一封自動雙重選擇電子電子郵件"
+msgstr "將為新訂閱者發送一封自動雙重選擇電子郵件"
 
 #. Relative Date Formats
 #: app/Hooks/Handlers/PortalHandler.php:556
@@ -1293,7 +1293,7 @@ msgstr "核准帳戶"
 #: app/Services/TransStrings.php:201
 msgid ""
 "Approximate time when the digest emails will start sending for the members"
-msgstr "開始向會員發送摘要電子電子郵件的大致時間"
+msgstr "開始向會員發送摘要電子郵件的大致時間"
 
 #: app/Hooks/Handlers/PortalHandler.php:704
 msgid "Apr"
@@ -1437,8 +1437,8 @@ msgid ""
 "sent to all the members of the space. The email will be sent at the "
 "scheduled time."
 msgstr ""
-"您確定要向所有人發送電子電子郵件嗎？自動電子電子郵件將發送給該頻道的所有成"
-"員。電子電子郵件將在預定時間發送。"
+"您確定要向所有人發送電子郵件嗎？自動電子郵件將發送給該頻道的所有成"
+"員。電子郵件將在預定時間發送。"
 
 #: app/Services/TransStrings.php:232
 msgid "Are you sure you want to unpublish this?"
@@ -1481,7 +1481,7 @@ msgstr "八月"
 
 #: Modules/Integrations/FluentForms/Bootstrap.php:118
 msgid "Auto Login & Password Reset Email (For New Users Only)"
-msgstr "自動登入和密碼重設電子電子郵件（僅限新使用者）"
+msgstr "自動登入和密碼重設電子郵件（僅限新使用者）"
 
 #: app/Services/TransStrings.php:238
 msgid "Automate your Course or Space accesses with FluentCRM Tags"
@@ -2738,7 +2738,7 @@ msgstr "預設（深色）"
 
 #: app/Services/TransStrings.php:430
 msgid "Default Email sending frequency for one-to-one messages"
-msgstr "一對一訊息的預設電子電子郵件發送頻率"
+msgstr "一對一訊息的預設電子郵件發送頻率"
 
 #: app/Services/TransStrings.php:431
 msgid "Default Feed Layout"
@@ -2966,7 +2966,7 @@ msgstr "複製課程"
 
 #: app/Services/TransStrings.php:482
 msgid "E-mail"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 #: app/Services/TransStrings.php:483
 msgid "Earliest"
@@ -2990,7 +2990,7 @@ msgstr "編輯課程"
 
 #: app/Services/TransStrings.php:488
 msgid "Edit Email Notification"
-msgstr "編輯電子電子郵件通知"
+msgstr "編輯電子郵件通知"
 
 #: app/Services/TransStrings.php:489
 msgid "Edit Feed"
@@ -3080,26 +3080,26 @@ msgstr "教育工作者"
 
 #: app/Services/TransStrings.php:510
 msgid "Email"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 #: Modules/Auth/AuthHelper.php:168 Modules/Auth/AuthHelper.php:228
 #: Modules/Auth/AuthHelper.php:424 Modules/Auth/AuthModdule.php:73
 #: Modules/Integrations/FluentForms/Bootstrap.php:188
 msgid "Email Address"
-msgstr "電子電子郵件"
+msgstr "電子郵件"
 
 #: app/Http/Controllers/ProfileController.php:374
 msgid ""
 "Email address already taken by someone else. Please use a different email "
 "address."
-msgstr "電子電子郵件地址已被其他人佔用。請使用不同的電子電子郵件地址。"
+msgstr "電子郵件地址已被其他人佔用。請使用不同的電子郵件地址。"
 
 #: app/Http/Controllers/ProfileController.php:384
 msgid ""
 "Email address change is pending. Please check your inbox to verify the new "
 "email address."
 msgstr ""
-"電子電子郵件地址更改正在等待處理。請檢查您的收件匣以驗證新的電子電子郵件地"
+"電子郵件地址更改正在等待處理。請檢查您的收件匣以驗證新的電子郵件地"
 "址。"
 
 #: app/Services/TransStrings.php:511
@@ -3113,40 +3113,40 @@ msgstr "當有人回覆作者的留言時向作者發送Email通知"
 
 #: app/Services/TransStrings.php:512
 msgid "Email Disabled"
-msgstr "電子電子郵件已停用"
+msgstr "電子郵件已停用"
 
 #: Modules/Auth/AuthModdule.php:371
 msgid "Email does not match with the invitation"
-msgstr "電子電子郵件與邀請不符"
+msgstr "電子郵件與邀請不符"
 
 #: app/Services/TransStrings.php:513
 msgid "Email Footer"
-msgstr "電子電子郵件頁腳"
+msgstr "電子郵件頁腳"
 
 #: app/Services/TransStrings.php:517
 msgid "Email from name"
-msgstr "來自姓名的電子電子郵件"
+msgstr "來自姓名的電子郵件"
 
 #: Modules/Auth/AuthModdule.php:414
 msgid "Email is already taken"
-msgstr "電子電子郵件已被使用"
+msgstr "電子郵件已被使用"
 
 #: Modules/Auth/AuthModdule.php:413
 msgid "Email is not valid"
-msgstr "電子電子郵件無效"
+msgstr "電子郵件無效"
 
 #: Modules/Auth/AuthModdule.php:412 Modules/Auth/AuthModdule.php:558
 #: Modules/Auth/Classes/InvitationService.php:140
 msgid "Email is required"
-msgstr "電子電子郵件為必填項"
+msgstr "電子郵件為必填項"
 
 #: app/Services/TransStrings.php:518
 msgid "Email me when someone comments on my post"
-msgstr "當有人留言我的貼文時給我發電子電子郵件"
+msgstr "當有人留言我的貼文時給我發電子郵件"
 
 #: app/Services/TransStrings.php:519
 msgid "Email me when someone mentions me in a post or comment"
-msgstr "當有人在貼文或留言中提到我時給我發電子電子郵件"
+msgstr "當有人在貼文或留言中提到我時給我發電子郵件"
 
 #: app/Services/TransStrings.php:520
 msgid "Email me when someone replies to my comments"
@@ -3156,25 +3156,25 @@ msgstr "當有人回覆我的留言時給我Email通知"
 msgid ""
 "Email notification is disabled for one-to-one messages as per global "
 "community settings."
-msgstr "根據全球社區設定，一對一訊息的電子電子郵件通知已被禁用。"
+msgstr "根據全球社區設定，一對一訊息的電子郵件通知已被禁用。"
 
 #: app/Services/TransStrings.php:522
 msgid "Email notification on messaging is disabled"
-msgstr "訊息傳遞的電子電子郵件通知已停用"
+msgstr "訊息傳遞的電子郵件通知已停用"
 
 #: app/Http/Controllers/ProfileController.php:688
 #| msgid "Email Notification preferences has been updated"
 msgid "Email Notification preferences have been updated"
-msgstr "電子電子郵件通知首選項已更新"
+msgstr "電子郵件通知首選項已更新"
 
 #: app/Services/TransStrings.php:514
 msgid "Email Notification Settings"
-msgstr "電子電子郵件通知設定"
+msgstr "電子郵件通知設定"
 
 #: app/Http/Controllers/AdminController.php:199
 #| msgid "Email notification settings has been updated"
 msgid "Email notification settings have been updated"
-msgstr "電子電子郵件通知設定已更新"
+msgstr "電子郵件通知設定已更新"
 
 #: app/Services/TransStrings.php:523
 msgid "Email on comment reply"
@@ -3182,20 +3182,20 @@ msgstr "留言回覆電子郵件"
 
 #: app/Services/TransStrings.php:524
 msgid "Email on new comment"
-msgstr "關於新留言的電子電子郵件"
+msgstr "關於新留言的電子郵件"
 
 #: app/Services/TransStrings.php:525
 msgid "Email sending frequency for one-to-one messages"
-msgstr "一對一訊息的電子電子郵件發送頻率"
+msgstr "一對一訊息的電子郵件發送頻率"
 
 #: app/Services/TransStrings.php:515
 #: app/Hooks/Handlers/PortalSettingsHandler.php:119
 msgid "Email Settings"
-msgstr "電子電子郵件設定"
+msgstr "電子郵件設定"
 
 #: app/Services/TransStrings.php:526
 msgid "Email settings updated"
-msgstr "電子電子郵件設定已更新"
+msgstr "電子郵件設定已更新"
 
 #: app/Services/TransStrings.php:527
 #| msgid ""
@@ -3204,11 +3204,11 @@ msgstr "電子電子郵件設定已更新"
 msgid ""
 "Email will be sent if there are any unread notifications for the user from "
 "the last email sent."
-msgstr "如果使用者上次發送的電子電子郵件有任何未讀通知，則會發送電子電子郵件"
+msgstr "如果使用者上次發送的電子郵件有任何未讀通知，則會發送電子郵件"
 
 #: app/Services/TransStrings.php:528
 msgid "Emails will be sent based on your Email Frequency settings"
-msgstr "電子電子郵件將根據您的電子電子郵件頻率設定發送"
+msgstr "電子郵件將根據您的電子郵件頻率設定發送"
 
 #: app/Services/TransStrings.php:529
 msgid "Embed"
@@ -3342,7 +3342,7 @@ msgstr "啟用影片嵌入"
 
 #: app/Services/TransStrings.php:551
 msgid "Enable Weekly Digest Email for community members"
-msgstr "為社群成員啟用每週摘要電子電子郵件"
+msgstr "為社群成員啟用每週摘要電子郵件"
 
 #: app/Services/TransStrings.php:560
 msgid "Enable/disable Post Status"
@@ -3449,7 +3449,7 @@ msgstr "輸入電子郵件主題"
 #: app/Services/TransStrings.php:577
 #| msgid "Enter envitee email"
 msgid "Enter invitee email"
-msgstr "輸入受邀者電子電子郵件"
+msgstr "輸入受邀者電子郵件"
 
 #: app/Services/TransStrings.php:576
 #| msgid "Enter envitee Name"
@@ -3470,7 +3470,7 @@ msgstr "輸入章節標題"
 
 #: app/Services/AuthenticationService.php:45
 msgid "Enter your email and password to login"
-msgstr "輸入您的電子電子郵件和密碼登入"
+msgstr "輸入您的電子郵件和密碼登入"
 
 #: app/Services/AdminTransStrings.php:38
 msgid "Enter your new slug"
@@ -3486,11 +3486,11 @@ msgstr "上傳媒體時發生錯誤"
 
 #: app/Services/ProfileHelper.php:436
 msgid "Error: The email address is already used."
-msgstr "錯誤：該電子電子郵件地址已被使用。"
+msgstr "錯誤：該電子郵件地址已被使用。"
 
 #: app/Services/ProfileHelper.php:431
 msgid "Error: The email address is not correct."
-msgstr "錯誤：電子電子郵件地址不正確。"
+msgstr "錯誤：電子郵件地址不正確。"
 
 #: app/Services/TransStrings.php:579
 msgid "Every Friday"
@@ -3897,7 +3897,7 @@ msgstr "星期五"
 
 #: app/Services/TransStrings.php:638
 msgid "From Email"
-msgstr "來自電子電子郵件"
+msgstr "來自電子郵件"
 
 #: app/Services/TransStrings.php:639
 msgid "From Name"
@@ -3934,7 +3934,7 @@ msgstr "取得表情符號和反應模組"
 
 #: app/Services/AdminTransStrings.php:43
 msgid "Get Feature Update via email"
-msgstr "透過電子電子郵件獲取功能更新"
+msgstr "透過電子郵件獲取功能更新"
 
 #: app/Services/TransStrings.php:643
 msgid "Get Giphy Module"
@@ -3976,11 +3976,11 @@ msgstr "Github"
 
 #: app/Services/TransStrings.php:651
 msgid "Give option to admin/moderators to send email when posting on a space"
-msgstr "向管理員/版主提供在頻道上發佈時發送電子電子郵件的選項"
+msgstr "向管理員/版主提供在頻道上發佈時發送電子郵件的選項"
 
 #: app/Services/TransStrings.php:652
 msgid "Global Email Notifications"
-msgstr "全球電子電子郵件通知"
+msgstr "全球電子郵件通知"
 
 #: app/Services/TransStrings.php:653
 msgid "Global Post Status"
@@ -4229,7 +4229,7 @@ msgid ""
 msgstr ""
 "您好 ###USERNAME###，\n"
 "\n"
-"您最近申請更改了您帳戶的電子電子郵件地址。\n"
+"您最近申請更改了您帳戶的電子郵件地址。\n"
 "\n"
 "如果訊息正確，請點選以下連結進行更改：\n"
 "\n"
@@ -4297,7 +4297,7 @@ msgstr ""
 msgid ""
 "If enabled then, The default WordPress welcome and password set email will "
 "be sent."
-msgstr "如果啟用，將發送預設的 WordPress 歡迎和密碼設定電子電子郵件。"
+msgstr "如果啟用，將發送預設的 WordPress 歡迎和密碼設定電子郵件。"
 
 #: app/Services/TransStrings.php:689
 msgid "If enabled, members will have to achieve a minimum score before"
@@ -4315,7 +4315,7 @@ msgstr "如果啟用，免費使用者無需註冊課程即可查看此課程。
 msgid ""
 "If someone replies to your notification email, this is where you would like "
 "to receive it."
-msgstr "如果有人回覆你的通知電子電子郵件，你希望在處收到"
+msgstr "如果有人回覆你的通知電子郵件，你希望在處收到"
 
 #: app/Services/TransStrings.php:692
 msgid ""
@@ -4328,7 +4328,7 @@ msgstr "如果新增圖片，它將顯示在頻道主頁上"
 
 #: Modules/Auth/AuthHelper.php:313
 msgid "If you did not initiate this request, please ignore this email."
-msgstr "如果你沒有發起要求，請忽略電子電子郵件。"
+msgstr "如果你沒有發起要求，請忽略電子郵件。"
 
 #: app/Services/TransStrings.php:694
 msgid "If you enable this then, posts will be shown as modal when interacting"
@@ -4420,7 +4420,7 @@ msgstr "回顧"
 
 #: app/Services/TransStrings.php:704
 msgid "In which day, the digest email will be sent"
-msgstr "在哪一天，將發送摘要電子電子郵件"
+msgstr "在哪一天，將發送摘要電子郵件"
 
 #: app/Hooks/Handlers/PortalSettingsHandler.php:159
 msgid "Incoming Webhook"
@@ -4494,7 +4494,7 @@ msgstr "無效評論"
 
 #: Modules/Auth/AuthHelper.php:383
 msgid "Invalid email address. Please try again"
-msgstr "電子電子郵件地址無效。請重試"
+msgstr "電子郵件地址無效。請重試"
 
 #: Modules/Auth/AuthModdule.php:365
 msgid "Invalid invitation token"
@@ -4612,7 +4612,7 @@ msgstr "受邀者"
 #: app/Services/TransStrings.php:722
 #| msgid "Envitee email"
 msgid "Invitee email"
-msgstr "受邀者電子電子郵件"
+msgstr "受邀者電子郵件"
 
 #: app/Services/TransStrings.php:721
 #| msgid "Envitee Name (optional)"
@@ -5172,7 +5172,7 @@ msgstr "標識"
 
 #: app/Services/TransStrings.php:811
 msgid "Logo for Email Header"
-msgstr "電子電子郵件標題的標誌"
+msgstr "電子郵件標題的標誌"
 
 #: app/Services/TransStrings.php:810
 msgid "Logo Permalink"
@@ -5571,7 +5571,7 @@ msgstr "將用於replyTo 屬性的名稱"
 
 #: app/Services/TransStrings.php:877
 msgid "Name that will be used to send emails"
-msgstr "將用於發送電子電子郵件的名稱"
+msgstr "將用於發送電子郵件的名稱"
 
 #: app/Services/AdminTransStrings.php:61
 msgid "Name your community"
@@ -5755,7 +5755,7 @@ msgstr "找不到資料"
 
 #: app/Services/TransStrings.php:910
 msgid "No digest email will be sent."
-msgstr "不會發送摘要電子電子郵件。"
+msgstr "不會發送摘要電子郵件。"
 
 #: app/Services/TransStrings.php:911
 msgid "No documents found in this space based on your search criteria."
@@ -5771,7 +5771,7 @@ msgstr "請勿重複發文！"
 
 #: app/Services/TransStrings.php:912
 msgid "No email will be sent for comments on your post."
-msgstr "不會發送電子電子郵件徵求對你貼文的留言。"
+msgstr "不會發送電子郵件徵求對你貼文的留言。"
 
 #: app/Services/TransStrings.php:913
 msgid "No email will be sent when someone replies to your comments."
@@ -5779,7 +5779,7 @@ msgstr "當有人回覆你的留言時，不會發送Email通知"
 
 #: app/Services/TransStrings.php:914
 msgid "No emails will be sent when someone mentions you."
-msgstr "當有人提及你時，不會發送任何電子電子郵件。"
+msgstr "當有人提及你時，不會發送任何電子郵件。"
 
 #: app/Services/TransStrings.php:894
 msgid "No Emoji Found"
@@ -6149,11 +6149,11 @@ msgstr "選填的"
 
 #: app/Services/TransStrings.php:972
 msgid "Optional email"
-msgstr "選填電子電子郵件"
+msgstr "選填電子郵件"
 
 #: app/Services/TransStrings.php:971
 msgid "Optional Reply to email"
-msgstr "選填回覆電子電子郵件"
+msgstr "選填回覆電子郵件"
 
 #: app/Services/TransStrings.php:1671
 msgid "or"
@@ -6393,14 +6393,14 @@ msgstr "請輸入有效的slug"
 
 #: app/Services/TransStrings.php:1010
 msgid "Please enter an email address"
-msgstr "請輸入電子電子郵件地址"
+msgstr "請輸入電子郵件地址"
 
 #: Modules/Auth/AuthModdule.php:245
 msgid ""
 "Please enter your email address. You will receive an email message with "
 "instructions on how to reset your password."
 msgstr ""
-"請輸入你的電子電子郵件地址。你將收到一封電子電子郵件，其中包含有關如何重設密"
+"請輸入你的電子郵件地址。你將收到一封電子郵件，其中包含有關如何重設密"
 "碼的說明。"
 
 #: Modules/Auth/AuthModdule.php:564
@@ -6487,7 +6487,7 @@ msgstr "請儲存變更以更新樣式"
 
 #: Modules/Integrations/FluentForms/Bootstrap.php:154
 msgid "Please Select a Email"
-msgstr "請選擇一個電子電子郵件"
+msgstr "請選擇一個電子郵件"
 
 #: app/Services/TransStrings.php:1020
 msgid "Please select a reason for reporting this content"
@@ -6887,8 +6887,8 @@ msgid ""
 "Provide Valid Email Address email as per your domain/SMTP settings. This "
 "email will be used to send emails like notifications"
 msgstr ""
-"根據你的網域/SMTP 設定提供有效的電子電子郵件地址。該電子電子郵件將用於發送通"
-"知等電子電子郵件"
+"根據你的網域/SMTP 設定提供有效的電子郵件地址。該電子郵件將用於發送通"
+"知等電子郵件"
 
 #: app/Services/TransStrings.php:1076
 msgid "Provide your CDN URL (without trailing /)"
@@ -7075,7 +7075,7 @@ msgstr "公開使用者註冊 URL"
 
 #: app/Services/AdminTransStrings.php:78
 msgid "Reliable Email delivery with FluentSMTP"
-msgstr "使用 FluentSMTP 進行電子電子郵件傳送"
+msgstr "使用 FluentSMTP 進行電子郵件傳送"
 
 #: Modules/Auth/AuthHelper.php:426
 msgid "Remember Me"
@@ -7143,7 +7143,7 @@ msgstr "回覆"
 
 #: app/Services/TransStrings.php:1123
 msgid "Reply to email (optional)"
-msgstr "回覆電子電子郵件（可選）"
+msgstr "回覆電子郵件（可選）"
 
 #: app/Services/TransStrings.php:1124
 msgid "Reply to name (Optional)"
@@ -7380,7 +7380,7 @@ msgstr "搜尋課程..."
 
 #: app/Services/TransStrings.php:1174
 msgid "Search for an existing user or Invite by Email"
-msgstr "搜尋現有使用者或透過電子電子郵件邀請"
+msgstr "搜尋現有使用者或透過電子郵件邀請"
 
 #: app/Services/TransStrings.php:1175
 msgid "Search for anything"
@@ -7585,7 +7585,7 @@ msgstr "選擇日期"
 
 #: app/Services/TransStrings.php:1191
 msgid "Select Email Address"
-msgstr "選擇電子電子郵件地址"
+msgstr "選擇電子郵件地址"
 
 #: Modules/Integrations/FluentCRM/LessonCompletedTrigger.php:85
 msgid "Select for which Lessons this automation will run"
@@ -7791,24 +7791,24 @@ msgstr "對頻道所有人發送 Email 通知"
 
 #: app/Services/TransStrings.php:1235
 msgid "Send default WordPress welcome email for new users"
-msgstr "向新使用者發送預設的 WordPress 歡迎電子電子郵件"
+msgstr "向新使用者發送預設的 WordPress 歡迎電子郵件"
 
 #: Modules/Integrations/FluentForms/Bootstrap.php:125
 msgid "Send default WordPress welcome email to user after registration"
-msgstr "註冊後向使用者發送預設的 WordPress 歡迎電子電子郵件"
+msgstr "註冊後向使用者發送預設的 WordPress 歡迎電子郵件"
 
 #: app/Services/TransStrings.php:1234
 msgid "Send default WP welcome email when creating the user by tagging."
-msgstr "透過標記建立使用者時發送預設的 WP 歡迎電子電子郵件。"
+msgstr "透過標記建立使用者時發送預設的 WP 歡迎電子郵件。"
 
 #: app/Services/TransStrings.php:1230
 msgid "Send Email Invitation"
-msgstr "發送電子電子郵件邀請"
+msgstr "發送電子郵件邀請"
 
 #: app/Services/TransStrings.php:1236
 msgid ""
 "Send email notification on one-to-one messages (unread) to individual members"
-msgstr "向各個成員發送一對一訊息（未讀）的電子電子郵件通知"
+msgstr "向各個成員發送一對一訊息（未讀）的電子郵件通知"
 
 #: app/Services/TransStrings.php:1231
 #| msgid "Send Inviation"
@@ -7823,7 +7823,7 @@ msgstr "使用 FluentCRM 向會員發送 Email 並自動化執行。"
 
 #: app/Services/TransStrings.php:1237
 msgid "Sending email to all members?"
-msgstr "對所有會員發送電子電子郵件？"
+msgstr "對所有會員發送電子郵件？"
 
 #: app/Hooks/Handlers/PortalHandler.php:709
 msgid "Sep"
@@ -7868,8 +7868,8 @@ msgid ""
 "Set your from name, email, and email footer. These configurations will be "
 "used to send emails from FluentCommunity."
 msgstr ""
-"設定你的寄件者姓名、電子電子郵件地址和電子電子郵件頁尾。這些設定將用於從社群"
-"發送任何電子電子郵件。"
+"設定你的寄件者姓名、電子郵件地址和電子郵件頁尾。這些設定將用於從社群"
+"發送任何電子郵件。"
 
 #: app/Services/TransStrings.php:1246 app/Hooks/Handlers/PortalHandler.php:176
 msgid "Settings"
@@ -8443,7 +8443,7 @@ msgstr "提交日期"
 
 #: app/Services/AdminTransStrings.php:85
 msgid "Subscribe to feature updates email newsletter"
-msgstr "訂閱功能更新電子電子郵件通訊"
+msgstr "訂閱功能更新電子郵件通訊"
 
 #: app/Services/TransStrings.php:1329
 msgid "Subscribe to new posts notifications by space"
@@ -8618,7 +8618,7 @@ msgid ""
 "The Best Email Marketing Automation Plugin for WordPress. Capture, Segment "
 "and Automate your Marketing."
 msgstr ""
-"WordPress 的最佳電子電子郵件行銷自動化外掛。捕捉、區隔和自動化你的行銷。"
+"WordPress 的最佳電子郵件行銷自動化外掛。捕捉、區隔和自動化你的行銷。"
 
 #: app/Services/AdminTransStrings.php:86
 msgid "The Blazing-Fast ⚡️ Community Solution for"
@@ -8649,7 +8649,7 @@ msgstr ""
 
 #: app/Services/TransStrings.php:1344
 msgid "The email address is required!"
-msgstr "需要電子電子郵件地址！"
+msgstr "需要電子郵件地址！"
 
 #: app/Http/Controllers/FeedsController.php:258
 msgid "The feed could not be found"
@@ -8758,7 +8758,7 @@ msgid ""
 "These settings will apply only if the provided email address is not a "
 "registered WordPress user"
 msgstr ""
-"只有當提供的電子電子郵件地址不是 WordPress 註冊使用者時，這些設定才會適用"
+"只有當提供的電子郵件地址不是 WordPress 註冊使用者時，這些設定才會適用"
 
 #: app/Services/TransStrings.php:1354
 msgid "These settings will be applied across all spaces you're a member of."
@@ -8841,14 +8841,14 @@ msgid ""
 "It's highly recommended to use your business name and address in the footer "
 "for compliance."
 msgstr ""
-"從社群發送的所有電子電子郵件，請在 Email 頁面最下方，有你的公司名稱和地址確保"
+"從社群發送的所有電子郵件，請在 Email 頁面最下方，有你的公司名稱和地址確保"
 "合法性"
 
 #. %1$s is replaced by the title of the site, %2$s is replaced by the home URL
 #: Modules/Auth/AuthHelper.php:315
 #, php-format
 msgid "This email has been sent from %1$s. Site: %2$s"
-msgstr "電子電子郵件是從 %1$s 發送的。網站：%2$s"
+msgstr "電子郵件是從 %1$s 發送的。網站：%2$s"
 
 #: app/Services/TransStrings.php:1364
 msgid "This feature is available on the pro version of FluentCommunity"
@@ -8908,7 +8908,7 @@ msgstr "這是將應用於所有社群成員的預設設定。個人成員可以
 msgid ""
 "This is your default email sending frequency. Individual users can customize "
 "the frequency or disable the notification."
-msgstr "這是您的預設電子電子郵件發送頻率。個人使用者可以自訂頻率或停用通知。"
+msgstr "這是您的預設電子郵件發送頻率。個人使用者可以自訂頻率或停用通知。"
 
 #: Modules/Course/Services/CourseHelper.php:542
 msgid "This lesson is currently locked"
@@ -9045,7 +9045,7 @@ msgstr "時間"
 
 #: app/Services/TransStrings.php:1388
 msgid "Time to send the digest email"
-msgstr "發送摘要電子電子郵件的時間"
+msgstr "發送摘要電子郵件的時間"
 
 #: app/Services/TransStrings.php:1389
 msgid "Timeline"
@@ -9218,11 +9218,11 @@ msgstr "星期二"
 
 #: app/Services/TransStrings.php:1423
 msgid "Turn off Email Notification of This User"
-msgstr "關閉此使用者的電子電子郵件通知"
+msgstr "關閉此使用者的電子郵件通知"
 
 #: app/Services/TransStrings.php:1424
 msgid "Turn on Email Notification of This User"
-msgstr "開啟此使用者的電子電子郵件通知"
+msgstr "開啟此使用者的電子郵件通知"
 
 #: app/Services/TransStrings.php:1422
 msgid "Turn On Push Notifications"
@@ -9858,7 +9858,7 @@ msgstr "建立新貼文時，檢查貼文標題是否為必填項"
 msgid ""
 "When enabled, members can change their email address of the account "
 "(WordPress User account)."
-msgstr "啟用後，會員可以變更帳戶（WordPress 使用者帳戶）的電子電子郵件地址。"
+msgstr "啟用後，會員可以變更帳戶（WordPress 使用者帳戶）的電子郵件地址。"
 
 #: app/Services/TransStrings.php:1520
 #| msgid ""
@@ -9875,7 +9875,7 @@ msgid ""
 "based on their email address. Gravatar is a built-in feature of WP and "
 "powered by WordPress.com"
 msgstr ""
-"啟用後，Gravatar 照片服務會根據使用者的電子電子郵件地址自動取得使用者頭像。 "
+"啟用後，Gravatar 照片服務會根據使用者的電子郵件地址自動取得使用者頭像。 "
 "Gravatar 是 WP 的內建功能，由 WordPress.com 提供支援"
 
 #: app/Services/TransStrings.php:1522
@@ -9905,7 +9905,7 @@ msgid ""
 "click on the email notification links. This feature is secure and uses "
 "signed URLs. User with post edit access will not be logged in automatically."
 msgstr ""
-"啟用後，使用者點選電子電子郵件通知連結時將自動登入入口網站。此功能是安全的並"
+"啟用後，使用者點選電子郵件通知連結時將自動登入入口網站。此功能是安全的並"
 "使用簽署的 URL。具有貼文編輯權限的使用者將不會自動登入。"
 
 #: app/Services/TransStrings.php:1526
@@ -9996,7 +9996,7 @@ msgstr "在這裡寫點東西..."
 
 #: app/Services/TransStrings.php:1542
 msgid "Write the email message"
-msgstr "撰寫電子電子郵件內容"
+msgstr "撰寫電子郵件內容"
 
 #: app/Services/TransStrings.php:1543
 msgid "Write your question here"
@@ -10081,7 +10081,7 @@ msgstr "你已經註冊了本課程。"
 #, php-format
 #| msgid "You are getting this email because you are a member of %s"
 msgid "You are getting this email because you are an admin/moderator at %s"
-msgstr "你收到這封電子電子郵件是因為你是 %s 的管理員/版主"
+msgstr "你收到這封電子郵件是因為你是 %s 的管理員/版主"
 
 #: app/Http/Controllers/SpaceController.php:457
 msgid "You are not a member of this community"
@@ -10384,7 +10384,7 @@ msgstr "你應該啟用功能。目前已禁用。"
 
 #: app/Services/TransStrings.php:1580
 msgid "You will get a digest email with curated activities in the community"
-msgstr "你將收到一封摘要電子電子郵件，其中包含社群中精選的活動"
+msgstr "你將收到一封摘要電子郵件，其中包含社群中精選的活動"
 
 #. %s is the frequency of the email notifications
 #: app/Services/TransStrings.php:1582
@@ -10395,7 +10395,7 @@ msgstr "你將收到一封摘要電子電子郵件，其中包含社群中精選
 msgid ""
 "You will get email notifications on new messages from your last "
 "notification. Frequency: %s"
-msgstr "您將收到上次通知中有關新訊息的電子電子郵件通知。頻率：%1s"
+msgstr "您將收到上次通知中有關新訊息的電子郵件通知。頻率：%1s"
 
 #: app/Services/TransStrings.php:1583
 msgid "You will get push notifications on replies and imprortant updates."
@@ -10403,16 +10403,16 @@ msgstr "您將收到回覆和重要更新的推播通知。"
 
 #: app/Services/TransStrings.php:1584
 msgid "You will not get any email on new messages from any members"
-msgstr "您將不會收到任何成員發送的新訊息的電子電子郵件"
+msgstr "您將不會收到任何成員發送的新訊息的電子郵件"
 
 #: app/Services/TransStrings.php:1585
 msgid "You will receive an email when someone leaves a comment on your post."
-msgstr "當有人對你的貼文發表留言時，你將收到一封電子電子郵件。"
+msgstr "當有人對你的貼文發表留言時，你將收到一封電子郵件。"
 
 #: app/Services/TransStrings.php:1586
 msgid ""
 "You will receive an email when someone mentions you in a comment or post."
-msgstr "當有人在留言或貼文中提及你時，你將收到一封電子電子郵件。"
+msgstr "當有人在留言或貼文中提及你時，你將收到一封電子郵件。"
 
 #: app/Services/TransStrings.php:1587
 msgid "You will receive an email when someone replies to your comments."
@@ -10420,7 +10420,7 @@ msgstr "當有人回覆你的留言時，你將收到Email通知"
 
 #: Modules/Auth/AuthHelper.php:227 Modules/Auth/AuthHelper.php:434
 msgid "Your account email address"
-msgstr "你的帳戶電子電子郵件地址"
+msgstr "你的帳戶電子郵件地址"
 
 #: app/Hooks/Handlers/PortalHandler.php:803
 msgid "Your account is deactivated"
@@ -10467,11 +10467,11 @@ msgstr "您的 CSS 程式碼"
 
 #: app/Services/AdminTransStrings.php:101
 msgid "Your Email Address"
-msgstr "你的電子電子郵件地址"
+msgstr "你的電子郵件地址"
 
 #: Modules/Auth/AuthHelper.php:167
 msgid "Your email address"
-msgstr "你的電子電子郵件地址"
+msgstr "你的電子郵件地址"
 
 #: app/Services/TransStrings.php:1598
 msgid "Your enrolled courses will be shown here"
@@ -11262,11 +11262,11 @@ msgstr "使用內建的 Fluent Socket 伺服器。您可以在以下網址建立
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php
 msgid "User's Email"
-msgstr "使用者的電子電子郵件"
+msgstr "使用者的電子郵件"
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php
 msgid "User's Email:"
-msgstr "使用者的電子電子郵件："
+msgstr "使用者的電子郵件："
 
 #: app/Hooks/Handlers/FluentBlockEditorHandler.php
 msgid "User's Name"
