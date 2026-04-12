@@ -3,12 +3,21 @@
 # check-upstream.sh - 透過 GitHub API 查詢各外掛最新版本
 # Usage: ./check-upstream.sh [--quiet]
 
+# Bash 4+ required (project scripts may use associative arrays)
+if (( BASH_VERSINFO[0] < 4 )); then
+    echo "Error: Bash >= 4.0 is required. Detected: ${BASH_VERSION}" >&2
+    echo "macOS ships with Bash 3.2 by default. Install newer Bash (e.g. 'brew install bash') and rerun with:" >&2
+    echo "  /opt/homebrew/bin/bash $0 $*" >&2
+    echo "  /usr/local/bin/bash $0 $*" >&2
+    exit 1
+fi
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 TRACKER_FILE="${SCRIPT_DIR}/version-tracker.json"
 
-# Domain 到 GitHub repo 的對應表（相容 macOS bash 3.2）
+# Domain 到 GitHub repo 的對應表
 get_repo_for_domain() {
     local domain="$1"
     case "$domain" in

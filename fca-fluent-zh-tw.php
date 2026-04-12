@@ -384,7 +384,7 @@ class FCA_Fluent_ZhTW {
         ?>
         <script>
         (function() {
-            var _extraI18n = <?php echo json_encode($extra_strings, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+            var _extraI18n = <?php echo wp_json_encode($extra_strings, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
             if (typeof window.fcaEventsI18n !== 'undefined') {
                 for (var k in _extraI18n) {
                     if (!window.fcaEventsI18n[k]) {
@@ -465,14 +465,14 @@ class FCA_Fluent_ZhTW {
 
             // fluent-community（fluentComAdmin.i18n）
             var _fci = window.fluentComAdmin && window.fluentComAdmin.i18n;
-            var _fcTr = <?php echo json_encode($fluent_community, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+            var _fcTr = <?php echo wp_json_encode($fluent_community, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
             if (_fci) {
                 for (var k in _fcTr) { _set(_fci, k, _fcTr[k]); }
             }
 
             // fluent-booking 前台（fluentCalendarPublicVars.i18）
             var _fbi = window.fluentCalendarPublicVars && window.fluentCalendarPublicVars.i18;
-            var _fbTr = <?php echo json_encode($fluent_booking_public, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
+            var _fbTr = <?php echo wp_json_encode($fluent_booking_public, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
             if (_fbi) {
                 for (var k in _fbTr) { _set(_fbi, k, _fbTr[k]); }
             }
@@ -706,30 +706,30 @@ class FCA_Fluent_ZhTW {
 
             // fluent-booking 後台 + fluent-player 後台（共用 fluentFrameworkAdmin.trans）
             var _ffa = window.fluentFrameworkAdmin && window.fluentFrameworkAdmin.trans;
-            _merge(_ffa, <?php echo json_encode($fluent_framework_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_ffa, <?php echo wp_json_encode($fluent_framework_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-cart 後台（fluentCartAdminApp.trans）
             var _fca = window.fluentCartAdminApp && window.fluentCartAdminApp.trans;
-            _merge(_fca, <?php echo json_encode($fluent_cart_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_fca, <?php echo wp_json_encode($fluent_cart_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-cart Block Editor（fluent_cart_block_translation）
-            _merge(window.fluent_cart_block_translation, <?php echo json_encode($fluent_cart_block, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(window.fluent_cart_block_translation, <?php echo wp_json_encode($fluent_cart_block, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-crm 後台（fcAdmin.trans）
             var _fcAdm = window.fcAdmin && window.fcAdmin.trans;
-            _merge(_fcAdm, <?php echo json_encode($fluent_crm_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_fcAdm, <?php echo wp_json_encode($fluent_crm_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-cart-pro Authorize.Net（fct_authorize_dot_net_data.translations）
             var _authnet = window.fct_authorize_dot_net_data && window.fct_authorize_dot_net_data.translations;
-            _merge(_authnet, <?php echo json_encode($fluent_cart_pro_authnet, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_authnet, <?php echo wp_json_encode($fluent_cart_pro_authnet, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-security 後台（fluentAuthAdmin.i18n）
             var _fsecI18n = window.fluentAuthAdmin && window.fluentAuthAdmin.i18n;
-            _merge(_fsecI18n, <?php echo json_encode($fluent_security_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_fsecI18n, <?php echo wp_json_encode($fluent_security_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
 
             // fluent-smtp 後台（FluentMailAdmin.trans）
             var _fsmtpTr = window.FluentMailAdmin && window.FluentMailAdmin.trans;
-            _merge(_fsmtpTr, <?php echo json_encode($fluent_smtp_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            _merge(_fsmtpTr, <?php echo wp_json_encode($fluent_smtp_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
         })();
         </script>
         <?php
@@ -812,7 +812,7 @@ class FCA_Fluent_ZhTW {
         // 注入頁面識別符，方便未來擴充依頁面過濾翻譯
         wp_add_inline_script(
             'fca-zh-tw-translations',
-            'window.FCA_ZH_TW_PAGE_CONTEXT = ' . wp_json_encode($page) . ';',
+            'window.FCA_ZH_TW_PAGE_CONTEXT = ' . wp_wp_json_encode($page) . ';',
             'before'
         );
     }

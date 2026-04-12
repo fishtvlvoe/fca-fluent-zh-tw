@@ -19,6 +19,21 @@ class FCA_Fluent_ZhTW_Updater {
     private $cache_key    = 'fca_fluent_zhTW_update';
     private $cache_ttl    = 43200; // 12 小時
 
+    /**
+     * PHP 7.4 相容：取代 PHP 8+ 的 str_ends_with()
+     */
+    private function ends_with($haystack, $needle) {
+        $haystack = (string) $haystack;
+        $needle   = (string) $needle;
+
+        if ($needle === '') {
+            return true;
+        }
+
+        $len = strlen($needle);
+        return substr($haystack, -$len) === $needle;
+    }
+
     public function __construct($plugin_file, $version) {
         $this->plugin_file = $plugin_file;
         $this->plugin_slug = plugin_basename($plugin_file);
@@ -77,7 +92,7 @@ class FCA_Fluent_ZhTW_Updater {
             $zip_url = '';
             if (!empty($release->assets)) {
                 foreach ($release->assets as $asset) {
-                    if (str_ends_with($asset->name, '.zip')) {
+                    if ($this->ends_with($asset->name, '.zip')) {
                         $zip_url = $asset->browser_download_url;
                         break;
                     }

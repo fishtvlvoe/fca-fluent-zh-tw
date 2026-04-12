@@ -3,6 +3,15 @@
 # monthly-release.sh - 整合版本檢查和 diff，每月 20 日自動執行
 # Usage: ./monthly-release.sh [--urgent] [--update-tracker]
 
+# Bash 4+ required (uses associative arrays)
+if (( BASH_VERSINFO[0] < 4 )); then
+    echo "Error: Bash >= 4.0 is required. Detected: ${BASH_VERSION}" >&2
+    echo "macOS ships with Bash 3.2 by default. Install newer Bash (e.g. 'brew install bash') and rerun with:" >&2
+    echo "  /opt/homebrew/bin/bash $0 $*" >&2
+    echo "  /usr/local/bin/bash $0 $*" >&2
+    exit 1
+fi
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -52,7 +61,7 @@ echo "${PREFIX}Starting monthly translation update workflow..."
 # 執行 check-upstream.sh
 echo ""
 echo "=== Step 1: Checking upstream versions ==="
-if ! upstream_output=$(bash "$CHECK_UPSTREAM" 2>&1); then
+if ! upstream_output=$("$BASH" "$CHECK_UPSTREAM" 2>&1); then
     exit_code=$?
     if [[ $exit_code -ne 1 ]]; then
         # 只有 exit 1 (有更新) 是允許的非零 exit，其他都是錯誤
