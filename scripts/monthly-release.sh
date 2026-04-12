@@ -19,6 +19,7 @@ REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 TRACKER_FILE="${SCRIPT_DIR}/version-tracker.json"
 CHECK_UPSTREAM="${SCRIPT_DIR}/check-upstream.sh"
 DIFF_DOMAINS="${SCRIPT_DIR}/diff-domains.sh"
+PRE_RELEASE_CHECK="${SCRIPT_DIR}/pre-release-check.sh"
 
 URGENT_MODE=false
 UPDATE_TRACKER=false
@@ -55,6 +56,15 @@ PREFIX=""
 if [[ "$URGENT_MODE" == true ]]; then
     PREFIX="[URGENT RELEASE] "
 fi
+
+# 步驟 0：發版前檢查（PHP 相容性 + 安全性 + 語法）
+echo "${PREFIX}Running pre-release checks..."
+if ! bash "$PRE_RELEASE_CHECK"; then
+    echo "${PREFIX}❌ Pre-release checks failed. Aborting."
+    exit 1
+fi
+echo "${PREFIX}✅ Pre-release checks passed."
+echo ""
 
 echo "${PREFIX}Starting monthly translation update workflow..."
 
