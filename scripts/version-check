@@ -1,0 +1,154 @@
+#!/bin/bash
+# 版本同步快速檢查（Bash 包裝器）
+# 用法：
+#   bash scripts/version-check              # 執行檢查
+#   bash scripts/version-check --help       # 說明
+#   bash scripts/version-check --auto-fix   # 自動遞增版本（實驗）
+
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+PLUGIN_FILE="${PROJECT_ROOT}/fca-fluent-zh-tw.php"
+
+# ════════════════════════════════════════════════════════════════════
+# 說明
+# ════════════════════════════════════════════════════════════════════
+
+show_help() {
+    cat <<EOF
+版本同步檢查工具
+
+用法：
+  bash scripts/version-check [options]
+
+選項：
+  --check              執行完整檢查（預設）
+  --auto-fix           自動遞增版本號（建議 pre-commit 後使用）
+  --force-tag          強制建立 tag（用於修復 CI 故障）
+  --help               顯示此說明
+
+範例：
+  # 檢查版本是否同步
+  bash scripts/version-check
+
+  # 檢查後自動遞增版本
+  bash scripts/version-check --auto-fix
+
+  # 強制建立 tag 並發佈（慎用！）
+  bash scripts/version-check --force-tag
+
+EOF
+}
+
+# ════════════════════════════════════════════════════════════════════
+# 工具函數
+# ════════════════════════════════════════════════════════════════════
+
+get_current_version() {
+    grep "^\s*\* Version:" "$PLUGIN_FILE" | sed 's/.*Version: //;s/ .*//' | head -1
+}
+
+get_latest_tag() {
+    git tag -l "v*" --sort=-version:refname | head -1 | sed 's/^v//'
+}
+
+increment_version() {
+    local version=$1
+    local major=$(echo "$version" | cut -d. -f1)
+    local minor=$(echo "$version" | cut -d. -f2)
+    local patch=$(echo "$version" | cut -d. -f3)
+
+    patch=$((patch + 1))
+    echo "${major}.${minor}.${patch}"
+}
+
+# ════════════════════════════════════════════════════════════════════
+# 檢查邏輯
+# ════════════════════════════════════════════════════════════════════
+
+check_version_sync() {
+    local current=$(get_current_version)
+    local latest=$(get_latest_tag)
+
+    echo "📝 當前版本: $current"
+    echo "📦 最新標籤: ${latest:-N/A}"
+
+    if [ -z "$latest" ]; then
+        echo "⚠️  尚無發版歷史"
+        return 0
+    fi
+
+    if [ "$current" = "$latest" ]; then
+        echo "✅ 版本同步"
+        return 0
+    else
+        echo "❌ 版本不同步！"
+        echo "   當前 ($current) ≠ 標籤 (v$latest)"
+        return 1
+    fi
+}
+
+auto_fix() {
+    local current=$(get_current_version)
+    local new_version=$(increment_version "$current")
+
+    echo "🔧 自動遞增版本..."
+    echo "   $current → $new_version"
+
+    # 更新版本號
+    if [[ "$OSTYPE" == "darwin"* ]]; then
+        # macOS
+        sed -i '' "s/Version: $current/Version: $new_version/" "$PLUGIN_FILE"
+    else
+        # Linux
+        sed -i "s/Version: $current/Version: $new_version/" "$PLUGIN_FILE"
+    fi
+
+    echo "✅ 版本已更新"
+    echo ""
+    echo "下一步："
+    echo "  git add fca-fluent-zh-tw.php"
+    echo "  git commit -m 'chore: bump version to $new_version'"
+    echo "  git push origin main"
+}
+
+force_tag() {
+    local current=$(get_current_version)
+    local tag="v${current}"
+
+    echo "🏷️  強制建立 tag: $tag"
+
+    git tag -f "$tag"
+    git push -f origin "$tag"
+
+    echo "✅ Tag 已強制推送"
+    echo "   GitHub Actions 應於 1-5 分鐘內建立 Release"
+}
+
+# ════════════════════════════════════════════════════════════════════
+# 主邏輯
+# ════════════════════════════════════════════════════════════════════
+
+case "${1:-}" in
+    --help)
+        show_help
+        exit 0
+        ;;
+    --check)
+        check_version_sync
+        exit $?
+        ;;
+    --auto-fix)
+        auto_fix
+        exit 0
+        ;;
+    --force-tag)
+        force_tag
+        exit 0
+        ;;
+    *)
+        check_version_sync
+        exit $?
+        ;;
+esac

@@ -1,0 +1,92 @@
+#!/bin/sh
+# .husky/pre-commit
+# 三層檢查：版本號 + Release 同步 + commit message 規範
+
+set -e
+
+# ════════════════════════════════════════════════════════════════════
+# 層1：功能檔案變更必須附帶版本號遞增
+# ════════════════════════════════════════════════════════════════════
+
+CHANGED_FILES=$(git diff --cached --name-only | grep -vE '^\.(DS_Store|git)' || true)
+
+if [ -n "$CHANGED_FILES" ]; then
+  # 有實質改動（不只是 .DS_Store）
+
+  # 取得 staged 版本號和 HEAD 版本號
+  STAGED_VERSION=$(git show :fca-fluent-zh-tw.php 2>/dev/null | grep "^\s*\* Version:" | sed 's/.*Version: //;s/ .*//' | head -1)
+  HEAD_VERSION=$(git show HEAD:fca-fluent-zh-tw.php 2>/dev/null | grep "^\s*\* Version:" | sed 's/.*Version: //;s/ .*//' | head -1 || echo "0.0.0")
+
+  if [ "$STAGED_VERSION" = "$HEAD_VERSION" ]; then
+    echo "❌ Error: 有功能改動但版本號未遞增"
+    echo ""
+    echo "   當前版本：$HEAD_VERSION"
+    echo "   Staged 版本：$STAGED_VERSION（相同！）"
+    echo ""
+    echo "   修復方式："
+    echo "   1. 編輯 fca-fluent-zh-tw.php"
+    echo "   2. 在第 6 行的 Version 欄位遞增"
+    echo "      範例：1.6.3 → 1.6.4（patch +0.0.1）"
+    echo "   3. git add fca-fluent-zh-tw.php"
+    echo "   4. git commit 重新提交"
+    echo ""
+    exit 1
+  fi
+fi
+
+# ════════════════════════════════════════════════════════════════════
+# 層2：檢查 git tag 是否匹配 Version（防止發版漏掉）
+# ════════════════════════════════════════════════════════════════════
+
+CURRENT_VERSION=$(grep "^\s*\* Version:" fca-fluent-zh-tw.php | sed 's/.*Version: //;s/ .*//' | head -1)
+EXISTING_TAG=$(git tag -l "v${CURRENT_VERSION}" || echo "")
+
+if [ -n "$EXISTING_TAG" ]; then
+  # Tag 已存在，檢查是否有新 commit 未標記
+  TAG_COMMIT=$(git rev-list -n 1 "v${CURRENT_VERSION}" 2>/dev/null || echo "")
+  CURRENT_COMMIT=$(git rev-parse HEAD)
+
+  if [ "$TAG_COMMIT" != "$CURRENT_COMMIT" ] && git diff --cached --quiet; then
+    echo "⚠️  Warning: 版本 v${CURRENT_VERSION} 的 tag 已存在，但有新 commit 未標記"
+    echo "   這通常表示："
+    echo "   - 版本號遞增了，但 Release 自動化尚未執行"
+    echo "   - 或者 tag 名稱與 Version 不匹配"
+    echo ""
+    echo "   建議："
+    echo "   - 若這是新版本，請確保 push 後 GitHub Actions 會自動建立 Release"
+    echo "   - 若只是本地開發，暫可忽略此警告"
+    echo ""
+  fi
+fi
+
+# ════════════════════════════════════════════════════════════════════
+# 層3：commit message 必須符合 conventional commits
+# ════════════════════════════════════════════════════════════════════
+
+if [ -f ".git/COMMIT_EDITMSG" ]; then
+  MSG=$(cat ".git/COMMIT_EDITMSG" | head -1)
+
+  # 檢查格式：type(scope): subject 或 type: subject
+  if ! echo "$MSG" | grep -qE "^(feat|fix|docs|style|refactor|perf|test|chore)(\(.+\))?: .+"; then
+    echo "❌ Error: commit message 不符合 conventional commits 格式"
+    echo ""
+    echo "   正確格式："
+    echo "   - feat(scope): add new feature"
+    echo "   - fix: correct typo"
+    echo "   - docs: update README"
+    echo ""
+    echo "   允許的 type："
+    echo "   - feat：新功能"
+    echo "   - fix：修復"
+    echo "   - docs：文檔"
+    echo "   - style：格式"
+    echo "   - refactor：重構"
+    echo "   - perf：性能"
+    echo "   - test：測試"
+    echo "   - chore：維護"
+    echo ""
+    exit 1
+  fi
+fi
+
+exit 0

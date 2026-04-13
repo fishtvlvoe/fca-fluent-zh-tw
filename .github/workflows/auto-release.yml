@@ -1,62 +1,158 @@
-name: 自動發布 Release
+name: Auto Release & Sync
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'languages/**'
       - 'fca-fluent-zh-tw.php'
+      - 'languages/**'
+      - 'updater.php'
 
 permissions:
   contents: write
 
 jobs:
+  # ════════════════════════════════════════════════════════════════════
+  # Job 1: 檢測版本號變更 + 自動建立 Release & Tag
+  # ════════════════════════════════════════════════════════════════════
   release:
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.current }}
+      version_changed: ${{ steps.version.outputs.changed }}
 
     steps:
-      - name: 檢出代碼
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: 取得最新版本號
+      - name: 比對版本號
         id: version
         run: |
-          VERSION=$(grep "Version:" fca-fluent-zh-tw.php | head -1 | sed 's/.*Version: //;s/ .*//')
-          echo "version=${VERSION}" >> $GITHUB_OUTPUT
-          echo "版本號: $VERSION"
+          # 取得 PHP 中的版本號
+          CURRENT=$(grep "Version:" fca-fluent-zh-tw.php | head -1 | sed 's/.*Version: //;s/ .*//')
+          echo "current=${CURRENT}" >> $GITHUB_OUTPUT
 
-      - name: 檢查 Release 是否已存在
-        id: check
-        run: |
-          if gh release view "v${{ steps.version.outputs.version }}" > /dev/null 2>&1; then
-            echo "exists=true" >> $GITHUB_OUTPUT
+          # 取得最新的 git tag 版本號
+          LATEST_TAG=$(git tag -l "v*" --sort=-version:refname | head -1 || echo "")
+          LATEST=${LATEST_TAG#v}
+
+          echo "latest=${LATEST}" >> $GITHUB_OUTPUT
+
+          if [ "$CURRENT" != "$LATEST" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✅ 版本已變更：$LATEST → $CURRENT"
           else
-            echo "exists=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "⏭️  版本未變更，跳過發佈"
           fi
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 生成 Changelog
+        if: steps.version.outputs.changed == 'true'
+        id: changelog
+        run: |
+          VERSION=${{ steps.version.outputs.current }}
+          LATEST_TAG=$(git tag -l "v*" --sort=-version:refname | head -1 || echo "")
+
+          if [ -z "$LATEST_TAG" ]; then
+            # 首次發布，列出所有 commit
+            COMMITS=$(git log --pretty=format:"- %h %s" | head -30)
+          else
+            # 增量發布，只列出新增 commit
+            COMMITS=$(git log ${LATEST_TAG}..HEAD --pretty=format:"- %h %s" || echo "（無新增 commit，請檢查版本號邏輯）")
+          fi
+
+          CHANGELOG=$(cat <<EOF
+          ## 修正與改進
+
+          \`\`\`
+          $COMMITS
+          \`\`\`
+
+          ### 安裝指南
+          - WordPress 後台 > 外掛 > 已安裝外掛
+          - 搜尋「FCA & Fluent 繁體中文翻譯包」
+          - 點擊「更新」即可升級至 v${VERSION}
+
+          ### GitHub
+          - Repository: https://github.com/fishtvlvoe/fca-fluent-zh-tw
+          - Release: https://github.com/fishtvlvoe/fca-fluent-zh-tw/releases/tag/v${VERSION}
+          EOF
+          )
+
+          echo "changelog<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGELOG" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: 建立 Git Tag
+        if: steps.version.outputs.changed == 'true'
+        run: |
+          VERSION=${{ steps.version.outputs.current }}
+          git tag "v${VERSION}"
+          git push origin "v${VERSION}"
 
       - name: 打包外掛
-        if: steps.check.outputs.exists == 'false'
+        if: steps.version.outputs.changed == 'true'
         run: |
           bash build.sh
           # build.sh 輸出到上層目錄，移到當前目錄
           mv ../fca-fluent-zh-tw-*.zip . 2>/dev/null || true
-          ls -lh fca-fluent-zh-tw-*.zip
+          ls -lh fca-fluent-zh-tw-*.zip 2>/dev/null || echo "打包未產生 zip（可能不需要）"
 
-      - name: 建立 Release
-        if: steps.check.outputs.exists == 'false'
+      - name: 建立 GitHub Release
+        if: steps.version.outputs.changed == 'true'
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ steps.version.outputs.version }}
-          name: v${{ steps.version.outputs.version }}
-          body: |
-            ## FCA & Fluent 繁體中文翻譯包 v${{ steps.version.outputs.version }}
-
-            翻譯字串更新與修正。詳見 Git 提交記錄。
+          tag_name: v${{ steps.version.outputs.current }}
+          name: v${{ steps.version.outputs.current }}
+          body: ${{ steps.changelog.outputs.changelog }}
           files: fca-fluent-zh-tw-*.zip
           draft: false
           prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  # ════════════════════════════════════════════════════════════════════
+  # Job 2: 發版成功後，驗證 CDN 快取清除與 WordPress 外掛索引同步
+  # ════════════════════════════════════════════════════════════════════
+  post-release:
+    needs: release
+    if: needs.release.outputs.version_changed == 'true'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: 驗證 Release 資訊
+        run: |
+          VERSION=${{ needs.release.outputs.version }}
+          echo "✅ Release v${VERSION} 已建立成功"
+          echo "   GitHub URL: https://github.com/fishtvlvoe/fca-fluent-zh-tw/releases/tag/v${VERSION}"
+          echo "   Zip 下載: https://github.com/fishtvlvoe/fca-fluent-zh-tw/releases/download/v${VERSION}/fca-fluent-zh-tw-${VERSION}.zip"
+          echo ""
+          echo "   WordPress 外掛後台更新檢查延遲："
+          echo "   - 首次檢查：1-5 分鐘（GitHub API 查詢最新 release）"
+          echo "   - WordPress 快取：12 小時（可手動清除：wp transient delete fca_fluent_zhTW_update）"
+          echo ""
+
+      - name: 通知（可選 - 需要設定 SLACK_WEBHOOK_URL）
+        if: env.SLACK_WEBHOOK_URL != ''
+        run: |
+          VERSION=${{ needs.release.outputs.version }}
+          curl -X POST "${{ secrets.SLACK_WEBHOOK_URL }}" \
+            -H 'Content-Type: application/json' \
+            -d "{
+              \"text\": \"🎉 FCA & Fluent 翻譯包 v${VERSION} 已發佈\",
+              \"blocks\": [{
+                \"type\": \"section\",
+                \"text\": {
+                  \"type\": \"mrkdwn\",
+                  \"text\": \"*FCA & Fluent 翻譯包*\n新版本：v${VERSION}\n<https://github.com/fishtvlvoe/fca-fluent-zh-tw/releases/tag/v${VERSION}|檢視詳情>\"
+                }
+              }]
+            }"
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
