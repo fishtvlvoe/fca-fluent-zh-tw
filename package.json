@@ -1,0 +1,22 @@
+{
+  "name": "fca-fluent-zh-tw",
+  "version": "1.6.4",
+  "description": "FCA & Fluent 繁體中文翻譯包 — 為 FCA、FCE、FCHub、Fluent 系列外掛提供完整繁體中文本地化",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3"
+  },
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "translation",
+    "fluent",
+    "fca",
+    "traditional-chinese"
+  ],
+  "author": "BuyGo",
+  "license": "GPL-2.0-or-later"
+}

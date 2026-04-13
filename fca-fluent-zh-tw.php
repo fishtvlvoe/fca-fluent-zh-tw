@@ -3,7 +3,7 @@
  * Plugin Name: FCA & Fluent 繁體中文翻譯包
  * Plugin URI: https://aiver.me
  * Description: 為所有 FCA 系列與 Fluent 系列外掛提供繁體中文翻譯，不修改原始外掛檔案，更新外掛不受影響。
- * Version: 1.6.3
+ * Version: 1.6.4
  * Author: BuyGo
  * License: GPL v2 or later
  * Text Domain: fca-fluent-zh-tw
