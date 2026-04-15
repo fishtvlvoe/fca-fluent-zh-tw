@@ -103,5 +103,12 @@
     "Open the browser menu (⋮ or ⋯)": "開啟瀏覽器選單 (⋮ 或 ⋯)",
     "Look for \"Install app\" or \"Add to Home Screen\"": "尋找「安裝應用程式」或「加入主畫面」",
     "Follow the prompts to install": "依照提示進行安裝",
-    "Note: This feature may not be available in all browsers. For best results, use Chrome, Edge, or Safari.": "註：此功能並非在所有瀏覽器中都可用。為了獲得最佳效果，請使用 Chrome、Edge 或 Safari。"
+    "Note: This feature may not be available in all browsers. For best results, use Chrome, Edge, or Safari.": "註：此功能並非在所有瀏覽器中都可用。為了獲得最佳效果，請使用 Chrome、Edge 或 Safari。",
+    "Install %s": "安裝 %s",
+    "Add to Home Screen": "加入主畫面",
+    "Tap the Share button": "點擊「分享」按鈕",
+    "Scroll down and tap Add to Home Screen": "向下捲動並點擊「加入主畫面」",
+    "Open the browser menu": "開啟瀏覽器選單",
+    "Tap Add to install": "點擊「新增」以安裝",
+    "Close": "關閉"
 }

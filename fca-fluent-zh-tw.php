@@ -1,30 +1,4 @@
 <?php
-/**
-     * 專項修復：FCA PWA 安裝提示攔截器
-     * 直接修改瀏覽器記憶體中的資料物件
-     */
-    public static function fix_pwa_install_prompt_i18n() {
-        if (!wp_script_is('fca-pwa-install', 'enqueued')) return;
-        ?>
-        <script>
-        (function() {
-            var fixPwa = function() {
-                var trans = {
-                    'addToDevice': '新增至您的裝置',
-                    'addToHomeScreen': '加入主畫面',
-                    'openBrowserMenu': '開啟瀏覽器選單',
-                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
-                    'followPrompts': '依照提示進行安裝',
-                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
-                    'tapShareButton': '點擊「分享」按鈕',
-                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
-                    'tapAddToInstall': '點擊「新增」以安裝',
-                    'close': '關閉',
-                    'installApp': '安裝應用程式'
-                };
-                [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n].forEach(function(obj) {
-                    if (obj && obj.i18n) {
-                        for (var k in trans) { obj.i18n[k] = trans[k]; }
                         if (obj.i18n.installApp && obj.i18n.installApp.indexOf('Install') === 0) {
                             obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
                         }
@@ -312,21 +286,44 @@
             'Optional'                          => '選填',
         ];
 
-        // 直接輸出 <script>，因為這是在 fluent_community/portal_head hook 裡
-        // 此時 fcaEventsI18n 已經由 fca-events 在 priority 10 設定好了
-        ?>
-        <script>
+        // 直接輸出 <script>
         (function() {
-            var _extraI18n = <?php echo wp_json_encode($extra_strings, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
-            if (typeof window.fcaEventsI18n !== 'undefined') {
-                for (var k in _extraI18n) {
-                    if (!window.fcaEventsI18n[k]) {
-                        window.fcaEventsI18n[k] = _extraI18n[k];
+            var runFix = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                var targets = [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n];
+                targets.forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.includes('Install')) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
                     }
-                }
+                });
+            };
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', runFix);
             } else {
-                window.fcaEventsI18n = _extraI18n;
+                runFix();
             }
+            window.addEventListener('load', runFix);
+            // 針對動態彈窗，每秒巡檢一次，跑 5 次
+            var count = 0;
+            var timer = setInterval(function() {
+                runFix();
+                if (++count > 5) clearInterval(timer);
+            }, 1000);
         })();
         </script>
         <?php
@@ -347,16 +344,42 @@
         ?>
         <script>
         (function() {
-            if (typeof window.fca_push_vars === 'undefined') return;
-            if (!window.fca_push_vars['testNotificationTitle']) {
-                window.fca_push_vars['testNotificationTitle'] = '測試通知';
+            var runFix = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                var targets = [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n];
+                targets.forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.includes('Install')) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                });
+            };
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', runFix);
+            } else {
+                runFix();
             }
-            if (!window.fca_push_vars['testNotificationBody']) {
-                window.fca_push_vars['testNotificationBody'] = '這是來自 FCA 推播通知的測試通知！若您看到此訊息，表示通知功能正常運作。';
-            }
-            if (!window.fca_push_vars['testingNotifications']) {
-                window.fca_push_vars['testingNotifications'] = '正在測試通知...';
-            }
+            window.addEventListener('load', runFix);
+            // 針對動態彈窗，每秒巡檢一次，跑 5 次
+            var count = 0;
+            var timer = setInterval(function() {
+                runFix();
+                if (++count > 5) clearInterval(timer);
+            }, 1000);
         })();
         </script>
         <?php
@@ -392,23 +415,42 @@
         ?>
         <script>
         (function() {
-            var _set = function(obj, key, val) {
-                if (obj && !Object.prototype.hasOwnProperty.call(obj, key)) { obj[key] = val; }
+            var runFix = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                var targets = [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n];
+                targets.forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.includes('Install')) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                });
             };
-
-            // fluent-community（fluentComAdmin.i18n）
-            var _fci = window.fluentComAdmin && window.fluentComAdmin.i18n;
-            var _fcTr = <?php echo wp_json_encode($fluent_community, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
-            if (_fci) {
-                for (var k in _fcTr) { _set(_fci, k, _fcTr[k]); }
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', runFix);
+            } else {
+                runFix();
             }
-
-            // fluent-booking 前台（fluentCalendarPublicVars.i18）
-            var _fbi = window.fluentCalendarPublicVars && window.fluentCalendarPublicVars.i18;
-            var _fbTr = <?php echo wp_json_encode($fluent_booking_public, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>;
-            if (_fbi) {
-                for (var k in _fbTr) { _set(_fbi, k, _fbTr[k]); }
-            }
+            window.addEventListener('load', runFix);
+            // 針對動態彈窗，每秒巡檢一次，跑 5 次
+            var count = 0;
+            var timer = setInterval(function() {
+                runFix();
+                if (++count > 5) clearInterval(timer);
+            }, 1000);
         })();
         </script>
         <?php
@@ -629,40 +671,42 @@
         ?>
         <script>
         (function() {
-            var _set = function(obj, key, val) {
-                if (obj && !Object.prototype.hasOwnProperty.call(obj, key)) { obj[key] = val; }
+            var runFix = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                var targets = [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n];
+                targets.forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.includes('Install')) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                });
             };
-            var _merge = function(target, src) {
-                if (!target || !src) return;
-                for (var k in src) { _set(target, k, src[k]); }
-            };
-
-            // fluent-booking 後台 + fluent-player 後台（共用 fluentFrameworkAdmin.trans）
-            var _ffa = window.fluentFrameworkAdmin && window.fluentFrameworkAdmin.trans;
-            _merge(_ffa, <?php echo wp_json_encode($fluent_framework_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-cart 後台（fluentCartAdminApp.trans）
-            var _fca = window.fluentCartAdminApp && window.fluentCartAdminApp.trans;
-            _merge(_fca, <?php echo wp_json_encode($fluent_cart_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-cart Block Editor（fluent_cart_block_translation）
-            _merge(window.fluent_cart_block_translation, <?php echo wp_json_encode($fluent_cart_block, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-crm 後台（fcAdmin.trans）
-            var _fcAdm = window.fcAdmin && window.fcAdmin.trans;
-            _merge(_fcAdm, <?php echo wp_json_encode($fluent_crm_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-cart-pro Authorize.Net（fct_authorize_dot_net_data.translations）
-            var _authnet = window.fct_authorize_dot_net_data && window.fct_authorize_dot_net_data.translations;
-            _merge(_authnet, <?php echo wp_json_encode($fluent_cart_pro_authnet, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-security 後台（fluentAuthAdmin.i18n）
-            var _fsecI18n = window.fluentAuthAdmin && window.fluentAuthAdmin.i18n;
-            _merge(_fsecI18n, <?php echo wp_json_encode($fluent_security_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
-
-            // fluent-smtp 後台（FluentMailAdmin.trans）
-            var _fsmtpTr = window.FluentMailAdmin && window.FluentMailAdmin.trans;
-            _merge(_fsmtpTr, <?php echo wp_json_encode($fluent_smtp_admin, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?>);
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', runFix);
+            } else {
+                runFix();
+            }
+            window.addEventListener('load', runFix);
+            // 針對動態彈窗，每秒巡檢一次，跑 5 次
+            var count = 0;
+            var timer = setInterval(function() {
+                runFix();
+                if (++count > 5) clearInterval(timer);
+            }, 1000);
         })();
         </script>
         <?php
@@ -805,8 +849,48 @@
         // Portal 內無法使用 wp_enqueue_script（已過 wp_head），直接輸出 script 標籤
         echo '<script src="' . esc_url($plugin_url . 'js/translations.js?v=' . $plugin_version) . '"></script>' . "\n";
         echo '<script src="' . esc_url($plugin_url . 'js/translator.js?v=' . $plugin_version) . '"></script>' . "\n";
-        echo '<script>window.FCA_ZH_TW_PAGE_CONTEXT = "fluent-community-portal";</script>' . "\n";
+        echo '<script>
+        (function() {
+            var runFix = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                var targets = [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n];
+                targets.forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.includes('Install')) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                });
+            };
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', runFix);
+            } else {
+                runFix();
+            }
+            window.addEventListener('load', runFix);
+            // 針對動態彈窗，每秒巡檢一次，跑 5 次
+            var count = 0;
+            var timer = setInterval(function() {
+                runFix();
+                if (++count > 5) clearInterval(timer);
+            }, 1000);
+        })();
+        </script>' . "\n";
     }
 }
 
 FCA_Fluent_ZhTW::init();
+}
