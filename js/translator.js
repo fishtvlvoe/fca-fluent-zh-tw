@@ -1,61 +1,41 @@
-/**
- * FCA & Fluent 繁體中文翻譯包 — 強化版 JS DOM 翻譯引擎 (智慧匹配版)
- */
 (function() {
-    var translations = window.FCA_ZH_TW_DOM_TRANSLATIONS || {};
-    
-    // 智慧匹配規則 (對應動態字串)
-    var smartRules = [
-        { regex: /^Install (.*)$/i, replace: "安裝 $1" },
-        { regex: /^Add (.*) to your device$/i, replace: "將 $1 新增至您的裝置" },
-        { regex: /Look for "(.*)" or "(.*)"/i, replace: "尋找「$1」或「$2」" },
-        { regex: /^Open the browser menu/i, replace: "開啟瀏覽器選單" },
-        { regex: /^Follow the prompts to install/i, replace: "依照提示進行安裝" }
+    var TRANSLATIONS = window.FCA_ZH_TW_DOM_TRANSLATIONS || {};
+    var patterns = [
+        { reg: /^Install (.*)$/i, rep: '安裝 $1' },
+        { reg: /^Add (.*) to your device$/i, rep: '將 $1 新增至您的裝置' },
+        { reg: /Look for "(.*)" or "(.*)"/i, rep: '尋找「$1」或「$2」' },
+        { reg: /Open the browser menu/i, rep: '開啟瀏覽器選單' },
+        { reg: /Follow the prompts to install/i, rep: '依照提示進行安裝' }
     ];
 
-    function translateText(text) {
-        var trimmed = text.trim();
-        if (!trimmed) return null;
-
-        // 1. 精確匹配
-        if (translations[trimmed]) return translations[trimmed];
-
-        // 2. 智慧匹配 (處理動態拼接字串)
-        for (var i = 0; i < smartRules.length; i++) {
-            if (smartRules[i].regex.test(trimmed)) {
-                return trimmed.replace(smartRules[i].regex, smartRules[i].replace);
-            }
+    function translate(text) {
+        var t = text.trim();
+        if (!t) return null;
+        if (TRANSLATIONS[t]) return TRANSLATIONS[t];
+        for (var i = 0; i < patterns.length; i++) {
+            if (patterns[i].reg.test(t)) return t.replace(patterns[i].reg, patterns[i].rep);
         }
         return null;
     }
 
     function walk(node) {
-        if (node.nodeType === 3) { // 文字節點
-            var translated = translateText(node.nodeValue);
-            if (translated) node.nodeValue = node.nodeValue.replace(node.nodeValue.trim(), translated);
-        } else if (node.nodeType === 1 && node.childNodes && node.tagName !== "SCRIPT" && node.tagName !== "STYLE") {
-            for (var i = 0; i < node.childNodes.length; i++) {
-                walk(node.childNodes[i]);
-            }
+        if (node.nodeType === 3) {
+            var res = translate(node.nodeValue);
+            if (res) node.nodeValue = res;
+        } else if (node.nodeType === 1 && !/^(SCRIPT|STYLE|TEXTAREA)$/.test(node.tagName)) {
+            node.childNodes.forEach(walk);
         }
     }
 
-    var observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
-            mutation.addedNodes.forEach(function(node) {
-                walk(node);
-            });
-        });
+    var observer = new MutationObserver(function(ms) {
+        ms.forEach(function(m) { m.addedNodes.forEach(walk); });
     });
 
-    function init() {
+    function start() {
         walk(document.body);
-        observer.observe(document.body, { childList: true, subtree: true, characterData: true });
+        observer.observe(document.body, { childList: true, subtree: true });
     }
 
-    if (document.readyState === "loading") {
-        document.addEventListener("DOMContentLoaded", init);
-    } else {
-        init();
-    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+    else start();
 })();
