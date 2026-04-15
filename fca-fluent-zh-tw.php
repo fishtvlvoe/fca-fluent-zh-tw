@@ -1,120 +1,42 @@
 <?php
 /**
- * Plugin Name: FCA & Fluent 繁體中文翻譯包
- * Plugin URI: https://aiver.me
- * Description: 為所有 FCA 系列與 Fluent 系列外掛提供繁體中文翻譯，不修改原始外掛檔案，更新外掛不受影響。
- * Version: 1.6.55
- * Author: BuyGo
- * License: GPL v2 or later
- * Text Domain: fca-fluent-zh-tw
- */
-
-if (!defined('ABSPATH')) {
-    exit;
-}
-
-// GitHub 自動更新器
-require_once __DIR__ . '/updater.php';
-new FCA_Fluent_ZhTW_Updater(__FILE__, '1.6.7');
-
-/**
- * 載入翻譯檔
- *
- * 原理：WordPress 的 load_textdomain() 是「先載入的優先」，
- * 我們在原始外掛載入自己的翻譯之前，先把我們的版本載入，
- * 這樣即使原始外掛更新覆蓋了它自己的翻譯檔，我們的版本仍然生效。
- */
-class FCA_Fluent_ZhTW {
-
-    /**
-     * 所有支援的 text domain 清單
+     * 專項修復：FCA PWA 安裝提示攔截器
+     * 直接修改瀏覽器記憶體中的資料物件
      */
-    private static $domains = [
-        // FCA 系列
-        'fca-boards',
-        'fca-comments',
-        'fca-content-manager',
-        'fca-course-blocks',
-        'fca-display-name',
-        'fca-events',
-        'fca-events-basic',
-        'fca-events-spaces',
-        'fca-global-search',
-        'fca-hub',
-        'fca-knowledgebase',
-        'fca-multi-reactions',
-        'fca-pages',
-        'fca-push-notifications',
-        'fca-pwa',
-        'fca-widgets',
-        'fce-quick-fixes',
-        'fce-shortcodes',
-        // Fluent 系列
-        'fluent-booking',
-        'fluent-booking-pro',
-        'fluent-cart',
-        'fluent-cart-elementor-blocks',
-        'fluent-cart-pro',
-        'fluent-community',
-        'fluent-community-pro',
-        'fluent-crm',
-        'fluent-messaging',
-        'fluent-player',
-        'fluent-player-pro',
-        'fluent-security',
-        'fluent-smtp',
-        'fluent-toolkit',
-        'fluentcampaign-pro',
-        'fluentform',
-        'fluentform-block',
-        'fluentformpro',
-        'fluentforms-pdf',
-        'fluentform-pdf',
-        // FCA 系列
-        'fca-real-time',
-        // FCHub 系列
-        'fchub-memberships',
-        'fchub-multi-currency',
-        'fchub-portal-extender',
-        'fchub-wishlist',
-    ];
-
-    /**
-     * 翻譯檔目錄
-     */
-    private static $lang_dir;
-
-    public static function init() {
-        self::$lang_dir = plugin_dir_path(__FILE__) . 'languages';
-        add_action('wp_footer', [__CLASS__, 'fix_pwa_install_prompt_i18n'], 999);
-
-        // 在外掛載入前搶先載入翻譯（priority 1，比一般外掛的 init 更早）
-        add_action('plugins_loaded', [__CLASS__, 'load_translations'], 1);
-
-        // fca-events JS i18n 修復
-        // fca-events 在 fluent_community/portal_head priority 10 注入 fcaEventsI18n
-        // 我們用 priority 99 在它之後補上缺失字串
-        add_action('fluent_community/portal_head', [__CLASS__, 'fix_fca_events_js_i18n'], 99);
-
-        // fca-push-notifications portal 路徑缺漏修復（inject_portal_scripts 少了 3 個 key）
-        add_action('fluent_community/portal_head', [__CLASS__, 'fix_fca_push_notifications_js_i18n'], 100);
-
-        // 前台 JS i18n 修復：fluent-community（2 條）、fluent-booking 前台（3 條）
-        add_action('wp_footer', [__CLASS__, 'fix_frontend_js_i18n'], 100);
-
-        // 後台 JS i18n 修復：fluent-booking（45 條）、fluent-cart（8 條）、
-        //                    fluent-crm（8 條）、fluent-player（5 條）、fluent-cart-pro（1 條）
-        // priority 100 確保在所有 wp_localize_script 輸出之後才執行
-        add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n'], 100);
-
-        // FluentCommunity Portal 內的 DOM 翻譯（fca-real-time 等 SPA 設定頁）
-        add_action('fluent_community/portal_head', [__CLASS__, 'enqueue_portal_dom_translator'], 5);
-
-        // DOM 文字替換注入器：處理 Vue/React 直接渲染的後台 UI 字串
-        // 涵蓋：fluent-player-pro、fluent-crm、fca-widgets、fce-shortcodes、fca-boards、
-        //        fca-hub、fca-global-search、fca-content-manager、fca-multi-reactions、
-        //        fce-quick-fixes、fca-course-blocks
-        add_action('admin_enqueue_scripts', [__CLASS__, 'enqueue_dom_translator']);
+    public static function fix_pwa_install_prompt_i18n() {
+        if (!wp_script_is('fca-pwa-install', 'enqueued')) return;
+        ?>
+        <script>
+        (function() {
+            var fixPwa = function() {
+                var trans = {
+                    'addToDevice': '新增至您的裝置',
+                    'addToHomeScreen': '加入主畫面',
+                    'openBrowserMenu': '開啟瀏覽器選單',
+                    'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                    'followPrompts': '依照提示進行安裝',
+                    'browserNote': '註：此功能並非在所有瀏覽器中都可用。',
+                    'tapShareButton': '點擊「分享」按鈕',
+                    'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                    'tapAddToInstall': '點擊「新增」以安裝',
+                    'close': '關閉',
+                    'installApp': '安裝應用程式'
+                };
+                [window.fcaPwaInstallData, window.fcaPwaData, window.FcaPwaI18n].forEach(function(obj) {
+                    if (obj && obj.i18n) {
+                        for (var k in trans) { obj.i18n[k] = trans[k]; }
+                        if (obj.i18n.installApp && obj.i18n.installApp.indexOf('Install') === 0) {
+                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                });
+            };
+            fixPwa();
+            setTimeout(fixPwa, 1000);
+            setTimeout(fixPwa, 3000);
+        })();
+        </script>
+        <?php
     }
 
     /**
