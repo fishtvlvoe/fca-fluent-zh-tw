@@ -744,6 +744,42 @@ class FCA_Fluent_ZhTW {
         </script>
         <?php
     }
+
+        // 專項修復：FCA PWA 安裝提示攔截器
+        add_action('wp_footer', function() {
+            if (!wp_script_is('fca-pwa-install', 'enqueued')) return;
+            ?>
+            <script>
+            (function() {
+                var fixPwa = function() {
+                    if (window.fcaPwaInstallData && window.fcaPwaInstallData.i18n) {
+                        var i18n = window.fcaPwaInstallData.i18n;
+                        var trans = {
+                            'addToDevice': '新增至您的裝置',
+                            'openBrowserMenu': '開啟瀏覽器選單 (⋮ 或 ⋯)',
+                            'lookForInstall': '尋找「安裝應用程式」或「加入主畫面」',
+                            'followPrompts': '依照提示進行安裝',
+                            'browserNote': '註：此功能並非在所有瀏覽器中都可用。為了獲得最佳效果，請使用 Chrome、Edge 或 Safari。',
+                            'tapShareButton': '點擊「分享」按鈕',
+                            'scrollAndTap': '向下捲動並點擊「加入主畫面」',
+                            'tapAddToInstall': '點擊「新增」以安裝',
+                            'close': '關閉'
+                        };
+                        for (var k in trans) { i18n[k] = trans[k]; }
+                        
+                        // 處理動態標題
+                        if (i18n.installApp && i18n.installApp.indexOf('Install') === 0) {
+                            i18n.installApp = i18n.installApp.replace('Install', '安裝');
+                        }
+                    }
+                };
+                fixPwa();
+                // 預防萬一，過一秒再跑一次
+                setTimeout(fixPwa, 1000);
+            })();
+            </script>
+            <?php
+        }, 999);
     /**
      * 載入 DOM 文字替換注入器（translations.js + translator.js）
      *
