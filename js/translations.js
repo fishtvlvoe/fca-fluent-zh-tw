@@ -801,6 +801,86 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Drag to reorder':                  '拖曳以重新排序',
     };
 
+    // ── FCHub - Wishlist（願望清單設定頁）───────────────────────────────
+    var fchubWishlist = {
+        'Wishlist Enabled':             '啟用願望清單',
+        'Master switch for the wishlist feature across the store.':
+                                        '商店願望清單功能的總開關。',
+        'Guest Wishlist':               '訪客願望清單',
+        'Allow non-logged-in visitors to use wishlists via cookies.':
+                                        '允許未登入訪客透過 Cookie 使用願望清單。',
+        'Auto-remove Purchased Items':  '自動移除已購買項目',
+        'Automatically remove items from the wishlist when purchased.':
+                                        '購買後自動從願望清單移除項目。',
+        'Max Items per Wishlist':       '每個願望清單最多項目數',
+        'Guest Cleanup (days)':         '訪客清理（天）',
+        'Guest wishlists older than this will be removed by the daily cleanup job.':
+                                        '超過此天數的訪客願望清單將由每日清理作業移除。',
+        'Display':                      '顯示',
+        'FluentCRM':                    'FluentCRM',
+        'Statistics':                   '統計',
+        'No (keep data)':               '否（保留資料）',
+        'Yes (delete all)':             '是（刪除所有資料）',
+        'If enabled, all wishlist tables and settings will be removed when the plugin is uninstalled.':
+                                        '啟用後，解除安裝外掛時將移除所有願望清單資料表與設定。',
+        'Add to Wishlist':              '加入願望清單',
+        'Failed to load settings.':     '載入設定失敗。',
+        'Failed to save settings.':     '儲存設定失敗。',
+        'Remove from Wishlist':         '從願望清單移除',
+        'Settings saved.':              '設定已儲存。',
+        'Tax & Duties':                 '稅費',
+        'Times Wishlisted':             '加入願望清單次數',
+    };
+
+    // ── FCHub - Memberships（會員資格設定頁）───────────────────────────
+    var fchubMemberships = {
+        'Link Product':                 '連結商品',
+        'Upgrade Only':                 '僅限升級',
+    };
+
+    // ── FCHub - Portal Extender（入口擴充設定頁）───────────────────────
+    var fchubPortalExtender = {
+        'Add Endpoint':                 '新增端點',
+        'Delete Endpoint':              '刪除端點',
+        'Endpoint activated':           '端點已啟用',
+        'Endpoint deactivated':         '端點已停用',
+        'Endpoint deleted':             '端點已刪除',
+        'Failed to delete endpoint':    '刪除端點失敗',
+        'Failed to load endpoints':     '載入端點失敗',
+        'Failed to save order':         '儲存順序失敗',
+        'Failed to update status':      '更新狀態失敗',
+        'Manage custom pages in your FluentCart Customer Portal':
+                                        '在 FluentCart 客戶入口中管理自訂頁面',
+        'Portal Endpoints':             '入口端點',
+        'Basic Settings':               '基本設定',
+        'Content Source':               '內容來源',
+        'Edit Endpoint':                '編輯端點',
+        'Endpoint created':             '端點已建立',
+        'Endpoint not found':           '找不到端點',
+        'Endpoint updated':             '端點已更新',
+        'External URL (iframe)':        '外部網址（iframe）',
+        'Failed to load endpoint':      '載入端點失敗',
+        'HTML / Custom Code':           'HTML / 自訂程式碼',
+        'Icon Type':                    '圖示類型',
+        'New tab':                      '新分頁',
+        'Post / CPT':                   '文章 / 自訂文章類型',
+        'Redirect / Link':              '重新導向 / 連結',
+        'Same tab':                     '同一分頁',
+        'Save Changes':                 '儲存變更',
+        'Scrollable Container':         '可捲動容器',
+        'Search for a page...':         '搜尋頁面...',
+        'Search for a post...':         '搜尋文章...',
+        'The external page will be embedded in an iframe inside the portal.':
+                                        '外部頁面將以 iframe 嵌入入口中。',
+        'The shortcode will be rendered inside the portal layout.':
+                                        '短代碼將在入口版面中渲染。',
+        'URL path in the Customer Portal. Lowercase, hyphens only.':
+                                        '客戶入口中的網址路徑。僅限小寫與連字號。',
+        'Users will be redirected to this URL when they click the menu item.':
+                                        '使用者點擊選單項目時將重新導向至此網址。',
+        'WordPress Page':               'WordPress 頁面',
+    };
+
     // 合併所有字典（後面的同 key 會覆蓋前面）
     var merged = {};
     var sources = [
@@ -808,7 +888,7 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         fcaDisplayName, fcaPwa, fcaComments,
         fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
         fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces,
-        fchubMultiCurrency, fcaRealTime
+        fchubMultiCurrency, fcaRealTime, fchubWishlist, fchubMemberships, fchubPortalExtender
     ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];

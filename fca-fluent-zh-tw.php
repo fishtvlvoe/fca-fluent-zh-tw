@@ -783,7 +783,9 @@ class FCA_Fluent_ZhTW {
             'fca-cm-',              // FCA Content Manager 子頁面前綴
             'fca-multi-reactions',  // FCA Multi-Reactions 設定頁
             'fce-quick-fixes',      // FCE Quick Fixes 設定頁
-            'fluent-cart',          // FluentCart 後台（含 fchub-multi-currency 設定頁）
+            'fluent-cart',          // FluentCart 後台（含 fchub-wishlist / fchub-multi-currency 設定頁）
+            'fchub-memberships',    // FCHub Memberships 設定頁
+            'fchub-portal-extender',// FCHub Portal Extender 設定頁
         ];
 
         $is_relevant = false;
@@ -799,7 +801,7 @@ class FCA_Fluent_ZhTW {
         }
 
         $plugin_url     = plugin_dir_url(__FILE__);
-        $plugin_version = '1.6.3';
+        $plugin_version = '1.6.6';
 
         // 先載入翻譯字典
         wp_enqueue_script(
