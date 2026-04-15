@@ -70,6 +70,8 @@ class FCA_Fluent_ZhTW {
         'fluentformpro',
         'fluentforms-pdf',
         'fluentform-pdf',
+        // FCA 系列
+        'fca-real-time',
         // FCHub 系列
         'fchub-memberships',
         'fchub-multi-currency',
@@ -103,6 +105,9 @@ class FCA_Fluent_ZhTW {
         //                    fluent-crm（8 條）、fluent-player（5 條）、fluent-cart-pro（1 條）
         // priority 100 確保在所有 wp_localize_script 輸出之後才執行
         add_action('admin_footer', [__CLASS__, 'fix_admin_js_i18n'], 100);
+
+        // FluentCommunity Portal 內的 DOM 翻譯（fca-real-time 等 SPA 設定頁）
+        add_action('fluent_community/portal_head', [__CLASS__, 'enqueue_portal_dom_translator'], 5);
 
         // DOM 文字替換注入器：處理 Vue/React 直接渲染的後台 UI 字串
         // 涵蓋：fluent-player-pro、fluent-crm、fca-widgets、fce-shortcodes、fca-boards、
@@ -820,6 +825,32 @@ class FCA_Fluent_ZhTW {
             'window.FCA_ZH_TW_PAGE_CONTEXT = ' . wp_json_encode($page) . ';',
             'before'
         );
+    }
+
+    /**
+     * 在 FluentCommunity Portal 載入 DOM 文字替換注入器
+     *
+     * 部分 FCA 外掛（如 fca-real-time）的設定介面是嵌在 FC Portal SPA 內的 Vue 頁面，
+     * 不在傳統 WordPress 後台，因此需要額外在 portal_head 掛入翻譯腳本。
+     */
+    public static function enqueue_portal_dom_translator() {
+        $locale = determine_locale();
+        if (strpos($locale, 'zh_TW') === false) {
+            return;
+        }
+
+        // 只對管理員載入，避免影響一般使用者前台體驗
+        if (!current_user_can('manage_options')) {
+            return;
+        }
+
+        $plugin_url     = plugin_dir_url(__FILE__);
+        $plugin_version = '1.6.6';
+
+        // Portal 內無法使用 wp_enqueue_script（已過 wp_head），直接輸出 script 標籤
+        echo '<script src="' . esc_url($plugin_url . 'js/translations.js?v=' . $plugin_version) . '"></script>' . "\n";
+        echo '<script src="' . esc_url($plugin_url . 'js/translator.js?v=' . $plugin_version) . '"></script>' . "\n";
+        echo '<script>window.FCA_ZH_TW_PAGE_CONTEXT = "fluent-community-portal";</script>' . "\n";
     }
 }
 

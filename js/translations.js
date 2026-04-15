@@ -138,6 +138,22 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'DEFAULT':                  '預設',
         'ACTIVE':                   '啟用中',
         'PUBLIC':                   '公開',
+        'Add a comment...':         '新增留言...',
+        'All Categories':           '所有分類',
+        'Are you sure you want to delete this item?':
+                                    '確定要刪除此項目嗎？',
+        'Auto-generated from title':'自動從標題產生',
+        'Delete this comment?':     '刪除此留言？',
+        'Failed to load board':     '載入看板失敗',
+        'Failed to load boards':    '載入看板清單失敗',
+        'Failed to submit. Please try again.':
+                                    '提交失敗，請重試。',
+        'Kanban View':              '看板檢視',
+        'Leave blank to auto-generate from title':
+                                    '留空以自動從標題產生',
+        'Column name':              '欄位名稱',
+        'Delete Column':            '刪除欄位',
+        'New Column':               '新增欄位',
     };
 
     // ── FCA Display Name Override Settings ──────────────────────────────
@@ -320,6 +336,7 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Deletion failed':              '刪除失敗',
         'Enabled':                      '已啟用',
         'Disabled':                     '已停用',
+        'Check for Updates':            '檢查更新',
     };
 
     // ── FCA Global Search（社群搜尋頁面）─────────────────────────────
@@ -500,6 +517,57 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         'Error loading events':         '載入活動時發生錯誤',
         'No upcoming events':           '沒有即將舉行的活動',
         'Upcoming Events':              '即將舉行的活動',
+    };
+
+    // ── FCA Real-Time（即時互動）──────────────────────────────────────
+    var fcaRealTime = {
+        'App Key':                      'App Key',
+        'App Secret':                   'App Secret',
+        'Background Color':             '背景顏色',
+        'Bottom Left':                  '左下',
+        'Bottom Right':                 '右下',
+        'Brief popup alerts shown to users when events happen in the community.':
+                                        '當社群中發生事件時，向使用者顯示的簡短彈出提示。',
+        'Choose the service that will power your real-time connections.':
+                                        '選擇將為您的即時連線提供動力的服務。',
+        'Choose which events trigger a toast popup:':
+                                        '選擇哪些事件會觸發 toast 彈出提示：',
+        'Configure your self-hosted Soketi, Laravel Reverb, or other Pusher-compatible server.':
+                                        '設定您自行託管的 Soketi、Laravel Reverb 或其他相容 Pusher 的伺服器。',
+        'Debug mode (log real-time events to browser console)':
+                                        '除錯模式（將即時事件記錄到瀏覽器控制台）',
+        'Display Style':                '顯示樣式',
+        'Duration (seconds)':           '持續時間（秒）',
+        'Enable Toast Notifications':   '啟用 Toast 通知',
+        'Enable Widget':                '啟用小工具',
+        'Enable or disable individual real-time features for your community.':
+                                        '為您的社群啟用或停用個別即時功能。',
+        'Full (avatars + names)':       '完整（頭像 + 名稱）',
+        'Gradient End Color':           '漸層結束顏色',
+        'Master toggle — when off, no toasts are shown':
+                                        '總開關——關閉時不顯示任何 toast',
+        'Max avatars to display':       '最多顯示頭像數',
+        'Member Joined':                '成員加入',
+        'Member Joined Space':          '成員加入空間',
+        'Mini (avatar stack)':          '迷你（頭像堆疊）',
+        'New Comment':                  '新留言',
+        'New Post':                     '新貼文',
+        'Provider: ':                   '供應商：',
+        'Save Settings':                '儲存設定',
+        'Send a test event through your WebSocket server to verify the connection is working.':
+                                        '透過您的 WebSocket 伺服器發送測試事件，以確認連線正常。',
+        'Show a live count of online members in the sidebar':
+                                        '在側邊欄顯示線上成員的即時人數',
+        'Show user avatars':            '顯示使用者頭像',
+        'Show who is currently viewing each space':
+                                        '顯示目前正在觀看各空間的使用者',
+        'Test Connection':              '測試連線',
+        'Top Left':                     '左上',
+        'Top Right':                    '右上',
+        'Use Fluent Community theme colors':
+                                        '使用 Fluent Community 主題顏色',
+        'Use TLS / SSL':                '使用 TLS / SSL',
+        'Use gradient effect':          '使用漸層效果',
     };
 
     // ── FCHub Multi-Currency（後台設定頁）───────────────────────────────
@@ -740,7 +808,7 @@ window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
         fcaDisplayName, fcaPwa, fcaComments,
         fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
         fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces,
-        fchubMultiCurrency
+        fchubMultiCurrency, fcaRealTime
     ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];
