@@ -1,0 +1,2424 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fchub-memberships\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-16 04:38+0000\n"
+"PO-Revision-Date: 2026-04-16 04:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: auto-translate.py (polib)\n"
+
+#: app/Frontend/Shortcodes.php app/Frontend/Shortcodes.php
+msgid "You do not have any active memberships."
+msgstr "您目前沒有有效的會員資格。"
+
+#: app/Frontend/Shortcodes.php app/Frontend/Shortcodes.php
+msgid "Expires: %s"
+msgstr "到期日：%s"
+
+#: app/Frontend/Shortcodes.php app/Frontend/Shortcodes.php
+msgid "Lifetime access"
+msgstr "終身存取權"
+
+#: app/Frontend/Shortcodes.php app/Frontend/Shortcodes.php
+msgid "Log in to access this content"
+msgstr "請登入以存取此內容"
+
+#: app/Frontend/Shortcodes.php app/Frontend/Shortcodes.php
+msgid "%1$d of %2$d items unlocked (%3$d%%)"
+msgstr "已解鎖 %1$d / %2$d 個項目 (%3$d%%)"
+
+#: app/Frontend/Shortcodes.php
+msgid "This content is available to members only. Please log in to access it."
+msgstr "此內容僅供會員查看。請登入以存取。"
+
+#: app/Frontend/Shortcodes.php
+msgid "This content is restricted to members with an active plan."
+msgstr "此內容僅限持有有效方案的會員查看。"
+
+#: app/Frontend/Shortcodes.php
+msgid "This content will be available on {date}."
+msgstr "此內容將於 {date} 開放。"
+
+#: app/Frontend/AccountPage.php
+#: app/Integration/MembershipAccessIntegration.php app/Support/AdminMenu.php
+#: app/Support/AdminMenu.php app/Modules/Runtime/FluentCartRuntimeModule.php
+msgid "Memberships"
+msgstr "會員資格"
+
+#: app/Frontend/AccountPage.php app/Frontend/AccountPage.php
+msgid "Individual Access"
+msgstr "個別存取"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Grant membership plan access when orders are paid. Supports lifetime, fixed "
+"duration, and subscription-mirrored validity."
+msgstr "訂單付款後授予會員方案存取權。支援終身、固定天數與訂閱同步有效期。"
+
+#: app/Integration/MembershipAccessIntegration.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Membership Access"
+msgstr "會員存取"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Feed Title"
+msgstr "Feed 標題"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Name"
+msgstr "名稱"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Name of this feed for identification purposes."
+msgstr "此 feed 的名稱，用於識別。"
+
+#: app/Integration/MembershipAccessIntegration.php
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+msgid "Membership Plan"
+msgstr "會員方案"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Select the membership plan to grant when this feed fires."
+msgstr "選擇此 feed 觸發時要授予的會員方案。"
+
+#: app/Integration/MembershipAccessIntegration.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Validity Mode"
+msgstr "有效期模式"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Lifetime (never expires)"
+msgstr "終身（永不過期）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Fixed Duration (X days)"
+msgstr "固定天數（X 天）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Mirror Subscription (expires with subscription)"
+msgstr "同步訂閱（隨訂閱到期）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Fixed Billing Anchor (monthly due date)"
+msgstr "固定帳單錨點（每月到期日）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "How long the membership access should last."
+msgstr "會員存取權的有效期限。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Validity Days"
+msgstr "有效天數"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Number of days the membership is valid. Only used with Fixed Duration mode."
+msgstr "會員資格有效的天數。僅用於固定天數模式。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Billing Anchor Day"
+msgstr "帳單錨點日"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Day of the month (1-31) when payment is due. Access suspends if unpaid by "
+"this date. Short months clamp to the last valid day."
+msgstr "每月付款到期日（1-31）。若此日期前未付款，存取將暫停。短月份將調整為最後有效日。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Grace Period (Days)"
+msgstr "寬限期（天）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Days to keep access after cancellation or failed renewal. 0 = no grace "
+"period."
+msgstr "取消或續訂失敗後保留存取權的天數。0 = 無寬限期。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Enable Access Revocation"
+msgstr "啟用存取撤銷"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Revoke access on cancel/refund events"
+msgstr "在取消/退款事件時撤銷存取權"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"When enabled, membership access will be revoked when the associated order is"
+" cancelled or refunded."
+msgstr "啟用後，當相關訂單取消或退款時，會員存取權將被撤銷。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Cancellation Behavior"
+msgstr "取消行為"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Keep access until validity expires"
+msgstr "保留存取權直到有效期結束"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Revoke immediately"
+msgstr "立即撤銷"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "What happens when a subscription is cancelled or a refund is issued."
+msgstr "當訂閱取消或發出退款時的處理方式。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership Term"
+msgstr "會員期限"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "No limit (use plan default)"
+msgstr "無限制（使用方案預設）"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "1 Year"
+msgstr "1 年"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "2 Years"
+msgstr "2 年"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "3 Years"
+msgstr "3 年"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Custom"
+msgstr "自訂"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Override the plan's membership term for this feed. Sets an absolute upper "
+"bound on membership duration."
+msgstr "覆寫此 feed 的方案會員期限。設定會員資格的最長上限。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Term Length"
+msgstr "期限長度"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Number of units for the custom term length."
+msgstr "自訂期限長度的單位數量。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Term Unit"
+msgstr "期限單位"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Days"
+msgstr "天"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Weeks"
+msgstr "週"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Months"
+msgstr "月"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Years"
+msgstr "年"
+
+#: app/Integration/MembershipAccessIntegration.php
+#: app/Integration/MembershipSettings.php
+msgid "Auto-Create User"
+msgstr "自動建立使用者"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Create a WordPress user if one does not exist"
+msgstr "若不存在則建立 WordPress 使用者"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Automatically create a WordPress user from the order email when no account "
+"exists."
+msgstr "當沒有帳號時，自動從訂單電子郵件建立 WordPress 使用者。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership grant skipped"
+msgstr "會員資格授予已略過"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "No plan ID configured in feed."
+msgstr "Feed 中未設定方案 ID。"
+
+#: app/Integration/MembershipAccessIntegration.php
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership grant failed"
+msgstr "會員資格授予失敗"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Plan #%d not found."
+msgstr "找不到方案 #%d。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "No user found and auto-create is disabled."
+msgstr "找不到使用者且自動建立已停用。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership access granted"
+msgstr "會員存取權已授予"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Plan \"%s\" granted to user #%d (%d created, %d updated, validity: %s, "
+"source: %s #%d)."
+msgstr "方案「%s」已授予使用者 #%d（%d 個新建，%d 個更新，有效期：%s，來源：%s #%d）。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "lifetime"
+msgstr "終身"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership revocation deferred"
+msgstr "會員資格撤銷已延後"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid ""
+"Cancel behavior is set to wait until validity expires. "
+"SubscriptionValidityWatcher will handle expiration."
+msgstr "取消行為設定為等待有效期結束。SubscriptionValidityWatcher 將處理到期。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership revoke skipped"
+msgstr "會員資格撤銷已略過"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "No active grants found for this order."
+msgstr "找不到此訂單的有效授予記錄。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Membership access revoked"
+msgstr "會員存取權已撤銷"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "%d grant(s) revoked for order #%d."
+msgstr "訂單 #%2$d 的 %1$d 筆授予記錄已撤銷。"
+
+#: app/Integration/MembershipAccessIntegration.php
+msgid "Failed to create user"
+msgstr "建立使用者失敗"
+
+#: app/Integration/MembershipSettings.php
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: app/Integration/MembershipSettings.php
+msgid "Memberships integration is active"
+msgstr "會員資格整合已啟用"
+
+#: app/Integration/MembershipSettings.php
+msgid "Memberships integration is not configured"
+msgstr "會員資格整合尚未設定"
+
+#: app/Integration/MembershipSettings.php
+msgid "Default Protection Mode"
+msgstr "預設保護模式"
+
+#: app/Integration/MembershipSettings.php
+msgid "How restricted content is handled for unauthorized users."
+msgstr "未授權使用者存取受限內容時的處理方式。"
+
+#: app/Integration/MembershipSettings.php
+msgid "Redirect to URL"
+msgstr "重新導向至網址"
+
+#: app/Integration/MembershipSettings.php
+msgid "Replace Content with Message"
+msgstr "以訊息取代內容"
+
+#: app/Integration/MembershipSettings.php
+msgid "Show 403 Forbidden"
+msgstr "顯示 403 禁止存取"
+
+#: app/Integration/MembershipSettings.php
+msgid "Default Redirect URL"
+msgstr "預設重新導向網址"
+
+#: app/Integration/MembershipSettings.php
+msgid "e.g. /membership-required/"
+msgstr "例如：/membership-required/"
+
+#: app/Integration/MembershipSettings.php
+msgid ""
+"URL to redirect unauthorized users to when protection mode is \"Redirect\". "
+"Leave empty to redirect to the home page."
+msgstr "未授權使用者的重新導向網址（保護模式為「重新導向」時使用）。留空則導向首頁。"
+
+#: app/Integration/MembershipSettings.php
+msgid "Admin Bypass"
+msgstr "管理員略過"
+
+#: app/Integration/MembershipSettings.php
+msgid ""
+"Allow administrators to view all protected content without a membership."
+msgstr "允許管理員無需會員資格即可查看所有受保護內容。"
+
+#: app/Integration/MembershipSettings.php
+#: app/Integration/MembershipSettings.php
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Yes"
+msgstr "是"
+
+#: app/Integration/MembershipSettings.php
+#: app/Integration/MembershipSettings.php
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "No"
+msgstr "否"
+
+#: app/Integration/MembershipSettings.php
+msgid ""
+"Automatically create a WordPress user account from the order email if one "
+"does not exist."
+msgstr "若不存在帳號，自動從訂單電子郵件建立 WordPress 使用者帳號。"
+
+#: app/Integration/MembershipSettings.php
+msgid "Settings saved successfully."
+msgstr "設定已成功儲存。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "FluentCommunity not active. Grant recorded in membership grants."
+msgstr "FluentCommunity 未啟用。授予記錄已儲存於會員授予中。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Added to space: %s"
+msgstr "已加入空間：%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Failed to add user to FluentCommunity space."
+msgstr "無法將使用者加入 FluentCommunity 空間。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Added to group: %s"
+msgstr "已加入群組：%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Failed to add user to FluentCommunity group."
+msgstr "無法將使用者加入 FluentCommunity 群組。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Unsupported FluentCommunity resource type."
+msgstr "不支援的 FluentCommunity 資源類型。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "FluentCommunity not active. Revocation recorded in membership grants."
+msgstr "FluentCommunity 未啟用。撤銷記錄已儲存於會員授予中。"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Removed from space: %s"
+msgstr "已從空間移除：%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Removed from group: %s"
+msgstr "已從群組移除：%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Space"
+msgstr "空間"
+
+#: app/Adapters/FluentCommunityAdapter.php app/Adapters/LearnDashAdapter.php
+#: app/Adapters/LearnDashAdapter.php
+msgid "Group"
+msgstr "群組"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Space #%s"
+msgstr "空間 #%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Group #%s"
+msgstr "群組 #%s"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Community Space"
+msgstr "社群空間"
+
+#: app/Adapters/FluentCommunityAdapter.php
+msgid "Community Group"
+msgstr "社群群組"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "LearnDash not active. Grant recorded in membership grants."
+msgstr "LearnDash 未啟用。授予記錄已儲存於會員授予中。"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "Course access granted: %s"
+msgstr "課程存取權已授予：%s"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "Group access granted: %s"
+msgstr "群組存取權已授予：%s"
+
+#: app/Adapters/LearnDashAdapter.php app/Adapters/LearnDashAdapter.php
+msgid "Unsupported LearnDash resource type."
+msgstr "不支援的 LearnDash 資源類型。"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "LearnDash not active. Revocation recorded in membership grants."
+msgstr "LearnDash 未啟用。撤銷記錄已儲存於會員授予中。"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "Course access revoked: %s"
+msgstr "課程存取權已撤銷：%s"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "Group access revoked: %s"
+msgstr "群組存取權已撤銷：%s"
+
+#: app/Adapters/LearnDashAdapter.php app/Adapters/LearnDashAdapter.php
+msgid "Course"
+msgstr "課程"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "LearnDash Course"
+msgstr "LearnDash 課程"
+
+#: app/Adapters/LearnDashAdapter.php
+msgid "LearnDash Group"
+msgstr "LearnDash 群組"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM not active. Grant recorded in membership grants."
+msgstr "FluentCRM 未啟用。授予記錄已儲存於會員授予中。"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "Could not find or create FluentCRM contact."
+msgstr "無法找到或建立 FluentCRM 聯絡人。"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM tag applied: %s"
+msgstr "FluentCRM 標籤已套用：%s"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM list assigned: %s"
+msgstr "FluentCRM 清單已指派：%s"
+
+#: app/Adapters/FluentCrmAdapter.php app/Adapters/FluentCrmAdapter.php
+msgid "Unsupported FluentCRM resource type."
+msgstr "不支援的 FluentCRM 資源類型。"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM not active. Revocation recorded in membership grants."
+msgstr "FluentCRM 未啟用。撤銷記錄已儲存於會員授予中。"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "No FluentCRM contact found for user."
+msgstr "找不到該使用者的 FluentCRM 聯絡人。"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM tag removed: %s"
+msgstr "FluentCRM 標籤已移除：%s"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM list removed: %s"
+msgstr "FluentCRM 清單已移除：%s"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "Tag"
+msgstr "標籤"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "List"
+msgstr "清單"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "Tag #%s"
+msgstr "標籤 #%s"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "List #%s"
+msgstr "清單 #%s"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM Tag"
+msgstr "FluentCRM 標籤"
+
+#: app/Adapters/FluentCrmAdapter.php
+msgid "FluentCRM List"
+msgstr "FluentCRM 清單"
+
+#: app/Adapters/WordPressContentAdapter.php
+msgid "Access granted. Content restriction handled by membership grants."
+msgstr "存取權已授予。內容限制由會員授予處理。"
+
+#: app/Adapters/WordPressContentAdapter.php
+msgid "Access revoked. Content restriction handled by membership grants."
+msgstr "存取權已撤銷。內容限制由會員授予處理。"
+
+#: app/Adapters/WordPressContentAdapter.php
+msgid "Term #%s"
+msgstr "分類項目 #%s"
+
+#: app/Adapters/WordPressContentAdapter.php
+msgid "Post #%s"
+msgstr "文章 #%s"
+
+#: app/Support/ResourceTypeRegistry.php app/Support/AdminMenu.php
+msgid "Content"
+msgstr "內容"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Taxonomy"
+msgstr "分類法"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Navigation"
+msgstr "導覽"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Advanced"
+msgstr "進階"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Posts"
+msgstr "文章"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Pages"
+msgstr "頁面"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Categories"
+msgstr "分類"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Tags"
+msgstr "標籤"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Menu Items"
+msgstr "選單項目"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Comments"
+msgstr "留言"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "URL Patterns"
+msgstr "網址模式"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Special Pages"
+msgstr "特殊頁面"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "More Tag Content"
+msgstr "More 標籤內容"
+
+#: app/Support/ResourceTypeRegistry.php app/Support/ResourceTypeRegistry.php
+msgid "Courses"
+msgstr "課程"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Lessons"
+msgstr "課程單元"
+
+#: app/Support/ResourceTypeRegistry.php
+msgid "Spaces"
+msgstr "空間"
+
+#: app/Support/AdminMenu.php
+msgid "Dashboard"
+msgstr "控制台"
+
+#: app/Support/AdminMenu.php
+msgid "Plans"
+msgstr "方案"
+
+#: app/Support/AdminMenu.php
+msgid "Members"
+msgstr "會員"
+
+#: app/Support/AdminMenu.php
+msgid "Drip"
+msgstr "漸進釋出"
+
+#: app/Support/AdminMenu.php
+msgid "Reports"
+msgstr "報表"
+
+#: app/Support/AdminMenu.php
+msgid "Settings"
+msgstr "設定"
+
+#: app/Http/AccountController.php app/Http/AccountController.php
+msgid "Direct Access"
+msgstr "直接存取"
+
+#: app/Http/DynamicOptionsController.php
+msgid "WordPress Core"
+msgstr "WordPress 核心"
+
+#: app/Http/DynamicOptionsController.php
+msgid "LearnDash"
+msgstr "LearnDash"
+
+#: app/Http/DynamicOptionsController.php
+msgid "FluentCRM"
+msgstr "FluentCRM"
+
+#: app/Http/DynamicOptionsController.php
+msgid "FluentCommunity"
+msgstr "FluentCommunity"
+
+#: app/Http/AccessCheckController.php
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "User not found."
+msgstr "找不到使用者。"
+
+#: app/Http/AccessCheckController.php app/Domain/Plan/PlanScheduleService.php
+#: app/Domain/Plan/PlanProductLinkService.php
+#: app/Domain/Plan/PlanProductLinkService.php
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Plan not found."
+msgstr "找不到方案。"
+
+#: app/Http/AccessCheckController.php
+msgid "Specify either plan slug or resource_type + resource_id."
+msgstr "請指定方案代稱或 resource_type + resource_id。"
+
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "Direct Grant"
+msgstr "直接授予"
+
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "User ID and Plan ID are required."
+msgstr "使用者 ID 與方案 ID 為必填。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "Access granted successfully."
+msgstr "已成功授予存取權。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "Access revoked."
+msgstr "存取權已撤銷。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "User ID, Plan ID, and expiry date are required."
+msgstr "使用者 ID、方案 ID 與到期日為必填。"
+
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "%d grants extended."
+msgstr "%d 筆授予記錄已延長。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "Plan ID is required."
+msgstr "方案 ID 為必填。"
+
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "Grant ID is required."
+msgstr "授予 ID 為必填。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "Membership paused."
+msgstr "會員資格已暫停。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "Membership resumed."
+msgstr "會員資格已恢復。"
+
+#: app/Http/Controllers/MemberController.php
+#: app/Http/Controllers/MemberController.php
+msgid "User IDs and Plan ID are required."
+msgstr "使用者 ID 與方案 ID 為必填。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "%d grants created."
+msgstr "%d 筆授予記錄已建立。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "%d grants revoked."
+msgstr "%d 筆授予記錄已撤銷。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "User IDs, Plan ID, and expiry date are required."
+msgstr "使用者 ID、方案 ID 與到期日為必填。"
+
+#: app/Http/Controllers/MemberController.php
+msgid "User IDs are required."
+msgstr "使用者 ID 為必填。"
+
+#: app/Http/Controllers/ImportController.php
+msgid "CSV content is required."
+msgstr "CSV 內容為必填。"
+
+#: app/Http/Controllers/ImportController.php
+msgid "Mappings are required."
+msgstr "對應欄位為必填。"
+
+#: app/Http/Controllers/ImportController.php
+msgid "Members and mappings are required."
+msgstr "會員與對應欄位為必填。"
+
+#: app/Http/Controllers/DripController.php
+msgid "Unable to retry notification."
+msgstr "無法重試通知。"
+
+#: app/Http/Controllers/DripController.php
+msgid "Notification resent."
+msgstr "通知已重新發送。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "API key generated."
+msgstr "API 金鑰已產生。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Webhook secret regenerated."
+msgstr "Webhook 密鑰已重新產生。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Test webhook sent."
+msgstr "測試 webhook 已發送。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Failed to send test webhook."
+msgstr "測試 webhook 發送失敗。"
+
+#: app/Http/Controllers/SettingsController.php app/Domain/AccessEvaluator.php
+msgid "This content is available to members only. Please log in to access."
+msgstr "此內容僅供會員查看。請登入以存取。"
+
+#: app/Http/Controllers/SettingsController.php app/Domain/AccessEvaluator.php
+msgid ""
+"You don't have access to this content. View membership options to learn "
+"more."
+msgstr "您沒有權限存取此內容。查看會員選項以了解更多。"
+
+#: app/Http/Controllers/SettingsController.php app/Domain/AccessEvaluator.php
+msgid ""
+"Your access to this content has expired. Renew your subscription to "
+"continue."
+msgstr "您對此內容的存取權已過期。請續訂以繼續使用。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "This content will be available to you on {unlock_date}."
+msgstr "此內容將於 {unlock_date} 開放給您。"
+
+#: app/Http/Controllers/SettingsController.php app/Domain/AccessEvaluator.php
+msgid ""
+"Your membership is currently paused. Resume your membership to access this "
+"content."
+msgstr "您的會員資格目前暫停中。請恢復會員資格以存取此內容。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "Resource type and ID are required."
+msgstr "資源類型與 ID 為必填。"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/ContentController.php
+msgid "Invalid resource type."
+msgstr "無效的資源類型。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "Content protected."
+msgstr "內容已受保護。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "Protection removed."
+msgstr "保護已移除。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "Protection rule deleted."
+msgstr "保護規則已刪除。"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/ContentController.php
+msgid "Resource IDs and type are required."
+msgstr "資源 ID 與類型為必填。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "%d resources protected."
+msgstr "%d 個資源已受保護。"
+
+#: app/Http/Controllers/ContentController.php
+msgid "%d resources unprotected."
+msgstr "%d 個資源已解除保護。"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+msgid "Blog / Posts Page"
+msgstr "部落格 / 文章頁面"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Domain/SpecialPageProtection.php
+msgid "Front Page"
+msgstr "首頁"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Domain/SpecialPageProtection.php
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+msgid "404 Page"
+msgstr "404 頁面"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Domain/SpecialPageProtection.php
+msgid "Author Archives"
+msgstr "作者彙整"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Domain/SpecialPageProtection.php
+msgid "Date Archives"
+msgstr "日期彙整"
+
+#: app/Http/Controllers/ContentController.php
+msgid "All Protected Content Comments"
+msgstr "所有受保護內容的留言"
+
+#: app/Http/Controllers/ContentController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+msgid "Comments on: %s"
+msgstr "%s 的留言"
+
+#: app/Http/Controllers/Plans/PlanWriteController.php
+msgid "Plan title is required."
+msgstr "方案標題為必填。"
+
+#: app/Http/Controllers/Plans/PlanWriteController.php
+#: app/Http/Controllers/Plans/PlanWriteController.php
+msgid "Invalid duration type."
+msgstr "無效的期限類型。"
+
+#: app/Http/Controllers/Plans/PlanWriteController.php
+msgid "Duration days is required for fixed duration plans."
+msgstr "固定天數方案需要設定天數。"
+
+#: app/Http/Controllers/Plans/PlanWriteController.php
+#: app/Http/Controllers/Plans/PlanWriteController.php
+msgid "Billing anchor day must be between 1 and 31."
+msgstr "帳單錨點日必須介於 1 至 31 之間。"
+
+#: app/Http/Controllers/Plans/PlanWriteController.php
+msgid "Plan deleted."
+msgstr "方案已刪除。"
+
+#: app/Http/Controllers/Plans/PlanTransferController.php
+msgid "Plan imported successfully."
+msgstr "方案已成功匯入。"
+
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Domain/Drip/DripEvaluator.php
+msgid "All %s"
+msgstr "所有 %s"
+
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+#: app/Http/Controllers/Plans/PlanReadController.php
+msgid "(Deleted)"
+msgstr "（已刪除）"
+
+#: app/Http/Controllers/Plans/PlanProductController.php
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Product linked successfully."
+msgstr "商品已成功連結。"
+
+#: app/Http/Controllers/Plans/PlanProductController.php
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Product unlinked successfully."
+msgstr "商品已取消連結。"
+
+#: app/Modules/Runtime/FluentCartRuntimeModule.php
+msgid ""
+"Manage membership plans, content access control, and drip schedules for "
+"FluentCart."
+msgstr "管理 FluentCart 的會員方案、內容存取控制與漸進釋出排程。"
+
+#: app/Modules/Infrastructure/InfrastructureModule.php
+msgid "Every 5 Minutes"
+msgstr "每 5 分鐘"
+
+#: app/Modules/Infrastructure/InfrastructureModule.php
+#: app/Modules/Infrastructure/InfrastructureModule.php
+msgid "FCHub - Memberships requires FluentCart to be installed and activated."
+msgstr "FCHub - Memberships 需要 FluentCart 已安裝並啟用。"
+
+#: app/Domain/ContentProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php
+msgid "Membership Protection"
+msgstr "會員內容保護"
+
+#: app/Domain/ContentProtection.php
+msgid "Protect with Membership"
+msgstr "以會員資格保護"
+
+#: app/Domain/ContentProtection.php
+msgid "Remove Membership Protection"
+msgstr "移除會員保護"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Manage protection rules to assign plans."
+msgstr "管理保護規則以指派方案。"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Available with:"
+msgstr "適用於："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+#: app/Domain/SpecialPageProtection.php app/Domain/SpecialPageProtection.php
+msgid "Log in"
+msgstr "登入"
+
+#: app/Domain/ContentProtection.php
+msgid "Guest"
+msgstr "訪客"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Available on: %s"
+msgstr "開放日期：%s"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Protect this content"
+msgstr "保護此內容"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Also included in plans via rules:"
+msgstr "也透過規則包含在以下方案中："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Required Plans:"
+msgstr "所需方案："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+#: app/Domain/TaxonomyProtection.php
+msgid "No plans created yet."
+msgstr "尚未建立任何方案。"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Teaser Mode:"
+msgstr "預覽模式："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "No teaser (restriction message only)"
+msgstr "無預覽（僅顯示限制訊息）"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Show post excerpt"
+msgstr "顯示文章摘要"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Content before <!--more--> tag"
+msgstr "<!--more--> 標籤之前的內容"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "First N words"
+msgstr "前 N 個字"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Custom teaser text"
+msgstr "自訂預覽文字"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Number of words:"
+msgstr "字數："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Custom teaser text:"
+msgstr "自訂預覽文字："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Custom restriction message:"
+msgstr "自訂限制訊息："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "Supports: {plan_names}, {login_url}, {pricing_url}, {user_name}"
+msgstr "支援變數：{plan_names}、{login_url}、{pricing_url}、{user_name}"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "CTA Button Text:"
+msgstr "行動呼籲按鈕文字："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "e.g. Get Access Now"
+msgstr "例如：立即取得存取權"
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "CTA Button URL:"
+msgstr "行動呼籲按鈕網址："
+
+#: app/Domain/ContentProtection.php app/Domain/ContentProtection.php
+msgid "e.g. /pricing"
+msgstr "例如：/pricing"
+
+#: app/Domain/MembershipModeService.php
+msgid "Membership grant blocked"
+msgstr "會員資格授予被封鎖"
+
+#: app/Domain/MembershipModeService.php
+msgid ""
+"Plan level %d is lower than current level %d. Upgrade-only mode prevents "
+"downgrades."
+msgstr "方案等級 %d 低於目前等級 %d。僅限升級模式禁止降級。"
+
+#: app/Domain/AccessEvaluator.php
+msgid "This content will be available to you soon. Check back later."
+msgstr "此內容即將開放給您。請稍後再回來查看。"
+
+#: app/Domain/UrlProtection.php
+msgid "This area is for members only."
+msgstr "此區域僅供會員使用。"
+
+#: app/Domain/UrlProtection.php app/Domain/UrlProtection.php
+#: app/Domain/SpecialPageProtection.php app/Domain/SpecialPageProtection.php
+msgid "Access Restricted"
+msgstr "存取受限"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Restrict by membership"
+msgstr "按會員資格限制"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Visibility mode"
+msgstr "可見度模式"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Members only"
+msgstr "僅會員"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Non-members only"
+msgstr "僅非會員"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Specific plans"
+msgstr "特定方案"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Logged-in users"
+msgstr "已登入使用者"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Logged-out users"
+msgstr "已登出使用者"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Required plans"
+msgstr "所需方案"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Replacement text"
+msgstr "替代文字"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "e.g., Upgrade to Access"
+msgstr "例如：升級以存取"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "Replacement URL"
+msgstr "替代網址"
+
+#: app/Domain/MenuProtection.php app/Domain/MenuProtection.php
+msgid "e.g., /pricing"
+msgstr "例如：/pricing"
+
+#: app/Domain/TrialLifecycleService.php app/Domain/TrialLifecycleService.php
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+#: app/Email/AccessExpiringEmail.php
+msgid "Membership"
+msgstr "會員資格"
+
+#: app/Domain/SpecialPageProtection.php
+msgid "Post Type Archives"
+msgstr "文章類型彙整"
+
+#: app/Domain/SpecialPageProtection.php
+msgid "Blog Page"
+msgstr "部落格頁面"
+
+#: app/Domain/CommentProtection.php
+msgid "Join a membership plan to participate in the discussion."
+msgstr "加入會員方案以參與討論。"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid ""
+"When set to \"all posts\", every post assigned to this %s will require "
+"membership access."
+msgstr "設為「所有文章」時，指派給此 %s 的每篇文章都將需要會員資格才能存取。"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "Protect this term"
+msgstr "保護此分類項目"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "Require a membership plan to access content in this term."
+msgstr "需要會員方案才能存取此分類項目中的內容。"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "Required Plans"
+msgstr "所需方案"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "Post Inheritance"
+msgstr "文章繼承"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "No inheritance (protect term archive only)"
+msgstr "無繼承（僅保護分類彙整頁）"
+
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+#: app/Domain/TaxonomyProtection.php app/Domain/TaxonomyProtection.php
+msgid "Protect all posts in this term"
+msgstr "保護此分類中的所有文章"
+
+#: app/Domain/Drip/DripEvaluator.php
+msgid "Day 0 (Immediate)"
+msgstr "第 0 天（立即）"
+
+#: app/Domain/Drip/DripEvaluator.php
+msgid "Day %d"
+msgstr "第 %d 天"
+
+#: app/Domain/Plan/PlanScheduleService.php
+msgid "Schedule cleared."
+msgstr "排程已清除。"
+
+#: app/Domain/Plan/PlanScheduleService.php
+msgid "Invalid scheduled status."
+msgstr "無效的預定狀態。"
+
+#: app/Domain/Plan/PlanScheduleService.php
+msgid "Status change scheduled."
+msgstr "狀態變更已排程。"
+
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Product ID is required."
+msgstr "商品 ID 為必填。"
+
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Product not found."
+msgstr "找不到商品。"
+
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "This product is already linked to this plan."
+msgstr "此商品已連結至此方案。"
+
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "Integration feed not found."
+msgstr "找不到整合 feed。"
+
+#: app/Domain/Plan/PlanProductLinkService.php
+msgid "This feed does not belong to this plan."
+msgstr "此 feed 不屬於此方案。"
+
+#: app/Domain/Plan/PlanService.php app/Domain/Plan/PlanService.php
+msgid "Plan slug already exists."
+msgstr "方案代稱已存在。"
+
+#: app/Domain/Plan/PlanService.php
+msgid "Circular plan hierarchy detected."
+msgstr "偵測到循環方案階層。"
+
+#: app/Domain/Plan/PlanRuleValidationService.php
+msgid "Rule #%d: invalid resource type \"%s\"."
+msgstr "規則 #%d：無效的資源類型「%s」。"
+
+#: app/Domain/Plan/PlanRuleValidationService.php
+msgid "Rule #%d: drip_date is required when drip type is \"Fixed Date\"."
+msgstr "規則 #%d：當漸進釋出類型為「固定日期」時，drip_date 為必填。"
+
+#: app/Domain/Plan/PlanRuleValidationService.php
+msgid "Rule #%d: drip date cannot be in the past."
+msgstr "規則 #%d：漸進釋出日期不能是過去的日期。"
+
+#: app/Domain/Plan/PlanRuleValidationService.php
+msgid "Rule #%d: delay days must be between 1 and 730."
+msgstr "規則 #%d：延遲天數必須介於 1 至 730 之間。"
+
+#: app/Domain/Plan/PlanImportExportService.php
+msgid "Import data must include a plan title."
+msgstr "匯入資料必須包含方案標題。"
+
+#: app/Domain/Import/ImportService.php
+msgid "Plan title cannot be empty."
+msgstr "方案標題不能為空。"
+
+#: app/Domain/Grant/MembershipTermCalculator.php
+msgid "Invalid membership term mode."
+msgstr "無效的會員期限模式。"
+
+#: app/Domain/Grant/MembershipTermCalculator.php
+msgid "Membership term value must be at least 1."
+msgstr "會員期限值至少為 1。"
+
+#: app/Domain/Grant/MembershipTermCalculator.php
+msgid "Invalid membership term unit."
+msgstr "無效的會員期限單位。"
+
+#: app/Domain/Grant/MembershipTermCalculator.php
+msgid "Membership term value is too large."
+msgstr "會員期限值過大。"
+
+#: app/Domain/Grant/MembershipTermCalculator.php
+msgid "Invalid membership term date."
+msgstr "無效的會員期限日期。"
+
+#: app/Domain/Grant/PlanGrantExecutionService.php
+msgid "Membership plan granted"
+msgstr "會員方案已授予"
+
+#: app/Domain/Grant/PlanGrantExecutionService.php
+msgid "Plan #%d: %d resources granted"
+msgstr "方案 #%d：%d 個資源已授予"
+
+#: app/Domain/Grant/GrantRevocationService.php
+msgid "Membership plan revoked"
+msgstr "會員方案已撤銷"
+
+#: app/Domain/Grant/GrantRevocationService.php
+msgid "Plan #%d: %d resources revoked, %d retained"
+msgstr "方案 #%d：%d 個資源已撤銷，%d 個保留"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Has Membership Plan"
+msgstr "擁有會員方案"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "has"
+msgstr "有"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "does not have"
+msgstr "沒有"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Membership Status"
+msgstr "會員狀態"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Active"
+msgstr "有效"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Paused"
+msgstr "已暫停"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Expired"
+msgstr "已過期"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Revoked"
+msgstr "已撤銷"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "is"
+msgstr "是"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "is not"
+msgstr "不是"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Days Until Expiry"
+msgstr "距到期還有幾天"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Renewal Count"
+msgstr "續訂次數"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Member Duration (Days)"
+msgstr "會員資格天數"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "In Trial"
+msgstr "試用中"
+
+#: app/FluentCRM/Filters/MembershipFilters.php
+msgid "Check if the contact is currently in a trial membership period"
+msgstr "檢查聯絡人是否正處於試用會員期間"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "FCHub Memberships"
+msgstr "FCHub 會員資格"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Payment Failed"
+msgstr "付款失敗"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+msgid ""
+"This will start when a payment fails for a subscription linked to a "
+"membership"
+msgstr "當與會員資格連結的訂閱付款失敗時觸發"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+msgid "This will start when a payment fails for a membership subscription"
+msgstr "當會員訂閱付款失敗時觸發"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Subscription Status"
+msgstr "訂閱狀態"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Select Status"
+msgstr "選擇狀態"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "An automated double-optin email will be sent for new subscribers"
+msgstr "新訂閱者將收到自動化雙重確認電子郵件"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Target Plans"
+msgstr "目標方案"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Select plans this automation applies to"
+msgstr "選擇此自動化適用的方案"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "All Plans"
+msgstr "所有方案"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Leave blank to trigger for any plan"
+msgstr "留空以對任何方案觸發"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "Restart automation for same contact on repeat events"
+msgstr "重複事件時為相同聯絡人重新啟動自動化"
+
+#: app/FluentCRM/Triggers/PaymentFailedTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid ""
+"If enabled, the automation will restart for a contact even if they are "
+"already in this automation"
+msgstr "啟用後，即使聯絡人已在此自動化流程中，也會重新啟動"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "Drip Milestone Reached"
+msgstr "漸進釋出里程碑達成"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid ""
+"This will start when a user reaches a drip content completion milestone "
+"(e.g. 25%, 50%, 75%, 100%)"
+msgstr "當使用者達成漸進釋出內容完成里程碑時觸發（例如 25%、50%、75%、100%）"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid ""
+"This will start when a user reaches a drip content completion milestone"
+msgstr "當使用者達成漸進釋出內容完成里程碑時觸發"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "Milestone Percentages"
+msgstr "里程碑百分比"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "Select which completion milestones should trigger"
+msgstr "選擇哪些完成里程碑應觸發"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "Select milestones"
+msgstr "選擇里程碑"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "25%"
+msgstr "25%"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "50%"
+msgstr "50%"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "75%"
+msgstr "75%"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid "100%"
+msgstr "100%"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+msgid ""
+"Trigger fires when drip progress reaches or passes each selected milestone"
+msgstr "當漸進釋出進度達到或超過每個選定的里程碑時觸發"
+
+#: app/FluentCRM/Triggers/DripMilestoneTrigger.php
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "Enable to allow multiple milestone triggers per contact"
+msgstr "啟用以允許每個聯絡人觸發多個里程碑"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+msgid "Membership Paused"
+msgstr "會員資格已暫停"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "This will start when a membership is paused"
+msgstr "當會員資格暫停時觸發"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Pause Reasons"
+msgstr "暫停原因"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Only trigger for specific pause reasons"
+msgstr "僅對特定暫停原因觸發"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "All Reasons"
+msgstr "所有原因"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Subscription Cancelled"
+msgstr "訂閱已取消"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Subscription Paused"
+msgstr "訂閱已暫停"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Manual / Admin"
+msgstr "手動 / 管理員"
+
+#: app/FluentCRM/Triggers/MembershipPausedTrigger.php
+msgid "Leave blank to trigger for all reasons"
+msgstr "留空以對所有原因觸發"
+
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+msgid "Trial Converted to Paid"
+msgstr "試用轉為付費"
+
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+#: app/FluentCRM/Triggers/TrialConvertedTrigger.php
+msgid ""
+"This will start when a trial membership converts to a paid subscription"
+msgstr "當試用會員資格轉為付費訂閱時觸發"
+
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+#: app/FluentCRM/Benchmarks/MembershipResumedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipResumedBenchmark.php
+msgid "Membership Resumed"
+msgstr "會員資格已恢復"
+
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+#: app/FluentCRM/Triggers/MembershipResumedTrigger.php
+msgid "This will start when a paused membership is resumed"
+msgstr "當暫停的會員資格恢復時觸發"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Membership Plan Granted"
+msgstr "會員方案已授予"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "This will start when a membership plan is granted to a user"
+msgstr "當會員方案授予使用者時觸發"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "If Contact Already Exist?"
+msgstr "若聯絡人已存在？"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid ""
+"Please specify what will happen if the subscriber already exists in the "
+"database"
+msgstr "請指定若訂閱者已存在於資料庫時的處理方式"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Source Types"
+msgstr "來源類型"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Filter by how the membership was granted"
+msgstr "按會員資格授予方式篩選"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "All Sources"
+msgstr "所有來源"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Order"
+msgstr "訂單"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Subscription"
+msgstr "訂閱"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Manual"
+msgstr "手動"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Trial"
+msgstr "試用"
+
+#: app/FluentCRM/Triggers/MembershipGrantedTrigger.php
+msgid "Leave blank to trigger for any source type"
+msgstr "留空以對任何來源類型觸發"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+msgid "Trial Expiring Soon"
+msgstr "試用即將到期"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+msgid "This will start when a trial membership is about to expire"
+msgstr "當試用會員資格即將到期時觸發"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid "Minimum Days Left"
+msgstr "最少剩餘天數"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid "e.g. 1"
+msgstr "例如：1"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+msgid ""
+"Only trigger if at least this many trial days remain. Leave blank for no "
+"minimum."
+msgstr "僅在試用剩餘天數至少為此數值時觸發。留空則無最低限制。"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid "Maximum Days Left"
+msgstr "最多剩餘天數"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+msgid "e.g. 7"
+msgstr "例如：7"
+
+#: app/FluentCRM/Triggers/TrialExpiringSoonTrigger.php
+msgid ""
+"Only trigger if no more than this many trial days remain. Leave blank for no"
+" maximum."
+msgstr "僅在試用剩餘天數不超過此數值時觸發。留空則無最高限制。"
+
+#: app/FluentCRM/Triggers/TrialStartedTrigger.php
+#: app/FluentCRM/Triggers/TrialStartedTrigger.php
+msgid "Trial Started"
+msgstr "試用已開始"
+
+#: app/FluentCRM/Triggers/TrialStartedTrigger.php
+#: app/FluentCRM/Triggers/TrialStartedTrigger.php
+msgid "This will start when a user begins a trial membership"
+msgstr "當使用者開始試用會員資格時觸發"
+
+#: app/FluentCRM/Triggers/TrialExpiredTrigger.php
+#: app/FluentCRM/Triggers/TrialExpiredTrigger.php
+msgid "Trial Expired Without Conversion"
+msgstr "試用到期未轉換"
+
+#: app/FluentCRM/Triggers/TrialExpiredTrigger.php
+#: app/FluentCRM/Triggers/TrialExpiredTrigger.php
+msgid ""
+"This will start when a trial expires without converting to a paid membership"
+msgstr "當試用到期且未轉為付費會員資格時觸發"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "Membership Anniversary"
+msgstr "會員週年紀念"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid ""
+"This will start when a membership reaches a milestone anniversary (e.g. 30, "
+"90, 365 days)"
+msgstr "當會員資格達成週年里程碑時觸發（例如 30、90、365 天）"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "This will start when a membership reaches a milestone anniversary"
+msgstr "當會員資格達成週年里程碑時觸發"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "Milestone Days"
+msgstr "里程碑天數"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "Select which day milestones should trigger"
+msgstr "選擇哪些天數里程碑應觸發"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "30 days"
+msgstr "30 天"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "60 days"
+msgstr "60 天"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "90 days"
+msgstr "90 天"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "180 days"
+msgstr "180 天"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "365 days (1 year)"
+msgstr "365 天（1 年）"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "730 days (2 years)"
+msgstr "730 天（2 年）"
+
+#: app/FluentCRM/Triggers/MembershipAnniversaryTrigger.php
+msgid "You can also type a custom number of days"
+msgstr "您也可以輸入自訂天數"
+
+#: app/FluentCRM/Triggers/MembershipExpiredTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiredTrigger.php
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+msgid "Membership Expired"
+msgstr "會員資格已過期"
+
+#: app/FluentCRM/Triggers/MembershipExpiredTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiredTrigger.php
+msgid "This will start when a membership grant expires"
+msgstr "當會員授予記錄到期時觸發"
+
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+msgid "Membership Renewed"
+msgstr "會員資格已續訂"
+
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+msgid "This will start when a membership grant is renewed"
+msgstr "當會員授予記錄續訂時觸發"
+
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+msgid "Minimum Renewal Count"
+msgstr "最低續訂次數"
+
+#: app/FluentCRM/Triggers/MembershipRenewedTrigger.php
+msgid "Only trigger when the renewal count reaches at least this number"
+msgstr "僅在續訂次數達到至少此數值時觸發"
+
+#: app/FluentCRM/Triggers/MembershipRevokedTrigger.php
+#: app/FluentCRM/Triggers/MembershipRevokedTrigger.php
+msgid "Membership Plan Revoked"
+msgstr "會員方案已撤銷"
+
+#: app/FluentCRM/Triggers/MembershipRevokedTrigger.php
+#: app/FluentCRM/Triggers/MembershipRevokedTrigger.php
+msgid "This will start when a membership plan is revoked from a user"
+msgstr "當會員方案從使用者撤銷時觸發"
+
+#: app/FluentCRM/Triggers/DripContentUnlockedTrigger.php
+#: app/FluentCRM/Triggers/DripContentUnlockedTrigger.php
+msgid "Drip Content Unlocked"
+msgstr "漸進釋出內容已解鎖"
+
+#: app/FluentCRM/Triggers/DripContentUnlockedTrigger.php
+#: app/FluentCRM/Triggers/DripContentUnlockedTrigger.php
+msgid "This will start when drip content is unlocked for a user"
+msgstr "當漸進釋出內容為使用者解鎖時觸發"
+
+#: app/FluentCRM/Triggers/DripContentUnlockedTrigger.php
+msgid ""
+"This trigger fires for each drip item. Enable to allow multiple runs per "
+"contact."
+msgstr "每個漸進釋出項目都會觸發。啟用以允許每個聯絡人多次執行。"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid "Membership Expiring Soon"
+msgstr "會員資格即將到期"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid ""
+"This will start when a membership is about to expire (within the configured "
+"notice period)"
+msgstr "當會員資格即將到期時觸發（在設定的通知期限內）"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid "This will start when a membership is about to expire"
+msgstr "當會員資格即將到期時觸發"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid ""
+"Only trigger if at least this many days remain. Leave blank for no minimum."
+msgstr "僅在至少還剩這麼多天時觸發。留空則無最低限制。"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "e.g. 30"
+msgstr "例如：30"
+
+#: app/FluentCRM/Triggers/MembershipExpiringSoonTrigger.php
+msgid ""
+"Only trigger if no more than this many days remain. Leave blank for no "
+"maximum."
+msgstr "僅在不超過這麼多天時觸發。留空則無最高限制。"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Membership-related smart codes"
+msgstr "會員相關智慧代碼"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Active Plan Name"
+msgstr "有效方案名稱"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Active Plan Slug"
+msgstr "有效方案代稱"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Expiration Date"
+msgstr "到期日"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Trial End Date"
+msgstr "試用結束日"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Grant Date"
+msgstr "授予日期"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Accessible Resources Count"
+msgstr "可存取資源數量"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Account Page URL"
+msgstr "帳號頁面網址"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Drip Progress"
+msgstr "漸進釋出進度"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "All Active Plan Names"
+msgstr "所有有效方案名稱"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Cancellation / Revoke Reason"
+msgstr "取消 / 撤銷原因"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Trial Days Remaining"
+msgstr "試用剩餘天數"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Last Generated Coupon Code"
+msgstr "最後產生的優惠券代碼"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Last Generated Coupon Amount"
+msgstr "最後產生的優惠券金額"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Last Generated Coupon Expiry"
+msgstr "最後產生的優惠券到期日"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Checkout URL for Current Plan"
+msgstr "目前方案結帳網址"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Upgrade URL for Next Plan"
+msgstr "下一個方案升級網址"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Next Billing Date"
+msgstr "下次帳單日期"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Payment Update URL"
+msgstr "付款更新網址"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Days as Member"
+msgstr "會員天數"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Member Since Date"
+msgstr "成為會員日期"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Days Since Expired"
+msgstr "過期後天數"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+msgid "Drip Completion Percentage"
+msgstr "漸進釋出完成百分比"
+
+#: app/FluentCRM/SmartCodes/MembershipSmartCodes.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+#: app/Email/DripContentUnlockedEmail.php
+msgid "%d of %d items unlocked"
+msgstr "已解鎖 %d / %d 個項目"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "This contact is not linked to a WordPress user."
+msgstr "此聯絡人未連結 WordPress 使用者。"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "No membership grants found."
+msgstr "找不到會員授予記錄。"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Active Memberships"
+msgstr "有效會員資格"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Plan"
+msgstr "方案"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Status"
+msgstr "狀態"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Expires"
+msgstr "到期日"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Renewals"
+msgstr "續訂次數"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Granted"
+msgstr "已授予"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "(No Plan)"
+msgstr "（無方案）"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Never"
+msgstr "永不"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "No active memberships."
+msgstr "沒有有效會員資格。"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Grant History"
+msgstr "授予紀錄"
+
+#: app/FluentCRM/ProfileSection/MembershipProfileSection.php
+msgid "Updated"
+msgstr "已更新"
+
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+msgid "Goal met when a trial membership converts to paid"
+msgstr "當試用會員資格轉為付費時達成目標"
+
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+msgid "Target Membership Plans"
+msgstr "目標會員方案"
+
+#: app/FluentCRM/Benchmarks/TrialConvertedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+msgid "Select Plans (blank = any)"
+msgstr "選擇方案（留空 = 任何方案）"
+
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipPausedBenchmark.php
+msgid "Goal met when a membership plan is paused"
+msgstr "當會員方案暫停時達成目標"
+
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+msgid "Has Active Membership"
+msgstr "擁有有效會員資格"
+
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+msgid "Goal met when contact has an active membership plan"
+msgstr "當聯絡人擁有有效會員方案時達成目標"
+
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+msgid "Run When"
+msgstr "執行時機"
+
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+msgid "Contact has any of the selected plans"
+msgstr "聯絡人擁有任何選定的方案"
+
+#: app/FluentCRM/Benchmarks/HasActiveMembershipBenchmark.php
+msgid "Contact has all of the selected plans"
+msgstr "聯絡人擁有所有選定的方案"
+
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+msgid "Membership Revoked"
+msgstr "會員資格已撤銷"
+
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipRevokedBenchmark.php
+msgid "Goal met when a membership plan is revoked"
+msgstr "當會員方案撤銷時達成目標"
+
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipExpiredBenchmark.php
+msgid "Goal met when a membership plan expires"
+msgstr "當會員方案到期時達成目標"
+
+#: app/FluentCRM/Benchmarks/PaymentRecoveredBenchmark.php
+#: app/FluentCRM/Benchmarks/PaymentRecoveredBenchmark.php
+msgid "Payment Recovered"
+msgstr "付款已恢復"
+
+#: app/FluentCRM/Benchmarks/PaymentRecoveredBenchmark.php
+msgid ""
+"Goal met when a failed payment is recovered (subscription renewed after "
+"failure)"
+msgstr "當失敗的付款恢復時達成目標（失敗後訂閱續訂）"
+
+#: app/FluentCRM/Benchmarks/PaymentRecoveredBenchmark.php
+msgid "Goal met when a failed payment is recovered"
+msgstr "當失敗的付款恢復時達成目標"
+
+#: app/FluentCRM/Benchmarks/MembershipResumedBenchmark.php
+#: app/FluentCRM/Benchmarks/MembershipResumedBenchmark.php
+msgid "Goal met when a paused membership is resumed"
+msgstr "當暫停的會員資格恢復時達成目標"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "Extend Membership Expiry"
+msgstr "延長會員到期日"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "Extend the expiry date of an active membership"
+msgstr "延長有效會員資格的到期日"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Select Plan"
+msgstr "選擇方案"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "Extend by (days)"
+msgstr "延長（天）"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "Extend From"
+msgstr "延長起算日"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "From current expiry date"
+msgstr "從目前到期日開始"
+
+#: app/FluentCRM/Actions/ExtendMembershipAction.php
+msgid "From today"
+msgstr "從今天開始"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Grant Membership Plan"
+msgstr "授予會員方案"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Grant a membership plan to the contact"
+msgstr "授予聯絡人會員方案"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Use plan default duration"
+msgstr "使用方案預設期限"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Fixed number of days"
+msgstr "固定天數"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Custom expiry date"
+msgstr "自訂到期日"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Duration (days)"
+msgstr "期限（天）"
+
+#: app/FluentCRM/Actions/GrantMembershipAction.php
+msgid "Custom Expiry Date"
+msgstr "自訂到期日"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Create FluentCart Coupon"
+msgstr "建立 FluentCart 優惠券"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Generate a unique single-use FluentCart coupon for the contact"
+msgstr "為聯絡人產生一組唯一的單次使用 FluentCart 優惠券"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Generate a unique coupon code for the contact"
+msgstr "為聯絡人產生一組唯一的優惠券代碼"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Discount Type"
+msgstr "折扣類型"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Percentage"
+msgstr "百分比"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Fixed Amount"
+msgstr "固定金額"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Discount Amount"
+msgstr "折扣金額"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "e.g. 20"
+msgstr "例如：20"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Percentage (0-100) or fixed amount depending on type selected above."
+msgstr "百分比（0-100）或固定金額，視上方選定的類型而定。"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Coupon Valid For (Days)"
+msgstr "優惠券有效天數"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "7"
+msgstr "7"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Number of days the coupon will be valid. Leave blank for no expiry."
+msgstr "優惠券有效的天數。留空則無到期日。"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Code Prefix"
+msgstr "代碼前綴"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "RENEW"
+msgstr "RENEW"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Prefix for the generated coupon code (e.g. RENEW-XXXX)."
+msgstr "產生的優惠券代碼前綴（例如 RENEW-XXXX）。"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Max Uses"
+msgstr "最多使用次數"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "1"
+msgstr "1"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid ""
+"Maximum number of times this coupon can be used. Default: 1 (single-use)."
+msgstr "此優惠券可使用的最大次數。預設：1（單次使用）。"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Apply to Recurring Payments"
+msgstr "套用至週期性付款"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "First payment only"
+msgstr "僅首次付款"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "All recurring payments"
+msgstr "所有週期性付款"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Minimum Purchase Amount"
+msgstr "最低購買金額"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Leave blank for no minimum"
+msgstr "留空則無最低限制"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Optional minimum order amount required to use this coupon."
+msgstr "使用此優惠券所需的選填最低訂單金額。"
+
+#: app/FluentCRM/Actions/CreateFluentCartCouponAction.php
+msgid "Auto: %s%% off for %s"
+msgstr "自動：%s%% 折扣（適用於 %s）"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Change Membership Plan"
+msgstr "變更會員方案"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Switch the contact from one membership plan to another"
+msgstr "將聯絡人從一個會員方案切換到另一個"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Any active plan"
+msgstr "任何有效方案"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Switch the contact from one plan to another"
+msgstr "將聯絡人從一個方案切換到另一個"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "From Plan"
+msgstr "來源方案"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "To Plan"
+msgstr "目標方案"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Keep Expiry"
+msgstr "保留到期日"
+
+#: app/FluentCRM/Actions/ChangeMembershipPlanAction.php
+msgid "Transfer remaining time to the new plan"
+msgstr "將剩餘時間轉移到新方案"
+
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+msgid "Pause Membership"
+msgstr "暫停會員資格"
+
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+msgid "Pause active membership grants for the contact"
+msgstr "暫停聯絡人的有效會員授予記錄"
+
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+msgid "All active plans"
+msgstr "所有有效方案"
+
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Reason"
+msgstr "原因"
+
+#: app/FluentCRM/Actions/PauseMembershipAction.php
+msgid "Reason for pausing"
+msgstr "暫停原因"
+
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+msgid "Resume Membership"
+msgstr "恢復會員資格"
+
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+msgid "Resume paused membership grants for the contact"
+msgstr "恢復聯絡人已暫停的會員授予記錄"
+
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+#: app/FluentCRM/Actions/ResumeMembershipAction.php
+msgid "All paused plans"
+msgstr "所有已暫停方案"
+
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Revoke Membership Plan"
+msgstr "撤銷會員方案"
+
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Revoke a membership plan from the contact"
+msgstr "從聯絡人撤銷會員方案"
+
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Reason for revoking"
+msgstr "撤銷原因"
+
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Use Grace Period"
+msgstr "使用寬限期"
+
+#: app/FluentCRM/Actions/RevokeMembershipAction.php
+msgid "Apply the plan's grace period before revoking"
+msgstr "在撤銷前套用方案的寬限期"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Select which membership plans will trigger this automation"
+msgstr "選擇哪些會員方案將觸發此自動化"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Select Plans"
+msgstr "選擇方案"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Leave blank to run for all plans"
+msgstr "留空以對所有方案執行"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Restart Automation?"
+msgstr "重新啟動自動化？"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Allow this automation to restart if it has already run for the contact"
+msgstr "若此自動化已對該聯絡人執行過，允許重新啟動"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "No, skip if already in funnel"
+msgstr "否，若已在流程中則略過"
+
+#: app/FluentCRM/Helpers/MembershipFunnelHelper.php
+msgid "Yes, restart the automation"
+msgstr "是，重新啟動自動化"
+
+#: app/Email/AccessGrantedEmail.php
+msgid "Welcome to {plan_name}!"
+msgstr "歡迎加入 {plan_name}！"
+
+#: app/Email/AccessGrantedEmail.php
+msgid "Coming Soon"
+msgstr "即將推出"
+
+#: app/Email/MembershipResumedEmail.php
+msgid "Your {plan_name} membership is active again!"
+msgstr "您的 {plan_name} 會員資格已恢復有效！"
+
+#: app/Email/MembershipResumedEmail.php app/Email/TrialConvertedEmail.php
+msgid "Lifetime"
+msgstr "終身"
+
+#: app/Email/AccessExpiringEmail.php
+msgid "Your {plan_name} access expires in {days} days"
+msgstr "您的 {plan_name} 存取權將於 {days} 天後到期"
+
+#: app/Email/TrialConvertedEmail.php
+msgid "Your {plan_name} membership is now active!"
+msgstr "您的 {plan_name} 會員資格現已生效！"
+
+#: app/Email/TrialExpiringEmail.php
+msgid "Your {plan_name} trial ends in {days} days"
+msgstr "您的 {plan_name} 試用期將於 {days} 天後結束"
+
+#: app/Email/MembershipPausedEmail.php
+msgid "Your {plan_name} membership has been paused"
+msgstr "您的 {plan_name} 會員資格已暫停"
+
+#: app/Email/AccessRevokedEmail.php
+msgid "Your {plan_name} access has been removed"
+msgstr "您的 {plan_name} 存取權已被移除"
+
+#: app/Email/AccessRevokedEmail.php
+msgid "Your membership has ended."
+msgstr "您的會員資格已結束。"
+
+#: app/Email/DripContentUnlockedEmail.php
+msgid "New content available: {resource_title}"
+msgstr "新內容已開放：{resource_title}"
+
+#: app/Email/DripContentUnlockedEmail.php
+msgid "Coming next:"
+msgstr "接下來："
+
+#: app/Reports/RevenueReport.php app/Reports/RevenueReport.php
+#: app/Reports/MemberStatsReport.php app/Reports/ContentPopularityReport.php
+#: app/Reports/ContentPopularityReport.php
+msgid "(Deleted Plan)"
+msgstr "（已刪除方案）"

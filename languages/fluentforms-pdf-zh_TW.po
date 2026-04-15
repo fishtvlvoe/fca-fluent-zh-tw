@@ -1,0 +1,509 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fluentforms-pdf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-16 04:38+0000\n"
+"PO-Revision-Date: 2026-04-16 04:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: auto-translate.py (polib)\n"
+
+#: assets/views/admin_screen.php:30
+msgid " to check your global PDF feed settings"
+msgstr "以檢查您的全域 PDF feed 設定"
+
+#: Classes/Controller/GlobalPdfManager.php:53
+msgid " to download and configure the settings"
+msgstr "以下載並設定相關設定"
+
+#: Classes/Controller/AvailableOptions.php:139
+#: Classes/Controller/GlobalPdfManager.php:603
+msgid "Accent color"
+msgstr "強調色"
+
+#: Classes/Templates/InvoiceTemplate.php:63
+msgid ""
+"Add your invoice prefix which will be prepended with the invoice number"
+msgstr "新增發票前綴，將置於發票編號之前"
+
+#: Classes/Controller/GlobalPdfManager.php:569
+msgid "All available templates are shown here, select a default template"
+msgstr "此處顯示所有可用模板，請選擇預設模板"
+
+#: assets/views/admin_screen.php:30
+msgid "All Looks good! You can now use Fluent Forms PDF Addon."
+msgstr "一切就緒！您現在可以使用 Fluent Forms PDF 附加元件。"
+
+#: Classes/Controller/GlobalPdfManager.php:417
+msgid "Allow Download"
+msgstr "允許下載"
+
+#: Classes/Controller/GlobalPdfManager.php:418
+msgid ""
+"Allow this feed to be downloaded on form submission. Only logged in users "
+"will be able to download."
+msgstr "允許在表單提交時下載此 feed。僅已登入使用者可下載。"
+
+#: Classes/Templates/InvoiceTemplate.php:38
+msgid "Business Logo"
+msgstr "商家標誌"
+
+#: assets/views/admin_screen.php:18
+msgid "But Few Server Extensions are missing"
+msgstr "但缺少部分伺服器擴充功能"
+
+#: assets/views/admin_screen.php:30
+msgid "Click Here"
+msgstr "點擊此處"
+
+#: Classes/Controller/GlobalPdfManager.php:53
+msgid "click here"
+msgstr "點擊此處"
+
+#: fluentforms-pdf.php:88
+msgid "Click Here to Activate the Plugin"
+msgstr "點擊此處啟用外掛"
+
+#: fluentforms-pdf.php:85
+msgid "Click Here to Install the Plugin"
+msgstr "點擊此處安裝外掛"
+
+#: Classes/Templates/GeneralTemplate.php:52
+msgid "Conditional PDF Body Content is supported in Fluent Forms Pro Version"
+msgstr "條件式 PDF 內文僅支援於 Fluent Forms Pro 版本"
+
+#: Classes/Controller/FontManager.php:63
+msgid "Core Font API Response Failed"
+msgstr "核心字型 API 回應失敗"
+
+#: Classes/Templates/InvoiceTemplate.php:56
+msgid "Customer Address"
+msgstr "客戶地址"
+
+#: Classes/Templates/InvoiceTemplate.php:175
+msgid "Customer Details"
+msgstr "客戶詳情"
+
+#: Classes/Templates/InvoiceTemplate.php:50
+msgid "Customer Email"
+msgstr "客戶電子郵件"
+
+#: Classes/Templates/InvoiceTemplate.php:44
+msgid "Customer Name"
+msgstr "客戶姓名"
+
+#: Classes/Controller/AvailableOptions.php:151
+msgid "Download"
+msgstr "下載"
+
+#. Description of the plugin
+msgid "Download entries as pdf with multiple template."
+msgstr "以多種模板將提交資料下載為 PDF。"
+
+#: Classes/Controller/AvailableOptions.php:146
+msgid "Entry view"
+msgstr "項目檢視"
+
+#: Classes/Controller/GlobalPdfManager.php:307
+msgid "Feed has been created, edit the feed now"
+msgstr "Feed 已建立，請立即編輯 feed"
+
+#: Classes/Controller/GlobalPdfManager.php:464
+msgid "Feed name is required"
+msgstr "Feed 名稱為必填"
+
+#: Classes/Controller/GlobalPdfManager.php:513
+msgid "Feed successfully deleted"
+msgstr "Feed 已成功刪除"
+
+#. Name of the plugin
+msgid "Fluent Forms PDF Generator"
+msgstr "Fluent Forms PDF 產生器"
+
+#: assets/views/admin_screen.php:18
+msgid "Fluent Forms PDF Module is now active"
+msgstr "Fluent Forms PDF 模組現已啟用"
+
+#: Classes/Controller/GlobalPdfManager.php:53
+msgid "Fluent Forms PDF require to download fonts. Please "
+msgstr "Fluent Forms PDF 需要下載字型。請"
+
+#: fluentforms-pdf.php:91
+msgid "FluentForm pdf Add-On Requires Fluent Forms Plugin, "
+msgstr "FluentForm PDF 附加元件需要 Fluent Forms 外掛，"
+
+#: Classes/Controller/AvailableOptions.php:132
+#: Classes/Controller/GlobalPdfManager.php:592
+msgid "Font color"
+msgstr "字型顏色"
+
+#: Classes/Controller/GlobalPdfManager.php:795
+msgid "Font Download failed. Please reload and try again"
+msgstr "字型下載失敗。請重新載入後再試"
+
+#: Classes/Controller/GlobalPdfManager.php:580
+msgid "Font Family"
+msgstr "字型家族"
+
+#: Classes/Controller/AvailableOptions.php:119
+msgid "Font family"
+msgstr "字型家族"
+
+#: Classes/Controller/AvailableOptions.php:126
+#: Classes/Controller/GlobalPdfManager.php:587
+msgid "Font size"
+msgstr "字型大小"
+
+#: assets/views/admin_screen.php:6
+msgid "Fonts are required for PDF Generation"
+msgstr "PDF 產生需要字型"
+
+#: Classes/Templates/GeneralTemplate.php:56
+msgid "Footer Content"
+msgstr "頁尾內容"
+
+#: Classes/Controller/GlobalPdfManager.php:823
+msgid "GD Library is enabled"
+msgstr "GD 圖形庫已啟用"
+
+#: Classes/Templates/GeneralTemplate.php:38
+msgid "Header Content"
+msgstr "頁首內容"
+
+#: Classes/Controller/GlobalPdfManager.php:597
+msgid "Heading color"
+msgstr "標題顏色"
+
+#. Author URI of the plugin
+msgid "https://wpmanageninja.com"
+msgstr "https://wpmanageninja.com"
+
+#. URI of the plugin
+msgid "https://wpmanageninja.com/downloads/fluentform-pro-add-on/"
+msgstr "https://wpmanageninja.com/downloads/fluentform-pro-add-on/"
+
+#: Classes/Controller/GlobalPdfManager.php:410
+msgid ""
+"If you want to set password please enter password otherwise leave it empty"
+msgstr "若要設定密碼請輸入密碼，否則請留空"
+
+#: assets/views/admin_screen.php:10
+msgid "Install Fonts"
+msgstr "安裝字型"
+
+#: Classes/Templates/InvoiceTemplate.php:68
+msgid "Invoice Body Text"
+msgstr "發票內文"
+
+#: Classes/Templates/InvoiceTemplate.php:74
+msgid "Invoice Footer Text"
+msgstr "發票頁尾文字"
+
+#: Classes/Templates/InvoiceTemplate.php:62
+msgid "Invoice Prefix"
+msgstr "發票前綴"
+
+#: Classes/Controller/GlobalPdfManager.php:609
+msgid "Language Direction"
+msgstr "語言方向"
+
+#: Classes/Controller/GlobalPdfManager.php:831
+msgid "LibXml is OK"
+msgstr "LibXml 正常"
+
+#: Classes/Controller/GlobalPdfManager.php:613
+msgid "LTR"
+msgstr "由左至右"
+
+#: Classes/Controller/GlobalPdfManager.php:815
+msgid "MBString is enabled"
+msgstr "MBString 已啟用"
+
+#: Classes/Controller/GlobalPdfManager.php:819
+msgid "MBString Regex is enabled"
+msgstr "MBString Regex 已啟用"
+
+#: Classes/Controller/AvailableOptions.php:161
+#: Classes/Controller/AvailableOptions.php:172
+#: Classes/Controller/GlobalPdfManager.php:422
+msgid "No"
+msgstr "否"
+
+#: Classes/Templates/InvoiceTemplate.php:170
+msgid "Order Number:"
+msgstr "訂單編號："
+
+#: Classes/Controller/AvailableOptions.php:112
+#: Classes/Controller/GlobalPdfManager.php:574
+msgid "Orientation"
+msgstr "方向"
+
+#: Classes/Controller/AvailableOptions.php:104
+#: Classes/Controller/GlobalPdfManager.php:567
+msgid "Paper size"
+msgstr "紙張大小"
+
+#: Classes/Templates/InvoiceTemplate.php:171
+msgid "Payment Date:"
+msgstr "付款日期："
+
+#: Classes/Templates/InvoiceTemplate.php:192
+msgid "Payment Details"
+msgstr "付款詳情"
+
+#: Classes/Controller/GlobalPdfManager.php:897
+msgid "PDF"
+msgstr "PDF"
+
+#: Classes/Templates/GeneralTemplate.php:44
+msgid "PDF Body Content"
+msgstr "PDF 內文內容"
+
+#: Classes/Controller/GlobalPdfManager.php:628
+msgid "PDF Downloads"
+msgstr "PDF 下載"
+
+#: Classes/Controller/GlobalPdfManager.php:112
+msgid "PDF Feeds"
+msgstr "PDF Feeds"
+
+#: Classes/Controller/GlobalPdfManager.php:103
+msgid "PDF Settings"
+msgstr "PDF 設定"
+
+#: Classes/Controller/GlobalPdfManager.php:827
+msgid "PHP Dom is enabled"
+msgstr "PHP Dom 已啟用"
+
+#: Classes/Templates/InvoiceTemplate.php:57
+msgid "Please select the customer address field from the smartcode dropdown"
+msgstr "請從智慧代碼下拉選單選擇客戶地址欄位"
+
+#: Classes/Templates/InvoiceTemplate.php:51
+msgid "Please select the customer email field from the smartcode dropdown"
+msgstr "請從智慧代碼下拉選單選擇客戶電子郵件欄位"
+
+#: Classes/Templates/InvoiceTemplate.php:45
+msgid "Please select the customer name field from the smartcode dropdown"
+msgstr "請從智慧代碼下拉選單選擇客戶姓名欄位"
+
+#: Classes/Templates/InvoiceTemplate.php:165
+msgid "RECEIPT:"
+msgstr "收據："
+
+#: Classes/Controller/AvailableOptions.php:166
+msgid "Reverse text"
+msgstr "反向文字"
+
+#: Classes/Controller/GlobalPdfManager.php:614
+msgid "RTL"
+msgstr "由右至左"
+
+#: Classes/Controller/AvailableOptions.php:168
+msgid "Script like Arabic and Hebrew are written right to left."
+msgstr "阿拉伯文與希伯來文等語言由右至左書寫。"
+
+#: Classes/Controller/GlobalPdfManager.php:610
+msgid ""
+"Script like Arabic and Hebrew are written right to left. For Arabic/Hebrew "
+"please select RTL"
+msgstr "阿拉伯文與希伯來文等語言由右至左書寫。阿拉伯文/希伯來文請選擇 RTL"
+
+#: Classes/Controller/AvailableOptions.php:107
+msgid "select a pdf paper size"
+msgstr "選擇 PDF 紙張大小"
+
+#: Classes/Controller/GlobalPdfManager.php:582
+msgid "Select Font"
+msgstr "選擇字型"
+
+#: Classes/Controller/GlobalPdfManager.php:598
+msgid "Select Heading Color"
+msgstr "選擇標題顏色"
+
+#: Classes/Controller/GlobalPdfManager.php:403
+msgid "Set as background"
+msgstr "設為背景"
+
+#: Classes/Controller/GlobalPdfManager.php:193
+#: Classes/Controller/GlobalPdfManager.php:493
+msgid "Settings successfully updated"
+msgstr "設定已成功更新"
+
+#: Classes/Controller/GlobalPdfManager.php:428
+msgid "Shortcode"
+msgstr "短代碼"
+
+#: Classes/Controller/AvailableOptions.php:156
+msgid "Show empty fields"
+msgstr "顯示空白欄位"
+
+#: Classes/Controller/GlobalPdfManager.php:670
+msgid "Sorry! No feed found"
+msgstr "抱歉！找不到 feed"
+
+#: Classes/Controller/GlobalPdfManager.php:345
+#: Classes/Controller/GlobalPdfManager.php:504
+msgid "Sorry! No feed found!"
+msgstr "抱歉！找不到 feed！"
+
+#: Classes/Controller/GlobalPdfManager.php:204
+#: Classes/Controller/GlobalPdfManager.php:227
+#: Classes/Controller/GlobalPdfManager.php:256
+#: Classes/Controller/GlobalPdfManager.php:333
+#: Classes/Controller/GlobalPdfManager.php:449
+msgid "Sorry! No form found!"
+msgstr "抱歉！找不到表單！"
+
+#: Classes/Controller/GlobalPdfManager.php:697
+msgid "Sorry! No template class found"
+msgstr "抱歉！找不到模板類別"
+
+#: Classes/Controller/GlobalPdfManager.php:277
+#: Classes/Controller/GlobalPdfManager.php:373
+msgid "Sorry! No template Class found!"
+msgstr "抱歉！找不到模板類別！"
+
+#: Classes/Controller/GlobalPdfManager.php:690
+msgid "Sorry! No template found"
+msgstr "抱歉！找不到模板"
+
+#: Classes/Controller/GlobalPdfManager.php:268
+#: Classes/Controller/GlobalPdfManager.php:364
+msgid "Sorry! No template found!"
+msgstr "抱歉！找不到模板！"
+
+#: Classes/Controller/GlobalPdfManager.php:940
+msgid "Sorry! You have to login first."
+msgstr "抱歉！您必須先登入。"
+
+#: Classes/Controller/GlobalPdfManager.php:604
+msgid "The accent color is used for the borders, breaks etc."
+msgstr "強調色用於邊框、分隔線等。"
+
+#: Classes/Controller/AvailableOptions.php:141
+msgid "The accent color is used for the page, section titles and the border."
+msgstr "強調色用於頁面、區段標題與邊框。"
+
+#: Classes/Controller/AvailableOptions.php:134
+msgid "The font color will use in the PDF."
+msgstr "PDF 中將使用此字型顏色。"
+
+#: Classes/Controller/GlobalPdfManager.php:827
+msgid ""
+"The PHP DOM Extension was not found. Contact your web hosting provider to "
+"fix."
+msgstr "找不到 PHP DOM 擴充功能。請聯絡您的主機商協助修復。"
+
+#: Classes/Controller/GlobalPdfManager.php:823
+msgid ""
+"The PHP Extension GD Image Library could not be detected. Contact your web "
+"hosting provider to fix."
+msgstr "無法偵測到 PHP GD 圖像庫擴充功能。請聯絡您的主機商協助修復。"
+
+#: Classes/Controller/GlobalPdfManager.php:831
+msgid ""
+"The PHP Extension libxml could not be detected. Contact your web hosting "
+"provider to fix"
+msgstr "無法偵測到 PHP libxml 擴充功能。請聯絡您的主機商協助修復"
+
+#: Classes/Controller/GlobalPdfManager.php:815
+msgid ""
+"The PHP Extension MB String could not be detected. Contact your web hosting "
+"provider to fix."
+msgstr "無法偵測到 PHP MB String 擴充功能。請聯絡您的主機商協助修復。"
+
+#: Classes/Controller/GlobalPdfManager.php:819
+msgid ""
+"The PHP Extension MB String does not have MB Regex enabled. Contact your web"
+" hosting provider to fix."
+msgstr "PHP MB String 擴充功能未啟用 MB Regex。請聯絡您的主機商協助修復。"
+
+#: assets/views/admin_screen.php:7
+msgid ""
+"This module requires to download fonts for PDF generation. Please click on "
+"the below button and it will download the required font files. This is one "
+"time job"
+msgstr "此模組需要下載字型以產生 PDF。請點擊下方按鈕，它將下載所需字型檔案。此為一次性作業。"
+
+#: Classes/Controller/GlobalPdfManager.php:429
+msgid "Use this shortcode on submission message to generate PDF link."
+msgstr "在提交訊息中使用此短代碼以產生 PDF 連結。"
+
+#: Classes/Controller/GlobalPdfManager.php:397
+msgid "Value should be between 1 to 100"
+msgstr "數值應介於 1 至 100 之間"
+
+#: Classes/Controller/AvailableOptions.php:150
+msgid "View"
+msgstr "檢視"
+
+#: Classes/Controller/GlobalPdfManager.php:382
+msgid "Watermark Image"
+msgstr "浮水印圖片"
+
+#: Classes/Controller/GlobalPdfManager.php:395
+msgid "Watermark Opacity"
+msgstr "浮水印不透明度"
+
+#: Classes/Controller/GlobalPdfManager.php:401
+msgid "Watermark Position"
+msgstr "浮水印位置"
+
+#: Classes/Controller/GlobalPdfManager.php:388
+msgid "Watermark Text"
+msgstr "浮水印文字"
+
+#: Classes/Controller/GlobalPdfManager.php:390
+msgid "Watermark text"
+msgstr "浮水印文字"
+
+#. Author of the plugin
+msgid "WPManageNinja LLC"
+msgstr "WPManageNinja LLC"
+
+#: Classes/Templates/InvoiceTemplate.php:69
+msgid "Write Invoice body text. This will show before the invoice items"
+msgstr "撰寫發票內文。將顯示於發票項目之前"
+
+#: Classes/Templates/InvoiceTemplate.php:75
+msgid "Write Invoice Footer Text. This will show at the end of the invoice"
+msgstr "撰寫發票頁尾文字。將顯示於發票末尾"
+
+#: Classes/Templates/GeneralTemplate.php:45
+msgid "Write your Body content for actual PDF body"
+msgstr "撰寫實際 PDF 內文的內容"
+
+#: Classes/Templates/GeneralTemplate.php:57
+#: Classes/Templates/GeneralTemplate.php:59
+msgid "Write your Footer content which will be shown every page of the PDF"
+msgstr "撰寫頁尾內容，將顯示於 PDF 每一頁"
+
+#: Classes/Templates/GeneralTemplate.php:39
+msgid "Write your header content which will be shown every page of the PDF"
+msgstr "撰寫頁首內容，將顯示於 PDF 每一頁"
+
+#: Classes/Controller/AvailableOptions.php:160
+#: Classes/Controller/AvailableOptions.php:171
+#: Classes/Controller/GlobalPdfManager.php:421
+msgid "Yes"
+msgstr "是"
+
+#: Classes/Templates/GeneralTemplate.php:49
+msgid ""
+"You can use Conditional Content in PDF body, for details please check this"
+msgstr "您可以在 PDF 內文中使用條件式內容，詳情請查看"
+
+#: Classes/Controller/GlobalPdfManager.php:961
+msgid "You don't have permission to download the PDF."
+msgstr "您沒有權限下載此 PDF。"
+
+#: Classes/Templates/InvoiceTemplate.php:39
+msgid "Your Business Logo which will be shown in the invoice header"
+msgstr "將顯示於發票頁首的商家標誌"

@@ -1,0 +1,113 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fluentform-pdf\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-16 04:38+0000\n"
+"PO-Revision-Date: 2026-04-16 04:38+0800\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: auto-translate.py (polib)\n"
+
+#: Classes/Templates/GeneralTemplate.php:50
+msgid "Conditional PDF Body Content is supported in Fluent Forms Pro Version"
+msgstr "條件式 PDF 內文僅支援於 Fluent Forms Pro 版本"
+
+#: Classes/Templates/InvoiceTemplate.php:146
+msgid "Customer Details"
+msgstr "客戶詳情"
+
+#. Description of the plugin
+msgid "Download entries as pdf with multiple template."
+msgstr "以多種模板將提交資料下載為 PDF。"
+
+#: Classes/Controller/GlobalPdfManager.php:362
+msgid "Feed name is required"
+msgstr "Feed 名稱為必填"
+
+#: Classes/Controller/GlobalPdfManager.php:387
+msgid "Feed successfully deleted"
+msgstr "Feed 已成功刪除"
+
+#. Name of the plugin
+msgid "Fluent Forms PDF Generator"
+msgstr "Fluent Forms PDF 產生器"
+
+#. Author URI of the plugin
+msgid "https://wpmanageninja.com"
+msgstr "https://wpmanageninja.com"
+
+#. URI of the plugin
+msgid "https://wpmanageninja.com/downloads/fluentform-pro-add-on/"
+msgstr "https://wpmanageninja.com/downloads/fluentform-pro-add-on/"
+
+#: Classes/Templates/InvoiceTemplate.php:142
+msgid "Order Number:"
+msgstr "訂單編號："
+
+#: Classes/Templates/InvoiceTemplate.php:143
+msgid "Payment Date:"
+msgstr "付款日期："
+
+#: Classes/Templates/InvoiceTemplate.php:159
+msgid "Payment Details"
+msgstr "付款詳情"
+
+#: Classes/Controller/GlobalPdfManager.php:737
+msgid "PDF"
+msgstr "PDF"
+
+#: Classes/Controller/GlobalPdfManager.php:490
+msgid "PDF Downloads"
+msgstr "PDF 下載"
+
+#: Classes/Controller/GlobalPdfManager.php:84
+msgid "PDF Feeds"
+msgstr "PDF Feeds"
+
+#: Classes/Controller/GlobalPdfManager.php:75
+msgid "PDF Settings"
+msgstr "PDF 設定"
+
+#: Classes/Templates/InvoiceTemplate.php:139
+msgid "RECEIPT:"
+msgstr "收據："
+
+#: Classes/Controller/GlobalPdfManager.php:152
+#: Classes/Controller/GlobalPdfManager.php:373
+msgid "Settings successfully updated"
+msgstr "設定已成功更新"
+
+#: Classes/Controller/GlobalPdfManager.php:215
+#: Classes/Controller/GlobalPdfManager.php:289
+msgid "Sorry! No template Class found!"
+msgstr "抱歉！找不到模板類別！"
+
+#: Classes/Controller/GlobalPdfManager.php:206
+#: Classes/Controller/GlobalPdfManager.php:280
+msgid "Sorry! No template found!"
+msgstr "抱歉！找不到模板！"
+
+#: Classes/Controller/GlobalPdfManager.php:782
+msgid "Sorry! You have to login first."
+msgstr "抱歉！您必須先登入。"
+
+#. Author of the plugin
+msgid "WPManageNinja LLC"
+msgstr "WPManageNinja LLC"
+
+#: Classes/Templates/GeneralTemplate.php:48
+#, php-format
+msgid ""
+"You can use Conditional Content in PDF body, for details please check this "
+"%s. "
+msgstr "您可以在 PDF 內文中使用條件式內容，詳情請查看 %s。"
+
+#: Classes/Controller/GlobalPdfManager.php:800
+msgid "You don't have permission to download the PDF."
+msgstr "您沒有權限下載此 PDF。"

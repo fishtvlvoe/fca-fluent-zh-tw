@@ -1,0 +1,15 @@
+{
+  "FCHub - Portal Extender requires FluentCart to be installed and activated.": "FCHub - Portal Extender 需要 FluentCart 已安裝並啟用。",
+  "No content found!": "找不到內容！",
+  "The endpoint slug cannot be empty.": "端點代稱不能為空。",
+  "The slug \"%s\" is reserved by FluentCart and cannot be used.": "代稱「%s」已被 FluentCart 保留，無法使用。",
+  "The slug \"%s\" is already in use by another endpoint.": "代稱「%s」已被其他端點使用。",
+  "Portal Extender": "入口擴充",
+  "Endpoint created.": "端點已建立。",
+  "Endpoint not found.": "找不到端點。",
+  "Endpoint updated.": "端點已更新。",
+  "Endpoint deleted.": "端點已刪除。",
+  "Invalid request. Expected an array of endpoint IDs.": "無效的請求。預期為端點 ID 陣列。",
+  "Endpoints reordered.": "端點已重新排序。",
+  "(no title)": "（無標題）"
+}
