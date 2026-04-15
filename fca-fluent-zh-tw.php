@@ -1,6 +1,6 @@
 <?php
                         if (obj.i18n.installApp && obj.i18n.installApp.indexOf('Install') === 0) {
-                            obj.i18n.installApp = obj.i18n.installApp.replace('Install', '安裝');
+ *
                         }
                     }
                 });
