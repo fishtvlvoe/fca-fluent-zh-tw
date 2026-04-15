@@ -1,1032 +1,1095 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FluentPlayer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-20 16:58+0000\n"
-"PO-Revision-Date: 2026-02-20 16:58+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: Fish\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fluent-player\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.1; wp-6.9.1; php-8.3.23\n"
-"X-Domain: fluent-player"
 
-#: app/Services/Translations/frontend-translations.php:4
-#, php-format
-msgid "%1d/%2d completed"
-msgstr "已完成 %1d/%2d"
+#: app/Blocks/MediaBlock.php
+msgid "Please select a media to display."
+msgstr "請選擇要顯示的媒體。"
 
-#: app/Services/Translations/admin-translations.php:5
-msgid "Add Media"
-msgstr "新增媒體"
+#: app/Blocks/FluentCommunityMediaBlock.php
+msgid "Invalid nonce"
+msgstr "無效 nonce"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:38
-msgid "Add New"
-msgstr "新增"
+#: app/Blocks/FluentCommunityMediaBlock.php
+msgid "Invalid media ID"
+msgstr "無效的媒體 ID"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:177
-msgid "Add New FluentPlayer Media"
-msgstr "新增新的 FluentPlayer 媒體"
+#: app/Blocks/FluentCommunityMediaBlock.php
+msgid "Media not found"
+msgstr "找不到媒體"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:39
-msgid "Add New Media"
-msgstr "新增媒體"
+#: app/Integrations/AbstractIntegration.php
+#: app/EmailProviders/AbstractEmailProvider.php
+msgid "This action is not implemented"
+msgstr "此操作未執行。"
 
-#: app/Services/Translations/admin-translations.php:6
-msgid "Add Playlist"
-msgstr "新增播放清單"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Lists"
+msgstr "清單"
 
-#: app/Services/Translations/admin-translations.php:7
-msgid "All"
-msgstr "全部"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Select lists"
+msgstr "選擇清單"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:43
-msgid "All Media"
-msgstr "所有媒體"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Select the lists you want to add subscribers to"
+msgstr "選擇要新增訂閱者的列表"
 
-#: app/Hooks/Handlers/AdminMenuHandler.php:248
-#: app/Services/Translations/admin-translations.php:8
-msgid "Analytics"
-msgstr "分析"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Tags"
+msgstr "標籤"
 
-#: app/Services/Translations/admin-translations.php:9
-msgid "Are you sure to delete this?"
-msgstr "你確定要刪除這個嗎？"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Select tags"
+msgstr "選擇標籤"
 
-#: app/Services/Translations/admin-translations.php:10
-msgid "Audience Retention"
-msgstr "受眾留存率"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Select the tags you want to assign to subscribers"
+msgstr "選擇要指派給訂閱者的標籤"
 
-#: app/Services/Translations/admin-translations.php:11
-msgid "Average Watch Time"
-msgstr "平均觀看時長"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "FluentCRM plugin is not installed or activated"
+msgstr "FluentCRM外掛程式未安裝或未啟動"
 
-#: app/Services/Translations/admin-translations.php:12
-msgid "Avg Watch Time"
-msgstr "平均觀看時間"
-
-#: app/Services/Translations/admin-translations.php:13
-msgid "Bottom Left"
-msgstr "左下角"
-
-#: app/Services/Translations/admin-translations.php:14
-msgid "Bottom Right"
-msgstr "右下角"
-
-#: app/Services/Translations/admin-translations.php:15
-msgid "Brand Color"
-msgstr "品牌顏色"
-
-#: app/Services/EmailProviderService.php:333
-msgid "Browser"
-msgstr "瀏覽器"
-
-#: app/Services/Translations/admin-translations.php:16
-msgid "BunnyCDN Storage"
-msgstr "BunnyCDN 儲存"
-
-#: app/Services/Translations/admin-translations.php:17
-msgid "BunnyCDN Stream"
-msgstr "BunnyCDN 串流媒體"
-
-#: app/Services/Translations/admin-translations.php:18
-msgid "BunnyCDN Stream or Storage"
-msgstr "BunnyCDN 流或儲存"
-
-#: app/Services/Translations/frontend-translations.php:5
-msgid "Cancel autoplay"
-msgstr "取消自動播放"
-
-#: app/Views/player/controls/settings-menu.php:55
-msgid "Captions"
-msgstr "圖片說明"
-
-#: app/Services/Translations/admin-translations.php:19
-msgid "Change Logo"
-msgstr "更改標誌"
-
-#: app/Http/Controllers/YouTubeController.php:28
-msgid "Channel ID is required"
-msgstr "需要頻道 ID"
-
-#: app/Services/Translations/frontend-translations.php:6
-msgid "Chapters"
-msgstr "章節"
-
-#: boot/app.php:72
-msgid "Check Update"
-msgstr "檢查更新"
-
-#: app/Services/Translations/admin-translations.php:20
-msgid "Clear search"
-msgstr "清除搜尋"
-
-#: app/Services/Translations/admin-translations.php:21
-msgid "Click to copy"
-msgstr "點選複製"
-
-#: app/Services/Translations/admin-translations.php:22
-msgid "Close"
-msgstr "關閉"
-
-#: app/Views/player/action-bar-overlay.php:95
-msgid "Close action bar"
-msgstr "關閉操作欄"
-
-#: app/Services/Translations/frontend-translations.php:7
-msgid "Complete previous lessons to unlock this content"
-msgstr "完成之前的課程即可解鎖此內容"
-
-#: app/Services/Translations/frontend-translations.php:8
-msgid "Completed"
-msgstr "已完成"
-
-#: app/Services/Translations/admin-translations.php:23
-msgid "Completion Rate"
-msgstr "完成率"
-
-#: app/Hooks/actions.php:193
-msgid ""
-"Connect FluentPlayer with Mailchimp to add email subscribers to your lists."
-msgstr "將 FluentPlayer 與 Mailchimp 連接，即可將電子郵件訂閱者新增至您的清單。"
-
-#: app/Http/Controllers/IntegrationController.php:128
-msgid "Connection test successful"
-msgstr "連線測試成功"
-
-#: app/EmailProviders/FluentCRMProvider.php:135
+#: app/EmailProviders/FluentCRMProvider.php
 msgid "Contact added to FluentCRM successfully"
 msgstr "聯絡人已成功加入 FluentCRM"
 
-#: app/Services/Translations/frontend-translations.php:9
-msgid "Continue"
-msgstr "繼續"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "Failed to create contact in FluentCRM"
+msgstr "在 FluentCRM 中建立聯絡人失敗"
 
-#: app/Http/Controllers/MediaController.php:388
-msgid "Could not fetch metadata for this URL"
-msgstr "無法取得此 URL 的元資料"
+#: app/EmailProviders/FluentCRMProvider.php
+msgid "FluentCRM is not installed or activated"
+msgstr "FluentCRM 未安裝或啟動"
 
-#: app/Http/Controllers/YouTubeController.php:87
+#: app/EmailProviders/AbstractEmailProvider.php
+msgid "Field validation not implemented for this provider"
+msgstr "此提供者未實作欄位驗證。"
+
+#: app/Http/Controllers/EmailProviderController.php
+#: app/Http/Controllers/IntegrationController.php
+msgid "Validation failed"
+msgstr "驗證失敗"
+
+#: app/Http/Controllers/EmailProviderController.php
+#: app/Services/EmailProviderService.php
+msgid "Invalid provider"
+msgstr "無效的提供者"
+
+#: app/Http/Controllers/EmailProviderController.php
+msgid "Settings saved successfully"
+msgstr "設定已成功儲存"
+
+#: app/Http/Controllers/EmailProviderController.php
+msgid "Field value is required"
+msgstr "欄位值必填"
+
+#: app/Http/Controllers/YouTubeController.php
+msgid "Channel ID is required"
+msgstr "需要頻道 ID"
+
+#: app/Http/Controllers/YouTubeController.php
+msgid "Invalid channel ID format"
+msgstr "無效的頻道 ID 格式"
+
+#: app/Http/Controllers/YouTubeController.php
+msgid "Failed to connect to YouTube"
+msgstr "連結 YouTube 失敗"
+
+#: app/Http/Controllers/YouTubeController.php
 msgid "Could not retrieve subscriber count"
 msgstr "無法取得訂閱者數量"
 
-#: app/Services/Translations/admin-translations.php:24
-msgid "Country"
-msgstr "國家"
-
-#: app/Services/EmailProviderService.php:337
-#: app/Services/Translations/admin-translations.php:25
-msgid "Created At"
-msgstr "創建於"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:62
-msgid "Custom post type for FluentPlayer media items."
-msgstr "FluentPlayer媒體專案的自訂文章類型。"
-
-#: app/Services/Translations/admin-translations.php:26
-msgid "Data validation failed. Please try again."
-msgstr "資料驗證失敗，請重試。"
-
-#: app/Services/Translations/admin-translations.php:27
-msgid "Delete"
-msgstr "刪除"
-
-#: app/Services/EmailProviderService.php:334
-#: app/Services/Translations/admin-translations.php:28
-msgid "Device"
-msgstr "裝置"
-
-#: app/Services/Translations/admin-translations.php:29
-msgid "Device Distribution"
-msgstr "設備分佈"
-
-#: app/Services/Translations/admin-translations.php:30
-msgid "Dimensions"
-msgstr "方面"
-
-#: app/Views/admin/menu.php:61
-msgid "Docs"
-msgstr "文件"
-
-#: app/Views/admin/menu.php:56
-msgid "Documentation"
-msgstr "文件"
-
-#: app/Services/Translations/admin-translations.php:31
-msgid "Draft"
-msgstr "草稿"
-
-#: app/Services/Translations/admin-translations.php:32
-msgid "Edit"
-msgstr "編輯"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:41
-msgid "Edit Media"
-msgstr "編輯媒體"
-
-#: app/Services/EmailProviderService.php:327
-msgid "Email Address"
-msgstr "電子郵件"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:166
-msgid "Email collected successfully"
-msgstr "已成功收集電子郵件"
-
-#: app/Services/EmailCollectionService.php:173
-msgid "Email sent successfully"
-msgstr "電子郵件已成功發送"
-
-#: app/Services/Translations/admin-translations.php:33
-msgid "End date"
-msgstr "結束日期"
-
-#: app/Http/Controllers/YouTubeController.php:99
+#: app/Http/Controllers/YouTubeController.php
 #, php-format
 msgid "Error fetching channel info: %s"
 msgstr "獲取頻道資訊時出錯：%s"
 
-#: app/Services/Translations/frontend-translations.php:10
-msgid "Error submitting email. Please try again."
-msgstr "電子郵件提交出錯，請重試。"
+#: app/Http/Controllers/YouTubeController.php
+#: app/Views/player/youtube-subscribe.php
+msgid "Subscribe"
+msgstr "訂閱"
 
-#: app/Http/Controllers/YouTubeController.php:75
-msgid "Failed to connect to YouTube"
-msgstr "連結 YouTube 失敗"
+#: app/Http/Controllers/MediaController.php
+msgid "Media saved"
+msgstr "已儲存的媒體"
 
-#: app/EmailProviders/FluentCRMProvider.php:140
-msgid "Failed to create contact in FluentCRM"
-msgstr "在 FluentCRM 中建立聯絡人失敗"
+#: app/Http/Controllers/MediaController.php
+msgid "Media Updated"
+msgstr "媒體更新"
 
-#: app/Services/Translations/admin-translations.php:34
-msgid "Failed to load analytics stats"
-msgstr "分析統計資料載入失敗"
+#: app/Http/Controllers/MediaController.php
+msgid "Media deleted successfully"
+msgstr "媒體檔案已成功刪除"
 
-#: app/Services/EmailCollectionService.php:173
-msgid "Failed to send email"
-msgstr "電子郵件發送失敗"
+#: app/Http/Controllers/MediaController.php
+msgid "Subtitle support is a Pro feature"
+msgstr "字幕支援是專業版功能。"
 
-#: app/EmailProviders/AbstractEmailProvider.php:144
-msgid "Field validation not implemented for this provider"
-msgstr "此提供者未實作欄位驗證。"
+#: app/Http/Controllers/MediaController.php
+msgid "Pro features not available"
+msgstr "專業版功能不可用"
 
-#: app/Http/Controllers/EmailProviderController.php:228
-msgid "Field value is required"
-msgstr "欄位值必填"
+#: app/Http/Controllers/MediaController.php
+msgid "URL is required"
+msgstr "必須提供網址"
 
-#: app/EmailProviders/FluentCRMProvider.php:183
-#: app/EmailProviders/FluentCRMProvider.php:224
-msgid "FluentCRM is not installed or activated"
-msgstr "FluentCRM 未安裝或啟動"
+#: app/Http/Controllers/MediaController.php
+msgid "Invalid URL"
+msgstr "無效的URL"
 
-#: app/EmailProviders/FluentCRMProvider.php:107
-msgid "FluentCRM plugin is not installed or activated"
-msgstr "FluentCRM外掛程式未安裝或未啟動"
+#: app/Http/Controllers/MediaController.php
+msgid "Could not fetch metadata for this URL"
+msgstr "無法取得此 URL 的元資料"
 
-#. Name of the plugin
-#: app/Blocks/MediaBlock.php:85 app/Hooks/Handlers/FluentPlayerMediaCPT.php:36
-#: app/Hooks/Handlers/AdminMenuHandler.php:54
-#: app/Hooks/Handlers/AdminMenuHandler.php:55
-msgid "FluentPlayer"
-msgstr "FluentPlayer"
+#: app/Http/Controllers/SettingsController.php
+msgid "Failed to load settings. Please try again."
+msgstr "載入設定失敗，請再試一次。"
 
-#. Description of the plugin
-msgid "FluentPlayer - A Media Player for WordPress"
-msgstr "FluentPlayer - 一款適用於 WordPress 的媒體播放器"
+#: app/Http/Controllers/SettingsController.php
+msgid "Setting key is required"
+msgstr "需要設定金鑰"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:34
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:37
+#: app/Http/Controllers/SettingsController.php
+msgid "Failed to load setting. Please try again."
+msgstr "載入設定失敗，請再試一次。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Settings updated successfully"
+msgstr "設定已成功更新"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Failed to update settings. Please try again."
+msgstr "更新設定失敗，請再試一次。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Settings have been reset to defaults"
+msgstr "設定已重設為預設值"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Failed to reset settings. Please try again."
+msgstr "重設設定失敗，請再試一次。"
+
+#: app/Http/Controllers/IntegrationController.php
+msgid "Integration key is required"
+msgstr "需要整合金鑰"
+
+#: app/Http/Controllers/IntegrationController.php
+msgid "Integration settings saved successfully"
+msgstr "整合設定已成功儲存"
+
+#: app/Http/Controllers/IntegrationController.php
+msgid "Connection test successful"
+msgstr "連線測試成功"
+
+#: app/Hooks/actions.php
+msgid "Send collected emails to any external service via webhooks."
+msgstr "透過網路鉤子將收集到的電子郵件傳送到任何外部服務。"
+
+#: app/Hooks/actions.php
+msgid ""
+"Connect FluentPlayer with Mailchimp to add email subscribers to your lists."
+msgstr ""
+"將 FluentPlayer 與 Mailchimp 連接，即可將電子郵件訂閱者新增至您的清單。"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
 msgid "FluentPlayer Media"
 msgstr "FluentPlayer Media"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:168
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Media"
+msgstr "媒體"
+
+#. Name of the plugin
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "FluentPlayer"
+msgstr "FluentPlayer"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Add New"
+msgstr "新增"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Add New Media"
+msgstr "新增媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "New Media"
+msgstr "新媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Edit Media"
+msgstr "編輯媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "View Media"
+msgstr "查看媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "All Media"
+msgstr "所有媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Search Media"
+msgstr "搜尋媒體"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Parent Media:"
+msgstr "母公司："
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "No media found."
+msgstr "找不到媒體檔案。"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "No media found in Trash."
+msgstr "回收站中找不到任何媒體檔案。"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Custom post type for FluentPlayer media items."
+msgstr "FluentPlayer媒體專案的自訂文章類型。"
+
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
 msgid "FluentPlayer Media Editor"
 msgstr "FluentPlayer 媒體編輯器"
 
-#. Author URI of the plugin
-msgid "http://github.com/nkb-bd/"
-msgstr "http://github.com/nkb-bd/"
+#: app/Hooks/Handlers/FluentPlayerMediaCPT.php
+msgid "Add New FluentPlayer Media"
+msgstr "新增新的 FluentPlayer 媒體"
 
-#: app/Services/EmailProviderService.php:326
-#: app/Services/Translations/admin-translations.php:35
-msgid "ID"
-msgstr "ID"
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "FluentPlayer Pro"
+msgstr "FluentPlayer Pro"
 
-#: app/Hooks/Handlers/AdminMenuHandler.php:167
+#: app/Hooks/Handlers/AdminMenuHandler.php
 #, php-format
 msgid ""
 "If you like the plugin please rate FluentPlayer %1$s on %3$s to help us "
 "spread the word %2$s from the FluentPlayer team."
 msgstr ""
-"如果您喜歡這款外掛，請在 %3$s 上給 FluentPlayer %1$s 評分，以幫助我們宣傳 %2$s 來自 FluentPlayer 團隊。"
+"如果您喜歡這款外掛，請在 %3$s 上給 FluentPlayer %1$s 評分，以幫助我們宣傳 "
+"%2$s 來自 FluentPlayer 團隊。"
 
-#: app/Http/Controllers/IntegrationController.php:62
-#: app/Http/Controllers/IntegrationController.php:112
-msgid "Integration key is required"
-msgstr "需要整合金鑰"
-
-#: app/Services/IntegrationService.php:113
-#: app/Services/IntegrationService.php:129
-#: app/Services/IntegrationService.php:146
-msgid "Integration not found"
-msgstr "找不到整合"
-
-#: app/Http/Controllers/IntegrationController.php:78
-msgid "Integration settings saved successfully"
-msgstr "整合設定已成功儲存"
-
-#: app/Http/Controllers/YouTubeController.php:36
-msgid "Invalid channel ID format"
-msgstr "無效的頻道 ID 格式"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:239
-msgid "Invalid email address"
-msgstr "無效的電子郵件地址"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:86
-#: app/Hooks/Handlers/EmailCollectionHandler.php:90
-#: app/Hooks/Handlers/EmailCollectionHandler.php:95
-msgid "Invalid layer"
-msgstr "無效層"
-
-#: app/Blocks/FluentCommunityMediaBlock.php:548
-msgid "Invalid media ID"
-msgstr "無效的媒體 ID"
-
-#: app/Blocks/FluentCommunityMediaBlock.php:541
-msgid "Invalid nonce"
-msgstr "無效 nonce"
-
-#: app/Http/Controllers/PostController.php:66
-#: app/Http/Controllers/PostController.php:94
-msgid "Invalid post ID"
-msgstr "無效的貼文 ID"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:80
-msgid "Invalid preset"
-msgstr "無效預設"
-
-#: app/Services/EmailProviderService.php:122
-#: app/Services/EmailProviderService.php:250
-#: app/Services/EmailProviderService.php:467
-#: app/Http/Controllers/EmailProviderController.php:86
-#: app/Http/Controllers/EmailProviderController.php:236
-msgid "Invalid provider"
-msgstr "無效的提供者"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:234
-msgid "Invalid request"
-msgstr "無效請求"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:99
-msgid "Invalid type"
-msgstr "無效類型"
-
-#: app/Http/Controllers/MediaController.php:357
-msgid "Invalid URL"
-msgstr "無效的URL"
-
-#: app/Services/EmailProviderService.php:332
-msgid "IP Address"
-msgstr "IP位址"
-
-#: app/Views/player/language-controls.php:31
-msgid "Language"
-msgstr "語言"
-
-#: app/Views/player/language-controls.php:39
-msgid "Language Options"
-msgstr "語言選項"
-
-#: app/Services/EmailProviderService.php:330
-msgid "Layer ID"
-msgstr "圖層 ID"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:249
-msgid "Layer ID is required"
-msgstr "圖層 ID 為必填項"
-
-#: app/Services/Translations/admin-translations.php:37
-msgid "Let's Go Home"
-msgstr "我們回家吧"
-
-#: app/EmailProviders/FluentCRMProvider.php:75
-msgid "Lists"
-msgstr "清單"
-
-#: app/Services/Translations/admin-translations.php:38
-msgid "Location Breakdown"
-msgstr "地點區隔"
-
-#: app/Services/Translations/admin-translations.php:39
-msgid "Logo Image"
-msgstr "標誌圖片"
-
-#: app/Services/Translations/frontend-translations.php:11
-msgid "Mark as Complete"
-msgstr "標記為已完成"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:35
-msgid "Media"
-msgstr "媒體"
-
-#: app/Http/Controllers/MediaController.php:302
-msgid "Media deleted successfully"
-msgstr "媒體檔案已成功刪除"
-
-#: app/Services/EmailProviderService.php:328
-msgid "Media ID"
-msgstr "媒體 ID"
-
-#: app/Services/Translations/admin-translations.php:40
-msgid "Media List"
-msgstr "媒體列表"
-
-#: app/Blocks/FluentCommunityMediaBlock.php:554
-msgid "Media not found"
-msgstr "找不到媒體"
-
-#: app/Http/Controllers/MediaController.php:42
-msgid "Media saved"
-msgstr "已儲存的媒體"
-
-#: app/Http/Controllers/MediaController.php:55
-msgid "Media Updated"
-msgstr "媒體更新"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:66
-#: app/Hooks/Handlers/AdminMenuHandler.php:67
-#: app/Hooks/Handlers/AdminMenuHandler.php:231
-msgid "Medias"
-msgstr "媒體"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:40
-msgid "New Media"
-msgstr "新媒體"
-
-#: app/Services/Translations/admin-translations.php:41
-msgid "New vs Returning Viewers"
-msgstr "新觀眾與老觀眾"
-
-#: app/Services/Translations/frontend-translations.php:12
-msgid "Next Video"
-msgstr "下一個影片"
-
-#: app/Services/EmailProviderService.php:286
-msgid "No email submissions found to export"
-msgstr "找不到要匯出的電子郵件提交"
-
-#: app/Views/Layers/LayerRenderer.php:259
-msgid "No form selected"
-msgstr "未選擇任何表單"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:47
-msgid "No media found in Trash."
-msgstr "回收站中找不到任何媒體檔案。"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:46
-msgid "No media found."
-msgstr "找不到媒體檔案。"
-
-#: app/Services/Translations/admin-translations.php:42
-msgid "No retention data available"
-msgstr "無保留資料"
-
-#: app/Services/Translations/admin-translations.php:43
-msgid "No retention data available for this video yet"
-msgstr "該影片暫無觀看時長資料。"
-
-#: app/Services/Translations/admin-translations.php:44
-msgid "No retention data for this user yet"
-msgstr "目前尚無該使用者的保留資料"
-
-#: app/Views/Layers/LayerRenderer.php:334
-msgid "No shortcode configured"
-msgstr "未設定短代碼"
-
-#: app/Services/Translations/admin-translations.php:45
-msgid "No top users data available"
-msgstr "暫無熱門使用者資料"
-
-#: app/Services/Translations/admin-translations.php:46
-msgid "No top videos data available"
-msgstr "暫無熱門影片資料"
-
-#: app/Services/Translations/admin-translations.php:96
-msgid "of"
-msgstr "的"
-
-#: app/Services/Translations/admin-translations.php:47
-msgid "Oops! You are lost."
-msgstr "糟糕！你迷路了。"
-
-#: app/Services/Translations/admin-translations.php:49
-msgid "Page"
-msgstr "頁"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:45
-msgid "Parent Media:"
-msgstr "母公司："
-
-#: app/Services/Translations/admin-translations.php:50
-msgid "Performance Over Time"
-msgstr "隨時間推移的表現"
-
-#: app/Services/Translations/frontend-translations.php:13
-msgid "Play Ad"
-msgstr "播放廣告"
-
-#: app/Views/player/logo.php:39
-#: app/Services/Translations/admin-translations.php:51
-msgid "Player Logo"
-msgstr "球員標誌"
-
-#: app/Services/Translations/frontend-translations.php:14
-msgid "Playing next"
-msgstr "接下來播放"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:236
-#: app/Services/Translations/admin-translations.php:52
+#: app/Hooks/Handlers/AdminMenuHandler.php
+#: app/Services/Translations/admin-translations.php
 msgid "Playlists"
 msgstr "播放清單"
 
-#: app/Services/Translations/admin-translations.php:53
-msgid "Plays"
-msgstr "劇本"
+#: app/Hooks/Handlers/AdminMenuHandler.php
+#: app/Services/Translations/admin-translations.php
+msgid "Analytics"
+msgstr "分析"
 
-#: app/Services/Translations/frontend-translations.php:15
-msgid "Please check your internet connection or verify the video source."
-msgstr "請檢查您的網路連線或確認視訊來源。"
-
-#: app/Services/Translations/frontend-translations.php:16
-msgid "Please enter a valid email address"
-msgstr "請輸入有效的電子郵件地址"
-
-#: app/Services/Translations/frontend-translations.php:17
-msgid "Please enter your email address"
-msgstr "請輸入您的電子郵件地址"
-
-#: app/Blocks/MediaBlock.php:189
-msgid "Please select a media to display."
-msgstr "請選擇要顯示的媒體。"
-
-#: app/Services/Translations/admin-translations.php:48
-msgid "PNG/JPEG, min 24x24px. Shown on branded content."
-msgstr "PNG/JPEG格式，最小尺寸24x24像素。用於品牌內容。"
-
-#: app/Services/EmailProviderService.php:329
-msgid "Preset"
-msgstr "預設"
-
-#: app/Hooks/Handlers/EmailCollectionHandler.php:244
-msgid "Preset is required"
-msgstr "需要預設"
-
-#: app/Services/Translations/frontend-translations.php:18
-msgid "Press ESC to cancel"
-msgstr "按 ESC 鍵取消"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:544
-#: app/Services/Translations/admin-translations.php:36
-msgid "Private"
-msgstr "私人的"
-
-#: app/Http/Controllers/MediaController.php:321
-#: app/Http/Controllers/MediaController.php:340
-msgid "Pro features not available"
-msgstr "專業版功能不可用"
-
-#. %s: provider type name
-#: app/Services/EmailCollectionService.php:41
-#, php-format
-msgid "Provider \"%s\" not found"
-msgstr "找不到提供者“%s”。"
-
-#: app/Services/EmailProviderService.php:336
-msgid "Provider Log"
-msgstr "提供者日誌"
-
-#: app/Services/Translations/admin-translations.php:4
-msgid "Public"
-msgstr "民眾"
-
-#. Author of the plugin
-msgid "pyrobd"
-msgstr "pyrobd"
-
-#: app/Views/player/controls/settings-menu.php:31
-#: app/Views/player/controls/quality-menu.php:18
-msgid "Quality"
-msgstr "品質"
-
-#: app/Services/Translations/admin-translations.php:54
-msgid "Refresh"
-msgstr "重新整理"
-
-#: app/Services/Translations/admin-translations.php:55
-msgid "Remove"
-msgstr "消除"
-
-#: app/Services/Translations/admin-translations.php:56
-msgid "Retention data will be available after more views are collected"
-msgstr "收集到更多瀏覽量後，我們將提供使用者留存率資料。"
-
-#: app/Services/Translations/admin-translations.php:57
-msgid "Retention will appear after views are collected"
-msgstr "瀏覽量收集完畢後，保留率將會顯示出來。"
-
-#: app/Services/Translations/admin-translations.php:58
-msgid "Search"
-msgstr "搜尋"
-
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:44
-msgid "Search Media"
-msgstr "搜尋媒體"
-
-#: app/Services/Translations/admin-translations.php:59
-msgid "Search..."
-msgstr "搜尋..."
-
-#: app/EmailProviders/FluentCRMProvider.php:77
-msgid "Select lists"
-msgstr "選擇清單"
-
-#: app/Services/Translations/admin-translations.php:60
-msgid "Select or Upload Logo"
-msgstr "選擇或上傳徽標"
-
-#: app/EmailProviders/FluentCRMProvider.php:88
-msgid "Select tags"
-msgstr "選擇標籤"
-
-#: app/EmailProviders/FluentCRMProvider.php:80
-msgid "Select the lists you want to add subscribers to"
-msgstr "選擇要新增訂閱者的列表"
-
-#: app/EmailProviders/FluentCRMProvider.php:91
-msgid "Select the tags you want to assign to subscribers"
-msgstr "選擇要指派給訂閱者的標籤"
-
-#: app/Services/Translations/frontend-translations.php:19
-msgid "Selected Language"
-msgstr "所選語言"
-
-#: app/Hooks/actions.php:187
-msgid "Send collected emails to any external service via webhooks."
-msgstr "透過網路鉤子將收集到的電子郵件傳送到任何外部服務。"
-
-#: app/Http/Controllers/SettingsController.php:46
-msgid "Setting key is required"
-msgstr "需要設定金鑰"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:256 app/Views/admin/menu.php:46
-#: app/Views/player/controls/settings-menu.php:23
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Views/admin/menu.php
+#: app/Views/player/controls/settings-menu.php
 msgid "Settings"
 msgstr "設定"
 
-#: app/Http/Controllers/SettingsController.php:102
-msgid "Settings have been reset to defaults"
-msgstr "設定已重設為預設值"
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Invalid preset"
+msgstr "無效預設"
 
-#: app/Http/Controllers/EmailProviderController.php:100
-msgid "Settings saved successfully"
-msgstr "設定已成功儲存"
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Invalid layer"
+msgstr "無效層"
 
-#: app/Http/Controllers/SettingsController.php:80
-msgid "Settings updated successfully"
-msgstr "設定已成功更新"
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Invalid type"
+msgstr "無效類型"
 
-#: app/Services/Translations/admin-translations.php:61
-msgid "ShortCode"
-msgstr "短代碼"
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Email collected successfully"
+msgstr "已成功收集電子郵件"
 
-#: app/Services/Translations/frontend-translations.php:20
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Invalid request"
+msgstr "無效請求"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Invalid email address"
+msgstr "無效的電子郵件地址"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Preset is required"
+msgstr "需要預設"
+
+#: app/Hooks/Handlers/EmailCollectionHandler.php
+msgid "Layer ID is required"
+msgstr "圖層 ID 為必填項"
+
+#: app/Hooks/Handlers/DedicatedPlayerPage.php
+#: app/Services/Translations/admin-translations.php
+msgid "Private"
+msgstr "私人的"
+
+#: app/Views/player.php app/Views/frontend/media.php
+msgid "Media player"
+msgstr "媒體播放器"
+
+#: app/Views/Layers/LayerRenderer.php
+msgid "Email address"
+msgstr "電子郵件地址"
+
+#: app/Views/Layers/LayerRenderer.php
+msgid "Hotspot"
+msgstr "熱點"
+
+#: app/Views/Layers/LayerRenderer.php
+msgid "No form selected"
+msgstr "未選擇任何表單"
+
+#: app/Views/Layers/LayerRenderer.php
+msgid "Unsupported form type"
+msgstr "不支援的表單類型"
+
+#: app/Views/Layers/LayerRenderer.php app/Views/player/email-capture.php
 msgid "Skip"
 msgstr "跳過"
 
-#: app/Services/Translations/admin-translations.php:62
-msgid "Something went wrong"
-msgstr "出問題了"
+#: app/Views/Layers/LayerRenderer.php
+msgid "No shortcode configured"
+msgstr "未設定短代碼"
 
-#: app/Services/Translations/admin-translations.php:63
-msgid "Source"
-msgstr "來源"
+#: app/Views/Layers/LayerRenderer.php
+msgid "Advertisement"
+msgstr "廣告"
 
-#: app/Services/Translations/admin-translations.php:64
-msgid "Start date"
-msgstr "開始日期"
+#: app/Views/frontend/playlist.php
+msgid "Playlist"
+msgstr "播放清單"
 
-#: app/Services/Translations/admin-translations.php:65
-msgid "Status"
-msgstr "狀態"
+#: app/Views/admin/menu.php
+msgid "Fluent Player"
+msgstr "Fluent Player"
 
-#: app/Http/Controllers/YouTubeController.php:132
-#: app/Views/player/youtube-subscribe.php:61
-msgid "Subscribe"
-msgstr "訂閱"
+#: app/Views/admin/menu.php
+msgid "Toggle navigation menu"
+msgstr "切換導覽選單"
 
-#: app/Services/EmailProviderService.php:229
-#: app/Services/EmailCollectionService.php:63
+#: app/Views/admin/menu.php app/Services/Translations/admin-translations.php
+msgid "Upgrade to Pro"
+msgstr "升級到專業版"
+
+#: app/Views/admin/menu.php
+msgid "Documentation"
+msgstr "文件"
+
+#: app/Views/admin/menu.php
+msgid "Docs"
+msgstr "文件"
+
+#: app/Views/player/bottom-controls.php
+msgid "LIVE"
+msgstr ""
+
+#: app/Views/player/youtube-subscribe.php
+msgid "Subscribe on YouTube"
+msgstr "訂閱 YouTube"
+
+#: app/Views/player/language-controls.php
+msgid "Language"
+msgstr "語言"
+
+#: app/Views/player/language-controls.php
+msgid "Language Options"
+msgstr "語言選項"
+
+#: app/Views/player/email-capture.php
+msgid "Email signup"
+msgstr "電子郵件訂閱"
+
+#: app/Views/player/email-capture.php
+msgid "Skip email signup"
+msgstr "略過電子郵件訂閱"
+
+#: app/Views/player/action-bar-overlay.php
+msgid "Close action bar"
+msgstr "關閉操作欄"
+
+#: app/Views/player/cta-overlay.php
+msgid "Call to action"
+msgstr "行動呼籲"
+
+#: app/Views/player/logo.php app/Services/Translations/admin-translations.php
+msgid "Player Logo"
+msgstr "球員標誌"
+
+#: app/Views/player/bottom-controls-audio.php
+msgid "Audio"
+msgstr "音訊"
+
+#: app/Views/player/controls/fullscreen-button.php
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: app/Views/player/controls/fullscreen-button.php
+msgid "Enter Fullscreen"
+msgstr "進入全螢幕"
+
+#: app/Views/player/controls/fullscreen-button.php
+msgid "Exit Fullscreen"
+msgstr "離開全螢幕"
+
+#: app/Views/player/controls/chapters-menu.php
+#: app/Services/Translations/frontend-translations.php
+msgid "Chapters"
+msgstr "章節"
+
+#: app/Views/player/controls/volume-controls.php
+msgid "Mute"
+msgstr "靜音"
+
+#: app/Views/player/controls/volume-controls.php
+msgid "Unmute"
+msgstr "取消靜音"
+
+#: app/Views/player/controls/volume-controls.php
+msgid "Volume"
+msgstr "音量"
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Playback"
+msgstr ""
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Accessibility"
+msgstr ""
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Announcements"
+msgstr ""
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Keyboard Animations"
+msgstr ""
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Quality"
+msgstr "品質"
+
+#: app/Views/player/controls/settings-menu.php
+msgid "Captions"
+msgstr "圖片說明"
+
+#: app/Views/player/controls/pip-button.php
+msgid "Picture in Picture"
+msgstr "子母畫面"
+
+#: app/Views/player/controls/pip-button.php
+msgid "Enter PiP"
+msgstr "進入子母畫面"
+
+#: app/Views/player/controls/pip-button.php
+msgid "Exit PiP"
+msgstr "離開子母畫面"
+
+#: app/Views/player/controls/playlist-toggle.php
+msgid "Toggle Playlist"
+msgstr "切換播放清單"
+
+#: app/Views/player/controls/seek-forward.php
+msgid "Forward 10 seconds"
+msgstr "快進 10 秒"
+
+#: app/Views/player/controls/seek-forward.php
+msgid "Forward 10s"
+msgstr "快進 10 秒"
+
+#: app/Views/player/controls/seek-backward.php
+msgid "Backward 10 seconds"
+msgstr "後退 10 秒"
+
+#: app/Views/player/controls/seek-backward.php
+msgid "Backward 10s"
+msgstr "後退 10 秒"
+
+#: app/Views/player/controls/time-slider.php
+msgid "Seek"
+msgstr "跳轉"
+
+#: app/Views/player/controls/caption-button.php
+#: app/Services/Translations/frontend-translations.php
+msgid "Off"
+msgstr ""
+
+#: app/Views/player/controls/speed-menu.php
+msgid "Speed"
+msgstr "播放速度"
+
+#: app/Views/player/controls/play-button.php
+msgid "Play"
+msgstr "播放"
+
+#: app/Views/player/controls/play-button.php
+msgid "Pause"
+msgstr "暫停"
+
+#: app/Services/EmailProviderService.php
+#: app/Services/EmailCollectionService.php
 msgid "Subscription successful"
 msgstr "訂閱成功"
 
-#: app/Http/Controllers/MediaController.php:312
-#: app/Http/Controllers/MediaController.php:331
-msgid "Subtitle support is a Pro feature"
-msgstr "字幕支援是專業版功能。"
+#: app/Services/EmailProviderService.php
+msgid "No email submissions found to export"
+msgstr "找不到要匯出的電子郵件提交"
 
-#: app/EmailProviders/FluentCRMProvider.php:86
-msgid "Tags"
-msgstr "標籤"
+#: app/Services/EmailProviderService.php
+#: app/Services/Translations/admin-translations.php
+msgid "ID"
+msgstr "ID"
 
-#: app/Integrations/AbstractIntegration.php:218
-#: app/EmailProviders/AbstractEmailProvider.php:133
-msgid "This action is not implemented"
-msgstr "此操作未執行。"
+#: app/Services/EmailProviderService.php
+msgid "Email Address"
+msgstr "電子郵件"
 
-#: app/Services/Translations/admin-translations.php:66
-msgid "This color will be used as the primary color for player controls"
-msgstr "此顏色將用作玩家控制的主色。"
+#: app/Services/EmailProviderService.php
+msgid "Media ID"
+msgstr "媒體 ID"
 
-#: app/Services/LayerService.php:76
+#: app/Services/EmailProviderService.php
+msgid "Preset"
+msgstr "預設"
+
+#: app/Services/EmailProviderService.php
+msgid "Layer ID"
+msgstr "圖層 ID"
+
+#: app/Services/EmailProviderService.php
+msgid "Video Time"
+msgstr "視訊時間"
+
+#: app/Services/EmailProviderService.php
+msgid "IP Address"
+msgstr "IP位址"
+
+#: app/Services/EmailProviderService.php
+msgid "Browser"
+msgstr "瀏覽器"
+
+#: app/Services/EmailProviderService.php
+#: app/Services/Translations/admin-translations.php
+msgid "Device"
+msgstr "裝置"
+
+#: app/Services/EmailProviderService.php
+msgid "User ID"
+msgstr "使用者身分"
+
+#: app/Services/EmailProviderService.php
+msgid "Provider Log"
+msgstr "提供者日誌"
+
+#: app/Services/EmailProviderService.php
+#: app/Services/Translations/admin-translations.php
+msgid "Created At"
+msgstr "創建於"
+
+#: app/Services/EmailProviderService.php
+msgid "Updated At"
+msgstr "更新於"
+
+#: app/Services/EmailProviderService.php
+msgid ""
+"ZipArchive is required to export ODS files. Please enable the zip PHP "
+"extension."
+msgstr ""
+
+#: app/Services/EmailProviderService.php
+msgid "Could not create ODS archive."
+msgstr "無法建立 ODS 壓縮檔。"
+
+#: app/Services/LayerService.php
 msgid ""
 "This is a conversational form. It will show in conversational mode on player."
 msgstr "這是一個對話表單。它將在玩家的對話模式下顯示。"
 
-#: app/Services/Translations/admin-translations.php:67
-msgid "This is a Pro Feature"
-msgstr "這是專業版功能"
+#: app/Services/IntegrationService.php
+msgid "Integration not found"
+msgstr "找不到整合"
 
-#: app/Services/Translations/admin-translations.php:68
-msgid "Title"
-msgstr "標題"
+#: app/Services/PresetService.php
+msgid "Full-featured player with all controls and center play button"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:69
-msgid "Top Left"
-msgstr "左上"
+#: app/Services/PresetService.php
+msgid "Sleek bottom bar with inline controls for a clean look"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:70
-msgid "Top Right"
-msgstr "右上角"
+#: app/Services/PresetService.php
+msgid "Play and progress bar only — minimal distraction"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:71
-msgid "Top Videos"
-msgstr "熱門影片"
+#: app/Services/PresetService.php
+msgid "Classic layout with progress bar on top and controls below"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:72
-msgid "Top Viewers"
-msgstr "頂級觀眾"
+#: app/Services/PresetService.php
+msgid "Controls float over the video with a transparent overlay"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:73
-msgid "Top Watched Videos"
-msgstr "觀看次數最多的影片"
+#: app/Services/PresetService.php
+msgid "No visible controls — click to play/pause"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:74
-msgid "Total Plays"
-msgstr "總播放次數"
+#: app/Services/PresetService.php
+msgid "Muted autoplay loop with no controls — ideal for background video"
+msgstr ""
 
-#: app/Services/Translations/admin-translations.php:75
-msgid "Total View"
-msgstr "全景"
+#. %s: provider type name
+#: app/Services/EmailCollectionService.php
+#, php-format
+msgid "Provider \"%s\" not found"
+msgstr "找不到提供者“%s”。"
 
-#: app/Services/Translations/admin-translations.php:76
-msgid "Total Views"
-msgstr "總瀏覽量"
+#: app/Services/EmailCollectionService.php
+msgid "Email sent successfully"
+msgstr "電子郵件已成功發送"
 
-#: app/Services/Translations/admin-translations.php:77
-msgid "Total Watch Time"
-msgstr "總觀看時間"
+#: app/Services/EmailCollectionService.php
+msgid "Failed to send email"
+msgstr "電子郵件發送失敗"
 
-#: app/Services/Translations/frontend-translations.php:21
+#: app/Services/Translations/frontend-translations.php
+msgid "%1$d/%2$d completed"
+msgstr ""
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Cancel"
+msgstr ""
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Cancel autoplay"
+msgstr "取消自動播放"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Complete previous lessons to unlock this content"
+msgstr "完成之前的課程即可解鎖此內容"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Completed"
+msgstr "已完成"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Continue"
+msgstr "繼續"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Error submitting email. Please try again."
+msgstr "電子郵件提交出錯，請重試。"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Loading"
+msgstr ""
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Mark as Complete"
+msgstr "標記為已完成"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Next Video"
+msgstr "下一個影片"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Play Ad"
+msgstr "播放廣告"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Playing again in"
+msgstr ""
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Playing next"
+msgstr "接下來播放"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Please check your internet connection or verify the video source."
+msgstr "請檢查您的網路連線或確認視訊來源。"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Please enter a valid email address"
+msgstr "請輸入有效的電子郵件地址"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Please enter your email address"
+msgstr "請輸入您的電子郵件地址"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Press ESC to cancel"
+msgstr "按 ESC 鍵取消"
+
+#: app/Services/Translations/frontend-translations.php
+msgid "Selected Language"
+msgstr "所選語言"
+
+#: app/Services/Translations/frontend-translations.php
 msgid "Try Again"
 msgstr "重試"
 
-#: app/Services/Translations/frontend-translations.php:22
+#: app/Services/Translations/frontend-translations.php
 msgid "Unable to play video"
 msgstr "無法播放影片"
 
-#: app/Services/Translations/admin-translations.php:78
-msgid "Unique Viewers"
-msgstr "獨立訪客"
-
-#: app/Services/Translations/admin-translations.php:79
-msgid "Unlock advanced features and capabilities with FluentPlayer Pro."
-msgstr "使用 FluentPlayer Pro 解鎖進階功能和特性。"
-
-#: app/Views/Layers/LayerRenderer.php:287
-msgid "Unsupported form type"
-msgstr "不支援的表單類型"
-
-#: app/Services/Translations/frontend-translations.php:23
+#: app/Services/Translations/frontend-translations.php
 msgid "Untitled"
 msgstr "無題"
 
-#: app/Services/EmailProviderService.php:338
-msgid "Updated At"
-msgstr "更新於"
+#: app/Services/Translations/admin-translations.php
+msgid "Public"
+msgstr "民眾"
 
-#: app/Views/admin/menu.php:53
-#: app/Services/Translations/admin-translations.php:80
-msgid "Upgrade to Pro"
-msgstr "升級到專業版"
+#: app/Services/Translations/admin-translations.php
+msgid "Add Media"
+msgstr "新增媒體"
 
-#: app/Services/Translations/admin-translations.php:81
+#: app/Services/Translations/admin-translations.php
+msgid "Add Playlist"
+msgstr "新增播放清單"
+
+#: app/Services/Translations/admin-translations.php
+msgid "All"
+msgstr "全部"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Are you sure to delete this?"
+msgstr "你確定要刪除這個嗎？"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Audience Retention"
+msgstr "受眾留存率"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Average Watch Time"
+msgstr "平均觀看時長"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Avg Watch Time"
+msgstr "平均觀看時間"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Bottom Left"
+msgstr "左下角"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Bottom Right"
+msgstr "右下角"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Brand Color"
+msgstr "品牌顏色"
+
+#: app/Services/Translations/admin-translations.php
+msgid "BunnyCDN Storage"
+msgstr "BunnyCDN 儲存"
+
+#: app/Services/Translations/admin-translations.php
+msgid "BunnyCDN Stream"
+msgstr "BunnyCDN 串流媒體"
+
+#: app/Services/Translations/admin-translations.php
+msgid "BunnyCDN Stream or Storage"
+msgstr "BunnyCDN 流或儲存"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Change Logo"
+msgstr "更改標誌"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Clear search"
+msgstr "清除搜尋"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Click to copy"
+msgstr "點選複製"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Close"
+msgstr "關閉"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Completion Rate"
+msgstr "完成率"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Country"
+msgstr "國家"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Data validation failed. Please try again."
+msgstr "資料驗證失敗，請重試。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Delete"
+msgstr "刪除"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Device Distribution"
+msgstr "設備分佈"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Dimensions"
+msgstr "方面"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Draft"
+msgstr "草稿"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Edit"
+msgstr "編輯"
+
+#: app/Services/Translations/admin-translations.php
+msgid "End date"
+msgstr "結束日期"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Failed to load analytics stats"
+msgstr "分析統計資料載入失敗"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Let's Go Home"
+msgstr "我們回家吧"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Location Breakdown"
+msgstr "地點區隔"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Logo Image"
+msgstr "標誌圖片"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Media List"
+msgstr "媒體列表"
+
+#: app/Services/Translations/admin-translations.php
+msgid "New vs Returning Viewers"
+msgstr "新觀眾與老觀眾"
+
+#: app/Services/Translations/admin-translations.php
+msgid "No retention data available"
+msgstr "無保留資料"
+
+#: app/Services/Translations/admin-translations.php
+msgid "No retention data available for this video yet"
+msgstr "該影片暫無觀看時長資料。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "No retention data for this user yet"
+msgstr "目前尚無該使用者的保留資料"
+
+#: app/Services/Translations/admin-translations.php
+msgid "No top users data available"
+msgstr "暫無熱門使用者資料"
+
+#: app/Services/Translations/admin-translations.php
+msgid "No top videos data available"
+msgstr "暫無熱門影片資料"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Oops! You are lost."
+msgstr "糟糕！你迷路了。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "PNG/JPEG, min 24x24px. Shown on branded content."
+msgstr "PNG/JPEG格式，最小尺寸24x24像素。用於品牌內容。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Page"
+msgstr "頁"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Performance Over Time"
+msgstr "隨時間推移的表現"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Plays"
+msgstr "劇本"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Refresh"
+msgstr "重新整理"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Remove"
+msgstr "消除"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Retention data will be available after more views are collected"
+msgstr "收集到更多瀏覽量後，我們將提供使用者留存率資料。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Retention will appear after views are collected"
+msgstr "瀏覽量收集完畢後，保留率將會顯示出來。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Search"
+msgstr "搜尋"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Search..."
+msgstr "搜尋..."
+
+#: app/Services/Translations/admin-translations.php
+msgid "Select or Upload Logo"
+msgstr "選擇或上傳徽標"
+
+#: app/Services/Translations/admin-translations.php
+msgid "ShortCode"
+msgstr "短代碼"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Something went wrong"
+msgstr "出問題了"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Source"
+msgstr "來源"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Start date"
+msgstr "開始日期"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Status"
+msgstr "狀態"
+
+#: app/Services/Translations/admin-translations.php
+msgid "This color will be used as the primary color for player controls"
+msgstr "此顏色將用作玩家控制的主色。"
+
+#: app/Services/Translations/admin-translations.php
+msgid "This is a Pro Feature"
+msgstr "這是專業版功能"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Title"
+msgstr "標題"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Top Left"
+msgstr "左上"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Top Right"
+msgstr "右上角"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Top Videos"
+msgstr "熱門影片"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Top Viewers"
+msgstr "頂級觀眾"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Top Watched Videos"
+msgstr "觀看次數最多的影片"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Total Plays"
+msgstr "總播放次數"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Total View"
+msgstr "全景"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Total Views"
+msgstr "總瀏覽量"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Total Watch Time"
+msgstr "總觀看時間"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Unique Viewers"
+msgstr "獨立訪客"
+
+#: app/Services/Translations/admin-translations.php
+msgid "Unlock advanced features and capabilities with FluentPlayer Pro."
+msgstr "使用 FluentPlayer Pro 解鎖進階功能和特性。"
+
+#: app/Services/Translations/admin-translations.php
 msgid "Upload"
 msgstr "上傳"
 
-#: app/Services/Translations/admin-translations.php:82
+#: app/Services/Translations/admin-translations.php
 msgid "Uploaded"
 msgstr "已上傳"
 
-#: app/Http/Controllers/MediaController.php:353
-msgid "URL is required"
-msgstr "必須提供網址"
-
-#: app/Services/Translations/admin-translations.php:83
+#: app/Services/Translations/admin-translations.php
 msgid "Use this logo"
 msgstr "使用此徽標"
 
-#: app/Services/Translations/admin-translations.php:84
+#: app/Services/Translations/admin-translations.php
 msgid "User"
 msgstr "使用者"
 
-#: app/Services/EmailProviderService.php:335
-msgid "User ID"
-msgstr "使用者身分"
-
-#: app/Services/Translations/admin-translations.php:85
+#: app/Services/Translations/admin-translations.php
 msgid "User Retention"
 msgstr "使用者留存率"
 
-#: app/Http/Controllers/EmailProviderController.php:73
-#: app/Http/Controllers/EmailProviderController.php:147
-#: app/Http/Controllers/IntegrationController.php:55
-#: app/Http/Controllers/IntegrationController.php:105
-#: app/Http/Controllers/IntegrationController.php:169
-msgid "Validation failed"
-msgstr "驗證失敗"
-
-#: app/Services/Translations/admin-translations.php:86
+#: app/Services/Translations/admin-translations.php
 msgid "Video"
 msgstr "影片"
 
-#: app/Services/Translations/admin-translations.php:87
+#: app/Services/Translations/admin-translations.php
 msgid "Video Analytics"
 msgstr "影片分析"
 
-#: app/Services/Translations/admin-translations.php:88
+#: app/Services/Translations/admin-translations.php
 msgid "Video Analytics by"
 msgstr "影片分析"
 
-#: app/Services/Translations/admin-translations.php:89
+#: app/Services/Translations/admin-translations.php
 msgid "Video Analytics for"
 msgstr "影片分析"
 
-#: app/Services/EmailProviderService.php:331
-msgid "Video Time"
-msgstr "視訊時間"
-
-#: app/Services/Translations/admin-translations.php:90
+#: app/Services/Translations/admin-translations.php
 msgid "View"
 msgstr "查看"
 
-#: app/Services/Translations/admin-translations.php:91
+#: app/Services/Translations/admin-translations.php
 msgid "View Demo"
 msgstr "查看示範"
 
-#: app/Hooks/Handlers/FluentPlayerMediaCPT.php:42
-msgid "View Media"
-msgstr "查看媒體"
-
-#: app/Services/Translations/admin-translations.php:92
+#: app/Services/Translations/admin-translations.php
 msgid "Views"
 msgstr "瀏覽量"
 
-#: app/Services/Translations/admin-translations.php:93
+#: app/Services/Translations/admin-translations.php
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: app/Services/Translations/admin-translations.php:94
+#: app/Services/Translations/admin-translations.php
 msgid "Watch Time"
 msgstr "觀看時間"
 
-#: app/Services/Translations/admin-translations.php:95
+#: app/Services/Translations/admin-translations.php
 msgid "Youtube"
 msgstr "Youtube"
 
-msgid "Advertisement"
-msgstr "廣告"
+#: app/Services/Translations/admin-translations.php
+msgid "of"
+msgstr "的"
 
-msgid "Audio"
-msgstr "音訊"
-
-msgid "Backward 10 seconds"
-msgstr "後退 10 秒"
-
-msgid "Backward 10s"
-msgstr "後退 10 秒"
-
-msgid "Call to action"
-msgstr "行動呼籲"
-
-msgid "Could not create ODS archive."
-msgstr "無法建立 ODS 壓縮檔。"
-
-msgid "Email address"
-msgstr "電子郵件地址"
-
-msgid "Email signup"
-msgstr "電子郵件訂閱"
-
-msgid "Enter Fullscreen"
-msgstr "進入全螢幕"
-
-msgid "Enter PiP"
-msgstr "進入子母畫面"
-
-msgid "Exit Fullscreen"
-msgstr "離開全螢幕"
-
-msgid "Exit PiP"
-msgstr "離開子母畫面"
-
-msgid "Failed to load setting. Please try again."
-msgstr "載入設定失敗，請再試一次。"
-
-msgid "Failed to load settings. Please try again."
-msgstr "載入設定失敗，請再試一次。"
-
-msgid "Failed to reset settings. Please try again."
-msgstr "重設設定失敗，請再試一次。"
-
-msgid "Failed to update settings. Please try again."
-msgstr "更新設定失敗，請再試一次。"
-
-msgid "Fluent Player"
-msgstr "Fluent Player"
-
-msgid "FluentPlayer Pro"
-msgstr "FluentPlayer Pro"
-
-msgid "Forward 10 seconds"
-msgstr "快進 10 秒"
-
-msgid "Forward 10s"
-msgstr "快進 10 秒"
-
-msgid "Fullscreen"
-msgstr "全螢幕"
-
-msgid "Hotspot"
-msgstr "熱點"
-
-msgid "Media player"
-msgstr "媒體播放器"
-
-msgid "Mute"
-msgstr "靜音"
-
-msgid "Pause"
-msgstr "暫停"
-
-msgid "Picture in Picture"
-msgstr "子母畫面"
-
-msgid "Play"
-msgstr "播放"
-
-msgid "Playlist"
-msgstr "播放清單"
-
-msgid "Seek"
-msgstr "跳轉"
-
-msgid "Skip email signup"
-msgstr "略過電子郵件訂閱"
-
-msgid "Speed"
-msgstr "播放速度"
-
-msgid "Subscribe on YouTube"
-msgstr "訂閱 YouTube"
-
-msgid "Toggle Playlist"
-msgstr "切換播放清單"
-
-msgid "Toggle navigation menu"
-msgstr "切換導覽選單"
-
-msgid "Unmute"
-msgstr "取消靜音"
-
-msgid "Volume"
-msgstr "音量"
-
-msgid "https://fluentplayer.com"
-msgstr "https://fluentplayer.com"
-
-msgid "techjewel"
-msgstr "techjewel"
+#: boot/app.php
+msgid "Check Update"
+msgstr "檢查更新"

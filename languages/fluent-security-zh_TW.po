@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Fluent Auth\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-26 09:07+0000\n"
-"PO-Revision-Date: 2025-12-07 04:06+0000\n"
+"PO-Revision-Date: 2026-04-16 05:29+0800\n"
 "Last-Translator: Fish 老魚\n"
 "Language-Team: 繁體中文\n"
 "Language: zh-TW\n"
@@ -13,1937 +13,566 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: fluent-security\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.6.14; wp-6.7.1\n"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:443
-#, php-format
-msgid "%s Facebook"
-msgstr "%s Facebook"
+#: fluent-security.php app/Services/TransStrings.php
+msgid "Settings"
+msgstr "設定"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:432
-#, php-format
-msgid "%s Github"
-msgstr "%s Github"
+#: fluent-security.php app/Hooks/Handlers/AdminMenuHandler.php
+#: app/Services/TransStrings.php
+msgid "Dashboard"
+msgstr "儀表板"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:420
-#, php-format
-msgid "%s Google"
-msgstr "%s Google"
+#: app/Http/Controllers/LogsController.php
+msgid "Log has been deleted"
+msgstr "日誌已被刪除"
 
-#. %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1097
-#, php-format
-msgid "%s is required"
-msgstr "%s 是必需的"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1307
-msgid "2FA Code"
-msgstr "2FA代碼"
-
-#: app/Services/AuthService.php:282
-msgid ""
-"<strong>Error:</strong> This email address is already registered. Please "
-"login or try reset password"
-msgstr "<strong>錯誤：</strong>此電子郵件地址已註冊。請登錄或嘗試重置密碼"
-
-#: app/Services/AuthService.php:227
-msgid ""
-"<strong>Error</strong>: Could not register you. Please contact the site "
-"admin!"
-msgstr "<strong>錯誤</strong>：無法註冊您。請聯繫網站管理員！"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:987
-msgid "<strong>Error</strong>: Invalid username or email"
-msgstr "<strong>錯誤</strong>：使用者名或電子郵件無效"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:750
-msgid ""
-"<strong>Error</strong>: Invalid username, email address or incorrect "
-"password."
-msgstr "<strong>錯誤</strong>：使用者名、電子郵件地址或密碼不正確。"
-
-#: app/Services/AuthService.php:259
-msgid "<strong>Error</strong>: Please enter a username."
-msgstr "<strong>錯誤</strong>： 請輸入使用者名稱。"
-
-#: app/Services/AuthService.php:275
-msgid "<strong>Error</strong>: Please type your email address."
-msgstr "<strong>錯誤</strong>： 請鍵入您的電子郵件位址。"
-
-#: app/Services/AuthService.php:269
-msgid "<strong>Error</strong>: Sorry, that username is not allowed."
-msgstr "<strong>錯誤</strong>：抱歉，不允許使用該使用者名。"
-
-#: app/Services/AuthService.php:277
-msgid "<strong>Error</strong>: The email address is not correct."
-msgstr "<strong>錯誤</strong>：電子郵件地址不正確。"
-
-#: app/Hooks/Handlers/LoginSecurityHandler.php:44
-msgid ""
-"<strong>Error</strong>: The username or the password is invalid. Please try "
-"different combination."
-msgstr "<strong>錯誤</strong>：使用者名或密碼無效。請嘗試不同的組合。"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:981
-msgid ""
-"<strong>Error</strong>: There is no account with that username or email "
-"address."
-msgstr "<strong>錯誤</strong>： 沒有具有該使用者名或電子郵件地址的帳戶。"
-
-#: app/Services/AuthService.php:264
-msgid ""
-"<strong>Error</strong>: This username is already registered. Please choose "
-"another one."
-msgstr "<strong>錯誤</strong>：此使用者名已註冊。請選擇另一個。"
-
-#: app/Services/AuthService.php:261
-msgid ""
-"<strong>Error</strong>: This username is invalid because it uses illegal "
-"characters. Please enter a valid username."
-msgstr ""
-"<strong>錯誤</strong>：此使用者名無效，因為它使用了非法字元。請輸入有效的使用"
-"者名。"
-
-#: app/Services/SystemEmailService.php:67
-msgid ""
-"A friendly welcome email sent to new users after registering via the "
-"FluentAuth Signup Form or when the password is set."
-msgstr ""
-"透過 FluentAuth 註冊表單註冊或設定密碼後，向新使用者發送友善的歡迎電子郵"
-"件。"
-
-#: app/Services/SystemEmailService.php:29
-msgid ""
-"A security-critical email sent when a user requests to reset their password, "
-"containing a unique reset link with time-limited access."
-msgstr ""
-"當使用者要求重設密碼時發送的安全關鍵電子郵件，其中包含具有限時存取的唯一"
-"重設連結。"
-
-#. #-#-#-#-#  fluent-security-zh_TW.po (Fluent Auth)  #-#-#-#-#
-#. %s: User Email
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:242
-#, fuzzy, php-format
-msgid "A verification code has been sent to %s. Please provide the code below:"
-msgstr ""
-"#-#-#-#-#  fluent-security-zh_TW.po (Fluent Auth)  #-#-#-#-#\n"
-"驗證碼已發送至 %s。請提供以下驗證碼：\n"
-"#-#-#-#-#  fluent-security-zh_TW.po (Fluent Auth)  #-#-#-#-#\n"
-"驗證碼已發送至 %s，請在下方輸入驗證碼："
-
-#. %s: Email
-#: app/Hooks/Handlers/CustomAuthHandler.php:1300
-#, php-format
-msgid ""
-"A verification code has been sent to %s. Please provide the code below: "
-msgstr "驗證碼已發送至 %s。請提供以下驗證碼："
-
-#: app/Services/TransStrings.php:11
-msgid "Action"
-msgstr "行動"
-
-#: app/Services/TransStrings.php:12
-msgid "Actions"
-msgstr "行動"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1283
-msgid "Activate your account"
-msgstr "啟動您的帳戶"
-
-#: app/Services/TransStrings.php:13
-msgid "Add Rule"
-msgstr "新增規則"
-
-#: app/Services/TransStrings.php:14
-msgid "Add to Ignore List"
-msgstr "新增到忽略列表"
-
-#: app/Http/Controllers/SystemEmailsController.php:64
-msgid "Admin Email"
-msgstr "管理員信箱"
-
-#: app/Services/TransStrings.php:15
-msgid "Advanced Redirect Rules"
-msgstr "高級重定向規則"
-
-#: app/Services/TransStrings.php:16
-msgid "All"
-msgstr "都"
-
-#: app/Http/Controllers/LogsController.php:70
+#: app/Http/Controllers/LogsController.php
 msgid "All Logs has been deleted"
 msgstr "已刪除所有日誌"
 
-#: app/Services/TransStrings.php:277
-msgid ""
-"All the file changes are marked as ignored previously. You can review the "
-"files and check if you want to keep them on ignored lists or not."
-msgstr ""
-"所有文件更改之前都已標記為忽略。您可以查看這些文件，並決定是否將它們保留在忽"
-"略清單中。"
+#: app/Http/Controllers/LogsController.php
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid "Failed Logins"
+msgstr "登錄失敗"
 
-#: app/Services/TransStrings.php:17
-msgid "All Time"
-msgstr "所有時間"
+#: app/Http/Controllers/LogsController.php
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid "Blocked Logins"
+msgstr "阻止的登錄"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:218
-msgid "Already have an account?"
-msgstr "已經有帳戶？"
+#: app/Http/Controllers/LogsController.php
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid "Successful Logins"
+msgstr "成功登錄"
 
-#: app/Services/SystemEmailService.php:88
-msgid ""
-"An email containing a time-sensitive authentication code sent to users "
-"during the login process when Two-Factor Authentication (2FA) is enabled."
-msgstr ""
-"啟用雙重認證 (2FA) 時，系統會在登入過程中向使用者發送一封包含有時效性驗證碼的"
-"電子郵件。"
+#: app/Http/Controllers/LogsController.php
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid "Login via URL"
+msgstr "透過 URL 登錄"
 
-#: app/Http/Controllers/SecurityScanController.php:111
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email ID is required"
+msgstr "需要電子郵件 ID"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email ID is invalid"
+msgstr "電子郵件 ID 無效"
+
+#: app/Http/Controllers/SystemEmailsController.php
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "First Name"
+msgstr "名"
+
+#: app/Http/Controllers/SystemEmailsController.php
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Last Name"
+msgstr "名字"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email"
+msgstr "電子郵件"
+
+#: app/Http/Controllers/SystemEmailsController.php
+#: app/Hooks/Handlers/CustomAuthHandler.php app/Services/TransStrings.php
+msgid "Username"
+msgstr "英文使用者名稱"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "User Roles"
+msgstr "使用者角色"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "User Data"
+msgstr "使用者資料"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Site Data"
+msgstr "網站資料"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Site Title"
+msgstr "網站標題"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Site tagline"
+msgstr "網站標語"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Admin Email"
+msgstr "管理員信箱"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Site URL"
+msgstr "網站網址"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Login Url"
+msgstr "登入網址"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email subject and body are required"
+msgstr "電子郵件主題和內文為必填項"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email body is not valid. Please check the smartcodes."
+msgstr "電子郵件正文無效。請檢查智能代碼。"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email settings has been succcesfully updated"
+msgstr "電子郵件設定已成功更新"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "From email is not valid"
+msgstr "寄件者電子郵件無效"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Reply to email is not valid"
+msgstr "回覆電子郵件無效"
+
+#: app/Http/Controllers/SystemEmailsController.php
+msgid "Email template settings has been succcesfully updated"
+msgstr "電子郵件範本設定已成功更新"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Settings has been updated"
+msgstr "設定已更新"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid file"
+msgstr "無效文件"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Sorry, you can only upload JPG, PNG, GIF, WebP, BMP or SVG files."
+msgstr "抱歉，您只能上傳 JPG、PNG、GIF、WebP、BMP 或 SVG 檔案。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "This feature is only available in the server mode."
+msgstr "此功能僅在伺服器模式下可用。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Site has been removed successfully"
+msgstr "網站已成功刪除"
+
+#: app/Http/Controllers/SettingsController.php
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Invalid request"
+msgstr "無效請求"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid site URL"
+msgstr "網站網址無效"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid callback URL"
+msgstr "回調 URL 無效"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "This site already exists."
+msgstr "該網站已經存在。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Site has been added successfully"
+msgstr "網站已新增成功"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid Site ID"
+msgstr "無效的網站 ID"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid server token"
+msgstr "伺服器令牌無效"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Invalid user token"
+msgstr "使用者令牌無效"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "You do not have permission to install plugins"
+msgstr "您沒有安裝外掛的權限。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "FluentSMTP is already installed as part of Fluent Mail plugin."
+msgstr "FluentSMTP 已安裝為 Fluent Mail 外掛程式的一部分。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "Plugin installation failed. Please try again."
+msgstr "外掛安裝失敗，請重試。"
+
+#: app/Http/Controllers/SettingsController.php
+msgid "FluentSMTP has been installed successfully"
+msgstr "FluentSMTP 已成功安裝"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Your settings has been saved successfully."
+msgstr "您的設定已成功儲存。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Please provide a valid email address and full name."
+msgstr "請提供有效的電子郵件地址和全名。"
+
+#: app/Http/Controllers/SecurityScanController.php
 msgid ""
 "An error occurred while scanning the site. If you continously get this "
 "error, please reconnect the API."
 msgstr "掃描網站時發生錯誤。如果持續出現此錯誤，請重新連接 API。"
 
-#: app/Services/SystemEmailService.php:18
-msgid "An essential email sent to new users upon account signup."
-msgstr "新使用者註冊帳戶時收到的重要電子郵件。"
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Please provide a valid file name."
+msgstr "請提供有效的檔案名稱。"
 
-#: app/Services/SystemEmailService.php:76
-msgid "An essential email sent to the admin when someone signup."
-msgstr "當有人註冊時向管理員發送一封重要電子郵件。"
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Ignore status has been updated."
+msgstr "忽略狀態已更新。"
 
-#: app/Services/GithubAuthService.php:70
-msgid "API Error when authenticate via github"
-msgstr "透過 github 進行身份驗證時出現 API 錯誤"
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Please provide a valid file name and status."
+msgstr "請提供有效的檔案名稱和狀態。"
 
-#: app/Http/Controllers/SecurityScanController.php:318
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Invalid folder name."
+msgstr "資料夾名稱無效。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "This file could not be viewed for security reason."
+msgstr "由於安全原因，無法查看此文件。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "This file could not be viewed."
+msgstr "無法查看該文件。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "This file is too large to be viewed."
+msgstr "該文件太大，無法查看。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "This file is not readable."
+msgstr "該文件不可讀。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Sorry, we could not compare the changes via Github API."
+msgstr "抱歉，我們無法透過 Github API 比較更改。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Please provide a valid interval."
+msgstr "請提供有效的間隔。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Schedule scan has been updated."
+msgstr "計劃掃描已更新。"
+
+#: app/Http/Controllers/SecurityScanController.php
+msgid "Ignore lists have been reset successfully."
+msgstr "忽略清單已成功重置。"
+
+#: app/Http/Controllers/SecurityScanController.php
 msgid "API has been reset successfully."
 msgstr "API 已成功重置。"
 
-#: app/Services/IntegrityChecker/Api.php:46
-msgid "API ID could not be generated. Please try again"
-msgstr "無法產生 API ID。請重試"
-
-#: app/Services/IntegrityChecker/Api.php:82
-msgid "API Key could not be verified. Please try again"
-msgstr "無法驗證 API 金鑰。請重試"
-
-#: app/Services/TransStrings.php:18
-msgid "Apply recommended settings"
-msgstr "應用建議的設定"
-
-#: app/Services/TransStrings.php:19
-msgid "Are you sure to delete all the logs?"
-msgstr "您確定要刪除所有紀錄嗎？"
-
-#: app/Services/TransStrings.php:20
-msgid "Are you sure you want to reset the ignored files and folders?"
-msgstr "您確定要重置忽略的檔案和資料夾嗎？"
-
-#: app/Services/TransStrings.php:21
-msgid "Automatically delete logs older than (in days)"
-msgstr "自動刪除早於以下時間的紀錄（以天為單位）"
-
-#: app/Services/TransStrings.php:22
-msgid "Back"
-msgstr "後退"
-
-#: app/Services/TransStrings.php:23
-msgid "Background Color"
-msgstr "背景顏色"
-
-#: app/Services/TransStrings.php:24
-msgid "Background Image"
-msgstr "背景影像"
-
-#: app/Services/TransStrings.php:25
-msgid "Banner"
-msgstr "橫幅"
-
-#: app/Services/TransStrings.php:26
-msgid "Banner Settings"
-msgstr "橫幅設定"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:142
-msgid "Blocked"
-msgstr "封鎖"
-
-#: app/Http/Controllers/LogsController.php:106
-#: app/Hooks/Handlers/BasicTasksHandler.php:213
-msgid "Blocked Logins"
-msgstr "阻止的登錄"
-
-#: app/Services/TransStrings.php:27
-msgid "Body Background Color"
-msgstr "正文背景顏色"
-
-#: app/Services/TransStrings.php:28
-msgid "Border Radius"
-msgstr "邊界半徑"
-
-#: app/Services/TransStrings.php:29
-msgid "Browser"
-msgstr "瀏覽器"
-
-#: app/Services/TransStrings.php:30
-msgid "Button"
-msgstr "按鈕"
-
-#: app/Services/TransStrings.php:31
-msgid "Button Background"
-msgstr "按鈕背景"
-
-#: app/Services/TransStrings.php:32
-msgid "Button Preview"
-msgstr "按鈕預覽"
-
-#: app/Services/TransStrings.php:33
-msgid "Button Text"
-msgstr "按鈕文字"
-
-#: app/Services/TransStrings.php:34
-msgid "Button Text Color"
-msgstr "按鈕文字顏色"
-
-#: app/Services/TransStrings.php:35
-msgid "Button URL"
-msgstr "按鈕網址"
-
-#: app/Services/TransStrings.php:36
-msgid "Cancel"
-msgstr "取消"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:300
-msgid "Check your inbox"
-msgstr "檢查您的收件匣"
-
-#: app/Services/TransStrings.php:279
-msgid "click here"
-msgstr "點這裡"
-
-#. %s: Site Name
-#: app/Hooks/Handlers/MagicLoginHandler.php:250
-#, php-format
-msgid "Click the link below to sign in to your %s account"
-msgstr "按下下面的連結登錄您的 %s 帳戶"
-
-#: app/Services/TransStrings.php:37
-msgid "Close"
-msgstr "關閉"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1322
-msgid "Complete Signup"
-msgstr "完成註冊"
-
-#: app/Hooks/Handlers/BasicTasksHandler.php:147
-msgid "Configure Fluent Auth"
-msgstr "設定 Fluent Auth"
-
-#: app/Services/TransStrings.php:38
-msgid "Configure the appearance and behavior of your login form."
-msgstr "設定登入表單的外觀和行為。"
-
-#: app/Services/TransStrings.php:39
-msgid "Configure the appearance and behavior of your signup form."
-msgstr "設定註冊表單的外觀和行為。"
-
-#: app/Services/SystemEmailService.php:49
-msgid "Confirm Email Change URL"
-msgstr "確認電子郵件更改 URL"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:630
-msgid "Connect with"
-msgstr "聯繫"
-
-#: app/Services/TransStrings.php:40
-msgid "Content"
-msgstr "內容"
-
-#: app/Services/TransStrings.php:41
-msgid "Content Background Color"
-msgstr "內容背景顏色"
-
-#: app/Services/TransStrings.php:42
-msgid "Content Text Color"
-msgstr "內容文字顏色"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:355
-#: app/Hooks/Handlers/MagicLoginHandler.php:111
-msgid "Continue"
-msgstr "繼續"
-
-#: app/Services/TransStrings.php:43
-msgid "Continue & Set API Key"
-msgstr "繼續並設定 API 金鑰"
-
-#: app/Services/TransStrings.php:44
-msgid "Core Security Settings"
-msgstr "核心安全設定"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:141
-msgid "Create an Account"
-msgstr "創建帳戶"
-
-#: app/Services/TransStrings.php:45
-msgid "Credential Storage Method"
-msgstr "憑證儲存方式"
-
-#: app/Services/TransStrings.php:46
+#: app/Hooks/Handlers/LoginSecurityHandler.php
 msgid ""
-"Custimize your default system emails sent by WordPress. Make it beautiful, "
-"use your own contents."
-msgstr "自訂 WordPress 發送的預設系統電子郵件。讓它更美觀，使用您自己的內容。"
-
-#: app/Services/TransStrings.php:47
-msgid "Customize Default WordPress System Emails"
-msgstr "自訂預設 WordPress 系統電子郵件"
-
-#: app/Services/TransStrings.php:48
-msgid "Customize Login"
-msgstr "自訂登入"
-
-#: app/Services/TransStrings.php:49
-msgid "Customize Sign Up"
-msgstr "自訂註冊"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:79
-#: app/Hooks/Handlers/AdminMenuHandler.php:80
-msgid "Customize WP Emails"
-msgstr "自訂WP電子郵件"
-
-#: app/Services/TransStrings.php:50
-msgid "Customize Your Email Template Design"
-msgstr "自訂您的電子郵件範本設計"
-
-#: app/Services/TransStrings.php:51
-msgid "Customized Content"
-msgstr "客製化內容"
-
-#: app/Services/TransStrings.php:52
-msgid "Daily"
-msgstr "日常的"
-
-#: fluent-security.php:93 app/Services/TransStrings.php:53
-#: app/Hooks/Handlers/AdminMenuHandler.php:34
-#: app/Hooks/Handlers/AdminMenuHandler.php:35
-msgid "Dashboard"
-msgstr "儀表板"
-
-#: app/Services/TransStrings.php:54
-msgid "Database"
-msgstr "資料庫"
-
-#: app/Services/TransStrings.php:55
-msgid "Date"
-msgstr "日期"
-
-#: app/Services/TransStrings.php:58
-msgid "Default content has been set successfully."
-msgstr "預設內容已成功設定。"
-
-#: app/Services/TransStrings.php:56
-msgid "Default Login Redirect URL"
-msgstr "預設登入重新導向 URL"
-
-#: app/Services/TransStrings.php:57
-msgid "Default Logout Redirect URL"
-msgstr "預設註銷重定向 URL"
-
-#: app/Services/TransStrings.php:59
-msgid "Delete All Logs"
-msgstr "刪除所有紀錄"
-
-#: app/Services/TransStrings.php:60
-msgid "Description"
-msgstr "描述"
-
-#: app/Services/TransStrings.php:61
-msgid "Design"
-msgstr "設計"
-
-#: app/Services/TransStrings.php:62
-msgid "Design Your Button"
-msgstr "設計你的按鈕"
-
-#: app/Services/TransStrings.php:70
-#, php-format
-msgid "Disable admin bar and %s access for selected user roles."
-msgstr "停用管理列和選定使用者角色的 %s 存取權。"
-
-#: app/Services/TransStrings.php:63
-msgid "Disable App Login (Rest API) for Remote Access. (Recommended: Disable)"
-msgstr "禁用 App Login （Rest API） 以進行遠端訪問。（建議：禁用）"
-
-#: app/Services/TransStrings.php:64
-msgid ""
-"Disable Magic Login for specific user roles (Leave blank to enable magic "
-"login for all users)"
-msgstr "為特定使用者角色關閉 Magic Login（留空可為所有使用者啟用 Magic Login）"
-
-#: app/Services/TransStrings.php:65
-msgid "Disable Public User Indexing"
-msgstr "禁用公共使用者索引"
-
-#: app/Services/TransStrings.php:66
-msgid ""
-"Disable REST Endpoint for wp users query for public (Recommended: Disable)"
-msgstr "為公共 wp 使用者查詢關閉 REST 端點（建議：禁用）"
-
-#: app/Services/TransStrings.php:67
-msgid "Disable Rest Remote App Login"
-msgstr "禁用 Rest 遠端應用程式登錄"
-
-#: app/Services/TransStrings.php:68
-msgid "Disable XML-RPC (Most of the sites don't need XMLRPC)"
-msgstr "關閉 XML-RPC（大多數網站不需要 XMLRPC）"
-
-#: app/Services/TransStrings.php:69
-msgid "Disable XML-RPC Requests"
-msgstr "禁用 XML-RPC 請求"
-
-#: app/Services/TransStrings.php:71
-msgid "Disable/Change Auto Scanning"
-msgstr "禁用/更改自動掃描"
-
-#: app/Services/TransStrings.php:72
-msgid "Disabled"
-msgstr "已停用"
-
-#: app/Http/Controllers/SystemEmailsController.php:42
-msgid "Display Name"
-msgstr "顯示名稱"
-
-#: app/Services/TransStrings.php:73
-msgid "Do not send digest email summary"
-msgstr "不發送摘要電子郵件摘要"
-
-#: app/Services/TransStrings.php:74
-msgid "Edit"
-msgstr "編輯"
-
-#: app/Http/Controllers/SystemEmailsController.php:43
-msgid "Email"
-msgstr "電子郵件"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:448
-#: app/Hooks/Handlers/CustomAuthHandler.php:475
-msgid "Email Address"
-msgstr "電子郵件"
-
-#: app/Services/SystemEmailService.php:41
-msgid "Email Address Change Confirmation"
-msgstr "電子郵件地址變更確認"
-
-#: app/Services/SystemEmailService.php:55
-msgid "Email Address Change Notification After Confimration"
-msgstr "確認後電子郵件地址變更通知"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:715
-msgid "Email and Password is required"
-msgstr "需要電子郵件和密碼"
-
-#: app/Services/TransStrings.php:75
-msgid "Email Body"
-msgstr "電子郵件正文"
-
-#: app/Http/Controllers/SystemEmailsController.php:156
-msgid "Email body is not valid. Please check the smartcodes."
-msgstr "電子郵件正文無效。請檢查智能代碼。"
-
-#: app/Services/TransStrings.php:76
-msgid "Email Content Status"
-msgstr "電子郵件內容狀態"
-
-#: app/Http/Controllers/SystemEmailsController.php:30
-#: app/Http/Controllers/SystemEmailsController.php:72
-#: app/Http/Controllers/SystemEmailsController.php:96
-#: app/Http/Controllers/SystemEmailsController.php:136
-msgid "Email ID is invalid"
-msgstr "電子郵件 ID 無效"
-
-#: app/Http/Controllers/SystemEmailsController.php:24
-#: app/Http/Controllers/SystemEmailsController.php:90
-#: app/Http/Controllers/SystemEmailsController.php:130
-msgid "Email ID is required"
-msgstr "需要電子郵件 ID"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:755
-msgid "Email or Password is not valid. Please try again"
-msgstr "電子郵件或密碼無效。請重試"
-
-#: app/Http/Controllers/SystemEmailsController.php:179
-msgid "Email settings has been succcesfully updated"
-msgstr "電子郵件設定已成功更新"
-
-#: app/Services/TransStrings.php:77
-msgid "Email Subject"
-msgstr "電子郵件主題"
-
-#: app/Http/Controllers/SystemEmailsController.php:102
-#: app/Http/Controllers/SystemEmailsController.php:150
-msgid "Email subject and body are required"
-msgstr "電子郵件主題和內文為必填項"
-
-#: app/Http/Controllers/SystemEmailsController.php:253
-msgid "Email template settings has been succcesfully updated"
-msgstr "電子郵件範本設定已成功更新"
-
-#: app/Services/TransStrings.php:78
-msgid "Enable Auto Scanning"
-msgstr "啟用自動掃描"
-
-#: app/Services/TransStrings.php:89
-msgid ""
-"Enable auto-scanning of your Core WordPress files and get emails if there "
-"has any un-authorized file changes."
-msgstr ""
-"啟用核心 WordPress 檔案的自動掃描，如果有任何未經授權的文件更改，則會收到電子"
-"電子郵件。"
-
-#: app/Services/TransStrings.php:79
-msgid "Enable Custom Login / Signup Shortcodes"
-msgstr "啟用自訂登錄/註冊短代碼"
-
-#: app/Services/TransStrings.php:80
-msgid "Enable Custom Login Redirects"
-msgstr "啟用自訂登錄重定向"
-
-#: app/Services/TransStrings.php:81
-msgid "Enable Google One-Tap Login/Signup"
-msgstr "啟用 Google 一鍵登入/註冊"
-
-#: app/Services/TransStrings.php:82
-msgid "Enable Login Security and Login Limit (recommended)"
-msgstr "開啟登入安全性和登入限制（推薦）"
-
-#: app/Services/TransStrings.php:83
-msgid "Enable Login with Facebook"
-msgstr "啟用 Facebook 登入"
-
-#: app/Services/TransStrings.php:84
-msgid "Enable Login with Github"
-msgstr "啟用 Login with Github"
-
-#: app/Services/TransStrings.php:85
-msgid "Enable Login with Google"
-msgstr "啟用Login with Google"
-
-#: app/Services/TransStrings.php:86
-msgid "Enable Magic Login (User can login via url sent to email)"
-msgstr "啟用魔術登入（使用者可以透過傳送到電子郵件的 URL 登入）"
-
-#: app/Services/TransStrings.php:87
-msgid "Enable Social Login / Signup"
-msgstr "啟用社交登錄/註冊"
-
-#: app/Services/TransStrings.php:88
-msgid "Enable Two-Factor Authentication via Email"
-msgstr "透過電子郵件啟用雙重認證"
-
-#: app/Services/TransStrings.php:90
-msgid "Enabled"
-msgstr "已啟用"
-
-#: app/Services/TransStrings.php:91
-msgid "Enabled for all user roles"
-msgstr "已為所有使用者角色啟用"
-
-#: app/Services/TransStrings.php:92
-msgid ""
-"Ensure your WordPress core files remain secure by detecting any unauthorized "
-"changes or tampering"
-msgstr "透過偵測任何未經授權的變更或竄改，確保您的 WordPress 核心檔案保持安全"
-
-#: app/Services/TransStrings.php:93
-msgid "Enter email address"
-msgstr "輸入電子郵件地址"
-
-#: app/Services/TransStrings.php:94
-msgid "Enter from name"
-msgstr "輸入姓名"
-
-#: app/Services/TransStrings.php:95
-msgid "Enter reply email address"
-msgstr "輸入回覆電子郵件地址"
-
-#: app/Services/TransStrings.php:96
-msgid "Enter reply to name"
-msgstr "輸入回覆姓名"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:100
-msgid ""
-"Enter the email address or username associated with your account, and we'll "
-"send a magic link to your inbox."
-msgstr ""
-"輸入與您的帳戶關聯的電子郵件地址或使用者名，我們將向您的收件匣發送一個神"
-"奇的連結。"
-
-#: app/Services/TransStrings.php:97
-msgid "Every Hour"
-msgstr "每小時"
-
-#: app/Services/TransStrings.php:98
-msgid "Extended Login Options"
-msgstr "擴充登入選項"
-
-#: app/Services/TransStrings.php:99
-msgid "Extra Folders in Root"
-msgstr "根目錄中的額外資料夾"
-
-#: app/Services/TransStrings.php:100
-msgid "Facebook App ID"
-msgstr "Facebook 應用程式 ID"
-
-#: app/Services/TransStrings.php:101
-msgid "Facebook App Secret"
-msgstr "Facebook 應用程式秘密"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:141
-msgid "Failed"
-msgstr "失敗"
-
-#: app/Http/Controllers/LogsController.php:102
-#: app/Hooks/Handlers/BasicTasksHandler.php:209
-msgid "Failed Logins"
-msgstr "登錄失敗"
-
-#: app/Http/Controllers/SystemEmailsController.php:40
-#: app/Hooks/Handlers/CustomAuthHandler.php:428
-#: app/Hooks/Handlers/CustomAuthHandler.php:430
-msgid "First Name"
-msgstr "名"
-
-#. Author of the plugin
-msgid "Fluent Auth Team"
-msgstr "Fluent 身份驗證團隊"
-
-#: app/Services/TransStrings.php:102 app/Hooks/Handlers/AdminMenuHandler.php:24
-msgid "FluentAuth"
-msgstr "FluentAuth 函數"
-
-#. Name of the plugin
-msgid "FluentAuth - Auth Security Plugin"
-msgstr "FluentAuth - Auth 安全外掛程式"
-
-#: app/Services/TransStrings.php:103
-msgid ""
-"FluentAuth found some file changes but you marked them as ignored them "
-"previously"
-msgstr "FluentAuth 發現了一些文件更改，但您之前將它們標記為忽略"
-
-#: app/Services/TransStrings.php:104
-msgid ""
-"FluentAuth has scanned your site and found no unauthorized changes in "
-"WordPress core files."
-msgstr ""
-"FluentAuth 已掃描您的網站，未發現 WordPress 核心檔案中有未經授權的變更。"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:23
-msgid "FluentAuth Settings"
-msgstr "FluentAuth 設定"
-
-#: app/Services/TransStrings.php:105
-msgid "FluentSMTP"
-msgstr "FluentSMTP"
-
-#: app/Http/Controllers/SettingsController.php:443
-msgid "FluentSMTP has been installed successfully"
-msgstr "FluentSMTP 已成功安裝"
-
-#: app/Http/Controllers/SettingsController.php:426
-msgid "FluentSMTP is already installed as part of Fluent Mail plugin."
-msgstr "FluentSMTP 已安裝為 Fluent Mail 外掛程式的一部分。"
-
-#: app/Services/TransStrings.php:106
-msgid "Font Size"
-msgstr "字體大小"
-
-#: app/Services/TransStrings.php:107
-msgid "Font Style"
-msgstr "字體樣式"
-
-#: app/Services/TransStrings.php:108
-msgid "Footer Text"
-msgstr "頁尾文字"
-
-#: app/Services/TransStrings.php:109
-msgid "Footer Text Color"
-msgstr "頁尾文字顏色"
-
-#: app/Services/TransStrings.php:110
-msgid ""
-"For more information how to setup Facebook app for social authentication "
-"please"
-msgstr "有關如何設定 Facebook 應用程式進行社交身份驗證的更多資訊，請"
-
-#: app/Services/TransStrings.php:111
-msgid ""
-"For more information how to setup Github app for social authentication please"
-msgstr "有關如何設定 Github 應用程式進行社交身份驗證的更多資訊，請"
-
-#: app/Services/TransStrings.php:112
-msgid ""
-"For more information how to setup google app for social authentication please"
-msgstr "有關如何設定 Google 應用程式進行社交身份驗證的更多資訊，請"
-
-#: app/Services/TransStrings.php:113
-msgid "For multiple emails, please use comma separated values"
-msgstr "對於多個電子郵件，請使用逗號分隔值"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:147
-msgid "Forgot your password?"
-msgstr "忘記密碼？"
-
-#: app/Services/TransStrings.php:114
-msgid "Form"
-msgstr "形式"
-
-#: app/Services/TransStrings.php:115
-msgid "Form Settings"
-msgstr "表單設定"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:816
-msgid "Form validation failed. Please provide the correct data"
-msgstr "表單驗證失敗。請提供正確的資料"
-
-#: app/Services/TransStrings.php:116
-msgid "Found changes"
-msgstr "發現變化"
-
-#: app/Http/Controllers/SystemEmailsController.php:230
-msgid "From email is not valid"
-msgstr "寄件者電子郵件無效"
-
-#: app/Services/TransStrings.php:117
-msgid ""
-"Full Authentication Flow ShortCode (includes Login Form, Registration Form "
-"and Password Reset Form)"
-msgstr "完整身份驗證流程短代碼（包括登錄表單、註冊表和密碼重置表單）"
-
-#: app/Services/TransStrings.php:118
-msgid "Github Client ID"
-msgstr "Github 使用者端 ID"
-
-#: app/Services/TransStrings.php:119
-msgid "Github Client Secret"
-msgstr "Github 使用者端金鑰"
-
-#: app/Services/TransStrings.php:120
-msgid "Go to FluentSMTP"
-msgstr "前往 FluentSMTP"
-
-#: app/Services/TransStrings.php:121
-msgid "Go to Settings"
-msgstr "前往“設定”"
-
-#: app/Services/TransStrings.php:122
-msgid "Google Client ID"
-msgstr "Google 使用者端 ID"
-
-#: app/Services/TransStrings.php:123
-msgid "Google Client Secret"
-msgstr "Google 使用者端金鑰"
-
-#. %s: First Name
-#. %s: User's Display Name
-#. %s: user's display name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1272
-#: app/Hooks/Handlers/TwoFaHandler.php:261
-#: app/Hooks/Handlers/MagicLoginHandler.php:248
-#, php-format
-msgid "Hello %s,"
-msgstr "你好 %s，"
-
-#: app/Services/TransStrings.php:124
-#, php-format
-#| msgid "view your security config and recent login activities"
-msgid "Hello %s, view your security config and recent login activities"
-msgstr "您好 %s，請查看您的安全設定和最近的登入活動"
-
-#. %s: User's first name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1040
-#, php-format
-msgid "Hi %s,"
-msgstr "%s 您好，"
-
-#: app/Services/TransStrings.php:125
-msgid "Hide Preview"
-msgstr "隱藏預覽"
-
-#: app/Services/TransStrings.php:126
-msgid "Highlight Background"
-msgstr "突出顯示背景"
-
-#: app/Services/TransStrings.php:127
-msgid "Highlight Text Color"
-msgstr "突出顯示文字顏色"
-
-#: app/Services/TransStrings.php:128
-msgid "How many times user can try login in"
-msgstr "使用者可以嘗試登錄多少次"
-
-#. URI of the plugin
-#. Author URI of the plugin
-msgid "https://fluentauth.com"
-msgstr "https://fluentauth.com"
+"<strong>Error</strong>: The username or the password is invalid. Please try "
+"different combination."
+msgstr "<strong>錯誤</strong>：使用者名或密碼無效。請嘗試不同的組合。"
+
+#. %d: munites
+#: app/Hooks/Handlers/LoginSecurityHandler.php
+msgid "You are blocked for next %d minutes. Please try after that time"
+msgstr "您已被屏蔽，將持續 %d 分鐘。請稍後再試。"
+
+#. %d: munites
+#. %d: Minite
+#: app/Hooks/Handlers/LoginSecurityHandler.php
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "You are trying too much. Please try after %d minutes"
+msgstr "你嘗試得太多了。請在 %d 分鐘後嘗試"
+
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Reset Password"
+msgstr "重置密碼"
+
+#: app/Hooks/Handlers/LoginCustomizerHandler.php app/Services/TransStrings.php
+msgid "Logo"
+msgstr "標識"
 
 #. %s: Terms & Conditions Link
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:207
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 #, php-format
 msgid "I agree to the %s"
 msgstr "我同意%s"
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:210
-msgid "I agree to the terms and conditions"
-msgstr "我同意條款和條件"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+msgid "terms and conditions."
+msgstr "條款和條件。"
 
-#: app/Services/TransStrings.php:130
+#. #-#-#-#-#  fluent-security-zh_TW.po (Fluent Auth)  #-#-#-#-#
+#. %s: User Email
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 #, php-format
-msgid ""
-"If a user fails to log in %1s times within %2s minutes minutes, the system "
-"will block the user for %3s minutes."
-msgstr "如果使用者在 %2s 分鐘內登入失敗 %1s 次，系統將阻止該使用者 %3s 分鐘。"
+msgid "A verification code has been sent to %s. Please provide the code below:"
+msgstr "驗證碼已發送至 %s，請在下方輸入驗證碼："
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:262
-msgid ""
-"If the button above does not work, paste this link into your web browser:"
-msgstr "如果上面的按鈕不起作用，請將此連結粘貼到您的 Web 瀏覽器中："
-
-#: app/Hooks/Handlers/TwoFaHandler.php:286
-#: app/Hooks/Handlers/MagicLoginHandler.php:265
-msgid "If you did not make this request, you can safely ignore this email."
-msgstr "如果您未提出此請求，則可以放心地忽略此電子郵件。"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1045
-#| msgid ""
-#| "<p>If you did not request to reset your password, please ignore this "
-#| "email.</p>"
-msgid ""
-"If you did not request to reset your password, please ignore this email."
-msgstr "如果您沒有要求重置密碼，請忽略此電子郵件。"
-
-#: app/Services/TransStrings.php:131
-msgid ""
-"If you want to change the notification email address or disable scanning "
-"service,"
-msgstr "如果您想變更通知電子郵件地址或停用掃描服務，"
-
-#: app/Services/TransStrings.php:132
-msgid "If you want to define customized redirect URL then use shortcode:"
-msgstr "如果您想定義自訂重定向 URL，請使用短代碼："
-
-#: app/Http/Controllers/SecurityScanController.php:298
-msgid "Ignore lists have been reset successfully."
-msgstr "忽略清單已成功重置。"
-
-#: app/Http/Controllers/SecurityScanController.php:167
-msgid "Ignore status has been updated."
-msgstr "忽略狀態已更新。"
-
-#: app/Services/TransStrings.php:133
-msgid "Ignored"
-msgstr "忽略"
-
-#: app/Services/TransStrings.php:134
-msgid "Ignored Files & Folders"
-msgstr "忽略的文件和資料夾"
-
-#: app/Services/TransStrings.php:135
-msgid "Image Preview"
-msgstr "圖像預覽"
-
-#: app/Services/TransStrings.php:136
-msgid "Insert"
-msgstr "插入"
-
-#: app/Http/Controllers/SettingsController.php:276
-msgid "Invalid callback URL"
-msgstr "回調 URL 無效"
-
-#: app/Http/Controllers/SettingsController.php:187
-msgid "Invalid file"
-msgstr "無效文件"
-
-#: app/Http/Controllers/SecurityScanController.php:187
-msgid "Invalid folder name."
-msgstr "資料夾名稱無效。"
-
-#: app/Http/Controllers/SettingsController.php:262
-#: app/Http/Controllers/SettingsController.php:268
-#: app/Http/Controllers/SettingsController.php:361
-#: app/Http/Controllers/SettingsController.php:418
-#: app/Hooks/Handlers/CustomAuthHandler.php:709
-msgid "Invalid request"
-msgstr "無效請求"
-
-#: app/Services/IntegrityChecker/Api.php:36
-#: app/Services/IntegrityChecker/Api.php:72
-#: app/Services/IntegrityChecker/Api.php:110
-#: app/Services/IntegrityChecker/Api.php:116
-#: app/Services/IntegrityChecker/Api.php:147
-msgid "Invalid response from the server. Please try again"
-msgstr "伺服器回應無效。請重試"
-
-#: app/Http/Controllers/SettingsController.php:371
-msgid "Invalid server token"
-msgstr "伺服器令牌無效"
-
-#: app/Http/Controllers/SettingsController.php:367
-msgid "Invalid Site ID"
-msgstr "無效的網站 ID"
-
-#: app/Http/Controllers/SettingsController.php:273
-msgid "Invalid site URL"
-msgstr "網站網址無效"
-
-#: app/Http/Controllers/SettingsController.php:379
-#: app/Http/Controllers/SettingsController.php:386
-msgid "Invalid user token"
-msgstr "使用者令牌無效"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:963
-msgid "Invalid username or email"
-msgstr "使用者名或電子郵件無效"
-
-#: app/Services/TransStrings.php:129
-msgid "IP"
-msgstr "智慧財產權"
-
-#: app/Services/TransStrings.php:137
-msgid "Last 30 days"
-msgstr "過去30天"
-
-#: app/Services/TransStrings.php:138
-msgid "Last 7 days"
-msgstr "最近 7 天"
-
-#: app/Http/Controllers/SystemEmailsController.php:41
-#: app/Hooks/Handlers/CustomAuthHandler.php:434
-#: app/Hooks/Handlers/CustomAuthHandler.php:436
-msgid "Last Name"
-msgstr "名字"
-
-#: app/Services/TransStrings.php:139
-#, php-format
-msgid "Last Scanned %s ago"
-msgstr "上次掃描時間：%s 前"
-
-#: app/Services/TransStrings.php:140
-msgid "Last Scanned Status"
-msgstr "上次掃描狀態"
-
-#: app/Services/TransStrings.php:141
-msgid "Learn More"
-msgstr "了解更多"
-
-#: app/Services/TransStrings.php:142
-msgid ""
-"Let's Secure your site by checking unauthorized changes of WP Core Files"
-msgstr "讓我們透過檢查 WP Core 檔案的未經授權的變更來保護您的網站"
-
-#: app/Http/Controllers/LogsController.php:59
-msgid "Log has been deleted"
-msgstr "日誌已被刪除"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1150
-msgid "Log In"
-msgstr "登入"
-
-#: app/Services/TransStrings.php:143
-msgid "Log Login Logs"
-msgstr "記錄登錄日誌"
-
-#: app/Services/TransStrings.php:144
-#: app/Hooks/Handlers/CustomAuthHandler.php:220
-#: app/Hooks/Handlers/TwoFaHandler.php:405
-msgid "Login"
-msgstr "登錄"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:396
-msgid "Login Code"
-msgstr "登錄代碼"
-
-#: app/Services/SystemEmailService.php:101
-msgid "Login Email via Magic URL"
-msgstr "透過 Magic URL 登入電子郵件"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:688
-msgid "Login is not enabled"
-msgstr "未啟用登錄"
-
-#: app/Services/TransStrings.php:145
-msgid "Login Notifications"
-msgstr "登錄通知"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:629
-msgid "Login or Signup"
-msgstr "登錄或註冊"
-
-#: app/Services/TransStrings.php:152
-msgid "Login or Signup Forms Shortcodes"
-msgstr "登入或註冊表單短代碼"
-
-#: app/Services/TransStrings.php:146
-msgid "Login Redirect URL"
-msgstr "登入重新導向 URL"
-
-#: app/Services/TransStrings.php:147 app/Hooks/Handlers/AdminMenuHandler.php:70
-#: app/Hooks/Handlers/AdminMenuHandler.php:71
-msgid "Login Redirects"
-msgstr "登錄重定向"
-
-#: app/Services/TransStrings.php:148
-msgid "Login Redirects Settings"
-msgstr "登錄重定向設定"
-
-#: app/Services/TransStrings.php:149
-msgid "Login Security Settings"
-msgstr "登錄安全設定"
-
-#: app/Services/TransStrings.php:150
-msgid "Login Try Limit per IP address in certain defined minutes"
-msgstr "在特定定義的分鐘數內每個 IP 位址的登入嘗試限制"
-
-#: app/Http/Controllers/SystemEmailsController.php:66
-msgid "Login Url"
-msgstr "登入網址"
-
-#: app/Services/TransStrings.php:151
-msgid "Login Username"
-msgstr "登錄使用者名"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:94
-msgid "Login Via Magic URL"
-msgstr "透過魔術 URL 登錄"
-
-#: app/Http/Controllers/LogsController.php:122
-#: app/Hooks/Handlers/BasicTasksHandler.php:225
-msgid "Login via URL"
-msgstr "透過 URL 登錄"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:173
-msgid "Login via URL is not activated"
-msgstr "透過 URL 登錄未啟動"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:395
-msgid "Login with"
-msgstr "使用以下方式登入"
-
-#: app/Services/TransStrings.php:153
-msgid "Login with Facebook Settings"
-msgstr "使用 Facebook 設定登入"
-
-#: app/Services/TransStrings.php:154
-msgid "Login with Github Settings"
-msgstr "使用 Github Settings 登錄"
-
-#: app/Services/TransStrings.php:155
-msgid "Login with Google Settings"
-msgstr "使用Google Settings 登錄"
-
-#: app/Services/TransStrings.php:156 app/Hooks/Handlers/AdminMenuHandler.php:61
-#: app/Hooks/Handlers/AdminMenuHandler.php:62
-msgid "Login/Signup Forms"
-msgstr "登錄/註冊表單"
-
-#: app/Services/TransStrings.php:157
-msgid "Login/Signup Page Customizer"
-msgstr "登入/註冊頁面定制器"
-
-#: app/Services/TransStrings.php:158
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:161
-msgid "Logo"
-msgstr "標識"
-
-#: app/Services/TransStrings.php:159
-msgid "Logout Redirect URL"
-msgstr "登出重定向 URL"
-
-#: app/Services/TransStrings.php:160 app/Hooks/Handlers/AdminMenuHandler.php:43
-#: app/Hooks/Handlers/AdminMenuHandler.php:44
-msgid "Logs"
-msgstr "系統記錄"
-
-#: app/Services/TransStrings.php:274
-msgid ""
-"Look like there has some file changes has been detected. Please review "
-"individual files and take necesarry actions."
-msgstr "似乎檢測到了一些文件更改。請檢查各個文件並採取必要的措施。"
-
-#: app/Services/TransStrings.php:161
-msgid "Magic Login Form Shortcode"
-msgstr "魔術登入表單簡碼"
-
-#: app/Services/TransStrings.php:162
-msgid "Make magic login as primary login method"
-msgstr "將魔術登入作為主要登入方式"
-
-#: app/Services/TransStrings.php:163
-msgid "Media"
-msgstr "媒體"
-
-#: app/Services/TransStrings.php:280
-msgid "minutes"
-msgstr "分分鐘"
-
-#: app/Services/SystemEmailService.php:50
-msgid "New Email Address"
-msgstr "新的電子郵件地址"
-
-#: app/Services/SystemEmailService.php:17
-#: app/Services/SystemEmailService.php:75
-msgid "New User Registration Notification"
-msgstr "新使用者註冊通知"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:200
-msgid "Nonce Verification failed. Please try again"
-msgstr "Nonce 驗證失敗。請重試"
-
-#: app/Services/TransStrings.php:164
-msgid "Not enough data. This section will show recent failed login attempts"
-msgstr "資料不足。此部分將顯示最近失敗的登錄嘗試"
-
-#: app/Services/TransStrings.php:165
-msgid "Not enough data. This section will show recent successful logins"
-msgstr "資料不足。此部分將顯示最近的成功登錄"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:139
-msgid "Not registered?"
-msgstr "未註冊？"
-
-#: app/Services/TransStrings.php:166
-msgid "Notification Email"
-msgstr "通知電子郵件"
-
-#: app/Services/TransStrings.php:168
-msgid "Notification is disabled"
-msgstr "通知已禁用"
-
-#: app/Services/TransStrings.php:167
-msgid "Notification Send to Email Address"
-msgstr "通知發送到電子郵件位址"
-
-#: app/Services/TransStrings.php:169
-msgid "Only Login Form ShortCode"
-msgstr "僅登錄表單簡碼"
-
-#: app/Services/TransStrings.php:170
-msgid "Only Registration Form ShortCode"
-msgstr "僅註冊表簡碼"
-
-#: app/Services/TransStrings.php:171
-msgid "Open Login/Signup Page Customizer"
-msgstr "開啟登入/註冊頁面定制器"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:88
-#: app/Hooks/Handlers/MagicLoginHandler.php:118
-msgid "Or"
-msgstr "或"
-
-#: app/Services/TransStrings.php:172
-msgid "Other Settings"
-msgstr "其他設定"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:192
-#: app/Hooks/Handlers/CustomAuthHandler.php:455
-#: app/Hooks/Handlers/CustomAuthHandler.php:457
-#: app/Hooks/Handlers/CustomAuthHandler.php:574
-#: app/Hooks/Handlers/CustomAuthHandler.php:1148
-msgid "Password"
-msgstr "密碼"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:392
-msgid "Password and Confirm password need to be matched"
-msgstr "密碼和確認密碼必須一致"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1111
-msgid "Password must be at least 6 characters long"
-msgstr "密碼長度必須至少為 6 個字元。"
-
-#: app/Services/TransStrings.php:173
-msgid "Password Reset Form ShortCode"
-msgstr "密碼重置表單簡碼"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1000
-msgid "Password reset is not allowed for this user"
-msgstr "不允許此使用者重置密碼"
-
-#: app/Services/SystemEmailService.php:28
-msgid "Password Reset Request Email"
-msgstr "密碼重設請求電子郵件"
-
-#: app/Services/SystemEmailService.php:23
-#: app/Services/SystemEmailService.php:36
-msgid "Password Set URL"
-msgstr "密碼設定網址"
-
-#: app/Services/TransStrings.php:175 app/Services/TransStrings.php:278
-msgid ""
-"Please add the following code in your wp-config.php file (please replace the "
-"*** with your app values)"
-msgstr ""
-"請在您的 wp-config.php 檔案中新增以下代碼（請將 *** 取代為您的應用程式值）"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:396
-msgid "Please agree to the terms and conditions."
-msgstr "請同意條款和條件。"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1084
-msgid "Please check your email for the reset link"
-msgstr "請檢查您的電子郵件中是否有重置連結"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:393
-msgid ""
-"Please check your email inbox and get the 2 factor Authentication code and "
-"Provide here to login"
-msgstr ""
-"請檢查您的電子郵件收件匣並獲取 2 因素身份驗證代碼，並在此處提供以登錄"
-
-#: app/Services/TransStrings.php:281
-msgid "please click here"
-msgstr "請點這裡"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:370
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 msgid "Please enter your full name."
 msgstr "請輸入您的全名。"
 
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:388
-msgid "Please enter your password."
-msgstr "請輸入您的密碼。"
-
-#: app/Services/TransStrings.php:275
-msgid ""
-"Please fill up the form and get a free API key to enable Security Scan and "
-"Automatted Notification. This API key will be used to send you email from "
-"FluentAuth Service. (You need the free API key just once)"
-msgstr ""
-"請填寫表格，即可獲得免費的 API 金鑰，用於啟用安全掃描和自動通知功能。此 API "
-"金鑰將用於接收 FluentAuth 服務發送的電子郵件。 （您只需領取一次此免費 "
-"API 金鑰）"
-
-#: app/Services/TransStrings.php:176
-msgid ""
-"Please get a free API key to enable Scheduled Scanning and get notified when "
-"FluentAuth detects file changes."
-msgstr ""
-"請取得免費的 API 金鑰以啟用計畫掃描並在 FluentAuth 偵測到文件變更時收到通知。"
-
-#: app/Services/TransStrings.php:177
-msgid ""
-"Please note, If there has redirect_to query parameter in the Login Page URL, "
-"it will be used for redirection instead of these set rule."
-msgstr ""
-"請注意，如果登入頁面 URL 中包含 redirect_to 查詢參數，則會使用該參數進行重定"
-"向，而不是使用這些設定的規則。"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:379
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 msgid "Please provide a full name."
 msgstr "請提供全名。"
 
-#: app/Http/Controllers/SecurityScanController.php:64
-msgid "Please provide a valid email address and full name."
-msgstr "請提供有效的電子郵件地址和全名。"
-
-#: app/Http/Controllers/SecurityScanController.php:177
-msgid "Please provide a valid file name and status."
-msgstr "請提供有效的檔案名稱和狀態。"
-
-#: app/Http/Controllers/SecurityScanController.php:139
-msgid "Please provide a valid file name."
-msgstr "請提供有效的檔案名稱。"
-
-#: app/Http/Controllers/SecurityScanController.php:274
-msgid "Please provide a valid interval."
-msgstr "請提供有效的間隔。"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:163
-msgid "Please provide a valid login code"
-msgstr "請提供有效的登錄代碼"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:850
-#: app/Hooks/Handlers/CustomAuthHandler.php:855
-msgid "Please provide a valid name"
-msgstr "請提供正確的姓名"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:384
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 msgid "Please provide a valid name."
 msgstr "請提供有效的名稱。"
 
-#: app/Services/AuthService.php:303 app/Services/AuthService.php:316
-msgid ""
-"Please provide a valid vefification code that sent to your email address"
-msgstr "請提供發送到您的電子郵件位址的有效驗證碼"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+msgid "Please enter your password."
+msgstr "請輸入您的密碼。"
 
-#: app/Services/TransStrings.php:174
-msgid "Please Provide the Required Smartcodes"
-msgstr "請提供所需的智慧代碼"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+msgid "Password and Confirm password need to be matched"
+msgstr "密碼和確認密碼必須一致"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:156
-msgid "Please provide username / email to get magic login link"
-msgstr "請提供用帳號/電子郵件以獲得魔術登入連結"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+msgid "Please agree to the terms and conditions."
+msgstr "請同意條款和條件。"
 
-#: app/Services/TransStrings.php:178
-msgid "Please provide valid API key"
-msgstr "請提供有效的 API 金鑰"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php app/Services/TransStrings.php
+msgid "Your Full Name"
+msgstr "您的全名"
 
-#: app/Services/TransStrings.php:179
-msgid "Please provide valid name and email address"
-msgstr "請提供有效的姓名和電子郵件地址"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Password"
+msgstr "密碼"
 
-#: app/Services/TransStrings.php:180
-msgid "Please set your Facebook app Redirect URL:"
-msgstr "請設定您的 Facebook 應用程式重新導向 URL："
-
-#: app/Services/TransStrings.php:181
-msgid "Please set your Github app Redirect URL:"
-msgstr "請設定您的 Github 應用程式重定向 URL："
-
-#: app/Services/TransStrings.php:182
-msgid "Please set your Google app Redirect URL:"
-msgstr "請設定您的 Google 應用程式重新導向網址："
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:157
-msgid "Please Wait..."
-msgstr "請稍等..."
-
-#: app/Http/Controllers/SettingsController.php:439
-msgid "Plugin installation failed. Please try again."
-msgstr "外掛安裝失敗，請重試。"
-
-#: app/Services/TransStrings.php:183
-msgid "Plugin installed successfully!"
-msgstr "外掛安裝成功！"
-
-#: app/Services/TransStrings.php:184
-msgid "Preview"
-msgstr "預覽"
-
-#: app/Services/TransStrings.php:185
-msgid "Preview Email"
-msgstr "預覽電子郵件"
-
-#: app/Services/TransStrings.php:186
-msgid "Previewing Email"
-msgstr "預覽電子郵件"
-
-#: app/Services/SystemEmailService.php:61
-msgid "Previous Email Address"
-msgstr "以前的電子郵件地址"
-
-#: app/Services/TransStrings.php:187
-msgid "Provide API Key"
-msgstr "提供 API 金鑰"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:49
-msgid "Provide Login Code"
-msgstr "提供登入碼"
-
-#. %s: Form Field Label
-#: app/Hooks/Handlers/CustomAuthHandler.php:1103
-#, php-format
-msgid "Provided %s is not a valid email"
-msgstr "提供的 %s 不是有效的電子郵件"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:197
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
 msgid "Re-Enter Password"
 msgstr "重新輸入密碼"
 
-#: app/Services/TransStrings.php:282
-msgid "read this documentation"
-msgstr "閱讀此文檔"
+#: app/Hooks/Handlers/LoginCustomizerHandler.php
+msgid "I agree to the terms and conditions"
+msgstr "我同意條款和條件"
 
-#: app/Services/TransStrings.php:188
-msgid "Recent Failed & Blocked Logins"
-msgstr "最近的失敗和阻止的登錄"
+#. %s: Site URL
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "You are already logged in. <a href=\"%s\">Go to Home Page</a>"
+msgstr "您已登錄。 <a href=\"%s\">轉到主頁</a>"
 
-#: app/Services/TransStrings.php:189
-msgid "Recent Successful Logins"
-msgstr "最近成功登錄"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Not registered?"
+msgstr "未註冊？"
 
-#: app/Services/TransStrings.php:190
-msgid "Recommended Plugin"
-msgstr "推薦外掛"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Create an Account"
+msgstr "創建帳戶"
 
-#: app/Services/TransStrings.php:283
-msgid "refresh"
-msgstr "刷新"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Forgot your password?"
+msgstr "忘記密碼？"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:898
+#. %s: Site URL
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "User registration is not enabled. <a href=\"%s\">Go to Home Page</a>"
+msgstr "未啟用使用者註冊。 <a href=\"%s\">轉到主頁</a>"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Signup"
+msgstr "註冊"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Already have an account?"
+msgstr "已經有帳戶？"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php app/Hooks/Handlers/TwoFaHandler.php
+#: app/Services/TransStrings.php
+msgid "Login"
+msgstr "登錄"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Email Address"
+msgstr "電子郵件"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php app/Services/TransStrings.php
+msgid "Your Email Address"
+msgstr "您的電子郵件地址"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Username or Email"
+msgstr "英文使用者名稱或電子郵件"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Login is not enabled"
+msgstr "未啟用登錄"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Security nonce is required"
+msgstr "需要安全 nonce"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Security verification failed"
+msgstr "安全驗證失敗"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Email and Password is required"
+msgstr "需要電子郵件和密碼"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid ""
+"<strong>Error</strong>: Invalid username, email address or incorrect "
+"password."
+msgstr "<strong>錯誤</strong>：使用者名、電子郵件地址或密碼不正確。"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Email or Password is not valid. Please try again"
+msgstr "電子郵件或密碼無效。請重試"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "User registration is not enabled"
+msgstr "未啟用使用者註冊"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Security verification failed. Please try again"
+msgstr "安全驗證失敗。請重試"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Form validation failed. Please provide the correct data"
+msgstr "表單驗證失敗。請提供正確的資料"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Please provide a valid name"
+msgstr "請提供正確的姓名"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
 msgid "Registration has been completed. Please login now"
 msgstr "註冊已完成。請立即登錄"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1149
-msgid "Remember Me"
-msgstr "記住帳號"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Successfully registered to the site."
+msgstr "已成功註冊到網站。"
 
-#: app/Services/TransStrings.php:191
-msgid "Remote Auth"
-msgstr "遠端認證"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Username or email is required"
+msgstr "英文使用者名稱或電子郵件是必需的"
 
-#: app/Services/TransStrings.php:192
-msgid "Remove from Ignore List"
-msgstr "從忽略清單中刪除"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Invalid username or email"
+msgstr "使用者名或電子郵件無效"
 
-#: app/Services/TransStrings.php:193
+#: app/Hooks/Handlers/CustomAuthHandler.php
 msgid ""
-"Replace Default Signup Form with Secure form with Email Verfication "
-"(Recommended: Enable)"
-msgstr "使用帶有電子郵件驗證的安全表單替換預設註冊表單（建議：啟用）"
+"<strong>Error</strong>: There is no account with that username or email "
+"address."
+msgstr "<strong>錯誤</strong>： 沒有具有該使用者名或電子郵件地址的帳戶。"
 
-#: app/Services/TransStrings.php:194
-msgid "Reply to email (optional)"
-msgstr "回覆電子郵件（可選）"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "<strong>Error</strong>: Invalid username or email"
+msgstr "<strong>錯誤</strong>：使用者名或電子郵件無效"
 
-#: app/Http/Controllers/SystemEmailsController.php:240
-msgid "Reply to email is not valid"
-msgstr "回覆電子郵件無效"
-
-#: app/Services/TransStrings.php:195
-msgid "Reset"
-msgstr "重置"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:82
-#: app/Hooks/Handlers/CustomAuthHandler.php:149
-#: app/Hooks/Handlers/CustomAuthHandler.php:271
-msgid "Reset Password"
-msgstr "重置密碼"
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Password reset is not allowed for this user"
+msgstr "不允許此使用者重置密碼"
 
 #. %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1018
-#: app/Hooks/Handlers/CustomAuthHandler.php:1037
+#: app/Hooks/Handlers/CustomAuthHandler.php
 #, php-format
 msgid "Reset your password for %s"
 msgstr "重置 %s 的密碼"
 
-#: app/Services/TransStrings.php:196
+#. %s: User's first name
+#: app/Hooks/Handlers/CustomAuthHandler.php
 #, php-format
-msgid "Roles to disable %s access and hide admin bar"
-msgstr "停用 %s 存取並隱藏管理列的角色"
+msgid "Hi %s,"
+msgstr "%s 您好，"
 
-#: app/Services/TransStrings.php:197
-msgid "Save"
-msgstr "節省"
-
-#: app/Services/TransStrings.php:198
-msgid "Save Changes"
-msgstr "儲存變更"
-
-#: app/Services/TransStrings.php:199
-msgid "Save Settings"
-msgstr "儲存設定"
-
-#: app/Services/TransStrings.php:200
-msgid "Scan Again"
-msgstr "再次掃描"
-
-#: app/Services/TransStrings.php:201
-msgid "Scan Result"
-msgstr "掃描結果"
-
-#: app/Services/TransStrings.php:202
-msgid "Scanner Status"
-msgstr "掃描器狀態"
-
-#: app/Services/TransStrings.php:204
-msgid "Scanning in progress. Please wait...."
-msgstr "正在掃描。請稍候...."
-
-#: app/Services/TransStrings.php:203
-msgid "Scanning Interval"
-msgstr "掃描間隔"
-
-#: app/Http/Controllers/SecurityScanController.php:285
-msgid "Schedule scan has been updated."
-msgstr "計劃掃描已更新。"
-
-#: app/Services/TransStrings.php:205
-msgid "Scheduled Scanning"
-msgstr "計劃掃描"
-
-#: app/Services/TransStrings.php:206
-msgid "Scheduled scanning is currently disabled"
-msgstr "計劃掃描目前已停用"
-
-#: app/Services/TransStrings.php:207
-msgid "Scheduled scanning is currently enabled"
-msgstr "計劃掃描目前已啟用"
-
-#: app/Services/TransStrings.php:208
-msgid "Search"
-msgstr "搜尋"
-
-#: app/Services/SystemEmailService.php:96
-#: app/Services/SystemEmailService.php:109
-msgid "Secure Signin URL"
-msgstr "安全登入網址"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:696
-msgid "Security nonce is required"
-msgstr "需要安全 nonce"
-
-#: app/Services/TransStrings.php:209 app/Hooks/Handlers/AdminMenuHandler.php:88
-#: app/Hooks/Handlers/AdminMenuHandler.php:89
-msgid "Security Scans"
-msgstr "安全掃描"
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:52
-#: app/Hooks/Handlers/AdminMenuHandler.php:53
-msgid "Security Settings"
-msgstr "安全設定"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:702
-msgid "Security verification failed"
-msgstr "安全驗證失敗"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:792
-#: app/Hooks/Handlers/CustomAuthHandler.php:942
-msgid "Security verification failed. Please try again"
-msgstr "安全驗證失敗。請重試"
-
-#: app/Services/TransStrings.php:213
-msgid "Select disable roles"
-msgstr "選擇停用角色"
-
-#: app/Services/TransStrings.php:210
-msgid "Select Interval"
-msgstr "選擇間隔"
-
-#: app/Services/TransStrings.php:211
-msgid "Select Range"
-msgstr "選擇範圍"
-
-#: app/Services/TransStrings.php:212
-msgid "Select Roles that requires Two-Factor Authentication"
-msgstr "選擇需要雙重認證的角色"
-
-#: app/Services/TransStrings.php:214
-msgid "Send Digest Email Report Summary"
-msgstr "發送摘要電子郵件報告摘要"
-
-#: app/Services/TransStrings.php:215
-msgid "Send Email notification if any of the following user roles login"
-msgstr "如果以下任何使用者角色登錄，則發送電子郵件通知"
-
-#: app/Services/SystemEmailService.php:56
-msgid ""
-"Send email notification to the old email address of the user after "
-"confirmation."
-msgstr "確認後向使用者舊電子郵件地址發送電子郵件通知。"
-
-#: app/Services/TransStrings.php:216
-msgid "Send email notification when a user get blocked"
-msgstr "在使用者被阻止時發送電子郵件通知"
-
-#: app/Services/TransStrings.php:217
-msgid "Send from email (optional)"
-msgstr "透過電子郵件發送（可選）"
-
-#: app/Services/TransStrings.php:218
-msgid "Send from name (optional)"
-msgstr "寄件者姓名（可選）"
-
-#: app/Services/SystemEmailService.php:42
-msgid ""
-"Sent to the new email addresses to confirm and validate an email address "
-"change, providing security against unauthorized modifications."
-msgstr ""
-"發送到新的電子郵件地址以確認並驗證電子郵件地址的更改，從而防止未經授"
-"權的修改。"
-
-#: app/Services/TransStrings.php:219
-msgid "Set Default"
-msgstr "設定預設值"
-
-#: app/Services/TransStrings.php:220
-msgid "Set Default Subject & Body"
-msgstr "設定預設主題和正文"
-
-#: fluent-security.php:87 app/Services/TransStrings.php:221
-msgid "Settings"
-msgstr "設定"
-
-#: app/Http/Controllers/SettingsController.php:31
-#: app/Http/Controllers/SettingsController.php:158
-#: app/Http/Controllers/SettingsController.php:178
-msgid "Settings has been updated"
-msgstr "設定已更新"
-
-#: app/Services/TransStrings.php:222
-msgid "Settings Overview"
-msgstr "設定概述"
-
-#: app/Services/TransStrings.php:223
-msgid "Setup Auto Scanning"
-msgstr "設定自動掃描"
-
-#: app/Services/TransStrings.php:224
-msgid "Show Preview"
-msgstr "顯示預覽"
-
-#. %s: Site Name
-#: app/Hooks/Handlers/TwoFaHandler.php:279
-#: app/Hooks/Handlers/MagicLoginHandler.php:244
-#: app/Hooks/Handlers/MagicLoginHandler.php:257
-#, php-format
-msgid "Sign in to %s"
-msgstr "登錄到 %s"
-
-#: app/Services/TransStrings.php:225
-msgid "Sign Up"
-msgstr "報名"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:210
-msgid "Signup"
-msgstr "註冊"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:493
-msgid "Signup with"
-msgstr "註冊"
-
-#: app/Http/Controllers/SystemEmailsController.php:60
-msgid "Site Data"
-msgstr "網站資料"
-
-#: app/Http/Controllers/SettingsController.php:322
-msgid "Site has been added successfully"
-msgstr "網站已新增成功"
-
-#: app/Http/Controllers/SettingsController.php:255
-msgid "Site has been removed successfully"
-msgstr "網站已成功刪除"
-
-#: app/Services/TransStrings.php:226
-msgid "Site Scan"
-msgstr "網站掃描"
-
-#: app/Http/Controllers/SystemEmailsController.php:63
-msgid "Site tagline"
-msgstr "網站標語"
-
-#: app/Http/Controllers/SystemEmailsController.php:62
-msgid "Site Title"
-msgstr "網站標題"
-
-#: app/Http/Controllers/SystemEmailsController.php:65
-msgid "Site URL"
-msgstr "網站網址"
-
-#: app/Services/TransStrings.php:227
-msgid "Social Login/Signup Settings"
-msgstr "社交登錄/註冊設定"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1041
-#| msgid ""
-#| "<p>Someone has requested a new password for the following account on "
-#| "WordPress:</p>"
+#: app/Hooks/Handlers/CustomAuthHandler.php
 msgid ""
 "Someone has requested a new password for the following account on WordPress:"
 msgstr "有人為 WordPress 上的以下帳戶請求了新密碼："
 
+#. %s: User's Login
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "Username: %s"
+msgstr "使用者名稱：%s"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid ""
+"If you did not request to reset your password, please ignore this email."
+msgstr "如果您沒有要求重置密碼，請忽略此電子郵件。"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Please check your email for the reset link"
+msgstr "請檢查您的電子郵件中是否有重置連結"
+
+#. %s: Form Field Label
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "%s is required"
+msgstr "%s 是必需的"
+
+#. %s: Form Field Label
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "Provided %s is not a valid email"
+msgstr "提供的 %s 不是有效的電子郵件"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Password must be at least 6 characters long"
+msgstr "密碼長度必須至少為 6 個字元。"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Username or Email Address"
+msgstr "使用者帳號或電子郵件地址"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Remember Me"
+msgstr "記住帳號"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Log In"
+msgstr "登入"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Too many requests. Please try again later"
+msgstr "請求太多。請稍後重試"
+
 #. %s: Site Name
-#: app/Hooks/Handlers/TwoFaHandler.php:263
+#: app/Hooks/Handlers/CustomAuthHandler.php
 #, php-format
-msgid ""
-"Someone requested to login to %s and here is the Login code that you can use "
-"in the login form"
-msgstr "有人請求登錄 %s，這是您可以在登錄表單中使用的登錄代碼"
+msgid "Your registration verification code for %s"
+msgstr "您的 %s 註冊驗證碼"
 
-#: app/Services/GoogleAuthService.php:76
-msgid ""
-"Sorry! Invalid token audience for google authentication. Please try again"
-msgstr "抱歉！ Google 驗證的令牌受眾無效。請重試。"
-
-#: app/Services/TransStrings.php:228
-msgid "Sorry! Settings could not be loaded. Please reload the page"
-msgstr "抱歉！無法載入設定。請重新載入頁面"
-
-#: app/Services/TransStrings.php:229
-msgid "Sorry! Settings could not be loaded. Please reload the page."
-msgstr "抱歉！無法載入設定。請重新載入頁面。"
-
-#: app/Services/GoogleAuthService.php:103
-msgid ""
-"Sorry! There has an error when fetching data for google authentication. "
-"Please try again"
-msgstr "不好意思！獲取用於google身份驗證的資料時出錯。請重試"
-
-#: app/Services/GoogleAuthService.php:46
-msgid ""
-"Sorry! There has an error when fetching token for google authentication. "
-"Please try again"
-msgstr "不好意思！獲取用於google身份驗證的令牌時出錯。請重試"
-
-#: app/Services/FacebookAuthService.php:90
-msgid ""
-"Sorry! There was an error when fetching data for Facebook authentication. "
-"Please try again"
-msgstr "抱歉！取得 Facebook 身分驗證資料時發生錯誤。請重試"
-
-#: app/Services/FacebookAuthService.php:50
-msgid ""
-"Sorry! There was an error when fetching token for Facebook authentication. "
-"Please try again"
-msgstr "抱歉！取得 Facebook 驗證令牌時發生錯誤。請重試"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:312
-msgid "Sorry! we could not authenticate you via Facebook"
-msgstr "抱歉！我們無法透過 Facebook 驗證您的身分！"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:174
-msgid "Sorry! we could not authenticate you via github"
-msgstr "不好意思！我們無法透過 GitHub 對您進行身份驗證"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:242
-msgid "Sorry! we could not authenticate you via google"
-msgstr "不好意思！我們無法透過Google對您進行身份驗證"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:335
-msgid "Sorry! we could not find your valid email from Facebook API"
-msgstr "抱歉！我們無法從 Facebook API 找到您的有效電子郵件地址"
-
-#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:133
-#: app/Hooks/Handlers/SocialAuthHandler.php:265
-msgid "Sorry! we could not find your valid email from Google API"
-msgstr "不好意思！我們無法從Google API找到您的有效電子郵件"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:192
-msgid "Sorry! we could not find your valid email via github"
-msgstr "不好意思！我們無法透過 GitHub 找到您的有效電子郵件"
-
-#: app/Services/TransStrings.php:230
-msgid "Sorry! we could not load this preview"
-msgstr "抱歉！我們無法載入此預覽"
-
-#: app/Http/Controllers/SecurityScanController.php:255
-msgid "Sorry, we could not compare the changes via Github API."
-msgstr "抱歉，我們無法透過 Github API 比較更改。"
-
-#: app/Hooks/Handlers/MagicLoginHandler.php:220
-msgid "Sorry, You can not login via magic url. Please use regular login form"
-msgstr "抱歉，您無法透過神奇的 url 登錄。請使用常規登錄表格"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:195
-msgid "Sorry, You can not use this verification method"
-msgstr "抱歉，您不能使用此驗證方法"
-
-#: app/Http/Controllers/SettingsController.php:212
-msgid "Sorry, you can only upload JPG, PNG, GIF, WebP, BMP or SVG files."
-msgstr "抱歉，您只能上傳 JPG、PNG、GIF、WebP、BMP 或 SVG 檔案。"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:201
-msgid "Sorry, your login code has been expired. Please try to login again"
-msgstr "抱歉，您的登錄代碼已過期。請再次嘗試登錄"
-
-#: app/Services/TransStrings.php:232
-msgid "Start Scan for WP Core Files"
-msgstr "開始掃描 WP Core 文件"
-
-#: app/Services/TransStrings.php:231
-msgid "Start Scan Your Site"
-msgstr "開始掃描您的網站"
-
-#: app/Services/TransStrings.php:233
-msgid "Status"
-msgstr "狀態"
-
-#: app/Services/TransStrings.php:234
-msgid "Subject:"
-msgstr "主題："
-
-#: app/Hooks/Handlers/AdminMenuHandler.php:143
-msgid "Successful"
-msgstr "成功的"
-
-#: app/Http/Controllers/LogsController.php:110
-#: app/Hooks/Handlers/BasicTasksHandler.php:205
-msgid "Successful Logins"
-msgstr "成功登錄"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:907
-msgid "Successfully registered to the site."
-msgstr "已成功註冊到網站。"
-
-#. Description of the plugin
-msgid ""
-"Super Simple Login / Signup Security and Social Login Plugin for WordPress"
-msgstr "WordPress 的超級簡單登錄/註冊安全和社交登錄外掛程式"
-
-#: app/Services/TransStrings.php:235
-msgid "System Default"
-msgstr "系統預設"
-
-#: app/Services/TransStrings.php:236
-msgid "System Emails"
-msgstr "系統電子郵件"
-
-#: app/Services/TransStrings.php:237
-msgid "System Emails send to Site Admin"
-msgstr "系統電子郵件發送給網站管理員"
-
-#: app/Services/TransStrings.php:238
-msgid "System Emails send to User"
-msgstr "系統電子郵件發送給使用者"
-
-#: app/Services/TransStrings.php:239
-msgid "Template Settings"
-msgstr "範本設定"
-
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:207
-msgid "terms and conditions."
-msgstr "條款和條件。"
-
-#: app/Services/TransStrings.php:240
-msgid "Text Color"
-msgstr "文字顏色"
-
-#. %s: Plugin Name
-#: app/Hooks/Handlers/BasicTasksHandler.php:146
+#. %s: First Name
+#. %s: User's Display Name
+#. %s: user's display name
+#: app/Hooks/Handlers/CustomAuthHandler.php app/Hooks/Handlers/TwoFaHandler.php
+#: app/Hooks/Handlers/MagicLoginHandler.php
 #, php-format
-msgid ""
-"Thank you for installing %s Plugin. Please configure the security settings "
-"to enable enhanced security of your site"
-msgstr "感謝您安裝 %s 外掛程式。請設定安全設定以啟用網站的增強安全性"
+msgid "Hello %s,"
+msgstr "你好 %s，"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1273
+#: app/Hooks/Handlers/CustomAuthHandler.php
 msgid ""
 "Thank you for registering with us! To complete the setup of your account, "
 "please enter the verification code below on the registration page."
 msgstr "感謝您註冊！要完成帳戶設定，請在註冊頁面上輸入下面的驗證碼。"
 
-#: app/Services/TransStrings.php:242
-msgid "The button background color of the form"
-msgstr "表單按鈕的背景顏色"
+#. %s: Verification code
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid "Verification Code: %s"
+msgstr "驗證碼：%s"
 
-#: app/Services/TransStrings.php:243
-msgid "The button text color of the form"
-msgstr "表單按鈕文字顏色"
-
-#: app/Services/TransStrings.php:241
-msgid "The Last Step!"
-msgstr "最後一步！"
-
-#: app/Services/TransStrings.php:244
-msgid "The main background color of the form"
-msgstr "表單的主背景顏色"
-
-#: app/Services/TransStrings.php:245
-msgid "The text color of the form"
-msgstr "表單的文字顏色"
-
-#: app/Services/TransStrings.php:246
-msgid "The title color of the form"
-msgstr "表單標題顏色"
-
-#: app/Services/TransStrings.php:284
-msgid "then"
-msgstr "然後"
-
-#: app/Hooks/Handlers/TwoFaHandler.php:243
-msgid "There has an error when log you in. Please try to login again"
-msgstr "登錄時出錯。請再次嘗試登錄"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1277
+#: app/Hooks/Handlers/CustomAuthHandler.php
 msgid ""
 "This code is valid for 10 minutes and is meant to ensure the security of "
 "your account. If you did not initiate this request, please ignore this email."
@@ -1951,85 +580,1410 @@ msgstr ""
 "此代碼的有效期為10分鐘，旨在確保您帳戶的安全。如果此請求不是由您發起的，請忽"
 "略此電子郵件。"
 
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Activate your account"
+msgstr "啟動您的帳戶"
+
+#. %s: Email
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#, php-format
+msgid ""
+"A verification code has been sent to %s. Please provide the code below: "
+msgstr "驗證碼已發送至 %s。請提供以下驗證碼："
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Your Email/Username"
+msgstr "您的電子郵件/英文使用者名稱"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Continue"
+msgstr "繼續"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Verification Code"
+msgstr "驗證碼"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "2FA Code"
+msgstr "2FA代碼"
+
+#: app/Hooks/Handlers/CustomAuthHandler.php
+msgid "Complete Signup"
+msgstr "完成註冊"
+
+#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php
+msgid "You are already logged in."
+msgstr "您已登入。"
+
+#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid ""
+"Your Google email address does not match with your current account email "
+"address. Please use the same email address"
+msgstr ""
+"您的 Google 電子郵件地址與您目前的帳戶電子郵件位址不一致。請使用相同的電子郵"
+"件位址"
+
+#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not find your valid email from Google API"
+msgstr "不好意思！我們無法從Google API找到您的有效電子郵件"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "FluentAuth Settings"
+msgstr "FluentAuth 設定"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Services/TransStrings.php
+msgid "FluentAuth"
+msgstr "FluentAuth 函數"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Services/TransStrings.php
+msgid "Logs"
+msgstr "系統記錄"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Security Settings"
+msgstr "安全設定"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Services/TransStrings.php
+msgid "Login/Signup Forms"
+msgstr "登錄/註冊表單"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Services/TransStrings.php
+msgid "Login Redirects"
+msgstr "登錄重定向"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Customize WP Emails"
+msgstr "自訂WP電子郵件"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php app/Services/TransStrings.php
+msgid "Security Scans"
+msgstr "安全掃描"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Failed"
+msgstr "失敗"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Blocked"
+msgstr "封鎖"
+
+#: app/Hooks/Handlers/AdminMenuHandler.php
+msgid "Successful"
+msgstr "成功的"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Provide Login Code"
+msgstr "提供登入碼"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Please provide a valid login code"
+msgstr "請提供有效的登錄代碼"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Your provided code or url is not valid"
+msgstr "您提供的代碼或 URL 無效"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Your provided code is not valid. Please try again"
+msgstr "您提供的代碼無效。請重試"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Sorry, You can not use this verification method"
+msgstr "抱歉，您不能使用此驗證方法"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Sorry, your login code has been expired. Please try to login again"
+msgstr "抱歉，您的登錄代碼已過期。請再次嘗試登錄"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "There has an error when log you in. Please try to login again"
+msgstr "登錄時出錯。請再次嘗試登錄"
+
+#. %1$1s: Site Name, %2$d: verification code
+#: app/Hooks/Handlers/TwoFaHandler.php
+#, php-format
+msgid "Your Login code for %1$1s - %2$d"
+msgstr "您的 %1s 登入碼 - %d"
+
+#. %s: Site Name
+#: app/Hooks/Handlers/TwoFaHandler.php
+#, php-format
+msgid ""
+"Someone requested to login to %s and here is the Login code that you can use "
+"in the login form"
+msgstr "有人請求登錄 %s，這是您可以在登錄表單中使用的登錄代碼"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Your Login Code: "
+msgstr "登入代碼："
+
 #. %d: Minute
-#: app/Hooks/Handlers/TwoFaHandler.php:267
+#: app/Hooks/Handlers/TwoFaHandler.php
 msgid "This code will expire in %d minutes and can only be used once."
 msgstr "此代碼將在 %d 分鐘後過期，並且只能使用一次。"
 
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "You can also login by clicking the following button"
+msgstr "您也可以點擊以下按鈕登入"
+
+#. %s: Site Name
+#: app/Hooks/Handlers/TwoFaHandler.php app/Hooks/Handlers/MagicLoginHandler.php
+#, php-format
+msgid "Sign in to %s"
+msgstr "登錄到 %s"
+
+#: app/Hooks/Handlers/TwoFaHandler.php app/Hooks/Handlers/MagicLoginHandler.php
+msgid "If you did not make this request, you can safely ignore this email."
+msgstr "如果您未提出此請求，則可以放心地忽略此電子郵件。"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid ""
+"Please check your email inbox and get the 2 factor Authentication code and "
+"Provide here to login"
+msgstr "請檢查您的電子郵件收件匣並獲取 2 因素身份驗證代碼，並在此處提供以登錄"
+
+#: app/Hooks/Handlers/TwoFaHandler.php app/Services/SystemEmailService.php
+msgid "Two-Factor Authentication Code"
+msgstr "雙重驗證碼"
+
+#: app/Hooks/Handlers/TwoFaHandler.php
+msgid "Login Code"
+msgstr "登錄代碼"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not authenticate you via github"
+msgstr "不好意思！我們無法透過 GitHub 對您進行身份驗證"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid ""
+"Your Github email address does not match with your current account email "
+"address. Please use the same email address"
+msgstr ""
+"您的 Github 電子郵件地址與您當前的帳戶電子郵件位址不一致。請使用相同的電子郵"
+"件位址"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not find your valid email via github"
+msgstr "不好意思！我們無法透過 GitHub 找到您的有效電子郵件"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not authenticate you via google"
+msgstr "不好意思！我們無法透過Google對您進行身份驗證"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not authenticate you via Facebook"
+msgstr "抱歉！我們無法透過 Facebook 驗證您的身分！"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid ""
+"Your Facebook email address does not match with your current account email "
+"address. Please use the same email address"
+msgstr ""
+"您的 Facebook 電子郵件地址與您目前的帳戶電子郵件地址不符。請使用相同的電子郵"
+"件地址"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Sorry! we could not find your valid email from Facebook API"
+msgstr "抱歉！我們無法從 Facebook API 找到您的有效電子郵件地址"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Login with"
+msgstr "使用以下方式登入"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+#, php-format
+msgid "%s Google"
+msgstr "%s Google"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+#, php-format
+msgid "%s Github"
+msgstr "%s Github"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+#, php-format
+msgid "%s Facebook"
+msgstr "%s Facebook"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Signup with"
+msgstr "註冊"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Login or Signup"
+msgstr "登錄或註冊"
+
+#: app/Hooks/Handlers/SocialAuthHandler.php
+msgid "Connect with"
+msgstr "聯繫"
+
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid ""
+"You do not have access to list users. Restriction added from fluent auth "
+"plugin"
+msgstr "您沒有權限列出使用者。此限制由 Fluent Auth 外掛新增。"
+
+#. %s: Plugin Name
+#: app/Hooks/Handlers/BasicTasksHandler.php
+#, php-format
+msgid ""
+"Thank you for installing %s Plugin. Please configure the security settings "
+"to enable enhanced security of your site"
+msgstr "感謝您安裝 %s 外掛程式。請設定安全設定以啟用網站的增強安全性"
+
+#: app/Hooks/Handlers/BasicTasksHandler.php
+msgid "Configure Fluent Auth"
+msgstr "設定 Fluent Auth"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Please provide username / email to get magic login link"
+msgstr "請提供用帳號/電子郵件以獲得魔術登入連結"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Please Wait..."
+msgstr "請稍等..."
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Login via URL is not activated"
+msgstr "透過 URL 登錄未啟動"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Nonce Verification failed. Please try again"
+msgstr "Nonce 驗證失敗。請重試"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Sorry, You can not login via magic url. Please use regular login form"
+msgstr "抱歉，您無法透過神奇的 url 登錄。請使用常規登錄表格"
+
+#. %s: Site Name
+#: app/Hooks/Handlers/MagicLoginHandler.php
+#, php-format
+msgid "Click the link below to sign in to your %s account"
+msgstr "按下下面的連結登錄您的 %s 帳戶"
+
+#. %d: Minute
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "This link will expire in %d minutes and can only be used once."
+msgstr "此連結將在 %d 分鐘後過期，並且只能使用一次。"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid ""
+"If the button above does not work, paste this link into your web browser:"
+msgstr "如果上面的按鈕不起作用，請將此連結粘貼到您的 Web 瀏覽器中："
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid ""
+"We just emailed a login link to your registered email. Click the link to "
+"sign in."
+msgstr "我們剛剛以電子郵件傳送登入連結至您的註冊信箱。點選連結即可登入。"
+
+#. %s: User Email
+#: app/Hooks/Handlers/MagicLoginHandler.php
+#, php-format
+msgid "We just emailed a magic link to %s. Click the link to sign in."
+msgstr "我們剛剛透過電子郵件向 %s 發送了一個神奇的連結。按兩下連結以登錄。"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Check your inbox"
+msgstr "檢查您的收件匣"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Or"
+msgstr "或"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Login Via Magic URL"
+msgstr "透過魔術 URL 登錄"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid ""
+"Enter the email address or username associated with your account, and we'll "
+"send a magic link to your inbox."
+msgstr ""
+"輸入與您的帳戶關聯的電子郵件地址或使用者名，我們將向您的收件匣發送一個神奇的"
+"連結。"
+
+#: app/Hooks/Handlers/MagicLoginHandler.php
+msgid "Use Regular Login form"
+msgstr "使用常規登錄表單"
+
 #. %s: Site URL
-#: app/Views/notification.php:146
+#: app/Views/notification.php
 #, php-format
 msgid "This email has been sent from FluentAuth Security Plugin. Site: %s"
 msgstr "這封電子郵件是從 FluentAuth 安全外掛發送的。網站：%s"
 
-#: app/Services/TransStrings.php:248
+#: app/Services/FacebookAuthService.php
 msgid ""
-"This email notification is disabled. So no email notification will be sent "
-"for this event."
+"Sorry! There was an error when fetching token for Facebook authentication. "
+"Please try again"
+msgstr "抱歉！取得 Facebook 驗證令牌時發生錯誤。請重試"
+
+#: app/Services/FacebookAuthService.php
+msgid ""
+"Sorry! There was an error when fetching data for Facebook authentication. "
+"Please try again"
+msgstr "抱歉！取得 Facebook 身分驗證資料時發生錯誤。請重試"
+
+#: app/Services/AuthService.php
+msgid "User registration is disabled"
+msgstr "使用者註冊已停用"
+
+#: app/Services/AuthService.php
+msgid "User not found"
+msgstr "找不到使用者"
+
+#: app/Services/AuthService.php
+msgid ""
+"<strong>Error</strong>: Could not register you. Please contact the site "
+"admin!"
+msgstr "<strong>錯誤</strong>：無法註冊您。請聯繫網站管理員！"
+
+#: app/Services/AuthService.php
+msgid "<strong>Error</strong>: Please enter a username."
+msgstr "<strong>錯誤</strong>： 請輸入使用者名稱。"
+
+#: app/Services/AuthService.php
+msgid ""
+"<strong>Error</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
 msgstr ""
-"此電子郵件通知已停用。因此，不會針對此事件發送任何電子郵件通知。"
+"<strong>錯誤</strong>：此使用者名無效，因為它使用了非法字元。請輸入有效的使用"
+"者名。"
 
-#: app/Services/SystemEmailService.php:102
+#: app/Services/AuthService.php
 msgid ""
-"This email will be sent to user when a user requests to login via Magic URL."
-msgstr "當使用者透過 Magic URL 請求登入時，系統會向使用者發送此電子郵件。"
+"<strong>Error</strong>: This username is already registered. Please choose "
+"another one."
+msgstr "<strong>錯誤</strong>：此使用者名已註冊。請選擇另一個。"
 
-#: app/Services/TransStrings.php:273
+#: app/Services/AuthService.php
+msgid "<strong>Error</strong>: Sorry, that username is not allowed."
+msgstr "<strong>錯誤</strong>：抱歉，不允許使用該使用者名。"
+
+#: app/Services/AuthService.php
+msgid "<strong>Error</strong>: Please type your email address."
+msgstr "<strong>錯誤</strong>： 請鍵入您的電子郵件位址。"
+
+#: app/Services/AuthService.php
+msgid "<strong>Error</strong>: The email address is not correct."
+msgstr "<strong>錯誤</strong>：電子郵件地址不正確。"
+
+#: app/Services/AuthService.php
 msgid ""
-"This email will use the system default content. If you want to customize the "
-"email subject and body please switch to Custimized Content."
+"<strong>Error:</strong> This email address is already registered. Please "
+"login or try reset password"
+msgstr "<strong>錯誤：</strong>此電子郵件地址已註冊。請登錄或嘗試重置密碼"
+
+#: app/Services/AuthService.php
+msgid ""
+"Please provide a valid vefification code that sent to your email address"
+msgstr "請提供發送到您的電子郵件位址的有效驗證碼"
+
+#: app/Services/AuthService.php
+msgid "Your verification code has beeen expired. Please try again"
+msgstr "您的驗證碼已過期。請重試"
+
+#: app/Services/GoogleAuthService.php
+msgid ""
+"Sorry! There has an error when fetching token for google authentication. "
+"Please try again"
+msgstr "不好意思！獲取用於google身份驗證的令牌時出錯。請重試"
+
+#: app/Services/GoogleAuthService.php
+msgid ""
+"Sorry! Invalid token audience for google authentication. Please try again"
+msgstr "抱歉！ Google 驗證的令牌受眾無效。請重試。"
+
+#: app/Services/GoogleAuthService.php
+msgid ""
+"Sorry! There has an error when fetching data for google authentication. "
+"Please try again"
+msgstr "不好意思！獲取用於google身份驗證的資料時出錯。請重試"
+
+#: app/Services/GithubAuthService.php
+msgid "API Error when authenticate via github"
+msgstr "透過 github 進行身份驗證時出現 API 錯誤"
+
+#: app/Services/TransStrings.php
+msgid "Action"
+msgstr "行動"
+
+#: app/Services/TransStrings.php
+msgid "Actions"
+msgstr "行動"
+
+#: app/Services/TransStrings.php
+msgid "Add Rule"
+msgstr "新增規則"
+
+#: app/Services/TransStrings.php
+msgid "Add to Ignore List"
+msgstr "新增到忽略列表"
+
+#: app/Services/TransStrings.php
+msgid "Advanced Redirect Rules"
+msgstr "高級重定向規則"
+
+#: app/Services/TransStrings.php
+msgid "All"
+msgstr "都"
+
+#: app/Services/TransStrings.php
+msgid "All Time"
+msgstr "所有時間"
+
+#: app/Services/TransStrings.php
+msgid "Apply recommended settings"
+msgstr "應用建議的設定"
+
+#: app/Services/TransStrings.php
+msgid "Are you sure to delete all the logs?"
+msgstr "您確定要刪除所有紀錄嗎？"
+
+#: app/Services/TransStrings.php
+msgid "Are you sure you want to reset the ignored files and folders?"
+msgstr "您確定要重置忽略的檔案和資料夾嗎？"
+
+#: app/Services/TransStrings.php
+msgid "Automatically delete logs older than (in days)"
+msgstr "自動刪除早於以下時間的紀錄（以天為單位）"
+
+#: app/Services/TransStrings.php
+msgid "Back"
+msgstr "後退"
+
+#: app/Services/TransStrings.php
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: app/Services/TransStrings.php
+msgid "Background Image"
+msgstr "背景影像"
+
+#: app/Services/TransStrings.php
+msgid "Banner"
+msgstr "橫幅"
+
+#: app/Services/TransStrings.php
+msgid "Banner Settings"
+msgstr "橫幅設定"
+
+#: app/Services/TransStrings.php
+msgid "Body Background Color"
+msgstr "正文背景顏色"
+
+#: app/Services/TransStrings.php
+msgid "Border Radius"
+msgstr "邊界半徑"
+
+#: app/Services/TransStrings.php
+msgid "Browser"
+msgstr "瀏覽器"
+
+#: app/Services/TransStrings.php
+msgid "Button"
+msgstr "按鈕"
+
+#: app/Services/TransStrings.php
+msgid "Button Background"
+msgstr "按鈕背景"
+
+#: app/Services/TransStrings.php
+msgid "Button Preview"
+msgstr "按鈕預覽"
+
+#: app/Services/TransStrings.php
+msgid "Button Text"
+msgstr "按鈕文字"
+
+#: app/Services/TransStrings.php
+msgid "Button Text Color"
+msgstr "按鈕文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "Button URL"
+msgstr "按鈕網址"
+
+#: app/Services/TransStrings.php
+msgid "Cancel"
+msgstr "取消"
+
+#: app/Services/TransStrings.php
+msgid "Close"
+msgstr "關閉"
+
+#: app/Services/TransStrings.php
+msgid "Configure the appearance and behavior of your login form."
+msgstr "設定登入表單的外觀和行為。"
+
+#: app/Services/TransStrings.php
+msgid "Configure the appearance and behavior of your signup form."
+msgstr "設定註冊表單的外觀和行為。"
+
+#: app/Services/TransStrings.php
+msgid "Content"
+msgstr "內容"
+
+#: app/Services/TransStrings.php
+msgid "Content Background Color"
+msgstr "內容背景顏色"
+
+#: app/Services/TransStrings.php
+msgid "Content Text Color"
+msgstr "內容文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "Continue & Set API Key"
+msgstr "繼續並設定 API 金鑰"
+
+#: app/Services/TransStrings.php
+msgid "Core Security Settings"
+msgstr "核心安全設定"
+
+#: app/Services/TransStrings.php
+msgid "Credential Storage Method"
+msgstr "憑證儲存方式"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Custimize your default system emails sent by WordPress. Make it beautiful, "
+"use your own contents."
+msgstr "自訂 WordPress 發送的預設系統電子郵件。讓它更美觀，使用您自己的內容。"
+
+#: app/Services/TransStrings.php
+msgid "Customize Default WordPress System Emails"
+msgstr "自訂預設 WordPress 系統電子郵件"
+
+#: app/Services/TransStrings.php
+msgid "Customize Login"
+msgstr "自訂登入"
+
+#: app/Services/TransStrings.php
+msgid "Customize Sign Up"
+msgstr "自訂註冊"
+
+#: app/Services/TransStrings.php
+msgid "Customize Your Email Template Design"
+msgstr "自訂您的電子郵件範本設計"
+
+#: app/Services/TransStrings.php
+msgid "Customized Content"
+msgstr "客製化內容"
+
+#: app/Services/TransStrings.php
+msgid "Daily"
+msgstr "日常的"
+
+#: app/Services/TransStrings.php
+msgid "Database"
+msgstr "資料庫"
+
+#: app/Services/TransStrings.php
+msgid "Date"
+msgstr "日期"
+
+#: app/Services/TransStrings.php
+msgid "Default Login Redirect URL"
+msgstr "預設登入重新導向 URL"
+
+#: app/Services/TransStrings.php
+msgid "Default Logout Redirect URL"
+msgstr "預設註銷重定向 URL"
+
+#: app/Services/TransStrings.php
+msgid "Default content has been set successfully."
+msgstr "預設內容已成功設定。"
+
+#: app/Services/TransStrings.php
+msgid "Delete All Logs"
+msgstr "刪除所有紀錄"
+
+#: app/Services/TransStrings.php
+msgid "Description"
+msgstr "描述"
+
+#: app/Services/TransStrings.php
+msgid "Design"
+msgstr "設計"
+
+#: app/Services/TransStrings.php
+msgid "Design Your Button"
+msgstr "設計你的按鈕"
+
+#: app/Services/TransStrings.php
+msgid "Disable App Login (Rest API) for Remote Access. (Recommended: Disable)"
+msgstr "禁用 App Login （Rest API） 以進行遠端訪問。（建議：禁用）"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Disable Magic Login for specific user roles (Leave blank to enable magic "
+"login for all users)"
+msgstr "為特定使用者角色關閉 Magic Login（留空可為所有使用者啟用 Magic Login）"
+
+#: app/Services/TransStrings.php
+msgid "Disable Public User Indexing"
+msgstr "禁用公共使用者索引"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Disable REST Endpoint for wp users query for public (Recommended: Disable)"
+msgstr "為公共 wp 使用者查詢關閉 REST 端點（建議：禁用）"
+
+#: app/Services/TransStrings.php
+msgid "Disable Rest Remote App Login"
+msgstr "禁用 Rest 遠端應用程式登錄"
+
+#: app/Services/TransStrings.php
+msgid "Disable XML-RPC (Most of the sites don't need XMLRPC)"
+msgstr "關閉 XML-RPC（大多數網站不需要 XMLRPC）"
+
+#: app/Services/TransStrings.php
+msgid "Disable XML-RPC Requests"
+msgstr "禁用 XML-RPC 請求"
+
+#: app/Services/TransStrings.php
+#, php-format
+msgid "Disable admin bar and %s access for selected user roles."
+msgstr "停用管理列和選定使用者角色的 %s 存取權。"
+
+#: app/Services/TransStrings.php
+msgid "Disable/Change Auto Scanning"
+msgstr "禁用/更改自動掃描"
+
+#: app/Services/TransStrings.php
+msgid "Disabled"
+msgstr "已停用"
+
+#: app/Services/TransStrings.php
+msgid "Do not send digest email summary"
+msgstr "不發送摘要電子郵件摘要"
+
+#: app/Services/TransStrings.php
+msgid "Edit"
+msgstr "編輯"
+
+#: app/Services/TransStrings.php
+msgid "Email Body"
+msgstr "電子郵件正文"
+
+#: app/Services/TransStrings.php
+msgid "Email Content Status"
+msgstr "電子郵件內容狀態"
+
+#: app/Services/TransStrings.php
+msgid "Email Subject"
+msgstr "電子郵件主題"
+
+#: app/Services/TransStrings.php
+msgid "Enable Auto Scanning"
+msgstr "啟用自動掃描"
+
+#: app/Services/TransStrings.php
+msgid "Enable Custom Login / Signup Shortcodes"
+msgstr "啟用自訂登錄/註冊短代碼"
+
+#: app/Services/TransStrings.php
+msgid "Enable Custom Login Redirects"
+msgstr "啟用自訂登錄重定向"
+
+#: app/Services/TransStrings.php
+msgid "Enable Google One-Tap Login/Signup"
+msgstr "啟用 Google 一鍵登入/註冊"
+
+#: app/Services/TransStrings.php
+msgid "Enable Login Security and Login Limit (recommended)"
+msgstr "開啟登入安全性和登入限制（推薦）"
+
+#: app/Services/TransStrings.php
+msgid "Enable Login with Facebook"
+msgstr "啟用 Facebook 登入"
+
+#: app/Services/TransStrings.php
+msgid "Enable Login with Github"
+msgstr "啟用 Login with Github"
+
+#: app/Services/TransStrings.php
+msgid "Enable Login with Google"
+msgstr "啟用Login with Google"
+
+#: app/Services/TransStrings.php
+msgid "Enable Magic Login (User can login via url sent to email)"
+msgstr "啟用魔術登入（使用者可以透過傳送到電子郵件的 URL 登入）"
+
+#: app/Services/TransStrings.php
+msgid "Enable Social Login / Signup"
+msgstr "啟用社交登錄/註冊"
+
+#: app/Services/TransStrings.php
+msgid "Enable Two-Factor Authentication via Email"
+msgstr "透過電子郵件啟用雙重認證"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Enable auto-scanning of your Core WordPress files and get emails if there "
+"has any un-authorized file changes."
 msgstr ""
-"此電子郵件將使用系統預設內容。如果您想自訂電子郵件主題和正文，請切換到「自訂"
-"內容」。"
+"啟用核心 WordPress 檔案的自動掃描，如果有任何未經授權的文件更改，則會收到電子"
+"電子郵件。"
 
-#: app/Http/Controllers/SettingsController.php:240
-#: app/Http/Controllers/SettingsController.php:331
-msgid "This feature is only available in the server mode."
-msgstr "此功能僅在伺服器模式下可用。"
+#: app/Services/TransStrings.php
+msgid "Enabled"
+msgstr "已啟用"
 
-#: app/Http/Controllers/SecurityScanController.php:199
-msgid "This file could not be viewed for security reason."
-msgstr "由於安全原因，無法查看此文件。"
+#: app/Services/TransStrings.php
+msgid "Enabled for all user roles"
+msgstr "已為所有使用者角色啟用"
 
-#: app/Http/Controllers/SecurityScanController.php:217
-#: app/Http/Controllers/SecurityScanController.php:223
-msgid "This file could not be viewed."
-msgstr "無法查看該文件。"
+#: app/Services/TransStrings.php
+msgid ""
+"Ensure your WordPress core files remain secure by detecting any unauthorized "
+"changes or tampering"
+msgstr "透過偵測任何未經授權的變更或竄改，確保您的 WordPress 核心檔案保持安全"
 
-#: app/Http/Controllers/SecurityScanController.php:235
-msgid "This file is not readable."
-msgstr "該文件不可讀。"
+#: app/Services/TransStrings.php
+msgid "Enter email address"
+msgstr "輸入電子郵件地址"
 
-#: app/Http/Controllers/SecurityScanController.php:230
-msgid "This file is too large to be viewed."
-msgstr "該文件太大，無法查看。"
+#: app/Services/TransStrings.php
+msgid "Enter from name"
+msgstr "輸入姓名"
 
-#. %d: Minute
-#: app/Hooks/Handlers/MagicLoginHandler.php:252
-msgid "This link will expire in %d minutes and can only be used once."
-msgstr "此連結將在 %d 分鐘後過期，並且只能使用一次。"
+#: app/Services/TransStrings.php
+msgid "Enter reply email address"
+msgstr "輸入回覆電子郵件地址"
 
-#: app/Services/TransStrings.php:247
+#: app/Services/TransStrings.php
+msgid "Enter reply to name"
+msgstr "輸入回覆姓名"
+
+#: app/Services/TransStrings.php
+msgid "Every Hour"
+msgstr "每小時"
+
+#: app/Services/TransStrings.php
+msgid "Extended Login Options"
+msgstr "擴充登入選項"
+
+#: app/Services/TransStrings.php
+msgid "Extra Folders in Root"
+msgstr "根目錄中的額外資料夾"
+
+#: app/Services/TransStrings.php
+msgid "Facebook App ID"
+msgstr "Facebook 應用程式 ID"
+
+#: app/Services/TransStrings.php
+msgid "Facebook App Secret"
+msgstr "Facebook 應用程式秘密"
+
+#: app/Services/TransStrings.php
+msgid ""
+"FluentAuth found some file changes but you marked them as ignored them "
+"previously"
+msgstr "FluentAuth 發現了一些文件更改，但您之前將它們標記為忽略"
+
+#: app/Services/TransStrings.php
+msgid ""
+"FluentAuth has scanned your site and found no unauthorized changes in "
+"WordPress core files."
+msgstr ""
+"FluentAuth 已掃描您的網站，未發現 WordPress 核心檔案中有未經授權的變更。"
+
+#: app/Services/TransStrings.php
+msgid "FluentSMTP"
+msgstr "FluentSMTP"
+
+#: app/Services/TransStrings.php
+msgid "Font Size"
+msgstr "字體大小"
+
+#: app/Services/TransStrings.php
+msgid "Font Style"
+msgstr "字體樣式"
+
+#: app/Services/TransStrings.php
+msgid "Footer Text"
+msgstr "頁尾文字"
+
+#: app/Services/TransStrings.php
+msgid "Footer Text Color"
+msgstr "頁尾文字顏色"
+
+#: app/Services/TransStrings.php
+msgid ""
+"For more information how to setup Facebook app for social authentication "
+"please"
+msgstr "有關如何設定 Facebook 應用程式進行社交身份驗證的更多資訊，請"
+
+#: app/Services/TransStrings.php
+msgid ""
+"For more information how to setup Github app for social authentication please"
+msgstr "有關如何設定 Github 應用程式進行社交身份驗證的更多資訊，請"
+
+#: app/Services/TransStrings.php
+msgid ""
+"For more information how to setup google app for social authentication please"
+msgstr "有關如何設定 Google 應用程式進行社交身份驗證的更多資訊，請"
+
+#: app/Services/TransStrings.php
+msgid "For multiple emails, please use comma separated values"
+msgstr "對於多個電子郵件，請使用逗號分隔值"
+
+#: app/Services/TransStrings.php
+msgid "Form"
+msgstr "形式"
+
+#: app/Services/TransStrings.php
+msgid "Form Settings"
+msgstr "表單設定"
+
+#: app/Services/TransStrings.php
+msgid "Found changes"
+msgstr "發現變化"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Full Authentication Flow ShortCode (includes Login Form, Registration Form "
+"and Password Reset Form)"
+msgstr "完整身份驗證流程短代碼（包括登錄表單、註冊表和密碼重置表單）"
+
+#: app/Services/TransStrings.php
+msgid "Github Client ID"
+msgstr "Github 使用者端 ID"
+
+#: app/Services/TransStrings.php
+msgid "Github Client Secret"
+msgstr "Github 使用者端金鑰"
+
+#: app/Services/TransStrings.php
+msgid "Go to FluentSMTP"
+msgstr "前往 FluentSMTP"
+
+#: app/Services/TransStrings.php
+msgid "Go to Settings"
+msgstr "前往“設定”"
+
+#: app/Services/TransStrings.php
+msgid "Google Client ID"
+msgstr "Google 使用者端 ID"
+
+#: app/Services/TransStrings.php
+msgid "Google Client Secret"
+msgstr "Google 使用者端金鑰"
+
+#: app/Services/TransStrings.php
+#, php-format
+msgid "Hello %s, view your security config and recent login activities"
+msgstr "您好 %s，請查看您的安全設定和最近的登入活動"
+
+#: app/Services/TransStrings.php
+msgid "Hide Preview"
+msgstr "隱藏預覽"
+
+#: app/Services/TransStrings.php
+msgid "Highlight Background"
+msgstr "突出顯示背景"
+
+#: app/Services/TransStrings.php
+msgid "Highlight Text Color"
+msgstr "突出顯示文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "How many times user can try login in"
+msgstr "使用者可以嘗試登錄多少次"
+
+#: app/Services/TransStrings.php
+msgid "IP"
+msgstr "智慧財產權"
+
+#: app/Services/TransStrings.php
+#, php-format
+msgid ""
+"If a user fails to log in %1s times within %2s minutes minutes, the system "
+"will block the user for %3s minutes."
+msgstr "如果使用者在 %2s 分鐘內登入失敗 %1s 次，系統將阻止該使用者 %3s 分鐘。"
+
+#: app/Services/TransStrings.php
+msgid ""
+"If you want to change the notification email address or disable scanning "
+"service,"
+msgstr "如果您想變更通知電子郵件地址或停用掃描服務，"
+
+#: app/Services/TransStrings.php
+msgid "If you want to define customized redirect URL then use shortcode:"
+msgstr "如果您想定義自訂重定向 URL，請使用短代碼："
+
+#: app/Services/TransStrings.php
+msgid "Ignored"
+msgstr "忽略"
+
+#: app/Services/TransStrings.php
+msgid "Ignored Files & Folders"
+msgstr "忽略的文件和資料夾"
+
+#: app/Services/TransStrings.php
+msgid "Image Preview"
+msgstr "圖像預覽"
+
+#: app/Services/TransStrings.php
+msgid "Insert"
+msgstr "插入"
+
+#: app/Services/TransStrings.php
+msgid "Last 30 days"
+msgstr "過去30天"
+
+#: app/Services/TransStrings.php
+msgid "Last 7 days"
+msgstr "最近 7 天"
+
+#: app/Services/TransStrings.php
+#, php-format
+msgid "Last Scanned %s ago"
+msgstr "上次掃描時間：%s 前"
+
+#: app/Services/TransStrings.php
+msgid "Last Scanned Status"
+msgstr "上次掃描狀態"
+
+#: app/Services/TransStrings.php
+msgid "Learn More"
+msgstr "了解更多"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Let's Secure your site by checking unauthorized changes of WP Core Files"
+msgstr "讓我們透過檢查 WP Core 檔案的未經授權的變更來保護您的網站"
+
+#: app/Services/TransStrings.php
+msgid "Log Login Logs"
+msgstr "記錄登錄日誌"
+
+#: app/Services/TransStrings.php
+msgid "Login Notifications"
+msgstr "登錄通知"
+
+#: app/Services/TransStrings.php
+msgid "Login Redirect URL"
+msgstr "登入重新導向 URL"
+
+#: app/Services/TransStrings.php
+msgid "Login Redirects Settings"
+msgstr "登錄重定向設定"
+
+#: app/Services/TransStrings.php
+msgid "Login Security Settings"
+msgstr "登錄安全設定"
+
+#: app/Services/TransStrings.php
+msgid "Login Try Limit per IP address in certain defined minutes"
+msgstr "在特定定義的分鐘數內每個 IP 位址的登入嘗試限制"
+
+#: app/Services/TransStrings.php
+msgid "Login Username"
+msgstr "登錄使用者名"
+
+#: app/Services/TransStrings.php
+msgid "Login or Signup Forms Shortcodes"
+msgstr "登入或註冊表單短代碼"
+
+#: app/Services/TransStrings.php
+msgid "Login with Facebook Settings"
+msgstr "使用 Facebook 設定登入"
+
+#: app/Services/TransStrings.php
+msgid "Login with Github Settings"
+msgstr "使用 Github Settings 登錄"
+
+#: app/Services/TransStrings.php
+msgid "Login with Google Settings"
+msgstr "使用Google Settings 登錄"
+
+#: app/Services/TransStrings.php
+msgid "Login/Signup Page Customizer"
+msgstr "登入/註冊頁面定制器"
+
+#: app/Services/TransStrings.php
+msgid "Logout Redirect URL"
+msgstr "登出重定向 URL"
+
+#: app/Services/TransStrings.php
+msgid "Magic Login Form Shortcode"
+msgstr "魔術登入表單簡碼"
+
+#: app/Services/TransStrings.php
+msgid "Make magic login as primary login method"
+msgstr "將魔術登入作為主要登入方式"
+
+#: app/Services/TransStrings.php
+msgid "Media"
+msgstr "媒體"
+
+#: app/Services/TransStrings.php
+msgid "Not enough data. This section will show recent failed login attempts"
+msgstr "資料不足。此部分將顯示最近失敗的登錄嘗試"
+
+#: app/Services/TransStrings.php
+msgid "Not enough data. This section will show recent successful logins"
+msgstr "資料不足。此部分將顯示最近的成功登錄"
+
+#: app/Services/TransStrings.php
+msgid "Notification Email"
+msgstr "通知電子郵件"
+
+#: app/Services/TransStrings.php
+msgid "Notification Send to Email Address"
+msgstr "通知發送到電子郵件位址"
+
+#: app/Services/TransStrings.php
+msgid "Notification is disabled"
+msgstr "通知已禁用"
+
+#: app/Services/TransStrings.php
+msgid "Only Login Form ShortCode"
+msgstr "僅登錄表單簡碼"
+
+#: app/Services/TransStrings.php
+msgid "Only Registration Form ShortCode"
+msgstr "僅註冊表簡碼"
+
+#: app/Services/TransStrings.php
+msgid "Open Login/Signup Page Customizer"
+msgstr "開啟登入/註冊頁面定制器"
+
+#: app/Services/TransStrings.php
+msgid "Other Settings"
+msgstr "其他設定"
+
+#: app/Services/TransStrings.php
+msgid "Password Reset Form ShortCode"
+msgstr "密碼重置表單簡碼"
+
+#: app/Services/TransStrings.php
+msgid "Please Provide the Required Smartcodes"
+msgstr "請提供所需的智慧代碼"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Please add the following code in your wp-config.php file (please replace the "
+"*** with your app values)"
+msgstr ""
+"請在您的 wp-config.php 檔案中新增以下代碼（請將 *** 取代為您的應用程式值）"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Please get a free API key to enable Scheduled Scanning and get notified when "
+"FluentAuth detects file changes."
+msgstr ""
+"請取得免費的 API 金鑰以啟用計畫掃描並在 FluentAuth 偵測到文件變更時收到通知。"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Please note, If there has redirect_to query parameter in the Login Page URL, "
+"it will be used for redirection instead of these set rule."
+msgstr ""
+"請注意，如果登入頁面 URL 中包含 redirect_to 查詢參數，則會使用該參數進行重定"
+"向，而不是使用這些設定的規則。"
+
+#: app/Services/TransStrings.php
+msgid "Please provide valid API key"
+msgstr "請提供有效的 API 金鑰"
+
+#: app/Services/TransStrings.php
+msgid "Please provide valid name and email address"
+msgstr "請提供有效的姓名和電子郵件地址"
+
+#: app/Services/TransStrings.php
+msgid "Please set your Facebook app Redirect URL:"
+msgstr "請設定您的 Facebook 應用程式重新導向 URL："
+
+#: app/Services/TransStrings.php
+msgid "Please set your Github app Redirect URL:"
+msgstr "請設定您的 Github 應用程式重定向 URL："
+
+#: app/Services/TransStrings.php
+msgid "Please set your Google app Redirect URL:"
+msgstr "請設定您的 Google 應用程式重新導向網址："
+
+#: app/Services/TransStrings.php
+msgid "Plugin installed successfully!"
+msgstr "外掛安裝成功！"
+
+#: app/Services/TransStrings.php
+msgid "Preview"
+msgstr "預覽"
+
+#: app/Services/TransStrings.php
+msgid "Preview Email"
+msgstr "預覽電子郵件"
+
+#: app/Services/TransStrings.php
+msgid "Previewing Email"
+msgstr "預覽電子郵件"
+
+#: app/Services/TransStrings.php
+msgid "Provide API Key"
+msgstr "提供 API 金鑰"
+
+#: app/Services/TransStrings.php
+msgid "Recent Failed & Blocked Logins"
+msgstr "最近的失敗和阻止的登錄"
+
+#: app/Services/TransStrings.php
+msgid "Recent Successful Logins"
+msgstr "最近成功登錄"
+
+#: app/Services/TransStrings.php
+msgid "Recommended Plugin"
+msgstr "推薦外掛"
+
+#: app/Services/TransStrings.php
+msgid "Remote Auth"
+msgstr "遠端認證"
+
+#: app/Services/TransStrings.php
+msgid "Remove from Ignore List"
+msgstr "從忽略清單中刪除"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Replace Default Signup Form with Secure form with Email Verfication "
+"(Recommended: Enable)"
+msgstr "使用帶有電子郵件驗證的安全表單替換預設註冊表單（建議：啟用）"
+
+#: app/Services/TransStrings.php
+msgid "Reply to email (optional)"
+msgstr "回覆電子郵件（可選）"
+
+#: app/Services/TransStrings.php
+msgid "Reset"
+msgstr "重置"
+
+#: app/Services/TransStrings.php
+#, php-format
+msgid "Roles to disable %s access and hide admin bar"
+msgstr "停用 %s 存取並隱藏管理列的角色"
+
+#: app/Services/TransStrings.php
+msgid "Save"
+msgstr "節省"
+
+#: app/Services/TransStrings.php
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: app/Services/TransStrings.php
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: app/Services/TransStrings.php
+msgid "Scan Again"
+msgstr "再次掃描"
+
+#: app/Services/TransStrings.php
+msgid "Scan Result"
+msgstr "掃描結果"
+
+#: app/Services/TransStrings.php
+msgid "Scanner Status"
+msgstr "掃描器狀態"
+
+#: app/Services/TransStrings.php
+msgid "Scanning Interval"
+msgstr "掃描間隔"
+
+#: app/Services/TransStrings.php
+msgid "Scanning in progress. Please wait...."
+msgstr "正在掃描。請稍候...."
+
+#: app/Services/TransStrings.php
+msgid "Scheduled Scanning"
+msgstr "計劃掃描"
+
+#: app/Services/TransStrings.php
+msgid "Scheduled scanning is currently disabled"
+msgstr "計劃掃描目前已停用"
+
+#: app/Services/TransStrings.php
+msgid "Scheduled scanning is currently enabled"
+msgstr "計劃掃描目前已啟用"
+
+#: app/Services/TransStrings.php
+msgid "Search"
+msgstr "搜尋"
+
+#: app/Services/TransStrings.php
+msgid "Select Interval"
+msgstr "選擇間隔"
+
+#: app/Services/TransStrings.php
+msgid "Select Range"
+msgstr "選擇範圍"
+
+#: app/Services/TransStrings.php
+msgid "Select Roles that requires Two-Factor Authentication"
+msgstr "選擇需要雙重認證的角色"
+
+#: app/Services/TransStrings.php
+msgid "Select disable roles"
+msgstr "選擇停用角色"
+
+#: app/Services/TransStrings.php
+msgid "Send Digest Email Report Summary"
+msgstr "發送摘要電子郵件報告摘要"
+
+#: app/Services/TransStrings.php
+msgid "Send Email notification if any of the following user roles login"
+msgstr "如果以下任何使用者角色登錄，則發送電子郵件通知"
+
+#: app/Services/TransStrings.php
+msgid "Send email notification when a user get blocked"
+msgstr "在使用者被阻止時發送電子郵件通知"
+
+#: app/Services/TransStrings.php
+msgid "Send from email (optional)"
+msgstr "透過電子郵件發送（可選）"
+
+#: app/Services/TransStrings.php
+msgid "Send from name (optional)"
+msgstr "寄件者姓名（可選）"
+
+#: app/Services/TransStrings.php
+msgid "Set Default"
+msgstr "設定預設值"
+
+#: app/Services/TransStrings.php
+msgid "Set Default Subject & Body"
+msgstr "設定預設主題和正文"
+
+#: app/Services/TransStrings.php
+msgid "Settings Overview"
+msgstr "設定概述"
+
+#: app/Services/TransStrings.php
+msgid "Setup Auto Scanning"
+msgstr "設定自動掃描"
+
+#: app/Services/TransStrings.php
+msgid "Show Preview"
+msgstr "顯示預覽"
+
+#: app/Services/TransStrings.php
+msgid "Sign Up"
+msgstr "報名"
+
+#: app/Services/TransStrings.php
+msgid "Site Scan"
+msgstr "網站掃描"
+
+#: app/Services/TransStrings.php
+msgid "Social Login/Signup Settings"
+msgstr "社交登錄/註冊設定"
+
+#: app/Services/TransStrings.php
+msgid "Sorry! Settings could not be loaded. Please reload the page"
+msgstr "抱歉！無法載入設定。請重新載入頁面"
+
+#: app/Services/TransStrings.php
+msgid "Sorry! Settings could not be loaded. Please reload the page."
+msgstr "抱歉！無法載入設定。請重新載入頁面。"
+
+#: app/Services/TransStrings.php
+msgid "Sorry! we could not load this preview"
+msgstr "抱歉！我們無法載入此預覽"
+
+#: app/Services/TransStrings.php
+msgid "Start Scan Your Site"
+msgstr "開始掃描您的網站"
+
+#: app/Services/TransStrings.php
+msgid "Start Scan for WP Core Files"
+msgstr "開始掃描 WP Core 文件"
+
+#: app/Services/TransStrings.php
+msgid "Status"
+msgstr "狀態"
+
+#: app/Services/TransStrings.php
+msgid "Subject:"
+msgstr "主題："
+
+#: app/Services/TransStrings.php
+msgid "System Default"
+msgstr "系統預設"
+
+#: app/Services/TransStrings.php
+msgid "System Emails"
+msgstr "系統電子郵件"
+
+#: app/Services/TransStrings.php
+msgid "System Emails send to Site Admin"
+msgstr "系統電子郵件發送給網站管理員"
+
+#: app/Services/TransStrings.php
+msgid "System Emails send to User"
+msgstr "系統電子郵件發送給使用者"
+
+#: app/Services/TransStrings.php
+msgid "Template Settings"
+msgstr "範本設定"
+
+#: app/Services/TransStrings.php
+msgid "Text Color"
+msgstr "文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "The Last Step!"
+msgstr "最後一步！"
+
+#: app/Services/TransStrings.php
+msgid "The button background color of the form"
+msgstr "表單按鈕的背景顏色"
+
+#: app/Services/TransStrings.php
+msgid "The button text color of the form"
+msgstr "表單按鈕文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "The main background color of the form"
+msgstr "表單的主背景顏色"
+
+#: app/Services/TransStrings.php
+msgid "The text color of the form"
+msgstr "表單的文字顏色"
+
+#: app/Services/TransStrings.php
+msgid "The title color of the form"
+msgstr "表單標題顏色"
+
+#: app/Services/TransStrings.php
 msgid "This Month"
 msgstr "本月"
 
-#: app/Http/Controllers/SettingsController.php:306
-msgid "This site already exists."
-msgstr "該網站已經存在。"
+#: app/Services/TransStrings.php
+msgid ""
+"This email notification is disabled. So no email notification will be sent "
+"for this event."
+msgstr "此電子郵件通知已停用。因此，不會針對此事件發送任何電子郵件通知。"
 
-#: app/Services/TransStrings.php:249
+#: app/Services/TransStrings.php
 msgid "Time limit for login try in minutes"
 msgstr "登入嘗試的時間限制（分鐘）"
 
-#: app/Services/TransStrings.php:250
+#: app/Services/TransStrings.php
 msgid "Title"
 msgstr "標題"
 
-#: app/Services/TransStrings.php:251
+#: app/Services/TransStrings.php
 msgid "Title Color"
 msgstr "標題顏色"
 
-#: app/Services/TransStrings.php:252
+#: app/Services/TransStrings.php
 msgid ""
 "To use Google One-Tap feature, you need to add your website domain in the "
 "Authorized JavaScript origins section of your Google app settings."
@@ -2037,184 +1991,101 @@ msgstr ""
 "若要使用 Google 一鍵啟動功能，您需要在 Google 應用程式設定的「已授權 "
 "JavaScript 來源」部分新增您的網站網域。"
 
-#: app/Services/TransStrings.php:253
+#: app/Services/TransStrings.php
 msgid "To:"
 msgstr "到："
 
-#: app/Services/TransStrings.php:254
+#: app/Services/TransStrings.php
 msgid "Today"
 msgstr "今天"
 
-#: app/Hooks/Handlers/CustomAuthHandler.php:1248
-msgid "Too many requests. Please try again later"
-msgstr "請求太多。請稍後重試"
-
-#: app/Services/SystemEmailService.php:87
-msgid "Two-Factor Authentication (2FA) Code Email"
-msgstr "雙重認證 (2FA) 驗證碼電子郵件"
-
-#: app/Services/SystemEmailService.php:95
-#: app/Hooks/Handlers/TwoFaHandler.php:394
-msgid "Two-Factor Authentication Code"
-msgstr "雙重驗證碼"
-
-#: app/Services/TransStrings.php:255
+#: app/Services/TransStrings.php
 msgid "Use 0 if you do not want to delete the logs"
 msgstr "如果您不想刪除日誌，請使用 0"
 
-#: app/Services/TransStrings.php:256
+#: app/Services/TransStrings.php
 msgid "Use Customized & Modern Style for Login/Signup Page"
 msgstr "使用客製化的現代風格登入/註冊頁面"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:123
-msgid "Use Regular Login form"
-msgstr "使用常規登錄表單"
-
-#: app/Services/TransStrings.php:257
+#: app/Services/TransStrings.php
 msgid "User Agent"
 msgstr "使用者代理"
 
-#: app/Services/TransStrings.php:258
+#: app/Services/TransStrings.php
 msgid "User Capability"
 msgstr "使用者能力"
 
-#: app/Http/Controllers/SystemEmailsController.php:55
-msgid "User Data"
-msgstr "使用者資料"
-
-#: app/Services/TransStrings.php:259
+#: app/Services/TransStrings.php
 msgid "User ID"
 msgstr "使用者ID"
 
-#: app/Services/AuthService.php:121
-msgid "User not found"
-msgstr "找不到使用者"
-
-#: app/Services/SystemEmailService.php:82
-msgid "User Profile Edit URL"
-msgstr "使用者資料編輯 URL"
-
-#: app/Services/AuthService.php:33
-msgid "User registration is disabled"
-msgstr "使用者註冊已停用"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:786
-msgid "User registration is not enabled"
-msgstr "未啟用使用者註冊"
-
-#. %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:170
-#, php-format
-msgid "User registration is not enabled. <a href=\"%s\">Go to Home Page</a>"
-msgstr "未啟用使用者註冊。 <a href=\"%s\">轉到主頁</a>"
-
-#: app/Services/TransStrings.php:260
+#: app/Services/TransStrings.php
 msgid "User Role"
 msgstr "使用者角色"
 
-#: app/Http/Controllers/SystemEmailsController.php:45
-msgid "User Roles"
-msgstr "使用者角色"
-
-#: app/Services/TransStrings.php:261
-#: app/Http/Controllers/SystemEmailsController.php:44
-#: app/Hooks/Handlers/CustomAuthHandler.php:441
-#: app/Hooks/Handlers/CustomAuthHandler.php:443
-msgid "Username"
-msgstr "英文使用者名稱"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:573
-msgid "Username or Email"
-msgstr "英文使用者名稱或電子郵件"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1147
-msgid "Username or Email Address"
-msgstr "使用者帳號或電子郵件地址"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:951
-msgid "Username or email is required"
-msgstr "英文使用者名稱或電子郵件是必需的"
-
-#. %s: User's Login
-#: app/Hooks/Handlers/CustomAuthHandler.php:1043
-#, php-format
-msgid "Username: %s"
-msgstr "使用者名稱：%s"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:1303
-#| msgid "Vefication Code"
-msgid "Verification Code"
-msgstr "驗證碼"
-
-#. %s: Verification code
-#: app/Hooks/Handlers/CustomAuthHandler.php:1275
-#, php-format
-msgid "Verification Code: %s"
-msgstr "驗證碼：%s"
-
-#: app/Services/TransStrings.php:262
+#: app/Services/TransStrings.php
 msgid "View File"
 msgstr "查看文件"
 
-#: app/Hooks/Handlers/MagicLoginHandler.php:293
-msgid ""
-"We just emailed a login link to your registered email. Click the link to "
-"sign in."
-msgstr "我們剛剛以電子郵件傳送登入連結至您的註冊信箱。點選連結即可登入。"
-
-#. %s: User Email
-#: app/Hooks/Handlers/MagicLoginHandler.php:296
-#, php-format
-msgid "We just emailed a magic link to %s. Click the link to sign in."
-msgstr "我們剛剛透過電子郵件向 %s 發送了一個神奇的連結。按兩下連結以登錄。"
-
-#: app/Services/TransStrings.php:263
+#: app/Services/TransStrings.php
 msgid "We recommend to enable login logs as well as set login try limit"
 msgstr "我們建議啟用登錄日誌並設定登錄嘗試限制"
 
-#: app/Services/SystemEmailService.php:66
-msgid "Welcome email after sign-Up when the password is set by the user"
-msgstr "使用者設定密碼後註冊後收到的歡迎電子郵件"
-
-#: app/Services/TransStrings.php:264
+#: app/Services/TransStrings.php
 msgid "WordPress Core Files Integrity Check"
 msgstr "WordPress 核心檔案完整性檢查"
 
-#: app/Services/TransStrings.php:265
+#: app/Services/TransStrings.php
 msgid "Yes, Reset"
 msgstr "是的，重置"
 
-#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:77
-msgid "You are already logged in."
-msgstr "您已登入。"
+#: app/Services/TransStrings.php
+msgid ""
+"You may remove the h3 content or change it. If you want to define customized "
+"redirect URL then use shortcode:"
+msgstr "您可以刪除或變更 H3 內容。如果您想自訂重定向 URL，請使用短代碼："
 
-#. %s: Site URL
-#: app/Hooks/Handlers/CustomAuthHandler.php:88
-#: app/Hooks/Handlers/CustomAuthHandler.php:176
-#: app/Hooks/Handlers/CustomAuthHandler.php:238
-#: app/Hooks/Handlers/CustomAuthHandler.php:294
-#: app/Hooks/Handlers/CustomAuthHandler.php:325
-#, php-format
-msgid "You are already logged in. <a href=\"%s\">Go to Home Page</a>"
-msgstr "您已登錄。 <a href=\"%s\">轉到主頁</a>"
+#: app/Services/TransStrings.php
+msgid "You will get email alerts if there has any un-authorized file changes."
+msgstr "如果有任何未經授權的文件更改，您將收到電子郵件提醒。"
 
-#. %d: munites
-#: app/Hooks/Handlers/LoginSecurityHandler.php:100
-msgid "You are blocked for next %d minutes. Please try after that time"
-msgstr "您已被屏蔽，將持續 %d 分鐘。請稍後再試。"
+#: app/Services/TransStrings.php
+msgid "Your Email"
+msgstr "您的電子郵件地址"
 
-#. %d: munites
-#. %d: Minite
-#: app/Hooks/Handlers/LoginSecurityHandler.php:276
-#: app/Hooks/Handlers/MagicLoginHandler.php:190
-msgid "You are trying too much. Please try after %d minutes"
-msgstr "你嘗試得太多了。請在 %d 分鐘後嘗試"
+#: app/Services/TransStrings.php
+msgid "Your Email Subject"
+msgstr "您的電子郵件主題"
 
-#: app/Hooks/Handlers/TwoFaHandler.php:276
-msgid "You can also login by clicking the following button"
-msgstr "您也可以點擊以下按鈕登入"
+#: app/Services/TransStrings.php
+msgid "Your Name"
+msgstr "您的姓名"
 
-#: app/Services/TransStrings.php:276
+#: app/Services/TransStrings.php
+msgid ""
+"This email will use the system default content. If you want to customize the "
+"email subject and body please switch to Custimized Content."
+msgstr ""
+"此電子郵件將使用系統預設內容。如果您想自訂電子郵件主題和正文，請切換到「自訂"
+"內容」。"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Look like there has some file changes has been detected. Please review "
+"individual files and take necesarry actions."
+msgstr "似乎檢測到了一些文件更改。請檢查各個文件並採取必要的措施。"
+
+#: app/Services/TransStrings.php
+msgid ""
+"Please fill up the form and get a free API key to enable Security Scan and "
+"Automatted Notification. This API key will be used to send you email from "
+"FluentAuth Service. (You need the free API key just once)"
+msgstr ""
+"請填寫表格，即可獲得免費的 API 金鑰，用於啟用安全掃描和自動通知功能。此 API "
+"金鑰將用於接收 FluentAuth 服務發送的電子郵件。 （您只需領取一次此免費 API 金"
+"鑰）"
+
+#: app/Services/TransStrings.php
 msgid ""
 "You can scan your site to detect unauthorized changes in WordPress core "
 "files. After scanning, FluentAuth will display any security issues found."
@@ -2222,110 +2093,148 @@ msgstr ""
 "您可以掃描您的網站，以偵測 WordPress 核心檔案中是否存在未經授權的變更。掃描完"
 "成後，FluentAuth 將顯示發現的任何安全性問題。"
 
-#: app/Hooks/Handlers/BasicTasksHandler.php:130
+#: app/Services/TransStrings.php
 msgid ""
-"You do not have access to list users. Restriction added from fluent auth "
-"plugin"
-msgstr "您沒有權限列出使用者。此限制由 Fluent Auth 外掛新增。"
-
-#: app/Http/Controllers/SettingsController.php:422
-msgid "You do not have permission to install plugins"
-msgstr "您沒有安裝外掛的權限。"
-
-#: app/Services/TransStrings.php:266
-msgid ""
-"You may remove the h3 content or change it. If you want to define customized "
-"redirect URL then use shortcode:"
-msgstr "您可以刪除或變更 H3 內容。如果您想自訂重定向 URL，請使用短代碼："
-
-#: app/Services/TransStrings.php:267
-msgid "You will get email alerts if there has any un-authorized file changes."
-msgstr "如果有任何未經授權的文件更改，您將收到電子郵件提醒。"
-
-#: app/Services/TransStrings.php:268
-msgid "Your Email"
-msgstr "您的電子郵件地址"
-
-#: app/Services/TransStrings.php:269
-#: app/Hooks/Handlers/CustomAuthHandler.php:450
-#: app/Hooks/Handlers/CustomAuthHandler.php:477
-msgid "Your Email Address"
-msgstr "您的電子郵件地址"
-
-#: app/Services/TransStrings.php:270
-msgid "Your Email Subject"
-msgstr "您的電子郵件主題"
-
-#: app/Hooks/Handlers/CustomAuthHandler.php:344
-#: app/Hooks/Handlers/CustomAuthHandler.php:346
-#: app/Hooks/Handlers/MagicLoginHandler.php:103
-#: app/Hooks/Handlers/MagicLoginHandler.php:105
-msgid "Your Email/Username"
-msgstr "您的電子郵件/英文使用者名稱"
-
-#: app/Hooks/Handlers/SocialAuthHandler.php:330
-msgid ""
-"Your Facebook email address does not match with your current account email "
-"address. Please use the same email address"
+"All the file changes are marked as ignored previously. You can review the "
+"files and check if you want to keep them on ignored lists or not."
 msgstr ""
-"您的 Facebook 電子郵件地址與您目前的帳戶電子郵件地址不符。請使用相同"
-"的電子郵件地址"
+"所有文件更改之前都已標記為忽略。您可以查看這些文件，並決定是否將它們保留在忽"
+"略清單中。"
 
-#: app/Services/TransStrings.php:271
-#: app/Hooks/Handlers/LoginCustomizerHandler.php:187
-msgid "Your Full Name"
-msgstr "您的全名"
+#: app/Services/TransStrings.php
+msgid "click here"
+msgstr "點這裡"
 
-#: app/Hooks/Handlers/SocialAuthHandler.php:187
+#: app/Services/TransStrings.php
+msgid "minutes"
+msgstr "分分鐘"
+
+#: app/Services/TransStrings.php
+msgid "please click here"
+msgstr "請點這裡"
+
+#: app/Services/TransStrings.php
+msgid "read this documentation"
+msgstr "閱讀此文檔"
+
+#: app/Services/TransStrings.php
+msgid "refresh"
+msgstr "刷新"
+
+#: app/Services/TransStrings.php
+msgid "then"
+msgstr "然後"
+
+#: app/Services/SystemEmailService.php
+msgid "New User Registration Notification"
+msgstr "新使用者註冊通知"
+
+#: app/Services/SystemEmailService.php
+msgid "An essential email sent to new users upon account signup."
+msgstr "新使用者註冊帳戶時收到的重要電子郵件。"
+
+#: app/Services/SystemEmailService.php
+msgid "Password Set URL"
+msgstr "密碼設定網址"
+
+#: app/Services/SystemEmailService.php
+msgid "Password Reset Request Email"
+msgstr "密碼重設請求電子郵件"
+
+#: app/Services/SystemEmailService.php
 msgid ""
-"Your Github email address does not match with your current account email "
-"address. Please use the same email address"
+"A security-critical email sent when a user requests to reset their password, "
+"containing a unique reset link with time-limited access."
 msgstr ""
-"您的 Github 電子郵件地址與您當前的帳戶電子郵件位址不一致。請使用相同"
-"的電子郵件位址"
+"當使用者要求重設密碼時發送的安全關鍵電子郵件，其中包含具有限時存取的唯一重設"
+"連結。"
 
-#: app/Hooks/Handlers/GoogleOneTapAuthHandler.php:128
-#: app/Hooks/Handlers/SocialAuthHandler.php:260
+#: app/Services/SystemEmailService.php
+msgid "Email Address Change Confirmation"
+msgstr "電子郵件地址變更確認"
+
+#: app/Services/SystemEmailService.php
 msgid ""
-"Your Google email address does not match with your current account email "
-"address. Please use the same email address"
+"Sent to the new email addresses to confirm and validate an email address "
+"change, providing security against unauthorized modifications."
 msgstr ""
-"您的 Google 電子郵件地址與您目前的帳戶電子郵件位址不一致。請使用相同"
-"的電子郵件位址"
+"發送到新的電子郵件地址以確認並驗證電子郵件地址的更改，從而防止未經授權的修"
+"改。"
 
-#. %1$1s: Site Name, %2$d: verification code
-#: app/Hooks/Handlers/TwoFaHandler.php:257
-#, php-format
-#| msgid "Your Login code for %1s - %d"
-msgid "Your Login code for %1$1s - %2$d"
-msgstr "您的 %1s 登入碼 - %d"
+#: app/Services/SystemEmailService.php
+msgid "Confirm Email Change URL"
+msgstr "確認電子郵件更改 URL"
 
-#: app/Hooks/Handlers/TwoFaHandler.php:264
-msgid "Your Login Code: "
-msgstr "登入代碼："
+#: app/Services/SystemEmailService.php
+msgid "New Email Address"
+msgstr "新的電子郵件地址"
 
-#: app/Services/TransStrings.php:272
-msgid "Your Name"
-msgstr "您的姓名"
+#: app/Services/SystemEmailService.php
+msgid "Email Address Change Notification After Confimration"
+msgstr "確認後電子郵件地址變更通知"
 
-#: app/Hooks/Handlers/TwoFaHandler.php:187
-msgid "Your provided code is not valid. Please try again"
-msgstr "您提供的代碼無效。請重試"
+#: app/Services/SystemEmailService.php
+msgid ""
+"Send email notification to the old email address of the user after "
+"confirmation."
+msgstr "確認後向使用者舊電子郵件地址發送電子郵件通知。"
 
-#: app/Hooks/Handlers/TwoFaHandler.php:175
-msgid "Your provided code or url is not valid"
-msgstr "您提供的代碼或 URL 無效"
+#: app/Services/SystemEmailService.php
+msgid "Previous Email Address"
+msgstr "以前的電子郵件地址"
 
-#. %s: Site Name
-#: app/Hooks/Handlers/CustomAuthHandler.php:1267
-#, php-format
-msgid "Your registration verification code for %s"
-msgstr "您的 %s 註冊驗證碼"
+#: app/Services/SystemEmailService.php
+msgid "Welcome email after sign-Up when the password is set by the user"
+msgstr "使用者設定密碼後註冊後收到的歡迎電子郵件"
 
-#: app/Http/Controllers/SecurityScanController.php:44
-msgid "Your settings has been saved successfully."
-msgstr "您的設定已成功儲存。"
+#: app/Services/SystemEmailService.php
+msgid ""
+"A friendly welcome email sent to new users after registering via the "
+"FluentAuth Signup Form or when the password is set."
+msgstr ""
+"透過 FluentAuth 註冊表單註冊或設定密碼後，向新使用者發送友善的歡迎電子郵件。"
 
-#: app/Services/AuthService.php:308
-msgid "Your verification code has beeen expired. Please try again"
-msgstr "您的驗證碼已過期。請重試"
+#: app/Services/SystemEmailService.php
+msgid "An essential email sent to the admin when someone signup."
+msgstr "當有人註冊時向管理員發送一封重要電子郵件。"
+
+#: app/Services/SystemEmailService.php
+msgid "User Profile Edit URL"
+msgstr "使用者資料編輯 URL"
+
+#: app/Services/SystemEmailService.php
+msgid "Two-Factor Authentication (2FA) Code Email"
+msgstr "雙重認證 (2FA) 驗證碼電子郵件"
+
+#: app/Services/SystemEmailService.php
+msgid ""
+"An email containing a time-sensitive authentication code sent to users "
+"during the login process when Two-Factor Authentication (2FA) is enabled."
+msgstr ""
+"啟用雙重認證 (2FA) 時，系統會在登入過程中向使用者發送一封包含有時效性驗證碼的"
+"電子郵件。"
+
+#: app/Services/SystemEmailService.php
+msgid "Secure Signin URL"
+msgstr "安全登入網址"
+
+#: app/Services/SystemEmailService.php
+msgid "Login Email via Magic URL"
+msgstr "透過 Magic URL 登入電子郵件"
+
+#: app/Services/SystemEmailService.php
+msgid ""
+"This email will be sent to user when a user requests to login via Magic URL."
+msgstr "當使用者透過 Magic URL 請求登入時，系統會向使用者發送此電子郵件。"
+
+#: app/Services/IntegrityChecker/Api.php
+msgid "Invalid response from the server. Please try again"
+msgstr "伺服器回應無效。請重試"
+
+#: app/Services/IntegrityChecker/Api.php
+msgid "API ID could not be generated. Please try again"
+msgstr "無法產生 API ID。請重試"
+
+#: app/Services/IntegrityChecker/Api.php
+msgid "API Key could not be verified. Please try again"
+msgstr "無法驗證 API 金鑰。請重試"

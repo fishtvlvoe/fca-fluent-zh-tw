@@ -5,152 +5,638 @@ msgstr ""
 "Project-Id-Version: FCA Boards 1.0.0\n"
 "Report-Msgid-Bugs-To: https://fluentcommunityaddons.com/\n"
 "POT-Creation-Date: 2025-12-01 00:00:00+00:00\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2026-02-04 07:21+0000\n"
+"PO-Revision-Date: 2026-04-16 05:29+0800\n"
 "Last-Translator: Fish\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.1; wp-6.9; php-8.3.23"
+"X-Generator: auto-translate.py (polib)\n"
+"X-Loco-Version: 2.8.1; wp-6.9; php-8.3.23\n"
 
 #: fca-boards.php
 msgid "%1$s requires %2$s to be installed and activated."
 msgstr "%1$s 需要安裝並啟用 %2$s。"
 
-#: includes/Controllers/BoardController.php
-msgid "A board with this slug already exists."
-msgstr "此代稱的看板已存在。"
+#: fca-boards.php
+msgid "FCA Boards requires Fluent Community to be installed and activated."
+msgstr "FCA Boards 需要安裝並啟用 Fluent Community。"
 
-#: includes/Controllers/BoardController.php
-msgid "Board created successfully."
-msgstr "看板建立成功。"
+#: fca-boards.php
+msgid "Plugin Activation Error"
+msgstr "外掛啟用錯誤"
 
-#: includes/Controllers/BoardController.php
-msgid "Board deleted successfully."
-msgstr "看板已成功刪除。"
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "FCA Boards"
+msgstr "FCA 看板"
 
-#: includes/Controllers/BoardController.php
-msgid "Board not found."
-msgstr "找不到看板。"
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "All Boards"
+msgstr "所有看板"
 
-#: includes/Controllers/BoardController.php
-msgid "Board updated successfully."
-msgstr "看板更新成功。"
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "Add New Board"
+msgstr "新增看板"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "Add New"
+msgstr "新增"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "Edit Board"
+msgstr "編輯看板"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Are you sure you want to delete this board? This action cannot be undone."
+msgstr "確定要刪除此看板嗎？此動作無法復原。"
+
+#: includes/Core/Plugin.php
+msgid "Are you sure you want to delete this category?"
+msgstr "確定要刪除此分類嗎？"
+
+#: includes/Core/Plugin.php
+msgid "Are you sure you want to delete this tag?"
+msgstr "確定要刪除此標籤嗎？"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "An error occurred. Please try again."
+msgstr "發生錯誤，請再試一次。"
 
 #: includes/Core/Plugin.php
 msgid "Boards"
 msgstr "看板"
 
+#: includes/Core/Plugin.php includes/Core/Installer.php
+msgid "Roadmap"
+msgstr "路線圖"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+#: includes/Models/Board.php
+msgid "Submitted"
+msgstr "已提交"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+#: includes/Models/Board.php
+msgid "Under Review"
+msgstr "審核中"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+#: includes/Models/Board.php
+msgid "Planned"
+msgstr "已規劃"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+#: includes/Models/Board.php
+msgid "In Progress"
+msgstr "進行中"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+#: includes/Models/Board.php
+msgid "Completed"
+msgstr "已完成"
+
+#: includes/Core/Plugin.php
+msgid "All"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Search..."
+msgstr "搜尋..."
+
+#: includes/Core/Plugin.php
+msgid "Sort by Default"
+msgstr "依預設排序"
+
+#: includes/Core/Plugin.php
+msgid "Sort by Votes"
+msgstr "依票數排序"
+
+#: includes/Core/Plugin.php
+msgid "Sort by Date"
+msgstr "依日期排序"
+
+#: includes/Core/Plugin.php
+msgid "Submit Idea"
+msgstr "提交點子"
+
+#: includes/Core/Plugin.php
+msgid "Submit Request"
+msgstr "提交請求"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-new-board.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Submit"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Save"
+msgstr ""
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-boards-list.php
+msgid "Edit"
+msgstr ""
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-edit-board.php
+msgid "Delete"
+msgstr ""
+
+#: includes/Core/Plugin.php views/admin-boards-list.php
+msgid "View"
+msgstr ""
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "Title"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Title *"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Brief title for your request"
+msgstr "請求的簡短標題"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+msgid "Description"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Describe your request in detail..."
+msgstr "詳細描述您的請求..."
+
+#: includes/Core/Plugin.php
+msgid "Category"
+msgstr ""
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-edit-board.php
+msgid "Tags"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "No items in this category yet."
+msgstr "此分類中尚無項目。"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-edit-board.php
+msgid "No categories yet."
+msgstr "尚無分類。"
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-edit-board.php
+msgid "No tags yet."
+msgstr "尚無標籤。"
+
+#: includes/Core/Plugin.php includes/Core/Installer.php
+msgid "Feature requests and development roadmap"
+msgstr "功能需求與開發路線圖"
+
+#: includes/Core/Plugin.php
+msgid "Loading..."
+msgstr ""
+
+#: includes/Core/Plugin.php views/admin-edit-board.php
+#: views/admin-boards-list.php
+msgid "Ideas"
+msgstr ""
+
+#: includes/Core/Plugin.php views/admin-edit-board.php
+#: views/admin-boards-list.php
+msgid "Votes"
+msgstr ""
+
+#: includes/Core/Plugin.php includes/Admin/BoardsPage.php
+#: views/admin-edit-board.php
+msgid "Columns"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Comments"
+msgstr ""
+
+#: includes/Core/Plugin.php views/admin-edit-board.php
+msgid "Organize ideas into categories."
+msgstr "將點子整理成不同分類。"
+
+#: includes/Core/Plugin.php views/admin-edit-board.php
+msgid "Add tags to label and filter ideas."
+msgstr "新增標籤以標記並篩選點子。"
+
+#: includes/Admin/BoardsAdmin.php
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限訪問此頁面。"
+
+#: includes/Admin/BoardsAdmin.php
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+#: includes/Controllers/BoardController.php
+#: includes/Controllers/ItemController.php
+msgid "Title is required."
+msgstr "標題為必填。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "A board with this slug already exists."
+msgstr "此代稱的看板已存在。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Board not found."
+msgstr "找不到看板。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+#: includes/Controllers/BoardController.php
+msgid "Board updated successfully."
+msgstr "看板更新成功。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Columns updated successfully."
+msgstr "欄位已成功更新。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Permission denied."
+msgstr "權限不足。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Invalid action."
+msgstr "無效的操作。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Board deleted."
+msgstr "看板已刪除。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Invalid data."
+msgstr "無效的資料。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "A category with this name already exists."
+msgstr "此名稱的分類已存在。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Category created."
+msgstr "分類已建立。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+#: includes/Controllers/CategoryController.php
+msgid "Category not found."
+msgstr "找不到分類。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Category deleted."
+msgstr "分類已刪除。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "A tag with this name already exists."
+msgstr "此名稱的標籤已存在。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Tag created."
+msgstr "標籤已建立。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+#: includes/Controllers/TagController.php
+msgid "Tag not found."
+msgstr "找不到標籤。"
+
+#: includes/Admin/BoardsAdmin.php includes/Admin/BoardsPage.php
+msgid "Tag deleted."
+msgstr "標籤已刪除。"
+
+#: includes/Admin/BoardsPage.php views/admin-boards-list.php
+msgid "FCA Kanban Boards"
+msgstr "FCA 看板管理"
+
+#: includes/Admin/BoardsPage.php
+msgid "Are you sure you want to delete this? This action cannot be undone."
+msgstr "確定要刪除嗎？此操作無法復原。"
+
+#: includes/Admin/BoardsPage.php
+msgid "Saving..."
+msgstr "儲存中..."
+
+#: includes/Admin/BoardsPage.php includes/Controllers/BoardController.php
+msgid "Board created successfully."
+msgstr "看板建立成功。"
+
+#: includes/Admin/BoardsPage.php views/admin-boards-list.php
+msgid "No boards yet"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid ""
+"Create your first board to start collecting feedback and feature requests."
+msgstr "建立您的第一個看板，開始收集意見回饋與功能需求。"
+
+#: includes/Admin/BoardsPage.php
+msgid "Create First Board"
+msgstr "建立第一個看板"
+
+#: includes/Admin/BoardsPage.php
+msgid "Board"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Slug"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Status"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Visibility"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Items"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Actions"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-boards-list.php
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-new-board.php
+msgid "Leave blank to auto-generate from title."
+msgstr "留白以從標題自動產生。"
+
+#: includes/Admin/BoardsPage.php
+msgid "Public (visible to everyone)"
+msgstr "公開 (所有人可見)"
+
+#: includes/Admin/BoardsPage.php
+msgid "Members Only (logged-in users)"
+msgstr "僅限會員 (已登入使用者)"
+
+#: includes/Admin/BoardsPage.php
+msgid "Private (admins only)"
+msgstr "私有 (僅管理員)"
+
+#: includes/Admin/BoardsPage.php views/admin-new-board.php
+msgid "Set as default board"
+msgstr "設為預設看板"
+
+#: includes/Admin/BoardsPage.php
+msgid "The default board will be shown when visiting /boards without a slug."
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-new-board.php
+msgid "Create Board"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Board Settings"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+#: views/admin-new-board.php
+msgid "Public"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+#: views/admin-new-board.php
+msgid "Members Only"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+#: views/admin-new-board.php
+msgid "Private"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Active"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Draft"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Permissions"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Allow submissions"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Allow voting"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Allow comments"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Save Changes"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Categories"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Category name"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Color"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Add"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Tag name"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Column name"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "Column IDs cannot be changed after creation to preserve existing items."
+msgstr ""
+
+#: includes/Admin/BoardsPage.php views/admin-edit-board.php
+msgid "Save Columns"
+msgstr ""
+
+#: includes/Admin/BoardsPage.php
+msgid "← Back to All Boards"
+msgstr ""
+
+#: includes/Controllers/BoardController.php
+msgid "You do not have access to this board."
+msgstr ""
+
+#: includes/Controllers/BoardController.php
+msgid "You do not have permission to create boards."
+msgstr "您沒有建立看板的權限。"
+
+#: includes/Controllers/BoardController.php
+msgid "You do not have permission to update boards."
+msgstr "您沒有權限更新看板。"
+
+#: includes/Controllers/BoardController.php
+msgid "You do not have permission to delete boards."
+msgstr "您沒有權限刪除看板。"
+
+#: includes/Controllers/BoardController.php views/admin-boards-list.php
+msgid "Board deleted successfully."
+msgstr "看板已成功刪除。"
+
 #: includes/Controllers/CommentController.php
-msgid "Comment added."
-msgstr "已新增評論。"
+#: includes/Controllers/ItemController.php
+msgid "Item not found."
+msgstr "找不到該項目。"
+
+#: includes/Controllers/CommentController.php
+msgid "You must be logged in to comment."
+msgstr "您必須登入才能發表評論。"
+
+#: includes/Controllers/CommentController.php
+msgid "Comments are not allowed on this board."
+msgstr "此看板不允許評論。"
 
 #: includes/Controllers/CommentController.php
 msgid "Comment content is required."
 msgstr "評論內容為必填。"
 
 #: includes/Controllers/CommentController.php
-msgid "Comment deleted."
-msgstr "評論已刪除。"
+msgid "Invalid parent comment."
+msgstr "無效的父級評論。"
+
+#: includes/Controllers/CommentController.php
+msgid "Comment added."
+msgstr "已新增評論。"
+
+#: includes/Controllers/CommentController.php
+msgid "You must be logged in to edit comments."
+msgstr "您必須登入才能編輯評論。"
 
 #: includes/Controllers/CommentController.php
 msgid "Comment not found."
 msgstr "找不到評論。"
 
 #: includes/Controllers/CommentController.php
+msgid "You do not have permission to edit this comment."
+msgstr "您沒有權限編輯此評論。"
+
+#: includes/Controllers/CommentController.php
 msgid "Comment updated."
 msgstr "評論已更新。"
 
 #: includes/Controllers/CommentController.php
-msgid "Comments are not allowed on this board."
-msgstr "此看板不允許評論。"
-
-#: includes/Models/Board.php
-msgid "Completed"
-msgstr "已完成"
-
-#: includes/Core/Plugin.php
-msgid "FCA Boards"
-msgstr "FCA 看板"
-
-#: fca-boards.php
-msgid "FCA Boards requires Fluent Community to be installed and activated."
-msgstr "FCA Boards 需要安裝並啟用 Fluent Community。"
-
-#: includes/Core/Installer.php
-msgid "Feature requests and development roadmap"
-msgstr "功能需求與開發路線圖"
-
-#: includes/Core/Plugin.php
-msgid "Go to Boards"
-msgstr "前往看板"
-
-#: includes/Models/Board.php
-msgid "In Progress"
-msgstr "進行中"
-
-#: includes/Controllers/ItemController.php
-msgid "Invalid items data."
-msgstr "無效的項目資料。"
+msgid "You must be logged in to delete comments."
+msgstr "您必須登入才能刪除評論。"
 
 #: includes/Controllers/CommentController.php
-msgid "Invalid parent comment."
-msgstr "無效的父級評論。"
+msgid "You do not have permission to delete this comment."
+msgstr "您沒有權限刪除此評論。"
+
+#: includes/Controllers/CommentController.php
+msgid "Comment deleted."
+msgstr "評論已刪除。"
 
 #: includes/Controllers/ItemController.php
-msgid "Item deleted successfully."
-msgstr "項目已成功刪除。"
+msgid "You must be logged in to submit items."
+msgstr "您必須登入才能提交項目。"
 
 #: includes/Controllers/ItemController.php
-msgid "Item moved successfully."
-msgstr "項目已成功移動。"
-
-#: includes/Controllers/ItemController.php
-msgid "Item not found."
-msgstr "找不到該項目。"
+msgid "Submissions are not allowed on this board."
+msgstr "此看板不允許提交。"
 
 #: includes/Controllers/ItemController.php
 msgid "Item submitted successfully."
 msgstr "項目已成功提交。"
 
 #: includes/Controllers/ItemController.php
+msgid "You do not have permission to update this item."
+msgstr "您沒有權限更新此項目。"
+
+#: includes/Controllers/ItemController.php
 msgid "Item updated successfully."
 msgstr "項目已成功更新。"
+
+#: includes/Controllers/ItemController.php
+msgid "You do not have permission to delete this item."
+msgstr "您沒有權限刪除此項目。"
+
+#: includes/Controllers/ItemController.php
+msgid "Item deleted successfully."
+msgstr "項目已成功刪除。"
+
+#: includes/Controllers/ItemController.php
+msgid "You do not have permission to move items."
+msgstr "您沒有權限移動項目。"
+
+#: includes/Controllers/ItemController.php
+msgid "Item moved successfully."
+msgstr "項目已成功移動。"
+
+#: includes/Controllers/ItemController.php
+msgid "You do not have permission to reorder items."
+msgstr "您沒有權限重新排序項目。"
+
+#: includes/Controllers/ItemController.php
+msgid "Invalid items data."
+msgstr "無效的項目資料。"
 
 #: includes/Controllers/ItemController.php
 msgid "Items reordered successfully."
 msgstr "項目已成功重新排序。"
 
-#: includes/Core/Plugin.php
-msgid "Manage your kanban boards from the Fluent Community portal."
-msgstr "從 Fluent Community 入口管理您的看板。"
+#: includes/Controllers/TagController.php
+msgid "You do not have permission to create tags."
+msgstr ""
 
-#: includes/Models/Board.php
-msgid "Planned"
-msgstr "已規劃"
+#: includes/Controllers/TagController.php
+#: includes/Controllers/CategoryController.php
+msgid "Name is required."
+msgstr "名稱為必填。"
 
-#: fca-boards.php
-msgid "Plugin Activation Error"
-msgstr "外掛啟用錯誤"
+#: includes/Controllers/TagController.php
+msgid "Tag created successfully."
+msgstr ""
 
-#: includes/Core/Installer.php
-msgid "Roadmap"
-msgstr "路線圖"
+#: includes/Controllers/TagController.php
+msgid "You do not have permission to update tags."
+msgstr ""
 
-#: includes/Controllers/ItemController.php
-msgid "Submissions are not allowed on this board."
-msgstr "此看板不允許提交。"
+#: includes/Controllers/TagController.php
+msgid "Tag updated successfully."
+msgstr ""
 
-#: includes/Models/Board.php
-msgid "Submitted"
-msgstr "已提交"
+#: includes/Controllers/TagController.php
+msgid "You do not have permission to delete tags."
+msgstr ""
 
-#: includes/Controllers/ItemController.php
-msgid "Title is required."
-msgstr "標題為必填。"
+#: includes/Controllers/TagController.php
+msgid "Tag deleted successfully."
+msgstr ""
+
+#: includes/Controllers/VoteController.php
+msgid "You must be logged in to vote."
+msgstr "您必須登入才能投票。"
+
+#: includes/Controllers/VoteController.php
+msgid "Voting is not allowed on this board."
+msgstr "此看板不允許投票。"
 
 #: includes/Controllers/VoteController.php
 msgid "Vote added."
@@ -160,190 +646,184 @@ msgstr "投票已新增。"
 msgid "Vote removed."
 msgstr "投票已移除。"
 
-#: includes/Controllers/VoteController.php
-msgid "Voting is not allowed on this board."
-msgstr "此看板不允許投票。"
-
-#: includes/Controllers/BoardController.php
-msgid "You do not have permission to create boards."
-msgstr "您沒有建立看板的權限。"
-
-#: includes/Controllers/BoardController.php
-msgid "You do not have permission to delete boards."
-msgstr "您沒有權限刪除看板。"
-
-#: includes/Controllers/CommentController.php
-msgid "You do not have permission to delete this comment."
-msgstr "您沒有權限刪除此評論。"
-
-#: includes/Controllers/ItemController.php
-msgid "You do not have permission to delete this item."
-msgstr "您沒有權限刪除此項目。"
-
-#: includes/Controllers/CommentController.php
-msgid "You do not have permission to edit this comment."
-msgstr "您沒有權限編輯此評論。"
-
-#: includes/Controllers/ItemController.php
-msgid "You do not have permission to move items."
-msgstr "您沒有權限移動項目。"
-
-#: includes/Controllers/ItemController.php
-msgid "You do not have permission to reorder items."
-msgstr "您沒有權限重新排序項目。"
-
-#: includes/Controllers/BoardController.php
-msgid "You do not have permission to update boards."
-msgstr "您沒有權限更新看板。"
-
-#: includes/Controllers/ItemController.php
-msgid "You do not have permission to update this item."
-msgstr "您沒有權限更新此項目。"
-
-#: includes/Controllers/CommentController.php
-msgid "You must be logged in to comment."
-msgstr "您必須登入才能發表評論。"
-
-#: includes/Controllers/CommentController.php
-msgid "You must be logged in to delete comments."
-msgstr "您必須登入才能刪除評論。"
-
-#: includes/Controllers/CommentController.php
-msgid "You must be logged in to edit comments."
-msgstr "您必須登入才能編輯評論。"
-
-#: includes/Controllers/ItemController.php
-msgid "You must be logged in to submit items."
-msgstr "您必須登入才能提交項目。"
-
-#: includes/Controllers/VoteController.php
-msgid "You must be logged in to vote."
-msgstr "您必須登入才能投票。"
-
-#: includes/Admin/BoardsPage.php includes/Core/Plugin.php
-msgid "All Boards"
-msgstr "所有看板"
-
-#: includes/Admin/BoardsPage.php includes/Core/Plugin.php
-msgid "Add New Board"
-msgstr "新增看板"
-
-#: includes/Admin/BoardsPage.php includes/Core/Plugin.php
-msgid "Add New"
-msgstr "新增"
-
-#: includes/Admin/BoardsPage.php includes/Core/Plugin.php
-msgid "Edit Board"
-msgstr "編輯看板"
-
-#: includes/Admin/BoardsPage.php
-msgid "FCA Kanban Boards"
-msgstr "FCA 看板管理"
-
-#: includes/Models/Board.php
-msgid "Under Review"
-msgstr "審核中"
+#: includes/Controllers/CategoryController.php
+msgid "You do not have permission to create categories."
+msgstr "您沒有權限建立分類。"
 
 #: includes/Controllers/CategoryController.php
 msgid "Category created successfully."
 msgstr "分類已成功建立。"
 
 #: includes/Controllers/CategoryController.php
-msgid "Category deleted successfully."
-msgstr "分類已成功刪除。"
-
-#: includes/Controllers/CategoryController.php
-msgid "Category not found."
-msgstr "找不到分類。"
+msgid "You do not have permission to update categories."
+msgstr "您沒有權限更新分類。"
 
 #: includes/Controllers/CategoryController.php
 msgid "Category updated successfully."
 msgstr "分類已成功更新。"
 
 #: includes/Controllers/CategoryController.php
-msgid "Categories reordered successfully."
-msgstr "分類已成功重新排序。"
-
-#: includes/Controllers/CategoryController.php
-msgid "Invalid categories data."
-msgstr "無效的分類資料。"
-
-#: includes/Controllers/CategoryController.php
-msgid "Name is required."
-msgstr "名稱為必填。"
-
-#: includes/Controllers/CategoryController.php
-msgid "You do not have permission to create categories."
-msgstr "您沒有權限建立分類。"
-
-#: includes/Controllers/CategoryController.php
 msgid "You do not have permission to delete categories."
 msgstr "您沒有權限刪除分類。"
+
+#: includes/Controllers/CategoryController.php
+msgid "Category deleted successfully."
+msgstr "分類已成功刪除。"
 
 #: includes/Controllers/CategoryController.php
 msgid "You do not have permission to reorder categories."
 msgstr "您沒有權限重新排序分類。"
 
 #: includes/Controllers/CategoryController.php
-msgid "You do not have permission to update categories."
-msgstr "您沒有權限更新分類。"
+msgid "Invalid categories data."
+msgstr "無效的分類資料。"
 
-#: includes/Admin/BoardsPage.php
-msgid "A category with this name already exists."
-msgstr "此名稱的分類已存在。"
+#: includes/Controllers/CategoryController.php
+msgid "Categories reordered successfully."
+msgstr "分類已成功重新排序。"
 
-#: includes/Admin/BoardsPage.php
-msgid "A tag with this name already exists."
-msgstr "此名稱的標籤已存在。"
+#: views/admin-edit-board.php
+msgid "Error"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "An error occurred. Please try again."
-msgstr "發生錯誤，請再試一次。"
+#: views/admin-edit-board.php
+msgid "View Board"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Are you sure you want to delete this? This action cannot be undone."
-msgstr "確定要刪除嗎？此操作無法復原。"
+#: views/admin-edit-board.php
+msgid ""
+"Board created successfully! Configure your columns, categories, and tags "
+"below."
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Board deleted."
-msgstr "看板已刪除。"
+#: views/admin-edit-board.php
+msgid "Default board"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Category created."
-msgstr "分類已建立。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Allow Submissions"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Category deleted."
-msgstr "分類已刪除。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Users can submit new ideas"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Columns updated successfully."
-msgstr "欄位已成功更新。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Allow Voting"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Invalid action."
-msgstr "無效的操作。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Users can vote on ideas"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Invalid data."
-msgstr "無效的資料。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Allow Comments"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Permission denied."
-msgstr "權限不足。"
+#: views/admin-edit-board.php views/admin-new-board.php
+msgid "Users can comment on ideas"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Saving..."
-msgstr "儲存中..."
+#: views/admin-edit-board.php
+msgid "Save Settings"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Tag created."
-msgstr "標籤已建立。"
+#: views/admin-edit-board.php
+msgid "Configure the columns (stages) for your kanban board."
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Tag deleted."
-msgstr "標籤已刪除。"
+#: views/admin-edit-board.php
+msgid "Delete Column"
+msgstr ""
 
-#: includes/Admin/BoardsPage.php
-msgid "Tag not found."
-msgstr "找不到標籤。"
+#: views/admin-edit-board.php
+msgid "Column IDs cannot be changed to preserve existing items."
+msgstr ""
+
+#: views/admin-edit-board.php
+msgid "Add Column"
+msgstr ""
+
+#: views/admin-edit-board.php
+msgid "New category name"
+msgstr ""
+
+#: views/admin-edit-board.php
+msgid "New tag name"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "Kanban-style boards for your Fluent Community"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "New Board"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid ""
+"Create your first board to start collecting feedback and feature requests "
+"from your community."
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "Create Your First Board"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "Total Boards"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "Total Ideas"
+msgstr ""
+
+#: views/admin-boards-list.php
+msgid "Total Votes"
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Create New Board"
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "e.g., Feature Requests"
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Give your board a clear, descriptive name."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "auto-generated-from-title"
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Share your ideas and help us build better features..."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Shown at the top of the board."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Who can view this board."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "The default board is shown when users visit /boards/ without a slug."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "Initial Permissions"
+msgstr ""
+
+#: views/admin-new-board.php
+msgid "You can change these later."
+msgstr ""
+
+#: views/admin-new-board.php
+msgid ""
+"Default columns will be created. You can customize them after creating the "
+"board."
+msgstr ""

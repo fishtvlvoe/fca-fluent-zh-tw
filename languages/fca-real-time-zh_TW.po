@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: FCA Real-Time 0.1.4\n"
 "Report-Msgid-Bugs-To: https://fluentcommunityaddons.com\n"
 "POT-Creation-Date: 2026-04-05T23:12:21+00:00\n"
-"PO-Revision-Date: 2026-04-16 05:00+0800\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
@@ -17,353 +17,322 @@ msgstr ""
 "X-Generator: auto-translate.py (polib)\n"
 
 #: fca-real-time.php
-msgid "FCA Real-Time"
-msgstr "FCA 即時互動"
-
-#: fca-real-time.php
-msgid "https://fluentcommunityaddons.com/"
-msgstr "https://fluentcommunityaddons.com/"
-
-#: fca-real-time.php
-msgid ""
-"Real-time updates for Fluent Community - live comments, notifications, and "
-"more via WebSockets."
-msgstr "Fluent Community 的即時更新——透過 WebSocket 提供即時留言、通知等功能。"
-
-#: fca-real-time.php
-msgid "Fluent Community Addons"
-msgstr "Fluent Community 附加元件"
-
-#: fca-real-time.php:54
 msgid "FCA Real-Time requires Fluent Community to be installed and active."
 msgstr "FCA 即時互動需要 Fluent Community 已安裝並啟用。"
 
-#: includes/Core/Plugin.php:169
+#: includes/Core/Plugin.php
 msgid "Real-Time"
 msgstr "即時互動"
 
-#: includes/Features/Comments/CommentBroadcaster.php:27
-msgid "Live Comments"
-msgstr "即時留言"
-
-#: includes/Features/Comments/CommentBroadcaster.php:78
-#: includes/Features/Feeds/FeedBroadcaster.php:62
-#: includes/Features/Reactions/ReactionBroadcaster.php:59
-#: includes/Features/Reactions/ReactionBroadcaster.php:122
-#: includes/Frontend/ScriptLoader.php:352
-msgid "Someone"
-msgstr "有人"
-
-#: includes/Features/Feeds/FeedBroadcaster.php:21
-msgid "Live Feeds"
-msgstr "即時動態"
-
-#: includes/Features/Members/MemberBroadcaster.php:21
-msgid "Member Events"
-msgstr "成員活動"
-
-#: includes/Features/MembersOnline/PresenceWidget.php:43
-#: includes/Features/MembersOnline/PresenceWidget.php:100
-msgid "Members Online"
-msgstr "線上成員"
-
-#: includes/Features/MembersOnline/PresenceWidget.php:101
-msgid "online now"
-msgstr "目前在線"
-
-#: includes/Features/Mentions/MentionBroadcaster.php:23
-msgid "Live Mentions"
-msgstr "即時提及"
-
-#: includes/Features/Notifications/NotificationBroadcaster.php:29
-msgid "Live Notifications"
-msgstr "即時通知"
-
-#: includes/Features/Presence/PresenceBroadcaster.php:30
-msgid "User Presence"
-msgstr "使用者狀態"
-
-#: includes/Features/Presence/PresenceBroadcaster.php:45
-msgid "User online/offline status change"
-msgstr "使用者上線/離線狀態變更"
-
-#: includes/Features/Presence/PresenceBroadcaster.php:83
-msgid "You must be logged in to update presence."
-msgstr "您必須登入才能更新狀態。"
-
-#: includes/Features/Reactions/ReactionBroadcaster.php:21
-msgid "Live Reactions"
-msgstr "即時反應"
-
-#: includes/Features/SpaceViewers/SpaceViewersWidget.php:37
-msgid "Space Viewers"
-msgstr "空間觀看者"
-
-#: includes/Features/SpaceViewers/SpaceViewersWidget.php:82
-msgid "Viewing this space"
-msgstr "正在觀看此空間"
-
-#: includes/Features/SpaceViewers/SpaceViewersWidget.php:83
-#: includes/Frontend/ScriptLoader.php:386
-msgid "here now"
-msgstr "目前在此"
-
-#: includes/Frontend/ScriptLoader.php:61
+#: includes/Frontend/ScriptLoader.php
 msgid "Access denied to this channel"
 msgstr "存取此頻道被拒"
 
-#: includes/Frontend/ScriptLoader.php:69
+#: includes/Frontend/ScriptLoader.php
 msgid "WebSocket not configured"
 msgstr "尚未設定 WebSocket"
 
-#: includes/Frontend/ScriptLoader.php:78
+#: includes/Frontend/ScriptLoader.php
 msgid "You are appearing offline"
 msgstr "您目前顯示為離線"
 
-#: includes/Frontend/ScriptLoader.php:92
+#: includes/Frontend/ScriptLoader.php
 msgid "Authorization failed"
 msgstr "授權失敗"
 
-#: includes/Frontend/ScriptLoader.php:329
+#: includes/Frontend/ScriptLoader.php
 msgid "commented"
 msgstr "留言了"
 
-#: includes/Frontend/ScriptLoader.php:331
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s commented on %2$s"
 msgstr "%1$s 在 %2$s 留言"
 
-#: includes/Frontend/ScriptLoader.php:333
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s commented on another post"
 msgstr "%s 在另一篇貼文留言"
 
-#: includes/Frontend/ScriptLoader.php:335
-#, php-format
-msgid "%d new comment"
-msgid_plural "%d new comments"
-msgstr[0] "%d 則新留言"
-
-#: includes/Frontend/ScriptLoader.php:336
+#: includes/Frontend/ScriptLoader.php
 msgid "Click to view"
 msgstr "點擊查看"
 
-#: includes/Frontend/ScriptLoader.php:337
+#: includes/Frontend/ScriptLoader.php
 msgid "Loading…"
 msgstr "載入中…"
 
-#: includes/Frontend/ScriptLoader.php:338
+#: includes/Frontend/ScriptLoader.php
 msgid "just now"
 msgstr "剛剛"
 
-#: includes/Frontend/ScriptLoader.php:339
+#: includes/Frontend/ScriptLoader.php
 msgid "Refresh for full thread"
 msgstr "重新整理以查看完整串"
 
-#: includes/Frontend/ScriptLoader.php:342
+#: includes/Frontend/ScriptLoader.php
 msgid "mentioned you"
 msgstr "提及了您"
 
-#: includes/Frontend/ScriptLoader.php:343
+#: includes/Frontend/ScriptLoader.php
 msgid "commented on your post"
 msgstr "在您的貼文留言"
 
-#: includes/Frontend/ScriptLoader.php:345
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s commented on \"%2$s\""
 msgstr "%1$s 在「%2$s」留言"
 
-#: includes/Frontend/ScriptLoader.php:346
+#: includes/Frontend/ScriptLoader.php
 msgid "replied in a thread you follow"
 msgstr "在您追蹤的串中回覆"
 
-#: includes/Frontend/ScriptLoader.php:348
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s replied in a thread on \"%2$s\""
 msgstr "%1$s 在「%2$s」的串中回覆"
 
-#: includes/Frontend/ScriptLoader.php:349
+#: includes/Frontend/ScriptLoader.php
 msgid "New notification"
 msgstr "新通知"
 
-#: includes/Frontend/ScriptLoader.php:354
+#: includes/Frontend/ScriptLoader.php
+#: includes/Features/Comments/CommentBroadcaster.php
+#: includes/Features/Reactions/ReactionBroadcaster.php
+#: includes/Features/Feeds/FeedBroadcaster.php
+msgid "Someone"
+msgstr "有人"
+
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s mentioned you in %2$s"
 msgstr "%1$s 在 %2$s 提及了您"
 
-#: includes/Frontend/ScriptLoader.php:356
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s mentioned you"
 msgstr "%s 提及了您"
 
-#: includes/Frontend/ScriptLoader.php:360
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s published a new post"
 msgstr "%s 發布了一篇新貼文"
 
-#: includes/Frontend/ScriptLoader.php:362
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s posted \"%2$s\""
 msgstr "%1$s 發布了「%2$s」"
 
-#: includes/Frontend/ScriptLoader.php:364
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s posted in %2$s"
 msgstr "%1$s 在 %2$s 發布了貼文"
 
-#: includes/Frontend/ScriptLoader.php:366
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s posted \"%2$s\" in %3$s"
 msgstr "%1$s 在 %3$s 發布了「%2$s」"
 
-#: includes/Frontend/ScriptLoader.php:368
-#, php-format
-msgid "%d new post"
-msgid_plural "%d new posts"
-msgstr[0] "%d 篇新貼文"
-
-#: includes/Frontend/ScriptLoader.php:369
+#: includes/Frontend/ScriptLoader.php
 msgid "Click to load"
 msgstr "點擊載入"
 
-#: includes/Frontend/ScriptLoader.php:370
+#: includes/Frontend/ScriptLoader.php
 msgid "New post"
 msgstr "新貼文"
 
-#: includes/Frontend/ScriptLoader.php:374
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s reacted"
 msgstr "%s 給了反應"
 
-#: includes/Frontend/ScriptLoader.php:376
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s reacted to \"%2$s\""
 msgstr "%1$s 對「%2$s」給了反應"
 
-#: includes/Frontend/ScriptLoader.php:380
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s came online"
 msgstr "%s 上線了"
 
-#: includes/Frontend/ScriptLoader.php:381
+#: includes/Frontend/ScriptLoader.php
 msgid "Member"
 msgstr "成員"
 
-#: includes/Frontend/ScriptLoader.php:382
+#: includes/Frontend/ScriptLoader.php
 msgid "Connection error"
 msgstr "連線錯誤"
 
-#: includes/Frontend/ScriptLoader.php:385
+#: includes/Frontend/ScriptLoader.php
 msgid "viewing this space"
 msgstr "正在觀看此空間"
 
-#: includes/Frontend/ScriptLoader.php:390
+#: includes/Frontend/ScriptLoader.php
+#: includes/Features/SpaceViewers/SpaceViewersWidget.php
+msgid "here now"
+msgstr "目前在此"
+
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%s joined the community"
 msgstr "%s 加入了社群"
 
-#: includes/Frontend/ScriptLoader.php:392
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "%1$s joined %2$s"
 msgstr "%1$s 加入了 %2$s"
 
-#: includes/Frontend/ScriptLoader.php:396
+#: includes/Frontend/ScriptLoader.php
 #, php-format
 msgid "+%d new"
 msgstr "+%d 則新動態"
 
-#: includes/Routes/api.php:96
+#: includes/Features/Comments/CommentBroadcaster.php
+msgid "Live Comments"
+msgstr "即時留言"
+
+#: includes/Features/Reactions/ReactionBroadcaster.php
+msgid "Live Reactions"
+msgstr "即時反應"
+
+#: includes/Features/Mentions/MentionBroadcaster.php
+msgid "Live Mentions"
+msgstr "即時提及"
+
+#: includes/Features/Feeds/FeedBroadcaster.php
+msgid "Live Feeds"
+msgstr "即時動態"
+
+#: includes/Features/SpaceViewers/SpaceViewersWidget.php
+msgid "Space Viewers"
+msgstr "空間觀看者"
+
+#: includes/Features/SpaceViewers/SpaceViewersWidget.php
+msgid "Viewing this space"
+msgstr "正在觀看此空間"
+
+#: includes/Features/Presence/PresenceBroadcaster.php
+msgid "User Presence"
+msgstr "使用者狀態"
+
+#: includes/Features/Presence/PresenceBroadcaster.php
+msgid "User online/offline status change"
+msgstr "使用者上線/離線狀態變更"
+
+#: includes/Features/Presence/PresenceBroadcaster.php
+msgid "You must be logged in to update presence."
+msgstr "您必須登入才能更新狀態。"
+
+#: includes/Features/Members/MemberBroadcaster.php
+msgid "Member Events"
+msgstr "成員活動"
+
+#: includes/Features/MembersOnline/PresenceWidget.php
+msgid "Members Online"
+msgstr "線上成員"
+
+#: includes/Features/MembersOnline/PresenceWidget.php
+msgid "online now"
+msgstr "目前在線"
+
+#: includes/Features/Notifications/NotificationBroadcaster.php
+msgid "Live Notifications"
+msgstr "即時通知"
+
+#: includes/Routes/api.php
 msgid "Missing credentials. Please fill in App ID, App Key, and App Secret."
 msgstr "缺少憑證，請填寫 App ID、App Key 與 App Secret。"
 
-#: includes/Routes/api.php:124
+#: includes/Routes/api.php
 #, php-format
 msgid "Cannot reach server at %1$s. Error: %2$s"
 msgstr "無法連線到 %1$s 伺服器。錯誤：%2$s"
 
-#: includes/Routes/api.php:141
+#: includes/Routes/api.php
 #, php-format
 msgid "Server at %1$s returned error status %2$d."
 msgstr "%1$s 伺服器回傳錯誤狀態 %2$d。"
 
-#: includes/Routes/api.php:157
+#: includes/Routes/api.php
 msgid "WebSocket provider not configured. Please save your settings first."
 msgstr "尚未設定 WebSocket 供應商，請先儲存設定。"
 
-#: includes/Routes/api.php:175
+#: includes/Routes/api.php
 msgid "Connection successful! Test event was sent."
 msgstr "連線成功！測試事件已發送。"
 
-#: includes/Routes/api.php:188
+#: includes/Routes/api.php
 msgid ""
 "Check your Pusher credentials (App ID, Key, Secret) and ensure they match "
 "your Pusher dashboard."
-msgstr "請檢查您的 Pusher 憑證（App ID、Key、Secret），確認與 Pusher 控制台一致。"
+msgstr ""
+"請檢查您的 Pusher 憑證（App ID、Key、Secret），確認與 Pusher 控制台一致。"
 
-#: includes/Routes/api.php:189
+#: includes/Routes/api.php
 msgid ""
-"The server is reachable but the API call failed. Check your App ID, Key, and"
-" Secret."
+"The server is reachable but the API call failed. Check your App ID, Key, and "
+"Secret."
 msgstr "伺服器可連線但 API 呼叫失敗，請檢查 App ID、Key 與 Secret。"
 
-#: includes/Routes/api.php:193
+#: includes/Routes/api.php
 msgid "Failed to send test event via server API."
 msgstr "透過伺服器 API 發送測試事件失敗。"
 
-#: includes/Routes/api.php:222
+#: includes/Routes/api.php
 msgid "Getting started with the community"
 msgstr "社群入門指南"
 
-#: includes/Routes/api.php:223
+#: includes/Routes/api.php
 msgid "Tips for better engagement"
 msgstr "提升互動的秘訣"
 
-#: includes/Routes/api.php:224
+#: includes/Routes/api.php
 msgid "Weekly discussion thread"
 msgstr "每週討論串"
 
-#: includes/Routes/api.php:225
+#: includes/Routes/api.php
 msgid "Introducing myself to the group"
 msgstr "向群組自我介紹"
 
-#: includes/Routes/api.php:230
+#: includes/Routes/api.php
 msgid "General Discussion"
 msgstr "一般討論"
 
-#: includes/Routes/api.php:231
+#: includes/Routes/api.php
 msgid "Announcements"
 msgstr "公告"
 
-#: includes/Routes/api.php:232
+#: includes/Routes/api.php
 msgid "Introductions"
 msgstr "新成員介紹"
 
-#: includes/Routes/api.php:237
+#: includes/Routes/api.php
 msgid "Great post, thanks for sharing!"
 msgstr "很棒的貼文，感謝分享！"
 
-#: includes/Routes/api.php:238
+#: includes/Routes/api.php
 msgid "This is really helpful, appreciate it"
 msgstr "這真的很有幫助，感謝"
 
-#: includes/Routes/api.php:239
+#: includes/Routes/api.php
 msgid "Interesting perspective, I had not thought of it that way"
 msgstr "有趣的观点，我沒有這樣想過"
 
-#: includes/Routes/api.php:293
+#: includes/Routes/api.php
 #, php-format
 msgid "%s commented on your post"
 msgstr "%s 在您的貼文留言"
 
-#: includes/Routes/api.php:321
+#: includes/Routes/api.php
 msgid "Hey, what do you think about this?"
 msgstr "嘿，你覺得這個怎麼樣？"
 
-#: includes/Routes/api.php:366
+#: includes/Routes/api.php
 #, php-format
 msgid "Demo \"%s\" event sent successfully!"
 msgstr "「%s」示範事件發送成功！"
 
-#: includes/Routes/api.php:367
+#: includes/Routes/api.php
 msgid "Failed to send demo event."
 msgstr "發送示範事件失敗。"

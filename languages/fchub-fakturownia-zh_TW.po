@@ -1,0 +1,370 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fchub-fakturownia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-16 05:28+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: auto-translate.py (polib)\n"
+
+#: fchub-fakturownia.php app/Integration/FakturowniaIntegration.php
+msgid "Fakturownia"
+msgstr ""
+
+#: fchub-fakturownia.php app/Integration/FakturowniaIntegration.php
+msgid ""
+"Automatically create invoices in Fakturownia with KSeF 2.0 support when "
+"orders are paid."
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Fakturownia: KSeF status check timed out"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Gave up after 30 attempts (~1 hour). Check Fakturownia manually."
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "correction"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "invoice"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Fakturownia: KSeF submission successful"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "KSeF number (%s): %s"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Fakturownia: KSeF %s submission failed"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "FCHub - Fakturownia requires FluentCart to be installed and activated."
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Settings"
+msgstr ""
+
+#: fchub-fakturownia.php app/Integration/FakturowniaIntegration.php
+msgid "Fakturownia Invoice"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Invoice:"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "PDF"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Sent"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Processing..."
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Error"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Server Error"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "N/A"
+msgstr ""
+
+#: fchub-fakturownia.php app/Integration/FakturowniaSettings.php
+msgid "Not Connected"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Verify"
+msgstr ""
+
+#: fchub-fakturownia.php
+msgid "Correction:"
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Invoice already exists for this order."
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Fakturownia: Invoice creation failed"
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Fakturownia: Invoice created"
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Invoice %s created in Fakturownia (ID: %d)"
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Product"
+msgstr ""
+
+#: app/Handler/InvoiceHandler.php
+msgid "Shipping"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Fakturownia: Partial refund detected"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid ""
+"Automatic correction invoices are only supported for full refunds. Please "
+"create a partial correction invoice manually in Fakturownia."
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Fakturownia: Cannot create correction"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "No original invoice found for this order."
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "No original invoice found."
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Correction invoice already exists."
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Refund - Order #%s"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Fakturownia: Correction invoice failed"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Fakturownia: Correction invoice created"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Correction %s created for invoice %s"
+msgstr ""
+
+#: app/Handler/RefundHandler.php
+msgid "Item"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Connected to %s.fakturownia.pl"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"API connection failed. Please check your domain and API token, then save "
+"again."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Fakturownia Integration"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Configure your Fakturownia account to automatically create invoices with "
+"KSeF 2.0 support."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Save Settings"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Your Fakturownia API connection is valid"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Your Fakturownia API connection is not valid"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "e.g. mojafirma"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Fakturownia Domain"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Your Fakturownia subdomain (e.g. \"mojafirma\" from mojafirma.fakturownia.pl)"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "API Token"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Find in Fakturownia: Settings > Account Settings > Integration > API "
+"Authorization Code"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Department ID (optional)"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Department ID"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Fakturownia department ID. Seller data (name, address, bank account) will be "
+"pulled from this department."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Invoice Type"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Type of invoice to create in Fakturownia."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Bill (Rachunek)"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Payment Type"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Payment method shown on the invoice."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Bank Transfer"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Card"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Cash"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Invoice Language"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "KSeF Auto Send"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"When enabled, invoices will be automatically submitted to KSeF via "
+"Fakturownia."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "No"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Yes"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Checkout NIP Field"
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Adds a \"I want a company invoice\" checkbox to checkout that reveals NIP "
+"field."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Please provide both domain and API token."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Connection failed: "
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Connection successful! Your Fakturownia account is connected."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid ""
+"Settings saved, but API connection failed. Please check your domain and API "
+"token."
+msgstr ""
+
+#: app/Integration/FakturowniaSettings.php
+msgid "Settings saved and API connection verified."
+msgstr ""
+
+#: app/Integration/FakturowniaIntegration.php
+msgid "Feed Title"
+msgstr ""
+
+#: app/Integration/FakturowniaIntegration.php
+msgid "Name"
+msgstr ""
+
+#: app/Integration/FakturowniaIntegration.php
+msgid "Name of this feed for identification purposes."
+msgstr ""
+
+#: app/Integration/FakturowniaIntegration.php
+msgid "Invoice Note"
+msgstr ""
+
+#: app/Integration/FakturowniaIntegration.php
+msgid "Optional note to add to the invoice description. Supports smart codes."
+msgstr ""
+
+#: app/Checkout/CheckoutFields.php
+msgid "NIP (Tax ID)"
+msgstr ""
+
+#: app/Checkout/CheckoutFields.php
+msgid "NIP Tax Identification Number"
+msgstr ""
+
+#: app/Checkout/CheckoutFields.php
+msgid "I want a company invoice"
+msgstr ""
+
+#: app/Checkout/CheckoutFields.php
+msgid "Invalid NIP (Tax ID). Please check the number."
+msgstr ""
+
+#: app/API/FakturowniaAPI.php
+msgid "Unknown error"
+msgstr ""

@@ -3,7 +3,7 @@
  * Plugin Name: FCA & Fluent 繁體中文翻譯包
  * Plugin URI: https://aiver.me
  * Description: 為所有 FCA 系列與 Fluent 系列外掛提供繁體中文翻譯，不修改原始外掛檔案，更新外掛不受影響。
- * Version: 1.6.6
+ * Version: 1.6.55
  * Author: BuyGo
  * License: GPL v2 or later
  * Text Domain: fca-fluent-zh-tw
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 
 // GitHub 自動更新器
 require_once __DIR__ . '/updater.php';
-new FCA_Fluent_ZhTW_Updater(__FILE__, '1.6.6');
+new FCA_Fluent_ZhTW_Updater(__FILE__, '1.6.7');
 
 /**
  * 載入翻譯檔
@@ -786,6 +786,34 @@ class FCA_Fluent_ZhTW {
             'fluent-cart',          // FluentCart 後台（含 fchub-wishlist / fchub-multi-currency 設定頁）
             'fchub-memberships',    // FCHub Memberships 設定頁
             'fchub-portal-extender',// FCHub Portal Extender 設定頁
+            'fca-course-blocks',    // fca-course-blocks 設定頁
+            'fca-events-basic',    // fca-events-basic 設定頁
+            'fca-events-spaces',    // fca-events-spaces 設定頁
+            'fca-events',    // fca-events 設定頁
+            'fca-fluent-zh-tw',    // fca-fluent-zh-tw 設定頁
+            'fca-global-search',    // fca-global-search 設定頁
+            'fca-hub',    // fca-hub 設定頁
+            'fca-knowledge-base',    // fca-knowledge-base 設定頁
+            'fca-pages',    // fca-pages 設定頁
+            'fca-push-notifications',    // fca-push-notifications 設定頁
+            'fca-real-time',    // fca-real-time 設定頁
+            'fchub-fakturownia',    // fchub-fakturownia 設定頁
+            'fchub-multi-currency',    // fchub-multi-currency 設定頁
+            'fchub-p24',    // fchub-p24 設定頁
+            'fchub-wishlist',    // fchub-wishlist 設定頁
+            'fluent-booking-pro',    // fluent-booking-pro 設定頁
+            'fluent-booking',    // fluent-booking 設定頁
+            'fluent-cart-elementor-blocks',    // fluent-cart-elementor-blocks 設定頁
+            'fluent-cart-pro',    // fluent-cart-pro 設定頁
+            'fluent-community-pro',    // fluent-community-pro 設定頁
+            'fluent-community',    // fluent-community 設定頁
+            'fluent-crm',    // fluent-crm 設定頁
+            'fluent-messaging',    // fluent-messaging 設定頁
+            'fluent-player-pro',    // fluent-player-pro 設定頁
+            'fluent-security',    // fluent-security 設定頁
+            'fluent-smtp',    // fluent-smtp 設定頁
+            'fluent-snippet-storage',    // fluent-snippet-storage 設定頁
+            'fluent-toolkit',    // fluent-toolkit 設定頁
         ];
 
         $is_relevant = false;
@@ -801,7 +829,7 @@ class FCA_Fluent_ZhTW {
         }
 
         $plugin_url     = plugin_dir_url(__FILE__);
-        $plugin_version = '1.6.6';
+        $plugin_version = '1.6.7';
 
         // 先載入翻譯字典
         wp_enqueue_script(
@@ -847,7 +875,7 @@ class FCA_Fluent_ZhTW {
         }
 
         $plugin_url     = plugin_dir_url(__FILE__);
-        $plugin_version = '1.6.6';
+        $plugin_version = '1.6.7';
 
         // Portal 內無法使用 wp_enqueue_script（已過 wp_head），直接輸出 script 標籤
         echo '<script src="' . esc_url($plugin_url . 'js/translations.js?v=' . $plugin_version) . '"></script>' . "\n";

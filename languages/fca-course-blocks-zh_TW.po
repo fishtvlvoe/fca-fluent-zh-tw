@@ -1,674 +1,208 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCA Course Blocks\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:59+0000\n"
-"PO-Revision-Date: 2025-12-05 19:00+0000\n"
+"PO-Revision-Date: 2026-04-16 05:27+0800\n"
 "Last-Translator: fish yu\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fca-course-blocks\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
-"X-Domain: fca-course-blocks"
 
-#: fca-course-blocks.php:52 fca-course-blocks.php:93
+#: fca-course-blocks.php
 #, php-format
 msgid "%1$s requires %2$s to be installed and activated."
 msgstr "%1$s 需要安裝並啟動 %2$s。"
 
-#: includes/class-course-blocks-admin.php:127
+#: includes/class-course-blocks-admin.php
+msgid "Course Blocks"
+msgstr "課程模組"
+
+#: includes/class-course-blocks-admin.php
+msgid "Block Settings"
+msgstr "阻止設定"
+
+#: includes/class-course-blocks-admin.php
+msgid "Course Customisations"
+msgstr "課程客製化"
+
+#: includes/class-course-blocks-admin.php
+msgid "Button"
+msgstr "按鈕"
+
+#: includes/class-course-blocks-admin.php
+msgid "Card"
+msgstr "卡片"
+
+#: includes/class-course-blocks-admin.php
+msgid "Image"
+msgstr "影像"
+
+#: includes/class-course-blocks-admin.php
 msgid "Accordion"
 msgstr "手風琴"
 
-#: includes/class-course-blocks-admin.php:376
-msgid "Add a drag handle to resize the sidebar width."
-msgstr "新增拖曳手把以調整側邊欄寬度。"
-
-#: includes/class-course-blocks-admin.php:356
-msgid "Add a toggle button to collapse and expand the sidebar."
-msgstr "新增一個切換按鈕，用於折疊和展開側邊欄。"
-
-#: includes/class-course-blocks-admin.php:320
-msgid ""
-"Add interactive controls to the lesson editor sidebar for better workspace "
-"management."
-msgstr "在課程編輯器側邊欄新增互動式控件，以便更好地管理工作區。"
-
-#: includes/class-course-blocks-admin.php:128
+#: includes/class-course-blocks-admin.php
 msgid "Alert"
 msgstr "警報"
 
-#: includes/class-course-blocks-admin.php:241
+#: includes/class-course-blocks-admin.php
+msgid "Tabs"
+msgstr "標籤頁"
+
+#: includes/class-course-blocks-admin.php
+msgid "Callout"
+msgstr "大喊"
+
+#: includes/class-course-blocks-admin.php
+msgid "Video"
+msgstr "影片"
+
+#: includes/class-course-blocks-admin.php
+msgid "Checklist"
+msgstr "檢查清單"
+
+#: includes/class-course-blocks-admin.php
+msgid "Code"
+msgstr "程式碼"
+
+#: includes/class-course-blocks-admin.php
+msgid "Download"
+msgstr "下載"
+
+#: includes/class-course-blocks-admin.php
+msgid "FC Video Player"
+msgstr "FC 視訊播放器"
+
+#: includes/class-course-blocks-admin.php
+msgid "FC List"
+msgstr "FC列表"
+
+#: includes/class-course-blocks-admin.php
+msgid "Flashcard"
+msgstr "閃卡"
+
+#: includes/class-course-blocks-admin.php
+msgid "Image Hotspot"
+msgstr "圖片熱點"
+
+#: includes/class-course-blocks-admin.php
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: includes/class-course-blocks-admin.php
+msgid "Course Blocks Settings"
+msgstr "課程模組設定"
+
+#: includes/class-course-blocks-admin.php
+msgid "Enable or disable which blocks are visible in the course lesson editor."
+msgstr "啟用或停用課程編輯器中顯示的模組。"
+
+#: includes/class-course-blocks-admin.php
+msgid "Available Blocks"
+msgstr "可用區塊"
+
+#: includes/class-course-blocks-admin.php
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: includes/class-course-blocks-admin.php
+msgid ""
+"Customize the appearance and layout of course lessons and the lesson editor. "
+"Each setting works independently."
+msgstr "自訂課程課件和課件編輯器的外觀和佈局。每項設定均可獨立生效。"
+
+#: includes/class-course-blocks-admin.php
+msgid "Lesson Page Settings"
+msgstr "課程頁面設定"
+
+#: includes/class-course-blocks-admin.php
+msgid "Enhanced Lesson Page Styling"
+msgstr "增強課程頁面樣式"
+
+#: includes/class-course-blocks-admin.php
 msgid ""
 "Apply enhanced styling to the lesson viewer including improved header, "
 "sidebar appearance, content layout, and visual refinements."
 msgstr ""
 "對課程檢視器套用增強樣式，包括改進標題、側邊欄外觀、內容版面和視覺優化。"
 
-#: includes/class-course-blocks-admin.php:169
-msgid "Available Blocks"
-msgstr "可用區塊"
-
-#: blocks/fca-accordion/block.json:1
-msgctxt "block description"
-msgid "A customizable accordion component with smooth animations."
-msgstr "具有流暢動畫效果的可自訂手風琴元件。"
-
-#: blocks/fca-custom-video-player/block.json:1
-msgctxt "block description"
-msgid "Advanced video player with custom controls and chapter support."
-msgstr "高級視訊播放器，支援自訂控制和章節播放。"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block description"
-msgid "Clean icon list with customizable markers."
-msgstr "簡潔的圖示列表，帶有可自訂的標記。"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block description"
-msgid ""
-"Display alert messages with different styles (info, warning, success, error)."
-msgstr "顯示不同樣式的提示訊息（訊息、警告、成功、錯誤）。"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block description"
-msgid "Display code with syntax highlighting and copy functionality."
-msgstr "顯示程式碼時帶有語法高亮和複製功能。"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block description"
-msgid "Display content in tabbed sections with horizontal or vertical layout."
-msgstr "以分頁形式顯示內容，佈局可水平或垂直。"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block description"
-msgid "Display downloadable files with file type detection and icons."
-msgstr "顯示可下載文件，並能辨識文件類型和顯示圖示。"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block description"
-msgid "Displays a customizable button."
-msgstr "顯示一個可自訂按鈕。"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block description"
-msgid "Displays a responsive image with optional rounded corners."
-msgstr "顯示具有可選圓角的自適應影像。"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block description"
-msgid "Displays content within a styled card container."
-msgstr "在樣式化的卡片容器中顯示內容。"
-
-#: blocks/fca-video/block.json:1
-msgctxt "block description"
-msgid "Embed videos with custom controls and styling."
-msgstr "嵌入影片時可自訂控制項和樣式。"
-
-#: blocks/fca-callout/block.json:1
-msgctxt "block description"
-msgid "Highlight important information with a callout box."
-msgstr "使用標註框突出顯示重要資訊。"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block description"
-msgid "Interactive checklist with progress tracking."
-msgstr "帶有進度追蹤功能的互動式清單。"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block description"
-msgid "Interactive flashcard with flip animation. Click to reveal the answer."
-msgstr "帶有翻頁動畫的互動式單字卡。點選即可顯示答案。"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block description"
-msgid "Interactive image with clickable hotspots that reveal information."
-msgstr "具有可點選熱點的互動式圖像，點選熱點即可顯示資訊。"
-
-#: blocks/fca-accordion/block.json:1
-msgctxt "block keyword"
-msgid "accordion"
-msgstr "手風琴"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block keyword"
-msgid "alert"
-msgstr "警報"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block keyword"
-msgid "annotate"
-msgstr "註解"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block keyword"
-msgid "attachment"
-msgstr "依戀"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block keyword"
-msgid "box"
-msgstr "盒子"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block keyword"
-msgid "bullet"
-msgstr "子彈"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block keyword"
-msgid "button"
-msgstr "按鈕"
-
-#: blocks/fca-callout/block.json:1
-msgctxt "block keyword"
-msgid "callout"
-msgstr "大喊"
-
-#: blocks/fca-card/block.json:1 blocks/fca-flashcard/block.json:1
-msgctxt "block keyword"
-msgid "card"
-msgstr "卡片"
-
-#: blocks/fca-custom-video-player/block.json:1
-msgctxt "block keyword"
-msgid "chapters"
-msgstr "章節"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block keyword"
-msgid "checklist"
-msgstr "檢查清單"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "code"
-msgstr "程式碼"
-
-#: blocks/fca-accordion/block.json:1
-msgctxt "block keyword"
-msgid "collapse"
-msgstr "坍塌"
-
-#: blocks/fca-card/block.json:1 blocks/fca-button/block.json:1
-#: blocks/fca-download/block.json:1 blocks/fca-custom-video-player/block.json:1
-#: blocks/fca-accordion/block.json:1 blocks/fca-alert/block.json:1
-#: blocks/fca-video/block.json:1 blocks/fca-image/block.json:1
-#: blocks/fca-callout/block.json:1 blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "community"
-msgstr "社群"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block keyword"
-msgid "container"
-msgstr "容器"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block keyword"
-msgid "content"
-msgstr "內容"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block keyword"
-msgid "download"
-msgstr "下載"
-
-#: blocks/fca-video/block.json:1
-msgctxt "block keyword"
-msgid "embed"
-msgstr "嵌入"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block keyword"
-msgid "file"
-msgstr "文件"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block keyword"
-msgid "flashcard"
-msgstr "閃卡"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block keyword"
-msgid "flip"
-msgstr "翻動"
-
-#: blocks/fca-card/block.json:1 blocks/fca-button/block.json:1
-#: blocks/fca-download/block.json:1 blocks/fca-custom-video-player/block.json:1
-#: blocks/fca-accordion/block.json:1 blocks/fca-alert/block.json:1
-#: blocks/fca-video/block.json:1 blocks/fca-image/block.json:1
-#: blocks/fca-callout/block.json:1 blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "fluent"
-msgstr "流暢"
-
-#: blocks/fca-callout/block.json:1
-msgctxt "block keyword"
-msgid "highlight"
-msgstr "強調"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block keyword"
-msgid "hotspot"
-msgstr "熱點"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block keyword"
-msgid "icon"
-msgstr "圖示"
-
-#: blocks/fca-image-hotspot/block.json:1 blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "image"
-msgstr "影像"
-
-#: blocks/fca-callout/block.json:1
-msgctxt "block keyword"
-msgid "important"
-msgstr "重要的"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block keyword"
-msgid "info"
-msgstr "資訊"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block keyword"
-msgid "interactive"
-msgstr "互動的"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block keyword"
-msgid "link"
-msgstr "關聯"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block keyword"
-msgid "list"
-msgstr "清單"
-
-#: blocks/fca-video/block.json:1
-msgctxt "block keyword"
-msgid "media"
-msgstr "媒體"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block keyword"
-msgid "message"
-msgstr "訊息"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block keyword"
-msgid "navigation"
-msgstr "導航"
-
-#: blocks/fca-alert/block.json:1 blocks/fca-callout/block.json:1
-msgctxt "block keyword"
-msgid "notice"
-msgstr "注意"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block keyword"
-msgid "number"
-msgstr "數位"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "photo"
-msgstr "照片"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "picture"
-msgstr "圖片"
-
-#: blocks/fca-custom-video-player/block.json:1
-msgctxt "block keyword"
-msgid "player"
-msgstr "玩家"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "programming"
-msgstr "程式設計"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block keyword"
-msgid "progress"
-msgstr "進步"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block keyword"
-msgid "quiz"
-msgstr "測驗"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block keyword"
-msgid "resource"
-msgstr "資源"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block keyword"
-msgid "sections"
-msgstr "部分"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "snippet"
-msgstr "片段"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block keyword"
-msgid "study"
-msgstr "學習"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block keyword"
-msgid "syntax"
-msgstr "句法"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block keyword"
-msgid "tabs"
-msgstr "標籤"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block keyword"
-msgid "tasks"
-msgstr "任務"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block keyword"
-msgid "todo"
-msgstr "待辦事項"
-
-#: blocks/fca-accordion/block.json:1
-msgctxt "block keyword"
-msgid "toggle"
-msgstr "切換"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block keyword"
-msgid "tooltip"
-msgstr "工具提示"
-
-#: blocks/fca-custom-video-player/block.json:1 blocks/fca-video/block.json:1
-msgctxt "block keyword"
-msgid "video"
-msgstr "影片"
-
-#: blocks/fca-custom-video-player/block.json:1 blocks/fca-video/block.json:1
-msgctxt "block keyword"
-msgid "vimeo"
-msgstr "vimeo"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block keyword"
-msgid "warning"
-msgstr "警告"
-
-#: blocks/fca-custom-video-player/block.json:1 blocks/fca-video/block.json:1
-msgctxt "block keyword"
-msgid "youtube"
-msgstr "youtube"
-
-#: includes/class-course-blocks-admin.php:48
-#: includes/class-course-blocks-admin.php:49
-msgid "Block Settings"
-msgstr "阻止設定"
-
-#: blocks/fca-checklist/block.json:1
-msgctxt "block title"
-msgid "FC Checklist"
-msgstr "FC檢查清單"
-
-#: blocks/fca-flashcard/block.json:1
-msgctxt "block title"
-msgid "FC Flashcard"
-msgstr "FC閃卡"
-
-#: blocks/fca-image-hotspot/block.json:1
-msgctxt "block title"
-msgid "FC Image Hotspot"
-msgstr "FC影像熱點"
-
-#: blocks/fca-list/block.json:1
-msgctxt "block title"
-msgid "FC List"
-msgstr "FC列表"
-
-#: blocks/fca-tabs/block.json:1
-msgctxt "block title"
-msgid "FC Tabs"
-msgstr "FC標籤"
-
-#: blocks/fca-custom-video-player/block.json:1
-msgctxt "block title"
-msgid "FC Video Player"
-msgstr "FC 視訊播放器"
-
-#: blocks/fca-accordion/block.json:1
-msgctxt "block title"
-msgid "FCA Accordion"
-msgstr "FCA手風琴"
-
-#: blocks/fca-alert/block.json:1
-msgctxt "block title"
-msgid "FCA Alert"
-msgstr "FCA 警報"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block title"
-msgid "FCA Button"
-msgstr "FCA按鈕"
-
-#: blocks/fca-callout/block.json:1
-msgctxt "block title"
-msgid "FCA Callout"
-msgstr "FCA 警告"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block title"
-msgid "FCA Card"
-msgstr "FCA卡"
-
-#: blocks/fca-code/block.json:1
-msgctxt "block title"
-msgid "FCA Code"
-msgstr "FCA 代碼"
-
-#: blocks/fca-download/block.json:1
-msgctxt "block title"
-msgid "FCA Download"
-msgstr "FCA下載"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block title"
-msgid "FCA Image"
-msgstr "FCA影像"
-
-#: blocks/fca-video/block.json:1
-msgctxt "block title"
-msgid "FCA Video"
-msgstr "FCA影片"
-
-#: includes/class-course-blocks-admin.php:124
-msgid "Button"
-msgstr "按鈕"
-
-#: includes/class-course-blocks-admin.php:130
-msgid "Callout"
-msgstr "大喊"
-
-#: includes/class-course-blocks-admin.php:125
-msgid "Card"
-msgstr "卡片"
-
-#: includes/class-course-blocks-admin.php:132
-msgid "Checklist"
-msgstr "檢查清單"
-
-#: includes/class-course-blocks-admin.php:133
-msgid "Code"
-msgstr "程式碼"
-
-#: includes/class-course-blocks-admin.php:355
-msgid "Collapsible"
-msgstr "可折疊的"
-
-#: includes/class-course-blocks-admin.php:292
-msgid "Content Width"
-msgstr "內容寬度"
-
-#: includes/class-course-blocks-admin.php:37
-#: includes/class-course-blocks-admin.php:38
-msgid "Course Blocks"
-msgstr "課程模組"
-
-#: includes/class-course-blocks-admin.php:161
-msgid "Course Blocks Settings"
-msgstr "課程模組設定"
-
-#: includes/class-course-blocks-admin.php:57
-#: includes/class-course-blocks-admin.php:58
-#: includes/class-course-blocks-admin.php:228
-msgid "Course Customisations"
-msgstr "課程客製化"
-
-#: includes/class-course-blocks-admin.php:276
-msgid "Custom Content Width"
-msgstr "自訂內容寬度"
-
-#. Description of the plugin
-msgid ""
-"Custom Gutenberg blocks for Fluent Community course lesson editor. Enables "
-"custom blocks that integrate seamlessly with Fluent Community's SPA "
-"environment."
-msgstr ""
-"適用於 Fluent Community 課程編輯器的自訂 Gutenberg 區塊。支援與 Fluent "
-"Community 的 SPA 環境無縫整合的自訂區塊。"
-
-#: includes/class-course-blocks-admin.php:229
-msgid ""
-"Customize the appearance and layout of course lessons and the lesson editor. "
-"Each setting works independently."
-msgstr "自訂課程課件和課件編輯器的外觀和佈局。每項設定均可獨立生效。"
-
-#: includes/class-course-blocks-admin.php:134
-msgid "Download"
-msgstr "下載"
-
-#: includes/class-course-blocks-admin.php:319
-msgid "Editor Sidebar Enhancement"
-msgstr "編輯器側邊欄增強"
-
-#: includes/class-course-blocks-admin.php:162
-msgid "Enable or disable which blocks are visible in the course lesson editor."
-msgstr "啟用或停用課程編輯器中顯示的模組。"
-
-#: includes/class-course-blocks-admin.php:240
-msgid "Enhanced Lesson Page Styling"
-msgstr "增強課程頁面樣式"
-
-#: includes/class-course-blocks-admin.php:136
-msgid "FC List"
-msgstr "FC列表"
-
-#: includes/class-course-blocks-admin.php:135
-msgid "FC Video Player"
-msgstr "FC 視訊播放器"
-
-#. Name of the plugin
-#: includes/class-course-blocks-core.php:456
-#: includes/class-course-blocks-core.php:525
-msgid "FCA Course Blocks"
-msgstr "FCA課程模組"
-
-#: includes/class-course-blocks-admin.php:137
-msgid "Flashcard"
-msgstr "閃卡"
-
-#. Author of the plugin
-msgid "Fluent Community Add-ons"
-msgstr "Fluent 社群外掛"
-
-#. Author URI of the plugin
-msgid "https://fluentcommunityaddons.com/"
-msgstr "https://fluentcommunityaddons.com/"
-
-#. URI of the plugin
-msgid "https://fluentcommunityaddons.com/fca-course-blocks"
-msgstr "https://fluentcommunityaddons.com/fca-course-blocks"
-
-#: includes/class-course-blocks-admin.php:126
-msgid "Image"
-msgstr "影像"
-
-#: includes/class-course-blocks-admin.php:138
-msgid "Image Hotspot"
-msgstr "圖片熱點"
-
-#: includes/class-course-blocks-admin.php:313
-msgid "Lesson Editor Settings"
-msgstr "課程編輯器設定"
-
-#: includes/class-course-blocks-admin.php:234
-msgid "Lesson Page Settings"
-msgstr "課程頁面設定"
-
-#: includes/class-course-blocks-admin.php:258
+#: includes/class-course-blocks-admin.php
 msgid "Move Sidebar to Left"
 msgstr "將側邊欄移至左側"
 
-#: includes/class-course-blocks-admin.php:337
-msgid "Off"
-msgstr "離開"
-
-#: includes/class-course-blocks-admin.php:277
-msgid "Override the default lesson content width with a custom value."
-msgstr "使用自訂值覆寫預設的課程內容寬度。"
-
-#: includes/class-course-blocks-admin.php:259
+#: includes/class-course-blocks-admin.php
 msgid ""
 "Position the lessons list sidebar on the left side instead of the default "
 "right side."
 msgstr "將課程清單側邊欄放置在左側，而不是預設的右側。"
 
-#: includes/class-course-blocks-admin.php:307
-msgid "px"
-msgstr "像素"
+#: includes/class-course-blocks-admin.php
+msgid "Custom Content Width"
+msgstr "自訂內容寬度"
 
-#: includes/class-course-blocks-admin.php:375
-msgid "Resizable"
-msgstr "可調整大小"
+#: includes/class-course-blocks-admin.php
+msgid "Override the default lesson content width with a custom value."
+msgstr "使用自訂值覆寫預設的課程內容寬度。"
 
-#: includes/class-course-blocks-admin.php:192
-#: includes/class-course-blocks-admin.php:384
-msgid "Save Settings"
-msgstr "儲存設定"
+#: includes/class-course-blocks-admin.php
+msgid "Content Width"
+msgstr "內容寬度"
 
-#: includes/class-course-blocks-admin.php:295
+#: includes/class-course-blocks-admin.php
 msgid "Set the maximum width for lesson content. Default is 720px."
 msgstr "設定課程內容的最大寬度。預設值為 720 像素。"
 
-#: includes/class-course-blocks-admin.php:155
-#: includes/class-course-blocks-admin.php:218
-msgid "Settings saved."
-msgstr "設定已儲存。"
+#: includes/class-course-blocks-admin.php
+msgid "px"
+msgstr "像素"
 
-#: includes/class-course-blocks-admin.php:129
-msgid "Tabs"
-msgstr "標籤頁"
+#: includes/class-course-blocks-admin.php
+msgid "Lesson Editor Settings"
+msgstr "課程編輯器設定"
 
-#: includes/class-course-blocks-admin.php:338
+#: includes/class-course-blocks-admin.php
+msgid "Editor Sidebar Enhancement"
+msgstr "編輯器側邊欄增強"
+
+#: includes/class-course-blocks-admin.php
+msgid ""
+"Add interactive controls to the lesson editor sidebar for better workspace "
+"management."
+msgstr "在課程編輯器側邊欄新增互動式控件，以便更好地管理工作區。"
+
+#: includes/class-course-blocks-admin.php
+msgid "Off"
+msgstr "離開"
+
+#: includes/class-course-blocks-admin.php
 msgid "Use the default Fluent Community editor sidebar without modifications."
 msgstr "使用 Fluent Community 編輯器預設的側邊欄，無需修改。"
 
-#: includes/class-course-blocks-admin.php:131
-msgid "Video"
-msgstr "影片"
+#: includes/class-course-blocks-admin.php
+msgid "Collapsible"
+msgstr "可折疊的"
+
+#: includes/class-course-blocks-admin.php
+msgid "Add a toggle button to collapse and expand the sidebar."
+msgstr "新增一個切換按鈕，用於折疊和展開側邊欄。"
+
+#: includes/class-course-blocks-admin.php
+msgid "Resizable"
+msgstr "可調整大小"
+
+#: includes/class-course-blocks-admin.php
+msgid "Add a drag handle to resize the sidebar width."
+msgstr "新增拖曳手把以調整側邊欄寬度。"
+
+#. Name of the plugin
+#: includes/class-course-blocks-core.php
+msgid "FCA Course Blocks"
+msgstr "FCA課程模組"

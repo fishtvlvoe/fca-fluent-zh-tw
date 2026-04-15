@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: FCA Events Basic 1.2.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-11 00:00+0000\n"
-"PO-Revision-Date: 2026-03-11 00:00+0800\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: BuyGo <info@aiver.me>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13,1083 +13,1798 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Claude Code\n"
+"X-Generator: auto-translate.py (polib)\n"
 
 #: fca-events-basic.php
-msgid "FCA Events Basic requires Fluent Community to be installed and activated."
-msgstr "FCA Events Basic 需要先安裝並啟用 Fluent Community。"
-
-msgid "Plugin Activation Error"
-msgstr "外掛啟用錯誤"
-
-#: includes/Core/Plugin.php
-msgid "Events"
-msgstr "活動"
-
-msgid "Event"
-msgstr "活動"
-
-msgid "Add New"
-msgstr "新增"
-
-msgid "Add New Event"
-msgstr "新增活動"
-
-msgid "Edit Event"
-msgstr "編輯活動"
-
-msgid "New Event"
-msgstr "新活動"
-
-msgid "View Event"
-msgstr "檢視活動"
-
-msgid "Search Events"
-msgstr "搜尋活動"
-
-msgid "No events found"
-msgstr "找不到活動"
-
-msgid "No events found in trash"
-msgstr "回收桶中沒有活動"
-
-msgid "All Events"
-msgstr "所有活動"
-
-msgid "Search Categories"
-msgstr "搜尋分類"
-
-msgid "Category"
-msgstr "分類"
-
-msgid "Edit Category"
-msgstr "編輯分類"
-
-msgid "Update Category"
-msgstr "更新分類"
-
-msgid "Add New Category"
-msgstr "新增分類"
-
-msgid "New Category Name"
-msgstr "新分類名稱"
-
-msgid "Loading..."
-msgstr "載入中..."
-
-msgid "Cancel"
-msgstr "取消"
-
-msgid "Save"
-msgstr "儲存"
-
-msgid "Saving..."
-msgstr "儲存中..."
-
-msgid "Delete"
-msgstr "刪除"
-
-msgid "Edit"
-msgstr "編輯"
-
-msgid "Create"
-msgstr "建立"
-
-msgid "Back"
-msgstr "返回"
-
-msgid "Retry"
-msgstr "重試"
-
-msgid "Search"
-msgstr "搜尋"
-
-msgid "Settings"
-msgstr "設定"
-
-msgid "Close"
-msgstr "關閉"
-
-msgid "Upcoming Events"
-msgstr "即將舉行的活動"
-
-msgid "Past Events"
-msgstr "過去的活動"
-
-msgid "Create Event"
-msgstr "建立活動"
-
-msgid "Save Event"
-msgstr "儲存活動"
-
-msgid "Delete Event"
-msgstr "刪除活動"
-
-msgid "Back to Events"
-msgstr "返回活動列表"
-
-msgid "Back to Event"
-msgstr "返回活動"
-
-msgid "Are you sure you want to delete this event?"
-msgstr "確定要刪除這個活動嗎？"
-
-msgid "Upcoming"
-msgstr "即將舉行"
-
-msgid "Past"
-msgstr "已結束"
-
-msgid "Saved"
-msgstr "已收藏"
-
-msgid "Drafts"
-msgstr "草稿"
-
-msgid "Sort by"
-msgstr "排序方式"
-
-msgid "Soonest first"
-msgstr "最近的在前"
-
-msgid "Latest first"
-msgstr "最新的在前"
-
-msgid "Grid"
-msgstr "網格"
-
-msgid "List"
-msgstr "列表"
-
-msgid "Week"
-msgstr "週"
-
-msgid "Date"
-msgstr "日期"
-
-msgid "Time"
-msgstr "時間"
-
-msgid "Location"
-msgstr "地點"
-
-msgid "Online Event"
-msgstr "線上活動"
-
-msgid "In-Person"
-msgstr "實體活動"
-
-msgid "About This Event"
-msgstr "關於此活動"
-
-msgid "No description provided."
-msgstr "尚未提供說明。"
-
-msgid "Details"
-msgstr "詳細資訊"
-
-msgid "Add to Calendar"
-msgstr "加入行事曆"
-
-msgid "Share"
-msgstr "分享"
-
-msgid "Open Event Link"
-msgstr "開啟活動連結"
-
-msgid "Event not found"
-msgstr "找不到活動"
-
-msgid "This event may have been removed."
-msgstr "此活動可能已被移除。"
-
-msgid "Google Calendar"
-msgstr "Google 日曆"
-
-msgid "Outlook"
-msgstr "Outlook"
-
-msgid "Yahoo"
-msgstr "Yahoo"
-
-msgid "Apple / .ics"
-msgstr "Apple / .ics"
-
-msgid "Event Title"
-msgstr "活動標題"
-
-msgid "Required"
-msgstr "必填"
-
-msgid "URL Slug"
-msgstr "網址代稱"
-
-msgid "Auto"
-msgstr "自動"
-
-msgid "Short Summary"
-msgstr "簡短摘要"
-
-msgid "Shown in listings"
-msgstr "顯示在列表中"
-
-msgid "Event Description"
-msgstr "活動說明"
-
-msgid "Featured Image"
-msgstr "精選圖片"
-
-msgid "Click to upload"
-msgstr "點擊上傳"
-
-msgid "PNG or JPG · 1200×630 recommended"
-msgstr "PNG 或 JPG，建議 1200×630"
-
-msgid "Start"
-msgstr "開始"
-
-msgid "End"
-msgstr "結束"
-
-msgid "Timezone"
-msgstr "時區"
-
-msgid "Venue"
-msgstr "場地"
-
-msgid "Meeting URL"
-msgstr "會議連結"
-
-msgid "External Link"
-msgstr "外部連結"
-
-msgid "Optional"
-msgstr "選填"
-
-msgid "No categories yet"
-msgstr "尚無分類"
-
-msgid "Publish"
-msgstr "發佈"
-
-msgid "Publishing..."
-msgstr "發佈中..."
-
-msgid "Save Changes"
-msgstr "儲存變更"
-
-msgid "Save Draft"
-msgstr "儲存草稿"
-
-msgid "Bold"
-msgstr "粗體"
-
-msgid "Italic"
-msgstr "斜體"
-
-msgid "Underline"
-msgstr "底線"
-
-msgid "Strikethrough"
-msgstr "刪除線"
-
-msgid "Code"
-msgstr "程式碼"
-
-msgid "Link"
-msgstr "連結"
-
-msgid "Bullet list"
-msgstr "項目符號清單"
-
-msgid "Numbered list"
-msgstr "編號清單"
-
-msgid "Heading 2"
-msgstr "標題 2"
-
-msgid "Heading 3"
-msgstr "標題 3"
-
-msgid "Quote"
-msgstr "引用"
-
-msgid "Code Block"
-msgstr "程式碼區塊"
-
-msgid "Horizontal Rule"
-msgstr "水平線"
-
-msgid "Insert Image"
-msgstr "插入圖片"
-
-msgid "Insert Video"
-msgstr "插入影片"
-
-msgid "Undo"
-msgstr "復原"
-
-msgid "Redo"
-msgstr "重做"
-
-msgid "Clear Formatting"
-msgstr "清除格式"
-
-msgid "Enter URL:"
-msgstr "輸入網址："
-
-msgid "Enter image URL:"
-msgstr "輸入圖片網址："
-
-msgid "Enter YouTube video URL:"
-msgstr "輸入 YouTube 影片網址："
-
-msgid "Draft"
-msgstr "草稿"
-
-msgid "Online"
-msgstr "線上"
-
-msgid "Previous"
-msgstr "上一頁"
-
-msgid "Next"
-msgstr "下一頁"
-
-msgid "No events"
-msgstr "沒有活動"
-
-msgid "You haven't saved any events yet."
-msgstr "你還沒有收藏任何活動。"
-
-msgid "There are no events matching your search."
-msgstr "沒有符合搜尋條件的活動。"
-
-msgid "Create an event"
-msgstr "建立活動"
-
-msgid "Or share with link"
-msgstr "或透過連結分享"
-
-msgid "Copied!"
-msgstr "已複製！"
-
-msgid "Copy link"
-msgstr "複製連結"
-
-msgid "Remove from saved"
-msgstr "取消收藏"
-
-msgid "Save event"
-msgstr "收藏活動"
-
-msgid "Search events…"
-msgstr "搜尋活動…"
-
-msgid "Enter a compelling event title"
-msgstr "輸入吸引人的活動標題"
-
-msgid "Brief description for event listings..."
-msgstr "活動列表的簡短說明..."
-
-msgid "Tell attendees what to expect..."
-msgstr "告訴參加者活動內容..."
-
-msgid "https://..."
-msgstr "https://..."
-
-msgid "https://zoom.us/j/..."
-msgstr "https://zoom.us/j/..."
-
-msgid "Venue name and address"
-msgstr "場地名稱與地址"
-
-msgid "Email"
-msgstr "電子郵件"
-
-msgid "Access Control"
-msgstr "存取控制"
-
-msgid "Control who can view events"
-msgstr "控制誰可以查看活動"
-
-msgid "Require login to view events"
-msgstr "需要登入才能查看活動"
-
-msgid "When enabled, only logged-in users can see events. When disabled, events are publicly visible."
-msgstr "啟用後，只有登入的使用者才能看到活動。停用後，活動會公開顯示。"
-
-msgid "Login Required"
-msgstr "需要登入"
-
-msgid "Please log in to view events."
-msgstr "請先登入以查看活動。"
-
-msgid "Log In"
-msgstr "登入"
-
-msgid "FluentCommunity Menu"
-msgstr "FluentCommunity 選單"
-
-msgid "Control where Events appears in the portal navigation"
-msgstr "控制活動在入口網站導覽中的顯示位置"
-
-msgid "Show in top navigation bar"
-msgstr "顯示在頂部導覽列"
-
-msgid "Displays an Events link in the portal header menu"
-msgstr "在入口網站的頂部選單中顯示活動連結"
-
-msgid "Show in sidebar"
-msgstr "顯示在側邊欄"
-
-msgid "Displays an Events group in the left sidebar"
-msgstr "在左側邊欄中顯示活動群組"
-
-msgid "Sidebar position"
-msgstr "側邊欄位置"
-
-msgid "Where the Events group appears relative to other menu items"
-msgstr "活動群組相對於其他選單項目的位置"
-
-msgid "Before defaults"
-msgstr "在預設項目之前"
-
-msgid "After defaults"
-msgstr "在預設項目之後"
-
-msgid "Sidebar group label"
-msgstr "側邊欄群組標籤"
-
-msgid "Text displayed as the sidebar section header"
-msgstr "顯示為側邊欄區段標題的文字"
-
-msgid "Sidebar item label"
-msgstr "側邊欄項目標籤"
-
-msgid "Text displayed for the Events menu item link"
-msgstr "活動選單項目連結顯示的文字"
-
-msgid "Upload failed"
-msgstr "上傳失敗"
-
-msgid "Image upload failed"
-msgstr "圖片上傳失敗"
-
-msgid "Failed to load event"
-msgstr "載入活動失敗"
-
-msgid "Failed to create category"
-msgstr "建立分類失敗"
-
-msgid "Title and date are required."
-msgstr "標題和日期為必填。"
-
-msgid "Save as Draft"
-msgstr "儲存為草稿"
-
-msgid "You are editing a draft."
-msgstr "你正在編輯草稿。"
-
-msgid "Draft of"
-msgstr "草稿來源"
-
-msgid "Original Event"
-msgstr "原始活動"
-
-msgid "Slug cannot be changed for drafts."
-msgstr "草稿無法變更網址代稱。"
-
-msgid "Publish Draft"
-msgstr "發佈草稿"
-
-msgid "Failed to load draft"
-msgstr "載入草稿失敗"
-
-msgid "This is a draft of a published event. Click to edit."
-msgstr "這是已發佈活動的草稿。點擊以編輯。"
-
-msgid "Skip to main content"
-msgstr "跳至主要內容"
-
-msgid "Event listings"
-msgstr "活動列表"
-
-msgid "Event categories"
-msgstr "活動分類"
-
-msgid "Filter by category"
-msgstr "依分類篩選"
-
-msgid "Change view layout"
-msgstr "變更檢視方式"
-
-msgid "Grid view"
-msgstr "網格檢視"
-
-msgid "List view"
-msgstr "列表檢視"
-
-msgid "Week view"
-msgstr "週檢視"
-
-msgid "View event details"
-msgstr "查看活動詳情"
-
-msgid "Toggle save event"
-msgstr "切換收藏活動"
-
-msgid "Event saved"
-msgstr "已收藏活動"
-
-msgid "Event removed from saved"
-msgstr "已取消收藏活動"
-
-msgid "Page navigation"
-msgstr "頁面導覽"
-
-msgid "Go to page"
-msgstr "前往頁面"
-
-msgid "Current page"
-msgstr "目前頁面"
-
-msgid "This field is required"
-msgstr "此欄位為必填"
-
-msgid "Please enter a valid URL"
-msgstr "請輸入有效的網址"
-
-msgid "Category name"
-msgstr "分類名稱"
-
-msgid "Creating..."
-msgstr "建立中..."
-
-msgid "Date & Time"
-msgstr "日期與時間"
-
-msgid "How dates and times are displayed to users"
-msgstr "日期和時間對使用者的顯示方式"
-
-msgid "Date Format"
-msgstr "日期格式"
-
-msgid "How event dates are displayed"
-msgstr "活動日期的顯示方式"
-
-msgid "Time Format"
-msgstr "時間格式"
-
-msgid "12-hour or 24-hour clock"
-msgstr "12 小時制或 24 小時制"
-
-msgid "12-hour"
-msgstr "12 小時制"
-
-msgid "24-hour"
-msgstr "24 小時制"
-
-msgid "Default Timezone"
-msgstr "預設時區"
-
-msgid "Used when no timezone is set on an event"
-msgstr "活動未設定時區時使用"
-
-msgid "Show timezone on event times"
-msgstr "在活動時間上顯示時區"
-
-msgid "Appends the event's timezone abbreviation to displayed times"
-msgstr "在顯示的時間後面附加活動的時區縮寫"
-
-msgid "Show user local timezone"
-msgstr "顯示使用者的本地時區"
-
-msgid "Automatically converts and displays times in the viewer's local timezone"
-msgstr "自動將時間轉換為觀看者的本地時區顯示"
-
-msgid "User timezone display mode"
-msgstr "使用者時區顯示模式"
-
-msgid "How the local timezone conversion is shown"
-msgstr "本地時區轉換的顯示方式"
-
-msgid "Local timezone only"
-msgstr "僅顯示本地時區"
-
-msgid "Event timezone + local in brackets"
-msgstr "活動時區 + 括號內顯示本地時區"
-
-msgid "Offset shorthand (e.g. EST+5)"
-msgstr "時差簡寫（例如 EST+5）"
-
-msgid "Both, with labels (Event: … / Your time: …)"
-msgstr "兩者皆顯示，附標籤（活動時間：… / 你的時間：…）"
-
-msgid "Week starts on"
-msgstr "每週起始日"
-
-msgid "First day of the week in the calendar week view"
-msgstr "行事曆週檢視中每週的第一天"
-
-msgid "Monday"
-msgstr "星期一"
-
-msgid "Sunday"
-msgstr "星期日"
-
-msgid "Event List Display"
-msgstr "活動列表顯示"
-
-msgid "Control how the events list looks and behaves"
-msgstr "控制活動列表的外觀和行為"
-
-msgid "Default view"
-msgstr "預設檢視"
-
-msgid "Initial view mode when users first visit events"
-msgstr "使用者首次造訪活動頁面時的初始檢視模式"
-
-msgid "Scroll mode"
-msgstr "捲動模式"
-
-msgid "How more events are loaded"
-msgstr "載入更多活動的方式"
-
-msgid "Pagination"
-msgstr "分頁"
-
-msgid "Infinite scroll"
-msgstr "無限捲動"
-
-msgid "Items per page"
-msgstr "每頁項目數"
-
-msgid "Number of events shown per page or load"
-msgstr "每頁或每次載入顯示的活動數量"
-
-msgid "Enabled Timezones"
-msgstr "啟用的時區"
-
-msgid "Select which timezones to show in the event creation dropdown"
-msgstr "選擇在建立活動的下拉選單中顯示哪些時區"
-
-msgid "Select All"
-msgstr "全選"
-
-msgid "Clear All"
-msgstr "全部清除"
-
-msgid "Summary"
-msgstr "摘要"
-
-msgid "Short summary displayed on event cards."
-msgstr "顯示在活動卡片上的簡短摘要。"
-
-msgid "This is an online event"
-msgstr "這是線上活動"
-
-msgid "Physical address or online meeting URL."
-msgstr "實體地址或線上會議連結。"
-
-msgid "Event Link URL"
-msgstr "活動連結網址"
-
-msgid "External link for the event (optional)."
-msgstr "活動的外部連結（選填）。"
-
-msgid "Short summary for event listings..."
-msgstr "活動列表的簡短摘要..."
-
-msgid "%label% Icon"
-msgstr "%label% 圖示"
-
-msgid "About"
-msgstr "關於"
-
-msgid "Activate the plugin through the 'Plugins' menu in WordPress"
-msgstr "透過 WordPress 的「外掛」選單啟用此外掛"
-
-msgid "Add events to calendar (Google, Outlook, Yahoo, Apple)"
-msgstr "新增活動到日曆（Google、Outlook、Yahoo、Apple）"
-
-msgid "Add new category"
-msgstr "新增分類"
-
-msgid "After Activation"
-msgstr "啟用後"
-
-msgid "All Categories"
-msgstr "所有分類"
-
-msgid "All events"
-msgstr "所有活動"
-
-msgid "Allow visitors to share events externally"
-msgstr "允許訪客對外分享活動"
-
-msgid "Allow visitors to share events externally via social/link sharing"
-msgstr "允許訪客透過社群或連結分享活動"
-
-msgid "Allowed Roles"
-msgstr "允許的角色"
-
-msgid "Apply"
-msgstr "套用"
-
-msgid "Are you sure you want to delete the category \"%name%\"?"
-msgstr "確定要刪除分類「%name%」嗎？"
-
-msgid "Beautiful grid layout showing upcoming events with featured images and date badges."
-msgstr "美觀的格狀排版，顯示即將到來的活動、精選圖片與日期標籤。"
-
-msgid "Brief summary displayed on event cards."
-msgstr "顯示在活動卡片上的簡短摘要。"
-
-msgid "Calendar view"
-msgstr "日曆檢視"
-
-msgid "Can edit all events"
-msgstr "可編輯所有活動"
-
-msgid "Can edit own events"
-msgstr "可編輯自己的活動"
-
-msgid "Can users register for events?"
-msgstr "使用者可以報名活動嗎？"
-
-msgid "Cannot delete category that has events assigned to it"
-msgstr "無法刪除已有活動的分類"
-
-msgid "Category Management"
-msgstr "分類管理"
-
-msgid "Category created successfully"
-msgstr "分類已成功建立"
-
-msgid "Category deleted successfully"
-msgstr "分類已成功刪除"
-
-msgid "Category updated successfully"
-msgstr "分類已成功更新"
-
-msgid "Change calendar view"
-msgstr "切換日曆檢視"
-
-msgid "Check"
-msgstr "查詢"
-
-msgid "Checking..."
-msgstr "查詢中..."
-
-msgid "Choose Icon"
-msgstr "選擇圖示"
-
-msgid "Configure display options, date/time formats, and menu placement."
-msgstr "設定顯示選項、日期/時間格式與選單位置。"
-
-msgid "Configure what appears on individual event pages"
-msgstr "設定個別活動頁面的顯示內容"
-
-msgid "Control which Fluent Community roles can create and manage events"
-msgstr "控制哪些 Fluent Community 角色可以建立和管理活動"
-
-msgid "Create Event Form"
-msgstr "建立活動表單"
-
-msgid "Create Events"
-msgstr "建立活動"
-
-msgid "Create and manage events with title, description, date, time, and location"
-msgstr "建立並管理包含標題、說明、日期、時間和地點的活動"
-
-msgid "Custom SVG"
-msgstr "自訂 SVG"
-
-msgid "Description"
-msgstr "說明"
-
-msgid "Display the section title above event descriptions"
-msgstr "在活動說明上方顯示區塊標題"
-
-msgid "Does this work without Fluent Community?"
-msgstr "沒有 Fluent Community 可以使用嗎？"
-
-msgid "Draft support with child draft system"
-msgstr "支援子草稿系統"
-
-msgid "Edit All Events"
-msgstr "編輯所有活動"
-
-msgid "Emoji"
-msgstr "Emoji"
-
-msgid "Enter provider name (e.g., Discord, Jitsi)"
-msgstr "輸入供應商名稱（例如 Discord、Jitsi）"
-
-msgid "Enter username or email"
-msgstr "輸入使用者名稱或電子郵件"
-
-msgid "Event Detail Page"
-msgstr "活動詳細頁面"
-
-msgid "Event Settings"
-msgstr "活動設定"
-
-msgid "Event Type & Location"
-msgstr "活動類型與地點"
-
-msgid "Event details"
-msgstr "活動詳情"
-
-msgid "Events Grid View"
-msgstr "活動格狀檢視"
-
-msgid "Events Permissions"
-msgstr "活動權限"
-
-msgid "FAQ"
-msgstr "常見問題"
-
-msgid "FC Global Permissions"
-msgstr "FC 全域權限"
-
-msgid "FC Roles Detected"
-msgstr "已偵測到 FC 角色"
-
-msgid "Features"
-msgstr "功能特色"
-
-msgid "Fluent Community"
-msgstr "Fluent Community"
-
-msgid "Fluent Community plugin"
-msgstr "Fluent Community 外掛"
-
-msgid "Frequently Asked Questions"
-msgstr "常見問題"
-
-msgid "Full event details with two-column layout showing information and actions."
-msgstr "完整活動詳情，採雙欄排版顯示資訊與操作。"
-
-msgid "Full timezone support with user local time display"
-msgstr "完整時區支援，顯示使用者本地時間"
-
-msgid "Go to Events in your WordPress admin to create your first event"
-msgstr "前往 WordPress 後台的活動，建立您的第一個活動"
-
-msgid "Header menu label"
-msgstr "頁首選單標籤"
-
-msgid "How do drafts work?"
-msgstr "草稿如何運作？"
-
-msgid "Hybrid"
-msgstr "混合型"
-
-msgid "Installation"
-msgstr "安裝說明"
-
-msgid "Intuitive event creation interface with all options organized in sections."
-msgstr "直覺式活動建立介面，所有選項依區塊整齊排列。"
-
-msgid "Is it multisite compatible?"
-msgstr "支援多站台嗎？"
-
-msgid "Link available %hours% hours before event"
-msgstr "活動開始前 %hours% 小時顯示連結"
-
-msgid "Link for attendees to join the meeting"
-msgstr "供出席者加入會議的連結"
-
-msgid "Look up a user's permissions across the community and events"
-msgstr "查詢使用者在社群和活動中的所有權限"
-
-msgid "Make sure Fluent Community is installed and activated"
-msgstr "請確認 Fluent Community 已安裝並啟用"
-
-msgid "Manage Events"
-msgstr "管理活動"
-
-msgid "Manage event categories"
-msgstr "管理活動分類"
-
-msgid "Meeting Provider"
-msgstr "會議供應商"
-
-msgid "Month"
-msgstr "月"
-
-msgid "Month view"
-msgstr "月檢視"
-
-msgid "Multiple display views: Grid, List, and Week"
-msgstr "多種顯示方式：格狀、列表和週檢視"
-
-msgid "No categories created yet"
-msgstr "尚未建立任何分類"
-
-msgid "No. This plugin is specifically designed as an add-on for Fluent Community and requires it to function."
-msgstr "不行。此外掛專為 Fluent Community 設計，需要安裝 Fluent Community 才能運作。"
-
-msgid "Not in this basic version. FCA Events Basic is for displaying events only. For registration and ticketing, check out our premium version."
-msgstr "基本版不支援。FCA Events Basic 僅供顯示活動使用。如需報名和票務功能，請參考我們的進階版本。"
-
-msgid "Other"
-msgstr "其他"
-
-msgid "PHP 7.4 or higher"
-msgstr "PHP 7.4 或更高版本"
-
-msgid "Page %current% of %total%"
-msgstr "第 %current% 頁，共 %total% 頁"
-
-msgid "Paste SVG code:"
-msgstr "貼上 SVG 程式碼："
-
-msgid "Paste a full <svg> element. It will be displayed at 20×20px in the menu."
-msgstr "貼上完整的 <svg> 元素，將以 20×20px 顯示在選單中。"
-
-msgid "Permissions Management"
-msgstr "權限管理"
-
-msgid "Permissions saved successfully."
-msgstr "權限已成功儲存。"
-
-msgid "Preview"
-msgstr "預覽"
-
-msgid "Provider Name"
-msgstr "供應商名稱"
-
-msgid "Recurring Event Not Available"
-msgstr "不支援週期性活動"
-
-msgid "Requirements"
-msgstr "系統需求"
-
-msgid "Reset"
-msgstr "重設"
-
-msgid "Save Permissions"
-msgstr "儲存權限"
-
-msgid "Save Settings"
-msgstr "儲存設定"
-
-msgid "Save/bookmark events for quick access"
-msgstr "儲存/書籤活動以快速存取"
-
-msgid "Schedule when link becomes visible"
-msgstr "設定連結顯示時間"
-
-msgid "Screenshots"
-msgstr "截圖"
-
-msgid "Seamless Fluent Community integration"
-msgstr "無縫整合 Fluent Community"
-
-msgid "Select Provider"
-msgstr "選擇供應商"
-
-msgid "Select month"
-msgstr "選擇月份"
-
-msgid "Select which FC roles can manage events. Admins can edit all events and access settings. Managers can edit all events. Moderators and Space Admins can only edit their own events."
-msgstr "選擇哪些 FC 角色可以管理活動。管理員可編輯所有活動並存取設定；管理者可編輯所有活動；版主和空間管理員只能編輯自己的活動。"
-
-msgid "Settings Access"
-msgstr "設定存取"
-
-msgid "Settings Page"
-msgstr "設定頁面"
-
-msgid "Settings saved successfully."
-msgstr "設定已成功儲存。"
-
-msgid "Show Share Button"
-msgstr "顯示分享按鈕"
-
-msgid "Show \"About This Event\" Title"
-msgstr "顯示「關於此活動」標題"
-
-msgid "Show link"
-msgstr "顯示連結"
-
-msgid "Simple events listing for Fluent Community. Basic event pages with calendar integration."
-msgstr "適用於 Fluent Community 的簡易活動列表，提供基本活動頁面與日曆整合。"
-
-msgid "Single Event Display"
-msgstr "單一活動顯示"
-
-msgid "Spaces"
-msgstr "空間"
-
-msgid "Support for both in-person and online events"
-msgstr "支援實體與線上活動"
-
-msgid "Text displayed for the Events link in the header menu"
-msgstr "頁首選單活動連結的顯示文字"
-
-msgid "The Events menu will automatically appear in your Fluent Community portal. You can configure settings via Events → Settings."
-msgstr "活動選單將自動出現在您的 Fluent Community 入口。您可透過「活動 → 設定」進行設定。"
-
-msgid "The join link will be hidden until this time"
-msgstr "加入連結將在此時間前隱藏"
-
-msgid "This is a recurring event from the legacy events system. Recurring events are not supported in the Basic version. Please contact your administrator for assistance."
-msgstr "這是來自舊版活動系統的週期性活動。基本版不支援週期性活動，請聯繫管理員協助處理。"
-
-msgid "Today"
-msgstr "今天"
-
-msgid "Upload the plugin files to /wp-content/plugins/fca-events-basic/"
-msgstr "將外掛檔案上傳至 /wp-content/plugins/fca-events-basic/"
-
-msgid "User Permission Check"
-msgstr "使用者權限查詢"
-
-msgid "Username or Email"
-msgstr "使用者名稱或電子郵件"
-
-msgid "Venue Address"
-msgstr "場地地址"
-
-msgid "View Details"
-msgstr "查看詳情"
-
-msgid "View details"
-msgstr "查看詳情"
-
-msgid "When editing a published event, you can click \"Save as Draft\" to create a child draft. The original event stays live while you work on changes. When ready, publish the draft to merge changes back into the original event."
-msgstr "編輯已發布的活動時，可點擊「儲存為草稿」建立子草稿。原始活動保持上線，您可在草稿中進行修改。準備好後，發布草稿即可將變更合併回原始活動。"
-
-msgid "WordPress 5.8 or higher"
-msgstr "WordPress 5.8 或更高版本"
-
-msgid "Yes, you can activate it on individual sites in a multisite network."
-msgstr "可以，您可以在多站台網路的個別站台上啟用。"
-
-msgid "hours before the event"
-msgstr "小時前"
-
-msgid "member (no manager role)"
-msgstr "成員（無管理者角色）"
-
-msgid "more"
-msgstr "更多"
-
-msgid "verified"
-msgstr "已驗證"
-
-msgid "✓ Saved!"
-msgstr "✓ 已儲存！"
-
 msgid "%1$s requires %2$s to be installed and activated."
 msgstr "%1$s 需要先安裝並啟用 %2$s。"
 
+#: fca-events-basic.php
+msgid ""
+"FCA Events Basic requires Fluent Community to be installed and activated."
+msgstr "FCA Events Basic 需要先安裝並啟用 Fluent Community。"
+
+#: fca-events-basic.php
+msgid "Plugin Activation Error"
+msgstr "外掛啟用錯誤"
+
+#: fca-events-basic.php includes/Core/Plugin.php
+msgid "Events"
+msgstr "活動"
+
+#: boot/basic-bootstrap.php
+msgid "Events per page"
+msgstr ""
+
+#: boot/basic-bootstrap.php includes/Core/Plugin.php
+msgid "Grid"
+msgstr "網格"
+
+#: boot/basic-bootstrap.php includes/Core/Plugin.php
+msgid "List"
+msgstr "列表"
+
+#: boot/basic-bootstrap.php
+msgid "Calendar"
+msgstr ""
+
+#: boot/basic-bootstrap.php
+msgid "Default events view"
+msgstr ""
+
+#: includes/Core/Feed_Widget.php
+msgid "View all"
+msgstr "查看全部"
+
+#: includes/Core/Feed_Widget.php
 msgid "No upcoming events"
 msgstr "沒有即將舉行的活動"
 
-msgid "View all"
-msgstr "查看全部"
+#: includes/Core/Feed_Widget.php includes/Core/Plugin.php
+msgid "Upcoming Events"
+msgstr "即將舉行的活動"
+
+#: includes/Core/Feed_Widget.php includes/Core/Plugin.php
+msgid "Online"
+msgstr "線上"
+
+#: includes/Core/Permissions.php includes/Core/Plugin.php
+msgid "Please log in to view events."
+msgstr "請先登入以查看活動。"
+
+#: includes/Core/Permissions.php
+msgid "Fluent Community is required."
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "You do not have access to the portal."
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "You do not have permission to manage events."
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "You do not have permission to manage this event."
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "Admin"
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "Manager"
+msgstr ""
+
+#: includes/Core/Permissions.php includes/Core/Plugin.php
+msgid "Event Manager"
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "Moderator"
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "Space Admin"
+msgstr ""
+
+#: includes/Core/Permissions.php
+msgid "Member"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Can create and manage events across all spaces"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "View Details"
+msgstr "查看詳情"
+
+#: includes/Core/Plugin.php
+msgid "Close"
+msgstr "關閉"
+
+#: includes/Core/Plugin.php
+msgid "Event"
+msgstr "活動"
+
+#: includes/Core/Plugin.php
+msgid "Add New"
+msgstr "新增"
+
+#: includes/Core/Plugin.php
+msgid "Add New Event"
+msgstr "新增活動"
+
+#: includes/Core/Plugin.php
+msgid "Edit Event"
+msgstr "編輯活動"
+
+#: includes/Core/Plugin.php
+msgid "New Event"
+msgstr "新活動"
+
+#: includes/Core/Plugin.php
+msgid "View Event"
+msgstr "檢視活動"
+
+#: includes/Core/Plugin.php
+msgid "Search Events"
+msgstr "搜尋活動"
+
+#: includes/Core/Plugin.php
+msgid "No events found"
+msgstr "找不到活動"
+
+#: includes/Core/Plugin.php
+msgid "No events found in trash"
+msgstr "回收桶中沒有活動"
+
+#: includes/Core/Plugin.php
+msgid "All Events"
+msgstr "所有活動"
+
+#: includes/Core/Plugin.php
+msgid "Categories"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Category"
+msgstr "分類"
+
+#: includes/Core/Plugin.php
+msgid "Search Categories"
+msgstr "搜尋分類"
+
+#: includes/Core/Plugin.php
+msgid "All Categories"
+msgstr "所有分類"
+
+#: includes/Core/Plugin.php
+msgid "Edit Category"
+msgstr "編輯分類"
+
+#: includes/Core/Plugin.php
+msgid "Update Category"
+msgstr "更新分類"
+
+#: includes/Core/Plugin.php
+msgid "Add New Category"
+msgstr "新增分類"
+
+#: includes/Core/Plugin.php
+msgid "New Category Name"
+msgstr "新分類名稱"
+
+#: includes/Core/Plugin.php
+msgid "Loading..."
+msgstr "載入中..."
+
+#: includes/Core/Plugin.php
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/Core/Plugin.php
+msgid "Save"
+msgstr "儲存"
+
+#: includes/Core/Plugin.php
+msgid "Saving..."
+msgstr "儲存中..."
+
+#: includes/Core/Plugin.php
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/Core/Plugin.php
+msgid "Edit"
+msgstr "編輯"
+
+#: includes/Core/Plugin.php
+msgid "Create"
+msgstr "建立"
+
+#: includes/Core/Plugin.php
+msgid "Back"
+msgstr "返回"
+
+#: includes/Core/Plugin.php
+msgid "Retry"
+msgstr "重試"
+
+#: includes/Core/Plugin.php
+msgid "Select spaces"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Clear all"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "All spaces (no restriction)"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "spaces selected"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/Core/Plugin.php
+msgid "Settings"
+msgstr "設定"
+
+#: includes/Core/Plugin.php
+msgid "Event Details"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Past Events"
+msgstr "過去的活動"
+
+#: includes/Core/Plugin.php
+msgid "Create Event"
+msgstr "建立活動"
+
+#: includes/Core/Plugin.php
+msgid "Save Event"
+msgstr "儲存活動"
+
+#: includes/Core/Plugin.php
+msgid "Delete Event"
+msgstr "刪除活動"
+
+#: includes/Core/Plugin.php
+msgid "Back to Events"
+msgstr "返回活動列表"
+
+#: includes/Core/Plugin.php
+msgid "Back to Event"
+msgstr "返回活動"
+
+#: includes/Core/Plugin.php
+msgid "Are you sure you want to delete this event?"
+msgstr "確定要刪除這個活動嗎？"
+
+#: includes/Core/Plugin.php
+msgid "Upcoming"
+msgstr "即將舉行"
+
+#: includes/Core/Plugin.php
+msgid "Past"
+msgstr "已結束"
+
+#: includes/Core/Plugin.php
+msgid "Saved"
+msgstr "已收藏"
+
+#: includes/Core/Plugin.php
+msgid "Drafts"
+msgstr "草稿"
+
+#: includes/Core/Plugin.php
+msgid "Sort by"
+msgstr "排序方式"
+
+#: includes/Core/Plugin.php
+msgid "Soonest first"
+msgstr "最近的在前"
+
+#: includes/Core/Plugin.php
+msgid "Latest first"
+msgstr "最新的在前"
+
+#: includes/Core/Plugin.php
+msgid "Week"
+msgstr "週"
+
+#: includes/Core/Plugin.php
+msgid "Date"
+msgstr "日期"
+
+#: includes/Core/Plugin.php
+msgid "Time"
+msgstr "時間"
+
+#: includes/Core/Plugin.php
+msgid "Location"
+msgstr "地點"
+
+#: includes/Core/Plugin.php
+msgid "Online Event"
+msgstr "線上活動"
+
+#: includes/Core/Plugin.php
+msgid "In-Person"
+msgstr "實體活動"
+
+#: includes/Core/Plugin.php
+msgid "Hybrid"
+msgstr "混合型"
+
+#: includes/Core/Plugin.php
+msgid "Venue"
+msgstr "場地"
+
+#: includes/Core/Plugin.php
+msgid "About This Event"
+msgstr "關於此活動"
+
+#: includes/Core/Plugin.php
+msgid "No description provided."
+msgstr "尚未提供說明。"
+
+#: includes/Core/Plugin.php
+msgid "Details"
+msgstr "詳細資訊"
+
+#: includes/Core/Plugin.php
+msgid "Add to Calendar"
+msgstr "加入行事曆"
+
+#: includes/Core/Plugin.php
+msgid "Share"
+msgstr "分享"
+
+#: includes/Core/Plugin.php
+msgid "Open Event Link"
+msgstr "開啟活動連結"
+
+#: includes/Core/Plugin.php
+msgid "Join Event"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Event not found"
+msgstr "找不到活動"
+
+#: includes/Core/Plugin.php
+msgid "This event may have been removed."
+msgstr "此活動可能已被移除。"
+
+#: includes/Core/Plugin.php
+msgid "Meeting Provider"
+msgstr "會議供應商"
+
+#: includes/Core/Plugin.php
+msgid "Select Provider"
+msgstr "選擇供應商"
+
+#: includes/Core/Plugin.php
+msgid "Other"
+msgstr "其他"
+
+#: includes/Core/Plugin.php
+msgid "Zoom"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Google Meet"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Microsoft Teams"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Webex"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Provider Name"
+msgstr "供應商名稱"
+
+#: includes/Core/Plugin.php
+msgid "Enter provider name (e.g., Discord, Jitsi)"
+msgstr "輸入供應商名稱（例如 Discord、Jitsi）"
+
+#: includes/Core/Plugin.php
+msgid "Link for attendees to join the meeting"
+msgstr "供出席者加入會議的連結"
+
+#: includes/Core/Plugin.php
+msgid "Schedule when link becomes visible"
+msgstr "設定連結顯示時間"
+
+#: includes/Core/Plugin.php
+msgid "Show link"
+msgstr "顯示連結"
+
+#: includes/Core/Plugin.php
+msgid "hours before the event"
+msgstr "小時前"
+
+#: includes/Core/Plugin.php
+msgid "The join link will be hidden until this time"
+msgstr "加入連結將在此時間前隱藏"
+
+#: includes/Core/Plugin.php
+msgid "Link available %hours% hours before event"
+msgstr "活動開始前 %hours% 小時顯示連結"
+
+#: includes/Core/Plugin.php
+msgid "Event Type & Location"
+msgstr "活動類型與地點"
+
+#: includes/Core/Plugin.php
+msgid "Venue Address"
+msgstr "場地地址"
+
+#: includes/Core/Plugin.php
+msgid "Google Calendar"
+msgstr "Google 日曆"
+
+#: includes/Core/Plugin.php
+msgid "Outlook"
+msgstr "Outlook"
+
+#: includes/Core/Plugin.php
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: includes/Core/Plugin.php
+msgid "Apple / .ics"
+msgstr "Apple / .ics"
+
+#: includes/Core/Plugin.php
+msgid "Event Title"
+msgstr "活動標題"
+
+#: includes/Core/Plugin.php
+msgid "Required"
+msgstr "必填"
+
+#: includes/Core/Plugin.php
+msgid "URL Slug"
+msgstr "網址代稱"
+
+#: includes/Core/Plugin.php
+msgid "Auto"
+msgstr "自動"
+
+#: includes/Core/Plugin.php
+msgid "Short Summary"
+msgstr "簡短摘要"
+
+#: includes/Core/Plugin.php
+msgid "Shown in listings"
+msgstr "顯示在列表中"
+
+#: includes/Core/Plugin.php
+msgid "Event Description"
+msgstr "活動說明"
+
+#: includes/Core/Plugin.php
+msgid "Featured Image"
+msgstr "精選圖片"
+
+#: includes/Core/Plugin.php
+msgid "Click to upload"
+msgstr "點擊上傳"
+
+#: includes/Core/Plugin.php
+msgid "PNG or JPG · 1200×630 recommended"
+msgstr "PNG 或 JPG，建議 1200×630"
+
+#: includes/Core/Plugin.php
+msgid "Start"
+msgstr "開始"
+
+#: includes/Core/Plugin.php
+msgid "End"
+msgstr "結束"
+
+#: includes/Core/Plugin.php
+msgid "Timezone"
+msgstr "時區"
+
+#: includes/Core/Plugin.php
+msgid "Meeting URL"
+msgstr "會議連結"
+
+#: includes/Core/Plugin.php
+msgid "External Link"
+msgstr "外部連結"
+
+#: includes/Core/Plugin.php
+msgid "Optional"
+msgstr "選填"
+
+#: includes/Core/Plugin.php
+msgid "No categories yet"
+msgstr "尚無分類"
+
+#: includes/Core/Plugin.php
+msgid "Publish"
+msgstr "發佈"
+
+#: includes/Core/Plugin.php
+msgid "Publishing..."
+msgstr "發佈中..."
+
+#: includes/Core/Plugin.php
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/Core/Plugin.php
+msgid "Save Draft"
+msgstr "儲存草稿"
+
+#: includes/Core/Plugin.php
+msgid "Bold"
+msgstr "粗體"
+
+#: includes/Core/Plugin.php
+msgid "Italic"
+msgstr "斜體"
+
+#: includes/Core/Plugin.php
+msgid "Underline"
+msgstr "底線"
+
+#: includes/Core/Plugin.php
+msgid "Strikethrough"
+msgstr "刪除線"
+
+#: includes/Core/Plugin.php
+msgid "Code"
+msgstr "程式碼"
+
+#: includes/Core/Plugin.php
+msgid "Link"
+msgstr "連結"
+
+#: includes/Core/Plugin.php
+msgid "Bullet list"
+msgstr "項目符號清單"
+
+#: includes/Core/Plugin.php
+msgid "Numbered list"
+msgstr "編號清單"
+
+#: includes/Core/Plugin.php
+msgid "Heading 2"
+msgstr "標題 2"
+
+#: includes/Core/Plugin.php
+msgid "Heading 3"
+msgstr "標題 3"
+
+#: includes/Core/Plugin.php
+msgid "Quote"
+msgstr "引用"
+
+#: includes/Core/Plugin.php
+msgid "Code Block"
+msgstr "程式碼區塊"
+
+#: includes/Core/Plugin.php
+msgid "Horizontal Rule"
+msgstr "水平線"
+
+#: includes/Core/Plugin.php
+msgid "Insert Image"
+msgstr "插入圖片"
+
+#: includes/Core/Plugin.php
+msgid "Insert Video"
+msgstr "插入影片"
+
+#: includes/Core/Plugin.php
+msgid "Undo"
+msgstr "復原"
+
+#: includes/Core/Plugin.php
+msgid "Redo"
+msgstr "重做"
+
+#: includes/Core/Plugin.php
+msgid "Clear Formatting"
+msgstr "清除格式"
+
+#: includes/Core/Plugin.php
+msgid "Enter URL:"
+msgstr "輸入網址："
+
+#: includes/Core/Plugin.php
+msgid "Enter image URL:"
+msgstr "輸入圖片網址："
+
+#: includes/Core/Plugin.php
+msgid "Enter YouTube video URL:"
+msgstr "輸入 YouTube 影片網址："
+
+#: includes/Core/Plugin.php
+msgid "Draft"
+msgstr "草稿"
+
+#: includes/Core/Plugin.php
+msgid "TBA"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Previous"
+msgstr "上一頁"
+
+#: includes/Core/Plugin.php
+msgid "Next"
+msgstr "下一頁"
+
+#: includes/Core/Plugin.php
+msgid "Page %current% of %total%"
+msgstr "第 %current% 頁，共 %total% 頁"
+
+#: includes/Core/Plugin.php
+msgid "No events"
+msgstr "沒有活動"
+
+#: includes/Core/Plugin.php
+msgid "Single Event Display"
+msgstr "單一活動顯示"
+
+#: includes/Core/Plugin.php
+msgid "Configure what appears on individual event pages"
+msgstr "設定個別活動頁面的顯示內容"
+
+#: includes/Core/Plugin.php
+msgid "Show Share Button"
+msgstr "顯示分享按鈕"
+
+#: includes/Core/Plugin.php
+msgid "Allow visitors to share events externally via social/link sharing"
+msgstr "允許訪客透過社群或連結分享活動"
+
+#: includes/Core/Plugin.php
+msgid "Show \"About This Event\" Title"
+msgstr "顯示「關於此活動」標題"
+
+#: includes/Core/Plugin.php
+msgid "Display the section title above event descriptions"
+msgstr "在活動說明上方顯示區塊標題"
+
+#: includes/Core/Plugin.php
+msgid "Show Summary on Cards"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Display event summary on grid view cards"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "User Permission Check"
+msgstr "使用者權限查詢"
+
+#: includes/Core/Plugin.php
+msgid "Look up a user's permissions across the community and events"
+msgstr "查詢使用者在社群和活動中的所有權限"
+
+#: includes/Core/Plugin.php
+msgid "Username or Email"
+msgstr "使用者名稱或電子郵件"
+
+#: includes/Core/Plugin.php
+msgid "Enter username or email"
+msgstr "輸入使用者名稱或電子郵件"
+
+#: includes/Core/Plugin.php
+msgid "Checking..."
+msgstr "查詢中..."
+
+#: includes/Core/Plugin.php
+msgid "Check"
+msgstr "查詢"
+
+#: includes/Core/Plugin.php
+msgid "verified"
+msgstr "已驗證"
+
+#: includes/Core/Plugin.php
+msgid "member (no manager role)"
+msgstr "成員（無管理者角色）"
+
+#: includes/Core/Plugin.php
+msgid "Spaces"
+msgstr "空間"
+
+#: includes/Core/Plugin.php
+msgid "Events Permissions"
+msgstr "活動權限"
+
+#: includes/Core/Plugin.php
+msgid "Manage Events"
+msgstr "管理活動"
+
+#: includes/Core/Plugin.php
+msgid "Create Events"
+msgstr "建立活動"
+
+#: includes/Core/Plugin.php
+msgid "Edit All Events"
+msgstr "編輯所有活動"
+
+#: includes/Core/Plugin.php
+msgid "Settings Access"
+msgstr "設定存取"
+
+#: includes/Core/Plugin.php
+msgid "FC Roles Detected"
+msgstr "已偵測到 FC 角色"
+
+#: includes/Core/Plugin.php
+msgid "Allowed Roles"
+msgstr "允許的角色"
+
+#: includes/Core/Plugin.php
+msgid "FC Global Permissions"
+msgstr "FC 全域權限"
+
+#: includes/Core/Plugin.php
+msgid "You haven't saved any events yet."
+msgstr "你還沒有收藏任何活動。"
+
+#: includes/Core/Plugin.php
+msgid "There are no events matching your search."
+msgstr "沒有符合搜尋條件的活動。"
+
+#: includes/Core/Plugin.php
+msgid "Create an event"
+msgstr "建立活動"
+
+#: includes/Core/Plugin.php
+msgid "Or share with link"
+msgstr "或透過連結分享"
+
+#: includes/Core/Plugin.php
+msgid "Copied!"
+msgstr "已複製！"
+
+#: includes/Core/Plugin.php
+msgid "Copy link"
+msgstr "複製連結"
+
+#: includes/Core/Plugin.php
+msgid "Remove from saved"
+msgstr "取消收藏"
+
+#: includes/Core/Plugin.php
+msgid "Save event"
+msgstr "收藏活動"
+
+#: includes/Core/Plugin.php
+msgid "Search events…"
+msgstr "搜尋活動…"
+
+#: includes/Core/Plugin.php
+msgid "Enter a compelling event title"
+msgstr "輸入吸引人的活動標題"
+
+#: includes/Core/Plugin.php
+msgid "Brief description for event listings..."
+msgstr "活動列表的簡短說明..."
+
+#: includes/Core/Plugin.php
+msgid "Tell attendees what to expect..."
+msgstr "告訴參加者活動內容..."
+
+#: includes/Core/Plugin.php
+msgid "https://..."
+msgstr "https://..."
+
+#: includes/Core/Plugin.php
+msgid "https://zoom.us/j/..."
+msgstr "https://zoom.us/j/..."
+
+#: includes/Core/Plugin.php
+msgid "Venue name and address"
+msgstr "場地名稱與地址"
+
+#: includes/Core/Plugin.php
+msgid "Email"
+msgstr "電子郵件"
+
+#: includes/Core/Plugin.php
+msgid "Event Settings"
+msgstr "活動設定"
+
+#: includes/Core/Plugin.php
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: includes/Core/Plugin.php
+msgid "Settings saved successfully."
+msgstr "設定已成功儲存。"
+
+#: includes/Core/Plugin.php
+msgid "Date & Time"
+msgstr "日期與時間"
+
+#: includes/Core/Plugin.php
+msgid "How dates and times are displayed to users"
+msgstr "日期和時間對使用者的顯示方式"
+
+#: includes/Core/Plugin.php
+msgid "Date Format"
+msgstr "日期格式"
+
+#: includes/Core/Plugin.php
+msgid "How event dates are displayed"
+msgstr "活動日期的顯示方式"
+
+#: includes/Core/Plugin.php
+msgid "Short Date Format"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Compact format for mobile lists and calendar views"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Medium Date Format"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Medium format for cards and grid views"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Long Date Format"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Full format for event details page"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/Core/Plugin.php
+msgid "Color"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Time Format"
+msgstr "時間格式"
+
+#: includes/Core/Plugin.php
+msgid "12-hour or 24-hour clock"
+msgstr "12 小時制或 24 小時制"
+
+#: includes/Core/Plugin.php
+msgid "12-hour"
+msgstr "12 小時制"
+
+#: includes/Core/Plugin.php
+msgid "24-hour"
+msgstr "24 小時制"
+
+#: includes/Core/Plugin.php
+msgid "Default Timezone"
+msgstr "預設時區"
+
+#: includes/Core/Plugin.php
+msgid "Used when no timezone is set on an event"
+msgstr "活動未設定時區時使用"
+
+#: includes/Core/Plugin.php
+msgid "Enabled Timezones"
+msgstr "啟用的時區"
+
+#: includes/Core/Plugin.php
+msgid "Select which timezones to show in the event creation dropdown"
+msgstr "選擇在建立活動的下拉選單中顯示哪些時區"
+
+#: includes/Core/Plugin.php
+msgid "Select All"
+msgstr "全選"
+
+#: includes/Core/Plugin.php
+msgid "Clear All"
+msgstr "全部清除"
+
+#: includes/Core/Plugin.php
+msgid "Show timezone on event times"
+msgstr "在活動時間上顯示時區"
+
+#: includes/Core/Plugin.php
+msgid "Appends the event's timezone abbreviation to displayed times"
+msgstr "在顯示的時間後面附加活動的時區縮寫"
+
+#: includes/Core/Plugin.php
+msgid "Show user local timezone"
+msgstr "顯示使用者的本地時區"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Automatically converts and displays times in the viewer's local timezone"
+msgstr "自動將時間轉換為觀看者的本地時區顯示"
+
+#: includes/Core/Plugin.php
+msgid "User timezone display mode"
+msgstr "使用者時區顯示模式"
+
+#: includes/Core/Plugin.php
+msgid "How the local timezone conversion is shown"
+msgstr "本地時區轉換的顯示方式"
+
+#: includes/Core/Plugin.php
+msgid "Local timezone only"
+msgstr "僅顯示本地時區"
+
+#: includes/Core/Plugin.php
+msgid "Event timezone + local in brackets"
+msgstr "活動時區 + 括號內顯示本地時區"
+
+#: includes/Core/Plugin.php
+msgid "Offset shorthand (e.g. EST+5)"
+msgstr "時差簡寫（例如 EST+5）"
+
+#: includes/Core/Plugin.php
+msgid "Both, with labels (Event: … / Your time: …)"
+msgstr "兩者皆顯示，附標籤（活動時間：… / 你的時間：…）"
+
+#: includes/Core/Plugin.php
+msgid "Week starts on"
+msgstr "每週起始日"
+
+#: includes/Core/Plugin.php
+msgid "First day of the week in the calendar week view"
+msgstr "行事曆週檢視中每週的第一天"
+
+#: includes/Core/Plugin.php
+msgid "Monday"
+msgstr "星期一"
+
+#: includes/Core/Plugin.php
+msgid "Sunday"
+msgstr "星期日"
+
+#: includes/Core/Plugin.php
+msgid "Event List Display"
+msgstr "活動列表顯示"
+
+#: includes/Core/Plugin.php
+msgid "Control how the events list looks and behaves"
+msgstr "控制活動列表的外觀和行為"
+
+#: includes/Core/Plugin.php
+msgid "Default view"
+msgstr "預設檢視"
+
+#: includes/Core/Plugin.php
+msgid "Initial view mode when users first visit events"
+msgstr "使用者首次造訪活動頁面時的初始檢視模式"
+
+#: includes/Core/Plugin.php
+msgid "Scroll mode"
+msgstr "捲動模式"
+
+#: includes/Core/Plugin.php
+msgid "How more events are loaded"
+msgstr "載入更多活動的方式"
+
+#: includes/Core/Plugin.php
+msgid "Pagination"
+msgstr "分頁"
+
+#: includes/Core/Plugin.php
+msgid "Infinite scroll"
+msgstr "無限捲動"
+
+#: includes/Core/Plugin.php
+msgid "Items per page"
+msgstr "每頁項目數"
+
+#: includes/Core/Plugin.php
+msgid "Number of events shown per page or load"
+msgstr "每頁或每次載入顯示的活動數量"
+
+#: includes/Core/Plugin.php
+msgid "Access Control"
+msgstr "存取控制"
+
+#: includes/Core/Plugin.php
+msgid "Control who can view events"
+msgstr "控制誰可以查看活動"
+
+#: includes/Core/Plugin.php
+msgid "Require login to view events"
+msgstr "需要登入才能查看活動"
+
+#: includes/Core/Plugin.php
+msgid ""
+"When enabled, only logged-in users can see events. When disabled, events are "
+"publicly visible."
+msgstr "啟用後，只有登入的使用者才能看到活動。停用後，活動會公開顯示。"
+
+#: includes/Core/Plugin.php
+msgid "FluentCommunity Menu"
+msgstr "FluentCommunity 選單"
+
+#: includes/Core/Plugin.php
+msgid "Control where Events appears in the portal navigation"
+msgstr "控制活動在入口網站導覽中的顯示位置"
+
+#: includes/Core/Plugin.php
+msgid "Show in top navigation bar"
+msgstr "顯示在頂部導覽列"
+
+#: includes/Core/Plugin.php
+msgid "Displays an Events link in the portal header menu"
+msgstr "在入口網站的頂部選單中顯示活動連結"
+
+#: includes/Core/Plugin.php
+msgid "Header menu label"
+msgstr "頁首選單標籤"
+
+#: includes/Core/Plugin.php
+msgid "Text displayed for the Events link in the header menu"
+msgstr "頁首選單活動連結的顯示文字"
+
+#: includes/Core/Plugin.php
+msgid "Show in sidebar"
+msgstr "顯示在側邊欄"
+
+#: includes/Core/Plugin.php
+msgid "Displays an Events group in the left sidebar"
+msgstr "在左側邊欄中顯示活動群組"
+
+#: includes/Core/Plugin.php
+msgid "Sidebar position"
+msgstr "側邊欄位置"
+
+#: includes/Core/Plugin.php
+msgid "Where the Events group appears relative to other menu items"
+msgstr "活動群組相對於其他選單項目的位置"
+
+#: includes/Core/Plugin.php
+msgid "Before defaults"
+msgstr "在預設項目之前"
+
+#: includes/Core/Plugin.php
+msgid "After defaults"
+msgstr "在預設項目之後"
+
+#: includes/Core/Plugin.php
+msgid "Sidebar group label"
+msgstr "側邊欄群組標籤"
+
+#: includes/Core/Plugin.php
+msgid "Text displayed as the sidebar section header"
+msgstr "顯示為側邊欄區段標題的文字"
+
+#: includes/Core/Plugin.php
+msgid "Sidebar item label"
+msgstr "側邊欄項目標籤"
+
+#: includes/Core/Plugin.php
+msgid "Text displayed for the Events menu item link"
+msgstr "活動選單項目連結顯示的文字"
+
+#: includes/Core/Plugin.php
+msgid "Upload failed"
+msgstr "上傳失敗"
+
+#: includes/Core/Plugin.php
+msgid "Image upload failed"
+msgstr "圖片上傳失敗"
+
+#: includes/Core/Plugin.php
+msgid "Failed to load event"
+msgstr "載入活動失敗"
+
+#: includes/Core/Plugin.php
+msgid "Failed to create category"
+msgstr "建立分類失敗"
+
+#: includes/Core/Plugin.php
+msgid "Title and date are required."
+msgstr "標題和日期為必填。"
+
+#: includes/Core/Plugin.php
+msgid "Login Required"
+msgstr "需要登入"
+
+#: includes/Core/Plugin.php
+msgid "Log In"
+msgstr "登入"
+
+#: includes/Core/Plugin.php
+msgid "Category name"
+msgstr "分類名稱"
+
+#: includes/Core/Plugin.php
+msgid "Creating..."
+msgstr "建立中..."
+
+#: includes/Core/Plugin.php
+msgid "Permissions Management"
+msgstr "權限管理"
+
+#: includes/Core/Plugin.php
+msgid "Control which Fluent Community roles can create and manage events"
+msgstr "控制哪些 Fluent Community 角色可以建立和管理活動"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Select which FC roles can manage events. Admins can edit all events and "
+"access settings. Managers can edit all events. Moderators and Space Admins "
+"can only edit their own events."
+msgstr ""
+"選擇哪些 FC 角色可以管理活動。管理員可編輯所有活動並存取設定；管理者可編輯所"
+"有活動；版主和空間管理員只能編輯自己的活動。"
+
+#: includes/Core/Plugin.php
+msgid "Can edit all events"
+msgstr "可編輯所有活動"
+
+#: includes/Core/Plugin.php
+msgid "Can edit own events"
+msgstr "可編輯自己的活動"
+
+#: includes/Core/Plugin.php
+msgid "Save Permissions"
+msgstr "儲存權限"
+
+#: includes/Core/Plugin.php
+msgid "Permissions saved successfully."
+msgstr "權限已成功儲存。"
+
+#: includes/Core/Plugin.php
+msgid "Reset"
+msgstr "重設"
+
+#: includes/Core/Plugin.php
+msgid "Save as Draft"
+msgstr "儲存為草稿"
+
+#: includes/Core/Plugin.php
+msgid "You are editing a draft."
+msgstr "你正在編輯草稿。"
+
+#: includes/Core/Plugin.php
+msgid "Draft of"
+msgstr "草稿來源"
+
+#: includes/Core/Plugin.php
+msgid "Original Event"
+msgstr "原始活動"
+
+#: includes/Core/Plugin.php
+msgid "Slug cannot be changed for drafts."
+msgstr "草稿無法變更網址代稱。"
+
+#: includes/Core/Plugin.php
+msgid "Publish Draft"
+msgstr "發佈草稿"
+
+#: includes/Core/Plugin.php
+msgid "Space Settings"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Restrict to spaces"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Only members of these spaces can see this event in the global list"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Show this event in the global event list"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid ""
+"By default, space-restricted events only appear in the space calendar. Check "
+"this to also show the event in the community-wide event list."
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Pin to feed sidebar"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Show this event as a featured card in the main feed sidebar widget."
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Failed to load draft"
+msgstr "載入草稿失敗"
+
+#: includes/Core/Plugin.php
+msgid "This is a draft of a published event. Click to edit."
+msgstr "這是已發佈活動的草稿。點擊以編輯。"
+
+#: includes/Core/Plugin.php
+msgid "Recurring Event Not Available"
+msgstr "不支援週期性活動"
+
+#: includes/Core/Plugin.php
+msgid ""
+"This is a recurring event from the legacy events system. Recurring events "
+"are not supported in the Basic version. Please contact your administrator "
+"for assistance."
+msgstr ""
+"這是來自舊版活動系統的週期性活動。基本版不支援週期性活動，請聯繫管理員協助處"
+"理。"
+
+#: includes/Core/Plugin.php
+msgid "Skip to main content"
+msgstr "跳至主要內容"
+
+#: includes/Core/Plugin.php
+msgid "Event listings"
+msgstr "活動列表"
+
+#: includes/Core/Plugin.php
+msgid "Event categories"
+msgstr "活動分類"
+
+#: includes/Core/Plugin.php
+msgid "Filter by category"
+msgstr "依分類篩選"
+
+#: includes/Core/Plugin.php
+msgid "Change view layout"
+msgstr "變更檢視方式"
+
+#: includes/Core/Plugin.php
+msgid "Grid view"
+msgstr "網格檢視"
+
+#: includes/Core/Plugin.php
+msgid "List view"
+msgstr "列表檢視"
+
+#: includes/Core/Plugin.php
+msgid "Week view"
+msgstr "週檢視"
+
+#: includes/Core/Plugin.php
+msgid "Calendar view"
+msgstr "日曆檢視"
+
+#: includes/Core/Plugin.php
+msgid "Month"
+msgstr "月"
+
+#: includes/Core/Plugin.php
+msgid "Today"
+msgstr "今天"
+
+#: includes/Core/Plugin.php
+msgid "Month view"
+msgstr "月檢視"
+
+#: includes/Core/Plugin.php
+msgid "Select month"
+msgstr "選擇月份"
+
+#: includes/Core/Plugin.php
+msgid "more"
+msgstr "更多"
+
+#: includes/Core/Plugin.php
+msgid "View details"
+msgstr "查看詳情"
+
+#: includes/Core/Plugin.php
+msgid "Change calendar view"
+msgstr "切換日曆檢視"
+
+#: includes/Core/Plugin.php
+msgid "Event details"
+msgstr "活動詳情"
+
+#: includes/Core/Plugin.php
+msgid "View event details"
+msgstr "查看活動詳情"
+
+#: includes/Core/Plugin.php
+msgid "Toggle save event"
+msgstr "切換收藏活動"
+
+#: includes/Core/Plugin.php
+msgid "Event saved"
+msgstr "已收藏活動"
+
+#: includes/Core/Plugin.php
+msgid "Event removed from saved"
+msgstr "已取消收藏活動"
+
+#: includes/Core/Plugin.php
+msgid "Page navigation"
+msgstr "頁面導覽"
+
+#: includes/Core/Plugin.php
+msgid "Go to page"
+msgstr "前往頁面"
+
+#: includes/Core/Plugin.php
+msgid "Current page"
+msgstr "目前頁面"
+
+#: includes/Core/Plugin.php
+msgid "This field is required"
+msgstr "此欄位為必填"
+
+#: includes/Core/Plugin.php
+msgid "Please enter a valid URL"
+msgstr "請輸入有效的網址"
+
+#: includes/Core/Plugin.php
+msgid "Category Management"
+msgstr "分類管理"
+
+#: includes/Core/Plugin.php
+msgid "Manage event categories"
+msgstr "管理活動分類"
+
+#: includes/Core/Plugin.php
+msgid "No categories created yet"
+msgstr "尚未建立任何分類"
+
+#: includes/Core/Plugin.php
+msgid "Category created successfully"
+msgstr "分類已成功建立"
+
+#: includes/Core/Plugin.php
+msgid "Category updated successfully"
+msgstr "分類已成功更新"
+
+#: includes/Core/Plugin.php
+msgid "Category deleted successfully"
+msgstr "分類已成功刪除"
+
+#: includes/Core/Plugin.php
+msgid "Cannot delete category that has events assigned to it"
+msgstr "無法刪除已有活動的分類"
+
+#: includes/Core/Plugin.php
+msgid "Are you sure you want to delete the category \"%name%\"?"
+msgstr "確定要刪除分類「%name%」嗎？"
+
+#: includes/Core/Plugin.php
+msgid "Add new category"
+msgstr "新增分類"
+
+#: includes/Core/Plugin.php
+msgid "✓ Saved!"
+msgstr "✓ 已儲存！"
+
+#: includes/Core/Plugin.php
+msgid "Allow visitors to share events externally"
+msgstr "允許訪客對外分享活動"
+
+#: includes/Core/Plugin.php
+msgid "Fluent Community"
+msgstr "Fluent Community"
+
+#: includes/Core/Plugin.php
+msgid "Choose Icon"
+msgstr "選擇圖示"
+
+#: includes/Core/Plugin.php
+msgid "Emoji"
+msgstr "Emoji"
+
+#: includes/Core/Plugin.php
+msgid "Custom SVG"
+msgstr "自訂 SVG"
+
+#: includes/Core/Plugin.php
+msgid "Paste SVG code:"
+msgstr "貼上 SVG 程式碼："
+
+#: includes/Core/Plugin.php
+msgid ""
+"Paste a full <svg> element. It will be displayed at 20×20px in the menu."
+msgstr "貼上完整的 <svg> 元素，將以 20×20px 顯示在選單中。"
+
+#: includes/Core/Plugin.php
+msgid "Apply"
+msgstr "套用"
+
+#: includes/Core/Plugin.php
+msgid "Type or paste any emoji"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Custom color"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Header Icon"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Sidebar Icon"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Feed Widgets"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Display upcoming events in the main feed sidebar"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Show Feed Widgets"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Display upcoming events on the main feed page"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Widget Title"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Title displayed above the events list"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Number of Events"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "How many upcoming events to display (1-10)"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Yes"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "No"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Custom Translations"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid ""
+"Override individual text strings without installing a translation plugin"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Edit Translations"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "translations customized"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid ""
+"Override any text string used in the events plugin. Leave the custom field "
+"empty to use the default. Changes are saved automatically and apply to all "
+"users."
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Default"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Leave empty for default"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Reset All"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Are you sure you want to reset all custom translations to defaults?"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Done"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Search translations..."
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "translations found"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "via %provider%"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "WP Roles"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Invalid format"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "event-slug"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "%title% in %space%"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "%action% in %space%"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Show Pinned Events"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Display pinned events at the top of the widget"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Description"
+msgstr "說明"
+
+#: includes/Core/Plugin.php
+msgid "Installation"
+msgstr "安裝說明"
+
+#: includes/Core/Plugin.php
+msgid "FAQ"
+msgstr "常見問題"
+
+#: includes/Core/Plugin.php
+msgid "Screenshots"
+msgstr "截圖"
+
+#: includes/Core/Plugin.php
+msgid "About"
+msgstr "關於"
+
+#: includes/Core/Plugin.php
+msgid "Features"
+msgstr "功能特色"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Create and manage events with title, description, date, time, and location"
+msgstr "建立並管理包含標題、說明、日期、時間和地點的活動"
+
+#: includes/Core/Plugin.php
+msgid "Support for both in-person and online events"
+msgstr "支援實體與線上活動"
+
+#: includes/Core/Plugin.php
+msgid "Multiple display views: Grid, List, and Week"
+msgstr "多種顯示方式：格狀、列表和週檢視"
+
+#: includes/Core/Plugin.php
+msgid "Save/bookmark events for quick access"
+msgstr "儲存/書籤活動以快速存取"
+
+#: includes/Core/Plugin.php
+msgid "Add events to calendar (Google, Outlook, Yahoo, Apple)"
+msgstr "新增活動到日曆（Google、Outlook、Yahoo、Apple）"
+
+#: includes/Core/Plugin.php
+msgid "Full timezone support with user local time display"
+msgstr "完整時區支援，顯示使用者本地時間"
+
+#: includes/Core/Plugin.php
+msgid "Draft support with child draft system"
+msgstr "支援子草稿系統"
+
+#: includes/Core/Plugin.php
+msgid "Seamless Fluent Community integration"
+msgstr "無縫整合 Fluent Community"
+
+#: includes/Core/Plugin.php
+msgid "Requirements"
+msgstr "系統需求"
+
+#: includes/Core/Plugin.php
+msgid "WordPress 5.8 or higher"
+msgstr "WordPress 5.8 或更高版本"
+
+#: includes/Core/Plugin.php
+msgid "PHP 7.4 or higher"
+msgstr "PHP 7.4 或更高版本"
+
+#: includes/Core/Plugin.php
+msgid "Fluent Community plugin"
+msgstr "Fluent Community 外掛"
+
+#: includes/Core/Plugin.php
+msgid "Upload the plugin files to /wp-content/plugins/fca-events-basic/"
+msgstr "將外掛檔案上傳至 /wp-content/plugins/fca-events-basic/"
+
+#: includes/Core/Plugin.php
+msgid "Activate the plugin through the 'Plugins' menu in WordPress"
+msgstr "透過 WordPress 的「外掛」選單啟用此外掛"
+
+#: includes/Core/Plugin.php
+msgid "Make sure Fluent Community is installed and activated"
+msgstr "請確認 Fluent Community 已安裝並啟用"
+
+#: includes/Core/Plugin.php
+msgid "Go to Events in your WordPress admin to create your first event"
+msgstr "前往 WordPress 後台的活動，建立您的第一個活動"
+
+#: includes/Core/Plugin.php
+msgid "After Activation"
+msgstr "啟用後"
+
+#: includes/Core/Plugin.php
+msgid ""
+"The Events menu will automatically appear in your Fluent Community portal. "
+"You can configure settings via Events → Settings."
+msgstr ""
+"活動選單將自動出現在您的 Fluent Community 入口。您可透過「活動 → 設定」進行設"
+"定。"
+
+#: includes/Core/Plugin.php
+msgid "Frequently Asked Questions"
+msgstr "常見問題"
+
+#: includes/Core/Plugin.php
+msgid "Does this work without Fluent Community?"
+msgstr "沒有 Fluent Community 可以使用嗎？"
+
+#: includes/Core/Plugin.php
+msgid ""
+"No. This plugin is specifically designed as an add-on for Fluent Community "
+"and requires it to function."
+msgstr ""
+"不行。此外掛專為 Fluent Community 設計，需要安裝 Fluent Community 才能運作。"
+
+#: includes/Core/Plugin.php
+msgid "Can users register for events?"
+msgstr "使用者可以報名活動嗎？"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Not in this basic version. FCA Events Basic is for displaying events only. "
+"For registration and ticketing, check out our premium version."
+msgstr ""
+"基本版不支援。FCA Events Basic 僅供顯示活動使用。如需報名和票務功能，請參考我"
+"們的進階版本。"
+
+#: includes/Core/Plugin.php
+msgid "How do drafts work?"
+msgstr "草稿如何運作？"
+
+#: includes/Core/Plugin.php
+msgid ""
+"When editing a published event, you can click \"Save as Draft\" to create a "
+"child draft. The original event stays live while you work on changes. When "
+"ready, publish the draft to merge changes back into the original event."
+msgstr ""
+"編輯已發布的活動時，可點擊「儲存為草稿」建立子草稿。原始活動保持上線，您可在"
+"草稿中進行修改。準備好後，發布草稿即可將變更合併回原始活動。"
+
+#: includes/Core/Plugin.php
+msgid "Is it multisite compatible?"
+msgstr "支援多站台嗎？"
+
+#: includes/Core/Plugin.php
+msgid "Yes, you can activate it on individual sites in a multisite network."
+msgstr "可以，您可以在多站台網路的個別站台上啟用。"
+
+#: includes/Core/Plugin.php
+msgid "Events Grid View"
+msgstr "活動格狀檢視"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Beautiful grid layout showing upcoming events with featured images and date "
+"badges."
+msgstr "美觀的格狀排版，顯示即將到來的活動、精選圖片與日期標籤。"
+
+#: includes/Core/Plugin.php
+msgid "Event Detail Page"
+msgstr "活動詳細頁面"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Full event details with two-column layout showing information and actions."
+msgstr "完整活動詳情，採雙欄排版顯示資訊與操作。"
+
+#: includes/Core/Plugin.php
+msgid "Create Event Form"
+msgstr "建立活動表單"
+
+#: includes/Core/Plugin.php
+msgid ""
+"Intuitive event creation interface with all options organized in sections."
+msgstr "直覺式活動建立介面，所有選項依區塊整齊排列。"
+
+#: includes/Core/Plugin.php
+msgid "Week View"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "See events grouped by day for the current week."
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Settings Page"
+msgstr "設定頁面"
+
+#: includes/Core/Plugin.php
+msgid "Configure display options, date/time formats, and menu placement."
+msgstr "設定顯示選項、日期/時間格式與選單位置。"
+
+#: includes/Core/Plugin.php
+msgid "Summary"
+msgstr "摘要"
+
+#: includes/Core/Plugin.php
+msgid "Short summary displayed on event cards."
+msgstr "顯示在活動卡片上的簡短摘要。"
+
+#: includes/Core/Plugin.php
+msgid "This is an online event"
+msgstr "這是線上活動"
+
+#: includes/Core/Plugin.php
+msgid "Location / URL"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "Physical address or online meeting URL."
+msgstr "實體地址或線上會議連結。"
+
+#: includes/Core/Plugin.php
+msgid "Event Link URL"
+msgstr "活動連結網址"
+
+#: includes/Core/Plugin.php
+msgid "External link for the event (optional)."
+msgstr "活動的外部連結（選填）。"
+
+#: includes/Core/Plugin.php
+msgid "Start Time"
+msgstr ""
+
+#: includes/Core/Plugin.php
+msgid "End Time"
+msgstr ""
+
+#: includes/Routes/api.php
+msgid "Only admins can access settings."
+msgstr ""
+
+#: includes/Routes/api.php
+msgid "Invalid translations data."
+msgstr ""
+
+#: includes/Routes/api.php
+msgid "Invalid permissions data."
+msgstr ""

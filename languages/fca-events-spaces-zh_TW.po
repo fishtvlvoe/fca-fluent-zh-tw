@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: FCA Events Spaces 1.0.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 00:00+0000\n"
-"PO-Revision-Date: 2026-04-08 00:00+0800\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: BuyGo <info@aiver.me>\n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -13,79 +13,147 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Claude Code\n"
+"X-Generator: auto-translate.py (polib)\n"
 
 #: fca-events-spaces.php
-msgid "FCA Events Spaces requires FCA Events Basic to be installed and activated."
-msgstr "FCA Events Spaces 需要先安裝並啟用 FCA Events Basic。"
-
-msgid "FCA Events Spaces requires Fluent Community to be installed and activated."
+msgid ""
+"FCA Events Spaces requires Fluent Community to be installed and activated."
 msgstr "FCA Events Spaces 需要先安裝並啟用 Fluent Community。"
 
+#: fca-events-spaces.php
 msgid "Plugin Activation Error"
 msgstr "外掛啟用錯誤"
 
-#: includes/Spaces/Space_Meta.php
-msgid "Events"
-msgstr "活動"
+#: fca-events-spaces.php
+msgid ""
+"FCA Events Spaces requires FCA Events Basic to be installed and activated."
+msgstr "FCA Events Spaces 需要先安裝並啟用 FCA Events Basic。"
 
-msgid "Enable events for this space"
-msgstr "為此空間啟用活動"
+#: fca-events-spaces.php
+msgid "Events Spaces"
+msgstr ""
 
-msgid "Allow members to create and view events specific to this space."
-msgstr "允許成員建立並查看此空間的專屬活動。"
+#: fca-events-spaces.php
+msgid "Enable space-specific events"
+msgstr ""
 
-msgid "Show upcoming events widget in sidebar"
-msgstr "在側邊欄顯示即將舉行的活動小工具"
-
-msgid "Display a widget with upcoming space events in the sidebar."
-msgstr "在側邊欄顯示包含即將舉行的空間活動的小工具。"
-
-msgid "Widget Title"
-msgstr "小工具標題"
-
-msgid "Title displayed above the events widget."
-msgstr "顯示在活動小工具上方的標題。"
-
-msgid "Widget Position"
-msgstr "小工具位置"
-
-msgid "Where to display the events widget in the space sidebar."
-msgstr "活動小工具在空間側邊欄的顯示位置。"
-
-msgid "Before activity feed"
-msgstr "在動態消息之前"
-
-msgid "After activity feed"
-msgstr "在動態消息之後"
-
-msgid "Widget Event Count"
-msgstr "小工具活動數量"
-
-msgid "Number of upcoming events to display in the widget."
-msgstr "小工具中顯示的即將舉行活動數量。"
-
-#: includes/Space_Events_Widget.php
-msgid "Space Events"
-msgstr "空間活動"
-
+#: includes/Space_Events_Widget.php includes/Spaces/Space_API.php
+#: includes/Spaces/Spaces_Bootstrap.php includes/Spaces/Space_Meta.php
 msgid "Upcoming Events"
 msgstr "即將舉行的活動"
 
-msgid "No upcoming events"
-msgstr "沒有即將舉行的活動"
+#: includes/Space_Events_Widget.php
+msgid "View all"
+msgstr ""
 
-msgid "Loading..."
-msgstr "載入中..."
+#: includes/Space_Events_Widget.php
+msgid "Online"
+msgstr ""
 
-msgid "Unable to load events"
-msgstr "無法載入活動"
+#: includes/Spaces/Space_API.php
+msgid "Fluent Community is required."
+msgstr ""
 
-msgid "Error loading events"
-msgstr "載入活動時發生錯誤"
+#: includes/Spaces/Space_API.php
+msgid "Space not found."
+msgstr ""
 
+#: includes/Spaces/Space_API.php
+msgid "You do not have access to this space."
+msgstr ""
+
+#: includes/Spaces/Space_API.php
+msgid "Events are not enabled for this space."
+msgstr ""
+
+#: includes/Spaces/Space_API.php
+msgid "Please log in to view space settings."
+msgstr ""
+
+#: includes/Spaces/Space_API.php
+msgid "You do not have access to the portal."
+msgstr ""
+
+#: includes/Spaces/Spaces_Bootstrap.php includes/Spaces/Space_Menu.php
+msgid "Events"
+msgstr "活動"
+
+#: includes/Spaces/Spaces_Bootstrap.php includes/Spaces/Space_Widget.php
 msgid "Space not found"
 msgstr "找不到空間"
 
+#: includes/Spaces/Spaces_Bootstrap.php
 msgid "Events are not enabled for this space"
 msgstr "此空間未啟用活動功能"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Space Events"
+msgstr "空間活動"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Enable events for this space"
+msgstr "為此空間啟用活動"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Allow members to create and view events specific to this space."
+msgstr "允許成員建立並查看此空間的專屬活動。"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Show upcoming events widget in sidebar"
+msgstr "在側邊欄顯示即將舉行的活動小工具"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Display a widget with upcoming space events in the sidebar."
+msgstr "在側邊欄顯示包含即將舉行的空間活動的小工具。"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Widget Event Count"
+msgstr "小工具活動數量"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Number of upcoming events to display in the widget."
+msgstr "小工具中顯示的即將舉行活動數量。"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Widget Title"
+msgstr "小工具標題"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Title displayed above the events widget."
+msgstr "顯示在活動小工具上方的標題。"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Widget Position"
+msgstr "小工具位置"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Before activity feed"
+msgstr "在動態消息之前"
+
+#: includes/Spaces/Space_Meta.php
+msgid "After activity feed"
+msgstr "在動態消息之後"
+
+#: includes/Spaces/Space_Meta.php
+msgid "Where to display the events widget in the space sidebar."
+msgstr "活動小工具在空間側邊欄的顯示位置。"
+
+#: includes/Spaces/Space_Widget.php
+msgid "Loading..."
+msgstr "載入中..."
+
+#: includes/Spaces/Space_Widget.php
+msgid "No upcoming events"
+msgstr "沒有即將舉行的活動"
+
+#: includes/Spaces/Space_Widget.php
+msgid "Unable to load events"
+msgstr "無法載入活動"
+
+#: includes/Spaces/Basic_API_Integration.php
+msgid "Filter events by space ID."
+msgstr ""
+
+#: includes/Spaces/Basic_API_Integration.php
+msgid "Filter events by space slug."
+msgstr ""

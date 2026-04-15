@@ -1,0 +1,15 @@
+{
+    "Email Templates": "電子郵件範本",
+    "These templates are used for automated emails sent to event attendees. You can create custom templates or edit the default ones.": "這些範本用於發送給活動參加者的自動化電子郵件。您可以建立自訂範本或編輯預設範本。",
+    "How it works:": "運作方式：",
+    "Set one template as \"Default\" per category - this will be used for all events unless overridden": "每個分類設定一個範本為「預設」- 除非被覆蓋，否則這將用於所有活動",
+    "Override default templates on individual events using the Email Templates section in the event editor": "在活動編輯器的「電子郵件範本」區塊中，可以針對個別活動覆蓋預設範本",
+    "Use placeholders like {event_title} and {user_name} to personalize emails": "使用如 {event_title} 和 {user_name} 的佔位符來個人化電子郵件",
+    "Registration Confirmation": "報名確認",
+    "Event Reminder": "活動提醒",
+    "Waitlist Notification": "候補名單通知",
+    "Registration Cancellation": "報名取消通知",
+    "Event Update": "活動更新通知",
+    "Template Category": "範本分類",
+    "Default": "預設"
+}

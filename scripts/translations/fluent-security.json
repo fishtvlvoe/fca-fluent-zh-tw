@@ -1,0 +1,22 @@
+{
+    "Enable auto-scanning of your Core WordPress files and get emails if there has any un-authorized file changes.": "啟用 WordPress 核心檔案自動掃描，若發現任何未經授權的檔案變更，您將收到電子郵件通知。",
+    "If a user fails to log in %1s times within %2s minutes minutes, the system will block the user for %3s minutes.": "如果使用者在 %2s 分鐘內登入失敗 %1s 次，系統將封鎖該使用者 %3s 分鐘。",
+    "Ensure your WordPress core files remain secure by detecting any unauthorized changes or tampering": "透過偵測任何未經授權的變更或竄改，確保您的 WordPress 核心檔案保持安全。",
+    "Replace Default Signup Form with Secure form with Email Verfication (Recommended: Enable)": "使用帶有電子郵件驗證的安全表單取代預設註冊表單（建議：啟用）",
+    "Disable REST Endpoint for wp users query for public (Recommended: Disable)": "停用針對公眾的 WordPress 使用者查詢 REST 端點（建議：停用）",
+    "Full Authentication Flow ShortCode (includes Login Form, Registration Form and Password Reset Form)": "完整認證流程短代碼（包含登入、註冊與密碼重設表單）",
+    "Customize Your Email Template Design": "自訂您的電子郵件範本設計",
+    "Recent Failed & Blocked Logins": "最近失敗與被封鎖的登入",
+    "Social Login/Signup Settings": "社群登入/註冊設定",
+    "System Emails Customizations": "系統電子郵件自訂",
+    "Login Try Limit per IP address in certain defined minutes": "在指定分鐘內每個 IP 地址的登入嘗試限制",
+    "Enable Magic Login (User can login via url sent to email)": "啟用 Magic Login（使用者可透過發送至信箱的連結登入）",
+    "Recommended settings has been applied. Please review and save the settings": "已套用建議設定。請查看並儲存設定。",
+    "Please get a free API key to enable Scheduled Scanning and get notified when FluentAuth detects file changes.": "請取得免費 API 金鑰以啟用排程掃描，並在 FluentAuth 偵測到檔案變更時獲得通知。",
+    "Start Scan Your Site": "開始掃描您的網站",
+    "Security Scans": "安全性掃描",
+    "Login Notifications": "登入通知",
+    "Login Redirects": "登入重新導向",
+    "Auth Shortcodes": "認證短代碼",
+    "Core Security Settings": "核心安全設定"
+}

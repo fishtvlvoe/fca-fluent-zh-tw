@@ -4,9 +4,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: FluentPlayer Pro 1.0.3\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-player-pro\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fluent-player-"
+"pro\n"
 "POT-Creation-Date: 2026-03-11 00:00+0800\n"
-"PO-Revision-Date: 2026-03-11 00:00+0800\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: \n"
 "Language-Team: Traditional Chinese (Taiwan)\n"
 "Language: zh_TW\n"
@@ -14,940 +15,1134 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fluent-player-pro\n"
+"X-Generator: auto-translate.py (polib)\n"
 
-#. Plugin Name of the plugin
-#: fluent-player-pro.php
-msgid "FluentPlayer Pro"
-msgstr "FluentPlayer Pro"
-
-#. Plugin URI of the plugin
-#. Author URI of the plugin
-#: fluent-player-pro.php
-msgid "https://fluentplayer.com"
-msgstr "https://fluentplayer.com"
-
-#. Description of the plugin
-#: fluent-player-pro.php
-msgid "Pro extension for FluentPlayer - Adds advanced integrations and features"
-msgstr "FluentPlayer 的 Pro 延伸外掛 - 新增進階整合功能與特色"
-
-#. Author of the plugin
-#: fluent-player-pro.php
-msgid "WPManageNinja"
-msgstr "WPManageNinja"
-
-#: app/Blocks/PlaylistBlock.php:23
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:34
+#: app/Blocks/PlaylistBlock.php app/Hooks/Handlers/FluentPlaylistCPT.php
 msgid "Fluent Playlist"
 msgstr "Fluent 播放清單"
 
-#: app/Blocks/PlaylistBlock.php:24
+#: app/Blocks/PlaylistBlock.php
 msgid "Add a FluentPlayer playlist to your content"
 msgstr "在內容中加入 FluentPlayer 播放清單"
 
-#: app/Blocks/PlaylistBlock.php:110
+#: app/Blocks/PlaylistBlock.php
 msgid "Please select a playlist to display."
 msgstr "請選擇要顯示的播放清單。"
 
-#: app/EmailProviders/MailchimpProvider.php:31
-#: app/EmailProviders/MailchimpProvider.php:296
-msgid "API key is required for Mailchimp"
-msgstr "Mailchimp 需要提供 API Key"
+#: app/Utils/Provider/Mailchimp.php
+msgid "Subscriber added but failed to add tags"
+msgstr "訂閱者已新增，但標籤新增失敗"
 
-#: app/EmailProviders/MailchimpProvider.php:62
-#: app/Integrations/BunnyCDNStreamIntegration.php:129
+#: app/Utils/Provider/Webhook.php
+msgid "Webhook sent successfully"
+msgstr "Webhook 傳送成功"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "API Key is required"
+msgstr "API Key 為必填"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/MuxIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Setup Instructions"
+msgstr "設定說明"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "BunnyCDN Stream Setup Guide"
+msgstr "BunnyCDN Stream 設定指南"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 1: Create BunnyCDN Account"
+msgstr "步驟 1：建立 BunnyCDN 帳號"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"If you don't have a BunnyCDN account yet, visit the BunnyCDN website and "
+"create a new account."
+msgstr "若您尚無 BunnyCDN 帳號，請前往 BunnyCDN 網站建立新帳號。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Visit BunnyCDN"
+msgstr "前往 BunnyCDN"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Step 2: Access Account Settings"
+msgstr "步驟 2：進入帳號設定"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Once logged in, navigate to your account settings to find the API section."
+msgstr "登入後，前往帳號設定以找到 API 區段。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Click on profile icon of the top left and select Account Settings then API "
+"Key from the menu in your BunnyCDN dashboard."
+msgstr ""
+"點擊左上角的個人資料圖示，在 BunnyCDN 儀表板選單中選擇「帳號設定」，再選"
+"「API Key」。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Get API Key"
+msgstr "取得 API Key"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Step 3: Copy API Key"
+msgstr "步驟 3：複製 API Key"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"In the API section, generate a new API key or copy your existing one. This "
+"key will be used to authenticate API requests."
+msgstr ""
+"在 API 區段中，產生新的 API Key 或複製現有金鑰。此金鑰將用於驗證 API 請求。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Keep this API key secure and never share it publicly."
+msgstr "請妥善保管此 API Key，切勿公開分享。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Step 4: Create Stream Library"
+msgstr "步驟 4：建立 Stream 媒體庫"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Create a new Stream library in your BunnyCDN dashboard if you haven't "
+"already. This is where your videos will be stored."
+msgstr ""
+"若尚未建立，請在 BunnyCDN 儀表板建立新的 Stream 媒體庫，影片將儲存於此。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "You can create multiple libraries for different projects or purposes."
+msgstr "您可以針對不同專案或用途建立多個媒體庫。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 5: Configure Integration"
+msgstr "步驟 5：設定整合"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Enter your API key in the field below and enable the integration. The system "
+"will automatically test the connection."
+msgstr "在以下欄位輸入您的 API Key 並啟用整合，系統將自動測試連線。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 6: Secure Your Videos (Optional)"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"To protect your videos with signed URLs, enable Token Authentication on your "
+"Stream library in the BunnyCDN dashboard. FluentPlayer will automatically "
+"sign all video requests."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Go to Stream → Your Library → Security → Enable \"Token Authentication\"."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Step 7: Configure Allowed Referrers"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"If you enable \"Block None Referrer\" on your Stream library, you must add "
+"your website domain to the Allowed Referrers list, otherwise all video "
+"requests will be blocked."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid ""
+"Go to Stream → Your Library → Security → Allowed Referrers → Add your domain "
+"(e.g., yourdomain.com)."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Step 8: Test Connection"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"After saving your settings, use the \"Test Connection\" button to verify "
+"that the integration is working correctly."
+msgstr "儲存設定後，使用「測試連線」按鈕驗證整合是否正常運作。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Enable BunnyCDN Stream"
+msgstr "啟用 BunnyCDN Stream"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Enable BunnyCDN Stream integration for video hosting"
+msgstr "啟用 BunnyCDN Stream 整合以進行影片托管"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/EmailProviders/MailchimpProvider.php
 msgid "API Key"
 msgstr "API Key"
 
-#: app/EmailProviders/MailchimpProvider.php:64
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Your BunnyCDN API key from the account settings"
+msgstr "您帳號設定中的 BunnyCDN API Key"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Enter your BunnyCDN API key"
+msgstr "輸入您的 BunnyCDN API Key"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Invalid API key. Please check your BunnyCDN credentials."
+msgstr "無效的 API Key，請確認您的 BunnyCDN 憑證。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "BunnyCDN Stream integration is not enabled"
+msgstr "BunnyCDN Stream 整合未啟用"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "API Key is not configured"
+msgstr "API Key 尚未設定"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Invalid action"
+msgstr "無效的操作"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Library ID is required"
+msgstr "媒體庫 ID 為必填"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Library API key not found. Please refresh your BunnyCDN settings."
+msgstr "找不到媒體庫 API Key，請重新整理您的 BunnyCDN 設定。"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Http/Controllers/BunnyCDNController.php
+msgid "Video ID is required"
+msgstr "影片 ID 為必填"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "No file was uploaded"
+msgstr "未上傳任何檔案"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+msgid "Failed to create video record"
+msgstr "建立影片記錄失敗"
+
+#: app/Integrations/BunnyCDNStreamIntegration.php
+#: app/Http/Controllers/BunnyCDNStorageController.php
+msgid "Video deleted successfully"
+msgstr "影片刪除成功"
+
+#: app/Integrations/MuxIntegration.php
+msgid "Token ID is required"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Token Secret is required"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Mux Setup Guide"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Step 1: Create Mux Account"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "If you don't have a Mux account yet, visit the Mux website and sign up."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Sign up for Mux"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Step 2: Generate API Credentials"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Go to Settings > API Access Tokens in your Mux dashboard and create a new "
+"token with \"Mux Video\" permissions (Read + Write)."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Step 3: Copy Token ID & Secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Copy the Token ID and Token Secret shown after creation. The secret is only "
+"shown once, so save it securely."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Keep your Token Secret secure and never share it publicly."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Step 4: Configure Integration"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enter your Token ID and Token Secret below and enable the integration."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Step 5: Test Connection"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"After saving, use the \"Test Connection\" button to verify everything is "
+"working."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enable Mux"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enable Mux integration for video hosting and streaming"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Token ID"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Your Mux API Token ID from Settings > API Access Tokens"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enter your Mux Token ID"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Token Secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Your Mux API Token Secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enter your Mux Token Secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enable Signed URLs"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Use signed URLs for private/protected video playback. Requires a signing key "
+"to be generated."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enable Auto Captions"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Automatically generate captions for uploaded videos using Mux's AI "
+"transcription."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Auto Caption Language"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Default language for auto-generated captions."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Webhook Secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Your Mux webhook signing secret. Set your webhook URL in the Mux dashboard "
+"to: %s"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Enter your Mux webhook signing secret"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Mux Data Environment Key"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid ""
+"Optional. Enable Mux Data playback quality analytics by entering your "
+"environment key from the Mux Data dashboard."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "e.g. abc123def456"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Token ID and Token Secret are required"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Could not connect to Mux. Please check your credentials."
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php app/Services/MuxService.php
+msgid "Mux integration is not enabled"
+msgstr ""
+
+#: app/Integrations/MuxIntegration.php
+msgid "Mux credentials are not configured"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage User Name is required"
+msgstr "Storage 使用者名稱為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage Hostname is required"
+msgstr "Storage Hostname 為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage Password is required"
+msgstr "Storage 密碼為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "BunnyCDN Storage Setup Guide"
+msgstr "BunnyCDN Storage 設定指南"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 2: Create Storage Zone"
+msgstr "步驟 2：建立 Storage Zone"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"In your BunnyCDN dashboard, navigate to Storage and create a new Storage "
+"Zone. This will be used to store your video files."
+msgstr ""
+"在 BunnyCDN 儀表板中，前往 Storage 並建立新的 Storage Zone，用於儲存您的影片"
+"檔案。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Choose a region closest to your audience for better performance."
+msgstr "請選擇最靠近您受眾的地區，以獲得更佳效能。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 3: Get Storage Credentials"
+msgstr "步驟 3：取得 Storage 憑證"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"After creating the storage zone, you'll get the FTP/Storage credentials "
+"including username and password."
+msgstr ""
+"建立 Storage Zone 後，您將取得包含使用者名稱與密碼的 FTP/Storage 憑證。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "These credentials are different from your account login credentials."
+msgstr "這些憑證與您的帳號登入憑證不同。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 4: Note the Hostname"
+msgstr "步驟 4：記下 Hostname"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"The storage hostname is typically \"storage.bunnycdn.com\" but may vary "
+"based on your region."
+msgstr ""
+"Storage hostname 通常為「storage.bunnycdn.com」，但可能依地區有所不同。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"If you're using a custom pull zone, you'll need to use that hostname instead."
+msgstr "若您使用自訂 Pull Zone，則需改用該 hostname。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"Enter your storage username, hostname, and password in the fields below and "
+"enable the integration."
+msgstr "在以下欄位輸入您的 Storage 使用者名稱、hostname 與密碼，然後啟用整合。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"To protect your videos with signed URLs, enable Token Authentication on your "
+"Storage Pull Zone and enter the security key below."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"Go to CDN → Pull Zones → Your Pull Zone → Security → Enable \"Token "
+"Authentication\" → Copy the Token Authentication Key and paste it in the "
+"\"CDN Security Key\" field below."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Step 7: Test Connection"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Enable BunnyCDN Storage"
+msgstr "啟用 BunnyCDN Storage"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Enable BunnyCDN Storage integration for video file storage"
+msgstr "啟用 BunnyCDN Storage 整合以儲存影片檔案"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage User Name"
+msgstr "Storage 使用者名稱"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Your BunnyCDN Storage User name"
+msgstr "您的 BunnyCDN Storage 使用者名稱"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Enter your storage user name"
+msgstr "輸入您的 Storage 使用者名稱"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage Hostname"
+msgstr "Storage Hostname"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Your BunnyCDN Storage hostname (e.g., storage.bunnycdn.com)"
+msgstr "您的 BunnyCDN Storage hostname（例如：storage.bunnycdn.com）"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "storage.bunnycdn.com"
+msgstr "storage.bunnycdn.com"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Storage Password"
+msgstr "Storage 密碼"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Your BunnyCDN Storage password/API key"
+msgstr "您的 BunnyCDN Storage 密碼／API Key"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Enter your storage password"
+msgstr "輸入您的 Storage 密碼"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "CDN Hostname (Pull Zone)"
+msgstr "CDN Hostname（Pull Zone）"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"Your linked Pull Zone hostname for public video delivery (e.g., myzone.b-"
+"cdn.net). If empty, videos will be served through the WordPress proxy."
+msgstr ""
+"您的關聯 Pull Zone hostname，用於公開影片傳遞（例如：myzone.b-cdn.net）。若留"
+"空，影片將透過 WordPress 代理提供。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "myzone.b-cdn.net"
+msgstr "myzone.b-cdn.net"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "CDN Security Key"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid ""
+"The Token Authentication Key from your Pull Zone security settings. Required "
+"for signed URLs."
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Enter your Pull Zone token authentication key"
+msgstr ""
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "All storage credentials are required"
+msgstr "所有 Storage 憑證為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Failed to connect to BunnyCDN Storage. Please check your credentials."
+msgstr "連線至 BunnyCDN Storage 失敗，請確認您的憑證。"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "BunnyCDN Storage integration is not enabled"
+msgstr "BunnyCDN Storage 整合未啟用"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "BunnyCDN storage credentials are not configured"
+msgstr "BunnyCDN Storage 憑證尚未設定"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Could not read uploaded file"
+msgstr "無法讀取已上傳的檔案"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "File path is required"
+msgstr "檔案路徑為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "File deleted successfully"
+msgstr "檔案刪除成功"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Folder path is required"
+msgstr "資料夾路徑為必填"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+msgid "Folder created successfully"
+msgstr "資料夾建立成功"
+
+#: app/Integrations/BunnyCDNStorageIntegration.php
+#: app/Services/SubtitleService.php
+msgid "File not found"
+msgstr "找不到檔案"
+
+#: app/EmailProviders/MailchimpProvider.php
+msgid "API key is required for Mailchimp"
+msgstr "Mailchimp 需要提供 API Key"
+
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Enter your Mailchimp API key"
 msgstr "輸入您的 Mailchimp API Key"
 
-#: app/EmailProviders/MailchimpProvider.php:65
+#: app/EmailProviders/MailchimpProvider.php
 msgid "You can create a new key on your Mailchimp account page."
 msgstr "您可以在 Mailchimp 帳號頁面建立新的金鑰。"
 
-#: app/EmailProviders/MailchimpProvider.php:67
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Get My API Key"
 msgstr "取得我的 API Key"
 
-#: app/EmailProviders/MailchimpProvider.php:73
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailing List"
 msgstr "電子郵件清單"
 
-#: app/EmailProviders/MailchimpProvider.php:75
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Select a list"
 msgstr "選擇清單"
 
-#: app/EmailProviders/MailchimpProvider.php:84
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Tags"
 msgstr "標籤"
 
-#: app/EmailProviders/MailchimpProvider.php:85
+#: app/EmailProviders/MailchimpProvider.php
 msgid "tag1, tag2, tag3"
 msgstr "tag1, tag2, tag3"
 
-#: app/EmailProviders/MailchimpProvider.php:86
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Enter comma-separated tags to apply to new subscribers"
 msgstr "輸入以逗號分隔的標籤，套用至新訂閱者"
 
-#: app/EmailProviders/MailchimpProvider.php:103
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailchimp configuration is incomplete"
 msgstr "Mailchimp 設定不完整"
 
-#: app/EmailProviders/MailchimpProvider.php:159
+#: app/EmailProviders/MailchimpProvider.php
 msgid "List ID is required to fetch tags"
 msgstr "擷取標籤需要提供清單 ID"
 
-#: app/EmailProviders/MailchimpProvider.php:180
-#: app/EmailProviders/MailchimpProvider.php:232
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailchimp API key not configured"
 msgstr "Mailchimp API Key 尚未設定"
 
-#: app/EmailProviders/MailchimpProvider.php:192
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Failed to retrieve Mailchimp lists"
 msgstr "擷取 Mailchimp 清單失敗"
 
-#: app/EmailProviders/MailchimpProvider.php:209
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailchimp lists retrieved successfully"
 msgstr "Mailchimp 清單擷取成功"
 
-#: app/EmailProviders/MailchimpProvider.php:244
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Failed to retrieve Mailchimp tags"
 msgstr "擷取 Mailchimp 標籤失敗"
 
-#: app/EmailProviders/MailchimpProvider.php:261
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailchimp tags retrieved successfully"
 msgstr "Mailchimp 標籤擷取成功"
 
-#: app/EmailProviders/MailchimpProvider.php:304
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Invalid Mailchimp API key"
 msgstr "無效的 Mailchimp API Key"
 
-#: app/EmailProviders/MailchimpProvider.php:309
+#: app/EmailProviders/MailchimpProvider.php
 msgid "Mailchimp API key is valid"
 msgstr "Mailchimp API Key 有效"
 
-#: app/EmailProviders/WebhookProvider.php:38
-#: app/Hooks/Handlers/AnalyticsHandler.php:109
-#: app/Http/Controllers/AnalyticsController.php:62
-#: app/Http/Controllers/AnalyticsController.php:123
-#: app/Http/Controllers/AnalyticsController.php:606
-#: app/Http/Controllers/BunnyCDNController.php:32
-#: app/Http/Controllers/BunnyCDNController.php:119
-#: app/Http/Controllers/BunnyCDNController.php:163
-#: app/Http/Controllers/BunnyCDNController.php:210
-#: app/Http/Controllers/BunnyCDNController.php:229
-#: app/Http/Controllers/BunnyCDNController.php:272
-#: app/Http/Controllers/BunnyCDNController.php:328
-#: app/Http/Controllers/BunnyCDNController.php:384
-#: app/Http/Controllers/BunnyCDNController.php:440
-#: app/Http/Controllers/BunnyCDNController.php:495
-#: app/Http/Controllers/BunnyCDNController.php:512
-#: app/Http/Controllers/BunnyCDNController.php:519
-#: app/Http/Controllers/BunnyCDNStorageController.php:29
-#: app/Http/Controllers/BunnyCDNStorageController.php:91
-#: app/Http/Controllers/BunnyCDNStorageController.php:105
-#: app/Http/Controllers/BunnyCDNStorageController.php:171
-#: app/Http/Controllers/BunnyCDNStorageController.php:226
-#: app/Http/Controllers/BunnyCDNStorageController.php:268
-#: app/Http/Controllers/BunnyCDNStorageController.php:325
-#: app/Http/Controllers/SubtitleController.php:43
+#: app/EmailProviders/WebhookProvider.php
+#: app/Http/Controllers/SubtitleController.php
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Validation failed"
 msgstr "驗證失敗"
 
-#: app/EmailProviders/WebhookProvider.php:112
+#: app/EmailProviders/WebhookProvider.php
 msgid "Enable Webhooks"
 msgstr "啟用 Webhook"
 
-#: app/EmailProviders/WebhookProvider.php:113
+#: app/EmailProviders/WebhookProvider.php
 msgid "Enable webhook integration to send email submissions to external URLs"
 msgstr "啟用 Webhook 整合，將電子郵件提交傳送至外部 URL"
 
-#: app/EmailProviders/WebhookProvider.php:119
+#: app/EmailProviders/WebhookProvider.php
 msgid "Webhook Configurations"
 msgstr "Webhook 設定"
 
-#: app/EmailProviders/WebhookProvider.php:120
+#: app/EmailProviders/WebhookProvider.php
 msgid "Configure webhook endpoints to send email data"
 msgstr "設定 Webhook 端點以傳送電子郵件資料"
 
-#: app/EmailProviders/WebhookProvider.php:121
+#: app/EmailProviders/WebhookProvider.php
 msgid "Add Webhook"
 msgstr "新增 Webhook"
 
-#: app/EmailProviders/WebhookProvider.php:127
+#: app/EmailProviders/WebhookProvider.php
 msgid "Webhook Name"
 msgstr "Webhook 名稱"
 
-#: app/EmailProviders/WebhookProvider.php:128
+#: app/EmailProviders/WebhookProvider.php
 msgid "Enter a name for this webhook"
 msgstr "輸入此 Webhook 的名稱"
 
-#: app/EmailProviders/WebhookProvider.php:134
+#: app/EmailProviders/WebhookProvider.php
 msgid "Request URL"
 msgstr "請求 URL"
 
-#: app/EmailProviders/WebhookProvider.php:135
+#: app/EmailProviders/WebhookProvider.php
 msgid "https://your-webhook-endpoint.com"
 msgstr "https://your-webhook-endpoint.com"
 
-#: app/EmailProviders/WebhookProvider.php:141
+#: app/EmailProviders/WebhookProvider.php
 msgid "Request Method"
 msgstr "請求方法"
 
-#: app/EmailProviders/WebhookProvider.php:152
+#: app/EmailProviders/WebhookProvider.php
 msgid "Email Field Name"
 msgstr "電子郵件欄位名稱"
 
-#: app/EmailProviders/WebhookProvider.php:154
-msgid "The name of the field that will contain the email address in the request"
+#: app/EmailProviders/WebhookProvider.php
+msgid ""
+"The name of the field that will contain the email address in the request"
 msgstr "請求中包含電子郵件地址的欄位名稱"
 
-#: app/EmailProviders/WebhookProvider.php:159
+#: app/EmailProviders/WebhookProvider.php
 msgid "Headers"
 msgstr "標頭"
 
-#: app/EmailProviders/WebhookProvider.php:160
+#: app/EmailProviders/WebhookProvider.php
 msgid "Add Header"
 msgstr "新增標頭"
 
-#: app/EmailProviders/WebhookProvider.php:165
+#: app/EmailProviders/WebhookProvider.php
 msgid "Header Name"
 msgstr "標頭名稱"
 
-#: app/EmailProviders/WebhookProvider.php:170
+#: app/EmailProviders/WebhookProvider.php
 msgid "Header Value"
 msgstr "標頭值"
 
-#: app/EmailProviders/WebhookProvider.php:180
+#: app/EmailProviders/WebhookProvider.php
 msgid "Select Webhook"
 msgstr "選擇 Webhook"
 
-#: app/EmailProviders/WebhookProvider.php:182
+#: app/EmailProviders/WebhookProvider.php
 msgid "Select a webhook endpoint"
 msgstr "選擇 Webhook 端點"
 
-#: app/EmailProviders/WebhookProvider.php:183
+#: app/EmailProviders/WebhookProvider.php
 msgid "Choose a webhook to send data to"
 msgstr "選擇要傳送資料的 Webhook"
 
-#: app/EmailProviders/WebhookProvider.php:214
+#: app/EmailProviders/WebhookProvider.php
 msgid "No webhooks are configured"
 msgstr "尚未設定任何 Webhook"
 
-#: app/EmailProviders/WebhookProvider.php:234
+#: app/EmailProviders/WebhookProvider.php
 msgid "Webhook URL is not configured"
 msgstr "Webhook URL 尚未設定"
 
-#: app/EmailProviders/WebhookProvider.php:260
+#: app/EmailProviders/WebhookProvider.php
 msgid "All webhook requests failed"
 msgstr "所有 Webhook 請求均失敗"
 
 #. translators: %s: comma-separated list of failed webhook names
-#: app/EmailProviders/WebhookProvider.php:269
+#: app/EmailProviders/WebhookProvider.php
 #, php-format
 msgid "Some webhooks failed: %s"
 msgstr "部分 Webhook 失敗：%s"
 
-#: app/EmailProviders/WebhookProvider.php:281
+#: app/EmailProviders/WebhookProvider.php
 msgid "All webhooks sent successfully"
 msgstr "所有 Webhook 傳送成功"
 
-#: app/Hooks/actions.php:24
-msgid "FluentPlayer Pro requires the free FluentPlayer plugin to be installed and activated."
-msgstr "FluentPlayer Pro 需要安裝並啟用免費版 FluentPlayer 外掛。"
-
-#: app/Hooks/Handlers/AnalyticsHandler.php:73
-msgid "Security check failed"
-msgstr "安全驗證失敗"
-
-#: app/Hooks/Handlers/AnalyticsHandler.php:85
-msgid "Too many requests"
-msgstr "請求次數過多"
-
-#: app/Hooks/Handlers/AnalyticsHandler.php:130
-msgid "Visit recorded successfully"
-msgstr "訪問記錄成功"
-
-#: app/Hooks/Handlers/AnalyticsHandler.php:137
-#: app/Http/Controllers/BunnyCDNController.php:71
-#: app/Http/Controllers/BunnyCDNController.php:97
-#: app/Http/Controllers/BunnyCDNController.php:140
-#: app/Http/Controllers/BunnyCDNController.php:186
-#: app/Http/Controllers/BunnyCDNController.php:248
-#: app/Http/Controllers/BunnyCDNController.php:304
-#: app/Http/Controllers/BunnyCDNController.php:360
-#: app/Http/Controllers/BunnyCDNController.php:417
-#: app/Http/Controllers/BunnyCDNController.php:471
-#: app/Http/Controllers/BunnyCDNController.php:536
-#: app/Http/Controllers/BunnyCDNStorageController.php:67
-#: app/Http/Controllers/BunnyCDNStorageController.php:149
-#: app/Http/Controllers/BunnyCDNStorageController.php:205
-#: app/Http/Controllers/BunnyCDNStorageController.php:246
-#: app/Http/Controllers/BunnyCDNStorageController.php:302
-#: app/Http/Controllers/BunnyCDNStorageController.php:359
-#: app/Http/Controllers/SubtitleController.php:103
-#: app/Http/Controllers/SubtitleController.php:172
-msgid "An unexpected error occurred"
-msgstr "發生非預期的錯誤"
-
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:31
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:33
-msgid "Fluent Playlists"
-msgstr "Fluent 播放清單"
-
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:32
-#: app/Layouts/GridPlaylistLayout.php:65
-#: app/Layouts/StandardPlaylistLayout.php:30
+#: app/Layouts/GridPlaylistLayout.php app/Layouts/StandardPlaylistLayout.php
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
 msgid "Playlist"
 msgstr "播放清單"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:35
-msgid "Add New"
-msgstr "新增"
+#: app/Layouts/GridPlaylistLayout.php app/Layouts/StandardPlaylistLayout.php
+msgid "video"
+msgstr "影片"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:36
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:329
-msgid "Add New Playlist"
-msgstr "新增播放清單"
+#: app/Layouts/GridPlaylistLayout.php app/Layouts/StandardPlaylistLayout.php
+msgid "videos"
+msgstr "影片"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:37
-msgid "New Playlist"
-msgstr "新播放清單"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Media ID is required"
+msgstr "媒體 ID 為必填"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:38
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:325
-msgid "Edit Playlist"
-msgstr "編輯播放清單"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Media not found"
+msgstr "找不到媒體"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:39
-msgid "View Playlist"
-msgstr "查看播放清單"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Invalid attachment"
+msgstr "無效的附件"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:40
-msgid "All Playlists"
-msgstr "所有播放清單"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Subtitle uploaded successfully"
+msgstr "字幕上傳成功"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:41
-msgid "Search Playlists"
-msgstr "搜尋播放清單"
+#: app/Http/Controllers/SubtitleController.php
+#: app/Http/Controllers/BunnyCDNStorageController.php
+msgid "An unexpected error occurred"
+msgstr "發生非預期的錯誤"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:42
-msgid "Parent Playlist:"
-msgstr "上層播放清單："
+#: app/Http/Controllers/SubtitleController.php
+msgid "Media ID & Subtitle ID is required"
+msgstr "媒體 ID 與字幕 ID 為必填"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:43
-msgid "No playlists found."
-msgstr "找不到播放清單。"
+#: app/Http/Controllers/SubtitleController.php
+msgid "No subtitles found"
+msgstr "找不到字幕"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:44
-msgid "No playlists found in Trash."
-msgstr "垃圾桶中找不到播放清單。"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Subtitle not found"
+msgstr "找不到字幕"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:59
-msgid "Custom post type for FluentPlayer playlists."
-msgstr "FluentPlayer 播放清單的自訂文章類型。"
+#: app/Http/Controllers/SubtitleController.php
+msgid "Subtitle removed successfully"
+msgstr "字幕移除成功"
 
-#: app/Hooks/Handlers/FluentPlaylistCPT.php:166
-msgid "Private"
-msgstr "私人"
-
-#: app/Http/Controllers/AnalyticsController.php:28
-#: app/Http/Controllers/AnalyticsController.php:217
-#: app/Http/Controllers/AnalyticsController.php:491
-#: app/Http/Controllers/AnalyticsController.php:528
-#: app/Http/Controllers/AnalyticsController.php:565
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Invalid date format"
 msgstr "無效的日期格式"
 
-#: app/Http/Controllers/AnalyticsController.php:41
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load analytics stats."
 msgstr "載入數據分析統計資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:102
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load top videos."
 msgstr "載入熱門影片失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:135
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load top users."
 msgstr "載入熱門使用者失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:152
-#: app/Http/Controllers/AnalyticsController.php:185
-#: app/Http/Controllers/AnalyticsController.php:251
-#: app/Http/Controllers/AnalyticsController.php:284
-#: app/Http/Controllers/AnalyticsController.php:317
-#: app/Http/Controllers/AnalyticsController.php:623
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Invalid video ID"
 msgstr "無效的影片 ID"
 
-#: app/Http/Controllers/AnalyticsController.php:168
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load video stats."
 msgstr "載入影片統計資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:197
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load video retention data."
 msgstr "載入影片留存資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:234
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load retention data."
 msgstr "載入留存資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:267
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load video device data."
 msgstr "載入影片裝置資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:300
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load video location data."
 msgstr "載入影片地區資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:330
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load video top users."
 msgstr "載入影片熱門使用者失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:347
-#: app/Http/Controllers/AnalyticsController.php:373
-#: app/Http/Controllers/AnalyticsController.php:402
-#: app/Http/Controllers/AnalyticsController.php:454
-#: app/Http/Controllers/AnalyticsController.php:623
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Invalid user ID"
 msgstr "無效的使用者 ID"
 
-#: app/Http/Controllers/AnalyticsController.php:356
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load user."
 msgstr "載入使用者失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:385
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load user stats."
 msgstr "載入使用者統計資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:437
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load user top videos."
 msgstr "載入使用者熱門影片失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:471
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load user retention data."
 msgstr "載入使用者留存資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:508
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load location data."
 msgstr "載入地區資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:545
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load device data."
 msgstr "載入裝置資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:582
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load new vs returning viewers data."
 msgstr "載入新訪客與回訪者資料失敗。"
 
-#: app/Http/Controllers/AnalyticsController.php:617
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Invalid scope for performance over time."
 msgstr "無效的時序效能範圍。"
 
-#: app/Http/Controllers/AnalyticsController.php:650
+#: app/Http/Controllers/AnalyticsController.php
 msgid "Failed to load performance over time data."
 msgstr "載入時序效能資料失敗。"
 
-#: app/Http/Controllers/BunnyCDNController.php:230
-#: app/Http/Controllers/BunnyCDNController.php:513
-msgid "Title is required"
-msgstr "標題為必填"
-
-#: app/Http/Controllers/BunnyCDNController.php:288
-msgid "Invalid attachment ID or not a video file"
-msgstr "無效的附件 ID 或非影片檔案"
-
-#: app/Http/Controllers/BunnyCDNController.php:344
-#: app/Http/Controllers/BunnyCDNController.php:520
-#: app/Integrations/BunnyCDNStreamIntegration.php:379
-#: app/Integrations/BunnyCDNStreamIntegration.php:488
-#: app/Integrations/BunnyCDNStreamIntegration.php:531
-msgid "Video ID is required"
-msgstr "影片 ID 為必填"
-
-#: app/Http/Controllers/BunnyCDNController.php:401
-#: app/Http/Controllers/BunnyCDNController.php:455
-msgid "Collection ID is required"
-msgstr "集合 ID 為必填"
-
-#: app/Http/Controllers/BunnyCDNStorageController.php:45
-#: app/Http/Controllers/BunnyCDNStorageController.php:112
-#: app/Http/Controllers/BunnyCDNStorageController.php:186
-#: app/Http/Controllers/BunnyCDNStorageController.php:236
-#: app/Http/Controllers/BunnyCDNStorageController.php:283
-#: app/Http/Controllers/BunnyCDNStorageController.php:342
+#: app/Http/Controllers/BunnyCDNStorageController.php
 msgid "Invalid file path"
 msgstr "無效的檔案路徑"
 
-#: app/Http/Controllers/BunnyCDNStorageController.php:106
+#: app/Http/Controllers/BunnyCDNStorageController.php
 msgid "File name is required"
 msgstr "檔案名稱為必填"
 
-#: app/Http/Controllers/BunnyCDNStorageController.php:143
+#: app/Http/Controllers/BunnyCDNStorageController.php
 msgid "Video uploaded successfully"
 msgstr "影片上傳成功"
 
-#: app/Http/Controllers/BunnyCDNStorageController.php:201
-#: app/Integrations/BunnyCDNStreamIntegration.php:508
-msgid "Video deleted successfully"
-msgstr "影片刪除成功"
-
-#: app/Http/Controllers/BunnyCDNStorageController.php:247
+#: app/Http/Controllers/BunnyCDNStorageController.php
 msgid "Please try again later."
 msgstr "請稍後再試。"
 
 #. translators: %d: playlist number
-#: app/Http/Controllers/PlaylistController.php:146
+#: app/Http/Controllers/PlaylistController.php
 #, php-format
 msgid "Playlist %d"
 msgstr "播放清單 %d"
 
-#: app/Http/Controllers/PresetController.php:46
+#: app/Http/Controllers/BunnyCDNController.php
+msgid "Title is required"
+msgstr "標題為必填"
+
+#: app/Http/Controllers/BunnyCDNController.php
+msgid "Invalid attachment ID or not a video file"
+msgstr "無效的附件 ID 或非影片檔案"
+
+#: app/Http/Controllers/BunnyCDNController.php
+msgid "Collection ID is required"
+msgstr "集合 ID 為必填"
+
+#: app/Http/Controllers/PresetController.php
 msgid "Preset created successfully"
 msgstr "預設值建立成功"
 
-#: app/Http/Controllers/PresetController.php:67
-#: app/Http/Controllers/PresetController.php:118
+#: app/Http/Controllers/PresetController.php
 msgid "Preset not found"
 msgstr "找不到預設值"
 
-#: app/Http/Controllers/PresetController.php:82
+#: app/Http/Controllers/PresetController.php
 msgid "Preset updated successfully"
 msgstr "預設值更新成功"
 
-#: app/Http/Controllers/PresetController.php:123
+#: app/Http/Controllers/PresetController.php
 msgid "Cannot delete reserved preset"
 msgstr "無法刪除保留的預設值"
 
-#: app/Http/Controllers/PresetController.php:130
+#: app/Http/Controllers/PresetController.php
 msgid "Preset deleted successfully"
 msgstr "預設值刪除成功"
 
-#: app/Http/Controllers/SubtitleController.php:25
-msgid "Media ID is required"
-msgstr "媒體 ID 為必填"
-
-#: app/Http/Controllers/SubtitleController.php:31
-#: app/Http/Controllers/SubtitleController.php:133
-msgid "Media not found"
-msgstr "找不到媒體"
-
-#: app/Http/Controllers/SubtitleController.php:60
-msgid "Invalid attachment"
-msgstr "無效的附件"
-
-#: app/Http/Controllers/SubtitleController.php:97
-msgid "Subtitle uploaded successfully"
-msgstr "字幕上傳成功"
-
-#: app/Http/Controllers/SubtitleController.php:126
-msgid "Media ID & Subtitle ID is required"
-msgstr "媒體 ID 與字幕 ID 為必填"
-
-#: app/Http/Controllers/SubtitleController.php:139
-msgid "No subtitles found"
-msgstr "找不到字幕"
-
-#: app/Http/Controllers/SubtitleController.php:155
-msgid "Subtitle not found"
-msgstr "找不到字幕"
-
-#: app/Http/Controllers/SubtitleController.php:167
-msgid "Subtitle removed successfully"
-msgstr "字幕移除成功"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:56
-msgid "Storage User Name is required"
-msgstr "Storage 使用者名稱為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:60
-msgid "Storage Hostname is required"
-msgstr "Storage Hostname 為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:64
-msgid "Storage Password is required"
-msgstr "Storage 密碼為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:81
-#: app/Integrations/BunnyCDNStreamIntegration.php:72
-msgid "Setup Instructions"
-msgstr "設定說明"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:83
-msgid "BunnyCDN Storage Setup Guide"
-msgstr "BunnyCDN Storage 設定指南"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:86
-#: app/Integrations/BunnyCDNStreamIntegration.php:77
-msgid "Step 1: Create BunnyCDN Account"
-msgstr "步驟 1：建立 BunnyCDN 帳號"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:87
-#: app/Integrations/BunnyCDNStreamIntegration.php:78
-msgid "If you don't have a BunnyCDN account yet, visit the BunnyCDN website and create a new account."
-msgstr "若您尚無 BunnyCDN 帳號，請前往 BunnyCDN 網站建立新帳號。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:91
-#: app/Integrations/BunnyCDNStreamIntegration.php:82
-msgid "Visit BunnyCDN"
-msgstr "前往 BunnyCDN"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:95
-msgid "Step 2: Create Storage Zone"
-msgstr "步驟 2：建立 Storage Zone"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:96
-msgid "In your BunnyCDN dashboard, navigate to Storage and create a new Storage Zone. This will be used to store your video files."
-msgstr "在 BunnyCDN 儀表板中，前往 Storage 並建立新的 Storage Zone，用於儲存您的影片檔案。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:98
-msgid "Choose a region closest to your audience for better performance."
-msgstr "請選擇最靠近您受眾的地區，以獲得更佳效能。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:101
-msgid "Step 3: Get Storage Credentials"
-msgstr "步驟 3：取得 Storage 憑證"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:102
-msgid "After creating the storage zone, you'll get the FTP/Storage credentials including username and password."
-msgstr "建立 Storage Zone 後，您將取得包含使用者名稱與密碼的 FTP/Storage 憑證。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:104
-msgid "These credentials are different from your account login credentials."
-msgstr "這些憑證與您的帳號登入憑證不同。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:107
-msgid "Step 4: Note the Hostname"
-msgstr "步驟 4：記下 Hostname"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:108
-msgid "The storage hostname is typically \"storage.bunnycdn.com\" but may vary based on your region."
-msgstr "Storage hostname 通常為「storage.bunnycdn.com」，但可能依地區有所不同。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:110
-msgid "If you're using a custom pull zone, you'll need to use that hostname instead."
-msgstr "若您使用自訂 Pull Zone，則需改用該 hostname。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:113
-#: app/Integrations/BunnyCDNStreamIntegration.php:108
-msgid "Step 5: Configure Integration"
-msgstr "步驟 5：設定整合"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:114
-msgid "Enter your storage username, hostname, and password in the fields below and enable the integration."
-msgstr "在以下欄位輸入您的 Storage 使用者名稱、hostname 與密碼，然後啟用整合。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:118
-#: app/Integrations/BunnyCDNStreamIntegration.php:113
-msgid "Step 6: Test Connection"
-msgstr "步驟 6：測試連線"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:119
-#: app/Integrations/BunnyCDNStreamIntegration.php:114
-#: app/Integrations/BunnyCDNStorageIntegration.php:128
-msgid "Enable BunnyCDN Storage"
-msgstr "啟用 BunnyCDN Storage"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:129
-msgid "Enable BunnyCDN Storage integration for video file storage"
-msgstr "啟用 BunnyCDN Storage 整合以儲存影片檔案"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:134
-msgid "Storage User Name"
-msgstr "Storage 使用者名稱"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:136
-msgid "Your BunnyCDN Storage User name"
-msgstr "您的 BunnyCDN Storage 使用者名稱"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:137
-msgid "Enter your storage user name"
-msgstr "輸入您的 Storage 使用者名稱"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:142
-msgid "Storage Hostname"
-msgstr "Storage Hostname"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:144
-msgid "Your BunnyCDN Storage hostname (e.g., storage.bunnycdn.com)"
-msgstr "您的 BunnyCDN Storage hostname（例如：storage.bunnycdn.com）"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:145
-msgid "storage.bunnycdn.com"
-msgstr "storage.bunnycdn.com"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:151
-msgid "Storage Password"
-msgstr "Storage 密碼"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:153
-msgid "Your BunnyCDN Storage password/API key"
-msgstr "您的 BunnyCDN Storage 密碼／API Key"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:154
-msgid "Enter your storage password"
-msgstr "輸入您的 Storage 密碼"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:159
-msgid "CDN Hostname (Pull Zone)"
-msgstr "CDN Hostname（Pull Zone）"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:161
-msgid "Your linked Pull Zone hostname for public video delivery (e.g., myzone.b-cdn.net). If empty, videos will be served through the WordPress proxy."
-msgstr "您的關聯 Pull Zone hostname，用於公開影片傳遞（例如：myzone.b-cdn.net）。若留空，影片將透過 WordPress 代理提供。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:162
-msgid "myzone.b-cdn.net"
-msgstr "myzone.b-cdn.net"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:186
-msgid "All storage credentials are required"
-msgstr "所有 Storage 憑證為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:194
-msgid "Failed to connect to BunnyCDN Storage. Please check your credentials."
-msgstr "連線至 BunnyCDN Storage 失敗，請確認您的憑證。"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:212
-#: app/Integrations/BunnyCDNStorageIntegration.php:257
-msgid "BunnyCDN Storage integration is not enabled"
-msgstr "BunnyCDN Storage 整合未啟用"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:247
-#: app/Integrations/BunnyCDNStreamIntegration.php:227
-msgid "Invalid action"
-msgstr "無效的操作"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:266
-msgid "BunnyCDN storage credentials are not configured"
-msgstr "BunnyCDN Storage 憑證尚未設定"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:346
-#: app/Integrations/BunnyCDNStreamIntegration.php:422
-msgid "No file was uploaded"
-msgstr "未上傳任何檔案"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:360
-msgid "Could not read uploaded file"
-msgstr "無法讀取已上傳的檔案"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:394
-#: app/Integrations/BunnyCDNStorageIntegration.php:419
-#: app/Integrations/BunnyCDNStorageIntegration.php:481
-msgid "File path is required"
-msgstr "檔案路徑為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:430
-msgid "File deleted successfully"
-msgstr "檔案刪除成功"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:447
-msgid "Folder path is required"
-msgstr "資料夾路徑為必填"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:463
-msgid "Folder created successfully"
-msgstr "資料夾建立成功"
-
-#: app/Integrations/BunnyCDNStorageIntegration.php:512
-#: app/Services/SubtitleService.php:20
-msgid "File not found"
-msgstr "找不到檔案"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:55
-#: app/Integrations/BunnyCDNStreamIntegration.php:153
-msgid "API Key is required"
-msgstr "API Key 為必填"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:74
-msgid "BunnyCDN Stream Setup Guide"
-msgstr "BunnyCDN Stream 設定指南"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:86
-msgid "Step 2: Access Account Settings"
-msgstr "步驟 2：進入帳號設定"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:87
-msgid "Once logged in, navigate to your account settings to find the API section."
-msgstr "登入後，前往帳號設定以找到 API 區段。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:89
-msgid "Click on profile icon of the top left and select Account Settings then API Key from the menu in your BunnyCDN dashboard."
-msgstr "點擊左上角的個人資料圖示，在 BunnyCDN 儀表板選單中選擇「帳號設定」，再選「API Key」。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:92
-msgid "Get API Key"
-msgstr "取得 API Key"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:96
-msgid "Step 3: Copy API Key"
-msgstr "步驟 3：複製 API Key"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:97
-msgid "In the API section, generate a new API key or copy your existing one. This key will be used to authenticate API requests."
-msgstr "在 API 區段中，產生新的 API Key 或複製現有金鑰。此金鑰將用於驗證 API 請求。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:99
-msgid "Keep this API key secure and never share it publicly."
-msgstr "請妥善保管此 API Key，切勿公開分享。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:102
-msgid "Step 4: Create Stream Library"
-msgstr "步驟 4：建立 Stream 媒體庫"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:103
-msgid "Create a new Stream library in your BunnyCDN dashboard if you haven't already. This is where your videos will be stored."
-msgstr "若尚未建立，請在 BunnyCDN 儀表板建立新的 Stream 媒體庫，影片將儲存於此。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:105
-msgid "You can create multiple libraries for different projects or purposes."
-msgstr "您可以針對不同專案或用途建立多個媒體庫。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:109
-msgid "Enter your API key in the field below and enable the integration. The system will automatically test the connection."
-msgstr "在以下欄位輸入您的 API Key 並啟用整合，系統將自動測試連線。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:123
-msgid "Enable BunnyCDN Stream"
-msgstr "啟用 BunnyCDN Stream"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:124
-msgid "Enable BunnyCDN Stream integration for video hosting"
-msgstr "啟用 BunnyCDN Stream 整合以進行影片托管"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:131
-msgid "Your BunnyCDN API key from the account settings"
-msgstr "您帳號設定中的 BunnyCDN API Key"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:132
-msgid "Enter your BunnyCDN API key"
-msgstr "輸入您的 BunnyCDN API Key"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:161
-msgid "Invalid API key. Please check your BunnyCDN credentials."
-msgstr "無效的 API Key，請確認您的 BunnyCDN 憑證。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:179
-#: app/Integrations/BunnyCDNStreamIntegration.php:237
-msgid "BunnyCDN Stream integration is not enabled"
-msgstr "BunnyCDN Stream 整合未啟用"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:186
-#: app/Integrations/BunnyCDNStreamIntegration.php:244
-msgid "API Key is not configured"
-msgstr "API Key 尚未設定"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:317
-#: app/Integrations/BunnyCDNStreamIntegration.php:375
-#: app/Integrations/BunnyCDNStreamIntegration.php:418
-#: app/Integrations/BunnyCDNStreamIntegration.php:484
-#: app/Integrations/BunnyCDNStreamIntegration.php:527
-#: app/Integrations/BunnyCDNStreamIntegration.php:569
-msgid "Library ID is required"
-msgstr "媒體庫 ID 為必填"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:331
-#: app/Integrations/BunnyCDNStreamIntegration.php:388
-#: app/Integrations/BunnyCDNStreamIntegration.php:431
-#: app/Integrations/BunnyCDNStreamIntegration.php:497
-#: app/Integrations/BunnyCDNStreamIntegration.php:540
-#: app/Integrations/BunnyCDNStreamIntegration.php:578
-msgid "Library API key not found. Please refresh your BunnyCDN settings."
-msgstr "找不到媒體庫 API Key，請重新整理您的 BunnyCDN 設定。"
-
-#: app/Integrations/BunnyCDNStreamIntegration.php:453
-msgid "Failed to create video record"
-msgstr "建立影片記錄失敗"
-
-#: app/Layouts/GridPlaylistLayout.php:67
-#: app/Layouts/StandardPlaylistLayout.php:32
-msgid "video"
-msgstr "影片"
-
-#: app/Layouts/GridPlaylistLayout.php:67
-#: app/Layouts/StandardPlaylistLayout.php:32
-msgid "videos"
-msgstr "影片"
-
-#: app/Services/SubtitleService.php:26
-msgid "Invalid file type. Only .vtt and .srt files are allowed"
-msgstr "無效的檔案類型，僅允許 .vtt 和 .srt 檔案"
-
-#: app/Services/SubtitleService.php:31
-msgid "File too large. Maximum size is 5MB"
-msgstr "檔案過大，最大允許 5MB"
-
-#: app/Services/SubtitleService.php:47
-msgid "English"
-msgstr "英語"
-
-#: app/Services/SubtitleService.php:48
-msgid "Spanish"
-msgstr "西班牙語"
-
-#: app/Services/SubtitleService.php:49
-msgid "French"
-msgstr "法語"
-
-#: app/Services/SubtitleService.php:50
-msgid "German"
-msgstr "德語"
-
-#: app/Services/SubtitleService.php:51
-msgid "Italian"
-msgstr "義大利語"
-
-#: app/Services/SubtitleService.php:52
-msgid "Portuguese"
-msgstr "葡萄牙語"
-
-#: app/Services/SubtitleService.php:53
-msgid "Russian"
-msgstr "俄語"
-
-#: app/Services/SubtitleService.php:54
-msgid "Japanese"
-msgstr "日語"
-
-#: app/Services/SubtitleService.php:55
-msgid "Korean"
-msgstr "韓語"
-
-#: app/Services/SubtitleService.php:56
-msgid "Chinese"
-msgstr "中文"
-
-#: app/Services/SubtitleService.php:57
-msgid "Arabic"
-msgstr "阿拉伯語"
-
-#: app/Services/SubtitleService.php:58
-msgid "Hindi"
-msgstr "印地語"
-
-#: app/Services/SubtitleService.php:61
-msgid "Unknown"
-msgstr "未知"
-
-#: app/Utils/Provider/Mailchimp.php:237
-msgid "Subscriber added but failed to add tags"
-msgstr "訂閱者已新增，但標籤新增失敗"
-
-#: app/Utils/Provider/Webhook.php:198
-msgid "Webhook sent successfully"
-msgstr "Webhook 傳送成功"
-
-#: app/Views/playlist.php:22
+#: app/Http/Controllers/MuxController.php
+msgid "Asset ID is required"
+msgstr ""
+
+#: app/Http/Controllers/MuxController.php
+msgid "Invalid ID format"
+msgstr ""
+
+#: app/Http/Controllers/MuxController.php
+msgid "ID is required"
+msgstr ""
+
+#: app/Http/Controllers/MuxController.php
+msgid "Upload ID is required"
+msgstr ""
+
+#: app/Http/Controllers/MuxController.php
+msgid "Webhook processing failed"
+msgstr ""
+
+#: app/Hooks/actions.php
+msgid ""
+"FluentPlayer Pro requires the free FluentPlayer plugin to be installed and "
+"activated."
+msgstr "FluentPlayer Pro 需要安裝並啟用免費版 FluentPlayer 外掛。"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Fluent Playlists"
+msgstr "Fluent 播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Add New"
+msgstr "新增"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Add New Playlist"
+msgstr "新增播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "New Playlist"
+msgstr "新播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Edit Playlist"
+msgstr "編輯播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "View Playlist"
+msgstr "查看播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "All Playlists"
+msgstr "所有播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Search Playlists"
+msgstr "搜尋播放清單"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Parent Playlist:"
+msgstr "上層播放清單："
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "No playlists found."
+msgstr "找不到播放清單。"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "No playlists found in Trash."
+msgstr "垃圾桶中找不到播放清單。"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Custom post type for FluentPlayer playlists."
+msgstr "FluentPlayer 播放清單的自訂文章類型。"
+
+#: app/Hooks/Handlers/FluentPlaylistCPT.php
+msgid "Private"
+msgstr "私人"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php
+msgid "Security check failed"
+msgstr "安全驗證失敗"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php
+msgid "Too many requests"
+msgstr "請求次數過多"
+
+#: app/Hooks/Handlers/AnalyticsHandler.php
+msgid "Visit recorded successfully"
+msgstr "訪問記錄成功"
+
+#: app/Views/playlist.php
 msgid "This playlist is empty. Please add media items."
 msgstr "此播放清單為空，請新增媒體項目。"
 
-#: boot/app.php:45
+#: app/Services/MuxService.php
+msgid "Mux integration not found"
+msgstr ""
+
+#: app/Services/MuxService.php
+msgid "Failed to generate signing key"
+msgstr ""
+
+#: app/Services/MuxService.php
+msgid "Signing key generated and saved successfully"
+msgstr ""
+
+#: app/Services/SubtitleService.php
+msgid "Invalid file type. Only .vtt and .srt files are allowed"
+msgstr "無效的檔案類型，僅允許 .vtt 和 .srt 檔案"
+
+#: app/Services/SubtitleService.php
+msgid "File too large. Maximum size is 5MB"
+msgstr "檔案過大，最大允許 5MB"
+
+#: app/Services/SubtitleService.php
+msgid "English"
+msgstr "英語"
+
+#: app/Services/SubtitleService.php
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: app/Services/SubtitleService.php
+msgid "French"
+msgstr "法語"
+
+#: app/Services/SubtitleService.php
+msgid "German"
+msgstr "德語"
+
+#: app/Services/SubtitleService.php
+msgid "Italian"
+msgstr "義大利語"
+
+#: app/Services/SubtitleService.php
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+#: app/Services/SubtitleService.php
+msgid "Russian"
+msgstr "俄語"
+
+#: app/Services/SubtitleService.php
+msgid "Japanese"
+msgstr "日語"
+
+#: app/Services/SubtitleService.php
+msgid "Korean"
+msgstr "韓語"
+
+#: app/Services/SubtitleService.php
+msgid "Chinese"
+msgstr "中文"
+
+#: app/Services/SubtitleService.php
+msgid "Arabic"
+msgstr "阿拉伯語"
+
+#: app/Services/SubtitleService.php
+msgid "Hindi"
+msgstr "印地語"
+
+#: app/Services/SubtitleService.php
+msgid "Unknown"
+msgstr "未知"
+
+#: boot/app.php
 msgid "Check Update"
 msgstr "檢查更新"
-
-msgid "After saving your settings, use the \"Test Connection\" button to verify that the integration is working correctly."
-msgstr "儲存設定後，使用「測試連線」按鈕驗證整合是否正常運作。"

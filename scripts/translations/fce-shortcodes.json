@@ -1,0 +1,11 @@
+{
+    "FCE Shortcodes - Import Demo Content": "FCE 短代碼 - 匯入範例內容",
+    "This tool will import demo courses and lessons into your Fluent Community database. This is useful for testing the FCE Shortcodes plugin functionality.": "此工具將匯入範例課程與單元至您的 Fluent Community 資料庫。這對於測試 FCE 短代碼外掛功能非常有用。",
+    "Warning: This is for testing purposes only. The demo content will be added to your actual Fluent Community database.": "警告：這僅用於測試目的。範例內容將被新增至您實際的 Fluent Community 資料庫中。",
+    "Number of Courses": "課程數量",
+    "How many demo courses to create (1-20)": "建立多少個範例課程 (1-20)",
+    "Lessons per Course": "每個課程的單元數",
+    "How many lessons to create per course (1-15)": "每個課程建立多少個單元 (1-15)",
+    "Categories": "分類",
+    "Create demo categories": "建立範例分類"
+}

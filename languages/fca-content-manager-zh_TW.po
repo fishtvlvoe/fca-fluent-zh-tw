@@ -1,1701 +1,1649 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCA Content Manager for Fluent Community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 18:59+0000\n"
-"PO-Revision-Date: 2025-12-05 18:59+0000\n"
+"PO-Revision-Date: 2026-04-16 05:27+0800\n"
 "Last-Translator: fish yu\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fca-content-manager\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
-"X-Domain: fca-content-manager"
 
-#: fca-content-manager.php:37 fca-content-manager.php:75
+#: fca-content-manager.php
 #, php-format
 msgid "%1$s requires %2$s to be installed and activated."
 msgstr "%1$s 需要安裝並啟動 %2$s。"
 
-#: includes/Ajax.php:359
-msgid "%d comments deleted successfully."
-msgstr "已成功刪除 %d 則評論。"
-
-#: includes/Ajax.php:1251
-msgid "%d courses updated successfully."
-msgstr "%d 門課程已成功更新。"
-
-#: includes/Ajax.php:1883
-msgid "%d enrollments added successfully."
-msgstr "已成功新增 %d 個註冊名額。"
-
-#: includes/Ajax.php:1905
-msgid "%d enrollments removed successfully."
-msgstr "已成功移除 %d 個註冊資訊。"
-
-#: includes/Ajax.php:556
-msgid "%d media items deleted successfully."
-msgstr "已成功刪除 %d 個媒體項目。"
-
-#: includes/Ajax.php:276
-msgid "%d posts deleted successfully."
-msgstr "已成功刪除 %d 則貼文。"
-
-#: includes/Ajax.php:993
-msgid "%d posts updated successfully."
-msgstr "%d 篇貼文已成功更新。"
-
-#: includes/Ajax.php:858 includes/Ajax.php:883
-msgid "%d spaces deleted successfully."
-msgstr "已成功刪除 %d 個空格。"
-
-#: includes/Ajax.php:833
-msgid "%d spaces updated successfully."
-msgstr "%d 個空間已成功更新。"
-
-#: views/spaces.php:352 views/spaces.php:362 views/courses.php:347
-#: views/courses.php:357
-msgid "-- No Change --"
-msgstr "-- 無變化 --"
-
-#: views/metadata.php:80 views/reactions.php:64
-msgid "Actions"
-msgstr "行動"
-
-#: views/members.php:50
-msgid "Active"
-msgstr "啟用中"
-
-#: views/metadata.php:53
-msgid "Activity"
-msgstr "活動"
-
-#: views/members.php:194 views/members.php:224
-msgid "Add Enrollment"
-msgstr "新增註冊"
-
-#: views/posts.php:265
-msgid "Add Topic"
-msgstr "新增主題"
-
-#: views/posts.php:389
-msgid "Add Topic to All"
-msgstr "將主題新增到所有"
-
-#: views/import.php:172
-msgid "Additional Options"
-msgstr "其他選項"
-
-#: views/members.php:57 views/members.php:141 views/members.php:215
-msgid "Admin"
-msgstr "行政"
-
-#: views/spaces.php:232
-msgid "Admin/Moderators Only"
-msgstr "限管理員/版主"
-
-#: views/media.php:46
-msgid "All Media Types"
-msgstr "所有媒體類型"
-
-#: views/metadata.php:44
-msgid "All Object Types"
-msgstr "所有物件類型"
-
-#: views/spaces.php:53
-msgid "All Privacy"
-msgstr "所有隱私"
-
-#: views/reactions.php:36
-msgid "All Reaction Types"
-msgstr "所有反應類型"
-
-#: views/members.php:56
-msgid "All Roles"
-msgstr "所有角色"
-
-#: views/comments.php:53 views/posts.php:57 views/media.php:54
-#: views/members.php:64
-msgid "All Spaces"
-msgstr "所有空格"
-
-#: views/members.php:49
-msgid "All Status"
-msgstr "所有狀態"
-
-#: views/comments.php:46 views/posts.php:49 views/spaces.php:46
-#: views/courses.php:47
-msgid "All Statuses"
-msgstr "所有狀態"
-
-#: views/spaces.php:176
-msgid "Allow users to request to join this Space"
-msgstr "允許使用者申請加入此空間"
-
-#: views/spaces.php:246
-msgid "Alphabetical"
-msgstr "按字母順序排列"
-
-#: views/import.php:166
-msgid "Always create new items, even if similar ones exist"
-msgstr "即使存在類似物品，也要創建新物品。"
-
-#: includes/Admin.php:211
-msgid "An error occurred. Please try again."
-msgstr "發生錯誤，請重試。"
-
-#: views/reactions.php:42
-msgid "Angry"
-msgstr "生氣的"
-
-#: views/spaces.php:223
-msgid "Any Logged in users"
-msgstr "任何已登入使用者"
-
-#: views/spaces.php:231
-msgid "Any Members"
-msgstr "任何成員"
-
-#: views/posts.php:342
-msgid "Apply Changes"
-msgstr "應用程式變更"
-
-#: views/posts.php:53 views/posts.php:165 views/posts.php:373
-#: views/spaces.php:49 views/spaces.php:170 views/spaces.php:355
-#: views/courses.php:50 views/courses.php:224 views/courses.php:350
-msgid "Archived"
-msgstr "已存檔"
-
-#: includes/Admin.php:209
-msgid "Are you sure you want to delete the selected items?"
-msgstr "您確定要刪除所選項目嗎？"
-
-#: includes/Admin.php:208
-msgid "Are you sure you want to delete this item?"
-msgstr "您確定要刪除此項目嗎？"
-
-#: views/posts.php:274
-msgid "Attached Media"
-msgstr "附件媒體"
-
-#: views/media.php:50
-msgid "Audio"
-msgstr "聲音的"
-
-#: views/comments.php:169
-msgid "Author"
-msgstr "作者"
-
-#: views/posts.php:206
-msgid "Author ID"
-msgstr "作者ID"
-
-#: views/posts.php:135
-msgid "Basic Information"
-msgstr "基本訊息"
-
-#: views/members.php:51
-msgid "Blocked"
-msgstr "已屏蔽"
-
-#: views/import.php:38
-msgid "Browse Files"
-msgstr "瀏覽文件"
-
-#: views/comments.php:79 views/posts.php:78 views/posts.php:337
-#: views/courses.php:62
-msgid "Bulk Edit"
-msgstr "批次編輯"
-
-#: views/courses.php:334
-msgid "Bulk Edit Courses"
-msgstr "大量編輯課程"
-
-#: views/spaces.php:340
-msgid "Bulk Edit Spaces"
-msgstr "批次編輯空間"
-
-#: views/posts.php:350
-msgid "Bulk Update Settings"
-msgstr "批量更新設定"
-
-#: views/spaces.php:342 views/metadata.php:140 views/members.php:147
-#: views/members.php:181 views/members.php:221 views/courses.php:172
-#: views/courses.php:250 views/courses.php:282 views/courses.php:320
-#: views/courses.php:366
-msgid "Cancel"
-msgstr "取消"
-
-#: views/posts.php:378
-msgid "Change Privacy"
-msgstr "更改隱私"
-
-#: views/posts.php:354
-msgid "Change Space"
-msgstr "更改空間"
-
-#: views/posts.php:367
-msgid "Change Status"
-msgstr "更改狀態"
-
-#: views/spaces.php:346
-msgid ""
-"Changes will apply to all selected spaces. Leave fields empty to keep "
-"current values."
-msgstr "變更將應用於所有選定區域。將欄位留空以保留目前值。"
-
-#: views/import.php:255
-msgid "Clear Logs"
-msgstr "清除日誌"
-
-#: views/metadata.php:50
-msgid "Comment"
-msgstr "評論"
-
-#: views/comments.php:131
-msgid "Comment Content"
-msgstr "評論內容"
-
-#: includes/Ajax.php:323
-msgid "Comment deleted successfully."
-msgstr "評論已成功刪除。"
-
-#: views/comments.php:115 views/posts.php:308
-msgid "Comment Details"
-msgstr "評論詳情"
-
-#: views/reactions.php:62
-msgid "Comment ID"
-msgstr "評論 ID"
-
-#: includes/Ajax.php:1055
-msgid "Comment not found."
-msgstr "找不到評論。"
-
-#: includes/Ajax.php:1118
-msgid "Comment updated successfully."
-msgstr "評論已成功更新。"
-
-#: includes/Admin.php:79 includes/Admin.php:80 views/posts.php:282
-msgid "Comments"
-msgstr "評論"
-
-#: views/comments.php:14
-msgid "Comments Manager"
-msgstr "評論管理器"
-
-#: views/posts.php:248
-msgid "Comments:"
-msgstr "評論："
-
-#: views/import.php:133
-msgid "Configure how the import should be handled"
-msgstr "設定導入的處理方式"
-
-#: views/posts.php:146 views/courses.php:139
-msgid "Content"
-msgstr "內容"
-
-#: includes/Admin.php:32 includes/Admin.php:33
-msgid "Content Manager"
-msgstr "內容管理器"
-
-#: views/overview.php:14
-msgid "Content Overview"
-msgstr "內容概述"
-
-#: views/posts.php:244
-msgid "Content Type:"
-msgstr "內容類型："
-
-#: views/metadata.php:56
-msgid "Course"
-msgstr "課程"
-
-#: views/metadata.php:58
-msgid "Course Lesson"
-msgstr "課程課"
-
-#: includes/Ajax.php:1153
-msgid "Course not found."
-msgstr "找不到課程。"
-
-#: views/metadata.php:57
-msgid "Course Section"
-msgstr "課程部分"
-
-#: views/courses.php:98 views/courses.php:113
-msgid "Course Structure"
-msgstr "課程結構"
-
-#: views/courses.php:204
-msgid "Course Title"
-msgstr "課程名稱"
-
-#: includes/Ajax.php:1207
-msgid "Course updated successfully."
-msgstr "課程更新成功。"
-
-#: includes/Admin.php:61 includes/Admin.php:62
-msgid "Courses"
-msgstr "課程"
-
-#: views/courses.php:17
-msgid "Courses Manager"
-msgstr "課程管理器"
-
-#: views/import.php:178
-msgid "Create missing spaces automatically"
-msgstr "自動建立缺失空格"
-
-#: views/import.php:183
-msgid "Create missing terms/topics automatically"
-msgstr "自動建立缺少的術語/主題"
-
-#: views/import.php:164
-msgid "Create New Copies"
-msgstr "建立新副本"
-
-#: views/comments.php:174 views/spaces.php:321 views/metadata.php:79
-#: views/courses.php:238
-msgid "Created"
-msgstr "創建"
-
-#: views/spaces.php:309
-msgid "Created By"
-msgstr "創建者"
-
-#: views/posts.php:218
-msgid "Created Date"
-msgstr "建立日期"
-
-#: views/reactions.php:63
-msgid "Date"
-msgstr "日期"
-
-#: views/spaces.php:259
-msgid "Default Layout Styles"
-msgstr "預設佈局樣式"
-
-#: views/comments.php:84 views/posts.php:83 views/posts.php:123
-#: views/media.php:80 views/media.php:115 views/courses.php:67
-msgid "Delete"
-msgstr "刪除"
-
-#: views/spaces.php:106 views/spaces.php:147 views/courses.php:209
-msgid "Description"
-msgstr "描述"
-
-#: views/spaces.php:254
-msgid "Disable Post Sort By Options"
-msgstr "停用帖子排序選項"
-
-#: views/spaces.php:220
-msgid "Document Library Access (View & Download)"
-msgstr "文件庫存取（檢視和下載）"
-
-#: views/media.php:49
-msgid "Documents"
-msgstr "文件"
-
-#: views/import.php:63
-msgid "Download Sample Templates"
-msgstr "下載範例範本"
-
-#: views/posts.php:51 views/posts.php:163 views/posts.php:371
-#: views/spaces.php:48 views/spaces.php:169 views/spaces.php:354
-#: views/courses.php:49 views/courses.php:164 views/courses.php:223
-#: views/courses.php:349
-msgid "Draft"
-msgstr "草稿"
-
-#: views/import.php:33
-msgid "Drop your file here or click to browse"
-msgstr "將文件拖放到這裡，或點選瀏覽。"
-
-#: views/import.php:188
-msgid "Dry run (preview without importing)"
-msgstr "試運行（不導入內容的預覽）"
-
-#: views/courses.php:103 views/courses.php:194
-msgid "Edit Course Details"
-msgstr "編輯課程詳情"
-
-#: views/courses.php:123 views/courses.php:265
-msgid "Edit Lesson"
-msgstr "編輯課程"
-
-#: views/metadata.php:107
-msgid "Edit Metadata"
-msgstr "編輯元資料"
-
-#: views/metadata.php:134
-msgid "Edit the metadata value. JSON values will be validated."
-msgstr "編輯元資料值。系統將驗證 JSON 值。"
-
-#: views/spaces.php:215
-msgid "Enable File/Document Library for this space"
-msgstr "啟用此空間的文件/文件庫"
-
-#: views/spaces.php:293
-msgid "Enable group chat for this space members"
-msgstr "啟用此空間成員的群組聊天功能"
-
-#: views/members.php:79
-msgid "Enroll"
-msgstr "註冊"
-
-#: views/members.php:150
-msgid "Enroll Members"
-msgstr "註冊會員"
-
-#: views/members.php:120
-msgid "Enroll Selected Members"
-msgstr "招募選定成員"
-
-#: includes/Ajax.php:1837
-msgid "Enrollment added successfully."
-msgstr "註冊成功。"
-
-#: includes/Ajax.php:1861
-msgid "Enrollment removed successfully."
-msgstr "註冊已成功移除。"
-
-#: views/import.php:238
-msgid "Errors"
-msgstr "錯誤"
-
-#: views/import.php:148
-msgid "Existing items will not be modified"
-msgstr "現有項目將不會修改"
-
-#: includes/Admin.php:124 includes/Admin.php:125
-msgid "Export"
-msgstr "出口"
-
-#: includes/Ajax.php:1834
-msgid "Failed to add enrollment or already enrolled."
-msgstr "新增註冊失敗或已註冊。"
-
-#: includes/Ajax.php:1035
-msgid "Failed to add term."
-msgstr "新增術語失敗。"
-
-#: includes/Ajax.php:325
-msgid "Failed to delete comment."
-msgstr "刪除評論失敗。"
-
-#: includes/Ajax.php:361
-msgid "Failed to delete comments."
-msgstr "刪除評論失敗。"
-
-#: includes/Ajax.php:1298
-msgid "Failed to delete item."
-msgstr "刪除項目失敗。"
-
-#: includes/Ajax.php:452 includes/Ajax.php:559
-msgid "Failed to delete media."
-msgstr "刪除媒體檔案失敗。"
-
-#: includes/Ajax.php:629
-msgid "Failed to delete metadata."
-msgstr "刪除元資料失敗。"
-
-#: includes/Ajax.php:1315
-msgid "Failed to delete post."
-msgstr "刪除貼文失敗。"
-
-#: includes/Ajax.php:278
-msgid "Failed to delete posts."
-msgstr "刪除貼文失敗。"
-
-#: includes/Ajax.php:403
-msgid "Failed to delete reaction."
-msgstr "刪除反應失敗。"
-
-#: includes/Ajax.php:860 includes/Ajax.php:885
-msgid "Failed to delete spaces."
-msgstr "刪除空格失敗。"
-
-#: includes/Ajax.php:1353
-msgid "Failed to duplicate item."
-msgstr "複製專案失敗。"
-
-#: includes/Ajax.php:1398
-msgid "Failed to move item."
-msgstr "移動物品失敗。"
-
-#: includes/Ajax.php:1858
-msgid "Failed to remove enrollment."
-msgstr "移除註冊失敗。"
-
-#: includes/Ajax.php:963
-msgid "Failed to remove term."
-msgstr "刪除術語失敗。"
-
-#: includes/Ajax.php:1121
-msgid "Failed to update comment."
-msgstr "評論更新失敗。"
-
-#: includes/Ajax.php:1209
-msgid "Failed to update course."
-msgstr "課程更新失敗。"
-
-#: includes/Ajax.php:1254
-msgid "Failed to update courses."
-msgstr "課程更新失敗。"
-
-#: includes/Ajax.php:1809
-msgid "Failed to update member."
-msgstr "成員更新失敗。"
-
-#: includes/Ajax.php:605
-msgid "Failed to update metadata."
-msgstr "元資料更新失敗。"
-
-#: includes/Ajax.php:261
-msgid "Failed to update post."
-msgstr "貼文更新失敗。"
-
-#: includes/Ajax.php:996
-msgid "Failed to update posts."
-msgstr "貼文更新失敗。"
-
-#: includes/Ajax.php:767 includes/Ajax.php:773
-msgid "Failed to update space."
-msgstr "空間更新失敗。"
-
-#: includes/Ajax.php:836
-msgid "Failed to update spaces."
-msgstr "空間更新失敗。"
-
-#: includes/Ajax.php:1608
-msgid "Failed to upload file."
-msgstr "文件上傳失敗。"
-
-#. Name of the plugin
-msgid "FCA Content Manager for Fluent Community"
-msgstr "FCA Fluent社群內容經理"
-
-#: views/metadata.php:49
-msgid "Feed"
-msgstr "餵食"
-
-#: views/media.php:130
-msgid "File Information"
-msgstr "文件訊息"
-
-#: views/media.php:138
-msgid "File Name"
-msgstr "檔案名稱"
-
-#: views/media.php:148
-msgid "File Size"
-msgstr "文件大小"
-
-#: includes/ImportExport.php:77
-msgid "File size exceeds 50MB limit."
-msgstr "文件大小超過50MB限制。"
-
-#: includes/ImportExport.php:70
-msgid "File upload error."
-msgstr "文件上傳錯誤。"
-
-#. Author of the plugin
-msgid "Fluent Community Addons"
-msgstr "Fluent 社群外掛"
-
-#: views/spaces.php:248
-msgid "Following"
-msgstr "下列的"
-
-#: views/spaces.php:290
-msgid "Group Chat?"
-msgstr "群聊？"
-
-#: views/spaces.php:208
-msgid ""
-"Hide Members count from spaces page (when members page access unavailable)"
-msgstr "隱藏空間頁面中的成員數量（當成員頁面無法存取時）"
-
-#. URI of the plugin
-#. Author URI of the plugin
-msgid "https://fluentcommunityaddons.com"
-msgstr "https://fluentcommunityaddons.com"
-
-#: views/comments.php:164 views/metadata.php:74 views/media.php:133
-#: views/reactions.php:58
-msgid "ID"
-msgstr "ID"
-
-#: views/media.php:47
-msgid "Images"
-msgstr "圖片"
-
-#: includes/Admin.php:133 includes/Admin.php:134
-msgid "Import"
-msgstr "進口"
-
-#: views/import.php:139
-msgid "Import Behavior"
-msgstr "導入行為"
-
-#: views/import.php:217
-msgid "Import Complete!"
-msgstr "導入完成！"
-
-#: views/import.php:11
-msgid "Import Content"
-msgstr "導入內容"
-
-#: includes/Ajax.php:1665
-msgid "Import file not found."
-msgstr "找不到導入檔案。"
-
-#: views/import.php:244
-msgid "Import Logs"
-msgstr "匯入日誌"
-
-#: views/import.php:223
-msgid "Imported"
-msgstr "進口"
-
-#: includes/Ajax.php:317 includes/Ajax.php:1046 includes/Ajax.php:1104
-msgid "Invalid comment ID."
-msgstr "評論ID無效。"
-
-#: includes/Ajax.php:1149 includes/Ajax.php:1165 includes/Ajax.php:1183
-msgid "Invalid course ID."
-msgstr "課程ID無效。"
-
-#: includes/Ajax.php:1008
-msgid "Invalid data."
-msgstr "資料無效。"
-
-#: includes/ImportExport.php:85
-msgid "Invalid file type. Only JSON, CSV, and ZIP files are allowed."
-msgstr "文件類型無效。僅允許JSON、CSV和ZIP格式的檔案。"
-
-#: includes/Ajax.php:1292 includes/Ajax.php:1331
-msgid "Invalid item ID."
-msgstr "無效的商品ID。"
-
-#: includes/Ajax.php:444 includes/Ajax.php:468
-msgid "Invalid media ID."
-msgstr "無效的媒體 ID。"
-
-#: includes/Ajax.php:594 includes/Ajax.php:621
-msgid "Invalid metadata ID."
-msgstr "無效的元資料 ID。"
-
-#: includes/Ajax.php:1372
-msgid "Invalid parameters."
-msgstr "參數無效。"
-
-#: includes/Ajax.php:102 includes/Ajax.php:224 includes/Ajax.php:1309
+#: includes/Ajax.php
 msgid "Invalid post ID."
 msgstr "貼文ID無效。"
 
-#: includes/Ajax.php:957 includes/Ajax.php:1029
-msgid "Invalid post or term ID."
-msgstr "貼文或術語 ID 無效。"
-
-#: includes/Ajax.php:395
-msgid "Invalid reaction ID."
-msgstr "無效的反應ID。"
-
-#: includes/Ajax.php:662 includes/Ajax.php:697
-msgid "Invalid space ID."
-msgstr "無效的空間ID。"
-
-#: includes/Ajax.php:1296
-msgid "Item deleted successfully."
-msgstr "項目已成功刪除。"
-
-#: includes/Ajax.php:1349
-msgid "Item duplicated successfully."
-msgstr "項目複製成功。"
-
-#: includes/Ajax.php:1396
-msgid "Item moved successfully."
-msgstr "物品已成功搬運。"
-
-#: includes/Ajax.php:1338
-msgid "Item not found."
-msgstr "找不到該物品。"
-
-#: views/spaces.php:242
-msgid "Latest"
-msgstr "最新的"
-
-#: views/reactions.php:39
-msgid "Laugh"
-msgstr "笑"
-
-#: views/courses.php:133 views/courses.php:275
-msgid "Lesson Title"
-msgstr "課程標題"
-
-#: views/reactions.php:37
-msgid "Like"
-msgstr "喜歡"
-
-#: views/spaces.php:245
-msgid "Likes"
-msgstr "讚"
-
-#: views/spaces.php:262
-msgid "List"
-msgstr "清單"
-
-#: views/comments.php:93
-msgid "Loading comments..."
-msgstr "正在加載評論…"
-
-#: views/courses.php:76
-msgid "Loading courses..."
-msgstr "正在加載課程…"
-
-#: views/media.php:89
-msgid "Loading media..."
-msgstr "正在加載媒體…"
-
-#: views/members.php:94
-msgid "Loading members..."
-msgstr "正在加載成員..."
-
-#: views/metadata.php:88
-msgid "Loading metadata..."
-msgstr "正在加載元資料..."
-
-#: views/posts.php:93
-msgid "Loading posts..."
-msgstr "正在加載帖子..."
-
-#: views/reactions.php:72
-msgid "Loading reactions..."
-msgstr "加載反應..."
-
-#: views/overview.php:34
-msgid "Loading statistics..."
-msgstr "正在載入統計資料…"
-
-#: includes/Admin.php:212 views/comments.php:189 views/media.php:172
-msgid "Loading..."
-msgstr "載入中..."
-
-#: views/reactions.php:38
-msgid "Love"
-msgstr "愛"
-
-#: views/spaces.php:285
-msgid "Make members select a topic"
-msgstr "讓成員選擇一個主題"
-
-#: views/posts.php:182
-msgid "Make this post sticky"
-msgstr "將此帖置頂。"
-
-#: views/comments.php:17
-msgid "Manage all community comments"
-msgstr "管理所有社群評論"
-
-#: views/posts.php:20
-msgid "Manage all community posts with advanced search and filtering"
-msgstr "使用進階搜尋和篩選功能管理所有社群帖子"
-
-#: views/spaces.php:17
-msgid "Manage all community spaces (excluding courses)"
-msgstr "管理所有公共空間（課程除外）"
-
-#: views/media.php:17
-msgid "Manage all media files in the community"
-msgstr "管理社群中的所有媒體文件"
-
-#: views/reactions.php:17
-msgid "Manage all reactions to posts and comments"
-msgstr "管理所有對帖子和評論的回复"
-
-#: views/members.php:24
-msgid "Manage community members and their enrollments"
-msgstr "管理社區成員及其註冊訊息"
-
-#: views/courses.php:20
-msgid "Manage courses, sections, and lessons"
-msgstr "管理課程、章節和課時"
-
-#: views/metadata.php:17
-msgid "Manage metadata for all content types"
-msgstr "管理所有內容類型的元資料"
-
-#: views/import.php:98
-msgid "Map your CSV columns to database fields"
-msgstr "將 CSV 列對應到資料庫字段"
-
-#: includes/Admin.php:97 includes/Admin.php:98 views/metadata.php:51
-msgid "Media"
-msgstr "媒體"
-
-#: includes/Ajax.php:450
-msgid "Media deleted successfully."
-msgstr "媒體檔案已成功刪除。"
-
-#: views/media.php:111
-msgid "Media Details"
-msgstr "媒體詳情"
-
-#: views/media.php:14
-msgid "Media Manager"
-msgstr "媒體經理"
-
-#: includes/Ajax.php:472
-msgid "Media not found."
-msgstr "找不到媒體檔案。"
-
-#: views/members.php:59 views/members.php:138 views/members.php:212
-msgid "Member"
-msgstr "成員"
-
-#: includes/Ajax.php:1761
-msgid "Member not found."
-msgstr "找不到該成員。"
-
-#: includes/Ajax.php:1812
-msgid "Member updated successfully."
-msgstr "成員資訊更新成功。"
-
-#: includes/Admin.php:70 includes/Admin.php:71
-msgid "Members"
-msgstr "成員"
-
-#: views/spaces.php:313
-msgid "Members Count"
-msgstr "成員數量"
-
-#: views/members.php:21
-msgid "Members Manager"
-msgstr "會員管理"
-
-#: views/spaces.php:222
-msgid "Members of this space"
-msgstr "本空間成員"
-
-#: views/comments.php:134
-msgid "Message"
-msgstr "訊息"
-
-#: views/metadata.php:77 views/metadata.php:127
-msgid "Meta Key"
-msgstr "元鍵"
-
-#: views/metadata.php:78 views/metadata.php:132
-msgid "Meta Value"
-msgstr "元資料"
-
-#: includes/Admin.php:115 includes/Admin.php:116 views/comments.php:161
-#: views/posts.php:189 views/spaces.php:305
-msgid "Metadata"
-msgstr "元資料"
-
-#: includes/Ajax.php:627
-msgid "Metadata deleted successfully."
-msgstr "元資料已成功刪除。"
-
-#: views/metadata.php:14
-msgid "Metadata Manager"
-msgstr "元資料管理器"
-
-#: includes/Ajax.php:603
-msgid "Metadata updated successfully."
-msgstr "元資料更新成功。"
-
-#: views/members.php:58 views/members.php:140 views/members.php:214
-msgid "Moderator"
-msgstr "主持人"
-
-#. Description of the plugin
-msgid ""
-"Modern content management system for Fluent Community - manage posts, "
-"courses, comments, reactions, and more"
-msgstr "Fluent Community 的現代化內容管理系統 - 管理貼文、課程、評論、按讚等"
-
-#: views/courses.php:323
-msgid "Move"
-msgstr "移動"
-
-#: views/courses.php:298
-msgid "Move to Course"
-msgstr "前往課程"
-
-#: views/spaces.php:241
-msgid "New Activity"
-msgstr "新活動"
-
-#: includes/Ajax.php:988
-msgid "No changes specified."
-msgstr "未指定任何更改。"
-
-#: views/comments.php:105
-msgid "No Comment Selected"
-msgstr "未選擇評論"
-
-#: views/posts.php:284
-msgid "No comments on this post"
-msgstr "暫無評論"
-
-#: includes/Ajax.php:352
-msgid "No comments selected."
-msgstr "暫無評論。"
-
-#: views/courses.php:88
-msgid "No Course Selected"
-msgstr "未選擇課程"
-
-#: includes/Ajax.php:1225
-msgid "No courses selected."
-msgstr "未選擇課程。"
-
-#: includes/Ajax.php:822 includes/Ajax.php:1238
-msgid "No fields to update."
-msgstr "沒有需要更新的字段。"
-
-#: includes/Ajax.php:1595
-msgid "No file uploaded."
-msgstr "文件未上傳。"
-
-#: includes/Ajax.php:791 includes/Ajax.php:1270
-msgid "No items to update."
-msgstr "無需更新任何項目。"
-
-#: views/posts.php:276
-msgid "No media attached to this post"
-msgstr "此貼文未附帶任何媒體檔案。"
-
-#: views/media.php:101
-msgid "No Media Selected"
-msgstr "未選擇媒體。"
-
-#: includes/Ajax.php:547
-msgid "No media selected."
-msgstr "未選擇媒體。"
-
-#: views/members.php:106
-msgid "No Member Selected"
-msgstr "未選擇成員"
-
-#: views/posts.php:105
-msgid "No Post Selected"
-msgstr "未選貼文"
-
-#: includes/Ajax.php:272 includes/Ajax.php:974
-msgid "No posts selected."
-msgstr "未選擇任何貼文。"
-
-#: views/comments.php:197
-msgid "No reactions on this comment"
-msgstr "對此評論暫無回應"
-
-#: views/posts.php:292
-msgid "No reactions on this post"
-msgstr "暫無評論"
-
-#: views/comments.php:205
-msgid "No replies to this comment"
-msgstr "暫無回覆"
-
-#: includes/Admin.php:213
-msgid "No results found."
-msgstr "找不到結果。"
-
-#: views/courses.php:314
-msgid "No section (make orphan)"
-msgstr "沒有章節（使其成為孤立章節）"
-
-#: includes/Ajax.php:167 includes/Ajax.php:508 views/posts.php:196
-msgid "No Space"
-msgstr "沒有空間"
-
-#: includes/Ajax.php:808 includes/Ajax.php:876
-msgid "No spaces selected."
-msgstr "未選擇任何空格。"
-
-#: views/posts.php:262
-msgid "No topics assigned to this post"
-msgstr "本帖暫無主題。"
-
-#: views/metadata.php:52
-msgid "Notification"
-msgstr "通知"
-
-#: views/metadata.php:76 views/metadata.php:122
-msgid "Object ID"
-msgstr "物件 ID"
-
-#: views/metadata.php:75 views/metadata.php:117
-msgid "Object Type"
-msgstr "物件類型"
-
-#: views/spaces.php:243
-msgid "Oldest"
-msgstr "最老"
-
-#: views/spaces.php:194
-msgid "Only admin or moderators can create post"
-msgstr "只有管理員或版主才能發帖"
-
-#: views/posts.php:351
-msgid ""
-"Only fields with values will be updated. Leave blank to keep existing values."
-msgstr "只有已賦值的欄位才會更新。留空則保留現有值。"
-
-#: views/import.php:122
-msgid ""
-"Options have been auto-mapped based on values. Please review and adjust if "
-"needed."
-msgstr "選項已根據數值自動映射。請檢查並根據需要進行調整。"
-
-#: views/import.php:58
-msgid "OR"
-msgstr "或者"
-
-#: includes/Ajax.php:798 includes/Ajax.php:1277
-msgid "Order updated successfully."
-msgstr "訂單已成功更新。"
-
-#: includes/Admin.php:43 includes/Admin.php:44
-msgid "Overview"
-msgstr "概述"
-
-#: views/overview.php:17
-msgid "Overview of all Fluent Community content"
-msgstr "Fluent Community 所有內容的概覽"
-
-#: views/comments.php:186
-msgid "Parent Post"
-msgstr "父親帖子"
-
-#: views/comments.php:48 views/comments.php:144 views/posts.php:52
-#: views/posts.php:164 views/posts.php:372 views/members.php:52
-msgid "Pending"
-msgstr "待審核"
-
-#: views/comments.php:65 views/comments.php:66 views/comments.php:67
-#: views/posts.php:66 views/posts.php:67 views/posts.php:68 views/spaces.php:59
-#: views/spaces.php:60 views/spaces.php:61 views/metadata.php:62
-#: views/metadata.php:63 views/metadata.php:64 views/media.php:66
-#: views/media.php:67 views/media.php:68 views/reactions.php:46
-#: views/reactions.php:47 views/reactions.php:48
-msgid "per page"
-msgstr "每頁"
-
-#: views/spaces.php:244
-msgid "Popular"
-msgstr "受歡迎的"
-
-#: views/metadata.php:48
-msgid "Post"
-msgstr "郵政"
-
-#: includes/Ajax.php:1313
-msgid "Post deleted successfully."
-msgstr "帖子已成功刪除。"
-
-#: views/posts.php:115
-msgid "Post Details"
-msgstr "貼文詳情"
-
-#: views/reactions.php:61
-msgid "Post ID"
-msgstr "貼文 ID"
-
-#: views/posts.php:236
-msgid "Post ID:"
-msgstr "貼文編號："
-
-#: includes/Ajax.php:106
+#: includes/Ajax.php
 msgid "Post not found."
 msgstr "找不到貼文。"
 
-#: includes/Ajax.php:259
-msgid "Post updated successfully."
-msgstr "帖子已成功更新。"
-
-#: includes/Admin.php:52 includes/Admin.php:53
-msgid "Posts"
-msgstr "貼文"
-
-#: views/spaces.php:317
-msgid "Posts Count"
-msgstr "貼文數量"
-
-#: views/posts.php:17
-msgid "Posts Manager"
-msgstr "帖子管理器"
-
-#: views/posts.php:338
-msgid "posts selected"
-msgstr "已選貼文"
-
-#: views/import.php:71
-msgid "Posts Template (CSV)"
-msgstr "文章範本（CSV）"
-
-#: views/import.php:76
-msgid "Posts Template (JSON)"
-msgstr "文章範本（JSON）"
-
-#: views/media.php:124
-msgid "Preview"
-msgstr "預覽"
-
-#: views/comments.php:150 views/posts.php:170 views/spaces.php:158
-#: views/spaces.php:360 views/courses.php:229 views/courses.php:355
-msgid "Privacy"
-msgstr "隱私"
-
-#: views/comments.php:153 views/posts.php:173 views/posts.php:382
-#: views/spaces.php:55 views/spaces.php:161 views/spaces.php:364
-#: views/courses.php:232 views/courses.php:359
-msgid "Private"
-msgstr "私人的"
-
-#: includes/Admin.php:215
-msgid "Pro Feature"
-msgstr "專業功能"
-
-#: views/comments.php:152 views/posts.php:172 views/posts.php:381
-#: views/spaces.php:54 views/spaces.php:160 views/spaces.php:224
-#: views/spaces.php:363 views/courses.php:231 views/courses.php:358
-msgid "Public"
-msgstr "民眾"
-
-#: views/comments.php:47 views/comments.php:143 views/posts.php:50
-#: views/posts.php:162 views/posts.php:370 views/spaces.php:47
-#: views/spaces.php:168 views/spaces.php:353 views/courses.php:48
-#: views/courses.php:163 views/courses.php:222 views/courses.php:348
-msgid "Published"
-msgstr "已發布"
-
-#: views/reactions.php:60
-msgid "Reaction"
-msgstr "互動"
-
-#: includes/Ajax.php:401
-msgid "Reaction deleted successfully."
-msgstr "反應已成功刪除。"
-
-#: includes/Admin.php:88 includes/Admin.php:89 views/comments.php:195
-#: views/posts.php:290
-msgid "Reactions"
-msgstr "互動"
-
-#: views/reactions.php:14
-msgid "Reactions Manager"
-msgstr "反應管理器"
-
-#: views/posts.php:252 views/posts.php:323
-msgid "Reactions:"
-msgstr "反應："
-
-#: includes/Admin.php:216
-msgid "Read Only (Pro required for editing)"
-msgstr "只讀（編輯需專業版）"
-
-#: views/comments.php:23 views/posts.php:26 views/spaces.php:23
-#: views/metadata.php:23 views/media.php:23 views/members.php:30
-#: views/reactions.php:23 views/courses.php:26 views/overview.php:23
-msgid "Refresh"
-msgstr "重新整理"
-
-#: includes/Helpers.php:182
-msgid "Remove"
-msgstr "消除"
-
-#: views/members.php:160 views/members.php:184
-msgid "Remove Enrollment"
-msgstr "取消註冊"
-
-#: views/comments.php:203
-msgid "Replies"
-msgstr "回覆"
-
-#: views/members.php:136 views/members.php:210
-msgid "Role"
-msgstr "角色"
-
-#: views/reactions.php:41
-msgid "Sad"
-msgstr "傷心"
-
-#: views/comments.php:119 views/posts.php:119 views/spaces.php:84
-#: views/spaces.php:124 views/courses.php:177 views/courses.php:286
-msgid "Save Changes"
-msgstr "儲存變更"
-
-#: views/courses.php:155
-msgid "Save Content"
-msgstr "儲存內容"
-
-#: views/courses.php:254
-msgid "Save Course"
-msgstr "儲存課程"
-
-#: views/metadata.php:144
-msgid "Save Metadata"
-msgstr "儲存元資料"
-
-#: includes/Admin.php:210
-msgid "Saved successfully!"
-msgstr "儲存成功！"
-
-#: views/comments.php:41
-msgid "Search comments..."
-msgstr "搜尋評論…"
-
-#: views/courses.php:42
-msgid "Search courses..."
-msgstr "搜尋課程…"
-
-#: views/media.php:41
-msgid "Search media..."
-msgstr "搜尋媒體..."
-
-#: views/members.php:44
-msgid "Search members..."
-msgstr "搜尋成員..."
-
-#: views/metadata.php:39
-msgid "Search metadata key..."
-msgstr "搜尋元資料鍵..."
-
-#: views/posts.php:44
-msgid "Search posts..."
-msgstr "搜尋帖子..."
-
-#: views/spaces.php:41
-msgid "Search spaces..."
-msgstr "搜尋空間…"
-
-#: views/spaces.php:162
-msgid "Secret"
-msgstr "秘密"
-
-#: includes/Ajax.php:146
+#: includes/Ajax.php
 msgid "Security check failed."
 msgstr "安全檢查失敗。"
 
-#: views/comments.php:106
-msgid "Select a comment from the list to view details"
-msgstr "從清單中選擇一條評論以查看詳情。"
-
-#: views/courses.php:89
-msgid "Select a course from the list to view its structure"
-msgstr "從清單中選擇一門課程以查看其結構"
-
-#: views/courses.php:308
-msgid "Select a course..."
-msgstr "選擇課程…"
-
-#: views/media.php:102
-msgid "Select a media file from the list to view details"
-msgstr "從清單中選擇一個媒體檔案以查看詳細資訊。"
-
-#: views/members.php:107
-msgid "Select a member from the list to view and edit their details."
-msgstr "從清單中選擇一名成員，即可查看和編輯其詳細資訊。"
-
-#: views/posts.php:106
-msgid "Select a post from the list to view and edit details"
-msgstr "從清單中選擇帖子以查看和編輯詳細資訊。"
-
-#: views/spaces.php:76
-msgid "Select a space to view and edit details"
-msgstr "選擇一個空間以查看和編輯詳細資訊"
-
-#: views/posts.php:391
-msgid "Select a topic to add..."
-msgstr "選擇要新增的主題…"
-
-#: views/posts.php:267
-msgid "Select a topic..."
-msgstr "選擇一個主題…"
-
-#: views/comments.php:75 views/posts.php:74 views/media.php:76
-#: views/members.php:75 views/courses.php:58
-msgid "Select All"
-msgstr "全選"
-
-#: views/members.php:127 views/members.php:167 views/members.php:201
-msgid "Select Space or Course"
-msgstr "選擇空間或課程"
-
-#: views/courses.php:306
-msgid "Select Target Course"
-msgstr "選擇目標課程"
-
-#: views/courses.php:312
-msgid "Select Target Section (optional for lessons)"
-msgstr "選擇目標部分（課程可選）"
-
-#: views/import.php:109
-msgid "Select User"
-msgstr "選擇使用者"
-
-#: views/posts.php:156
-msgid "Settings"
-msgstr "設定"
-
-#: views/import.php:250
-msgid "Show Logs"
-msgstr "顯示日誌"
-
-#: views/spaces.php:201
-msgid "Show Right Sidebar on Space"
-msgstr "在空格處顯示右側邊欄"
-
-#: views/spaces.php:113
-msgid "Show Spaces even if the user is not a member of any space"
-msgstr "即使使用者不是任何空間的成員，也顯示空間"
-
-#: views/import.php:146
-msgid "Skip Duplicates"
-msgstr "跳過重複項"
-
-#: views/import.php:233
-msgid "Skipped"
-msgstr "跳過"
-
-#: views/spaces.php:100 views/spaces.php:141 views/courses.php:214
-msgid "Slug"
-msgstr "蛞蝓"
-
-#: views/spaces.php:239
-msgid "Sort Activities By"
-msgstr "按活動排序"
-
-#: views/posts.php:193 views/metadata.php:45
-msgid "Space"
-msgstr "空間"
-
-#: views/spaces.php:81 views/spaces.php:121
-msgid "Space Details"
-msgstr "空間細節"
-
-#: views/spaces.php:94
-msgid "Space Group Title"
-msgstr "空間群名稱"
-
-#: includes/Ajax.php:852
-msgid "Space id missing"
-msgstr "空間 ID 缺失"
-
-#: includes/Ajax.php:671
-msgid "Space not found."
-msgstr "找不到空間。"
-
-#: views/posts.php:174 views/posts.php:383
-msgid "Space Only"
-msgstr "限空間"
-
-#: views/spaces.php:135
-msgid "Space Title"
-msgstr "太空標題"
-
-#: includes/Ajax.php:764
-msgid "Space updated successfully."
-msgstr "空間更新成功。"
-
-#: views/metadata.php:55
-msgid "Space User"
-msgstr "空間使用者"
-
-#: views/members.php:125 views/members.php:165 views/members.php:199
-msgid "Space/Course"
-msgstr "空間/課程"
-
-#: includes/Admin.php:106 includes/Admin.php:107
-msgid "Spaces"
-msgstr "空間"
-
-#: views/spaces.php:152
-msgid "Spaces Group"
-msgstr "空間集團"
-
-#: views/spaces.php:14
-msgid "Spaces Manager"
-msgstr "空間管理器"
-
-#: views/import.php:81
-msgid "Spaces Template (CSV)"
-msgstr "空間範本（CSV）"
-
-#: views/import.php:86
-msgid "Spaces Template (JSON)"
-msgstr "空間範本（JSON）"
-
-#: views/comments.php:49 views/comments.php:145
-msgid "Spam"
-msgstr "垃圾電子郵件"
-
-#: views/comments.php:141 views/posts.php:160 views/spaces.php:166
-#: views/spaces.php:350 views/courses.php:160 views/courses.php:220
-#: views/courses.php:345 views/import.php:111
-msgid "Status"
-msgstr "狀態"
-
-#: views/posts.php:321
-msgid "Status:"
-msgstr "狀態："
-
-#: views/import.php:22
-msgid "Step 1: Upload Import File"
-msgstr "步驟 1：上傳導入文件"
-
-#: views/import.php:96
-msgid "Step 2: Map Fields"
-msgstr "步驟 2：映射字段"
-
-#: views/import.php:131
-msgid "Step 3: Import Options"
-msgstr "步驟 3：導入選項"
-
-#: views/import.php:199
-msgid "Step 4: Import Progress"
-msgstr "步驟 4：導入進度"
-
-#: views/members.php:60 views/members.php:139 views/members.php:213
-msgid "Student"
-msgstr "學生"
-
-#: views/import.php:35
-msgid "Supported formats: JSON, CSV (Max 50MB)"
-msgstr "支援的格式：JSON、CSV（最大 50MB）"
-
-#: views/import.php:107
-msgid "Table name"
-msgstr "表名"
-
-#: includes/Ajax.php:2025
-msgid "Table name missing"
-msgstr "缺少表名"
-
-#: includes/Ajax.php:1033
-msgid "Term added successfully."
-msgstr "術語新增成功。"
-
-#: includes/Ajax.php:1017
-msgid "Term added to %d posts."
-msgstr "該術語已新增至 %d 篇貼文中。"
-
-#: includes/Ajax.php:961
-msgid "Term removed successfully."
-msgstr "已成功刪除該詞條。"
-
-#: views/metadata.php:54
-msgid "Term/Topic"
-msgstr "術語/主題"
-
-#: views/members.php:176
-msgid "This will remove the selected members from the chosen space or course."
-msgstr "這將把選定的成員從選定的空間或課程中移除。"
-
-#: views/spaces.php:261
-msgid "Timeline"
-msgstr "時間軸"
-
-#: views/posts.php:138
-msgid "Title"
-msgstr "標題"
-
-#: views/spaces.php:270
-msgid "Topic navigation"
-msgstr "主題導航"
-
-#: views/posts.php:260
-msgid "Topics/Terms"
-msgstr "主題/術語"
-
-#: views/media.php:143
-msgid "Type"
-msgstr "類型"
-
-#: views/posts.php:240
-msgid "Type:"
-msgstr "類型："
-
-#: views/spaces.php:247
-msgid "Unanswered"
-msgstr "未解答"
-
-#: views/members.php:84
-msgid "Unenroll"
-msgstr "取消註冊"
-
-#: includes/Ajax.php:155 includes/Ajax.php:159
+#: includes/Ajax.php
 msgid "Unknown"
 msgstr "未知"
 
-#: includes/Ajax.php:173 includes/Ajax.php:517
+#: includes/Ajax.php views/posts.php
+msgid "No Space"
+msgstr "沒有空間"
+
+#: includes/Ajax.php
 msgid "Unknown Space"
 msgstr "未知空間"
 
-#: includes/Ajax.php:1696 includes/Ajax.php:1711
+#: includes/Ajax.php
+msgid "Post updated successfully."
+msgstr "帖子已成功更新。"
+
+#: includes/Ajax.php
+msgid "Failed to update post."
+msgstr "貼文更新失敗。"
+
+#: includes/Ajax.php
+msgid "No posts selected."
+msgstr "未選擇任何貼文。"
+
+#: includes/Ajax.php
+msgid "%d posts deleted successfully."
+msgstr "已成功刪除 %d 則貼文。"
+
+#: includes/Ajax.php
+msgid "Failed to delete posts."
+msgstr "刪除貼文失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid comment ID."
+msgstr "評論ID無效。"
+
+#: includes/Ajax.php
+msgid "Comment deleted successfully."
+msgstr "評論已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete comment."
+msgstr "刪除評論失敗。"
+
+#: includes/Ajax.php
+msgid "No comments selected."
+msgstr "暫無評論。"
+
+#: includes/Ajax.php
+msgid "%d comments deleted successfully."
+msgstr "已成功刪除 %d 則評論。"
+
+#: includes/Ajax.php
+msgid "Failed to delete comments."
+msgstr "刪除評論失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid reaction ID."
+msgstr "無效的反應ID。"
+
+#: includes/Ajax.php
+msgid "Reaction deleted successfully."
+msgstr "反應已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete reaction."
+msgstr "刪除反應失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid media ID."
+msgstr "無效的媒體 ID。"
+
+#: includes/Ajax.php
+msgid "Media deleted successfully."
+msgstr "媒體檔案已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete media."
+msgstr "刪除媒體檔案失敗。"
+
+#: includes/Ajax.php
+msgid "Media not found."
+msgstr "找不到媒體檔案。"
+
+#: includes/Ajax.php
+msgid "No media selected."
+msgstr "未選擇媒體。"
+
+#: includes/Ajax.php
+msgid "%d media items deleted successfully."
+msgstr "已成功刪除 %d 個媒體項目。"
+
+#: includes/Ajax.php
+msgid "Invalid metadata ID."
+msgstr "無效的元資料 ID。"
+
+#: includes/Ajax.php
+msgid "Metadata updated successfully."
+msgstr "元資料更新成功。"
+
+#: includes/Ajax.php
+msgid "Failed to update metadata."
+msgstr "元資料更新失敗。"
+
+#: includes/Ajax.php
+msgid "Metadata deleted successfully."
+msgstr "元資料已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete metadata."
+msgstr "刪除元資料失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid space ID."
+msgstr "無效的空間ID。"
+
+#: includes/Ajax.php
+msgid "Space not found."
+msgstr "找不到空間。"
+
+#: includes/Ajax.php
+msgid "Space updated successfully."
+msgstr "空間更新成功。"
+
+#: includes/Ajax.php
+msgid "Failed to update space."
+msgstr "空間更新失敗。"
+
+#: includes/Ajax.php
+msgid "No items to update."
+msgstr "無需更新任何項目。"
+
+#: includes/Ajax.php
+msgid "Order updated successfully."
+msgstr "訂單已成功更新。"
+
+#: includes/Ajax.php
+msgid "No spaces selected."
+msgstr "未選擇任何空格。"
+
+#: includes/Ajax.php
+msgid "No fields to update."
+msgstr "沒有需要更新的字段。"
+
+#: includes/Ajax.php
+msgid "%d spaces updated successfully."
+msgstr "%d 個空間已成功更新。"
+
+#: includes/Ajax.php
+msgid "Failed to update spaces."
+msgstr "空間更新失敗。"
+
+#: includes/Ajax.php
+msgid "Space id missing"
+msgstr "空間 ID 缺失"
+
+#: includes/Ajax.php
+msgid "%d spaces deleted successfully."
+msgstr "已成功刪除 %d 個空格。"
+
+#: includes/Ajax.php
+msgid "Failed to delete spaces."
+msgstr "刪除空格失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid post or term ID."
+msgstr "貼文或術語 ID 無效。"
+
+#: includes/Ajax.php
+msgid "Term removed successfully."
+msgstr "已成功刪除該詞條。"
+
+#: includes/Ajax.php
+msgid "Failed to remove term."
+msgstr "刪除術語失敗。"
+
+#: includes/Ajax.php
+msgid "No changes specified."
+msgstr "未指定任何更改。"
+
+#: includes/Ajax.php
+msgid "%d posts updated successfully."
+msgstr "%d 篇貼文已成功更新。"
+
+#: includes/Ajax.php
+msgid "Failed to update posts."
+msgstr "貼文更新失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid data."
+msgstr "資料無效。"
+
+#: includes/Ajax.php
+msgid "Term added to %d posts."
+msgstr "該術語已新增至 %d 篇貼文中。"
+
+#: includes/Ajax.php
+msgid "Term added successfully."
+msgstr "術語新增成功。"
+
+#: includes/Ajax.php
+msgid "Failed to add term."
+msgstr "新增術語失敗。"
+
+#: includes/Ajax.php
+msgid "Comment not found."
+msgstr "找不到評論。"
+
+#: includes/Ajax.php
+msgid "Comment updated successfully."
+msgstr "評論已成功更新。"
+
+#: includes/Ajax.php
+msgid "Failed to update comment."
+msgstr "評論更新失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid course ID."
+msgstr "課程ID無效。"
+
+#: includes/Ajax.php
+msgid "Course not found."
+msgstr "找不到課程。"
+
+#: includes/Ajax.php
+msgid "Course updated successfully."
+msgstr "課程更新成功。"
+
+#: includes/Ajax.php
+msgid "Failed to update course."
+msgstr "課程更新失敗。"
+
+#: includes/Ajax.php
+msgid "No courses selected."
+msgstr "未選擇課程。"
+
+#: includes/Ajax.php
+msgid "%d courses updated successfully."
+msgstr "%d 門課程已成功更新。"
+
+#: includes/Ajax.php
+msgid "Failed to update courses."
+msgstr "課程更新失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid item ID."
+msgstr "無效的商品ID。"
+
+#: includes/Ajax.php
+msgid "Item deleted successfully."
+msgstr "項目已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete item."
+msgstr "刪除項目失敗。"
+
+#: includes/Ajax.php
+msgid "Post deleted successfully."
+msgstr "帖子已成功刪除。"
+
+#: includes/Ajax.php
+msgid "Failed to delete post."
+msgstr "刪除貼文失敗。"
+
+#: includes/Ajax.php
+msgid "Item not found."
+msgstr "找不到該物品。"
+
+#: includes/Ajax.php
+msgid "Item duplicated successfully."
+msgstr "項目複製成功。"
+
+#: includes/Ajax.php
+msgid "Failed to duplicate item."
+msgstr "複製專案失敗。"
+
+#: includes/Ajax.php
+msgid "Invalid parameters."
+msgstr "參數無效。"
+
+#: includes/Ajax.php
+msgid "Item moved successfully."
+msgstr "物品已成功搬運。"
+
+#: includes/Ajax.php
+msgid "Failed to move item."
+msgstr "移動物品失敗。"
+
+#: includes/Ajax.php
+msgid "No file uploaded."
+msgstr "文件未上傳。"
+
+#: includes/Ajax.php
+msgid "Failed to upload file."
+msgstr "文件上傳失敗。"
+
+#: includes/Ajax.php
+msgid "Import file not found."
+msgstr "找不到導入檔案。"
+
+#: includes/Ajax.php
 msgid "Unsupported content type."
 msgstr "不支援的內容類型。"
 
-#: views/courses.php:370
-msgid "Update Courses"
-msgstr "更新課程"
+#: includes/Ajax.php
+msgid "User ID is required."
+msgstr "必須提供使用者ID。"
 
-#: views/import.php:155
-msgid "Update Existing"
-msgstr "更新現有內容"
+#: includes/Ajax.php
+msgid "Member not found."
+msgstr "找不到該成員。"
 
-#: views/import.php:157
-msgid "Update items if they already exist (matched by slug)"
-msgstr "如果條目已存在（透過 slug 匹配），則更新條目。"
+#: includes/Ajax.php
+msgid "Failed to update member."
+msgstr "成員更新失敗。"
 
-#: views/courses.php:341
-msgid ""
-"Update multiple courses at once. Only fill in the fields you want to change."
-msgstr "一次性更新多個課程。只需填寫您想要更改的欄位。"
+#: includes/Ajax.php
+msgid "Member updated successfully."
+msgstr "成員資訊更新成功。"
 
-#: views/spaces.php:371
-msgid "Update Selected Spaces"
-msgstr "更新選定空間"
+#: includes/Ajax.php
+msgid "User ID and Space ID are required."
+msgstr "需要提供使用者ID和空間ID。"
 
-#: views/comments.php:179 views/spaces.php:325 views/courses.php:243
-#: views/import.php:228
-msgid "Updated"
-msgstr "更新"
+#: includes/Ajax.php
+msgid "Failed to add enrollment or already enrolled."
+msgstr "新增註冊失敗或已註冊。"
 
-#: views/posts.php:226
-msgid "Updated Date"
-msgstr "更新日期"
+#: includes/Ajax.php
+msgid "Enrollment added successfully."
+msgstr "註冊成功。"
 
-#: includes/Admin.php:214
-msgid "Upgrade to Pro"
-msgstr "升級到專業版"
+#: includes/Ajax.php
+msgid "Failed to remove enrollment."
+msgstr "移除註冊失敗。"
 
-#: includes/LicenseChecker.php:80
-msgid "Upgrade to Pro to edit and manage comments with full bulk operations."
-msgstr "升級到專業版即可使用完整的批次操作功能編輯和管理評論。"
+#: includes/Ajax.php
+msgid "Enrollment removed successfully."
+msgstr "註冊已成功移除。"
 
-#: includes/LicenseChecker.php:83
-msgid "Upgrade to Pro to edit and manage metadata entries."
-msgstr "升級到專業版即可編輯和管理元資料條目。"
+#: includes/Ajax.php
+msgid "User IDs and Space ID are required."
+msgstr "需要提供使用者 ID 和空間 ID。"
 
-#: includes/LicenseChecker.php:86
-msgid "Upgrade to Pro to export your content for backup or migration."
-msgstr "升級到專業版即可匯出內容進行備份或遷移。"
+#: includes/Ajax.php
+msgid "%d enrollments added successfully."
+msgstr "已成功新增 %d 個註冊名額。"
 
-#: includes/LicenseChecker.php:85
-msgid "Upgrade to Pro to import content from CSV and JSON files."
-msgstr "升級到專業版即可從 CSV 和 JSON 檔案匯入內容。"
+#: includes/Ajax.php
+msgid "%d enrollments removed successfully."
+msgstr "已成功移除 %d 個註冊資訊。"
 
-#: includes/LicenseChecker.php:78
+#: includes/Ajax.php
+msgid "Table name missing"
+msgstr "缺少表名"
+
+#: includes/LicenseChecker.php
 msgid ""
 "Upgrade to Pro to manage courses, reorder sections and lessons, and move "
 "items between courses."
 msgstr "升級到專業版即可管理課程、重新排列章節和課程，以及在課程之間移動專案。"
 
-#: includes/LicenseChecker.php:82
-msgid "Upgrade to Pro to manage media files and see where they're used."
-msgstr "升級到專業版即可管理媒體檔案並查看其使用位置。"
-
-#: includes/LicenseChecker.php:79
+#: includes/LicenseChecker.php
 msgid ""
 "Upgrade to Pro to manage members, handle enrollments, and control user "
 "access across spaces and courses."
-msgstr "升級至專業版，即可管理會員、處理註冊事宜，並控制使用者跨空間和課程的存取權限。"
+msgstr ""
+"升級至專業版，即可管理會員、處理註冊事宜，並控制使用者跨空間和課程的存取權"
+"限。"
 
-#: includes/LicenseChecker.php:81
+#: includes/LicenseChecker.php
+msgid "Upgrade to Pro to edit and manage comments with full bulk operations."
+msgstr "升級到專業版即可使用完整的批次操作功能編輯和管理評論。"
+
+#: includes/LicenseChecker.php
 msgid "Upgrade to Pro to manage reactions without limits."
 msgstr "升級到專業版，即可無限管理反應。"
 
-#: includes/LicenseChecker.php:84
+#: includes/LicenseChecker.php
+msgid "Upgrade to Pro to manage media files and see where they're used."
+msgstr "升級到專業版即可管理媒體檔案並查看其使用位置。"
+
+#: includes/LicenseChecker.php
+msgid "Upgrade to Pro to edit and manage metadata entries."
+msgstr "升級到專業版即可編輯和管理元資料條目。"
+
+#: includes/LicenseChecker.php
 msgid "Upgrade to Pro to manage spaces with full editing and bulk operations."
 msgstr "升級至專業版，即可使用完整的編輯和批次操作功能管理空間。"
 
-#: includes/LicenseChecker.php:87
+#: includes/LicenseChecker.php
+msgid "Upgrade to Pro to import content from CSV and JSON files."
+msgstr "升級到專業版即可從 CSV 和 JSON 檔案匯入內容。"
+
+#: includes/LicenseChecker.php
+msgid "Upgrade to Pro to export your content for backup or migration."
+msgstr "升級到專業版即可匯出內容進行備份或遷移。"
+
+#: includes/LicenseChecker.php
 msgid "Upgrade to Pro to unlock all features and unlimited access."
 msgstr "升級到專業版即可解鎖所有功能和無限存取權限。"
 
-#: views/import.php:24
-msgid "Upload a JSON or CSV file to import"
-msgstr "上傳 JSON 或 CSV 檔案進行匯入"
+#: includes/ImportExport.php
+msgid "File upload error."
+msgstr "文件上傳錯誤。"
 
-#: includes/Helpers.php:177
+#: includes/ImportExport.php
+msgid "File size exceeds 50MB limit."
+msgstr "文件大小超過50MB限制。"
+
+#: includes/ImportExport.php
+msgid "Invalid file type. Only JSON, CSV, and ZIP files are allowed."
+msgstr "文件類型無效。僅允許JSON、CSV和ZIP格式的檔案。"
+
+#: includes/Helpers.php
 msgid "Upload Photo"
 msgstr "上傳照片"
 
-#: views/media.php:163
-msgid "Uploaded"
-msgstr "已上傳"
+#: includes/Helpers.php
+msgid "Remove"
+msgstr "消除"
 
-#: views/media.php:158
-msgid "Uploaded By"
-msgstr "上傳者"
+#: includes/Admin.php
+msgid "Content Manager"
+msgstr "內容管理器"
 
-#: views/media.php:153
-msgid "URL"
-msgstr "URL"
+#: includes/Admin.php
+msgid "Overview"
+msgstr "概述"
 
-#: views/import.php:65
-msgid "Use these templates to prepare your import data"
-msgstr "使用這些範本準備您的匯入資料"
+#: includes/Admin.php
+msgid "Posts"
+msgstr "貼文"
 
-#: views/media.php:170
-msgid "Used In"
-msgstr "用於"
+#: includes/Admin.php
+msgid "Courses"
+msgstr "課程"
 
-#: views/metadata.php:46 views/reactions.php:59
-msgid "User"
-msgstr "使用者"
+#: includes/Admin.php
+msgid "Members"
+msgstr "成員"
 
-#: views/posts.php:211
-msgid "User ID"
-msgstr "使用者身分"
+#: includes/Admin.php views/posts.php
+msgid "Comments"
+msgstr "評論"
 
-#: includes/Ajax.php:1830 includes/Ajax.php:1854
-msgid "User ID and Space ID are required."
-msgstr "需要提供使用者ID和空間ID。"
+#: includes/Admin.php views/comments.php views/posts.php
+msgid "Reactions"
+msgstr "互動"
 
-#: includes/Ajax.php:1757 includes/Ajax.php:1778
-msgid "User ID is required."
-msgstr "必須提供使用者ID。"
+#: includes/Admin.php views/metadata.php
+msgid "Media"
+msgstr "媒體"
 
-#: includes/Ajax.php:1879 includes/Ajax.php:1901
-msgid "User IDs and Space ID are required."
-msgstr "需要提供使用者 ID 和空間 ID。"
+#: includes/Admin.php
+msgid "Spaces"
+msgstr "空間"
 
-#: views/metadata.php:47
-msgid "User Profile"
-msgstr "使用者個人資料"
+#: includes/Admin.php views/spaces.php views/comments.php views/posts.php
+msgid "Metadata"
+msgstr "元資料"
 
-#: views/spaces.php:264
-msgid "Users can change the layout style to their own preference."
-msgstr "使用者可以根據自己的喜好更改佈局樣式。"
+#: includes/Admin.php
+msgid "Export"
+msgstr "出口"
 
-#: views/media.php:48
-msgid "Videos"
-msgstr "影片"
+#: includes/Admin.php
+msgid "Import"
+msgstr "進口"
 
-#: views/spaces.php:229
+#: includes/Admin.php
+msgid "Are you sure you want to delete this item?"
+msgstr "您確定要刪除此項目嗎？"
+
+#: includes/Admin.php
+msgid "Are you sure you want to delete the selected items?"
+msgstr "您確定要刪除所選項目嗎？"
+
+#: includes/Admin.php
+msgid "Saved successfully!"
+msgstr "儲存成功！"
+
+#: includes/Admin.php
+msgid "An error occurred. Please try again."
+msgstr "發生錯誤，請重試。"
+
+#: includes/Admin.php views/comments.php views/media.php
+msgid "Loading..."
+msgstr "載入中..."
+
+#: includes/Admin.php
+msgid "No results found."
+msgstr "找不到結果。"
+
+#: includes/Admin.php
+msgid "Upgrade to Pro"
+msgstr "升級到專業版"
+
+#: includes/Admin.php
+msgid "Pro Feature"
+msgstr "專業功能"
+
+#: includes/Admin.php
+msgid "Read Only (Pro required for editing)"
+msgstr "只讀（編輯需專業版）"
+
+#: views/spaces.php
+msgid "Spaces Manager"
+msgstr "空間管理器"
+
+#: views/spaces.php
+msgid "Manage all community spaces (excluding courses)"
+msgstr "管理所有公共空間（課程除外）"
+
+#: views/spaces.php views/courses.php views/comments.php views/overview.php
+#: views/members.php
+msgid "Refresh"
+msgstr "重新整理"
+
+#: views/spaces.php
+msgid "Search spaces..."
+msgstr "搜尋空間…"
+
+#: views/spaces.php views/courses.php views/comments.php views/posts.php
+msgid "All Statuses"
+msgstr "所有狀態"
+
+#: views/spaces.php views/courses.php
+msgid "Published"
+msgstr "已發布"
+
+#: views/spaces.php views/courses.php
+msgid "Draft"
+msgstr "草稿"
+
+#: views/spaces.php views/courses.php
+msgid "Archived"
+msgstr "已存檔"
+
+#: views/spaces.php
+msgid "All Privacy"
+msgstr "所有隱私"
+
+#: views/spaces.php views/courses.php
+msgid "Public"
+msgstr "民眾"
+
+#: views/spaces.php views/courses.php
+msgid "Private"
+msgstr "私人的"
+
+#: views/spaces.php views/comments.php
+msgid "per page"
+msgstr "每頁"
+
+#: views/spaces.php
+msgid "Select a space to view and edit details"
+msgstr "選擇一個空間以查看和編輯詳細資訊"
+
+#: views/spaces.php
+msgid "Space Details"
+msgstr "空間細節"
+
+#: views/spaces.php views/courses.php views/comments.php
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: views/spaces.php
+msgid "Space Group Title"
+msgstr "空間群名稱"
+
+#: views/spaces.php views/courses.php
+msgid "Slug"
+msgstr "蛞蝓"
+
+#: views/spaces.php views/courses.php
+msgid "Description"
+msgstr "描述"
+
+#: views/spaces.php
+msgid "Show Spaces even if the user is not a member of any space"
+msgstr "即使使用者不是任何空間的成員，也顯示空間"
+
+#: views/spaces.php
+msgid "Space Title"
+msgstr "太空標題"
+
+#: views/spaces.php
+msgid "Spaces Group"
+msgstr "空間集團"
+
+#: views/spaces.php views/courses.php views/comments.php
+msgid "Privacy"
+msgstr "隱私"
+
+#: views/spaces.php
+msgid "Secret"
+msgstr "秘密"
+
+#: views/spaces.php views/import.php views/courses.php
+msgid "Status"
+msgstr "狀態"
+
+#: views/spaces.php
+msgid "Allow users to request to join this Space"
+msgstr "允許使用者申請加入此空間"
+
+#: views/spaces.php
+msgid "Only admin or moderators can create post"
+msgstr "只有管理員或版主才能發帖"
+
+#: views/spaces.php
+msgid "Show Right Sidebar on Space"
+msgstr "在空格處顯示右側邊欄"
+
+#: views/spaces.php
+msgid ""
+"Hide Members count from spaces page (when members page access unavailable)"
+msgstr "隱藏空間頁面中的成員數量（當成員頁面無法存取時）"
+
+#: views/spaces.php
+msgid "Enable File/Document Library for this space"
+msgstr "啟用此空間的文件/文件庫"
+
+#: views/spaces.php
+msgid "Document Library Access (View & Download)"
+msgstr "文件庫存取（檢視和下載）"
+
+#: views/spaces.php
+msgid "Members of this space"
+msgstr "本空間成員"
+
+#: views/spaces.php
+msgid "Any Logged in users"
+msgstr "任何已登入使用者"
+
+#: views/spaces.php
 msgid "Who can upload the documents?"
 msgstr "誰可以上傳文件？"
 
-#: views/reactions.php:40
-msgid "Wow"
-msgstr "哇"
+#: views/spaces.php
+msgid "Any Members"
+msgstr "任何成員"
 
-#: views/import.php:201
+#: views/spaces.php
+msgid "Admin/Moderators Only"
+msgstr "限管理員/版主"
+
+#: views/spaces.php
+msgid "Sort Activities By"
+msgstr "按活動排序"
+
+#: views/spaces.php
+msgid "New Activity"
+msgstr "新活動"
+
+#: views/spaces.php
+msgid "Latest"
+msgstr "最新的"
+
+#: views/spaces.php
+msgid "Oldest"
+msgstr "最老"
+
+#: views/spaces.php
+msgid "Popular"
+msgstr "受歡迎的"
+
+#: views/spaces.php
+msgid "Likes"
+msgstr "讚"
+
+#: views/spaces.php
+msgid "Alphabetical"
+msgstr "按字母順序排列"
+
+#: views/spaces.php
+msgid "Unanswered"
+msgstr "未解答"
+
+#: views/spaces.php
+msgid "Following"
+msgstr "下列的"
+
+#: views/spaces.php
+msgid "Disable Post Sort By Options"
+msgstr "停用帖子排序選項"
+
+#: views/spaces.php
+msgid "Default Layout Styles"
+msgstr "預設佈局樣式"
+
+#: views/spaces.php
+msgid "Timeline"
+msgstr "時間軸"
+
+#: views/spaces.php
+msgid "List"
+msgstr "清單"
+
+#: views/spaces.php
+msgid "Users can change the layout style to their own preference."
+msgstr "使用者可以根據自己的喜好更改佈局樣式。"
+
+#: views/spaces.php
+msgid "Topic navigation"
+msgstr "主題導航"
+
+#: views/spaces.php
+msgid "Make members select a topic"
+msgstr "讓成員選擇一個主題"
+
+#: views/spaces.php
+msgid "Group Chat?"
+msgstr "群聊？"
+
+#: views/spaces.php
+msgid "Enable group chat for this space members"
+msgstr "啟用此空間成員的群組聊天功能"
+
+#: views/spaces.php
+msgid "Created By"
+msgstr "創建者"
+
+#: views/spaces.php
+msgid "Members Count"
+msgstr "成員數量"
+
+#: views/spaces.php
+msgid "Posts Count"
+msgstr "貼文數量"
+
+#: views/spaces.php views/courses.php views/comments.php views/metadata.php
+msgid "Created"
+msgstr "創建"
+
+#: views/spaces.php views/import.php views/courses.php views/comments.php
+msgid "Updated"
+msgstr "更新"
+
+#: views/spaces.php
+msgid "Bulk Edit Spaces"
+msgstr "批次編輯空間"
+
+#: views/spaces.php views/courses.php
+msgid "Cancel"
+msgstr "取消"
+
+#: views/spaces.php
+msgid ""
+"Changes will apply to all selected spaces. Leave fields empty to keep "
+"current values."
+msgstr "變更將應用於所有選定區域。將欄位留空以保留目前值。"
+
+#: views/spaces.php views/courses.php
+msgid "-- No Change --"
+msgstr "-- 無變化 --"
+
+#: views/spaces.php
+msgid "Update Selected Spaces"
+msgstr "更新選定空間"
+
+#: views/import.php
+msgid "Import Content"
+msgstr "導入內容"
+
+#: views/import.php
+msgid "Step 1: Upload Import File"
+msgstr "步驟 1：上傳導入文件"
+
+#: views/import.php
+msgid "Upload a JSON or CSV file to import"
+msgstr "上傳 JSON 或 CSV 檔案進行匯入"
+
+#: views/import.php
+msgid "Drop your file here or click to browse"
+msgstr "將文件拖放到這裡，或點選瀏覽。"
+
+#: views/import.php
+msgid "Supported formats: JSON, CSV (Max 50MB)"
+msgstr "支援的格式：JSON、CSV（最大 50MB）"
+
+#: views/import.php
+msgid "Browse Files"
+msgstr "瀏覽文件"
+
+#: views/import.php
+msgid "OR"
+msgstr "或者"
+
+#: views/import.php
+msgid "Download Sample Templates"
+msgstr "下載範例範本"
+
+#: views/import.php
+msgid "Use these templates to prepare your import data"
+msgstr "使用這些範本準備您的匯入資料"
+
+#: views/import.php
+msgid "Posts Template (CSV)"
+msgstr "文章範本（CSV）"
+
+#: views/import.php
+msgid "Posts Template (JSON)"
+msgstr "文章範本（JSON）"
+
+#: views/import.php
+msgid "Spaces Template (CSV)"
+msgstr "空間範本（CSV）"
+
+#: views/import.php
+msgid "Spaces Template (JSON)"
+msgstr "空間範本（JSON）"
+
+#: views/import.php
+msgid "Step 2: Map Fields"
+msgstr "步驟 2：映射字段"
+
+#: views/import.php
+msgid "Map your CSV columns to database fields"
+msgstr "將 CSV 列對應到資料庫字段"
+
+#: views/import.php
+msgid "Table name"
+msgstr "表名"
+
+#: views/import.php
+msgid "Select User"
+msgstr "選擇使用者"
+
+#: views/import.php
+msgid ""
+"Options have been auto-mapped based on values. Please review and adjust if "
+"needed."
+msgstr "選項已根據數值自動映射。請檢查並根據需要進行調整。"
+
+#: views/import.php
+msgid "Step 3: Import Options"
+msgstr "步驟 3：導入選項"
+
+#: views/import.php
+msgid "Configure how the import should be handled"
+msgstr "設定導入的處理方式"
+
+#: views/import.php
+msgid "Import Behavior"
+msgstr "導入行為"
+
+#: views/import.php
+msgid "Skip Duplicates"
+msgstr "跳過重複項"
+
+#: views/import.php
+msgid "Existing items will not be modified"
+msgstr "現有項目將不會修改"
+
+#: views/import.php
+msgid "Update Existing"
+msgstr "更新現有內容"
+
+#: views/import.php
+msgid "Update items if they already exist (matched by slug)"
+msgstr "如果條目已存在（透過 slug 匹配），則更新條目。"
+
+#: views/import.php
+msgid "Create New Copies"
+msgstr "建立新副本"
+
+#: views/import.php
+msgid "Always create new items, even if similar ones exist"
+msgstr "即使存在類似物品，也要創建新物品。"
+
+#: views/import.php
+msgid "Additional Options"
+msgstr "其他選項"
+
+#: views/import.php
+msgid "Create missing spaces automatically"
+msgstr "自動建立缺失空格"
+
+#: views/import.php
+msgid "Create missing terms/topics automatically"
+msgstr "自動建立缺少的術語/主題"
+
+#: views/import.php
+msgid "Dry run (preview without importing)"
+msgstr "試運行（不導入內容的預覽）"
+
+#: views/import.php
+msgid "Step 4: Import Progress"
+msgstr "步驟 4：導入進度"
+
+#: views/import.php
 msgid "Your content is being imported..."
 msgstr "您的內容正在導入…"
 
-#: views/posts.php:356 views/posts.php:369 views/posts.php:380
+#: views/import.php
+msgid "Import Complete!"
+msgstr "導入完成！"
+
+#: views/import.php
+msgid "Imported"
+msgstr "進口"
+
+#: views/import.php
+msgid "Skipped"
+msgstr "跳過"
+
+#: views/import.php
+msgid "Errors"
+msgstr "錯誤"
+
+#: views/import.php
+msgid "Import Logs"
+msgstr "匯入日誌"
+
+#: views/import.php
+msgid "Show Logs"
+msgstr "顯示日誌"
+
+#: views/import.php
+msgid "Clear Logs"
+msgstr "清除日誌"
+
+#: views/courses.php
+msgid "Courses Manager"
+msgstr "課程管理器"
+
+#: views/courses.php
+msgid "Manage courses, sections, and lessons"
+msgstr "管理課程、章節和課時"
+
+#: views/courses.php
+msgid "Search courses..."
+msgstr "搜尋課程…"
+
+#: views/courses.php views/comments.php views/members.php views/media.php
+#: views/posts.php
+msgid "Select All"
+msgstr "全選"
+
+#: views/courses.php views/comments.php views/posts.php
+msgid "Bulk Edit"
+msgstr "批次編輯"
+
+#: views/courses.php views/comments.php views/media.php views/posts.php
+msgid "Delete"
+msgstr "刪除"
+
+#: views/courses.php
+msgid "Loading courses..."
+msgstr "正在加載課程…"
+
+#: views/courses.php
+msgid "No Course Selected"
+msgstr "未選擇課程"
+
+#: views/courses.php
+msgid "Select a course from the list to view its structure"
+msgstr "從清單中選擇一門課程以查看其結構"
+
+#: views/courses.php
+msgid "Course Structure"
+msgstr "課程結構"
+
+#: views/courses.php
+msgid "Edit Course Details"
+msgstr "編輯課程詳情"
+
+#: views/courses.php
+msgid "Edit Lesson"
+msgstr "編輯課程"
+
+#: views/courses.php
+msgid "Lesson Title"
+msgstr "課程標題"
+
+#: views/courses.php views/posts.php
+msgid "Content"
+msgstr "內容"
+
+#: views/courses.php
+msgid "Save Content"
+msgstr "儲存內容"
+
+#: views/courses.php
+msgid "Course Title"
+msgstr "課程名稱"
+
+#: views/courses.php
+msgid "Save Course"
+msgstr "儲存課程"
+
+#: views/courses.php
+msgid "Move to Course"
+msgstr "前往課程"
+
+#: views/courses.php
+msgid "Select Target Course"
+msgstr "選擇目標課程"
+
+#: views/courses.php
+msgid "Select a course..."
+msgstr "選擇課程…"
+
+#: views/courses.php
+msgid "Select Target Section (optional for lessons)"
+msgstr "選擇目標部分（課程可選）"
+
+#: views/courses.php
+msgid "No section (make orphan)"
+msgstr "沒有章節（使其成為孤立章節）"
+
+#: views/courses.php
+msgid "Move"
+msgstr "移動"
+
+#: views/courses.php
+msgid "Bulk Edit Courses"
+msgstr "大量編輯課程"
+
+#: views/courses.php
+msgid ""
+"Update multiple courses at once. Only fill in the fields you want to change."
+msgstr "一次性更新多個課程。只需填寫您想要更改的欄位。"
+
+#: views/courses.php
+msgid "Update Courses"
+msgstr "更新課程"
+
+#: views/comments.php
+msgid "Comments Manager"
+msgstr "評論管理器"
+
+#: views/comments.php
+msgid "Manage all community comments"
+msgstr "管理所有社群評論"
+
+#: views/comments.php
+msgid "Search comments..."
+msgstr "搜尋評論…"
+
+#: views/comments.php views/members.php views/posts.php
+msgid "Pending"
+msgstr "待審核"
+
+#: views/comments.php
+msgid "Spam"
+msgstr "垃圾電子郵件"
+
+#: views/comments.php views/members.php views/media.php views/posts.php
+msgid "All Spaces"
+msgstr "所有空格"
+
+#: views/comments.php
+msgid "Loading comments..."
+msgstr "正在加載評論…"
+
+#: views/comments.php
+msgid "No Comment Selected"
+msgstr "未選擇評論"
+
+#: views/comments.php
+msgid "Select a comment from the list to view details"
+msgstr "從清單中選擇一條評論以查看詳情。"
+
+#: views/comments.php views/posts.php
+msgid "Comment Details"
+msgstr "評論詳情"
+
+#: views/comments.php
+msgid "Comment Content"
+msgstr "評論內容"
+
+#: views/comments.php
+msgid "Message"
+msgstr "訊息"
+
+#: views/comments.php views/metadata.php views/reactions.php views/media.php
+msgid "ID"
+msgstr "ID"
+
+#: views/comments.php
+msgid "Author"
+msgstr "作者"
+
+#: views/comments.php
+msgid "Parent Post"
+msgstr "父親帖子"
+
+#: views/comments.php
+msgid "No reactions on this comment"
+msgstr "對此評論暫無回應"
+
+#: views/comments.php
+msgid "Replies"
+msgstr "回覆"
+
+#: views/comments.php
+msgid "No replies to this comment"
+msgstr "暫無回覆"
+
+#: views/overview.php
+msgid "Content Overview"
+msgstr "內容概述"
+
+#: views/overview.php
+msgid "Overview of all Fluent Community content"
+msgstr "Fluent Community 所有內容的概覽"
+
+#: views/overview.php
+msgid "Loading statistics..."
+msgstr "正在載入統計資料…"
+
+#: views/members.php
+msgid "Members Manager"
+msgstr "會員管理"
+
+#: views/members.php
+msgid "Manage community members and their enrollments"
+msgstr "管理社區成員及其註冊訊息"
+
+#: views/members.php
+msgid "Search members..."
+msgstr "搜尋成員..."
+
+#: views/members.php
+msgid "All Status"
+msgstr "所有狀態"
+
+#: views/members.php
+msgid "Active"
+msgstr "啟用中"
+
+#: views/members.php
+msgid "Blocked"
+msgstr "已屏蔽"
+
+#: views/members.php
+msgid "All Roles"
+msgstr "所有角色"
+
+#: views/members.php
+msgid "Admin"
+msgstr "行政"
+
+#: views/members.php
+msgid "Moderator"
+msgstr "主持人"
+
+#: views/members.php
+msgid "Member"
+msgstr "成員"
+
+#: views/members.php
+msgid "Student"
+msgstr "學生"
+
+#: views/members.php
+msgid "Enroll"
+msgstr "註冊"
+
+#: views/members.php
+msgid "Unenroll"
+msgstr "取消註冊"
+
+#: views/members.php
+msgid "Loading members..."
+msgstr "正在加載成員..."
+
+#: views/members.php
+msgid "No Member Selected"
+msgstr "未選擇成員"
+
+#: views/members.php
+msgid "Select a member from the list to view and edit their details."
+msgstr "從清單中選擇一名成員，即可查看和編輯其詳細資訊。"
+
+#: views/members.php
+msgid "Enroll Selected Members"
+msgstr "招募選定成員"
+
+#: views/members.php
+msgid "Space/Course"
+msgstr "空間/課程"
+
+#: views/members.php
+msgid "Select Space or Course"
+msgstr "選擇空間或課程"
+
+#: views/members.php
+msgid "Role"
+msgstr "角色"
+
+#: views/members.php
+msgid "Enroll Members"
+msgstr "註冊會員"
+
+#: views/members.php
+msgid "Remove Enrollment"
+msgstr "取消註冊"
+
+#: views/members.php
+msgid "This will remove the selected members from the chosen space or course."
+msgstr "這將把選定的成員從選定的空間或課程中移除。"
+
+#: views/members.php
+msgid "Add Enrollment"
+msgstr "新增註冊"
+
+#: views/metadata.php
+msgid "Metadata Manager"
+msgstr "元資料管理器"
+
+#: views/metadata.php
+msgid "Manage metadata for all content types"
+msgstr "管理所有內容類型的元資料"
+
+#: views/metadata.php
+msgid "Search metadata key..."
+msgstr "搜尋元資料鍵..."
+
+#: views/metadata.php
+msgid "All Object Types"
+msgstr "所有物件類型"
+
+#: views/metadata.php views/posts.php
+msgid "Space"
+msgstr "空間"
+
+#: views/metadata.php views/reactions.php
+msgid "User"
+msgstr "使用者"
+
+#: views/metadata.php
+msgid "User Profile"
+msgstr "使用者個人資料"
+
+#: views/metadata.php
+msgid "Post"
+msgstr "郵政"
+
+#: views/metadata.php
+msgid "Feed"
+msgstr "餵食"
+
+#: views/metadata.php
+msgid "Comment"
+msgstr "評論"
+
+#: views/metadata.php
+msgid "Notification"
+msgstr "通知"
+
+#: views/metadata.php
+msgid "Activity"
+msgstr "活動"
+
+#: views/metadata.php
+msgid "Term/Topic"
+msgstr "術語/主題"
+
+#: views/metadata.php
+msgid "Space User"
+msgstr "空間使用者"
+
+#: views/metadata.php
+msgid "Course"
+msgstr "課程"
+
+#: views/metadata.php
+msgid "Course Section"
+msgstr "課程部分"
+
+#: views/metadata.php
+msgid "Course Lesson"
+msgstr "課程課"
+
+#: views/metadata.php
+msgid "Object Type"
+msgstr "物件類型"
+
+#: views/metadata.php
+msgid "Object ID"
+msgstr "物件 ID"
+
+#: views/metadata.php
+msgid "Meta Key"
+msgstr "元鍵"
+
+#: views/metadata.php
+msgid "Meta Value"
+msgstr "元資料"
+
+#: views/metadata.php views/reactions.php
+msgid "Actions"
+msgstr "行動"
+
+#: views/metadata.php
+msgid "Loading metadata..."
+msgstr "正在加載元資料..."
+
+#: views/metadata.php
+msgid "Edit Metadata"
+msgstr "編輯元資料"
+
+#: views/metadata.php
+msgid "Edit the metadata value. JSON values will be validated."
+msgstr "編輯元資料值。系統將驗證 JSON 值。"
+
+#: views/metadata.php
+msgid "Save Metadata"
+msgstr "儲存元資料"
+
+#: views/reactions.php
+msgid "Reactions Manager"
+msgstr "反應管理器"
+
+#: views/reactions.php
+msgid "Manage all reactions to posts and comments"
+msgstr "管理所有對帖子和評論的回复"
+
+#: views/reactions.php
+msgid "All Reaction Types"
+msgstr "所有反應類型"
+
+#: views/reactions.php
+msgid "Like"
+msgstr "喜歡"
+
+#: views/reactions.php
+msgid "Love"
+msgstr "愛"
+
+#: views/reactions.php
+msgid "Laugh"
+msgstr "笑"
+
+#: views/reactions.php
+msgid "Wow"
+msgstr "哇"
+
+#: views/reactions.php
+msgid "Sad"
+msgstr "傷心"
+
+#: views/reactions.php
+msgid "Angry"
+msgstr "生氣的"
+
+#: views/reactions.php
+msgid "Reaction"
+msgstr "互動"
+
+#: views/reactions.php
+msgid "Post ID"
+msgstr "貼文 ID"
+
+#: views/reactions.php
+msgid "Comment ID"
+msgstr "評論 ID"
+
+#: views/reactions.php
+msgid "Date"
+msgstr "日期"
+
+#: views/reactions.php
+msgid "Loading reactions..."
+msgstr "加載反應..."
+
+#: views/media.php
+msgid "Media Manager"
+msgstr "媒體經理"
+
+#: views/media.php
+msgid "Manage all media files in the community"
+msgstr "管理社群中的所有媒體文件"
+
+#: views/media.php
+msgid "Search media..."
+msgstr "搜尋媒體..."
+
+#: views/media.php
+msgid "All Media Types"
+msgstr "所有媒體類型"
+
+#: views/media.php
+msgid "Images"
+msgstr "圖片"
+
+#: views/media.php
+msgid "Videos"
+msgstr "影片"
+
+#: views/media.php
+msgid "Documents"
+msgstr "文件"
+
+#: views/media.php
+msgid "Audio"
+msgstr "聲音的"
+
+#: views/media.php
+msgid "Loading media..."
+msgstr "正在加載媒體…"
+
+#: views/media.php
+msgid "No Media Selected"
+msgstr "未選擇媒體。"
+
+#: views/media.php
+msgid "Select a media file from the list to view details"
+msgstr "從清單中選擇一個媒體檔案以查看詳細資訊。"
+
+#: views/media.php
+msgid "Media Details"
+msgstr "媒體詳情"
+
+#: views/media.php
+msgid "Preview"
+msgstr "預覽"
+
+#: views/media.php
+msgid "File Information"
+msgstr "文件訊息"
+
+#: views/media.php
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: views/media.php
+msgid "Type"
+msgstr "類型"
+
+#: views/media.php
+msgid "File Size"
+msgstr "文件大小"
+
+#: views/media.php
+msgid "URL"
+msgstr "URL"
+
+#: views/media.php
+msgid "Uploaded By"
+msgstr "上傳者"
+
+#: views/media.php
+msgid "Uploaded"
+msgstr "已上傳"
+
+#: views/media.php
+msgid "Used In"
+msgstr "用於"
+
+#: views/posts.php
+msgid "Posts Manager"
+msgstr "帖子管理器"
+
+#: views/posts.php
+msgid "Manage all community posts with advanced search and filtering"
+msgstr "使用進階搜尋和篩選功能管理所有社群帖子"
+
+#: views/posts.php
+msgid "Search posts..."
+msgstr "搜尋帖子..."
+
+#: views/posts.php
+msgid "Loading posts..."
+msgstr "正在加載帖子..."
+
+#: views/posts.php
+msgid "No Post Selected"
+msgstr "未選貼文"
+
+#: views/posts.php
+msgid "Select a post from the list to view and edit details"
+msgstr "從清單中選擇帖子以查看和編輯詳細資訊。"
+
+#: views/posts.php
+msgid "Post Details"
+msgstr "貼文詳情"
+
+#: views/posts.php
+msgid "Basic Information"
+msgstr "基本訊息"
+
+#: views/posts.php
+msgid "Title"
+msgstr "標題"
+
+#: views/posts.php
+msgid "Settings"
+msgstr "設定"
+
+#: views/posts.php
+msgid "Space Only"
+msgstr "限空間"
+
+#: views/posts.php
+msgid "Make this post sticky"
+msgstr "將此帖置頂。"
+
+#: views/posts.php
+msgid "Author ID"
+msgstr "作者ID"
+
+#: views/posts.php
+msgid "User ID"
+msgstr "使用者身分"
+
+#: views/posts.php
+msgid "Created Date"
+msgstr "建立日期"
+
+#: views/posts.php
+msgid "Updated Date"
+msgstr "更新日期"
+
+#: views/posts.php
+msgid "Post ID:"
+msgstr "貼文編號："
+
+#: views/posts.php
+msgid "Type:"
+msgstr "類型："
+
+#: views/posts.php
+msgid "Content Type:"
+msgstr "內容類型："
+
+#: views/posts.php
+msgid "Comments:"
+msgstr "評論："
+
+#: views/posts.php
+msgid "Reactions:"
+msgstr "反應："
+
+#: views/posts.php
+msgid "Topics/Terms"
+msgstr "主題/術語"
+
+#: views/posts.php
+msgid "No topics assigned to this post"
+msgstr "本帖暫無主題。"
+
+#: views/posts.php
+msgid "Add Topic"
+msgstr "新增主題"
+
+#: views/posts.php
+msgid "Select a topic..."
+msgstr "選擇一個主題…"
+
+#: views/posts.php
+msgid "Attached Media"
+msgstr "附件媒體"
+
+#: views/posts.php
+msgid "No media attached to this post"
+msgstr "此貼文未附帶任何媒體檔案。"
+
+#: views/posts.php
+msgid "No comments on this post"
+msgstr "暫無評論"
+
+#: views/posts.php
+msgid "No reactions on this post"
+msgstr "暫無評論"
+
+#: views/posts.php
+msgid "Status:"
+msgstr "狀態："
+
+#: views/posts.php
+msgid "posts selected"
+msgstr "已選貼文"
+
+#: views/posts.php
+msgid "Apply Changes"
+msgstr "應用程式變更"
+
+#: views/posts.php
+msgid "Bulk Update Settings"
+msgstr "批量更新設定"
+
+#: views/posts.php
+msgid ""
+"Only fields with values will be updated. Leave blank to keep existing values."
+msgstr "只有已賦值的欄位才會更新。留空則保留現有值。"
+
+#: views/posts.php
+msgid "Change Space"
+msgstr "更改空間"
+
+#: views/posts.php
 msgid "— No Change —"
 msgstr "— 無變動 —"
+
+#: views/posts.php
+msgid "Change Status"
+msgstr "更改狀態"
+
+#: views/posts.php
+msgid "Change Privacy"
+msgstr "更改隱私"
+
+#: views/posts.php
+msgid "Add Topic to All"
+msgstr "將主題新增到所有"
+
+#: views/posts.php
+msgid "Select a topic to add..."
+msgstr "選擇要新增的主題…"

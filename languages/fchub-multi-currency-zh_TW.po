@@ -1,9 +1,10 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCHub Multi-Currency\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-08 00:00+0000\n"
-"PO-Revision-Date: 2026-04-08 00:00+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: 余啟銘\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
@@ -12,339 +13,157 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Domain: fchub-multi-currency\n"
+"X-Generator: auto-translate.py (polib)\n"
 
-msgid "%1$s = %2$s %3$s"
-msgstr "%1$s = %2$s %3$s"
-
-msgid "A more descriptive switcher for footer or utility content."
-msgstr "適合頁尾或輔助內容的說明型切換器。"
-
-msgid "A ready-made showcase of the full currency block family."
-msgstr "展示完整幣別區塊組合的現成範本。"
-
-msgid "Above"
-msgstr "上方"
-
-msgid "After"
-msgstr "之後"
-
-msgid "Alignment"
-msgstr "對齊方式"
-
-msgid "Apply"
-msgstr "套用"
-
-msgid "Auto"
-msgstr "自動"
-
-msgid "Base currency currently in use."
-msgstr "目前使用中的基準幣別。"
-
-msgid "Before"
-msgstr "之前"
-
-msgid "Below"
-msgstr "下方"
-
-msgid "Center"
-msgstr "置中"
-
-msgid "Checkout Disclosure"
-msgstr "結帳說明"
-
-msgid "Checkout disclosure"
-msgstr "結帳說明"
-
-msgid "Code"
-msgstr "代碼"
-
-msgid "Comma-separated ISO codes, for example: EUR, USD, GBP"
-msgstr "以逗號分隔的 ISO 代碼，例如：EUR、USD、GBP"
-
-msgid "Compact"
-msgstr "緊湊"
-
-msgid "Configure currencies, exchange rates, checkout disclosure, and more."
-msgstr "設定幣別、匯率、結帳說明等選項。"
-
-msgid "Contrast"
-msgstr "對比"
-
-msgid "Currency Showcase"
-msgstr "幣別展示"
-
-msgid "Current rate: 1 %1$s = %2$s %3$s"
-msgstr "目前匯率：1 %1$s = %2$s %3$s"
-
-msgid "Date"
-msgstr "日期"
-
-msgid "Default"
-msgstr "預設"
-
-msgid "Display"
-msgstr "顯示"
-
-msgid "Display prices only. Checkout is charged in %s."
-msgstr "僅顯示換算價格。結帳時以 %s 計費。"
-
-msgid "Display prices only. Checkout is charged in EUR."
-msgstr "僅顯示換算價格。結帳時以歐元（EUR）計費。"
-
-msgid "Display-layer multi-currency with exchange rate management and checkout disclosure."
-msgstr "顯示層多幣別功能，包含匯率管理與結帳說明。"
-
-msgid "Down"
-msgstr "向下"
-
-msgid "Dropdown"
-msgstr "下拉選單"
-
-msgid "Dropdown direction"
-msgstr "下拉方向"
-
-msgid "Dropdown position"
-msgstr "下拉位置"
-
-msgid "Editor preview uses your actual configured currencies and current global switcher defaults."
-msgstr "編輯器預覽會使用您已設定的幣別與目前的全域切換器預設值。"
-
-msgid "Enable Multi-Currency"
-msgstr "啟用多幣別"
-
-msgid "End"
-msgstr "結尾"
-
-msgid "Event"
-msgstr "事件"
-
+#: fchub-multi-currency.php
 msgid "Every %d Hours"
 msgstr "每 %d 小時"
 
-msgid "FCHub Multi-Currency"
-msgstr "FCHub 多幣別"
-
+#: fchub-multi-currency.php
 msgid "FCHub Multi-Currency requires FluentCart to be installed and activated."
 msgstr "FCHub 多幣別需要先安裝並啟用 FluentCart。"
 
-msgid "Favorite currencies"
-msgstr "常用幣別"
+#: app/Bootstrap/Modules/BlocksModule.php
+#: app/Integration/AddonsRegistration.php app/GDPR/PersonalDataHandler.php
+msgid "FCHub Multi-Currency"
+msgstr "FCHub 多幣別"
 
-msgid "Flag + Code"
-msgstr "國旗 + 代碼"
+#: app/Bootstrap/Modules/BlocksModule.php
+msgid "Currency Showcase"
+msgstr "幣別展示"
 
-msgid "Flag + Name"
-msgstr "國旗 + 名稱"
+#: app/Bootstrap/Modules/BlocksModule.php
+msgid "A ready-made showcase of the full currency block family."
+msgstr "展示完整幣別區塊組合的現成範本。"
 
-msgid "Flag and code only, tuned for narrow header space."
-msgstr "僅顯示國旗與代碼，適合頁首空間較小的版型。"
-
-msgid "FluentCRM Sync"
-msgstr "FluentCRM 同步"
-
-msgid "Footer Context"
-msgstr "頁尾情境"
-
-msgid "Format"
-msgstr "格式"
-
-msgid "Full Settings"
-msgstr "完整設定"
-
-msgid "Full note"
-msgstr "完整說明"
-
-msgid "Full width"
-msgstr "全寬"
-
-msgid "Full-width mobile-friendly switcher with room for more context."
-msgstr "全寬行動友善切換器，可顯示更多說明內容。"
-
-msgid "Glass"
-msgstr "玻璃質感"
-
-msgid "Hide when base currency is displayed"
-msgstr "顯示基準幣別時隱藏"
-
-msgid "Inline search"
-msgstr "內嵌搜尋"
-
-msgid "Label"
-msgstr "標籤"
-
-msgid "Label position"
-msgstr "標籤位置"
-
-msgid "Large"
-msgstr "大"
-
-msgid "Layout"
-msgstr "版面配置"
-
-msgid "Left"
-msgstr "左"
-
-msgid "Master switch for display-layer multi-currency across the store."
-msgstr "全站顯示層多幣別的主開關。"
-
-msgid "Medium"
-msgstr "中"
-
-msgid "Minimal"
-msgstr "極簡"
-
-msgid "Mode"
-msgstr "模式"
-
-msgid "Multi-Currency"
-msgstr "多幣別"
-
-msgid "Multi-Currency Activity"
-msgstr "多幣別活動記錄"
-
-msgid "Multi-Currency Preferences"
-msgstr "多幣別偏好設定"
-
-msgid "Multi-Currency integration is active"
-msgstr "多幣別整合已啟用"
-
-msgid "Multi-Currency integration is disabled"
-msgstr "多幣別整合已停用"
-
-msgid "Multi-Currency settings saved."
-msgstr "多幣別設定已儲存。"
-
-msgid "Name"
-msgstr "名稱"
-
-msgid "No"
-msgstr "否"
-
-msgid "Off"
-msgstr "關閉"
-
-msgid "Pill"
-msgstr "膠囊形"
-
-msgid "Precision"
-msgstr "小數位數"
-
-msgid "Preferred Currency"
-msgstr "偏好幣別"
-
-msgid "Preset"
-msgstr "預設樣式"
-
-msgid "Prices shown in %1$s are approximate. Checkout is charged in %2$s."
-msgstr "%1$s 顯示的價格僅供參考，結帳時以 %2$s 計費。"
-
-msgid "Rates updated %s ago"
-msgstr "匯率於 %s 前更新"
-
-msgid "Right"
-msgstr "右"
-
-msgid "Save Settings"
-msgstr "儲存設定"
-
-msgid "Search"
-msgstr "搜尋"
-
+#: app/Frontend/CurrencySwitcherRenderer.php
 msgid "Search currency"
 msgstr "搜尋幣別"
 
+#: app/Frontend/CurrencySwitcherRenderer.php
 msgid "Select currency"
 msgstr "選擇幣別"
 
-msgid "Sentence"
-msgstr "句子"
+#: app/Frontend/CurrencySwitcherRenderer.php
+msgid "Rates updated %s ago"
+msgstr "匯率於 %s 前更新"
 
-msgid "Show a notice at checkout that payment is processed in the base currency."
-msgstr "在結帳時顯示提示，說明付款將以基準幣別處理。"
+#: app/Frontend/CurrencySwitcherRenderer.php
+msgid "Base currency currently in use."
+msgstr "目前使用中的基準幣別。"
 
-msgid "Show active indicator"
-msgstr "顯示啟用指示器"
+#: app/Frontend/CurrencySwitcherRenderer.php
+#: app/Frontend/CurrencyContextPresenter.php
+msgid "1 %1$s = %2$s %3$s"
+msgstr ""
 
-msgid "Show checkout context note"
-msgstr "顯示結帳說明"
+#: app/Frontend/CurrencySwitcherRenderer.php
+msgid "You are viewing the store base currency."
+msgstr "您目前檢視的是商店基準幣別。"
 
-msgid "Show favorites first"
-msgstr "優先顯示常用幣別"
+#: app/Frontend/CurrencySwitcherRenderer.php
+msgid "Display prices only. Checkout is charged in %s."
+msgstr "僅顯示換算價格。結帳時以 %s 計費。"
 
-msgid "Show freshness badge"
-msgstr "顯示更新時效標記"
+#: app/Frontend/CurrencySwitcherRenderer.php
+msgid "Apply"
+msgstr "套用"
 
-msgid "Show option codes"
-msgstr "顯示選項代碼"
+#: app/Frontend/CurrencyContextPresenter.php
+msgid "Current rate: 1 %1$s = %2$s %3$s"
+msgstr "目前匯率：1 %1$s = %2$s %3$s"
 
-msgid "Show option flags"
-msgstr "顯示選項國旗"
+#: app/Frontend/CurrencyContextPresenter.php
+msgid "Prices shown in %1$s are approximate. Checkout is charged in %2$s."
+msgstr "%1$s 顯示的價格僅供參考，結帳時以 %2$s 計費。"
 
-msgid "Show option names"
-msgstr "顯示選項名稱"
-
-msgid "Show option symbols"
-msgstr "顯示選項符號"
-
-msgid "Show rate value"
-msgstr "顯示匯率數值"
-
-msgid "Show trigger code"
-msgstr "顯示觸發器代碼"
-
-msgid "Show trigger flag"
-msgstr "顯示觸發器國旗"
-
-msgid "Show trigger name"
-msgstr "顯示觸發器名稱"
-
-msgid "Show trigger symbol"
-msgstr "顯示觸發器符號"
-
-msgid "Size"
-msgstr "大小"
-
-msgid "Small"
-msgstr "小"
-
-msgid "Source"
-msgstr "來源"
-
-msgid "Start"
-msgstr "開頭"
-
-msgid "Subtle"
-msgstr "低調"
-
-msgid "Symbol"
-msgstr "符號"
-
-msgid "Symbol + Code"
-msgstr "符號 + 代碼"
-
-msgid "Tag contacts in FluentCRM based on their currency preference."
-msgstr "依據聯絡人的幣別偏好在 FluentCRM 中加上標籤。"
-
-msgid "This block inherits its switcher behavior from the global defaults in Multi-Currency settings. Only the label stays instance-specific."
-msgstr "此區塊的切換器行為繼承自多幣別設定中的全域預設值，僅標籤可個別設定。"
-
-msgid "Trigger"
-msgstr "觸發器"
-
-msgid "Up"
-msgstr "向上"
-
-msgid "Use global switcher defaults"
-msgstr "使用全域切換器預設值"
-
+#: app/Frontend/CurrencyContextPresenter.php
 msgid "Viewing prices in %1$s. Checkout in %2$s."
 msgstr "目前以 %1$s 顯示價格，結帳時使用 %2$s。"
 
-msgid "Width"
-msgstr "寬度"
+#: app/Integration/MultiCurrencySettings.php
+msgid "Save Settings"
+msgstr "儲存設定"
 
+#: app/Integration/MultiCurrencySettings.php
+msgid "Multi-Currency integration is active"
+msgstr "多幣別整合已啟用"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Multi-Currency integration is disabled"
+msgstr "多幣別整合已停用"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Enable Multi-Currency"
+msgstr "啟用多幣別"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Master switch for display-layer multi-currency across the store."
+msgstr "全站顯示層多幣別的主開關。"
+
+#: app/Integration/MultiCurrencySettings.php
 msgid "Yes"
 msgstr "是"
 
-msgid "You are viewing the store base currency."
-msgstr "您目前檢視的是商店基準幣別。"
+#: app/Integration/MultiCurrencySettings.php
+msgid "No"
+msgstr "否"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Checkout Disclosure"
+msgstr "結帳說明"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid ""
+"Show a notice at checkout that payment is processed in the base currency."
+msgstr "在結帳時顯示提示，說明付款將以基準幣別處理。"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "FluentCRM Sync"
+msgstr "FluentCRM 同步"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Tag contacts in FluentCRM based on their currency preference."
+msgstr "依據聯絡人的幣別偏好在 FluentCRM 中加上標籤。"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Full Settings"
+msgstr "完整設定"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Configure currencies, exchange rates, checkout disclosure, and more."
+msgstr "設定幣別、匯率、結帳說明等選項。"
+
+#: app/Integration/MultiCurrencySettings.php
+msgid "Multi-Currency settings saved."
+msgstr "多幣別設定已儲存。"
+
+#: app/Integration/AddonsRegistration.php
+msgid ""
+"Display-layer multi-currency with exchange rate management and checkout "
+"disclosure."
+msgstr "顯示層多幣別功能，包含匯率管理與結帳說明。"
+
+#: app/GDPR/PersonalDataHandler.php
+msgid "Multi-Currency Preferences"
+msgstr "多幣別偏好設定"
+
+#: app/GDPR/PersonalDataHandler.php
+msgid "Preferred Currency"
+msgstr "偏好幣別"
+
+#: app/GDPR/PersonalDataHandler.php
+msgid "Multi-Currency Activity"
+msgstr "多幣別活動記錄"
+
+#: app/GDPR/PersonalDataHandler.php
+msgid "Event"
+msgstr "事件"
+
+#: app/GDPR/PersonalDataHandler.php
+msgid "Date"
+msgstr "日期"
+
+#: app/Support/AdminMenu.php
+msgid "Multi-Currency"
+msgstr "多幣別"

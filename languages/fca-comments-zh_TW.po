@@ -1,9 +1,10 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCA Comments\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-30 00:00+0000\n"
-"PO-Revision-Date: 2026-03-30 00:00+0000\n"
+"PO-Revision-Date: 2026-04-16 05:27+0800\n"
 "Last-Translator: BuyGo <facemarketin@gmail.com>\n"
 "Language-Team: BuyGo\n"
 "Language: zh_TW\n"
@@ -11,58 +12,329 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: FCA Fluent ZH-TW\n"
+"X-Generator: auto-translate.py (polib)\n"
 
-msgid "All Terms"
-msgstr "所有條件"
+#: fca-comments.php
+msgid "FCA Comments requires Fluent Community to be installed and activated."
+msgstr ""
 
-msgid "All"
-msgstr "全部"
-
-msgid "Any Taxonomy"
-msgstr "任何分類法"
-
-msgid "Community Discussion"
-msgstr "社群討論"
-
-msgid "FCA Comments"
-msgstr "FCA 留言"
-
-msgid "Join the Discussion"
-msgstr "加入討論"
-
-msgid "Match ALL conditions (AND)"
-msgstr "符合所有條件（AND）"
-
-msgid "Match ANY condition (OR)"
-msgstr "符合任一條件（OR）"
-
-msgid "Post Type: %s"
-msgstr "文章類型：%s"
-
+#: includes/class-fca-comments-service.php includes/class-fca-comments-sync.php
 msgid "Read the full post →"
 msgstr "閱讀完整文章 →"
 
-msgid "Remove"
-msgstr "移除"
-
+#: includes/class-fca-comments-admin.php
 msgid "Select Space"
 msgstr "選擇空間"
 
+#: includes/class-fca-comments-admin.php
 msgid "Select Taxonomy"
 msgstr "選擇分類法"
 
+#: includes/class-fca-comments-admin.php
 msgid "Select Term"
 msgstr "選擇條件"
 
+#: includes/class-fca-comments-admin.php
+msgid "All Terms"
+msgstr "所有條件"
+
+#: includes/class-fca-comments-admin.php
+msgid "Remove"
+msgstr "移除"
+
+#: includes/class-fca-comments-admin.php
+msgid "Any Taxonomy"
+msgstr "任何分類法"
+
+#: includes/class-fca-comments-admin.php
+msgid "Match ALL conditions (AND)"
+msgstr "符合所有條件（AND）"
+
+#: includes/class-fca-comments-admin.php
+msgid "Match ANY condition (OR)"
+msgstr "符合任一條件（OR）"
+
+#: includes/class-fca-comments-admin.php
+#: includes/class-fca-comments-post-meta.php
+msgid "FCA Comments"
+msgstr "FCA 留言"
+
+#: includes/class-fca-comments-admin.php
 msgid "Settings saved."
 msgstr "設定已儲存。"
 
-msgid "Taxonomy: %s (Term: %s)"
-msgstr "分類法：%s（條件：%s）"
-
+#: includes/class-fca-comments-admin.php
 msgid "Unnamed Rule"
 msgstr "未命名規則"
 
+#: includes/class-fca-comments-admin.php
+msgid "Post Type: %s"
+msgstr "文章類型：%s"
+
+#: includes/class-fca-comments-admin.php
+msgid "Taxonomy: %s (Term: %s)"
+msgstr "分類法：%s（條件：%s）"
+
+#: includes/class-fca-comments-admin.php
+msgid "All"
+msgstr "全部"
+
+#: includes/class-fca-comments-admin.php
+msgid "FCA Comments Settings"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Connect WordPress content to Fluent Community spaces."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Save All Settings"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "General Settings"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Assignment Rules"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Appearance"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Legacy & Advanced"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Basic Configuration"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Enable Fluent Community Comments replacement"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Target Post Types"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Default Space"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "-- Select Default Space --"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Used if no other rules match."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Default Comment Author"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "-- Select Author --"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Owner of the community feed post created for the discussion."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid ""
+"Use rules to automatically assign posts to specific spaces based on multiple "
+"conditions."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "No rules created yet. Click the button below to add your first rule."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Status"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Rule Name"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Conditions"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Target Space"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Actions"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Edit"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Delete"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Add New Rule"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Widget Appearance"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Widget Title"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "e.g., Join the conversation"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Comment Style"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Classic"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Minimal"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Bubble"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Comments Display Limit"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Number of comments to show initially. Set to 0 for default."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Show link to the Community Space"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Call to Action Button"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "CTA Button Text"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "e.g., Join Our Community"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "CTA Button URL"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Legacy Category Space Mappings"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid ""
+"These mappings are kept for backward compatibility and will be evaluated if "
+"no new rules match."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "No categories found."
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Category"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Fluent Community Space"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "-- Select Space --"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Rule Builder"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "e.g., Featured News Rule"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "-- Select a space --"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Evaluation Logic"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Add Condition"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-fca-comments-admin.php
+msgid "Apply Rule"
+msgstr ""
+
+#: includes/class-fca-comments-post-meta.php
+msgid "Assign space for comments"
+msgstr ""
+
+#: includes/class-fca-comments-post-meta.php
+msgid "-- Default space --"
+msgstr ""
+
+#: includes/class-fca-comments-post-meta.php
+msgid "Disable FCA comments for this post"
+msgstr ""
+
+#: includes/class-fca-comments-widget.php
 msgid "or explore %s"
 msgstr "或探索 %s"
+
+#: includes/class-fca-comments-widget.php
+msgid "Community Discussion"
+msgstr "社群討論"
+
+#: includes/class-fca-comments-widget.php
+msgid "Join the Discussion"
+msgstr "加入討論"
+
+#: includes/class-fca-comments-widget.php
+msgid "Loading comments..."
+msgstr ""
+
+#: includes/class-fca-comments-widget.php
+msgid "Share your thoughts..."
+msgstr ""
+
+#: includes/class-fca-comments-widget.php
+msgid "Post comment"
+msgstr ""
+
+#: includes/class-fca-comments-widget.php
+msgid "Want to join the conversation?"
+msgstr ""

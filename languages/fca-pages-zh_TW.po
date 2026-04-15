@@ -1,595 +1,400 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCA Pages - Custom Pages for Fluent Community\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 19:01+0000\n"
-"PO-Revision-Date: 2025-12-05 19:01+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: fish yu\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fca-pages\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
-"X-Domain: fca-pages"
-
-#: includes/class-fca-settings.php:630
-msgid "About FCA Pages"
-msgstr "關於FCA頁面"
-
-#. Page title
-#: fca-pages.php:959
-msgid "Add New"
-msgstr "新增"
 
 #. Parent slug
-#: fca-pages.php:98 fca-pages.php:958
+#: fca-pages.php
 msgid "Add New Custom Page"
 msgstr "新增的自訂頁面"
 
-#: fca-pages.php:96
-msgctxt "add new on admin bar"
-msgid "Custom Page"
+#: fca-pages.php
+msgid "New Custom Page"
+msgstr "新自訂頁面"
+
+#: fca-pages.php
+msgid "Edit Custom Page"
+msgstr "編輯自訂頁面"
+
+#: fca-pages.php
+msgid "View Custom Page"
+msgstr "查看自訂頁面"
+
+#. Parent slug
+#: fca-pages.php
+msgid "All Custom Pages"
+msgstr "所有自訂頁面"
+
+#: fca-pages.php
+msgid "Search Custom Pages"
+msgstr "搜尋自訂頁面"
+
+#: fca-pages.php
+msgid "Parent Custom Pages:"
+msgstr "父級自訂頁面："
+
+#: fca-pages.php
+msgid "No custom pages found."
+msgstr "找不到自訂頁面。"
+
+#: fca-pages.php
+msgid "No custom pages found in Trash."
+msgstr "回收站中找不到自訂頁面。"
+
+#: fca-pages.php
+msgid "Custom pages for display within Fluent Community."
+msgstr "用於在 Fluent Community 中顯示的自訂頁面。"
+
+#: fca-pages.php
+msgid "Custom Pages"
 msgstr "自訂頁面"
 
-#: fca-pages.php:976
+#. Page title
+#: fca-pages.php
+msgid "All Pages"
+msgstr "所有頁面"
+
+#: fca-pages.php
+msgid "Add New"
+msgstr "新增"
+
+#: fca-pages.php
+msgid "Recent Pages"
+msgstr "最近頁面"
+
+#. ID
+#: fca-pages.php
+msgid "Page Layout Settings"
+msgstr "頁面佈局設定"
+
+#: fca-pages.php
+msgid "Page Settings"
+msgstr "頁面設定"
+
+#: fca-pages.php
+msgid "Back to Fluent Community"
+msgstr "返回 Fluent 社區"
+
+#: fca-pages.php
+msgid "Return to Fluent Community"
+msgstr "返回 Fluent 社區"
+
+#: fca-pages.php
+msgid "View in Fluent Community"
+msgstr "在 Fluent 社群中查看"
+
+#: fca-pages.php
+msgid "View this page in Fluent Community"
+msgstr "在 Fluent 社群中查看此頁面"
+
+#: fca-pages.php
+msgid "Page saved successfully!"
+msgstr "頁面儲存成功！"
+
+#: fca-pages.php
+msgid "View Page (Clear Cache)"
+msgstr "查看頁面（清除快取）"
+
+#: fca-pages.php
+msgid "Fluent Community Blocks"
+msgstr "Fluent 社群模組"
+
+#: fca-pages.php
+msgid "FCA Custom Pages"
+msgstr "FCA 自訂頁面"
+
+#: fca-pages.php
+msgid "Manage your custom pages for Fluent Community."
+msgstr "管理您的 Fluent Community 自訂頁面。"
+
+#: fca-pages.php
+msgid "View All Pages"
+msgstr "查看所有頁面"
+
+#: fca-pages.php
 msgid "Add New Page"
 msgstr "新增頁面"
 
-#. Description of the plugin
-msgid "Adds custom, routable pages within the Fluent Community SPA."
-msgstr "在 Fluent Community SPA 中新增自訂的、可路由的頁面。"
+#. Parent slug
+#. Page title
+#. ID
+#: fca-pages.php includes/class-fca-settings.php
+msgid "Menu Settings"
+msgstr "選單設定"
 
-#: fca-pages.php:1092
+#: fca-pages.php
+msgid ""
+"Pages created here will be displayed within your Fluent Community portal."
+msgstr "您在此處建立的頁面將顯示在您的 Fluent Community 入口網站中。"
+
+#: fca-pages.php
+msgid "Desktop"
+msgstr "桌面"
+
+#: fca-pages.php
+msgid "Content Width (Desktop):"
+msgstr "內容寬度（桌面）："
+
+#: fca-pages.php
+msgid "Tablet"
+msgstr "藥片"
+
+#: fca-pages.php
+msgid "e.g., < 992px"
+msgstr "例如，< 992px"
+
+#: fca-pages.php
+msgid "Content Width (Tablet):"
+msgstr "內容寬度（平板電腦）："
+
+#: fca-pages.php
+msgid "Mobile"
+msgstr "移動的"
+
+#: fca-pages.php
+msgid "e.g., < 768px"
+msgstr "例如，< 768px"
+
+#: fca-pages.php
+msgid "Content Width (Mobile):"
+msgstr "內容寬度（行動端）："
+
+#: fca-pages.php
+msgid "Content Alignment:"
+msgstr "內容一致性："
+
+#: fca-pages.php
+msgid "Left"
+msgstr "左邊"
+
+#: fca-pages.php
+msgid "Center"
+msgstr "中心"
+
+#: fca-pages.php
+msgid "Right"
+msgstr "正確的"
+
+#: fca-pages.php
 msgid ""
 "Adjust the maximum width and alignment for different screen sizes. Widths "
 "apply up to the specified breakpoint."
 msgstr "針對不同的螢幕尺寸調整最大寬度和對齊方式。寬度設定適用於指定的斷點。"
 
-#: fca-pages.php:95
-msgctxt "admin menu"
-msgid "Custom Pages"
-msgstr "自訂頁面"
-
-#. Parent slug
-#: fca-pages.php:102 fca-pages.php:949
-msgid "All Custom Pages"
-msgstr "所有自訂頁面"
-
-#. Page title
-#: fca-pages.php:950
-msgid "All Pages"
-msgstr "所有頁面"
-
-#. ID
-#: includes/class-fca-settings.php:136
-msgid "Arrange Pages"
-msgstr "排列頁面"
-
-#: fca-pages.php:1345 fca-pages.php:1407
-msgid "Back to Fluent Community"
-msgstr "返回 Fluent 社區"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block description"
-msgid "Displays a customizable button."
-msgstr "顯示一個可自訂按鈕。"
-
-#: blocks/fca-spaces-list/block.json:1
-msgctxt "block description"
-msgid "Displays a list of Fluent Community spaces."
-msgstr "顯示 Fluent Community 空間清單。"
-
-#: blocks/fca-pages-list/block.json:1
-msgctxt "block description"
-msgid "Displays a list or grid of custom FCA Pages."
-msgstr "顯示自訂 FCA 頁面的清單或網格。"
-
-#: blocks/fca-courses-list/block.json:1
-msgctxt "block description"
-msgid "Displays a list or grid of Fluent Community courses."
-msgstr "顯示 Fluent Community 課程的清單或表格。"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block description"
-msgid "Displays a responsive image with optional rounded corners."
-msgstr "顯示具有可選圓角的自適應影像。"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block description"
-msgid "Displays content within a styled card container."
-msgstr "在樣式化的卡片容器中顯示內容。"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block keyword"
-msgid "box"
-msgstr "盒子"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block keyword"
-msgid "button"
-msgstr "按鈕"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block keyword"
-msgid "card"
-msgstr "卡片"
-
-#: blocks/fca-card/block.json:1 blocks/fca-button/block.json:1
-#: blocks/fca-courses-list/block.json:1 blocks/fca-spaces-list/block.json:1
-#: blocks/fca-pages-list/block.json:1 blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "community"
-msgstr "社群"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block keyword"
-msgid "container"
-msgstr "容器"
-
-#: blocks/fca-courses-list/block.json:1
-msgctxt "block keyword"
-msgid "courses"
-msgstr "課程"
-
-#: blocks/fca-pages-list/block.json:1
-msgctxt "block keyword"
-msgid "custom"
-msgstr "風俗"
-
-#: blocks/fca-card/block.json:1 blocks/fca-button/block.json:1
-#: blocks/fca-courses-list/block.json:1 blocks/fca-spaces-list/block.json:1
-#: blocks/fca-pages-list/block.json:1 blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "fluent"
-msgstr "流暢"
-
-#: blocks/fca-courses-list/block.json:1 blocks/fca-pages-list/block.json:1
-msgctxt "block keyword"
-msgid "grid"
-msgstr "網格"
-
-#: blocks/fca-spaces-list/block.json:1
-msgctxt "block keyword"
-msgid "groups"
-msgstr "團體"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "image"
-msgstr "影像"
-
-#: blocks/fca-courses-list/block.json:1
-msgctxt "block keyword"
-msgid "lessons"
-msgstr "課程"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block keyword"
-msgid "link"
-msgstr "關聯"
-
-#: blocks/fca-courses-list/block.json:1 blocks/fca-spaces-list/block.json:1
-#: blocks/fca-pages-list/block.json:1
-msgctxt "block keyword"
-msgid "list"
-msgstr "清單"
-
-#: blocks/fca-pages-list/block.json:1
-msgctxt "block keyword"
-msgid "pages"
-msgstr "頁面"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "photo"
-msgstr "照片"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block keyword"
-msgid "picture"
-msgstr "圖片"
-
-#: blocks/fca-spaces-list/block.json:1
-msgctxt "block keyword"
-msgid "spaces"
-msgstr "空間"
-
-#: blocks/fca-button/block.json:1
-msgctxt "block title"
-msgid "FCA Button"
-msgstr "FCA按鈕"
-
-#: blocks/fca-card/block.json:1
-msgctxt "block title"
-msgid "FCA Card"
-msgstr "FCA卡"
-
-#: blocks/fca-courses-list/block.json:1
-msgctxt "block title"
-msgid "FCA Courses List"
-msgstr "FCA課程列表"
-
-#: blocks/fca-image/block.json:1
-msgctxt "block title"
-msgid "FCA Image"
-msgstr "FCA影像"
-
-#: blocks/fca-pages-list/block.json:1
-msgctxt "block title"
-msgid "FCA Pages List"
-msgstr "FCA頁面列表"
-
-#: blocks/fca-spaces-list/block.json:1
-msgctxt "block title"
-msgid "FCA Spaces List"
-msgstr "FCA空間列表"
-
-#: fca-pages.php:1087
-msgid "Center"
-msgstr "中心"
-
-#: includes/class-fca-settings.php:428
-msgid "Configure how custom pages appear in the Fluent Community menu."
-msgstr "設定自訂頁面在 Fluent Community 選單中的顯示方式。"
-
-#: fca-pages.php:1084
-msgid "Content Alignment:"
-msgstr "內容一致性："
-
-#: fca-pages.php:1053
-msgid "Content Width (Desktop):"
-msgstr "內容寬度（桌面）："
-
-#: fca-pages.php:1073
-msgid "Content Width (Mobile):"
-msgstr "內容寬度（行動端）："
-
-#: fca-pages.php:1063
-msgid "Content Width (Tablet):"
-msgstr "內容寬度（平板電腦）："
-
-#. Page title
-#: fca-pages.php:937 fca-pages.php:938
-msgid "Custom Pages"
-msgstr "自訂頁面"
-
-#: fca-pages.php:108
-msgid "Custom pages for display within Fluent Community."
-msgstr "用於在 Fluent Community 中顯示的自訂頁面。"
-
-#: fca-pages.php:1052
-msgid "Desktop"
-msgstr "桌面"
-
-#: includes/class-fca-settings.php:896
-msgid "Drag and drop pages to set their order in the menu."
-msgstr "拖放頁面即可設定其在選單中的順序。"
-
-#: includes/class-fca-settings.php:557
-msgid ""
-"Drag and drop to reorder pages in the menu. This order overrides the default "
-"order."
-msgstr "拖放即可重新排列選單中的頁面順序。此順序將覆蓋預設順序。"
-
-#: includes/class-fca-settings.php:792
-msgid ""
-"Drag and drop to reorder pages in the menu. This order overrides the default "
-"ordering."
-msgstr "拖放即可重新排列選單中的頁面順序。此順序將覆蓋預設順序。"
-
-#: fca-pages.php:1072
-msgid "e.g., < 768px"
-msgstr "例如，< 768px"
-
-#: fca-pages.php:1062
-msgid "e.g., < 992px"
-msgstr "例如，< 992px"
-
-#: fca-pages.php:100
-msgid "Edit Custom Page"
-msgstr "編輯自訂頁面"
-
-#. ID
-#: includes/class-fca-settings.php:79 includes/class-fca-settings.php:437
-msgid "Enable Menu Group"
-msgstr "啟用選單組"
-
-#: blocks/fca-courses-list/render.php:118
+#: blocks/fca-courses-list/render.php
 msgid "Error fetching courses:"
 msgstr "取得課程時出錯："
 
-#: blocks/fca-spaces-list/render.php:90
+#: blocks/fca-courses-list/render.php
+msgid "Please enter valid Course IDs in the block settings."
+msgstr "請在模組設定中輸入有效的課程 ID。"
+
+#: blocks/fca-courses-list/render.php
+msgid "No published courses found matching the criteria."
+msgstr "找不到符合條件的已發布課程。"
+
+#: blocks/fca-courses-list/render.php
+msgid "View Course"
+msgstr "查看課程"
+
+#: blocks/fca-pages-list/render.php
+msgid "Please enter valid Page IDs in the block settings."
+msgstr "請在區塊設定中輸入有效的頁面 ID。"
+
+#: blocks/fca-pages-list/render.php
+msgid "No published pages found matching the criteria."
+msgstr "找不到符合條件的已發佈頁面。"
+
+#: blocks/fca-pages-list/render.php
+msgid "View Page"
+msgstr "查看頁面"
+
+#: blocks/fca-spaces-list/render.php
 msgid "Error fetching spaces:"
 msgstr "取得空格時發生錯誤："
 
-#: includes/class-fca-settings.php:367
-msgid "Error saving settings. Please check file permissions."
-msgstr "儲存設定時發生錯誤。請檢查檔案權限。"
+#: blocks/fca-spaces-list/render.php
+msgid "Please enter valid Space IDs in the block settings."
+msgstr "請在區塊設定中輸入有效的空間 ID。"
 
-#: fca-pages.php:971
-msgid "FCA Custom Pages"
-msgstr "FCA 自訂頁面"
+#: blocks/fca-spaces-list/render.php
+msgid "No published spaces found matching the criteria."
+msgstr "找不到符合條件的已發布空間。"
 
-#. Name of the plugin
-msgid "FCA Pages - Custom Pages for Fluent Community"
-msgstr "FCA頁面 - Fluent社群的自訂頁面"
-
-#: includes/class-fca-settings.php:631
-msgid ""
-"FCA Pages allows you to create and manage custom pages inside your Fluent "
-"Community portal."
-msgstr "FCA Pages 可讓您在 Fluent Community 入口網站內建立和管理自訂頁面。"
-
-#: fca-pages.php:97
-msgctxt "fca_page"
-msgid "Add New"
-msgstr "新增"
-
-#. Author of the plugin
-#: includes/class-fca-settings.php:633
-msgid "Fluent Community Add-ons"
-msgstr "Fluent 社群外掛"
-
-#: fca-pages.php:1529
-msgid "Fluent Community Blocks"
-msgstr "Fluent 社群模組"
-
-#. Author URI of the plugin
-msgid "https://www.fluentcommunityaddons.com"
-msgstr "https://www.fluentcommunityaddons.com"
-
-#: includes/class-fca-settings.php:463 includes/class-fca-settings.php:689
-msgid "Include \"Page Settings\" link in the menu group"
-msgstr "在選單組中新增“頁面設定”連結"
-
-#. ID
-#: includes/class-fca-settings.php:103 includes/class-fca-settings.php:459
-msgid "Include Settings Link"
-msgstr "包含設定連結"
-
-#: includes/class-fca-settings.php:520 includes/class-fca-settings.php:774
-msgid "Leave all unchecked to include all pages."
-msgstr "全部取消勾選以包含所有頁面。"
-
-#: fca-pages.php:1086
-msgid "Left"
-msgstr "左邊"
-
-#: includes/class-fca-settings.php:471 includes/class-fca-settings.php:784
-msgid "Lower numbers appear higher in the menu (default: 50)"
-msgstr "選單中數字越小，顯示位置越前（預設值：50）"
-
-#: fca-pages.php:972
-msgid "Manage your custom pages for Fluent Community."
-msgstr "管理您的 Fluent Community 自訂頁面。"
-
-#: blocks/fca-spaces-list/render.php:250
+#: blocks/fca-spaces-list/render.php
 msgid "Member"
 msgstr "成員"
 
-#: blocks/fca-spaces-list/render.php:250
+#: blocks/fca-spaces-list/render.php
 msgid "Members"
 msgstr "成員"
 
+#: blocks/fca-spaces-list/render.php
+msgid "Post"
+msgstr "郵政"
+
+#: blocks/fca-spaces-list/render.php
+msgid "Posts"
+msgstr "貼文"
+
+#: blocks/fca-spaces-list/render.php
+msgid "View Space"
+msgstr "視野空間"
+
 #. ID
-#: includes/class-fca-settings.php:95
+#: includes/class-fca-settings.php
+msgid "Enable Menu Group"
+msgstr "啟用選單組"
+
+#. ID
+#: includes/class-fca-settings.php
+msgid "Menu Group Title"
+msgstr "選單組標題"
+
+#. ID
+#: includes/class-fca-settings.php
 msgid "Menu Group Icon"
 msgstr "選單組圖示"
 
 #. ID
-#: includes/class-fca-settings.php:87 includes/class-fca-settings.php:446
-msgid "Menu Group Title"
-msgstr "選單組標題"
-
-#: includes/class-fca-settings.php:452
-msgid "Menu Icon"
-msgstr "選單圖示"
-
-#: includes/class-fca-settings.php:677
-msgid "Menu icon (emoji or blank)"
-msgstr "選單圖示（表情符號或空白）"
-
-#: includes/class-fca-settings.php:433
-msgid "Menu Options"
-msgstr "選單選項"
+#: includes/class-fca-settings.php
+msgid "Include Settings Link"
+msgstr "包含設定連結"
 
 #. ID
-#: includes/class-fca-settings.php:119 includes/class-fca-settings.php:468
-msgid "Menu Priority"
-msgstr "選單優先級"
-
-#. Parent slug
-#. Page title
-#. ID
-#: fca-pages.php:977 includes/class-fca-settings.php:46
-#: includes/class-fca-settings.php:47 includes/class-fca-settings.php:71
-msgid "Menu Settings"
-msgstr "選單設定"
-
-#: fca-pages.php:1072
-msgid "Mobile"
-msgstr "移動的"
-
-#: fca-pages.php:99
-msgid "New Custom Page"
-msgstr "新自訂頁面"
-
-#: fca-pages.php:106
-msgid "No custom pages found in Trash."
-msgstr "回收站中找不到自訂頁面。"
-
-#: fca-pages.php:105
-msgid "No custom pages found."
-msgstr "找不到自訂頁面。"
-
-#: includes/class-fca-settings.php:479 includes/class-fca-settings.php:710
-#: includes/class-fca-settings.php:812
-msgid "No custom pages found. Create some pages first."
-msgstr "找不到自訂頁面。請先建立一些頁面。"
-
-#: blocks/fca-courses-list/render.php:149
-msgid "No published courses found matching the criteria."
-msgstr "找不到符合條件的已發布課程。"
-
-#: blocks/fca-pages-list/render.php:75
-msgid "No published pages found matching the criteria."
-msgstr "找不到符合條件的已發佈頁面。"
-
-#: blocks/fca-spaces-list/render.php:121
-msgid "No published spaces found matching the criteria."
-msgstr "找不到符合條件的已發布空間。"
-
-#. ID
-#: fca-pages.php:1024
-msgid "Page Layout Settings"
-msgstr "頁面佈局設定"
-
-#. ID
-#: includes/class-fca-settings.php:128 includes/class-fca-settings.php:555
-msgid "Page Order"
-msgstr "頁面順序"
-
-#: fca-pages.php:1406
-msgid "Page saved successfully!"
-msgstr "頁面儲存成功！"
-
-#: fca-pages.php:1217
-msgid "Page Settings"
-msgstr "頁面設定"
-
-#: fca-pages.php:979
-msgid ""
-"Pages created here will be displayed within your Fluent Community portal."
-msgstr "您在此處建立的頁面將顯示在您的 Fluent Community 入口網站中。"
-
-#. ID
-#: includes/class-fca-settings.php:111 includes/class-fca-settings.php:476
+#: includes/class-fca-settings.php
 msgid "Pages to Include"
 msgstr "包含的頁面"
 
-#: fca-pages.php:104
-msgid "Parent Custom Pages:"
-msgstr "父級自訂頁面："
+#. ID
+#: includes/class-fca-settings.php
+msgid "Menu Priority"
+msgstr "選單優先級"
 
-#: blocks/fca-courses-list/render.php:147
-msgid "Please enter valid Course IDs in the block settings."
-msgstr "請在模組設定中輸入有效的課程 ID。"
+#. ID
+#: includes/class-fca-settings.php
+msgid "Page Order"
+msgstr "頁面順序"
 
-#: blocks/fca-pages-list/render.php:73
-msgid "Please enter valid Page IDs in the block settings."
-msgstr "請在區塊設定中輸入有效的頁面 ID。"
+#. ID
+#: includes/class-fca-settings.php
+msgid "Arrange Pages"
+msgstr "排列頁面"
 
-#: blocks/fca-spaces-list/render.php:119
-msgid "Please enter valid Space IDs in the block settings."
-msgstr "請在區塊設定中輸入有效的空間 ID。"
-
-#: blocks/fca-spaces-list/render.php:258
-msgid "Post"
-msgstr "郵政"
-
-#: fca-pages.php:93
-msgctxt "post type general name"
-msgid "Custom Pages"
-msgstr "自訂頁面"
-
-#: fca-pages.php:94
-msgctxt "post type singular name"
-msgid "Custom Page"
-msgstr "自訂頁面"
-
-#: blocks/fca-spaces-list/render.php:258
-msgid "Posts"
-msgstr "貼文"
-
-#: fca-pages.php:991
-msgid "Recent Pages"
-msgstr "最近頁面"
-
-#: fca-pages.php:1349
-msgid "Return to Fluent Community"
-msgstr "返回 Fluent 社區"
-
-#: fca-pages.php:1088
-msgid "Right"
-msgstr "正確的"
-
-#: includes/class-fca-settings.php:625
-msgid "Save Settings"
-msgstr "儲存設定"
-
-#: fca-pages.php:103
-msgid "Search Custom Pages"
-msgstr "搜尋自訂頁面"
-
-#: includes/class-fca-settings.php:489 includes/class-fca-settings.php:722
-msgid "Select All"
-msgstr "全選"
-
-#: includes/class-fca-settings.php:482 includes/class-fca-settings.php:714
-msgid "Select which pages to include in the menu:"
-msgstr "選擇要包含在選單中的頁面："
-
-#: includes/class-fca-settings.php:632
-msgid "Settings are stored securely and persist between page refreshes."
-msgstr "設定資訊安全儲存，頁面刷新後依然有效。"
-
-#: includes/class-fca-settings.php:365
+#: includes/class-fca-settings.php
 msgid "Settings saved successfully."
 msgstr "設定已成功儲存。"
 
-#: includes/class-fca-settings.php:441 includes/class-fca-settings.php:654
-msgid "Show custom pages in the Fluent Community sidebar menu"
-msgstr "在 Fluent Community 側邊欄選單中顯示自訂頁面"
+#: includes/class-fca-settings.php
+msgid "Error saving settings. Please check file permissions."
+msgstr "儲存設定時發生錯誤。請檢查檔案權限。"
 
-#: fca-pages.php:1062
-msgid "Tablet"
-msgstr "藥片"
+#: includes/class-fca-settings.php
+msgid "Save Settings"
+msgstr "儲存設定"
 
-#: includes/class-fca-settings.php:666
-msgid "The title of the menu group in the sidebar"
-msgstr "側邊欄選單組的標題"
-
-#: includes/class-fca-settings.php:643
+#: includes/class-fca-settings.php
 msgid ""
 "These settings control how your custom pages are displayed in the Fluent "
 "Community sidebar menu."
 msgstr "這些設定控制您的自訂頁面在 Fluent Community 側邊欄選單中的顯示方式。"
 
-#: includes/class-fca-settings.php:455
+#: includes/class-fca-settings.php
+msgid "No custom pages found. Create some pages first."
+msgstr "找不到自訂頁面。請先建立一些頁面。"
+
+#: includes/class-fca-settings.php
+msgid "Select which pages to include in the menu:"
+msgstr "選擇要包含在選單中的頁面："
+
+#: includes/class-fca-settings.php
+msgid "Select All"
+msgstr "全選"
+
+#: includes/class-fca-settings.php
+msgid "Leave all unchecked to include all pages."
+msgstr "全部取消勾選以包含所有頁面。"
+
+#: includes/class-fca-settings.php
+msgid ""
+"Drag and drop to reorder pages in the menu. This order overrides the default "
+"ordering."
+msgstr "拖放即可重新排列選單中的頁面順序。此順序將覆蓋預設順序。"
+
+#: includes/class-fca-settings.php
+msgid "Drag and drop pages to set their order in the menu."
+msgstr "拖放頁面即可設定其在選單中的順序。"
+
+#: includes/class-fca-settings.php
+msgid "Configure how custom pages appear in the Fluent Community menu."
+msgstr "設定自訂頁面在 Fluent Community 選單中的顯示方式。"
+
+#: includes/class-fca-settings.php
+msgid "Menu Options"
+msgstr "選單選項"
+
+#: includes/class-fca-settings.php
+msgid "Show custom pages in the Fluent Community sidebar menu"
+msgstr "在 Fluent Community 側邊欄選單中顯示自訂頁面"
+
+#: includes/class-fca-settings.php
+msgid "Menu Icon"
+msgstr "選單圖示"
+
+#: includes/class-fca-settings.php
 msgid "Use emoji or leave blank. Examples: 📄 📑 📋 📃 📜"
 msgstr "請使用表情符號或留空。例如：📄 📑 📋 📃 📜"
 
-#: fca-pages.php:975
-msgid "View All Pages"
-msgstr "查看所有頁面"
+#: includes/class-fca-settings.php
+msgid "Include \"Page Settings\" link in the menu group"
+msgstr "在選單組中新增“頁面設定”連結"
 
-#: blocks/fca-courses-list/render.php:242
-msgid "View Course"
-msgstr "查看課程"
+#: includes/class-fca-settings.php
+msgid "Lower numbers appear higher in the menu (default: 50)"
+msgstr "選單中數字越小，顯示位置越前（預設值：50）"
 
-#: fca-pages.php:101
-msgid "View Custom Page"
-msgstr "查看自訂頁面"
+#: includes/class-fca-settings.php
+msgid ""
+"Drag and drop to reorder pages in the menu. This order overrides the default "
+"order."
+msgstr "拖放即可重新排列選單中的頁面順序。此順序將覆蓋預設順序。"
 
-#: fca-pages.php:1362
-msgid "View in Fluent Community"
-msgstr "在 Fluent 社群中查看"
+#: includes/class-fca-settings.php
+msgid "About FCA Pages"
+msgstr "關於FCA頁面"
 
-#: blocks/fca-pages-list/render.php:167
-msgid "View Page"
-msgstr "查看頁面"
+#: includes/class-fca-settings.php
+msgid ""
+"FCA Pages allows you to create and manage custom pages inside your Fluent "
+"Community portal."
+msgstr "FCA Pages 可讓您在 Fluent Community 入口網站內建立和管理自訂頁面。"
 
-#: fca-pages.php:1410
-msgid "View Page (Clear Cache)"
-msgstr "查看頁面（清除快取）"
+#: includes/class-fca-settings.php
+msgid "Settings are stored securely and persist between page refreshes."
+msgstr "設定資訊安全儲存，頁面刷新後依然有效。"
 
-#: blocks/fca-spaces-list/render.php:272
-msgid "View Space"
-msgstr "視野空間"
+#. Author of the plugin
+#: includes/class-fca-settings.php
+msgid "Fluent Community Add-ons"
+msgstr "Fluent 社群外掛"
 
-#: fca-pages.php:1366
-msgid "View this page in Fluent Community"
-msgstr "在 Fluent 社群中查看此頁面"
+#: includes/class-fca-settings.php
+msgid "The title of the menu group in the sidebar"
+msgstr "側邊欄選單組的標題"
+
+#: includes/class-fca-settings.php
+msgid "Menu icon (emoji or blank)"
+msgstr "選單圖示（表情符號或空白）"

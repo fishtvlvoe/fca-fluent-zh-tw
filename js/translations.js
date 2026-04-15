@@ -1,894 +1,441 @@
-/**
- * FCA & Fluent 繁體中文翻譯包 — JS DOM 翻譯字典
- *
- * 針對 Vue.js / React 直接渲染在 DOM 的英文字串，
- * 這些字串無法透過 WordPress gettext 系統或 wp_localize_script 覆蓋。
- *
- * 格式：{ '英文字串': '繁體中文翻譯' }
- * 匹配方式：完全比對文字節點內容（trimmed）
- */
 window.FCA_ZH_TW_DOM_TRANSLATIONS = (function() {
 
-    // ── FluentPlayer Pro（設定頁面）─────────────────────────────────────
+    // ── FluentPlayer ──────────────────────────────────────────────────
     var fluentPlayer = {
-        'Settings':                 '設定',
-        'General Settings':         '一般設定',
-        'General':                  '一般',
-        'Branding':                 '品牌',
-        'Integrations':             '整合',
-        'Storage':                  '儲存空間',
-        'YouTube':                  'YouTube',
-        'Analytics':                '分析',
-        'Export':                   '匯出',
-        'Default Preset':           '預設樣式',
-        'Select the default preset to use for new videos':
-                                    '選擇用於新影片的預設樣式',
-        'Default':                  '預設',
-        'Modern':                   '現代',
-        'Simple':                   '簡潔',
-        'Standard':                 '標準',
-        'Floating':                 '浮動',
-        'Minimal':                  '極簡',
-        'Ambient':                  '環境',
-        'Default Aspect Ratio':     '預設畫面比例',
-        'Default aspect ratio for all players (can be overridden per media)':
-                                    '所有播放器的預設畫面比例（可針對個別媒體覆蓋）',
-        'Original':                 '原始',
-        'Auto Resume Playback':     '自動續播',
-        'Let your users resume watching from where they left off':
-                                    '讓使用者從上次中斷的地方繼續觀看',
-        'Enable Auto Resume Playback':
-                                    '啟用自動續播',
-        'Custom CSS':               '自訂 CSS',
-        'Save Settings':            '儲存設定',
+        'Settings': '設定',
+        'General Settings': '一般設定',
+        'Branding': '品牌',
+        'Save Settings': '儲存設定'
     };
 
-    // ── FluentCRM（儀表板 + 設定）─────────────────────────────────────
-    var fluentCRM = {
-        'Email Performance':        '電子郵件績效',
-        '30 Days':                  '30 天',
-        'Delivered':                '已送達',
-        'Bounced':                  '已退回',
-        'Monday':                   '星期一',
-        'Tuesday':                  '星期二',
-        'Wednesday':                '星期三',
-        'Thursday':                 '星期四',
-        'Friday':                   '星期五',
-        'Saturday':                 '星期六',
-        'Sunday':                   '星期日',
-        "Looks like you don't have any campaigns now.":
-                                    '目前沒有任何行銷活動。',
-        'Add a Campaign':           '新增行銷活動',
-        "Looks like you don't have any active automations now.":
-                                    '目前沒有任何啟用中的自動化。',
-        'Create an Automation':     '建立自動化',
-        'Share Your Feedback':      '分享您的意見',
-        "You're using a beta version of FluentCRM!":
-                                    '您正在使用 FluentCRM 的測試版！',
-        'Business Setup':           '商業設定',
-        'Official name shown on invoices and emails.':
-                                    '顯示在發票和電子郵件上的正式名稱。',
-        'Logo':                     '標誌',
-        'PNG/JPEG, min 400×400px. Shown on branded content.':
-                                    'PNG/JPEG，最小 400×400px。顯示在品牌內容中。',
-        'Admin Email Addresses':    '管理員電子郵件地址',
-        'SMS Setting':              '簡訊設定',
-        'AI Writing':               'AI 寫作',
-        'System Admin Tools':       '系統管理工具',
+    // ── FluentCRM ─────────────────────────────────────────────────────
+    var fluentCrm = {
+        'Dashboard': '儀表板',
+        'Email Performance': '電子郵件績效',
+        'Contacts': '聯絡人',
+        'Campaigns': '行銷活動',
+        'Automations': '自動化',
+        'Forms': '表單',
+        'Settings': '設定',
+        'Lists': '清單',
+        'Tags': '標籤'
     };
 
-    // ── FCA Widgets（FluentCommunity Add-ons）─────────────────────────
-    var fcaWidgets = {
-        'FluentCommunity Add-ons':  'FluentCommunity 附加功能',
-        'Welcome to FluentCommunity Add-ons!':
-                                    '歡迎使用 FluentCommunity 附加功能！',
-        'Enhance your FluentCommunity experience with these powerful add-ons.':
-                                    '使用這些強大的附加功能來增強您的 FluentCommunity 體驗。',
-        'Widget Manager':           '小工具管理器',
-        'Create and manage custom widgets for your FluentCommunity portal.':
-                                    '為您的 FluentCommunity 入口建立和管理自訂小工具。',
-        'Sidebar Menu':             '側邊欄選單',
-        'Customize the sidebar menu in your FluentCommunity portal.':
-                                    '自訂 FluentCommunity 入口的側邊欄選單。',
-        'Need Help?':               '需要協助？',
-        'Visit our website for documentation and support.':
-                                    '請造訪我們的網站取得文件和支援。',
-        'Manage Widgets':           '管理小工具',
-        'Manage Sidebar Menu':      '管理側邊欄選單',
-        'Visit Website':            '造訪網站',
-        'Migration Info':           '遷移資訊',
-    };
-
-    // ── FCE Shortcodes Settings ────────────────────────────────────────
-    var fceShortcodes = {
-        'FCE Shortcodes Settings':  'FCE 短代碼設定',
-        // 'General Settings' 已在 fluentPlayer 定義，共用
-        'Configure the general settings for FCE Shortcodes.':
-                                    '設定 FCE 短代碼的一般選項。',
-        'Enable Course Search':     '啟用課程搜尋',
-        'Enable the [fce_course_search] shortcode':
-                                    '啟用 [fce_course_search] 短代碼',
-        'Courses Per Page':         '每頁課程數',
-        'Number of courses to display per page':
-                                    '每頁顯示的課程數量',
-        'Show Course Description':  '顯示課程說明',
-        'Show Course Image':        '顯示課程圖片',
-        'Show Course Price':        '顯示課程價格',
-        'Show Course Author':       '顯示課程作者',
-        'Show Course Categories':   '顯示課程分類',
-        'Portal URL':               '入口網址',
-        'Portal Slug':              '入口網址代稱',
-        'Import Demo Content':      '匯入範例內容',
-        'Copied!':                  '已複製！',
-    };
-
-    // ── FCA Boards（看板管理）─────────────────────────────────────────
-    var fcaBoards = {
-        'Kanban-style boards for your Fluent Community':
-                                    'Fluent Community 的看板式管理工具',
-        'Total Boards':             '看板總數',
-        'Total Ideas':              '點子總數',
-        'Total Votes':              '投票總數',
-        '+ New Board':              '+ 新增看板',
-        'IDEAS':                    '點子',
-        'VOTES':                    '投票',
-        'COLUMNS':                  '欄位',
-        'Edit':                     '編輯',
-        'View':                     '查看',
-        'DEFAULT':                  '預設',
-        'ACTIVE':                   '啟用中',
-        'PUBLIC':                   '公開',
-        'Add a comment...':         '新增留言...',
-        'All Categories':           '所有分類',
-        'Are you sure you want to delete this item?':
-                                    '確定要刪除此項目嗎？',
-        'Auto-generated from title':'自動從標題產生',
-        'Delete this comment?':     '刪除此留言？',
-        'Failed to load board':     '載入看板失敗',
-        'Failed to load boards':    '載入看板清單失敗',
-        'Failed to submit. Please try again.':
-                                    '提交失敗，請重試。',
-        'Kanban View':              '看板檢視',
-        'Leave blank to auto-generate from title':
-                                    '留空以自動從標題產生',
-        'Column name':              '欄位名稱',
-        'Delete Column':            '刪除欄位',
-        'New Column':               '新增欄位',
-    };
-
-    // ── FCA Display Name Override Settings ──────────────────────────────
-    var fcaDisplayName = {
-        'FCA Display Name Override Settings':
-                                    'FCA 顯示名稱覆蓋設定',
-        'Enable Display Name Override':
-                                    '啟用顯示名稱覆蓋',
-        'Enable custom display name pattern':
-                                    '啟用自訂顯示名稱模式',
-        'When enabled, all user display names will use the pattern you select below.':
-                                    '啟用後，所有使用者的顯示名稱將使用您在下方選擇的模式。',
-        'Display Name Pattern':     '顯示名稱模式',
-        'Username':                 '使用者名稱',
-        'First Name Only':          '僅名字',
-        'First Name + Last Name':   '名字 + 姓氏',
-        'Custom Format':            '自訂格式',
-        'Define your own pattern using tokens below':
-                                    '使用下方的代碼自訂您的模式',
-        'Debug Mode':               '除錯模式',
-        'Enable debug logging':     '啟用除錯日誌',
-        'When enabled, plugin activity will be logged to the WordPress debug log':
-                                    '啟用後，外掛活動將記錄到 WordPress 除錯日誌',
-        'Token Library':            '代碼庫',
-        'Click a token to insert it into the custom format field.':
-                                    '點擊代碼將其插入自訂格式欄位。',
-        'STANDARD':                 '標準',
-        'INITIALS':                 '縮寫',
-        'RANDOM NUMBERS':           '隨機數字',
-        'WORDPRESS USER META':      'WordPress 使用者中繼資料',
-        'Actions':                  '操作',
-        'Test My Display Name':     '測試我的顯示名稱',
-        'Updates your own display name to test the pattern.':
-                                    '更新您自己的顯示名稱以測試模式。',
-        'Update All Existing Users':'更新所有現有使用者',
-        'Apply the current pattern to every user in the community.':
-                                    '將目前的模式套用到社群中的所有使用者。',
-        'How It Works':             '運作方式',
-        'Intercepts profile data before saving':
-                                    '在儲存前攔截個人資料',
-        'First Name':               '名字',
-        'Last Name':                '姓氏',
-        'Nickname':                 '暱稱',
-        'Bio':                      '簡介',
-    };
-
-    // ── FCA PWA（設定 + Analytics + Service Worker UI）─────────────────
-    var fcaPwa = {
-        // 設定頁面 tabs
-        'Manifest':                 'Manifest',
-        'Install Prompt':           '安裝提示',
-        'Advanced':                 '進階',
-        'Diagnostics':              '診斷',
-        'ACTIVE':                   '啟用中',
-        'Progressive Web App for Fluent Community':
-                                    'Fluent Community 漸進式網頁應用程式',
-        // 基本設定
-        'Basic Configuration':      '基本設定',
-        'Configure the basic settings for your Progressive Web App':
-                                    '設定漸進式網頁應用程式的基本選項',
-        'Setup Progress':           '設定進度',
-        'Enable PWA functionality': '啟用 PWA 功能',
-        'Set App Name':             '設定應用程式名稱',
-        'Upload App Icon':          '上傳應用程式圖示',
-        'Generate Manifest File':   '產生 Manifest 檔案',
-        'Enable Progressive Web App functionality for your community':
-                                    '為您的社群啟用漸進式網頁應用程式功能',
-        'The full name of your app as it appears to users':
-                                    '使用者看到的應用程式完整名稱',
-        'Hide for me':              '為我隱藏',
-        'Hide for all':             '為所有人隱藏',
-        'Run Diagnostics':          '執行診斷',
-        // Analytics 頁面
-        'PWA Analytics':            'PWA 分析',
-        'Track installation, usage, and engagement metrics for your Progressive Web App':
-                                    '追蹤漸進式網頁應用程式的安裝、使用和互動指標',
-        'Total Installs':           '總安裝數',
-        'Unique Users':             '不重複使用者',
-        'Total Events':             '總事件數',
-        'Conversion Rate':          '轉換率',
-        'Last 30 Days':             '最近 30 天',
-        'Events by Type':           '依類型分類的事件',
-        'Events Timeline':          '事件時間軸',
-        'No event data yet':        '尚無事件資料',
-        'No timeline data yet':     '尚無時間軸資料',
-        'How Analytics Work':       '分析運作方式',
-        'PWA Analytics automatically tracks user interactions including install prompt views, installation completions, dismissals, and app usage. Data is collected anonymously and stored locally in your WordPress database.':
-                                    'PWA 分析會自動追蹤使用者互動，包括安裝提示瀏覽次數、安裝完成次數、關閉次數和應用程式使用情況。資料以匿名方式收集，並儲存在您的 WordPress 資料庫中。',
-        // Service Worker UI
-        'Event tracked':            '事件已追蹤',
-        'Event type is required':   '事件類型為必填',
-        'Failed to track event':    '追蹤事件失敗',
-        'Add to Home Screen':       '加到主畫面',
-        'Tap the Share button':     '點擊分享按鈕',
-        'Scroll down and tap Add to Home Screen':
-                                    '向下滑動並點擊「加到主畫面」',
-        'Tap Add to install':       '點擊「加入」以安裝',
-        'The app will appear on your home screen just like a regular app.':
-                                    '應用程式將會出現在您的主畫面上，就像一般的 App 一樣。',
-        'Add to your device':       '加入您的裝置',
-        'Open the browser menu':    '開啟瀏覽器選單',
-        'Follow the prompts to install':
-                                    '按照提示完成安裝',
-        'You are back online — refreshing...':
-                                    '您已重新上線 — 正在重新整理...',
-        'You are offline':          '您目前離線',
-        'A new version of this app is available.':
-                                    '此應用程式有新版本可用。',
-        'Update Now':               '立即更新',
-    };
-
-    // ── FCA Comments ──────────────────────────────────────────────────
-    var fcaComments = {
-        'FCA Comments Settings':    'FCA 留言設定',
-        'Connect WordPress content to Fluent Community spaces.':
-                                    '將 WordPress 內容連結至 Fluent Community 空間。',
-        'Assignment Rules':         '指派規則',
-        'Appearance':               '外觀',
-        'Legacy & Advanced':        '舊版與進階',
-        'Use rules to automatically assign posts to specific spaces based on multiple conditions.':
-                                    '使用規則根據多個條件自動將文章指派到特定空間。',
-        'No rules created yet. Click the button below to add your first rule.':
-                                    '尚未建立任何規則。點擊下方按鈕新增您的第一條規則。',
-        'Add New Rule':             '新增規則',
-        'Save All Settings':        '儲存所有設定',
-        'Save Changes':             '儲存變更',
-        'Community Discussion':     '社群討論',
-        'Join the Discussion':      '加入討論',
-        'FCA Comments':             'FCA 留言',
-    };
-
-    // ── FCA Hub（附加元件管理器）──────────────────────────────────────
-    var fcaHub = {
-        // hub-admin.js 硬編碼字串（按鈕狀態 + 訊息）
-        'Please enter a license key':   '請輸入授權金鑰',
-        'Activating...':                '啟用中...',
-        'License activated successfully!':
-                                        '授權已成功啟用！',
-        'License activation failed':    '授權啟用失敗',
-        'Request failed. Please try again.':
-                                        '請求失敗，請再試一次。',
-        'Activate License':             '啟用授權',
-        'Are you sure you want to deactivate your license?':
-                                        '確定要停用您的授權嗎？',
-        'Deactivating...':              '停用中...',
-        'License deactivation failed':  '授權停用失敗',
-        'Deactivate License':           '停用授權',
-        'License status checked successfully':
-                                        '授權狀態已成功檢查',
-        'Failed to check license status':
-                                        '檢查授權狀態失敗',
-        'Checking...':                  '檢查中...',
-        'Check License Status':         '檢查授權狀態',
-        'Installing...':                '安裝中...',
-        'Installing addon...':          '安裝附加元件中...',
-        'Addon installed successfully!':'附加元件已成功安裝！',
-        'Installation failed':          '安裝失敗',
-        'Install':                      '安裝',
-        'Activating addon...':          '啟用附加元件中...',
-        'Deactivating addon...':        '停用附加元件中...',
-        'Addon status updated':         '附加元件狀態已更新',
-        'Active':                       '已啟用',
-        'Inactive':                     '未啟用',
-        'Failed to update addon status':'更新附加元件狀態失敗',
-        'Refreshing...':                '重新整理中...',
-        'Registry refreshed successfully!':
-                                        '登錄檔已成功重新整理！',
-        'Failed to refresh registry':   '重新整理登錄檔失敗',
-        'Checking for updates...':      '檢查更新中...',
-        'All addons are up to date!':   '所有附加元件均已是最新版本！',
-        'Failed to check for updates':  '檢查更新失敗',
-        'Updating...':                  '更新中...',
-        'Updating addon...':            '更新附加元件中...',
-        'Update installed successfully!':
-                                        '更新已成功安裝！',
-        'Update failed':                '更新失敗',
-        'Update Available':             '有可用更新',
-        'Deleting addon...':            '刪除附加元件中...',
-        'Addon deleted successfully!':  '附加元件已成功刪除！',
-        'Deletion failed':              '刪除失敗',
-        'Enabled':                      '已啟用',
-        'Disabled':                     '已停用',
-        'Check for Updates':            '檢查更新',
-    };
-
-    // ── FCA Global Search（社群搜尋頁面）─────────────────────────────
-    var fcaGlobalSearch = {
-        // search-page.js Vue template 硬編碼字串
-        'Search':                       '搜尋',
-        'Search posts, comments, spaces, courses, lessons, members, events, blogs, pages, and docs...':
-                                        '搜尋貼文、留言、空間、課程、課節、成員、活動、部落格、頁面和文件...',
-        'All Results':                  '全部結果',
-        'Posts':                        '貼文',
-        'Comments':                     '留言',
-        'Spaces':                       '空間',
-        'Courses':                      '課程',
-        'Lessons':                      '課節',
-        'Members':                      '成員',
-        'Events':                       '活動',
-        'Blogs':                        '部落格',
-        'Pages':                        '頁面',
-        'Docs':                         '文件',
-        'Search filters will appear here':
-                                        '搜尋篩選器將顯示於此',
-        'Searching...':                 '搜尋中...',
-        'Start searching':              '開始搜尋',
-        'Search for posts, comments, spaces, courses, lessons, members, events, blogs, and pages':
-                                        '搜尋貼文、留言、空間、課程、課節、成員、活動、部落格和頁面',
-        'Public Space':                 '公開空間',
-        'Private Space':                '私密空間',
-        'No results found':             '找不到結果',
-        'Try adjusting your search terms or check the spelling.':
-                                        '請嘗試調整搜尋關鍵字或確認拼寫是否正確。',
-        'result found':                 '個結果',
-        'results found':                '個結果',
-    };
-
-    // ── FCA Content Manager（內容管理員）────────────────────────────
-    var fcaContentManager = {
-        // admin.js 硬編碼字串
-        'Choose Thumbnail Image':       '選擇縮圖',
-        'Use this image':               '使用此圖片',
-        'Manage community members, handle enrollments, and control user access across spaces and courses.':
-                                        '管理社群成員、處理報名，以及控制各空間和課程的使用者存取。',
-        'View and edit all metadata entries across your community.':
-                                        '查看並編輯整個社群的所有中繼資料條目。',
-        'Manage spaces with full editing capabilities and bulk operations.':
-                                        '以完整編輯功能和批次操作管理空間。',
-        'Export your content for backup, migration, or analysis.':
-                                        '匯出內容以進行備份、遷移或分析。',
-        'Import content from CSV and JSON files with advanced mapping options.':
-                                        '從 CSV 和 JSON 檔案匯入內容，提供進階對應選項。',
-        'This feature requires a Pro license. Upgrade to edit courses!':
-                                        '此功能需要 Pro 授權。請升級以編輯課程！',
-        'Course editing requires a Pro license!':
-                                        '課程編輯需要 Pro 授權！',
-        'Please select a table for export':
-                                        '請選擇要匯出的表格',
-        'Show Logs':                    '顯示日誌',
-        'Hide Logs':                    '隱藏日誌',
-        'Import failed.':               '匯入失敗。',
-        'AJAX import failed. Check console for details.':
-                                        'AJAX 匯入失敗，請查看主控台以了解詳情。',
-        'Uploading...':                 '上傳中...',
-        'Import completed successfully!':
-                                        '匯入已成功完成！',
-        'Failed to load statistics':    '載入統計資料失敗',
-        'Posts':                        '貼文',
-        'Comments':                     '留言',
-        'Courses':                      '課程',
-        'Lessons':                      '課節',
-        'Course lessons':               '課程課節',
-        'Members':                      '成員',
-        'Reactions':                    '反應',
-        'Media Files':                  '媒體檔案',
-        'Images, videos, and files':    '圖片、影片和檔案',
-        'Spaces':                       '空間',
-        'Are you sure you want to delete this item?':
-                                        '確定要刪除此項目嗎？',
-        'Are you sure you want to delete this media file?':
-                                        '確定要刪除此媒體檔案嗎？',
-        'Untitled':                     '未命名',
-        'Untitled Course':              '未命名課程',
-        'Unknown':                      '未知',
-        'Are you sure you want to delete this metadata?':
-                                        '確定要刪除此中繼資料嗎？',
-        'No courses found':             '找不到課程',
-        'No media files found':         '找不到媒體檔案',
-        'Never':                        '從不',
-        'Yes':                          '是',
-        'No':                           '否',
-        'Failed to load course structure':
-                                        '載入課程結構失敗',
-        'Order updated':                '順序已更新',
-        'Item deleted':                 '項目已刪除',
-        'Failed to delete item':        '刪除項目失敗',
-        'Item duplicated':              '項目已複製',
-        'Failed to duplicate item':     '複製項目失敗',
-        'Move this section and all its lessons to another course.':
-                                        '將此章節及其所有課節移至另一個課程。',
-        'Move this lesson to another course or section.':
-                                        '將此課節移至另一個課程或章節。',
-        'Please select a target course':'請選擇目標課程',
-        'Item moved successfully':      '項目已成功移動',
-        'Failed to move item':          '移動項目失敗',
-        'No course selected':           '未選擇課程',
-        'Course updated successfully':  '課程已成功更新',
-        'Failed to update metadata':    '更新中繼資料失敗',
-        'Metadata not found':           '找不到中繼資料',
-        'Invalid metadata ID':          '無效的中繼資料 ID',
-        'Metadata updated successfully':'中繼資料已成功更新',
-        'Failed to delete media':       '刪除媒體失敗',
-        'Failed to delete media files': '刪除媒體檔案失敗',
-        'Failed to load media details': '載入媒體詳情失敗',
-        'Media deleted successfully':   '媒體已成功刪除',
-        'Topic added':                  '主題已新增',
-        'Failed to add topic':          '新增主題失敗',
-        'Topic removed':                '主題已移除',
-        'Failed to remove topic':       '移除主題失敗',
-        'Failed to load comment':       '載入留言失敗',
-        'Failed to update posts':       '更新貼文失敗',
-        // import-export.js 字串
-        'Please select a content type to export.':
-                                        '請選擇要匯出的內容類型。',
-        'None':                         '無',
-        'Export failed.':               '匯出失敗。',
-        'An error occurred: ':          '發生錯誤：',
-        'Please upload a JSON or CSV file.':
-                                        '請上傳 JSON 或 CSV 檔案。',
-        'File size exceeds 50MB limit.':'檔案大小超過 50MB 限制。',
-        'Please upload a file to continue.':
-                                        '請上傳檔案以繼續。',
-        'Export file created successfully.':
-                                        '匯出檔案已成功建立。',
-        'items exported.':              '個項目已匯出。',
-    };
-
-    // ── FCA Multi-Reactions（多表情反應設定）───────────────────────────
-    var fcaMultiReactions = {
-        // admin.js 硬編碼字串
-        'Please enable at least one reaction type.':
-                                        '請至少啟用一種反應類型。',
-        'Multi-Reactions settings saved successfully!':
-                                        '多反應設定已成功儲存！',
-        'Are you sure you want to reset all Multi-Reactions settings to defaults?\n\nThis will:\n• Delete all current settings\n• Recreate the database option\n• Reset all reactions to default values\n• Disable multi-reactions\n\nThis action cannot be undone.':
-                                        '確定要將所有多反應設定重設為預設值嗎？\n\n此操作將：\n• 刪除所有目前的設定\n• 重新建立資料庫選項\n• 將所有反應重設為預設值\n• 停用多反應功能\n\n此操作無法復原。',
-        'Reaction Name':                '反應名稱',
-        'Emoji':                        '表情符號',
-        'Delete this reaction':         '刪除此反應',
-    };
-
-    // ── FCE Quick Fixes（快速修復設定頁，PHP echo 硬編碼）────────────
-    var fceQuickFixes = {
-        // class-settings-page.php create_admin_page() 中的字串
-        'FCE Quick Fixes Settings':     'FCE 快速修復設定',
-        'Available Quick Fixes':        '可用的快速修復',
-        'Enable this fix':              '啟用此修復',
-        'Custom Code':                  '自訂程式碼',
-        'Header Code':                  '標頭程式碼',
-        'Add custom code to the <head> section (perfect for Google Analytics, meta tags, etc.)':
-                                        '在 <head> 區塊新增自訂程式碼（適合 Google Analytics、meta 標籤等）',
-        'Custom CSS':                   '自訂 CSS',
-        'Add custom CSS to be applied to the community portal.':
-                                        '新增自訂 CSS 套用至社群入口網站。',
-        'Custom JavaScript':            '自訂 JavaScript',
-        'Add custom JavaScript to be applied to the community portal.':
-                                        '新增自訂 JavaScript 套用至社群入口網站。',
-    };
-
-    // ── FCA Course Blocks（影片播放器）──────────────────────────────
-    var fcaCourseBlocks = {
-        // player.js 中 buildExternalChapters() 硬編碼字串
-        'Chapters':                     '章節',
-        'No video configured. Please add a video URL in the editor.':
-                                        '尚未設定影片，請在編輯器中新增影片網址。',
-    };
-
-    // ── FCA Events Spaces（空間活動小工具）──────────────────────────
-    var fcaEventsSpaces = {
-        'Loading...':                   '載入中...',
-        'Error loading events':         '載入活動時發生錯誤',
-        'No upcoming events':           '沒有即將舉行的活動',
-        'Upcoming Events':              '即將舉行的活動',
-    };
-
-    // ── FCA Real-Time（即時互動）──────────────────────────────────────
-    var fcaRealTime = {
-        'App Key':                      'App Key',
-        'App Secret':                   'App Secret',
-        'Background Color':             '背景顏色',
-        'Bottom Left':                  '左下',
-        'Bottom Right':                 '右下',
-        'Brief popup alerts shown to users when events happen in the community.':
-                                        '當社群中發生事件時，向使用者顯示的簡短彈出提示。',
-        'Choose the service that will power your real-time connections.':
-                                        '選擇將為您的即時連線提供動力的服務。',
-        'Choose which events trigger a toast popup:':
-                                        '選擇哪些事件會觸發 toast 彈出提示：',
-        'Configure your self-hosted Soketi, Laravel Reverb, or other Pusher-compatible server.':
-                                        '設定您自行託管的 Soketi、Laravel Reverb 或其他相容 Pusher 的伺服器。',
-        'Debug mode (log real-time events to browser console)':
-                                        '除錯模式（將即時事件記錄到瀏覽器控制台）',
-        'Display Style':                '顯示樣式',
-        'Duration (seconds)':           '持續時間（秒）',
-        'Enable Toast Notifications':   '啟用 Toast 通知',
-        'Enable Widget':                '啟用小工具',
-        'Enable or disable individual real-time features for your community.':
-                                        '為您的社群啟用或停用個別即時功能。',
-        'Full (avatars + names)':       '完整（頭像 + 名稱）',
-        'Gradient End Color':           '漸層結束顏色',
-        'Master toggle — when off, no toasts are shown':
-                                        '總開關——關閉時不顯示任何 toast',
-        'Max avatars to display':       '最多顯示頭像數',
-        'Member Joined':                '成員加入',
-        'Member Joined Space':          '成員加入空間',
-        'Mini (avatar stack)':          '迷你（頭像堆疊）',
-        'New Comment':                  '新留言',
-        'New Post':                     '新貼文',
-        'Provider: ':                   '供應商：',
-        'Save Settings':                '儲存設定',
-        'Send a test event through your WebSocket server to verify the connection is working.':
-                                        '透過您的 WebSocket 伺服器發送測試事件，以確認連線正常。',
-        'Show a live count of online members in the sidebar':
-                                        '在側邊欄顯示線上成員的即時人數',
-        'Show user avatars':            '顯示使用者頭像',
-        'Show who is currently viewing each space':
-                                        '顯示目前正在觀看各空間的使用者',
-        'Test Connection':              '測試連線',
-        'Top Left':                     '左上',
-        'Top Right':                    '右上',
-        'Use Fluent Community theme colors':
-                                        '使用 Fluent Community 主題顏色',
-        'Use TLS / SSL':                '使用 TLS / SSL',
-        'Use gradient effect':          '使用漸層效果',
-    };
-
-    // ── FCHub Multi-Currency（後台設定頁）───────────────────────────────
-    var fchubMultiCurrency = {
-        // 頁籤
-        'General':                          '一般',
-        'Currencies':                       '幣別',
-        'Exchange Rates':                   '匯率',
-        'Switcher':                         '切換器',
-        'Checkout':                         '結帳',
-        'CRM':                              'CRM',
-        'Diagnostics':                      '診斷',
-        // 一般設定 — 標題
-        'Multi-Currency':                   '多幣別',
-        'Multi-Currency Enabled':           '啟用多幣別',
-        'Enable Multi-Currency':            '啟用多幣別',
-        'Base Currency':                    '基準幣別',
-        'Default Display Currency':         '預設顯示幣別',
-        'URL Parameter':                    'URL 參數',
-        'URL Parameter Key':                'URL 參數名稱',
-        'Cookie Persistence':               'Cookie 持久化',
-        'Cookie Lifetime (days)':           'Cookie 有效期（天）',
-        'Account Persistence':              '帳號持久化',
-        'Geo Detection':                    '地理位置偵測',
-        'Stale Rate Fallback':              '匯率過期備援',
-        'Remove Data on Uninstall':         '解除安裝時刪除資料',
-        'Keep data':                        '保留資料',
-        'Delete all':                       '刪除所有資料',
-        // 一般設定 — 說明文字
-        'Master switch for display-layer multi-currency across the store.':
-                                            '全站顯示層多幣別的主開關。',
-        'ISO 4217 code. All payments are settled in this currency.':
-                                            'ISO 4217 代碼。所有付款均以此幣別結算。',
-        'Currency shown to visitors before any preference is detected.':
-                                            '在偵測到訪客偏好前所顯示的幣別。',
-        'Allow currency switching via URL (e.g. ?currency=EUR).':
-                                            '允許透過 URL 切換幣別（例如 ?currency=EUR）。',
-        'Remember visitor currency preference in browser cookies.':
-                                            '在瀏覽器 Cookie 中記住訪客的幣別偏好。',
-        'Remember currency preference in the logged-in user account. Disable this if you want logged-in sessions to respect the default display currency on every fresh visit.':
-                                            '在登入帳號中記住幣別偏好。若希望每次登入都重設為預設顯示幣別，請停用此選項。',
-        'Automatically detect visitor currency based on their country. Requires a geolocation provider.':
-                                            '依據訪客所在國家自動偵測幣別，需要地理位置服務。',
-        'What to do when rates are outdated beyond the threshold.':
-                                            '匯率超過過期門檻時的處理方式。',
-        'If enabled, all tables and settings will be removed when the plugin is uninstalled.':
-                                            '啟用後，解除安裝外掛時將刪除所有資料表和設定。',
-        // 匯率 — 標題
-        'Rate Provider':                    '匯率供應商',
-        'API Key':                          'API 金鑰',
-        'Refresh Interval (hours)':         '更新間隔（小時）',
-        'Stale Threshold (hours)':          '過期門檻（小時）',
-        'Rounding Mode':                    '進位模式',
-        'Rate Freshness Badge':             '匯率時效標記',
-        'Current Rates':                    '目前匯率',
-        'Refresh Now':                      '立即更新',
-        // 匯率 — 說明文字
-        'Service used to fetch exchange rates.':
-                                            '用於取得匯率的服務。',
-        'How often to fetch new exchange rates.':
-                                            '自動取得最新匯率的頻率。',
-        'Rates older than this will trigger an admin warning.':
-                                            '超過此時限的匯率將觸發後台警告。',
-        'How converted prices are rounded.':
-                                            '換算後價格的進位方式。',
-        'Display a badge indicating when rates were last updated.':
-                                            '顯示標記以說明匯率最後更新時間。',
-        // 匯率 — 選項
-        'European Central Bank (free)':     '歐洲中央銀行（免費）',
-        'ExchangeRate-API (free tier)':     'ExchangeRate-API（免費方案）',
-        'Open Exchange Rates':              'Open Exchange Rates',
-        'Manual rates':                     '手動匯率',
-        'Round half up (standard)':         '四捨五入（標準）',
-        'Round half down':                  '五捨六入',
-        'Always round up':                  '無條件進位',
-        'Always round down':                '無條件捨去',
-        'Truncate (no rounding)':           '截斷（不進位）',
-        'Show base currency':               '顯示基準幣別',
-        'Use last known rate':              '使用最後已知匯率',
-        // 匯率 — 空狀態
-        'No exchange rates yet. Add display currencies and trigger a refresh.':
-                                            '尚無匯率資料，請新增顯示幣別並觸發更新。',
-        // 幣別清單
-        'Drag to reorder':                  '拖曳以重新排序',
-        'Select currency':                  '選擇幣別',
-        'Search and add a currency\u2026':  '搜尋並新增幣別…',
-        'Comma (,)':                        '逗號（,）',
-        'Dot (.)':                          '句點（.）',
-        'Space':                            '空格',
-        'Decimals':                         '小數位數',
-        'Separator':                        '分隔符號',
-        'Position':                         '位置',
-        'Symbol':                           '符號',
-        'Left ($100)':                      '左側（$100）',
-        'Left space ($ 100)':               '左側加空格（$ 100）',
-        'Right (100$)':                     '右側（100$）',
-        'Right space (100 $)':              '右側加空格（100 $）',
-        'Favorite Currencies':              '常用幣別',
-        'Comma-separated ISO codes pinned above the rest, for example: EUR, USD, GBP':
-                                            '以逗號分隔的 ISO 代碼，固定顯示在清單最上方，例如：EUR、USD、GBP',
-        // 切換器設定 — 標題
-        'Layout Defaults':                  '版面預設值',
-        'Default Preset':                   '預設樣式',
-        'Trigger Content':                  '觸發器內容',
-        'Dropdown Content':                 '下拉選單內容',
-        'Search Mode':                      '搜尋模式',
-        'Label Position':                   '標籤位置',
-        'Baseline geometry for inheriting switcher blocks.':
-                                            '繼承此切換器區塊的基準版面設定。',
-        'Visual style used by switcher blocks that inherit global defaults.':
-                                            '使用全域預設值的切換器區塊所套用的視覺樣式。',
-        'Choose what appears in the closed switcher button.':
-                                            '選擇切換器按鈕收合時的顯示內容。',
-        'Choose what each currency row displays inside the dropdown.':
-                                            '選擇下拉選單中每個幣別列的顯示內容。',
-        'Useful when you expose more than a handful of currencies.':
-                                            '當幣別種類較多時建議啟用。',
-        'Where the optional label should sit relative to the switcher.':
-                                            '選填標籤相對於切換器的顯示位置。',
-        'Optional trust-building context shown at the bottom of the dropdown.':
-                                            '顯示在下拉選單底部的選填說明文字。',
-        // 切換器設定 — 選項
-        'Preset':                           '預設樣式',
-        'Pill':                             '膠囊形',
-        'Minimal':                          '極簡',
-        'Glass':                            '玻璃質感',
-        'Contrast':                         '對比',
-        'Subtle':                           '低調',
-        'Size':                             '大小',
-        'Small':                            '小',
-        'Medium':                           '中',
-        'Large':                            '大',
-        'Auto':                             '自動',
-        'Auto direction':                   '自動方向',
-        'Auto position':                    '自動位置',
-        'Auto width':                       '自動寬度',
-        'Full width':                       '全寬',
-        'Up':                               '向上',
-        'Down':                             '向下',
-        'Start':                            '開頭',
-        'End':                              '結尾',
-        'Before':                           '之前',
-        'After':                            '之後',
-        'Above':                            '上方',
-        'Below':                            '下方',
-        'Inline search':                    '內嵌搜尋',
-        'Show favorites first':             '優先顯示常用幣別',
-        'Show active indicator':            '顯示啟用指示器',
-        'Show context note':                '顯示說明文字',
-        'Codes':                            '代碼',
-        'Names':                            '名稱',
-        'Flags':                            '國旗',
-        'Symbols':                          '符號',
-        // 結帳設定
-        'Checkout Disclosure':              '結帳說明',
-        'Disclosure Text':                  '說明文字',
-        'Checkout context':                 '結帳說明',
-        'Full note':                        '完整說明',
-        'Show a notice at checkout that payment is processed in the base currency.':
-                                            '在結帳時顯示提示，說明付款將以基準幣別處理。',
-        'Supports placeholders: {base_currency}, {display_currency}, {rate}':
-                                            '支援佔位符：{base_currency}、{display_currency}、{rate}',
-        // CRM 設定
-        'FluentCRM Sync':                   'FluentCRM 同步',
-        'FluentCommunity Sync':             'FluentCommunity 同步',
-        'FluentCommunity':                  'FluentCommunity',
-        'Preferred Currency Field':         '偏好幣別欄位',
-        'Last Order Currency Field':        '最後訂單幣別欄位',
-        'Last Order FX Rate Field':         '最後訂單匯率欄位',
-        'Tag Prefix':                       '標籤前綴',
-        'Auto-create Tags':                 '自動建立標籤',
-        'Footer Context':                   '頁尾說明',
-        'Tag contacts and update custom fields based on currency preference.':
-                                            '依據幣別偏好為聯絡人加標籤並更新自訂欄位。',
-        'Sync currency preference to FluentCommunity user meta.':
-                                            '將幣別偏好同步至 FluentCommunity 使用者資料。',
-        'Tags created as {prefix}{CODE}, e.g. currency:EUR':
-                                            '標籤格式為 {prefix}{CODE}，例如 currency:EUR',
-        'Automatically create tags for each currency.':
-                                            '為每個幣別自動建立標籤。',
-        // 診斷
-        'Plugin':                           '外掛',
-        'Dependencies':                     '相依套件',
-        'Rates':                            '匯率統計',
-        'Version':                          '版本',
-        'DB Version':                       '資料庫版本',
-        'Total rates':                      '匯率總數',
-        'Stale rates':                      '過期匯率',
-        'Feature Flags':                    '功能旗標',
-        'Switcher Events':                  '切換事件',
-        'Top Switched Currencies':          '最常切換幣別',
-        'No switch data yet.':              '尚無切換資料。',
-        'Option Elements':                  '選項元素',
-        'Trigger Elements':                 '觸發器元素',
-        'Active check':                     '狀態確認',
-        'Tax & Duties':                     '稅費',
-        'Status':                           '狀態',
-        'Fetched':                          '已取得',
-        'Quote':                            '報價',
-        'Missing':                          '缺少',
-        'Not found':                        '找不到',
-        // 匯率 / 提供商補充
-        'Provider':                         '供應商',
-        'Rate':                             '匯率',
-        'Rate value':                       '匯率數值',
-        'Rates refreshed.':                 '匯率已更新。',
-        'Rate refresh failed.':             '匯率更新失敗。',
-        'Freshness badge':                  '更新時效標記',
-        // 狀態 / 通用訊息
-        'Enabled':                          '已啟用',
-        'Disabled':                         '已停用',
-        'Active':                           '啟用',
-        'Save':                             '儲存',
-        'Saving...':                        '儲存中...',
-        'Settings saved.':                  '設定已儲存。',
-        'Failed to load settings.':         '載入設定失敗。',
-        'Failed to save settings.':         '儲存設定失敗。',
-        'Failed to load exchange rates.':   '載入匯率失敗。',
-        'Failed to load diagnostics.':      '載入診斷資料失敗。',
-        'Network error. Please check your connection.':
-                                            '網路錯誤，請確認您的連線狀態。',
-        'On':                               '開',
-        'Off':                              '關',
-        'Yes':                              '是',
-        'No':                               '否',
-        'None':                             '無',
-        'Base':                             '基準',
-        'Flag':                             '國旗',
-        'Name':                             '名稱',
-        'Default':                          '預設',
-        'Drag to reorder':                  '拖曳以重新排序',
-    };
-
-    // ── FCHub - Wishlist（願望清單設定頁）───────────────────────────────
-    var fchubWishlist = {
-        'Wishlist Enabled':             '啟用願望清單',
-        'Master switch for the wishlist feature across the store.':
-                                        '商店願望清單功能的總開關。',
-        'Guest Wishlist':               '訪客願望清單',
-        'Allow non-logged-in visitors to use wishlists via cookies.':
-                                        '允許未登入訪客透過 Cookie 使用願望清單。',
-        'Auto-remove Purchased Items':  '自動移除已購買項目',
-        'Automatically remove items from the wishlist when purchased.':
-                                        '購買後自動從願望清單移除項目。',
-        'Max Items per Wishlist':       '每個願望清單最多項目數',
-        'Guest Cleanup (days)':         '訪客清理（天）',
-        'Guest wishlists older than this will be removed by the daily cleanup job.':
-                                        '超過此天數的訪客願望清單將由每日清理作業移除。',
-        'Display':                      '顯示',
-        'FluentCRM':                    'FluentCRM',
-        'Statistics':                   '統計',
-        'No (keep data)':               '否（保留資料）',
-        'Yes (delete all)':             '是（刪除所有資料）',
-        'If enabled, all wishlist tables and settings will be removed when the plugin is uninstalled.':
-                                        '啟用後，解除安裝外掛時將移除所有願望清單資料表與設定。',
-        'Add to Wishlist':              '加入願望清單',
-        'Failed to load settings.':     '載入設定失敗。',
-        'Failed to save settings.':     '儲存設定失敗。',
-        'Remove from Wishlist':         '從願望清單移除',
-        'Settings saved.':              '設定已儲存。',
-        'Tax & Duties':                 '稅費',
-        'Times Wishlisted':             '加入願望清單次數',
-    };
-
-    // ── FCHub - Memberships（會員資格設定頁）───────────────────────────
+    // ── FCHub Memberships ─────────────────────────────────────────────
     var fchubMemberships = {
-        'Link Product':                 '連結商品',
-        'Upgrade Only':                 '僅限升級',
+        'Dashboard': '儀表板',
+        'Plans': '方案',
+        'Plan': '方案',
+        'Members': '成員',
+        'Memberships': '會員資格',
+        'Membership Plans': '會員方案',
+        'Membership Groups': '會員群組',
+        'Active Memberships': '有效會員',
+        'Create New Plan': '建立新方案',
+        'Plan Name': '方案名稱',
+        'Link Product': '連結商品',
+        'Upgrade Only': '僅限升級',
+        'Settings': '設定',
+        'Drip Feed': '漸進式開放',
+        'Access Rules': '存取規則',
+        'Search': '搜尋',
+        'Logs': '紀錄',
+        'Contents': '內容',
+        'Content': '內容',
+        'Drip': '漸進式開放',
+        'Report': '報告',
+        'Reports': '報告',
+        'Stats': '統計',
+        'Active': '已啟用',
+        'Inactive': '已停用',
+        'Overview': '總覽',
+        'Advanced': '進階',
+        'Filter': '篩選',
+        'Actions': '操作',
+        'Export': '匯出',
+        'Import': '匯入',
+        'Access': '存取',
+        'Rules': '規則',
+        'Setup': '設定',
+        'Product': '商品',
+        'Products': '商品',
+        'Email': '電子郵件',
+        'Notifications': '通知',
+        'Active Members': '有效會員',
+        'New This Month': '本月新增',
+        'Churned This Month': '本月流失',
+        'Churn Rate': '流失率',
+        'Members Over Time': '會員趨勢',
+        'Plan Distribution': '方案分布',
+        'Expiring Soon': '即將到期',
+        'No memberships expiring in the next 7 days': '未來 7 天內沒有即將到期的會員資格',
+        'Recent Activity': '近期活動',
+        'Member': '會員',
+        'Status': '狀態',
+        'Expires': '到期日',
+        'Granted': '授權於',
+        'No Data': '暫無資料',
+        'Search plans...': '搜尋方案...',
+        'Search by plan title or slug': '依方案標題或代稱搜尋',
+        'Title': '標題',
+        'Slug': '代稱',
+        'Duration': '時長',
+        'Created': '建立於',
+        'No plans found': '找不到方案',
+        'Search by name, email or user ID': '依名稱、電子郵件或使用者 ID 搜尋',
+        'No members found': '找不到會員',
+        'Content Protection': '內容保護',
+        'Control what content your members can access': '控制您的會員可以存取的內容',
+        'Posts & Pages': '文章與頁面',
+        'Categories & Tags': '分類與標籤',
+        'Custom Post Types': '自訂文章類型',
+        'Menu Items': '選單項目',
+        'URL Restrictions': '網址限制',
+        'Special Pages': '特殊頁面',
+        'Comments': '留言',
+        'All': '全部',
+        'Search protected content...': '搜尋受保護的內容...',
+        'Resource': '資源',
+        'Type': '類型',
+        'Teaser': '前導文字',
+        'Protected Since': '受保護於',
+        'No protected content yet': '尚無受保護的內容',
+        'Start protecting your content to restrict access for members only.': '開始保護您的內容，僅限會員存取。',
+        'Drip Content': '漸進式開放內容',
+        'Total Drip Rules': '漸進式開放規則總數',
+        'Pending Notifications': '待處理通知',
+        'Sent Today': '今日已發送',
+        'Failed': '失敗',
+        'Notifications Queue': '通知排程隊列',
+        'User': '使用者',
+        'Scheduled': '已排程',
+        'Start date': '開始日期',
+        'End date': '結束日期',
+        'to': '至',
+        'Churn': '流失',
+        'Revenue': '營收',
+        'Renewals': '續約',
+        'Trials': '試用',
+        'Retention': '留存',
+        'Churned': '已流失',
+        'Retention Rate': '留存率',
+        'General Settings': '一般設定',
+        'Restriction Mode': '限制模式',
+        'How to handle access for non-members trying to view protected content.': '如何處理非會員嘗試查看受保護內容時的存取。',
+        'Default Restriction Message': '預設限制訊息',
+        'Message shown when content is restricted. Supports basic HTML.': '當內容受限時顯示的訊息。支援基本 HTML。',
+        'Paused Membership Message': '會員資格暫停訊息',
+        "Message shown when a member's access is paused. Supports basic HTML.": "當會員存取權被暫停時顯示的訊息。支援基本 HTML。",
+        'Membership Rules': '會員規則',
+        'Membership Mode': '會員模式',
+        'Controls whether users can hold multiple membership plans simultaneously.': '控制使用者是否可以同時擁擁有個會員方案。',
+        'Users can hold multiple plans at once. Access from all plans is cumulative.': '使用者可以同時擁有多個方案。所有方案的存取權是累計的。',
+        'Email on Access Granted': '授予存取權時發送郵件',
+        'Send an email when a user is granted membership access.': '當使用者被授予會員存取權時發送電子郵件。',
+        'Email on Access Expiring': '存取權即將到期時發送郵件',
+        'Notify members before their access expires.': '在會員存取權到期前通知他們。',
+        'Warn': '提醒',
+        'days before': '天前',
+        'Email on Access Revoked': '存取權被撤銷時發送郵件',
+        "Send an email when a user's membership access is revoked.": "當使用者的會員存取權被撤銷時發送電子郵件。",
+        'Email on Drip Content Unlocked': '漸進式內容解鎖時發送郵件',
+        'Notify members when new drip content becomes available to them.': '當新的漸進式內容開放時通知會員。',
+        'FluentCRM Integration': 'FluentCRM 整合',
+        'Enable FluentCRM Sync': '啟用 FluentCRM 同步',
+        'Automatically sync membership events (grant, revoke, pause, resume, expire) to FluentCRM tags, lists, and custom fields.': '自動將會員事件（授予、撤銷、暫停、恢復、過期）同步到 FluentCRM 的標籤、清單與自訂欄位。',
+        'Tag Prefix': '標籤前綴',
+        'Prefix for auto-created tags. Tags will be named like "member:plan-slug".': '自動建立標籤的前綴。標籤名稱將如 "member:plan-slug"。',
+        'Default List': '預設清單',
+        'Add active members to this FluentCRM list automatically.': '自動將有效會員加入此 FluentCRM 清單。',
+        'Auto-Create Tags': '自動建立標籤',
+        "Automatically create FluentCRM tags from plan names when they don't exist.": "當標籤不存在時，自動根據方案名稱建立 FluentCRM 標籤。",
+        'FluentCommunity Integration': 'FluentCommunity 整合',
+        'Enable FluentCommunity Sync': '啟用 FluentCommunity 同步',
+        'Sync membership status to FluentCommunity spaces and badges when grants are created, revoked, or expire.': '當會員資格建立、撤銷或過期時，同步狀態至 FluentCommunity 空間與標誌。',
+        'Plan to Space Mapping': '方案與空間對應',
+        'Map membership plans to FluentCommunity spaces. Members will be added to the mapped space when granted access.': '將會員方案對應到 FluentCommunity 空間。授予存取權時，成員將被加入對應的空間。',
+        'No membership plans found. Create a plan first.': '找不到會員方案。請先建立方案。',
+        'Plan to Badge Mapping': '方案與標誌對應',
+        'Assign a FluentCommunity badge when a member is granted a plan.': '當成員獲得方案時，分配一個 FluentCommunity 標誌。',
+        'Remove Badge on Revoke': '撤銷時移除標誌',
+        "Remove the assigned badge when a member's access is revoked or expires.": "當成員存取權被撤銷或過期時，移除分配的標誌。",
+        'Webhooks': '網路鉤子 (Webhooks)',
+        'Enable Webhooks': '啟用網路鉤子',
+        'Send HTTP POST requests to external URLs when membership events occur (grant, revoke, pause, resume, expire).': '當會員事件發生時（授予、撤銷、暫停、恢復、過期），向外部網址發送 HTTP POST 請求。',
+        'API Key': 'API 金鑰',
+        'Use this key to authenticate external API requests to the memberships system.': '使用此金鑰對會員系統的外部 API 請求進行身分驗證。',
+        'No api key generated': '尚未產生 API 金鑰',
+        'Debug Mode': '除錯模式',
+        'Enable verbose logging for troubleshooting. Not recommended for production.': '啟用詳細記錄以供疑難排解。不建議在正式環境中使用。'
     };
 
-    // ── FCHub - Portal Extender（入口擴充設定頁）───────────────────────
-    var fchubPortalExtender = {
-        'Add Endpoint':                 '新增端點',
-        'Delete Endpoint':              '刪除端點',
-        'Endpoint activated':           '端點已啟用',
-        'Endpoint deactivated':         '端點已停用',
-        'Endpoint deleted':             '端點已刪除',
-        'Failed to delete endpoint':    '刪除端點失敗',
-        'Failed to load endpoints':     '載入端點失敗',
-        'Failed to save order':         '儲存順序失敗',
-        'Failed to update status':      '更新狀態失敗',
-        'Manage custom pages in your FluentCart Customer Portal':
-                                        '在 FluentCart 客戶入口中管理自訂頁面',
-        'Portal Endpoints':             '入口端點',
-        'Basic Settings':               '基本設定',
-        'Content Source':               '內容來源',
-        'Edit Endpoint':                '編輯端點',
-        'Endpoint created':             '端點已建立',
-        'Endpoint not found':           '找不到端點',
-        'Endpoint updated':             '端點已更新',
-        'External URL (iframe)':        '外部網址（iframe）',
-        'Failed to load endpoint':      '載入端點失敗',
-        'HTML / Custom Code':           'HTML / 自訂程式碼',
-        'Icon Type':                    '圖示類型',
-        'New tab':                      '新分頁',
-        'Post / CPT':                   '文章 / 自訂文章類型',
-        'Redirect / Link':              '重新導向 / 連結',
-        'Same tab':                     '同一分頁',
-        'Save Changes':                 '儲存變更',
-        'Scrollable Container':         '可捲動容器',
-        'Search for a page...':         '搜尋頁面...',
-        'Search for a post...':         '搜尋文章...',
-        'The external page will be embedded in an iframe inside the portal.':
-                                        '外部頁面將以 iframe 嵌入入口中。',
-        'The shortcode will be rendered inside the portal layout.':
-                                        '短代碼將在入口版面中渲染。',
-        'URL path in the Customer Portal. Lowercase, hyphens only.':
-                                        '客戶入口中的網址路徑。僅限小寫與連字號。',
-        'Users will be redirected to this URL when they click the menu item.':
-                                        '使用者點擊選單項目時將重新導向至此網址。',
-        'WordPress Page':               'WordPress 頁面',
+    // ── FluentBooking ─────────────────────────────────────────────────
+    var fluentBooking = {
+        'Availability': '可用時間',
+        'Bookings': '預訂',
+        'Calendars': '日曆',
+        'Schedule Event': '安排活動',
+        'Reschedule': '重新安排',
+        'Confirm Booking': '確認預訂'
     };
 
-    // 合併所有字典（後面的同 key 會覆蓋前面）
+    // ── FluentSecurity ────────────────────────────────────────────────
+    var fluentSecurity = {
+        'Security Scans': '安全性掃描',
+        'Login Notifications': '登入通知',
+        'Login Redirects': '登入重新導向',
+        'Auth Shortcodes': '認證短代碼',
+        'Core Security Settings': '核心安全設定'
+    };
+
+    var fceShortcodes = {
+        'FCE Shortcodes - Import Demo Content': 'FCE 短代碼 - 匯入範例內容',
+        'This tool will import demo courses and lessons into your Fluent Community database. This is useful for testing the FCE Shortcodes plugin functionality.': '此工具將匯入範例課程與單元至您的 Fluent Community 資料庫。這對於測試 FCE 短代碼外掛功能非常有用。',
+        'Warning: This is for testing purposes only. The demo content will be added to your actual Fluent Community database.': '警告：這僅用於測試目的。範例內容將被新增至您實際的 Fluent Community 資料庫中。',
+        'Number of Courses': '課程數量',
+        'How many demo courses to create (1-20)': '建立多少個範例課程 (1-20)',
+        'Lessons per Course': '每個課程的單元數',
+        'How many lessons to create per course (1-15)': '每個課程建立多少個單元 (1-15)',
+        'Categories': '分類',
+        'Create demo categories': '建立範例分類',
+    };
+
+    var fcaHub = {
+        'Posts': '貼文',
+        'Published': '已發布',
+        'Draft': '草稿',
+        'View All': '查看全部',
+        'Pending': '待處理',
+        'Courses': '課程',
+        'Lessons': '單元',
+        'Course lessons': '課程單元',
+        'Reactions': '互動回應',
+        'on Posts': '於貼文',
+        'on Comments': '於留言',
+        'Media Files': '媒體檔案',
+        'Images, videos, and files': '圖片、影片與檔案',
+        'Spaces': '空間',
+    };
+
+                var fcaBoards = {
+        'Kanban-style boards for your Fluent Community': '為您的 Fluent Community 提供看板式管理',
+        'New Board': '新增看板',
+        'Total Boards': '看板總數',
+        'Total Ideas': '點子總數',
+        'Total Votes': '投票總數',
+        'Ideas': '點子',
+        'Votes': '投票',
+        'Columns': '欄位',
+        'IDEAS': '點子',
+        'VOTES': '投票',
+        'COLUMNS': '欄位',
+        'View Board': '查看看板',
+        'Categories': '分類',
+        'Board Settings': '看板設定',
+        'Description': '描述',
+        'Visibility': '可見性',
+        'Permissions': '權限',
+        'Allow Submissions': '允許提交',
+        'Users can submit new ideas': '使用者可以提交新點子',
+        'Allow Voting': '允許投票',
+        'Users can vote on ideas': '使用者可以對點子進行投票',
+        'Allow Comments': '允許留言',
+        'Users can comment on ideas': '使用者可以對點子發表留言',
+        'Configure the columns (stages) for your kanban board.': '設定看板的欄位 (階段)。',
+        'Column IDs cannot be changed to preserve existing items.': '無法更改欄位 ID 以保留現有項目。',
+        'Add Column': '新增欄位',
+        'Save Columns': '儲存欄位',
+        'votes': '票數',
+        'Edit': '編輯',
+        'Delete': '刪除',
+        'Comments': '留言',
+        'Add a comment...': '新增留言...',
+        'Post': '發佈',
+        'Cancel': '取消',
+        'Save': '儲存',
+        'Reply': '回覆',
+        'Submit Request': '提交請求',
+        'Title *': '標題 *',
+        'Brief title for your request': '請求的簡短標題',
+        'Describe your request in detail...': '詳細描述您的請求...',
+        'Submit': '提交'
+    };
+
+    var fcaEvents = {
+        'Email Templates': '電子郵件範本',
+        'These templates are used for automated emails sent to event attendees. You can create custom templates or edit the default ones.': '這些範本用於發送給活動參加者的自動化電子郵件。您可以建立自訂範本或編輯預設範本。',
+        'How it works:': '運作方式：',
+        'Set one template as "Default" per category - this will be used for all events unless overridden': '每個分類設定一個範本為「預設」- 除非被覆蓋，否則這將用於所有活動',
+        'Override default templates on individual events using the Email Templates section in the event editor': '在活動編輯器的「電子郵件範本」區塊中，可以針對個別活動覆蓋預設範本',
+        'Use placeholders like {event_title} and {user_name} to personalize emails': '使用如 {event_title} 和 {user_name} 的佔位符來個人化電子郵件',
+        'Registration Confirmation': '報名確認',
+        'Event Reminder': '活動提醒',
+        'Waitlist Notification': '候補名單通知',
+        'Registration Cancellation': '報名取消通知',
+        'Event Update': '活動更新通知',
+        'Template Category': '範本分類',
+        'Default': '預設',
+    };
+
+    var fcaEventsBasic = {
+        'Email Templates': '電子郵件範本',
+        'These templates are used for automated emails sent to event attendees. You can create custom templates or edit the default ones.': '這些範本用於發送給活動參加者的自動化電子郵件。您可以建立自訂範本或編輯預設範本。',
+        'How it works:': '運作方式：',
+        'Set one template as "Default" per category - this will be used for all events unless overridden': '每個分類設定一個範本為「預設」- 除非被覆蓋，否則這將用於所有活動',
+        'Override default templates on individual events using the Email Templates section in the event editor': '在活動編輯器的「電子郵件範本」區塊中，可以針對個別活動覆蓋預設範本',
+        'Use placeholders like {event_title} and {user_name} to personalize emails': '使用如 {event_title} 和 {user_name} 的佔位符來個人化電子郵件',
+        'Registration Confirmation': '報名確認',
+        'Event Reminder': '活動提醒',
+        'Waitlist Notification': '候補名單通知',
+        'Registration Cancellation': '報名取消通知',
+        'Event Update': '活動更新通知',
+        'Template Category': '範本分類',
+        'Default': '預設',
+    };
+
+                    var fcaPwa = {
+        'PWA Analytics': 'PWA 數據分析',
+        'Track installation, usage, and engagement metrics for your Progressive Web App': '追蹤您的漸進式網路應用程式 (PWA) 的安裝、使用與參與度指標',
+        'Last 30 Days': '最近 30 天',
+        'Total Installs': '總安裝數',
+        'Unique Users': '不重複使用者',
+        'Total Events': '總事件數',
+        'Conversion Rate': '轉換率',
+        'Events by Type': '依類型區分事件',
+        'No event data yet': '尚無事件資料',
+        'Events Timeline': '事件時間軸',
+        'No timeline data yet': '尚無時間軸資料',
+        'How Analytics Work': '數據分析運作方式',
+        'PWA Analytics automatically tracks user interactions including install prompt views, installation completions, dismissals, and app usage. Data is collected anonymously and stored locally in your WordPress database.': 'PWA 數據分析會自動追蹤使用者互動，包括安裝提示查看、安裝完成、關閉以及應用程式使用情況。資料是以匿名方式收集，並儲存在您的 WordPress 資料庫中。',
+        'FCA PWA: Dynamic endpoints are not working. The plugin is using static file serving as a fallback. Run Diagnostics': 'FCA PWA：動態端點運作不正常。外掛正改用靜態檔案提供服務。執行診斷',
+        'Progressive Web App for Fluent Community': '為 Fluent Community 提供的漸進式網路應用程式',
+        'General': '一般',
+        'Manifest': '資訊清單 (Manifest)',
+        'Install Prompt': '安裝提示',
+        'Diagnostics': '診斷',
+        'FCA PWA': 'FCA PWA',
+        'Run Diagnostics': '執行診斷',
+        'Analytics': '數據分析',
+        'Service Worker Configuration': "Service Worker 配置",
+        'Configure how the service worker caches and handles resources.': "設定 Service Worker 如何快取與處理資源。",
+        'API Cache Max Age': "API 快取最長期限",
+        'Static Assets Cache Max Age': "靜態資源快取最長期限",
+        'Enable Navigation Preload': "啟用導覽預載",
+        'Start network requests early for faster page loads': "提早啟動網路請求以加快頁面載入速度",
+        'Use Static File Serving': "使用靜態檔案服務",
+        'Use static files instead of dynamic endpoints (enable if dynamic endpoints are blocked by your server/caching)': "使用靜態檔案而非動態端點（若動態端點被伺服器或快取封鎖時請啟用）",
+        'Precache Configuration': "預先快取配置",
+        'Specify URLs to precache when the service worker installs.': "指定 Service Worker 安裝時要預先快取的網址。",
+        'URLs to Precache': "要預先快取的網址",
+        'One URL per line. These pages will be cached for offline access.': "每行一個網址。這些頁面將被快取以供離線存取。",
+        'Offline Configuration': "離線配置",
+        'Configure what happens when users are offline.': "設定當使用者離線時的處理方式。",
+        'Offline Page URL': "離線頁面網址",
+        'Page to show when user is offline (leave blank for default)': "當使用者離線時顯示的頁面（留白則使用預設值）",
+        'Offline Fallback Image': "離線後備圖片",
+        'Fallback image to show when images fail to load offline': "當圖片在離線狀態下載入失敗時顯示的後備圖片",
+        'Offline Page Title': "離線頁面標題",
+        'Offline Page Message': "離線頁面訊息",
+        'Offline Page Icon': "離線頁面圖示",
+        'Custom Offline Page CSS': "自訂離線頁面 CSS",
+        'Show Cached Pages List': "顯示已快取頁面清單",
+        'Display a list of available offline pages on the offline page': "在離線頁面上顯示可用的離線頁面清單",
+        'Maximum Cached Items to Display': "顯示的最大快取項目數",
+        'Developer Options': "開發者選項",
+        'Enable detailed console logging for troubleshooting': "啟用詳細的控制台記錄以供疑難排解",
+        'Custom Service Worker Code': "自訂 Service Worker 程式碼",
+        'Maintenance': "維護",
+        'Clear All Cache': "清除所有快取",
+        'Unregister Service Worker': "取消註冊 Service Worker",
+        'Reset Install Prompts': "重設安裝提示",
+        'Danger Zone': "危險區域",
+        'Reset Plugin to Defaults': "將外掛重設為預設值",
+        'This will delete all plugin settings and generated files. The plugin will be reset to a fresh installation state. This action cannot be undone.': "這將刪除所有外掛設定與產生的檔案。外掛將被重設為全新安裝狀態。此動作無法復原。",
+        'Reset Plugin': "重設外掛",
+        'Install Prompts': "安裝提示",
+        'Prompt users to install your app. Choose one or more methods below.': "提示使用者安裝您的應用程式。請選擇下方的一種或多種方式。",
+        'Enable Install Prompts': "啟用安裝提示",
+        'Master switch for all install prompts': "所有安裝提示的總開關",
+        'Header Install Button': "標頭安裝按鈕",
+        'Show Header Button': "顯示標頭按鈕",
+        'Adds a download icon next to the user menu in the header': "在標頭的使用者選單旁新增一個下載圖示",
+        'Sidebar Widget': "側邊欄小工具",
+        'Enable Sidebar Widget': "啟用側邊欄小工具",
+        'Desktop only - sidebars are not visible on mobile': "僅限桌面版 - 側邊欄在行動裝置上不可見",
+        'Widget Position': "小工具位置",
+        'After Activity Feed': "在活動動態之後",
+        'Floating Widget': "浮動小工具",
+        'Enable Floating Widget': "啟用浮動小工具",
+        'Works on both desktop and mobile': "適用於桌面與行動裝置",
+        'Widget Customization': "小工具自訂",
+        'Button Text': "按鈕文字",
+        'CTA Message': "行動呼籲 (CTA) 訊息",
+        'Get the full experience by installing our app!': "安裝我們的應用程式以獲得完整體驗！",
+        'Persuasive message displayed in the widget': "顯示在小工具中的說服性訊息",
+        'Pop-up Prompt': "彈出式提示",
+        'Enable Pop-up Prompt': "啟用彈出式提示",
+        'Platform Targeting': "平台目標",
+        '桌面': "桌面",
+        '行動裝置': "行動裝置",
+        'App Shortcuts': "應用程式捷徑",
+        'Shortcuts allow users to quickly access specific parts of your app from the home screen icon menu.': "捷徑允許使用者從主畫面的圖示選單快速存取您應用程式的特定部分。",
+        'Add Shortcut': "新增捷徑",
+        'App Screenshots': "應用程式螢幕截圖",
+        'Adding screenshots helps browsers show a richer install prompt to your users.': "新增螢幕截圖有助於瀏覽器向您的使用者顯示更豐富的安裝提示。",
+        'Add Screenshot': "新增螢幕截圖",
+        'App Categories': "應用程式類別",
+        'Select categories that best describe your community.': "選擇最能描述您社群的類別。",
+        'Regenerate Manifest': "重新產生資訊清單",
+        'Regenerate Service Worker': "重新產生 Service Worker",
+        'View': "查看",
+        'seconds': "秒",
+        'Business': "商業",
+        'Education': "教育",
+        'Entertainment': "娛樂",
+        'Social': "社群",
+        'Install BuyGo 幫你代購': "安裝 BuyGo 幫你代購",
+        'Add to your device': "新增至您的裝置",
+        'Open the browser menu (⋮ or ⋯)': "開啟瀏覽器選單 (⋮ 或 ⋯)",
+        'Look for "Install app" or "Add to Home Screen"': "尋找「安裝應用程式」或「加入主畫面」",
+        'Follow the prompts to install': "依照提示進行安裝",
+        'Note: This feature may not be available in all browsers. For best results, use Chrome, Edge, or Safari.': "註：此功能並非在所有瀏覽器中都可用。為了獲得最佳效果，請使用 Chrome、Edge 或 Safari。"
+    };
+
+    var fcaComments = {
+        'FCA Comments Settings': 'FCA 留言設定',
+        'Connect WordPress content to Fluent Community spaces.': '將 WordPress 內容連結至 Fluent Community 空間。',
+        'Assignment Rules': '分配規則',
+        'Appearance': '外觀',
+        'Legacy & Advanced': '傳統與進階',
+        'Basic Configuration': '基本配置',
+        'Enable Fluent Community Comments replacement': '啟用 Fluent Community 留言替換',
+        'Target Post Types': '目標文章類型',
+        'Default Space': '預設空間',
+        'Used if no other rules match.': '當沒有其他規則符合時使用。',
+        'Default Comment Author': '預設留言作者',
+        'Owner of the community feed post created for the discussion.': '為此討論建立的社群動態貼文擁有者。',
+        'Use rules to automatically assign posts to specific spaces based on multiple conditions.': '根據多種條件使用規則自動將文章分配給特定空間。',
+        'No rules created yet. Click the button below to add your first rule.': '尚未建立規則。點擊下方按鈕以新增您的第一個規則。',
+        'Add New Rule': '新增規則',
+        'Widget Appearance': '小工具外觀',
+        'Widget Title': '小工具標題',
+        'Conversation': '對話',
+        'Comment Style': '留言樣式',
+        'Classic': '經典',
+        'Comments Display Limit': '留言顯示限制',
+        'Number of comments to show initially. Set to 0 for default.': '最初顯示的留言數量。設為 0 以使用預設值。',
+        'Show link to the Community Space': '顯示前往社群空間的連結',
+        'Call to Action Button': '行動呼籲 (CTA) 按鈕',
+        'CTA Button Text': 'CTA 按鈕文字',
+        'e.g., Join Our Community': '例如：加入我們的社群',
+        'CTA Button URL': 'CTA 按鈕網址',
+        'Legacy Category Space Mappings': '傳統分類空間對應',
+        'These mappings are kept for backward compatibility and will be evaluated if no new rules match.': '這些對應是為了回溯相容性而保留，若沒有新規則符合則會進行評估。',
+    };
+
     var merged = {};
     var sources = [
-        fluentPlayer, fluentCRM, fcaWidgets, fceShortcodes, fcaBoards,
-        fcaDisplayName, fcaPwa, fcaComments,
-        fcaHub, fcaGlobalSearch, fcaContentManager, fcaMultiReactions,
-        fceQuickFixes, fcaCourseBlocks, fcaEventsSpaces,
-        fchubMultiCurrency, fcaRealTime, fchubWishlist, fchubMemberships, fchubPortalExtender
+        fluentPlayer, fluentCrm, fchubMemberships, fluentBooking, fluentSecurity
     ];
     for (var i = 0; i < sources.length; i++) {
         var src = sources[i];

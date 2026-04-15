@@ -195,8 +195,11 @@ msgstr "上傳包含文件的 ZIP 檔案。"
 msgid "Expected Structure"
 msgstr "預期結構"
 
-msgid "Folder names are converted to titles (kebab-case → Title Case). Existing collections/sections will be reused."
-msgstr "資料夾名稱會轉換為標題（kebab-case → 標題格式）。現有的集合/章節會重複使用。"
+msgid ""
+"Folder names are converted to titles (kebab-case → Title Case). Existing "
+"collections/sections will be reused."
+msgstr ""
+"資料夾名稱會轉換為標題（kebab-case → 標題格式）。現有的集合/章節會重複使用。"
 
 msgid "Import ZIP"
 msgstr "匯入 ZIP"
@@ -329,7 +332,8 @@ msgstr "副標題的字型大小（例如 1.25rem、20px、1.2em）。"
 msgid "Subtitle Color"
 msgstr "副標題顏色"
 
-msgid "Color for the subtitle text. Leave empty to use the default theme color."
+msgid ""
+"Color for the subtitle text. Leave empty to use the default theme color."
 msgstr "副標題文字的顏色。留空則使用預設佈景主題顏色。"
 
 msgid "Customize the hero section displayed on the documentation homepage."
@@ -344,7 +348,8 @@ msgstr "儲存設定"
 msgid "%1$s requires %2$s to be installed and activated."
 msgstr "%1$s 需要先安裝並啟用 %2$s。"
 
-msgid "FCA Knowledge Base requires Fluent Community to be installed and activated."
+msgid ""
+"FCA Knowledge Base requires Fluent Community to be installed and activated."
 msgstr "FCA Knowledge Base 需要先安裝並啟用 Fluent Community。"
 
 msgid "Plugin Activation Error"
@@ -430,8 +435,24 @@ msgid "Creates Article"
 msgstr "建立文章"
 
 #. translators: 1: ZIP file name, 2: Collection explanation, 3: Section explanation, 4: Article explanation
-msgid "%1$s\n├── collection-name/              %2$s\n│   ├── section-name/             %3$s\n│   │   └── article-title.md      %4$s\n│   └── another-section/\n│       └── another-article.md\n└── another-collection/\n    └── ..."
-msgstr "%1$s\n├── collection-name/              %2$s\n│   ├── section-name/             %3$s\n│   │   └── article-title.md      %4$s\n│   └── another-section/\n│       └── another-article.md\n└── another-collection/\n    └── ..."
+msgid ""
+"%1$s\n"
+"├── collection-name/              %2$s\n"
+"│   ├── section-name/             %3$s\n"
+"│   │   └── article-title.md      %4$s\n"
+"│   └── another-section/\n"
+"│       └── another-article.md\n"
+"└── another-collection/\n"
+"    └── ..."
+msgstr ""
+"%1$s\n"
+"├── collection-name/              %2$s\n"
+"│   ├── section-name/             %3$s\n"
+"│   │   └── article-title.md      %4$s\n"
+"│   └── another-section/\n"
+"│       └── another-article.md\n"
+"└── another-collection/\n"
+"    └── ..."
 
 #: includes/Core/Plugin.php (i18n config)
 msgid "Attachments"
@@ -471,7 +492,8 @@ msgid "Menu Settings"
 msgstr "選單設定"
 
 #: includes/Controllers/AdminSettings.php
-msgid "Configure how the Knowledge Base appears in Fluent Community portal menus."
+msgid ""
+"Configure how the Knowledge Base appears in Fluent Community portal menus."
 msgstr "設定知識庫在 Fluent Community 入口網站選單中的顯示方式。"
 
 #: includes/Controllers/AdminSettings.php
@@ -532,7 +554,9 @@ msgstr "自訂標籤"
 
 #. Access Control - AccessControl.php
 #: includes/Access/AccessControl.php
-msgid "This content is restricted. Please log in or upgrade your membership to access."
+msgid ""
+"This content is restricted. Please log in or upgrade your membership to "
+"access."
 msgstr "此內容受到限制。請登入或升級會員資格以存取。"
 
 #. Access Control - AccessSettingsUI.php
@@ -617,7 +641,8 @@ msgid "Access denied message:"
 msgstr "存取拒絕訊息："
 
 #: includes/Access/AccessSettingsUI.php
-msgid "Message shown to users without access. Leave empty to use global default."
+msgid ""
+"Message shown to users without access. Leave empty to use global default."
 msgstr "顯示給無權存取使用者的訊息。留空則使用全域預設值。"
 
 #: includes/Access/AccessSettingsUI.php
@@ -625,7 +650,8 @@ msgid "Inherit from collection"
 msgstr "繼承集合設定"
 
 #: includes/Access/AccessSettingsUI.php
-msgid "When enabled, this article will use the access settings from its collection."
+msgid ""
+"When enabled, this article will use the access settings from its collection."
 msgstr "啟用後，此文章將使用其所屬集合的存取設定。"
 
 #: includes/Access/AccessSettingsUI.php
@@ -650,7 +676,9 @@ msgstr "選擇列表..."
 
 #. Access Control - AdminSettings.php
 #: includes/Controllers/AdminSettings.php
-msgid "Control who can access Knowledge Base content. These are global defaults that can be overridden at the collection and article level."
+msgid ""
+"Control who can access Knowledge Base content. These are global defaults "
+"that can be overridden at the collection and article level."
 msgstr "控制誰可以存取知識庫內容。這些是全域預設值，可在集合和文章層級覆寫。"
 
 #: includes/Controllers/AdminSettings.php
@@ -662,7 +690,9 @@ msgid "Enable access restrictions for Knowledge Base"
 msgstr "啟用知識庫的存取限制"
 
 #: includes/Controllers/AdminSettings.php
-msgid "When enabled, you can restrict access to the entire KB, specific collections, or individual articles."
+msgid ""
+"When enabled, you can restrict access to the entire KB, specific "
+"collections, or individual articles."
 msgstr "啟用後，你可以限制整個知識庫、特定集合或個別文章的存取權限。"
 
 #: includes/Controllers/AdminSettings.php
@@ -674,15 +704,19 @@ msgid "Public (everyone can access)"
 msgstr "公開（所有人皆可存取）"
 
 #: includes/Controllers/AdminSettings.php
-msgid "This sets the baseline access level for all KB content. Individual collections and articles can have stricter restrictions."
-msgstr "這設定了所有知識庫內容的基本存取層級。個別集合和文章可以有更嚴格的限制。"
+msgid ""
+"This sets the baseline access level for all KB content. Individual "
+"collections and articles can have stricter restrictions."
+msgstr ""
+"這設定了所有知識庫內容的基本存取層級。個別集合和文章可以有更嚴格的限制。"
 
 #: includes/Controllers/AdminSettings.php
 msgid "Access Denied Message"
 msgstr "存取拒絕訊息"
 
 #: includes/Controllers/AdminSettings.php
-msgid "Message displayed to users who do not have access to restricted content."
+msgid ""
+"Message displayed to users who do not have access to restricted content."
 msgstr "顯示給無法存取受限內容的使用者的訊息。"
 
 #: includes/Controllers/AdminSettings.php
@@ -694,7 +728,9 @@ msgid "Show article excerpt/teaser for restricted content"
 msgstr "為受限內容顯示文章摘要/預覽"
 
 #: includes/Controllers/AdminSettings.php
-msgid "When enabled, restricted articles will show a teaser before the access denied message."
+msgid ""
+"When enabled, restricted articles will show a teaser before the access "
+"denied message."
 msgstr "啟用後，受限文章會在存取拒絕訊息之前顯示預覽。"
 
 #. Access Control - Vue Components i18n

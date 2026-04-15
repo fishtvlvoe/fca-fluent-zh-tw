@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: fchub-wishlist\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-16 04:38+0000\n"
-"PO-Revision-Date: 2026-04-16 04:38+0800\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: \n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
@@ -14,15 +14,17 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: auto-translate.py (polib)\n"
 
-#: fchub-wishlist.php fchub-wishlist.php
+#: fchub-wishlist.php
 msgid "FCHub Wishlist requires FluentCart to be installed and activated."
 msgstr "FCHub Wishlist 需要 FluentCart 已安裝並啟用。"
 
-#: fchub-wishlist.php fchub-wishlist.php
+#: fchub-wishlist.php
 msgid ""
-"FCHub Wishlist is running without FluentCRM. Wishlist automation and contact"
-" sync features are disabled until FluentCRM is activated."
-msgstr "FCHub Wishlist 未偵測到 FluentCRM。願望清單自動化與聯絡人同步功能已停用，請啟用 FluentCRM。"
+"FCHub Wishlist is running without FluentCRM. Wishlist automation and contact "
+"sync features are disabled until FluentCRM is activated."
+msgstr ""
+"FCHub Wishlist 未偵測到 FluentCRM。願望清單自動化與聯絡人同步功能已停用，請啟"
+"用 FluentCRM。"
 
 #: app/Bootstrap/Modules/FluentCrmModule.php app/GDPR/PersonalDataHandler.php
 #: app/Support/AdminMenu.php app/FluentCRM/Filters/WishlistFilters.php
@@ -36,14 +38,12 @@ msgid "Has Wishlist Items"
 msgstr "有願望清單項目"
 
 #: app/Bootstrap/Modules/FluentCrmModule.php
-#: app/Integration/WishlistSettings.php app/Integration/WishlistSettings.php
-#: app/Integration/WishlistSettings.php app/Integration/WishlistSettings.php
+#: app/Integration/WishlistSettings.php
 msgid "Yes"
 msgstr "是"
 
 #: app/Bootstrap/Modules/FluentCrmModule.php
-#: app/Integration/WishlistSettings.php app/Integration/WishlistSettings.php
-#: app/Integration/WishlistSettings.php app/Integration/WishlistSettings.php
+#: app/Integration/WishlistSettings.php
 msgid "No"
 msgstr "否"
 
@@ -71,7 +71,6 @@ msgstr "我的願望清單"
 #: app/Frontend/Hooks/ProductCardHeartHook.php
 #: app/Frontend/Hooks/SingleProductButtonHook.php
 #: app/Frontend/Assets/ScriptData.php
-#: app/FluentCRM/Actions/AddToWishlistAction.php
 #: app/FluentCRM/Actions/AddToWishlistAction.php
 msgid "Add to Wishlist"
 msgstr "加入願望清單"
@@ -171,7 +170,7 @@ msgid ""
 "integration, and customer portal."
 msgstr "FluentCart 的願望清單功能，支援訪客、FluentCRM 整合與客戶入口。"
 
-#: app/GDPR/PersonalDataHandler.php app/GDPR/PersonalDataHandler.php
+#: app/GDPR/PersonalDataHandler.php
 msgid "FCHub Wishlist Data"
 msgstr "FCHub 願望清單資料"
 
@@ -217,15 +216,9 @@ msgid "Settings saved."
 msgstr "設定已儲存。"
 
 #: app/Http/Controllers/Pub/ItemsController.php
-#: app/Http/Controllers/Pub/ItemsController.php
-#: app/Http/Controllers/Pub/ItemsController.php
-#: app/Http/Controllers/Pub/ItemsController.php
 msgid "Guest wishlists are disabled. Please sign in to manage your wishlist."
 msgstr "訪客願望清單已停用。請登入以管理您的願望清單。"
 
-#: app/Http/Controllers/Pub/ItemsController.php
-#: app/Http/Controllers/Pub/ItemsController.php
-#: app/Http/Controllers/Pub/ItemsController.php
 #: app/Http/Controllers/Pub/ItemsController.php
 msgid "Wishlist not found."
 msgstr "找不到願望清單。"
@@ -237,8 +230,7 @@ msgstr "願望清單目前停用中。"
 
 #: app/Http/Controllers/Pub/WishlistMutationGuard.php
 msgid ""
-"Too many wishlist creation attempts. Please wait a few minutes and try "
-"again."
+"Too many wishlist creation attempts. Please wait a few minutes and try again."
 msgstr "建立願望清單嘗試次數過多。請稍候幾分鐘後再試。"
 
 #: app/Http/Controllers/Pub/CartController.php
@@ -254,11 +246,9 @@ msgid "Check if the contact has items in their wishlist"
 msgstr "檢查聯絡人是否有願望清單項目"
 
 #: app/FluentCRM/Triggers/ItemAddedTrigger.php
-#: app/FluentCRM/Triggers/ItemAddedTrigger.php
 msgid "Item Added to Wishlist"
 msgstr "項目已加入願望清單"
 
-#: app/FluentCRM/Triggers/ItemAddedTrigger.php
 #: app/FluentCRM/Triggers/ItemAddedTrigger.php
 msgid "This will start when an item is added to a wishlist"
 msgstr "當項目加入願望清單時觸發"
@@ -323,11 +313,9 @@ msgid ""
 msgstr "啟用後，即使聯絡人已在此自動化流程中，也會重新啟動"
 
 #: app/FluentCRM/Triggers/ItemRemovedTrigger.php
-#: app/FluentCRM/Triggers/ItemRemovedTrigger.php
 msgid "Item Removed from Wishlist"
 msgstr "項目已從願望清單移除"
 
-#: app/FluentCRM/Triggers/ItemRemovedTrigger.php
 #: app/FluentCRM/Triggers/ItemRemovedTrigger.php
 msgid "This will start when an item is removed from a wishlist"
 msgstr "當項目從願望清單移除時觸發"
@@ -361,7 +349,6 @@ msgid "Showing 20 of %d items"
 msgstr "顯示 %d 個項目中的 20 個"
 
 #: app/FluentCRM/Actions/AddToWishlistAction.php
-#: app/FluentCRM/Actions/AddToWishlistAction.php
 msgid "Add a product to the contact's wishlist"
 msgstr "將商品加入聯絡人的願望清單"
 
@@ -385,17 +372,15 @@ msgstr "您在 {site_name} 的願望清單中有等待中的項目"
 msgid "(Unknown product)"
 msgstr "（未知商品）"
 
-#: app/Email/WishlistReminderEmail.php app/Email/WishlistReminderEmail.php
+#: app/Email/WishlistReminderEmail.php
 msgid "...and %d more items"
 msgstr "...還有 %d 個項目"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Your wishlist is empty"
 msgstr "您的願望清單是空的"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Browse our products and add your favourites here."
 msgstr "瀏覽我們的商品，將喜愛的商品加入此處。"
 
@@ -403,33 +388,27 @@ msgstr "瀏覽我們的商品，將喜愛的商品加入此處。"
 msgid "My Wishlist (%d)"
 msgstr "我的願望清單 (%d)"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Add All to Cart"
 msgstr "全部加入購物車"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Add to Cart"
 msgstr "加入購物車"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Unavailable"
 msgstr "無法購買"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Remove from wishlist"
 msgstr "從願望清單移除"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Wishlist pagination"
 msgstr "願望清單分頁"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Previous"
 msgstr "上一頁"
 
@@ -437,11 +416,10 @@ msgstr "上一頁"
 msgid "Page %1$d of %2$d"
 msgstr "第 %1$d 頁，共 %2$d 頁"
 
-#: views/customer-portal.php views/customer-portal.php views/wishlist-page.php
-#: views/wishlist-page.php
+#: views/customer-portal.php views/wishlist-page.php
 msgid "Next"
 msgstr "下一頁"
 
-#: views/counter-badge.php views/counter-badge.php
+#: views/counter-badge.php
 msgid "Wishlist items"
 msgstr "願望清單項目"

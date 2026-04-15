@@ -1,155 +1,134 @@
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: FCE Shortcodes\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-05 19:03+0000\n"
-"PO-Revision-Date: 2025-12-05 19:03+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: fish yu\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Domain: fce-shortcodes\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
-"X-Domain: fce-shortcodes"
 
-#: templates/course-search.php:161
-msgid "%d Lesson"
-msgid_plural "%d Lessons"
-msgstr[0] "%d 課程"
+#: templates/community-stat.php
+msgid "Total registered members in the community"
+msgstr "社區註冊成員總數"
 
-#. Author of the plugin
-msgid "Acamedia"
-msgstr "學術媒體"
+#: templates/community-stat.php
+msgid "Total users enrolled in this course"
+msgstr "本課程註冊使用者總數"
 
-#: templates/course-search.php:67
-msgid "All Categories"
-msgstr "所有類別"
+#: templates/community-stat.php
+msgid "Total enrollments across all courses"
+msgstr "所有課程的總報名人數"
 
-#: templates/course-search.php:80
-msgid "All Instructors"
-msgstr "所有講師"
+#: templates/community-stat.php
+msgid "Total posts in the community"
+msgstr "社群貼文總數"
 
-#: templates/community-stat.php:109
-msgid "Comments created in the last month"
-msgstr "上個月發表的評論"
+#: templates/community-stat.php
+msgid "Total comments in the community"
+msgstr "社區評論總數"
 
-#: templates/community-stat.php:106
-msgid "Comments created in the last week"
-msgstr "上週發表的評論"
+#: templates/community-stat.php
+msgid "Total courses available"
+msgstr "課程總數"
 
-#: templates/community-stat.php:103
+#: templates/community-stat.php
+msgid "Posts created today"
+msgstr "今天發布的貼文"
+
+#: templates/community-stat.php
+msgid "Posts created in the last week"
+msgstr "上週發布的貼文"
+
+#: templates/community-stat.php
+msgid "Posts created in the last month"
+msgstr "上個月發布的貼文"
+
+#: templates/community-stat.php
 msgid "Comments created today"
 msgstr "今天建立的評論"
 
-#: templates/course-search.php:57
-msgid "Course Catalog"
-msgstr "課程目錄"
+#: templates/community-stat.php
+msgid "Comments created in the last week"
+msgstr "上週發表的評論"
 
-#. Name of the plugin
-msgid "FCE Shortcodes"
-msgstr "FCE 短代碼"
+#: templates/community-stat.php
+msgid "Comments created in the last month"
+msgstr "上個月發表的評論"
 
-#. Author URI of the plugin
-msgid "https://acamedia.uk"
-msgstr "https://acamedia.uk"
+#: templates/community-stat.php
+msgid "Users active today"
+msgstr "今天活躍使用者"
 
-#: templates/course-search.php:94
-msgid "Newest First"
-msgstr "最新優先"
+#: templates/community-stat.php
+msgid "Users active in the last week"
+msgstr "過去一週活躍使用者"
 
-#: templates/course-search.php:195
-msgid "Next"
-msgstr "下一個"
+#: templates/community-stat.php
+msgid "Users active in the last month"
+msgstr "上個月活躍使用者"
 
-#: templates/course-search.php:104
-msgid "No courses found."
-msgstr "找不到課程。"
+#: templates/community-stat.php
+msgid "Total active users"
+msgstr "活躍使用者總數"
 
-#: templates/course-search.php:95
-msgid "Oldest First"
-msgstr "最早的在前"
+#: templates/community-stat.php
+msgid "Percentage of enrolled users who completed the course"
+msgstr "完成課程的註冊使用者百分比"
 
-#: templates/course-search.php:194
+#: templates/course-search.php
 #, php-format
 msgid "Page %1$d of %2$d"
 msgstr "第 %1$d 頁，共 %2$d 頁"
 
-#: templates/community-stat.php:131
-msgid "Percentage of enrolled users who completed the course"
-msgstr "完成課程的註冊使用者百分比"
+#: templates/course-search.php
+msgid "Course Catalog"
+msgstr "課程目錄"
 
-#: templates/community-stat.php:94
-msgid "Posts created in the last month"
-msgstr "上個月發布的貼文"
-
-#: templates/community-stat.php:91
-msgid "Posts created in the last week"
-msgstr "上週發布的貼文"
-
-#: templates/community-stat.php:88
-msgid "Posts created today"
-msgstr "今天發布的貼文"
-
-#: templates/course-search.php:193
-msgid "Previous"
-msgstr "以前的"
-
-#: templates/course-search.php:61
+#: templates/course-search.php
 msgid "Search courses..."
 msgstr "搜尋課程…"
 
-#. Description of the plugin
-msgid ""
-"Shortcodes for Fluent Community content to be used anywhere in WordPress"
-msgstr "用於 Fluent Community 內容的短代碼，可在 WordPress 的任何位置使用"
+#: templates/course-search.php
+msgid "All Categories"
+msgstr "所有類別"
 
-#: templates/course-search.php:92
+#: templates/course-search.php
+msgid "All Instructors"
+msgstr "所有講師"
+
+#: templates/course-search.php
 msgid "Title (A-Z)"
 msgstr "標題（A-Z）"
 
-#: templates/course-search.php:93
+#: templates/course-search.php
 msgid "Title (Z-A)"
 msgstr "標題（Z-A）"
 
-#: templates/community-stat.php:127
-msgid "Total active users"
-msgstr "活躍使用者總數"
+#: templates/course-search.php
+msgid "Newest First"
+msgstr "最新優先"
 
-#: templates/community-stat.php:80 templates/community-stat.php:112
-msgid "Total comments in the community"
-msgstr "社區評論總數"
+#: templates/course-search.php
+msgid "Oldest First"
+msgstr "最早的在前"
 
-#: templates/community-stat.php:83
-msgid "Total courses available"
-msgstr "課程總數"
+#: templates/course-search.php
+msgid "No courses found."
+msgstr "找不到課程。"
 
-#: templates/community-stat.php:73
-msgid "Total enrollments across all courses"
-msgstr "所有課程的總報名人數"
+#: templates/course-search.php
+msgid "Previous"
+msgstr "以前的"
 
-#: templates/community-stat.php:77 templates/community-stat.php:97
-msgid "Total posts in the community"
-msgstr "社群貼文總數"
-
-#: templates/community-stat.php:67
-msgid "Total registered members in the community"
-msgstr "社區註冊成員總數"
-
-#: templates/community-stat.php:71
-msgid "Total users enrolled in this course"
-msgstr "本課程註冊使用者總數"
-
-#: templates/community-stat.php:124
-msgid "Users active in the last month"
-msgstr "上個月活躍使用者"
-
-#: templates/community-stat.php:121
-msgid "Users active in the last week"
-msgstr "過去一週活躍使用者"
-
-#: templates/community-stat.php:118
-msgid "Users active today"
-msgstr "今天活躍使用者"
+#: templates/course-search.php
+msgid "Next"
+msgstr "下一個"

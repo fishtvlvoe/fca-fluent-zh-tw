@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: FCA PWA 2.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-01 12:00+0000\n"
-"PO-Revision-Date: 2025-12-05 19:01+0000\n"
+"PO-Revision-Date: 2026-04-16 05:28+0800\n"
 "Last-Translator: fish yu\n"
 "Language-Team: 繁體中文\n"
 "Language: zh_TW\n"
@@ -15,531 +15,2018 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: auto-translate.py (polib)\n"
 "X-Loco-Version: 2.8.0; wp-6.9; php-8.3.8\n"
 
-#: views/admin-settings.php:146
-msgid "Any"
-msgstr "任何"
-
-#: views/admin-settings.php:90
-msgid "App Icon"
-msgstr "應用程式圖示"
-
-#: includes/class-pwa-install-prompt.php:120
-msgid "App Installed!"
-msgstr "應用程式已安裝！"
-
-#: views/admin-settings.php:60
-msgid "App Name"
-msgstr "應用程式名稱"
-
-#: includes/class-pwa-manifest.php:116
-msgid "App name is required"
-msgstr "應用程式名稱為必填項"
-
-#: includes/class-pwa-manifest.php:120
-msgid "App short name is required"
-msgstr "應用簡稱必填"
-
-#: views/offline.php:41
-msgid "Available Offline"
-msgstr "可離線使用"
-
-#: views/admin-settings.php:116
-msgid "Background Color"
-msgstr "背景顏色"
-
-#: views/admin-settings.php:120
-msgid "Background color for splash screen"
-msgstr "啟動畫面背景顏色"
-
-#: views/offline.php:45
-msgid "Basic navigation"
-msgstr "基本導航"
-
-#: views/admin-settings.php:42
-msgid "Basic PWA Settings"
-msgstr "基本 PWA 設定"
-
-#: views/admin-settings.php:84
-msgid "Brief description of your PWA"
-msgstr "簡單描述您的 PWA"
-
-#: views/admin-settings.php:133
-msgid "Browser"
-msgstr "瀏覽器"
-
-#: includes/class-pwa-core.php:311
-msgid "Cache clear instruction sent"
-msgstr "已發送清除快取指令"
-
-#: views/admin-settings.php:248
-msgid "Cache First"
-msgstr "快取優先"
-
-#: views/admin-settings.php:257
-msgid "Cache Lifetime (seconds)"
-msgstr "快取生存期（秒）"
-
-#: views/offline.php:44
-msgid "Cached content"
-msgstr "快取內容"
-
-#: views/admin-settings.php:243
-msgid "Caching Strategy"
-msgstr "快取策略"
-
-#: views/admin-settings.php:366
-msgid "Clear Cache"
-msgstr "清除快取"
-
-#: includes/class-pwa-install-prompt.php:123
-msgid "Close"
-msgstr "關閉"
-
-#: views/admin-settings.php:372
-msgid "Configure basic PWA settings"
-msgstr "設定 PWA 基本設定"
-
-#: views/admin-settings.php:30
-msgid "Configure Push Notifications"
-msgstr "設定推播通知"
-
-#: views/admin-settings.php:182
-msgid "Custom Only"
-msgstr "僅自訂"
-
-#: views/admin-settings.php:281
-msgid "Customize Fluent Community mobile menu"
-msgstr "自訂 Fluent Community 行動選單"
-
-#: views/admin-settings.php:373
-msgid "Customize install prompt behavior"
-msgstr "自訂安裝提示行為"
-
-#: views/admin-settings.php:375
-msgid "Customize mobile menu (optional)"
-msgstr "自訂行動端選單（可選）"
-
-#: views/admin-settings.php:206
-msgid "Delay (seconds)"
-msgstr "延遲（秒）"
-
-#: views/admin-settings.php:80
-msgid "Description"
-msgstr "描述"
-
-#: views/admin-settings.php:194
-msgid "Desktop"
-msgstr "桌面"
-
-#: views/admin-settings.php:126
-msgid "Display Mode"
-msgstr "顯示模式"
-
-#: views/admin-settings.php:370
-msgid "Documentation"
-msgstr "文件"
-
-#: views/admin-settings.php:291
-msgid "Drag to reorder menu items. Uncheck to hide items."
-msgstr "拖曳即可重新排列選單項目。取消選取即可隱藏選單項目。"
-
-#: views/admin-settings.php:273
-msgid "Enable Customization"
-msgstr "啟用自訂"
-
-#: views/admin-settings.php:54
-msgid "Enable Progressive Web App functionality for Fluent Community"
-msgstr "為 Fluent Community 啟用漸進式 Web 應用功能"
-
-#: views/admin-settings.php:47
-msgid "Enable PWA"
-msgstr "啟用 PWA"
-
-#: views/admin-settings.php:29
-msgid ""
-"FCA Push Notifications plugin is active. Push notification handlers will be "
-"automatically integrated with your PWA service worker."
-msgstr "FCA 推播通知外掛已啟用。推播通知處理程式將自動整合到您的 PWA Service Worker 中。"
-
-#: includes/class-pwa-core.php:203
+#: fca-pwa.php includes/class-pwa-core.php views/admin-settings.php
 msgid "FCA PWA"
 msgstr "FCA PWA"
 
-#: includes/class-pwa-activator.php:31
-msgid "FCA PWA requires Fluent Community to be installed and activated."
-msgstr "FCA PWA 需要安裝並啟動 Fluent Community。"
+#: fca-pwa.php
+msgid "This plugin requires Fluent Community to be installed and activated."
+msgstr ""
 
-#: includes/class-pwa-activator.php:37
+#: includes/class-pwa-utils.php
+msgid "Add to Home Screen"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Tap the Share button"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Scroll down and tap Add to Home Screen"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Tap Add to install"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "The app will appear on your home screen just like a regular app."
+msgstr ""
+
+#: includes/class-pwa-utils.php includes/class-pwa-install-header.php
+msgid "Install %s"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Add to your device"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Open the browser menu"
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Look for \"Install app\" or \"Add to Home Screen\""
+msgstr ""
+
+#: includes/class-pwa-utils.php
+msgid "Follow the prompts to install"
+msgstr ""
+
+#: includes/class-pwa-utils.php
 msgid ""
-"FCA PWA requires HTTPS to be enabled. PWA features only work on secure "
-"connections."
-msgstr "FCA PWA 需要啟用 HTTPS。PWA 功能僅在安全連線下運作。"
+"Note: This feature may not be available in all browsers. For best results, "
+"use Chrome, Edge, or Safari."
+msgstr ""
 
-#: includes/class-pwa-activator.php:25
-msgid "FCA PWA requires PHP 7.4 or higher."
-msgstr "FCA PWA 需要 PHP 7.4 或更高版本。"
+#: includes/class-pwa-utils.php includes/class-pwa-install-prompt.php
+msgid "App Installed!"
+msgstr "應用程式已安裝！"
 
-#: includes/class-pwa-activator.php:19
-msgid "FCA PWA requires WordPress 5.8 or higher."
-msgstr "FCA PWA 需要 WordPress 5.8 或更高版本。"
+#: includes/class-pwa-utils.php
+msgid "Open the app to enable notifications."
+msgstr ""
 
-#: includes/class-pwa-core.php:202
-msgid "FCA PWA Settings"
-msgstr "FCA PWA 設定"
+#: includes/class-pwa-utils.php
+msgid "You are back online — refreshing..."
+msgstr ""
 
-#: views/admin-settings.php:338
-msgid "File Status"
-msgstr "文件狀態"
+#: includes/class-pwa-utils.php
+msgid "You are offline"
+msgstr ""
 
-#: views/admin-settings.php:131
-msgid "Fullscreen"
-msgstr "全螢幕"
+#: includes/class-pwa-utils.php
+msgid "A new version of this app is available."
+msgstr ""
 
-#: views/admin-settings.php:357
-msgid "Generate Manifest"
-msgstr "產生清單"
+#: includes/class-pwa-utils.php
+msgid "Update Now"
+msgstr ""
 
-#: views/admin-settings.php:358
-msgid "Generate Service Worker"
-msgstr "產生 Service Worker"
+#: includes/class-pwa-utils.php
+msgid "Updating..."
+msgstr ""
 
-#: views/admin-settings.php:353
-msgid "Generated"
-msgstr "產生"
+#: includes/class-pwa-utils.php
+msgid "Update complete!"
+msgstr ""
 
-#: includes/class-pwa-install-prompt.php:69
-msgid "Get a better experience with our app"
-msgstr "使用我們的應用程式，獲得更好的體驗。"
+#: includes/class-pwa-utils.php
+msgid "Link copied to clipboard"
+msgstr ""
 
-#: views/admin-settings.php:315
-msgid "Hide"
-msgstr "隱藏"
+#: includes/class-pwa-utils.php
+msgid "Cache cleared successfully — refreshing..."
+msgstr ""
 
-#: views/admin-settings.php:295
-msgid "Home"
-msgstr "首頁"
+#: includes/class-pwa-utils.php
+msgid "Service worker not available"
+msgstr ""
 
-#: views/admin-settings.php:261
-msgid "How long to keep cached content (86400 = 24 hours)"
-msgstr "快取內容保留多久（86400 = 24 小時）"
+#: includes/class-pwa-utils.php includes/class-pwa-install-prompt.php
+msgid "Close"
+msgstr "關閉"
 
-#: views/admin-settings.php:136
-msgid "How the PWA should be displayed"
-msgstr "PWA 的顯示方式"
-
-#: views/admin-settings.php:251
-msgid "How to handle caching for Fluent Community content"
-msgstr "如何處理 Fluent Community 內容的快取"
-
-#: views/admin-settings.php:185
-msgid "How to show the install prompt"
-msgstr "如何顯示安裝提示"
-
-#: views/admin-settings.php:21
-msgid "HTTPS Required"
-msgstr "需要使用 HTTPS"
-
-#: views/admin-settings.php:180
-msgid "Hybrid (Native + Custom)"
-msgstr "混合型（原生+自訂）"
-
-#: includes/class-pwa-install-prompt.php:77
-msgid "Install"
-msgstr "安裝"
-
-#: includes/class-pwa-install-prompt.php:66
-msgid "Install App"
-msgstr "安裝應用"
-
-#: includes/class-pwa-install-prompt.php:90
-msgid "Install on iOS"
-msgstr "在 iOS 上安裝"
-
-#: includes/class-pwa-install-prompt.php:172
-msgid "Install prompt dismissed"
-msgstr "安裝提示已關閉"
-
-#: views/admin-settings.php:158
-msgid "Install Prompt Settings"
-msgstr "安裝提示設定"
-
-#: views/admin-settings.php:36
-msgid ""
-"Install the FCA Push Notifications plugin to add push notification support "
-"to your PWA."
-msgstr "安裝 FCA 推播通知外掛，為您的 PWA 新增推播通知支援。"
-
-#: includes/class-pwa-install-prompt.php:208
-msgid "Installation tracked"
-msgstr "安裝追蹤"
-
-#: includes/class-pwa-manifest.php:136
-msgid "Invalid app icon URL"
-msgstr "無效的應用程式圖示 URL"
-
-#: includes/class-pwa-manifest.php:128
-msgid "Invalid background color format"
-msgstr "背景顏色格式無效"
-
-#: includes/class-pwa-manifest.php:142
-msgid "Invalid display mode"
-msgstr "無效的顯示模式"
-
-#: includes/class-pwa-manifest.php:152
-msgid "Invalid orientation setting"
-msgstr "方向設定無效"
-
-#: includes/class-pwa-manifest.php:132
-msgid "Invalid start URL"
-msgstr "無效的起始 URL"
-
-#: includes/class-pwa-manifest.php:124
-msgid "Invalid theme color format"
-msgstr "無效的主題顏色格式"
-
-#: views/offline.php:32
-msgid ""
-"It looks like you're not connected to the internet. Some features may not be"
-" available."
-msgstr "看起來您未連線到網際網路。部分功能可能無法使用。"
-
-#: views/admin-settings.php:148
-msgid "Landscape"
-msgstr "橫向"
-
-#: views/admin-settings.php:374
-msgid "Manage service worker caching"
-msgstr "管理 Service Worker 快取"
-
-#: includes/class-pwa-core.php:275
-msgid "Manifest generated successfully"
-msgstr "清單已成功生成"
-
-#: views/admin-settings.php:341
-msgid "Manifest:"
-msgstr "清單："
-
-#: views/admin-settings.php:287
-msgid "Menu Items"
-msgstr "選單項目"
-
-#: views/admin-settings.php:296
-msgid "Messages"
-msgstr "訊息"
-
-#: views/admin-settings.php:226
-msgid "Min Scroll (%)"
-msgstr "最小滾動(%)"
-
-#: views/admin-settings.php:216
-msgid "Min Time on Page (seconds)"
-msgstr "頁面停留最短時間（秒）"
-
-#: views/admin-settings.php:132
-msgid "Minimal UI"
-msgstr "極簡使用者介面"
-
-#: views/admin-settings.php:230
-msgid "Minimum page scroll percentage"
-msgstr "最小頁面滾動百分比"
-
-#: views/admin-settings.php:220
-msgid "Minimum seconds user must be on page"
-msgstr "使用者在頁面上停留的最短秒數"
-
-#: views/admin-settings.php:199
-msgid "Mobile"
-msgstr "行動裝置"
-
-#: views/admin-settings.php:268
-msgid "Mobile Menu Customization"
-msgstr "行動選單客製"
-
-#: views/admin-settings.php:181
-msgid "Native Only"
-msgstr "僅原生"
-
-#: views/admin-settings.php:247
-msgid "Network First"
-msgstr "網路優先"
-
-#: views/offline.php:38
-msgid "No internet connection detected"
-msgstr "未偵測到網路連接"
-
-#: views/admin-settings.php:355
-msgid "Not Found"
-msgstr "找不到"
-
-#: includes/class-pwa-install-prompt.php:80
+#: includes/class-pwa-utils.php includes/class-pwa-install-prompt.php
+#: includes/class-pwa-install-widget.php
 msgid "Not now"
 msgstr "現在不要"
 
-#: views/admin-settings.php:299
-msgid "Notifications"
-msgstr "通知"
+#: includes/class-pwa-utils.php includes/class-pwa-install-header.php
+msgid ""
+"To install this app:\\n\\n1. Open browser menu (⋮)\\n2. Select \\\"Install "
+"app\\\" or \\\"Add to Home Screen\\\""
+msgstr ""
 
-#: views/offline.php:6
+#: includes/class-pwa-utils.php views/offline.php
 msgid "Offline"
 msgstr "離線"
 
-#: views/admin-settings.php:35
-msgid "Optional: Add Push Notifications"
-msgstr "可選：新增推播通知"
+#: includes/class-pwa-utils.php
+msgid "Service Unavailable"
+msgstr ""
 
-#: views/admin-settings.php:142
-msgid "Orientation"
-msgstr "方向"
+#: includes/class-pwa-utils.php
+msgid "New notification"
+msgstr ""
 
-#: includes/class-pwa-core.php:321
-msgid "Permission denied"
-msgstr "沒有權限"
+#: includes/class-pwa-utils.php views/tabs/tab-manifest.php
+msgid "View"
+msgstr ""
 
-#: views/admin-settings.php:147
-msgid "Portrait"
-msgstr "直向"
+#: includes/class-pwa-utils.php
+msgid "Dismiss"
+msgstr ""
 
-#: views/admin-settings.php:151
-msgid "Preferred screen orientation"
-msgstr "首選螢幕方向"
+#: includes/class-pwa-utils.php
+msgid "Push Notification"
+msgstr ""
 
-#: views/offline.php:43
-msgid "Previously viewed pages"
-msgstr "之前瀏覽過的頁面"
+#: includes/class-pwa-activator.php
+msgid "FCA PWA requires WordPress 5.8 or higher."
+msgstr "FCA PWA 需要 WordPress 5.8 或更高版本。"
 
-#: views/admin-settings.php:110
-msgid "Primary color for the PWA interface"
-msgstr "PWA介面的主色調"
+#: includes/class-pwa-activator.php
+msgid "FCA PWA requires PHP 7.4 or higher."
+msgstr "FCA PWA 需要 PHP 7.4 或更高版本。"
 
-#: views/admin-settings.php:298
-msgid "Profile"
-msgstr "個人檔案"
+#: includes/class-pwa-activator.php
+msgid "FCA PWA requires Fluent Community to be installed and activated."
+msgstr "FCA PWA 需要安裝並啟動 Fluent Community。"
 
-#: views/admin-settings.php:176
-msgid "Prompt Strategy"
-msgstr "提示策略"
+#: includes/class-pwa-core.php
+msgid "FCA PWA Settings"
+msgstr "FCA PWA 設定"
 
-#: views/admin-settings.php:28
-msgid "Push Notifications Detected"
-msgstr "偵測到推播通知"
-
-#: views/admin-settings.php:22
-msgid ""
-"PWA features require HTTPS to be enabled. Please configure SSL/TLS on your "
-"server to use PWA functionality."
-msgstr "PWA 功能需要啟用 HTTPS。請在伺服器上設定 SSL/TLS 以使用 PWA 功能。"
-
-#: views/admin-settings.php:364
-msgid "Quick Actions"
-msgstr "快速操作"
-
-#: views/admin-settings.php:96
-msgid "Recommended: 512x512px PNG (defaults to site icon if not set)"
-msgstr "建議尺寸：512x512像素 PNG（如果未設定，則預設為網站圖示）"
-
-#: views/admin-settings.php:95
-msgid "Remove"
-msgstr "移除"
-
-#: views/admin-settings.php:331
-msgid "Save Settings"
-msgstr "儲存設定"
-
-#: includes/class-pwa-install-prompt.php:103
-msgid "Scroll and tap \"Add to Home Screen\""
-msgstr "向下捲動並點選“新增至主畫面”"
-
-#: views/admin-settings.php:210
-msgid "Seconds to wait before showing prompt"
-msgstr "顯示提示前需等待幾秒鐘"
-
-#: includes/class-pwa-core.php:293
-msgid "Service worker generated successfully"
-msgstr "Service Worker 已成功生成"
-
-#: views/admin-settings.php:238
-msgid "Service Worker Settings"
-msgstr "服務工作線程設定"
-
-#: views/admin-settings.php:350
-msgid "Service Worker:"
-msgstr "服務人員："
-
-#: views/admin-settings.php:300
-msgid "Settings"
-msgstr "設定"
-
-#: includes/class-pwa-core.php:329
-msgid "Settings saved"
-msgstr "設定已儲存"
-
-#: views/admin-settings.php:70
-msgid "Short Name"
-msgstr "簡稱"
-
-#: views/admin-settings.php:74
-msgid "Short name for home screen (12 characters max)"
-msgstr "主畫面簡稱（最多 12 個字元）"
-
-#: views/admin-settings.php:170
-msgid "Show a prompt to install the PWA"
-msgstr "顯示安裝 PWA 的提示"
-
-#: views/admin-settings.php:163
-msgid "Show Install Prompt"
-msgstr "顯示安裝提示"
-
-#: views/admin-settings.php:190
-msgid "Show On"
-msgstr "顯示於"
-
-#: views/admin-settings.php:297
-msgid "Spaces"
-msgstr "空格"
-
-#: views/admin-settings.php:130
-msgid "Standalone"
-msgstr "獨立版"
-
-#: includes/class-pwa-install-prompt.php:107
-msgid "Tap \"Add\" to install"
-msgstr "點選「新增」進行安裝"
-
-#: includes/class-pwa-install-prompt.php:99
-msgid "Tap the Share button in Safari"
-msgstr "在 Safari 瀏覽器中點選「分享」按鈕。"
-
-#: views/admin-settings.php:365
-msgid "Test PWA Configuration"
-msgstr "測試 PWA 設定"
-
-#: views/admin-settings.php:64
-msgid "The name of your PWA as it appears to users"
-msgstr "您的 PWA 對使用者顯示的名稱"
-
-#: views/admin-settings.php:106
-msgid "Theme Color"
-msgstr "主題顏色"
-
-#: views/offline.php:35
-msgid "Try Again"
-msgstr "重試"
-
-#: views/admin-settings.php:94
-msgid "Upload Icon"
-msgstr "上傳圖示"
-
-#: includes/class-pwa-install-prompt.php:121
-msgid "You can now use the app from your home screen"
-msgstr "現在您可以從主畫面使用該應用程式。"
-
-#: includes/class-pwa-core.php:255
+#: includes/class-pwa-core.php includes/class-pwa-analytics.php
 msgid "You do not have sufficient permissions to access this page."
 msgstr "您沒有足夠的權限來存取此頁面。"
 
-#: views/offline.php:30
+#: includes/class-pwa-core.php
+msgid "Permission denied"
+msgstr "沒有權限"
+
+#: includes/class-pwa-core.php
+msgid "Manifest generated successfully"
+msgstr "清單已成功生成"
+
+#: includes/class-pwa-core.php
+msgid "Service worker generated successfully"
+msgstr "Service Worker 已成功生成"
+
+#: includes/class-pwa-core.php
+msgid "Cache clear instruction sent"
+msgstr "已發送清除快取指令"
+
+#: includes/class-pwa-core.php
+msgid "Plugin has been reset to default settings. The page will reload."
+msgstr ""
+
+#: includes/class-pwa-core.php
+msgid "User not logged in"
+msgstr ""
+
+#: includes/class-pwa-core.php
+msgid ""
+"Install prompt status has been reset. Visit the community portal to test the "
+"widget and popups."
+msgstr ""
+
+#: includes/class-pwa-core.php
+msgid "Icon sizes regenerated: %d successful, %d failed"
+msgstr ""
+
+#: includes/class-pwa-install-prompt.php views/tabs/tab-install.php
+msgid "Install %s for a better experience"
+msgstr ""
+
+#: includes/class-pwa-install-prompt.php includes/class-pwa-install-widget.php
+#: views/tabs/tab-install.php
+msgid "Install"
+msgstr "安裝"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Install prompt dismissed"
+msgstr "安裝提示已關閉"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Widget dismissed"
+msgstr ""
+
+#: includes/class-pwa-install-prompt.php
+msgid "Installation tracked"
+msgstr "安裝追蹤"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Progressive Web App"
+msgstr ""
+
+#: includes/class-pwa-install-prompt.php
+msgid "Install on iOS"
+msgstr "在 iOS 上安裝"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Tap the Share button in Safari"
+msgstr "在 Safari 瀏覽器中點選「分享」按鈕。"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Scroll and tap \"Add to Home Screen\""
+msgstr "向下捲動並點選“新增至主畫面”"
+
+#: includes/class-pwa-install-prompt.php
+msgid "Tap \"Add\" to install"
+msgstr "點選「新增」進行安裝"
+
+#: includes/class-pwa-install-prompt.php
+msgid "You can now use the app from your home screen"
+msgstr "現在您可以從主畫面使用該應用程式。"
+
+#: includes/class-pwa-manifest.php
+msgid "Failed to write manifest file"
+msgstr ""
+
+#: includes/class-pwa-manifest.php
+msgid "App name is required"
+msgstr "應用程式名稱為必填項"
+
+#: includes/class-pwa-manifest.php
+msgid "App short name is required"
+msgstr "應用簡稱必填"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid theme color format"
+msgstr "無效的主題顏色格式"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid background color format"
+msgstr "背景顏色格式無效"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid start URL"
+msgstr "無效的起始 URL"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid app icon URL"
+msgstr "無效的應用程式圖示 URL"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid display mode"
+msgstr "無效的顯示模式"
+
+#: includes/class-pwa-manifest.php
+msgid "Invalid orientation setting"
+msgstr "方向設定無效"
+
+#: includes/class-pwa-manifest.php
+msgid "Icon file not found"
+msgstr ""
+
+#: includes/class-pwa-manifest.php views/offline.php
+#: views/tabs/tab-manifest.php
+msgid "Home"
+msgstr "首頁"
+
+#: includes/class-pwa-manifest.php views/tabs/tab-manifest.php
+#: views/tabs/tab-general.php
+msgid "Messages"
+msgstr "訊息"
+
+#: includes/class-pwa-manifest.php
+msgid "Icon must be a valid image file (PNG, JPEG, GIF, or WebP)"
+msgstr ""
+
+#: includes/class-pwa-manifest.php
+msgid "Failed to generate any icon sizes"
+msgstr ""
+
+#: includes/class-pwa-manifest.php
+msgid "No app icon set"
+msgstr ""
+
+#: includes/class-pwa-manifest.php
+msgid "Icon is not a WordPress media library attachment"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "Event type is required"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "Event tracked"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "Failed to track event"
+msgstr ""
+
+#: includes/class-pwa-analytics.php views/tabs/tab-analytics.php
+msgid "PWA Analytics"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "7 Days"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "30 Days"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "90 Days"
+msgstr ""
+
+#: includes/class-pwa-analytics.php views/tabs/tab-analytics.php
+msgid "Total Events"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid "Installs"
+msgstr ""
+
+#: includes/class-pwa-analytics.php views/tabs/tab-analytics.php
+msgid "Unique Users"
+msgstr ""
+
+#: includes/class-pwa-analytics.php views/tabs/tab-analytics.php
+msgid "Conversion Rate"
+msgstr ""
+
+#: includes/class-pwa-analytics.php views/tabs/tab-analytics.php
+msgid "Events by Type"
+msgstr ""
+
+#: includes/class-pwa-analytics.php
+msgid ""
+"No analytics data available yet. Events will appear here once users interact "
+"with your PWA."
+msgstr ""
+
+#: includes/class-pwa-service-worker.php
+msgid "Failed to write service worker file"
+msgstr ""
+
+#: includes/class-pwa-install-widget.php views/tabs/tab-install.php
+msgid "Install App"
+msgstr "安裝應用"
+
+#: includes/class-pwa-install-widget.php
+msgid "Get the full %s experience!"
+msgstr ""
+
+#: views/offline.php views/tabs/tab-advanced.php
 msgid "You're Offline"
 msgstr "您目前離線"
+
+#: views/offline.php views/tabs/tab-advanced.php
+msgid ""
+"It looks like you're not connected to the internet. Some features may not be "
+"available."
+msgstr "看起來您未連線到網際網路。部分功能可能無法使用。"
+
+#: views/offline.php
+msgid "Try Again"
+msgstr "重試"
+
+#: views/offline.php
+msgid "No internet connection detected"
+msgstr "未偵測到網路連接"
+
+#: views/offline.php
+msgid "Available Offline"
+msgstr "可離線使用"
+
+#: views/offline.php
+msgid "Connection restored!"
+msgstr ""
+
+#: views/offline.php
+msgid "Go to App"
+msgstr ""
+
+#: views/offline.php
+msgid "Checking..."
+msgstr ""
+
+#: views/admin-settings.php
+msgid "General"
+msgstr ""
+
+#: views/admin-settings.php views/tabs/tab-diagnostics.php
+msgid "Manifest"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Install Prompt"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Advanced"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Analytics"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Diagnostics"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Active"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Inactive"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Save Changes"
+msgstr ""
+
+#: views/admin-settings.php
+msgid "Progressive Web App for Fluent Community"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "App Shortcuts"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid ""
+"Shortcuts allow users to quickly access specific parts of your app from the "
+"home screen icon menu."
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Name"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "e.g. Messages"
+msgstr ""
+
+#: views/tabs/tab-manifest.php views/tabs/tab-diagnostics.php
+msgid "URL"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Icon URL (Optional)"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Choose"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "+ Add Shortcut"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "App Screenshots"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid ""
+"Adding screenshots helps browsers show a richer install prompt to your users."
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Wide (Desktop)"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Narrow (Mobile)"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "+ Add Screenshot"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "App Categories"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Select categories that best describe your community."
+msgstr ""
+
+#: views/tabs/tab-manifest.php views/tabs/tab-advanced.php
+msgid "Maintenance"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Regenerate PWA files after making changes to settings."
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Regenerate Manifest"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Regenerate Service Worker"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Manifest:"
+msgstr "清單："
+
+#: views/tabs/tab-manifest.php
+msgid "Generated"
+msgstr "產生"
+
+#: views/tabs/tab-manifest.php views/tabs/tab-diagnostics.php
+msgid "Not generated"
+msgstr ""
+
+#: views/tabs/tab-manifest.php
+msgid "Service Worker:"
+msgstr "服務人員："
+
+#: views/tabs/tab-install.php
+msgid "Install Prompts"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Prompt users to install your app. Choose one or more methods below."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Enable Install Prompts"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Master switch for all install prompts"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Header Install Button"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid ""
+"Always-visible install icon in the portal header. Never dismissed, always "
+"available."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Show Header Button"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Adds a download icon next to the user menu in the header"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Sidebar Widget"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid ""
+"Widget shown in the community sidebar. Dismisses permanently when closed."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Enable Sidebar Widget"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Desktop only - sidebars are not visible on mobile"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Widget Position"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Before Activity Feed"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "After Activity Feed"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Choose where the widget appears relative to the activity feed widgets"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Floating Widget"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid ""
+"Fixed widget that floats in a corner. Great for mobile users. Dismisses "
+"permanently."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Enable Floating Widget"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Works on both desktop and mobile"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Position"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Bottom Right"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Bottom Left"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Widget Customization"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Customize the text for sidebar and floating widgets."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Title"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Button Text"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "CTA Message"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Get the full experience by installing our app!"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Persuasive message displayed in the widget"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Pop-up Prompt"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid ""
+"Banner or modal that appears after page load. Can be dismissed and re-shown "
+"after a set period."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Enable Pop-up Prompt"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Shows a banner or modal after page load"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Style"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Banner (Top)"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Fixed bar at the top"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Banner (Bottom)"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Fixed bar at the bottom"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Modal"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Centered dialog"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Timing"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Delay (seconds)"
+msgstr "延遲（秒）"
+
+#: views/tabs/tab-install.php
+msgid "Seconds before showing"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Show After Visits"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Visits before showing"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Re-show After (days)"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Days before re-showing if dismissed"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Content"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Message"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Use %s for app name"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Install Button"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Dismiss Button"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Colors"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Background"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Text"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Button Background"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Platform Targeting"
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Choose which devices show install prompts."
+msgstr ""
+
+#: views/tabs/tab-install.php
+msgid "Desktop"
+msgstr "桌面"
+
+#: views/tabs/tab-install.php
+msgid "Mobile"
+msgstr "行動裝置"
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Mobile Menu Customization"
+msgstr "行動選單客製"
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Drag items between Active and Available to customize your mobile menu"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Enable Custom Mobile Menu"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Customize and reorder the mobile menu items"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Active Menu Items"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid ""
+"These items appear in your mobile menu. Drag to reorder. Items are "
+"distributed evenly on either side of the center button when using Expandable "
+"Menu style."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "No active items. Drag items from Available to add them."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Available Presets"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid ""
+"Drag items here to remove them from the menu, or drag to Active to add them."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "All presets are active"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Menu Appearance"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Customize the look and feel of your mobile menu"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Menu Style"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Default (All items equal)"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Expandable Menu (Center button reveals sidebar)"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid ""
+"Expandable Menu: The center button (3-dot icon) appears in the middle of "
+"your menu. All other items are distributed evenly on either side. Tap the "
+"center button to expand the full sidebar menu."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid ""
+"Developers can register additional tray panels via the "
+"FcaPwaMobileMenu.content API."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Menu Height (px)"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Default: 80px. Increase for larger icons and more spacing."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Icon Style"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Default Icons"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Phosphor Icons (Modern)"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Phosphor Icons provides beautiful, modern SVG icons. "
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Preview icons"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Hide Quick Nav Section in Tray"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid ""
+"Hide the top quick navigation menu (Feed, Spaces, Courses, etc.) in the "
+"expandable tray to reduce duplication."
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Advanced Styling"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Add custom CSS to style your mobile menu"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Custom CSS"
+msgstr ""
+
+#: views/tabs/tab-mobile-menu.php
+msgid "Add custom CSS to further customize the mobile menu appearance"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Service Worker Configuration"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Configure how the service worker caches and handles resources."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Caching Strategy"
+msgstr "快取策略"
+
+#: views/tabs/tab-advanced.php
+msgid "Stale While Revalidate (Recommended)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Network First"
+msgstr "網路優先"
+
+#: views/tabs/tab-advanced.php
+msgid "Cache First"
+msgstr "快取優先"
+
+#: views/tabs/tab-advanced.php
+msgid "Stale While Revalidate:"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Serve cached content immediately while updating in background."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Network First:"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Try network first, fallback to cache if offline."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Cache First:"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Serve from cache, only fetch from network if not cached."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "API Cache Max Age"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "seconds"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "How long to cache API responses (5 minutes = 300 seconds)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Static Assets Cache Max Age"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "How long to cache static assets (24 hours = 86400 seconds)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Enable Navigation Preload"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Start network requests early for faster page loads"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Use Static File Serving"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid ""
+"Use static files instead of dynamic endpoints (enable if dynamic endpoints "
+"are blocked by your server/caching)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Precache Configuration"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Specify URLs to precache when the service worker installs."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "URLs to Precache"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "One URL per line. These pages will be cached for offline access."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Configuration"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Configure what happens when users are offline."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Page URL"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Page to show when user is offline (leave blank for default)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Fallback Image"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Choose Image"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Fallback image to show when images fail to load offline"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Page Title"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Custom title for the offline page (leave blank for default)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Page Message"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Custom message for the offline page (leave blank for default)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Offline Page Icon"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Emoji or character to display as the offline icon"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Custom Offline Page CSS"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid ""
+"Add custom CSS to style the offline page. This CSS will be added to the "
+"default styles."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Show Cached Pages List"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Display a list of available offline pages on the offline page"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Maximum Cached Items to Display"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Maximum number of cached pages to show in the offline list (1-50)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Developer Options"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Advanced options for developers and troubleshooting."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Debug Mode"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Enable detailed console logging for troubleshooting"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Custom Service Worker Code"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Add custom JavaScript code to the service worker (advanced users only)"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Tools for maintaining your PWA installation."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Clear All Cache"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Unregister Service Worker"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Reset Install Prompts"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid ""
+"Reset Install Prompts will clear your dismissal/installed status so you can "
+"test the install widget and popups again."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Danger Zone"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Reset Plugin to Defaults"
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid ""
+"This will delete all plugin settings and generated files. The plugin will be "
+"reset to a fresh installation state. This action cannot be undone."
+msgstr ""
+
+#: views/tabs/tab-advanced.php
+msgid "Reset Plugin"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Basic Configuration"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Configure the basic settings for your Progressive Web App"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Setup Progress"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Enable PWA functionality"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Set App Name"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Upload App Icon"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Generate Manifest File"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Go to Manifest tab"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Generate Service Worker"
+msgstr "產生 Service Worker"
+
+#: views/tabs/tab-general.php
+msgid "Enable PWA"
+msgstr "啟用 PWA"
+
+#: views/tabs/tab-general.php
+msgid "Enable Progressive Web App functionality for your community"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "App Name"
+msgstr "應用程式名稱"
+
+#: views/tabs/tab-general.php
+msgid "The full name of your app as it appears to users"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Short Name"
+msgstr "簡稱"
+
+#: views/tabs/tab-general.php
+msgid "Short name for home screen (12 characters max)"
+msgstr "主畫面簡稱（最多 12 個字元）"
+
+#: views/tabs/tab-general.php
+msgid "Description"
+msgstr "描述"
+
+#: views/tabs/tab-general.php
+msgid "Brief description of your app"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "App Icon (Home Screen)"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Choose Icon"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Regenerate Sizes"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid ""
+"This icon appears on the home screen when users install the PWA. 512x512 PNG "
+"recommended. Defaults to site icon if not set."
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid ""
+"Click \"Regenerate Sizes\" to create optimized versions (72px, 96px, 128px, "
+"144px, 152px, 192px, 384px, 512px) from your uploaded icon."
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid ""
+"Note: For the notification tray icon, go to Push Notifications → Settings."
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "PWA Start Page"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Community Home"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Spaces"
+msgstr "空格"
+
+#: views/tabs/tab-general.php
+msgid "My Profile"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Custom URL"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid ""
+"Choose which page opens when users launch the PWA from their home screen. "
+"This does not affect push notification navigation."
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Theme Color"
+msgstr "主題顏色"
+
+#: views/tabs/tab-general.php
+msgid "Primary color for browser UI"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Background Color"
+msgstr "背景顏色"
+
+#: views/tabs/tab-general.php
+msgid "Background color while loading"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Display Mode"
+msgstr "顯示模式"
+
+#: views/tabs/tab-general.php
+msgid "Standalone"
+msgstr "獨立版"
+
+#: views/tabs/tab-general.php
+msgid "Fullscreen"
+msgstr "全螢幕"
+
+#: views/tabs/tab-general.php
+msgid "Minimal UI"
+msgstr "極簡使用者介面"
+
+#: views/tabs/tab-general.php
+msgid "Browser"
+msgstr "瀏覽器"
+
+#: views/tabs/tab-general.php
+msgid "How the app appears when launched"
+msgstr ""
+
+#: views/tabs/tab-general.php
+msgid "Orientation"
+msgstr "方向"
+
+#: views/tabs/tab-general.php
+msgid "Any"
+msgstr "任何"
+
+#: views/tabs/tab-general.php
+msgid "Portrait"
+msgstr "直向"
+
+#: views/tabs/tab-general.php
+msgid "Landscape"
+msgstr "橫向"
+
+#: views/tabs/tab-general.php
+msgid "Default screen orientation"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Expected: %s"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Total template_redirect hooks: %d"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Yes"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "No"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service worker endpoint returning wrong content type"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"The service worker endpoint is returning HTML instead of JavaScript. This "
+"prevents PWA from working."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Manifest endpoint returning wrong content type"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "The manifest endpoint is not working properly."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Settings not found"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Deactivate and reactivate the plugin to initialize settings."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "PWA is disabled"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Go to General tab and enable PWA."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Required files not generated"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Go to Manifest tab and click \"Regenerate Manifest\" and \"Regenerate "
+"Service Worker\"."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Fluent Community not found"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Install and activate Fluent Community plugin."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Hooks not registered"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"This is critical - hooks are not registered. Try deactivating and "
+"reactivating the plugin."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "✓ Permalinks flushed successfully!"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "The diagnostic tests below have been refreshed."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "🔴 Critical: Endpoint Tests"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Testing dynamic endpoints with actual HTTP requests to identify MIME type "
+"issues..."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service Worker Endpoint"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Property"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Value"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Status"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "HTTP Status Code"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Content-Type"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Response Size"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Error"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Response Preview"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Manifest Endpoint"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Offline Page Endpoint"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Hook Registration"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Verifying PWA hooks are registered on template_redirect..."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Hook Function"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Priority"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"✗ No FCA PWA hooks found on template_redirect! This is a critical issue."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Registered"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Active Plugins Check"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Scanning for plugins that may interfere with PWA functionality..."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "No known conflicting plugins detected"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Potential conflicts detected"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Recommendation:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Add PWA query parameters to caching plugin exclusions."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "All Active Plugins:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "System Environment"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Server Software"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "PHP Version"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "WordPress Version"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "HTTPS Enabled"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Multisite"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Permalink Structure"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "FC Base URL"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Portal Slug"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Active Theme"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Fluent Community"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Generated Files"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "File"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Size"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Actions"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Manifest (Static)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service Worker (Static)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "📋 Diagnosis & Recommendations"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "All Basic Checks Passed!"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "The plugin configuration looks good. If PWA still isn't working, check:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Browser console for JavaScript errors"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service worker registration in DevTools (Application → Service Workers)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Network tab for failed requests"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "CDN settings (Cloudflare, etc.) - may be caching endpoints"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Issues Found"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Step-by-Step Fix Instructions"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Dynamic Endpoints Not Working - Common Causes"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Caching Plugin:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Caching plugins may cache the dynamic endpoints. Add these URLs to your "
+"cache exclusions:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Legacy:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "CDN/Proxy:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Cloudflare, CloudFront, or other CDN may be caching. Check CDN settings or "
+"bypass for these query parameters."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Server-Level Cache:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Some hosts (Kinsta, WP Engine, SiteGround) have built-in caching. Contact "
+"support to exclude PWA endpoints."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Security Plugin:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Some security plugins block dynamic content. Check firewall rules."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Server Configuration:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Web server may be stripping query parameters. Check .htaccess or nginx "
+"config."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Quick Test Steps:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Try flushing permalinks (button below)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "If using a caching plugin, clear ALL caches"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Check if you have Cloudflare or CDN - pause/bypass temporarily"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Contact hosting support about query parameter caching"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Refresh this diagnostic page after each attempt"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Why \"Use Static File Serving\" Won't Work"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Static file mode places the service worker at:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Browsers restrict service worker scope to its own directory. This means:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Cannot control scope \"/\" (your whole site)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Cannot control your portal pages"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Push notifications won't work (no service worker registration)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "You'll see \"scope not allowed\" error in console"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Bottom line: You MUST fix the caching/blocking issue to use dynamic "
+"endpoints. Static mode is not a solution."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "🔧 Quick Fix Actions"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Try these actions to resolve common issues:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Flush Permalinks"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Go to Regenerate Files"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Go to Clear Cache"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Refresh Diagnostic"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Note: After flushing permalinks or making changes, wait 30 seconds then "
+"refresh this page."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Manual Testing"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Test endpoints manually in your browser. As of v0.3.3, we use clean URL "
+"rewrite endpoints that work with all portal configurations including root "
+"domain."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Primary Endpoints (Rewrite Rules)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Test"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Expected Result"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service Worker"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Should show JavaScript code starting with \"// FCA PWA Service Worker\""
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Should show JSON with \"id\", \"name\", \"start_url\" etc."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Offline Page"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Should show \"You're Offline\" page with try again button"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Legacy Endpoints (Query Parameters)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"These still work for backward compatibility, but the new rewrite endpoints "
+"above are preferred."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Service Worker (Legacy)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Manifest (Legacy)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Offline Page (Legacy)"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "How to test:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Click each URL above in a new tab"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"If you see HTML page content instead of JavaScript/JSON, the endpoint is "
+"being cached or blocked"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "If rewrite endpoints fail but legacy work, try flushing permalinks"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "If both fail, check caching plugins and server configuration"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Copy Support Information"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Copy this information when reporting issues:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Next Steps"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "What to Do Now"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Check hosting control panel:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Look for caching settings. Common hosting providers with built-in caching:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Check Cloudflare:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "If using Cloudflare, add Page Rules to bypass cache for PWA endpoints"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Contact support:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Copy the diagnostic report above and send to your hosting support. Ask them "
+"to exclude PWA query parameters from caching."
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Test manually:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid ""
+"Open the service worker URL in an incognito/private window to bypass browser "
+"cache"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Your PWA Should Be Working!"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "All critical tests passed. To verify:"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Visit your community portal"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Open browser DevTools (F12) → Console"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Look for \"[FCA PWA] Service worker registered successfully\""
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Go to Application → Manifest and Service Workers tabs"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Try installing the PWA"
+msgstr ""
+
+#: views/tabs/tab-diagnostics.php
+msgid "Open Community Portal"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "events"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid ""
+"Track installation, usage, and engagement metrics for your Progressive Web "
+"App"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "Last 7 Days"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "Last 30 Days"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "Last 90 Days"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "Total Installs"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "No event data yet"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "Events Timeline"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "No timeline data yet"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid "How Analytics Work"
+msgstr ""
+
+#: views/tabs/tab-analytics.php
+msgid ""
+"PWA Analytics automatically tracks user interactions including install "
+"prompt views, installation completions, dismissals, and app usage. Data is "
+"collected anonymously and stored locally in your WordPress database."
+msgstr ""
