@@ -1,0 +1,2793 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fc-partner\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-24 19:53+0000\n"
+"PO-Revision-Date: 2026-04-24 19:53+0800\n"
+"Last-Translator: \n"
+"Language-Team: 繁體中文\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: auto-translate.py (polib)\n"
+
+#. Plugin Name of the plugin
+#: fc-partner.php admin/class-admin-menu.php:445 admin/views/setup-page.php:23
+msgid "Partner for FluentCommunity"
+msgstr "Partner for FluentCommunity"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: fc-partner.php
+msgid "https://wppluginmagic.com/partner-for-fluentcommunity/"
+msgstr "https://wppluginmagic.com/partner-for-fluentcommunity/"
+
+#. Description of the plugin
+#: fc-partner.php
+msgid ""
+"Partner program with automatic badge assignment, tier progression, and "
+"payment integration."
+msgstr "具有自動徽章分配、等級升級和付款整合功能的合作夥伴計畫。"
+
+#. Author of the plugin
+#: fc-partner.php admin/views/partner-settings.php:673
+msgid "WP Plugin Magic"
+msgstr "WP Plugin Magic"
+
+#: admin/class-activity-tiers-page.php:25 admin/class-dashboard-page.php:24
+#: admin/class-partner-settings-page.php:25 admin/class-partners-list.php:516
+#: admin/class-setup-page.php:253 admin/class-tiers-page.php:128
+msgid "You do not have sufficient permissions to access this page."
+msgstr "您沒有足夠的權限來存取此頁面。"
+
+#: admin/class-activity-tiers-page.php:42
+msgid "Receive Reaction"
+msgstr "接收反應"
+
+#: admin/class-activity-tiers-page.php:43
+msgid "Points earned when someone reacts to your content"
+msgstr "當有人對您的內容做出反應時即可獲得積分"
+
+#: admin/class-activity-tiers-page.php:46
+msgid "Receive Comment"
+msgstr "接收評論"
+
+#: admin/class-activity-tiers-page.php:47
+msgid "Points earned when someone comments on your post"
+msgstr "當有人評論您的貼文時即可獲得積分"
+
+#: admin/class-activity-tiers-page.php:53
+msgid "Create Post"
+msgstr "建立貼文"
+
+#: admin/class-activity-tiers-page.php:54
+msgid "Points earned for publishing a post"
+msgstr "發佈貼文獲得的積分"
+
+#: admin/class-activity-tiers-page.php:57
+msgid "Make Comment"
+msgstr "發表評論"
+
+#: admin/class-activity-tiers-page.php:58
+msgid "Points earned for posting a comment"
+msgstr "發表評論可獲得積分"
+
+#: admin/class-activity-tiers-page.php:61
+msgid "Give Reaction"
+msgstr "給出反應"
+
+#: admin/class-activity-tiers-page.php:62
+msgid "Points earned for reacting to others' content"
+msgstr "對他人內容做出反應即可獲得積分"
+
+#: admin/class-activity-tiers-page.php:65
+msgid "Complete Course"
+msgstr "完整課程"
+
+#: admin/class-activity-tiers-page.php:66
+msgid "Points earned for finishing a course"
+msgstr "完成課程所獲得的積分"
+
+#: admin/class-activity-tiers-page.php:76
+msgid ""
+"Hi {{first_name}}, thanks to your engagement in the community, you reached "
+"{{tier_emoji}} {{tier_name}}!"
+msgstr "{{first_name}}，您好，由於您對社區的積極參與，您已經達到了 {{tier_emoji}} {{tier_name}}！"
+
+#. translators: %s is the point category name
+#: admin/class-activity-tiers-page.php:102
+#, php-format
+msgid "Point value for \"%s\" must be 0 or higher"
+msgstr "「%s」的分數必須為 0 或更高"
+
+#. translators: %d is the tier number
+#: admin/class-activity-tiers-page.php:122
+#, php-format
+msgid "Activity tier #%d: Name is required"
+msgstr "活動層#%d：名稱為必填項"
+
+#. translators: %d is the tier number
+#: admin/class-activity-tiers-page.php:130
+#, php-format
+msgid "Activity tier #%d: Could not generate slug from name"
+msgstr "活動層#%d：無法從名稱產生 slug"
+
+#. translators: %1$d is the tier number, %2$s is the duplicate tier name
+#: admin/class-activity-tiers-page.php:136
+#, php-format
+msgid "Activity tier #%1$d: Duplicate name \"%2$s\""
+msgstr "活動層#%1$d：重複名稱“%2$s”"
+
+#. translators: %d is the tier number
+#: admin/class-activity-tiers-page.php:143
+#, php-format
+msgid "Activity tier #%d: Emoji is required"
+msgstr "活動等級#%d：需表情符號"
+
+#. translators: %d is the tier number
+#: admin/class-activity-tiers-page.php:149
+#, php-format
+msgid "Activity tier #%d: Min points must be 0 or higher"
+msgstr "活動等級 #%d：最低積分必須為 0 或更高"
+
+#. translators: %1$d is the tier number, %2$d is the duplicate min points
+#. value
+#: admin/class-activity-tiers-page.php:155
+#, php-format
+msgid "Activity tier #%1$d: Duplicate min points %2$d"
+msgstr "活動等級 #%1$d：重複最低積分 %2$d"
+
+#: admin/class-activity-tiers-page.php:206
+msgid "Activity settings saved!"
+msgstr "活動設定已儲存！"
+
+#: admin/class-admin-menu.php:63 admin/class-admin-menu.php:131
+msgid "Security check failed"
+msgstr "安全檢查失敗"
+
+#: admin/class-admin-menu.php:67 admin/class-admin-menu.php:135
+#: admin/class-admin-menu.php:163 admin/class-admin-menu.php:254
+#: admin/class-admin-menu.php:301 admin/class-admin-menu.php:326
+#: admin/class-admin-menu.php:373 admin/class-setup-page.php:87
+#: admin/class-setup-page.php:112 admin/class-setup-page.php:160
+#: admin/class-setup-page.php:237
+msgid "Permission denied"
+msgstr "沒有權限"
+
+#: admin/class-admin-menu.php:71 admin/class-admin-menu.php:139
+msgid "Invalid user"
+msgstr "無效使用者"
+
+#: admin/class-admin-menu.php:83
+msgid "Contact not found"
+msgstr "找不到聯絡方式"
+
+#: admin/class-admin-menu.php:92
+msgid "User has no tier tag"
+msgstr "使用者沒有等級標籤"
+
+#: admin/class-admin-menu.php:104
+msgid "Could not determine tier"
+msgstr "無法確定等級"
+
+#: admin/class-admin-menu.php:184 admin/class-setup-page.php:117
+#: admin/class-setup-page.php:165
+msgid "FluentCRM is not available."
+msgstr "FluentCRM 不可用。"
+
+#: admin/class-admin-menu.php:441
+msgid "Partner FC"
+msgstr "Partner FC"
+
+#: admin/class-admin-menu.php:457 admin/class-admin-menu.php:458
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: admin/class-admin-menu.php:467 admin/class-admin-menu.php:468
+#: admin/views/partner-settings.php:78
+msgid "All Partners"
+msgstr "所有合作夥伴"
+
+#: admin/class-admin-menu.php:477 admin/class-admin-menu.php:478
+#: admin/class-partners-list.php:90 assets/js/partners-page-router.js:32
+msgid "Partner Tiers"
+msgstr "合作夥伴等級"
+
+#: admin/class-admin-menu.php:487 admin/class-admin-menu.php:488
+#: admin/class-partners-list.php:102 admin/views/activity-tiers.php:110
+msgid "Activity Tiers"
+msgstr "活動等級"
+
+#: admin/class-admin-menu.php:497 admin/class-admin-menu.php:498
+#: admin/views/partials/system-health.php:210
+msgid "Settings"
+msgstr "設定"
+
+#: admin/class-admin-menu.php:507
+msgid "Setup"
+msgstr "設定"
+
+#: admin/class-admin-menu.php:694 admin/class-admin-menu.php:709
+#: admin/class-partners-ajax.php:38 admin/class-partners-ajax.php:101
+#: admin/class-partners-ajax.php:140 fc-partner.php:180
+#: includes/class-health-monitor.php:638 includes/class-health-monitor.php:864
+msgid "Permission denied."
+msgstr "沒有權限。"
+
+#. translators: %s is the sync result details message
+#: admin/class-dashboard-page.php:316
+#, php-format
+msgid "Partner infrastructure synced successfully! %s"
+msgstr "合作夥伴基礎設施同步成功！ %s"
+
+#: admin/class-dashboard-page.php:346
+msgid "Deep repair completed."
+msgstr "深度修復完成。"
+
+#: admin/class-dashboard-page.php:359 admin/class-dashboard-page.php:404
+#: admin/class-dashboard-page.php:437
+#: admin/class-partner-settings-page.php:346
+msgid "FluentCart Setup class not available."
+msgstr "FluentCart 設定類別不可用。"
+
+#. translators: %d is the existing FluentCart product ID
+#: admin/class-dashboard-page.php:374
+#, php-format
+msgid "Partner product already exists (ID: %d)."
+msgstr "合作夥伴產品已存在（ID：%d）。"
+
+#. translators: %d is the new FluentCart product ID
+#: admin/class-dashboard-page.php:390
+#, php-format
+msgid "FluentCart product created successfully! Product ID: %d"
+msgstr "FluentCart產品創建成功！產品 ID：%d"
+
+#: admin/class-dashboard-page.php:416
+msgid "FluentCart product deleted successfully."
+msgstr "FluentCart 產品刪除成功。"
+
+#: admin/class-dashboard-page.php:423
+msgid "Failed to delete FluentCart product."
+msgstr "無法刪除 FluentCart 產品。"
+
+#: admin/class-dashboard-page.php:449
+msgid ""
+"Product settings saved successfully! These settings will be used when "
+"recreating the product."
+msgstr "產品設定已成功儲存！重新建立產品時將使用這些設定。"
+
+#: admin/class-dashboard-page.php:456
+msgid "Failed to save product settings. Make sure the product exists."
+msgstr "無法儲存產品設定。確保該產品存在。"
+
+#: admin/class-dashboard-page.php:472
+#: admin/class-partner-settings-page.php:439
+msgid "Campaign Manager class not available."
+msgstr "Campaign Manager 類別不可用。"
+
+#: admin/class-dashboard-page.php:484
+msgid ""
+"Email template saved successfully! These settings will be used when "
+"recreating the campaign."
+msgstr "電子電子郵件範本儲存成功！重新建立行銷活動時將使用這些設定。"
+
+#: admin/class-dashboard-page.php:491
+msgid ""
+"Failed to save email template. Make sure FluentCRM is active and the "
+"campaign exists."
+msgstr "無法儲存電子電子郵件範本。確保 FluentCRM 處於活動狀態且活動存在。"
+
+#: admin/class-partner-settings-page.php:77
+msgid ""
+"Hi {{first_name}}, congratulations on reaching {{tier_emoji}} {{tier_name}}!"
+" Thank you for supporting our community!"
+msgstr "嗨，{{first_name}}，恭喜您達到了 {{tier_emoji}} {{tier_name}}！感謝您對我們社區的支持！"
+
+#: admin/class-partner-settings-page.php:78
+msgid ""
+"Hi {{first_name}}, congratulations on reaching {{tier_emoji}} {{tier_name}}!"
+" Thank you for engaging in our community!"
+msgstr "嗨，{{first_name}}，恭喜您達到了 {{tier_emoji}} {{tier_name}}！感謝您參與我們的社區！"
+
+#: admin/class-partner-settings-page.php:238
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: admin/class-partner-settings-page.php:254 admin/class-partners-ajax.php:107
+msgid "Please enter a license key."
+msgstr "請輸入許可證密鑰。"
+
+#: admin/class-partner-settings-page.php:269 admin/class-partners-ajax.php:119
+msgid "License activated successfully!"
+msgstr "許可證啟動成功！"
+
+#: admin/class-partner-settings-page.php:285
+#: admin/class-partner-settings-page.php:328
+msgid "License operation failed. Please try again."
+msgstr "許可證操作失敗。請再試一次。"
+
+#: admin/class-partner-settings-page.php:293 admin/class-partners-ajax.php:111
+#: admin/class-partners-ajax.php:144
+msgid "Licensing system not available."
+msgstr "許可系統不可用。"
+
+#: admin/class-partner-settings-page.php:312 admin/class-partners-ajax.php:152
+msgid "License deactivated successfully."
+msgstr "許可證已成功停用。"
+
+#. translators: %d is the new FluentCart product ID
+#: admin/class-partner-settings-page.php:374
+#, php-format
+msgid "Product recreated from original template! New Product ID: %d"
+msgstr "根據原始模板重新建立的產品！新產品 ID：%d"
+
+#: admin/class-partner-settings-page.php:449
+msgid "FluentCRM is required for email template reset."
+msgstr "重置電子電子郵件範本需要 FluentCRM。"
+
+#: admin/class-partner-settings-page.php:464
+msgid "Email template reset to default successfully!"
+msgstr "電子電子郵件範本重設為預設值成功！"
+
+#: admin/class-partner-settings-page.php:471
+msgid "Failed to reset email template. Check error log for details."
+msgstr "重置電子電子郵件範本失敗。檢查錯誤日誌以取得詳細資訊。"
+
+#: admin/class-partners-ajax.php:33 admin/class-partners-ajax.php:96
+#: admin/class-partners-ajax.php:135
+msgid "Security check failed."
+msgstr "安全檢查失敗。"
+
+#: admin/class-partners-ajax.php:125
+msgid "License activation failed. Check the error log for details."
+msgstr "許可證啟動失敗。檢查錯誤日誌以取得詳細資訊。"
+
+#: admin/class-partners-ajax.php:158
+msgid "License deactivation failed. Check the error log for details."
+msgstr "許可證停用失敗。檢查錯誤日誌以取得詳細資訊。"
+
+#: admin/class-partners-list.php:39
+msgid "Name"
+msgstr "姓名"
+
+#: admin/class-partners-list.php:40 admin/views/dashboard.php:335
+msgid "Email"
+msgstr "電子電子郵件"
+
+#: admin/class-partners-list.php:41 admin/views/dashboard.php:336
+msgid "Badge"
+msgstr "徽章"
+
+#: admin/class-partners-list.php:42 admin/views/dashboard.php:337
+msgid "Total LTV"
+msgstr "總生命週期價值"
+
+#: admin/class-partners-list.php:47 assets/js/activity-page-router.js:29
+msgid "Activity"
+msgstr "活動"
+
+#: admin/class-partners-list.php:50
+msgid "Partner Since"
+msgstr "合作夥伴自"
+
+#: admin/class-partners-list.php:89
+msgid "Filter partners by partner tier"
+msgstr "依合作夥伴等級篩選合作夥伴"
+
+#: admin/class-partners-list.php:96
+msgid "No Badge"
+msgstr "無徽章"
+
+#: admin/class-partners-list.php:101
+msgid "Filter partners by activity tier"
+msgstr "按活動等級過濾合作夥伴"
+
+#: admin/class-partners-list.php:108
+msgid "No Activity"
+msgstr "無活動"
+
+#: admin/class-partners-list.php:113
+msgid "Search by name or email..."
+msgstr "按姓名或電子電子郵件搜尋..."
+
+#: admin/class-partners-list.php:120
+msgid "Partners per page"
+msgstr "每頁合作夥伴"
+
+#. translators: %d is the number of items per page
+#: admin/class-partners-list.php:125
+#, php-format
+msgid "%d per page"
+msgstr "每頁 %d"
+
+#: admin/class-partners-list.php:128
+msgid "All"
+msgstr "全部"
+
+#: admin/class-partners-list.php:423 admin/views/dashboard.php:346
+msgid "View in FluentCRM"
+msgstr "在 FluentCRM 中查看"
+
+#: admin/class-partners-list.php:500
+msgid "No partners found matching your search criteria."
+msgstr "未找到符合您搜尋條件的合作夥伴。"
+
+#: admin/class-partners-list.php:502
+msgid ""
+"No partners found. Partners are added when contacts are assigned to the FC "
+"Partner list in FluentCRM."
+msgstr "沒有找到合作夥伴。當聯絡人被指派到 FluentCRM 中的 FC 合作夥伴清單時，就會加入合作夥伴。"
+
+#: admin/class-partners-list.php:523
+msgid "Partner for FluentCommunity - All Partners"
+msgstr "FluentCommunity 的合作夥伴 - 所有合作夥伴"
+
+#: admin/class-setup-page.php:66 admin/class-setup-page.php:178
+msgid "FluentCRM database tables not found."
+msgstr "未找到 FluentCRM 資料庫表。"
+
+#: admin/class-tiers-page.php:165
+msgid ""
+"Hey {{first_name}}, congratulations on reaching {{tier_emoji}} "
+"{{tier_name}}! Thank you for your support."
+msgstr "嘿，{{first_name}}，恭喜您達到了 {{tier_emoji}} {{tier_name}}！感謝您的支持。"
+
+#. translators: %d is the tier number
+#: admin/class-tiers-page.php:198
+#, php-format
+msgid "Tier #%d: Name is required"
+msgstr "第 #%d 層：名稱為必填項"
+
+#. translators: %d is the tier number
+#: admin/class-tiers-page.php:208
+#, php-format
+msgid "Tier #%d: Could not generate slug from name"
+msgstr "第 #%d 層：無法從名稱產生 slug"
+
+#. translators: %1$d is the tier number, %2$s is the duplicate slug
+#: admin/class-tiers-page.php:215
+#, php-format
+msgid "Tier #%1$d: Duplicate slug \"%2$s\""
+msgstr "第 #%1$d 層：重複的段頭“%2$s”"
+
+#. translators: %d is the tier number
+#: admin/class-tiers-page.php:222
+#, php-format
+msgid "Tier #%d: Emoji is required"
+msgstr "第 #%d 級：需要表情符號"
+
+#. translators: %d is the tier number
+#: admin/class-tiers-page.php:228
+#, php-format
+msgid "Tier #%d: Minimum contribution must be positive"
+msgstr "第 #%d 級：最低貢獻必須為正"
+
+#: admin/class-tiers-page.php:356
+msgid "Partner tiers saved!"
+msgstr "合作夥伴等級已儲存！"
+
+#: admin/class-tiers-page.php:367
+msgid "Partner tiers saved and synced!"
+msgstr "合作夥伴等級已儲存並同步！"
+
+#. translators: %s is the sync failure details message
+#: admin/class-tiers-page.php:385
+#, php-format
+msgid "Tiers saved but sync failed: %s"
+msgstr "層數已儲存，但同步失敗：%s"
+
+#: admin/class-tiers-page.php:393
+msgid "Partner tiers saved and sorted by contribution amount!"
+msgstr "合作夥伴等級已儲存並按貢獻金額排序！"
+
+#. translators: %d is the number of partners who lost verified status
+#: admin/class-tiers-page.php:500
+#, php-format
+msgid "Verified badge removed from %d partner"
+msgid_plural "Verified badge removed from %d partners"
+msgstr[0] "已驗證徽章已從 %d 合作夥伴中刪除"
+
+#: admin/class-tiers-page.php:509
+msgid "Verified badge disabled, no partners had it"
+msgstr "已驗證徽章已停用，沒有合作夥伴擁有它"
+
+#. translators: %d is the number of partners granted verified status
+#: admin/class-tiers-page.php:640
+#, php-format
+msgid "verified %d partner"
+msgid_plural "verified %d partners"
+msgstr[0] "已驗證 %d 個合作夥伴"
+
+#. translators: %d is the number of partners who lost verified status
+#: admin/class-tiers-page.php:647
+#, php-format
+msgid "unverified %d partner"
+msgid_plural "unverified %d partners"
+msgstr[0] "%d 個合作夥伴未經驗證"
+
+#. translators: %s is the verified tier name
+#: admin/class-tiers-page.php:655
+#, php-format
+msgid "Verified tier set to %s, no changes needed"
+msgstr "已驗證等級設定為 %s，無需更改"
+
+#. translators: %1$s is the verified tier name, %2$s is the summary of changes
+#: admin/class-tiers-page.php:662
+#, php-format
+msgid "Verified tier → %1$s — %2$s"
+msgstr "已驗證等級 → %1$s — %2$s"
+
+#. translators: %d is the number of members granted space access
+#: admin/class-tiers-page.php:866
+#, php-format
+msgid "%d member granted access"
+msgid_plural "%d members granted access"
+msgstr[0] "%d 名成員被授予存取權限"
+
+#. translators: %d is the number of members who had space access revoked
+#: admin/class-tiers-page.php:873
+#, php-format
+msgid "%d member revoked"
+msgid_plural "%d members revoked"
+msgstr[0] "%d 會員已撤銷"
+
+#. translators: %1$s is the list of affected tier names, %2$s is the summary
+#. of access changes
+#: admin/class-tiers-page.php:880
+#, php-format
+msgid "Spaces updated for %1$s — %2$s"
+msgstr "已更新 %1$s 的空間 — %2$s"
+
+#: admin/views/activity-tiers.php:25
+msgid "Partner for FluentCommunity - Activity Tiers"
+msgstr "FluentCommunity 合作夥伴 - 活動層級"
+
+#: admin/views/activity-tiers.php:39
+msgid "Point Values"
+msgstr "積分值"
+
+#: admin/views/activity-tiers.php:40
+msgid ""
+"Configure how many points each activity is worth. Set to 0 to disable a "
+"category."
+msgstr "配置每項活動值得多少分。設定為 0 可停用類別。"
+
+#: admin/views/activity-tiers.php:45
+msgid "Quality"
+msgstr "品質"
+
+#: admin/views/activity-tiers.php:46
+msgid "Engagement your content earns"
+msgstr "您的內容贏得的參與度"
+
+#: admin/views/activity-tiers.php:68
+msgid "Volume"
+msgstr "行為"
+
+#: admin/views/activity-tiers.php:69
+msgid "Things you do"
+msgstr "你的行為"
+
+#: admin/views/activity-tiers.php:94 admin/views/tiers.php:65
+msgid "Send Direct Message"
+msgstr "發送私訊"
+
+#: admin/views/activity-tiers.php:95 admin/views/tiers.php:66
+msgid ""
+"Select which tiers send a DM when reached. Sender and default message are "
+"set in Settings."
+msgstr "選擇到達時發送 DM 的圖層。寄件者和預設訊息在「設定」中設定。"
+
+#: admin/views/activity-tiers.php:111
+msgid ""
+"Define tiers based on activity points. Tiers are auto-sorted by points "
+"(highest first)."
+msgstr "根據活動點定義等級。等級會依分數自動排序（最高的優先）。"
+
+#: admin/views/activity-tiers.php:115 admin/views/tiers.php:86
+msgid "Icon"
+msgstr "圖示"
+
+#: admin/views/activity-tiers.php:116 admin/views/activity-tiers.php:148
+#: admin/views/activity-tiers.php:264 admin/views/tiers.php:87
+#: admin/views/tiers.php:132 admin/views/tiers.php:343
+msgid "Tier Name"
+msgstr "等級名稱"
+
+#: admin/views/activity-tiers.php:117
+msgid "Min Points"
+msgstr "最低積分"
+
+#: admin/views/activity-tiers.php:126 admin/views/activity-tiers.php:258
+#: admin/views/tiers.php:111 admin/views/tiers.php:335
+msgid "Click to pick emoji"
+msgstr "點選選擇表情符號"
+
+#: admin/views/activity-tiers.php:127 admin/views/activity-tiers.php:258
+#: admin/views/tiers.php:111 admin/views/tiers.php:152
+#: admin/views/tiers.php:334 admin/views/tiers.php:335
+#: admin/views/tiers.php:337 admin/views/tiers.php:338
+msgid "Requires FluentCommunity Pro with badges enabled"
+msgstr "需要啟用徽章的 FluentCommunity Pro"
+
+#: admin/views/activity-tiers.php:149 admin/views/activity-tiers.php:264
+#: admin/views/tiers.php:133 admin/views/tiers.php:337
+msgid "Enter tier name"
+msgstr "輸入等級名稱"
+
+#: admin/views/activity-tiers.php:159 admin/views/activity-tiers.php:265
+msgid "Minimum points to reach this tier"
+msgstr "達到此等級的最低積分"
+
+#: admin/views/activity-tiers.php:161 admin/views/activity-tiers.php:266
+#: admin/views/tiers.php:196 admin/views/tiers.php:358
+msgid "Delete tier"
+msgstr "刪除層級"
+
+#: admin/views/activity-tiers.php:175
+msgid "Add a new activity tier"
+msgstr "新增的活動圖層"
+
+#: admin/views/activity-tiers.php:177 admin/views/tiers.php:212
+msgid "Add Tier"
+msgstr "新增等級"
+
+#: admin/views/activity-tiers.php:179 admin/views/activity-tiers.php:196
+msgid "Save point values and tiers"
+msgstr "儲存積分值與等級"
+
+#: admin/views/activity-tiers.php:180 admin/views/partner-settings.php:628
+#: admin/views/tiers.php:215
+msgid "Save"
+msgstr "儲存"
+
+#: admin/views/activity-tiers.php:215 admin/views/tiers.php:258
+msgid "Emoji required for tier"
+msgstr "等級所需的表情符號"
+
+#: admin/views/activity-tiers.php:218 admin/views/tiers.php:261
+msgid "Name required for tier"
+msgstr "等級所需名稱"
+
+#: admin/views/activity-tiers.php:221
+msgid "Min points required for tier"
+msgstr "等級所需的最低積分"
+
+#: admin/views/activity-tiers.php:225 admin/views/tiers.php:268
+msgid "Duplicate emoji on tiers"
+msgstr "層級上有重複的表情符號"
+
+#: admin/views/activity-tiers.php:232 admin/views/tiers.php:275
+msgid "Duplicate name on tiers"
+msgstr "各層名稱重複"
+
+#: admin/views/activity-tiers.php:239
+msgid "Duplicate min points on tiers"
+msgstr "各層的最低點數重複"
+
+#: admin/views/activity-tiers.php:280 admin/views/tiers.php:387
+msgid "this tier"
+msgstr "這層"
+
+#. translators: %1$s is the tier name, %2$d is the number of users, %3$s is
+#. the next tier down
+#: admin/views/activity-tiers.php:311 admin/views/tiers.php:416
+#, php-format
+msgid ""
+"Delete %1$s tier? %2$d users have this badge and will be downgraded to %3$s."
+msgstr "刪除 %1$s 圖層嗎？ %2$d 使用者擁有此徽章，並將被降級為 %3$s。"
+
+#. translators: %1$s is the tier name (lowest tier), %2$d is the number of
+#. users
+#: admin/views/activity-tiers.php:317 admin/views/tiers.php:422
+#, php-format
+msgid "Delete %1$s tier? %2$d users have this badge and will lose it."
+msgstr "刪除 %1$s 圖層嗎？ %2$d 位使用者擁有此徽章，但將會遺失。"
+
+#. translators: %s is the tier name being deleted
+#: admin/views/activity-tiers.php:323 admin/views/tiers.php:428
+#, php-format
+msgid "Delete %s tier? No users have this badge."
+msgstr "刪除 %s 圖層嗎？沒有使用者擁有此徽章。"
+
+#: admin/views/activity-tiers.php:333 admin/views/activity-tiers.php:345
+#: admin/views/tiers.php:439 admin/views/tiers.php:450
+msgid "Delete this tier?"
+msgstr "刪除該圖層？"
+
+#: admin/views/activity-tiers.php:480 admin/views/tiers.php:684
+#: admin/js/setup.js:40
+msgid "Checking..."
+msgstr "檢查..."
+
+#: admin/views/activity-tiers.php:525 admin/views/tiers.php:730
+msgid "Tier Renames:"
+msgstr "等級重新命名："
+
+#: admin/views/activity-tiers.php:527 admin/views/tiers.php:732
+msgid "member(s) will have badges migrated"
+msgstr "會員的徽章將會遷移"
+
+#: admin/views/activity-tiers.php:533 admin/views/tiers.php:738
+msgid "Threshold Increases:"
+msgstr "門檻增加："
+
+#: admin/views/activity-tiers.php:535
+msgid "member(s) affected"
+msgstr "受影響的會員"
+
+#: admin/views/activity-tiers.php:535 assets/js/activity-page-router.js:34
+msgid "points"
+msgstr "點"
+
+#: admin/views/activity-tiers.php:539 admin/views/tiers.php:744
+msgid "Continue with these changes?"
+msgstr "繼續這些改變嗎？"
+
+#: admin/views/activity-tiers.php:546 admin/views/tiers.php:751
+msgid "Could not check impact. Save anyway?"
+msgstr "無法檢查影響。還是要儲存嗎？"
+
+#: admin/views/dashboard.php:61 admin/views/dashboard.php:64
+msgid "Partner for FluentCommunity - Dashboard"
+msgstr "FluentCommunity 合作夥伴 - 儀表板"
+
+#: admin/views/dashboard.php:69
+msgid "used"
+msgstr "用過的"
+
+#: admin/views/dashboard.php:71 admin/views/dashboard.php:211
+#: admin/views/partials/system-health.php:130
+#: admin/views/partner-settings.php:61 admin/views/partner-settings.php:707
+#: admin/js/admin-scripts.js:397
+msgid "Get Pro"
+msgstr "取得專業版"
+
+#: admin/views/dashboard.php:90
+msgid "Total Partners"
+msgstr "總合作夥伴"
+
+#: admin/views/dashboard.php:93
+msgid "Partners (Free Plan)"
+msgstr "合作夥伴（免費計畫）"
+
+#: admin/views/dashboard.php:104
+msgid "Total Contributions"
+msgstr "總貢獻"
+
+#: admin/views/dashboard.php:114
+msgid "Active Tiers"
+msgstr "活躍等級"
+
+#: admin/views/dashboard.php:124
+msgid "Partner Tags"
+msgstr "合作夥伴標籤"
+
+#: admin/views/dashboard.php:139 admin/views/partner-settings.php:71
+msgid "FluentCart Product"
+msgstr "FluentCart 產品"
+
+#: admin/views/dashboard.php:140
+msgid "Custom configuration saved"
+msgstr "自訂配置已儲存"
+
+#: admin/views/dashboard.php:140
+msgid "Using default configuration"
+msgstr "使用預設配置"
+
+#: admin/views/dashboard.php:141 admin/views/dashboard.php:223
+msgid "Customized"
+msgstr "客製化"
+
+#: admin/views/dashboard.php:141 admin/views/dashboard.php:223
+msgid "Default"
+msgstr "預設"
+
+#: admin/views/dashboard.php:148
+msgid ""
+"FluentCart is not active. Install and activate FluentCart to enable payment "
+"processing."
+msgstr "FluentCart 未啟動。安裝並啟動 FluentCart 以啟用付款處理。"
+
+#: admin/views/dashboard.php:153
+msgid "Product Active"
+msgstr "產品活性"
+
+#: admin/views/dashboard.php:155 admin/views/dashboard.php:179
+msgid "Product ID:"
+msgstr "產品編號："
+
+#: admin/views/dashboard.php:158
+msgid "View product page"
+msgstr "查看產品頁面"
+
+#: admin/views/dashboard.php:160
+msgid "View Product Page"
+msgstr "查看產品頁面"
+
+#: admin/views/dashboard.php:162 admin/views/dashboard.php:185
+msgid "Edit product in FluentCart"
+msgstr "在 FluentCart 中編輯產品"
+
+#: admin/views/dashboard.php:164 admin/views/dashboard.php:187
+msgid "Edit in FluentCart"
+msgstr "在 FluentCart 中編輯"
+
+#: admin/views/dashboard.php:172
+msgid "Product Draft (Not Visible)"
+msgstr "產品草稿（不可見）"
+
+#: admin/views/dashboard.php:173
+msgid "Product Private (Admins Only)"
+msgstr "產品私有（僅限管理員）"
+
+#: admin/views/dashboard.php:174
+msgid "Product Scheduled"
+msgstr "產品預定"
+
+#: admin/views/dashboard.php:176
+msgid "Product Inactive"
+msgstr "產品無效"
+
+#: admin/views/dashboard.php:181
+msgid "Publish the product in FluentCart to make it available to visitors."
+msgstr "在 FluentCart 中發布產品以供訪客使用。"
+
+#: admin/views/dashboard.php:193
+msgid "No Product"
+msgstr "沒有產品"
+
+#: admin/views/dashboard.php:197
+msgid "Create a FluentCart product to enable partner contributions."
+msgstr "創建 FluentCart 產品以支援合作夥伴做出貢獻。"
+
+#: admin/views/dashboard.php:201
+msgid "Create FluentCart product for partners"
+msgstr "為合作夥伴創建 FluentCart 產品"
+
+#: admin/views/dashboard.php:203
+msgid "Create Product"
+msgstr "創建產品"
+
+#: admin/views/dashboard.php:208
+msgid "Pro license required to accept new partner contributions."
+msgstr "接受新合作夥伴貢獻需要專業許可。"
+
+#: admin/views/dashboard.php:210
+msgid "Purchase Pro license"
+msgstr "購買專業版許可證"
+
+#: admin/views/dashboard.php:221
+msgid "Email Template"
+msgstr "電子電子郵件模板"
+
+#: admin/views/dashboard.php:222
+msgid "Custom template saved"
+msgstr "自訂範本已儲存"
+
+#: admin/views/dashboard.php:222
+msgid "Using default template"
+msgstr "使用預設模板"
+
+#: admin/views/dashboard.php:230
+msgid "FluentCRM is required for email template customization."
+msgstr "電子電子郵件範本自訂需要 FluentCRM。"
+
+#: admin/views/dashboard.php:235
+msgid "Campaign will be created on first use"
+msgstr "活動將在首次使用時創建"
+
+#: admin/views/dashboard.php:240
+msgid "Campaign Ready"
+msgstr "活動準備就緒"
+
+#: admin/views/dashboard.php:244
+msgid "Edit email template in FluentCRM"
+msgstr "在 FluentCRM 中編輯電子電子郵件模板"
+
+#: admin/views/dashboard.php:246
+msgid "Edit Email Template in FluentCRM"
+msgstr "在 FluentCRM 中編輯電子電子郵件模板"
+
+#: admin/views/dashboard.php:257
+msgid "Sync"
+msgstr "同步"
+
+#: admin/views/dashboard.php:258
+msgid "Sync needed"
+msgstr "需要同步"
+
+#: admin/views/dashboard.php:258
+msgid "All synced"
+msgstr "全部同步"
+
+#: admin/views/dashboard.php:259
+msgid "Needs Sync"
+msgstr "需要同步"
+
+#: admin/views/dashboard.php:259
+msgid "Up to Date"
+msgstr "最新"
+
+#: admin/views/dashboard.php:266
+msgid "Sync Needed"
+msgstr "需要同步"
+
+#: admin/views/dashboard.php:270
+msgid "Tier configuration has changed. Sync to update tags and badges."
+msgstr "層配置已更改。同步更新標籤和徽章。"
+
+#: admin/views/dashboard.php:280
+msgid "Health Check"
+msgstr "健康檢查"
+
+#. translators: %s: human-readable time difference
+#: admin/views/dashboard.php:285 admin/views/dashboard.php:298
+#: admin/views/partner-settings.php:504 admin/views/partner-settings.php:520
+#: admin/views/partner-settings.php:550 admin/views/partner-settings.php:566
+#, php-format
+msgid "%s ago"
+msgstr "%s 前"
+
+#: admin/views/dashboard.php:293 admin/views/dashboard.php:313
+#: admin/views/partner-settings.php:529
+msgid "Deep Repair"
+msgstr "深度修復"
+
+#: admin/views/dashboard.php:307 admin/views/partner-settings.php:484
+msgid "Scans for new Partner payments, assigns tiers, badges, and DMs"
+msgstr "掃描新的合作夥伴付款，分配等級、徽章和 DM"
+
+#: admin/views/dashboard.php:309 admin/views/partner-settings.php:483
+msgid "Partner Sync"
+msgstr "合作夥伴同步"
+
+#: admin/views/dashboard.php:311 admin/views/partner-settings.php:530
+msgid "Fixes drift, orphans, and badge corruption"
+msgstr "修復漂移、孤兒和徽章損壞"
+
+#: admin/views/dashboard.php:323
+msgid "10 Newest Partners"
+msgstr "10 個最新合作夥伴"
+
+#: admin/views/dashboard.php:324
+msgid "View all partners"
+msgstr "查看所有合作夥伴"
+
+#: admin/views/dashboard.php:326 assets/js/partner-widget-inject.js:89
+#: assets/js/partner-widget-inject.js:169
+msgid "View All"
+msgstr "看全部"
+
+#: admin/views/dashboard.php:334
+msgid "Partner"
+msgstr "夥伴"
+
+#: admin/views/dashboard.php:338
+msgid "Joined"
+msgstr "已加入"
+
+#: admin/views/dashboard.php:361
+msgid "No badge"
+msgstr "無徽章"
+
+#: admin/views/dashboard.php:375
+msgid ""
+"No partners yet. Start by creating tiers and setting up your payment form!"
+msgstr "還沒有合作夥伴。首先建立等級並設定您的付款方式！"
+
+#. translators: %d is the number of additional payment methods beyond the
+#. first
+#: admin/views/partials/system-health.php:76
+#, php-format
+msgid "+%d Other"
+msgid_plural "+%d Others"
+msgstr[0] "+%d 其他"
+
+#: admin/views/partials/system-health.php:107
+msgid "System Health"
+msgstr "系統健康狀況"
+
+#: admin/views/partials/system-health.php:109
+msgid "Connected"
+msgstr "已連接"
+
+#: admin/views/partials/system-health.php:110
+msgid "Inactive"
+msgstr "不活躍"
+
+#: admin/views/partials/system-health.php:111
+msgid "Not Installed"
+msgstr "未安裝"
+
+#: admin/views/partials/system-health.php:118
+msgid "Pro license active"
+msgstr "專業版許可證已啟用"
+
+#: admin/views/partials/system-health.php:120
+#: admin/views/partials/system-health.php:125
+#: admin/views/partials/system-health.php:130
+msgid "FC Partner"
+msgstr "FC合作夥伴"
+
+#: admin/views/partials/system-health.php:123
+msgid "License expired - click to renew"
+msgstr "許可證已過期 - 點選以續訂"
+
+#: admin/views/partials/system-health.php:125
+#: admin/views/partner-settings.php:699
+msgid "Expired"
+msgstr "已到期"
+
+#: admin/views/partials/system-health.php:128
+msgid "Get FC Partner Pro license"
+msgstr "取得 FC Partner Pro 許可證"
+
+#: admin/views/partials/system-health.php:141
+msgid "Click to enable badges in FluentCommunity Features"
+msgstr "點選以在 FluentCommunity 功能中啟用徽章"
+
+#: admin/views/partials/system-health.php:143
+msgid "Enable Badges"
+msgstr "啟用徽章"
+
+#: admin/views/partials/system-health.php:146
+msgid "Badges require FluentCommunity Pro"
+msgstr "徽章需要 FluentCommunity Pro"
+
+#: admin/views/partials/system-health.php:148
+msgid "Badges require Pro"
+msgstr "徽章需要 Pro"
+
+#: admin/views/partials/system-health.php:153
+msgid "FluentCommunity installed but inactive — click to activate"
+msgstr "FluentCommunity 已安裝但處於非活動狀態 — 點選以啟動"
+
+#: admin/views/partials/system-health.php:158
+msgid "FluentCommunity not installed — click to install"
+msgstr "FluentCommunity 未安裝 — 點選安裝"
+
+#: admin/views/partials/system-health.php:171
+msgid "FluentCRM installed but inactive — click to activate"
+msgstr "FluentCRM 已安裝但處於非活動狀態 — 按一下以啟動"
+
+#: admin/views/partials/system-health.php:176
+msgid "FluentCRM not installed — click to install"
+msgstr "FluentCRM 未安裝 — 按一下安裝"
+
+#: admin/views/partials/system-health.php:189
+msgid "FluentCart installed but inactive — click to activate"
+msgstr "FluentCart 已安裝但處於非活動狀態 — 點選以啟動"
+
+#: admin/views/partials/system-health.php:194
+msgid "FluentCart not installed — click to install"
+msgstr "FluentCart 未安裝 — 按一下安裝"
+
+#: admin/views/partials/system-health.php:200
+msgid "Click to configure FluentCart account creation"
+msgstr "按一下配置 FluentCart 帳號建立"
+
+#: admin/views/partials/system-health.php:202
+msgid ""
+"Account creation not set to automatic — Partner cannot recognize new "
+"purchasers"
+msgstr "帳號建立未設定為自動 - 合作夥伴無法識別新購買者"
+
+#: admin/views/partials/system-health.php:215
+msgid "No payment method configured — click to set up"
+msgstr "未設定付款方式 — 請點選以設定"
+
+#: admin/views/partials/system-health.php:220
+msgid "Payment method requires FluentCart"
+msgstr "付款方式需要 FluentCart"
+
+#: admin/views/partner-settings.php:47
+msgid "Partner for FluentCommunity - Settings"
+msgstr "FluentCommunity 的合作夥伴 - 設定"
+
+#: admin/views/partner-settings.php:60
+msgid "Free Trial Mode"
+msgstr "免費試用模式"
+
+#: admin/views/partner-settings.php:66
+msgid "Feature"
+msgstr "特徵"
+
+#: admin/views/partner-settings.php:67
+msgid "Free"
+msgstr "自由的"
+
+#: admin/views/partner-settings.php:68
+msgid "Pro"
+msgstr "專業版"
+
+#: admin/views/partner-settings.php:72
+msgid "Removed after 5 partners"
+msgstr "5 個合作夥伴後被刪除"
+
+#: admin/views/partner-settings.php:73
+msgid "Auto-Created"
+msgstr "自動建立"
+
+#: admin/views/partner-settings.php:76
+msgid "Partners Page Display"
+msgstr "合作夥伴頁面展示"
+
+#: admin/views/partner-settings.php:77 admin/views/partner-settings.php:82
+msgid "Top 5 Only"
+msgstr "限前 5 名"
+
+#: admin/views/partner-settings.php:81 assets/js/activity-page-router.js:35
+msgid "Activity Leaders"
+msgstr "活動負責人"
+
+#: admin/views/partner-settings.php:83
+msgid "All Members"
+msgstr "所有會員"
+
+#: admin/views/partner-settings.php:94
+msgid "Widget Settings"
+msgstr "小部件設定"
+
+#: admin/views/partner-settings.php:96
+msgid "Configure how the partner widget appears in FluentCommunity."
+msgstr "配置合作夥伴小工具在 FluentCommunity 中的顯示方式。"
+
+#: admin/views/partner-settings.php:104
+msgid "Widget Heading"
+msgstr "小部件標題"
+
+#: admin/views/partner-settings.php:105
+msgid "Title shown above the widget"
+msgstr "標題顯示在小工具上方"
+
+#: admin/views/partner-settings.php:106
+msgid "Heading links to the Product Page URL below."
+msgstr "標題連結到下面的產品頁面 URL。"
+
+#: admin/views/partner-settings.php:110
+msgid "Product Page URL"
+msgstr "商品頁面網址"
+
+#: admin/views/partner-settings.php:115
+msgid "URL for the widget heading link"
+msgstr "小部件標題連結的 URL"
+
+#: admin/views/partner-settings.php:117
+msgid "Leave empty to auto-detect from FluentCart product."
+msgstr "留空以從 FluentCart 產品自動檢測。"
+
+#: admin/views/partner-settings.php:119
+msgid "Current:"
+msgstr "目前的："
+
+#: admin/views/partner-settings.php:125
+msgid "Heading Link"
+msgstr "標題連結"
+
+#: admin/views/partner-settings.php:127 admin/views/partner-settings.php:128
+msgid "Link heading to product page"
+msgstr "連結標題到產品頁面"
+
+#: admin/views/partner-settings.php:130
+msgid ""
+"When enabled, the widget heading links to the product page URL. Disable to "
+"show plain text."
+msgstr "啟用後，小工具標題連結到產品頁面 URL。禁用顯示純文字。"
+
+#: admin/views/partner-settings.php:134
+msgid "Display Widget On"
+msgstr "顯示小工具打開"
+
+#: admin/views/partner-settings.php:135
+msgid "Choose where the partner widget appears"
+msgstr "選擇合作夥伴小工具的顯示位置"
+
+#: admin/views/partner-settings.php:136
+msgid "Main Feed and Spaces"
+msgstr "主要飼料和空間"
+
+#: admin/views/partner-settings.php:137
+msgid "Main Feed Only"
+msgstr "僅主要飼料"
+
+#: admin/views/partner-settings.php:138
+msgid "Spaces Only"
+msgstr "僅限空格"
+
+#: admin/views/partner-settings.php:140
+msgid "Choose where the partner widget appears in FluentCommunity"
+msgstr "選擇合作夥伴小工具在 FluentCommunity 中的顯示位置"
+
+#: admin/views/partner-settings.php:144
+msgid "Widget Priority"
+msgstr "小部件優先權"
+
+#: admin/views/partner-settings.php:145
+msgid "Widget position in sidebar (lower = higher)"
+msgstr "側邊欄中的小部件位置（較低 = 較高）"
+
+#: admin/views/partner-settings.php:146
+msgid ""
+"Lower = higher in sidebar. Native content is 0. Use -20 to appear above, 30 "
+"to appear below."
+msgstr "側邊欄中較低 = 較高。本機內容為 0。使用 -20 出現在上方，使用 30 出現在下方。"
+
+#: admin/views/partner-settings.php:150 admin/views/partner-settings.php:290
+msgid "Show Badge Preview"
+msgstr "顯示徽章預覽"
+
+#: admin/views/partner-settings.php:152
+msgid "Show tier badges in widget"
+msgstr "在小工具中顯示等級徽章"
+
+#: admin/views/partner-settings.php:153
+msgid "Show partner tier badge preview in widget"
+msgstr "在小工具中顯示合作夥伴等級徽章預覽"
+
+#: admin/views/partner-settings.php:158 admin/views/partner-settings.php:298
+msgid "Badge Section Header"
+msgstr "徽章部分標題"
+
+#: admin/views/partner-settings.php:159
+msgid "Header above tier badges"
+msgstr "等級徽章上方的標題"
+
+#: admin/views/partner-settings.php:160
+msgid ""
+"Header text above the tier badges (e.g., \"Partner Tiers\", \"Earn Your "
+"Badge\")"
+msgstr "等級徽章上方的標題文字（例如「合作夥伴等級」、「贏得您的徽章」）"
+
+#: admin/views/partner-settings.php:166
+msgid "Widget Visibility"
+msgstr "小部件可見性"
+
+#: admin/views/partner-settings.php:167
+msgid "Control who sees the widget and how they can interact with it."
+msgstr "控制誰可以看到小部件以及他們如何與其互動。"
+
+#: admin/views/partner-settings.php:171
+msgid "Hide from Partners"
+msgstr "對合作夥伴隱藏"
+
+#: admin/views/partner-settings.php:173 admin/views/partner-settings.php:174
+msgid "Hide widget from active partners"
+msgstr "對活躍夥伴隱藏小部件"
+
+#: admin/views/partner-settings.php:176
+msgid "Partners with any active tier won't see the widget."
+msgstr "具有任何活動層的合作夥伴都不會看到該小部件。"
+
+#: admin/views/partner-settings.php:180
+msgid "Allow Dismiss"
+msgstr "允許解僱"
+
+#: admin/views/partner-settings.php:182 admin/views/partner-settings.php:183
+msgid "Allow non-partners to close widget"
+msgstr "允許非合作夥伴關閉小部件"
+
+#: admin/views/partner-settings.php:185
+msgid ""
+"Adds a close button to the widget. Once closed, the widget stays hidden "
+"permanently for that user."
+msgstr "在小工具中新增關閉按鈕。關閉後，該小部件對該使用者將永久隱藏。"
+
+#: admin/views/partner-settings.php:190
+msgid "Top Partners Section"
+msgstr "頂級合作夥伴部分"
+
+#: admin/views/partner-settings.php:191
+msgid "Highlight top partners in the widget."
+msgstr "在小工具中反白顯示頂級合作夥伴。"
+
+#: admin/views/partner-settings.php:195 includes/class-widget-renderer.php:267
+#: assets/js/partners-page-router.js:33
+msgid "Newest Partners"
+msgstr "最新合作夥伴"
+
+#: admin/views/partner-settings.php:198
+msgid "Show newest partners section"
+msgstr "顯示最新合作夥伴部分"
+
+#: admin/views/partner-settings.php:199
+msgid "Show Newest Partners"
+msgstr "顯示最新合作夥伴"
+
+#: admin/views/partner-settings.php:202 admin/views/partner-settings.php:220
+#: admin/views/partner-settings.php:238 admin/views/partner-settings.php:279
+msgid "Count:"
+msgstr "數數："
+
+#: admin/views/partner-settings.php:203
+msgid "Number of newest partners to show"
+msgstr "顯示的最新合作夥伴數量"
+
+#: admin/views/partner-settings.php:213 includes/class-widget-renderer.php:272
+#: assets/js/partners-page-router.js:34
+msgid "Top Lifetime Partners"
+msgstr "頂級終身合作夥伴"
+
+#: admin/views/partner-settings.php:216
+msgid "Show top lifetime partners section"
+msgstr "顯示頂級終身合作夥伴部分"
+
+#: admin/views/partner-settings.php:217
+msgid "Show Top Lifetime Partners"
+msgstr "顯示頂級終身合作夥伴"
+
+#: admin/views/partner-settings.php:221
+msgid "Number of top lifetime partners to show"
+msgstr "顯示的頂級終身合作夥伴數量"
+
+#: admin/views/partner-settings.php:231 includes/class-widget-renderer.php:277
+#: assets/js/partners-page-router.js:35
+msgid "Top Monthly Partners"
+msgstr "每月頂級合作夥伴"
+
+#: admin/views/partner-settings.php:234
+msgid "Show top monthly partners section"
+msgstr "顯示每月頂尖合作夥伴區塊"
+
+#: admin/views/partner-settings.php:235
+msgid "Show Top Monthly Partners"
+msgstr "顯示每月排名最高的合作夥伴"
+
+#: admin/views/partner-settings.php:239
+msgid "Number of top monthly partners to show"
+msgstr "顯示每月排名最高的合作夥伴數量"
+
+#: admin/views/partner-settings.php:249
+msgid "Show Avatars"
+msgstr "顯示頭像"
+
+#: admin/views/partner-settings.php:251
+msgid "Show partner avatars in widget"
+msgstr "在小工具中顯示合作夥伴頭像"
+
+#: admin/views/partner-settings.php:252
+msgid "Show tiny avatars next to partner names (24x24px)"
+msgstr "在合作夥伴名稱旁顯示小頭像 (24x24px)"
+
+#: admin/views/partner-settings.php:257
+msgid "Privacy Settings"
+msgstr "隱私設定"
+
+#: admin/views/partner-settings.php:258
+msgid "Page visibility for Partners and Activity boards"
+msgstr "合作夥伴和活動板的頁面可見性"
+
+#: admin/views/partner-settings.php:259
+msgid "Who can see the Partners and Activity pages"
+msgstr "誰可以查看合作夥伴和活動頁面"
+
+#: admin/views/partner-settings.php:260
+msgid "Everybody"
+msgstr "大家"
+
+#: admin/views/partner-settings.php:261
+msgid "Logged-in Only"
+msgstr "僅登入"
+
+#: admin/views/partner-settings.php:262
+msgid "Admin Only"
+msgstr "限管理員"
+
+#: admin/views/partner-settings.php:268
+msgid "Most Active Section"
+msgstr "最活躍的部分"
+
+#: admin/views/partner-settings.php:272
+msgid "Most Active Members"
+msgstr "最活躍會員"
+
+#: admin/views/partner-settings.php:275
+msgid "Show most active members section"
+msgstr "顯示最活躍會員部分"
+
+#: admin/views/partner-settings.php:276
+msgid "Show Most Active Members"
+msgstr "顯示最活躍的會員"
+
+#: admin/views/partner-settings.php:280
+msgid "Number of active members to show"
+msgstr "顯示的活躍會員數量"
+
+#: admin/views/partner-settings.php:292
+msgid "Show activity tier badge preview in widget"
+msgstr "在小工具中顯示活動層徽章預覽"
+
+#: admin/views/partner-settings.php:293
+msgid "Show active tier badge preview in widget"
+msgstr "在小工具中顯示活動等級徽章預覽"
+
+#: admin/views/partner-settings.php:299
+msgid "Header above activity tier badges"
+msgstr "活動等級徽章上方的標題"
+
+#: admin/views/partner-settings.php:300
+msgid ""
+"Header text above the activity tier badges (e.g., \"Activity Levels\", "
+"\"Engagement Tiers\")"
+msgstr "活動等級徽章上方的標題文字（例如「活動等級」、「參與等級」）"
+
+#: admin/views/partner-settings.php:308
+msgid "Leaderboard and Messaging Settings"
+msgstr "排行榜與訊息設定"
+
+#: admin/views/partner-settings.php:313
+msgid "Requires FluentCommunity Pro"
+msgstr "需要 FluentCommunity Pro"
+
+#: admin/views/partner-settings.php:315
+msgid "These features require FluentCommunity Pro to function."
+msgstr "這些功能需要 FluentCommunity Pro 才能運作。"
+
+#: admin/views/partner-settings.php:319
+msgid "FluentCommunity Pro Detected"
+msgstr "偵測到 FluentCommunity Pro"
+
+#: admin/views/partner-settings.php:327
+msgid ""
+"Disable FluentCommunity Leaderboard and Chat \"Points needed to initiate a "
+"new message\" setting (recommended)"
+msgstr "停用 FluentCommunity 排行榜和聊天「啟動新訊息所需的積分」設定（建議）"
+
+#: admin/views/partner-settings.php:329
+msgid ""
+"Prevents Leaderboard from being re-enabled in FluentCommunity settings. "
+"FluentCommunity's native point system only counts reactions, while Partner "
+"recognizes multiple engagement activities."
+msgstr ""
+"防止在 FluentCommunity 設定中重新啟用排行榜。 FluentCommunity 的原生積分系統僅計算反應，而 Partner "
+"則可辨識多種參與活動。"
+
+#: admin/views/partner-settings.php:333
+msgid "Exclude Users from Activity Board and Badges"
+msgstr "從活動板和徽章中排除使用者"
+
+#: admin/views/partner-settings.php:341
+msgid ""
+"Hidden from Activity Board rankings and activity badge assignment. Points "
+"still accumulate internally."
+msgstr "隱藏在活動板排名和活動徽章分配中。積分仍然在內部累積。"
+
+#: admin/views/partner-settings.php:348
+msgid "FluentCommunity Chat Enabled"
+msgstr "FluentCommunity 聊天已啟用"
+
+#: admin/views/partner-settings.php:353
+msgid "FluentCommunity Chat not detected"
+msgstr "未偵測到 FluentCommunity 聊天"
+
+#: admin/views/partner-settings.php:355
+msgid ""
+"Install and enable Messaging in FluentCommunity Features & Addons to use the"
+" messaging gate."
+msgstr "在 FluentCommunity 功能和外掛程式中安裝並啟用訊息傳遞以使用訊息傳送閘。"
+
+#: admin/views/partner-settings.php:360
+msgid ""
+"Points needed to initiate a new message thread with another member or send "
+"message to community chats"
+msgstr "與其他成員發起新訊息線程或向社群聊天發送訊息所需的積分"
+
+#: admin/views/partner-settings.php:363
+msgid "None (no restriction)"
+msgstr "無（無限制）"
+
+#: admin/views/partner-settings.php:371
+msgid "Custom"
+msgstr "風俗"
+
+#: admin/views/partner-settings.php:379
+msgid ""
+"Select an activity tier or set a custom point threshold. \"None\" disables "
+"this feature."
+msgstr "選擇活動等級或設定自訂積分閾值。 “無”停用此功能。"
+
+#: admin/views/partner-settings.php:387
+msgid "Fluent Messaging Active"
+msgstr "流暢的訊息傳遞活躍"
+
+#: admin/views/partner-settings.php:392
+msgid ""
+"Fluent Messaging Not Detected — Enable it in FluentCommunity Features & "
+"Addons"
+msgstr "未偵測到 Fluent 訊息傳遞 — 在 FluentCommunity 功能和插件中啟用它"
+
+#: admin/views/partner-settings.php:399
+msgid "Direct Message Sender"
+msgstr "直接訊息發送者"
+
+#: admin/views/partner-settings.php:401
+msgid "— Select sender —"
+msgstr "— 選擇寄件者 —"
+
+#: admin/views/partner-settings.php:408
+msgid "DMs will appear to come from this user."
+msgstr "私訊將顯示為來自該使用者。"
+
+#: admin/views/partner-settings.php:414
+msgid "Create FluentCRM tag and apply to member when activity tier reached"
+msgstr "建立 FluentCRM 標籤並在達到活動等級時套用至會員"
+
+#: admin/views/partner-settings.php:416
+msgid "Partner tiers already manage tags automatically."
+msgstr "合作夥伴等級已經自動管理標籤。"
+
+#: admin/views/partner-settings.php:422
+msgid "Default Partner Message"
+msgstr "預設合作夥伴訊息"
+
+#: admin/views/partner-settings.php:425
+msgid "Template for new partner tier DMs."
+msgstr "新合作夥伴層 DM 的範本。"
+
+#: admin/views/partner-settings.php:429
+msgid "Default Activity Message"
+msgstr "預設活動訊息"
+
+#: admin/views/partner-settings.php:432
+msgid "Template for new activity tier DMs."
+msgstr "新活動層 DM 的範本。"
+
+#: admin/views/partner-settings.php:436
+msgid "SmartCodes:"
+msgstr "智慧代碼："
+
+#: admin/views/partner-settings.php:438
+msgid "Toggle \"Send DM\" on a tier to reset its message to these defaults."
+msgstr "在圖層上切換「傳送 DM」可將其訊息重設為這些預設值。"
+
+#: admin/views/partner-settings.php:446
+msgid "Cron Information"
+msgstr "定時資訊"
+
+#: admin/views/partner-settings.php:450
+msgid "Server Cron"
+msgstr "伺服器定時任務"
+
+#: admin/views/partner-settings.php:455
+msgid "WP Cron"
+msgstr "WP 規劃任務"
+
+#: admin/views/partner-settings.php:460
+msgid "Server time:"
+msgstr "伺服器時間："
+
+#: admin/views/partner-settings.php:474
+msgid "Event Name"
+msgstr "活動名稱"
+
+#: admin/views/partner-settings.php:475
+msgid "Interval"
+msgstr "間隔"
+
+#: admin/views/partner-settings.php:476
+msgid "Next Run"
+msgstr "下次運行"
+
+#: admin/views/partner-settings.php:477
+msgid "Last Run"
+msgstr "最後一次運行"
+
+#. translators: %s: human-readable time difference
+#: admin/views/partner-settings.php:509 admin/views/partner-settings.php:555
+#, php-format
+msgid "in %s"
+msgstr "在%s中"
+
+#: admin/views/partner-settings.php:512 admin/views/partner-settings.php:558
+msgid "Not scheduled"
+msgstr "未安排"
+
+#. translators: %1$s: memory limit, %2$s: usage percentage, %3$s: max
+#. execution time
+#: admin/views/partner-settings.php:586
+#, php-format
+msgid ""
+"Server Memory Limit: %1$s. Current usage: %2$s%%. Max Execution Time: %3$s "
+"seconds"
+msgstr "伺服器記憶體限制：%1$s。目前使用情況：%2$s%%。最大執行時間：%3$s 秒"
+
+#. translators: %1$s: opening link tag, %2$s: closing link tag
+#: admin/views/partner-settings.php:603
+#, php-format
+msgid ""
+"WP Cron is disabled in wp-config.php so cron will not function unless you "
+"have a server side cron job configured to use wp-cron.php on a schedule. "
+"%1$sLearn more%2$s."
+msgstr ""
+"WP Cron 在 wp-config.php 中被停用，因此除非您將伺服器端 cron 作業配置為按計畫使用 wp-cron.php，否則 cron "
+"將無法運行。 %1$s了解更多%2$s。"
+
+#. translators: %1$s: opening link tag, %2$s: closing link tag
+#: admin/views/partner-settings.php:616
+#, php-format
+msgid ""
+"WP Cron is enabled, so scheduled tasks depend on site traffic to trigger. "
+"Consider enabling server side cron for more reliable scheduling. %1$sLearn "
+"how%2$s."
+msgstr "WP Cron 已啟用，因此排程任務取決於網站流量來觸發。考慮啟用伺服器端 cron 以實現更可靠的調度。 %1$s了解如何%2$s。"
+
+#: admin/views/partner-settings.php:637
+msgid "In Case of Emergency"
+msgstr "緊急情況下"
+
+#: admin/views/partner-settings.php:640
+msgid ""
+"Use if database corruption or website issues have broken your product "
+"configuration. This will reset the product to the original FC Partner "
+"template, losing any custom pricing, images, or descriptions."
+msgstr "如果資料庫損壞或網站問題破壞了您的產品配置，請使用。這會將產品重設為原始 FC 合作夥伴模板，丟失任何自訂定價、圖像或說明。"
+
+#: admin/views/partner-settings.php:642
+msgid ""
+"Recreate from Original Template?\n"
+"\n"
+"This will delete your current product and create a fresh one using FC Partner's original template. Any custom pricing, images, and descriptions will be lost.\n"
+"\n"
+"Use this if database corruption or website issues have broken your product configuration.\n"
+"\n"
+"Proceed?"
+msgstr ""
+"從原始模板重新建立？\n"
+"\n"
+"這將刪除您目前的產品並使用 FC Partner 的原始範本建立新產品。任何自訂定價、圖像和描述都將遺失。\n"
+"\n"
+"如果資料庫損壞或網站問題破壞了您的產品配置，請使用此選項。\n"
+"\n"
+"繼續？"
+
+#: admin/views/partner-settings.php:644
+msgid "Reset product to original FC Partner template"
+msgstr "將產品重設為原始 FC 合作夥伴模板"
+
+#: admin/views/partner-settings.php:646
+msgid "Reset Product to Original Template. Customizations will be lost!"
+msgstr "將產品重設為原始模板。自訂將會遺失！"
+
+#: admin/views/partner-settings.php:653
+msgid ""
+"Reset the coupon notification email template to the default FC Partner "
+"template."
+msgstr "將優惠券通知電子電子郵件範本重設為預設的 FC 合作夥伴範本。"
+
+#: admin/views/partner-settings.php:655
+msgid ""
+"Reset Email Template?\n"
+"\n"
+"This will delete your current email template and recreate it using FC Partner's default template. Any custom subject, body, or design will be lost.\n"
+"\n"
+"Proceed?"
+msgstr ""
+"重置电子邮件模板？\n"
+"\n"
+"這將刪除您目前的電子電子郵件範本並使用 FC 合作夥伴的預設範本重新建立它。任何自訂主題、主體或設計都將遺失。\n"
+"\n"
+"繼續？"
+
+#: admin/views/partner-settings.php:657
+msgid "Reset email template to default"
+msgstr "將電子電子郵件範本重設為預設值"
+
+#: admin/views/partner-settings.php:659
+msgid "Reset Email Template to Default"
+msgstr "將電子電子郵件範本重設為預設值"
+
+#: admin/views/partner-settings.php:676
+msgid "Restore dismissed companion plugin banners"
+msgstr "恢復已關閉的配套插件橫幅"
+
+#: admin/views/partner-settings.php:676
+msgid "Banners"
+msgstr "橫幅"
+
+#: admin/views/partner-settings.php:678
+msgid ""
+"Enable to show health alerts everywhere in WP admin instead of only in "
+"plugin. Recommend leave enabled."
+msgstr "啟用在 WP 管理中的任何位置顯示健康警報，而不僅僅是在外掛程式中。建議保持啟用狀態。"
+
+#: admin/views/partner-settings.php:679
+msgid "Global health alerts"
+msgstr "全球健康警報"
+
+#: admin/views/partner-settings.php:693 admin/js/admin-scripts.js:383
+msgid "Pro Active"
+msgstr "積極主動的"
+
+#: admin/views/partner-settings.php:695 admin/views/partner-settings.php:701
+#: admin/js/admin-scripts.js:385 admin/js/admin-scripts.js:463
+#: admin/js/admin-scripts.js:468
+msgid "Deactivate"
+msgstr "停用"
+
+#: admin/views/partner-settings.php:700
+msgid "Renew"
+msgstr "更新"
+
+#: admin/views/partner-settings.php:705 admin/js/admin-scripts.js:395
+msgid "License key"
+msgstr "許可證密鑰"
+
+#: admin/views/partner-settings.php:706 admin/js/admin-scripts.js:396
+#: admin/js/admin-scripts.js:430 admin/js/admin-scripts.js:435
+msgid "Activate"
+msgstr "啟用設定"
+
+#: admin/views/partner-settings.php:714
+msgid "Check out our other plugins for Fluent Suite and WordPress"
+msgstr "查看我們適用於 Fluent Suite 和 WordPress 的其他插件"
+
+#: admin/views/partner-settings.php:726
+msgid "Join Our Community"
+msgstr "加入我們的社區"
+
+#: admin/views/partner-settings.php:747
+msgid "Saved"
+msgstr "已儲存"
+
+#: admin/views/partner-settings.php:747
+msgid "Save failed"
+msgstr "儲存失敗"
+
+#: admin/views/partner-settings.php:765
+msgid "Search users..."
+msgstr "搜尋使用者..."
+
+#: admin/views/partner-settings.php:816
+msgid "Banners restored"
+msgstr "橫幅已恢復"
+
+#: admin/views/setup-page.php:26 admin/js/setup.js:205
+msgid "You're all set."
+msgstr "你已經準備好了。"
+
+#: admin/views/setup-page.php:28
+msgid "Partner needs a few things before it can get started."
+msgstr "合作夥伴在開始之前需要做一些事情。"
+
+#: admin/views/setup-page.php:35
+msgid "FluentCommunity"
+msgstr "FluentCommunity"
+
+#: admin/views/setup-page.php:38 admin/views/setup-page.php:46
+#: admin/views/setup-page.php:65 admin/js/setup.js:85
+msgid "Active"
+msgstr "積極的"
+
+#: admin/views/setup-page.php:38 admin/views/setup-page.php:56
+#: admin/views/setup-page.php:75 admin/js/setup.js:94
+msgid "Not Detected"
+msgstr "未檢測到"
+
+#: admin/views/setup-page.php:42
+msgid "FluentCRM"
+msgstr "FluentCRM"
+
+#: admin/views/setup-page.php:51 admin/views/setup-page.php:70
+#: admin/js/setup.js:89
+msgid "Needs Setup"
+msgstr "需要設定"
+
+#: admin/views/setup-page.php:61
+msgid "FluentCart"
+msgstr "FluentCart"
+
+#: admin/views/setup-page.php:92
+msgid ""
+"FluentCRM auto-subscribe is not enabled and FluentCart User Account Creation"
+" Mode is not set to automatic. Partner will set both for you now."
+msgstr "FluentCRM 自動訂閱未啟用，FluentCart 使用者帳號建立模式未設定為自動。合作夥伴現在將為您設定兩者。"
+
+#: admin/views/setup-page.php:94
+msgid ""
+"FluentCRM auto-subscribe is not enabled. New WordPress users will not get "
+"CRM contacts."
+msgstr "FluentCRM 自動訂閱未啟用。新的 WordPress 使用者將不會獲得 CRM 聯絡人。"
+
+#: admin/views/setup-page.php:96
+msgid ""
+"Partner requires FluentCart User Account Creation Mode set to create user "
+"accounts automatically. Partner will set this for you now."
+msgstr "合作夥伴需要將 FluentCart 使用者帳號建立模式設定為自動建立使用者帳號。合作夥伴現在將為您設定。"
+
+#. translators: %d: number of orphaned users
+#: admin/views/setup-page.php:108
+#, php-format
+msgid ""
+"%d users still need CRM contacts — the health monitor will repair these "
+"automatically."
+msgstr "%d 個使用者仍需要 CRM 聯絡人 — 執行狀況監視器將自動修復這些聯絡人。"
+
+#: admin/views/setup-page.php:118
+msgid "Setup is complete."
+msgstr "設定完成。"
+
+#: admin/views/setup-page.php:119
+msgid "Partner is running."
+msgstr "夥伴正在奔跑。"
+
+#: admin/views/setup-page.php:124 admin/views/setup-page.php:212
+msgid "Go to Partner Dashboard"
+msgstr "前往合作夥伴儀表板"
+
+#: admin/views/setup-page.php:134
+msgid ""
+"Partner contribution tracking requires FluentCart for payment processing. "
+"Activity board features work without it."
+msgstr "合作夥伴貢獻追蹤需要 FluentCart 進行付款處理。活動板功能無需它即可工作。"
+
+#: admin/views/setup-page.php:144
+msgid "FC Partner will:"
+msgstr "FC 合作夥伴將："
+
+#: admin/views/setup-page.php:149
+msgid ""
+"Enable FluentCRM auto-subscribe so new WordPress users get CRM contacts"
+msgstr "啟用 FluentCRM 自動訂閱，讓新 WordPress 使用者獲得 CRM 聯絡人"
+
+#: admin/views/setup-page.php:152
+msgid "Set FluentCart to create user accounts automatically after payment"
+msgstr "設定FluentCart付款後自動建立使用者帳號"
+
+#. translators: %s: orphan count wrapped in <strong>
+#: admin/views/setup-page.php:158
+#, php-format
+msgid "Import %s existing users without CRM contacts"
+msgstr "匯入 %s 個沒有 CRM 聯絡人的現有使用者"
+
+#: admin/views/setup-page.php:167
+msgid "DMs will be sent from:"
+msgstr "DM 將從以下地址發送："
+
+#: admin/views/setup-page.php:181
+msgid "Your existing settings and data will not be changed."
+msgstr "您現有的設定和資料不會變更。"
+
+#: admin/views/setup-page.php:189
+msgid "Importing users..."
+msgstr "正在導入使用者..."
+
+#: admin/views/setup-page.php:195
+msgid "Please don't close this page."
+msgstr "請不要關閉此頁面。"
+
+#: admin/views/setup-page.php:221 admin/js/setup.js:46
+msgid "Check Again"
+msgstr "再次檢查"
+
+#: admin/views/setup-page.php:224 admin/js/setup.js:126
+msgid "Agree & Start Using Partner"
+msgstr "同意並開始使用合作夥伴"
+
+#: admin/views/tiers.php:29
+msgid "Partner for FluentCommunity - Partner Tiers"
+msgstr "FluentCommunity 合作夥伴 - 合作夥伴級別"
+
+#: admin/views/tiers.php:48
+msgid "Auto-generate unique coupon codes for tier rewards"
+msgstr "自動產生獨特的優惠券代碼以獲得等級獎勵"
+
+#: admin/views/tiers.php:50
+msgid ""
+"Install \"Unique Coupon Codes for FluentCart\" to create one-time-use "
+"coupons for each partner tier."
+msgstr "安裝“FluentCart 的獨特優惠券代碼”，為每個合作夥伴等級創建一次性優惠券。"
+
+#: admin/views/tiers.php:51
+msgid "Learn more"
+msgstr "了解更多"
+
+#: admin/views/tiers.php:53
+msgid "Dismiss"
+msgstr "解僱"
+
+#: admin/views/tiers.php:82
+msgid ""
+"Configure partner tiers. Each tier automatically awards a badge (using the "
+"icon) when partners qualify. Tiers are auto-sorted by contribution amount "
+"(highest first). Verified badge is awarded to the selected tier and above. "
+"Unlocked spaces are specific to each tier — to grant a space to multiple "
+"tiers, add it to each one."
+msgstr ""
+"配置合作夥伴等級。當合作夥伴符合條件時，每個等級都會自動授予徽章（使用圖示）。等級會以貢獻金額自動排序（最高的在前）。經過驗證的徽章將授予所選級別及以上級別。解鎖的空間特定於每一層"
+" - 若要向多個層授予空間，請將其新增至每一層。"
+
+#: admin/views/tiers.php:88
+msgid "Min $"
+msgstr "最低$"
+
+#: admin/views/tiers.php:89
+msgid "Verified"
+msgstr "已驗證"
+
+#: admin/views/tiers.php:90
+msgid "Coupon"
+msgstr "優惠券"
+
+#: admin/views/tiers.php:91
+msgid "Unlock Spaces"
+msgstr "解鎖空間"
+
+#: admin/views/tiers.php:152 admin/views/tiers.php:338
+msgid "Minimum contribution to reach this tier"
+msgstr "達到此等級的最低貢獻"
+
+#: admin/views/tiers.php:158 admin/views/tiers.php:349
+msgid "Verified badge — this tier and above"
+msgstr "已驗證徽章 - 此等級及以上"
+
+#: admin/views/tiers.php:170 admin/views/tiers.php:352
+msgid "Select coupon to send when tier reached"
+msgstr "選擇達到等級時要寄出的優惠券"
+
+#: admin/views/tiers.php:173 admin/views/tiers.php:312
+msgid "No coupons available"
+msgstr "沒有可用優惠券"
+
+#: admin/views/tiers.php:175 admin/views/tiers.php:314
+msgid "No coupon selected"
+msgstr "未選擇優惠券"
+
+#: admin/views/tiers.php:187 admin/views/tiers.php:355
+msgid "Select spaces to unlock when tier reached"
+msgstr "選擇達到等級後解鎖的空間"
+
+#: admin/views/tiers.php:192
+msgid "[Course]"
+msgstr "[課程]"
+
+#: admin/views/tiers.php:210
+msgid "Add a new partner tier"
+msgstr "新增的合作夥伴級別"
+
+#: admin/views/tiers.php:214 admin/views/tiers.php:232
+msgid "Save all tier changes"
+msgstr "儲存所有級別更改"
+
+#: admin/views/tiers.php:264
+msgid "Minimum threshold required for tier"
+msgstr "級別所需的最低閾值"
+
+#: admin/views/tiers.php:282
+msgid "Duplicate threshold on tiers"
+msgstr "各層的重複閾值"
+
+#: admin/views/tiers.php:369 admin/views/tiers.php:478
+msgid "Select spaces..."
+msgstr "選擇空格..."
+
+#: admin/views/tiers.php:382
+msgid "You must have at least one tier."
+msgstr "您必須至少擁有一層。"
+
+#: admin/views/tiers.php:740
+msgid "partner(s) affected"
+msgstr "受影響的合作夥伴"
+
+#: fc-partner.php:161
+msgid "FC Partner Error:"
+msgstr "FC 合作夥伴錯誤："
+
+#: fc-partner.php:518
+msgid "FluentCommunity Partner Program"
+msgstr "Fluent社區合作夥伴計畫"
+
+#: fc-partner.php:519
+msgid "requires FluentCommunity to be installed and active."
+msgstr "需要安裝並啟動 FluentCommunity。"
+
+#: fc-partner.php:673
+msgid "Requires:"
+msgstr "要求："
+
+#: includes/class-activator.php:30
+msgid ""
+"FluentCommunity Partner Program requires FluentCommunity to be installed and"
+" active."
+msgstr "FluentCommunity 合作夥伴計畫要求安裝並啟動 FluentCommunity。"
+
+#: includes/class-activator.php:31
+msgid "Plugin Activation Error"
+msgstr "外掛程式啟動錯誤"
+
+#: includes/class-activator.php:381 includes/class-activator.php:458
+msgid ""
+"FC Partner requires automatic account creation. This setting has been "
+"restored."
+msgstr "FC 合作夥伴需要自動建立帳號。此設定已恢復。"
+
+#: includes/class-activator.php:425
+msgid ""
+"FC Partner requires FluentCRM auto-subscribe. This setting has been "
+"restored."
+msgstr "FC 合作夥伴需要 FluentCRM 自動訂閱。此設定已恢復。"
+
+#: includes/class-activity-page.php:34
+msgid "Reactions Received"
+msgstr "收到的反應"
+
+#: includes/class-activity-page.php:35
+msgid "Comments Received"
+msgstr "收到的評論"
+
+#: includes/class-activity-page.php:36
+msgid "Posts"
+msgstr "貼文"
+
+#: includes/class-activity-page.php:37
+msgid "Comments"
+msgstr "評論"
+
+#: includes/class-activity-page.php:38
+msgid "Completed Courses"
+msgstr "已完成的課程"
+
+#: includes/class-activity-page.php:39
+msgid "Reactions Given"
+msgstr "給予的反應"
+
+#. translators: %s: comma-separated list of invalid coupon codes
+#: includes/class-admin-notices.php:30
+#, php-format
+msgid ""
+"Invalid coupon codes detected: %s. Re-enable in FluentCart or remove from "
+"tier."
+msgstr "偵測到無效的優惠券代碼：%s。在 FluentCart 中重新啟用或從圖層中刪除。"
+
+#. translators: %1$s: coupon code, %2$s: partner name
+#: includes/class-admin-notices.php:35
+#, php-format
+msgid "Coupon \"%1$s\" is invalid. Perk skipped for %2$s."
+msgstr "優惠券“%1$s”無效。福利跳過 %2$s。"
+
+#. translators: %1$s: current tag name, %2$s: expected tag name
+#: includes/class-admin-notices.php:40
+#, php-format
+msgid ""
+"Tag \"%1$s\" renamed externally (expected \"%2$s\"). Run sync to restore or "
+"rename tier."
+msgstr "標記“%1$s”已從外部重新命名（應為“%2$s”）。運行同步以恢復或重新命名層。"
+
+#. translators: %1$s: current badge name, %2$s: expected badge name
+#: includes/class-admin-notices.php:45
+#, php-format
+msgid ""
+"Badge \"%1$s\" renamed externally (expected \"%2$s\"). Run sync to restore "
+"or rename tier."
+msgstr "徽章“%1$s”已從外部重新命名（應為“%2$s”）。運行同步以恢復或重新命名層。"
+
+#. translators: %s: tier name
+#: includes/class-admin-notices.php:50
+#, php-format
+msgid "Space removed from tier \"%s\". Space was deleted in FluentCommunity."
+msgstr "空間已從圖層“%s”移除。 FluentCommunity 中的空格已刪除。"
+
+#. translators: %s: partner name
+#: includes/class-admin-notices.php:55
+#, php-format
+msgid "Badge for \"%s\" was manually removed. Will not auto-restore."
+msgstr "「%s」的徽章已被手動刪除。不會自動恢復。"
+
+#: includes/class-admin-notices.php:59
+#: includes/class-health-monitor-renderer.php:182
+msgid "FluentCRM is not active. Partner features are disabled."
+msgstr "FluentCRM 未啟動。合作夥伴功能已停用。"
+
+#: includes/class-admin-notices.php:63
+msgid "FluentCommunity is not active. Partner features are disabled."
+msgstr "FluentCommunity 不活躍。合作夥伴功能已停用。"
+
+#: includes/class-admin-notices.php:67
+msgid "FluentCart is not active. Partner features are disabled."
+msgstr "FluentCart 未啟動。合作夥伴功能已停用。"
+
+#: includes/class-admin-notices.php:71
+msgid "Partner list not found in FluentCRM. Run Sync to repair."
+msgstr "FluentCRM 中未找到合作夥伴清單。運行同步來修復。"
+
+#. translators: %s: product status (e.g., "draft")
+#: includes/class-admin-notices.php:76
+#, php-format
+msgid ""
+"Partner product is %s. Visitors cannot make contributions until it is "
+"published."
+msgstr "合作夥伴產品是 %s。在文章發布之前，訪客不能做出貢獻。"
+
+#: includes/class-admin-notices.php:91
+#: includes/class-health-monitor-renderer.php:128
+#: includes/class-health-monitor-renderer.php:156
+msgid "FC Partner:"
+msgstr "FC合作夥伴："
+
+#: includes/class-admin-notices.php:229
+msgid "Restore Badge"
+msgstr "恢復徽章"
+
+#: includes/class-admin-notices.php:231
+msgid "Intentional - Dismiss"
+msgstr "故意 - 駁回"
+
+#: includes/class-campaign-manager.php:169
+msgid "FC Partner: Tier Upgrade Notification"
+msgstr "FC 合作夥伴：等級升級通知"
+
+#: includes/class-core.php:217
+msgid "Instance key is required for registration."
+msgstr "註冊時需要實例密鑰。"
+
+#: includes/class-core.php:251
+msgid "Instance registered successfully!"
+msgstr "實例註冊成功！"
+
+#: includes/class-core.php:276
+msgid "Instance unregistered locally."
+msgstr "實例在本地取消註冊。"
+
+#: includes/class-core.php:282
+msgid "Instance unregistered successfully."
+msgstr "實例註銷成功。"
+
+#: includes/class-cron-manager.php:36 includes/class-cron-manager.php:126
+msgid "Every 5 Minutes"
+msgstr "每 5 分鐘一班"
+
+#: includes/class-cron-manager.php:42 includes/class-cron-manager.php:127
+msgid "Every 15 Minutes"
+msgstr "每 15 分鐘一班"
+
+#: includes/class-cron-manager.php:48 includes/class-cron-manager.php:128
+msgid "Every 30 Minutes"
+msgstr "每 30 分鐘一班"
+
+#: includes/class-cron-manager.php:129
+msgid "Every Hour"
+msgstr "每小時"
+
+#: includes/class-cron-manager.php:130
+msgid "Twice Daily"
+msgstr "每日兩次"
+
+#: includes/class-cron-manager.php:131
+msgid "Daily"
+msgstr "日常的"
+
+#: includes/class-fluentcart-product.php:47
+msgid ""
+"Join our community of partners! Your monthly or one-time partnership earns you permanent recognition in the community, including a verified badge, tier status, a place on our Partners page, and a special place in our ❤️\n"
+"\n"
+"Every level of support helps us grow and makes the community stronger 💪"
+msgstr ""
+"加入我們的合作夥伴社群！您的每月或一次性合作夥伴關係將為您贏得社區中的永久認可，包括經過驗證的徽章、等級狀態、我們的合作夥伴頁面上的位置以及我們❤️中的特殊位置\n"
+"\n"
+"每個等級的支持都有助於我們成長並使社區變得更強大 💪"
+
+#: includes/class-fluentcart-product.php:61
+msgid ""
+"Become a partner and join supporters who make this community possible. Your "
+"contributions earn you permanent recognition that never goes away."
+msgstr "成為合作夥伴並加入支持者，使這個社區成為可能。您的貢獻將為您贏得永遠不會消失的永久認可。"
+
+#: includes/class-fluentcart-product.php:69
+msgid "What You Get"
+msgstr "你得到什麼"
+
+#: includes/class-fluentcart-product.php:73
+msgid "Verified checkmark badge visible throughout the community"
+msgstr "經過驗證的複選標記徽章在整個社區中可見"
+
+#: includes/class-fluentcart-product.php:73
+msgid "Tier-specific badge based on your total contributions"
+msgstr "根據您的總貢獻獲得特定等級徽章"
+
+#: includes/class-fluentcart-product.php:73
+msgid "Recognition on the Partners page"
+msgstr "合作夥伴頁面上的認可"
+
+#: includes/class-fluentcart-product.php:73
+msgid "Permanent status because badges are never removed"
+msgstr "永久狀態，因為徽章永遠不會被移除"
+
+#: includes/class-fluentcart-product.php:77
+msgid "How It Works"
+msgstr "它是如何運作的"
+
+#: includes/class-fluentcart-product.php:81
+msgid ""
+"All contributions count toward your tier, whether monthly or one-time. "
+"Upgrade tiers automatically as you contribute more. Subscribe monthly and "
+"make one-time contributions to reach higher tiers faster."
+msgstr "所有貢獻都計入您的等級，無論是每月還是一次性。當您貢獻更多時，自動升級等級。每月訂閱並進行一次性貢獻，以更快地達到更高的等級。"
+
+#: includes/class-fluentcart-product.php:96
+msgid "FluentCart is not active"
+msgstr "FluentCart 未啟動"
+
+#: includes/class-fluentcart-product.php:104
+msgid "Partner product already exists"
+msgstr "合作夥伴產品已存在"
+
+#: includes/class-fluentcart-product.php:112
+#: includes/class-fluentcart-product.php:667
+#: includes/class-partners-controller.php:53
+#: includes/class-partners-controller.php:493
+#: includes/class-partners-controller.php:517
+msgid "Thank you for supporting our community!"
+msgstr "感謝您對我們社區的支持！"
+
+#: includes/class-fluentcart-product.php:399
+msgid "FC Partner Product Image"
+msgstr "FC 合作夥伴產品圖片"
+
+#: includes/class-fluentcart-product.php:433
+msgid "FluentCommunity Partner"
+msgstr "Fluent社區合作夥伴"
+
+#: includes/class-health-monitor-renderer.php:185
+msgid "FluentCommunity is not active. Badges and widget will not display."
+msgstr "FluentCommunity 不活躍。徽章和小工具將不會顯示。"
+
+#: includes/class-health-monitor-renderer.php:188
+msgid "FluentCart is not active. Partners cannot make contributions."
+msgstr "FluentCart 未啟動。合夥人不能捐款。"
+
+#: includes/class-health-monitor-renderer.php:191
+msgid ""
+"Someone deleted the partner product from FluentCart, but FC Partner "
+"recreated it automatically."
+msgstr "有人從 FluentCart 中刪除了合作夥伴產品，但 FC Partner 自動重新建立了它。"
+
+#: includes/class-health-monitor-renderer.php:196
+msgid "a draft"
+msgstr "草稿"
+
+#: includes/class-health-monitor-renderer.php:197
+msgid "private"
+msgstr "私人的"
+
+#: includes/class-health-monitor-renderer.php:198
+msgid "scheduled"
+msgstr "預定的"
+
+#: includes/class-health-monitor-renderer.php:200
+msgid "not published"
+msgstr "未發表"
+
+#. translators: %s: product status (e.g., "a draft")
+#: includes/class-health-monitor-renderer.php:202
+#, php-format
+msgid ""
+"Partner product is %s. Visitors cannot contribute until it is published."
+msgstr "合作夥伴產品是 %s。在發布之前，訪客無法做出貢獻。"
+
+#: includes/class-health-monitor-renderer.php:205
+msgid ""
+"Partner list not found in FluentCRM. Click Fix Now to run sync and recreate "
+"it."
+msgstr "FluentCRM 中未找到合作夥伴清單。點選立即修復以運行同步並重新建立它。"
+
+#: includes/class-health-monitor-renderer.php:208
+msgid ""
+"No payment method is configured in FluentCart. Partners cannot contribute."
+msgstr "FluentCart 中未配置付款方式。合作夥伴不能做出貢獻。"
+
+#. translators: %1$s: actual tag name, %2$s: expected name
+#: includes/class-health-monitor-renderer.php:214
+#, php-format
+msgid "Tag \"%1$s\" renamed externally (expected \"%2$s\")."
+msgstr "標記“%1$s”已從外部重新命名（應為“%2$s”）。"
+
+#. translators: %1$s: actual badge name, %2$s: expected name
+#: includes/class-health-monitor-renderer.php:220
+#, php-format
+msgid "Badge \"%1$s\" renamed externally (expected \"%2$s\")."
+msgstr "徽章“%1$s”已從外部重新命名（應為“%2$s”）。"
+
+#. translators: %1$s: coupon code, %2$s: tier name
+#: includes/class-health-monitor-renderer.php:226
+#, php-format
+msgid ""
+"Coupon \"%1$s\" is invalid in tier \"%2$s\". Re-enable in FluentCart or "
+"remove from tier."
+msgstr "優惠券“%1$s”在層“%2$s”中無效。在 FluentCart 中重新啟用或從圖層中刪除。"
+
+#: includes/class-health-monitor-renderer.php:229
+msgid ""
+"Sync drift detected. Tags, badges, or tier assignments may be out of sync."
+msgstr "檢測到同步漂移。标签、徽章或等级分配可能不同步。"
+
+#: includes/class-health-monitor-renderer.php:232
+msgid "Badge assignments do not match tier tags. Run sync to repair."
+msgstr "徽章分配與等級標籤不符。運行同步來修復。"
+
+#: includes/class-health-monitor-renderer.php:235
+msgid ""
+"Badges are disabled in FluentCommunity. Partner badges will not display."
+msgstr "FluentCommunity 中停用徽章。合作夥伴徽章不會顯示。"
+
+#. translators: %d: number of out-of-sync activity badge assignments
+#: includes/class-health-monitor-renderer.php:242
+#, php-format
+msgid "%d activity badge assignment is out of sync."
+msgid_plural "%d activity badge assignments are out of sync."
+msgstr[0] "%d 個活動徽章分配不同步。"
+
+#: includes/class-health-monitor-renderer.php:251
+msgid "Activity badge assignments are out of sync."
+msgstr "活動徽章分配不同步。"
+
+#. translators: %d: number of orphaned users
+#: includes/class-health-monitor-renderer.php:256
+#, php-format
+msgid "%d WordPress users have no FluentCRM contacts."
+msgstr "%d WordPress 使用者沒有 FluentCRM 聯絡人。"
+
+#: includes/class-health-monitor-renderer.php:259
+msgid "An unknown health issue was detected."
+msgstr "檢測到未知的健康問題。"
+
+#: includes/class-health-monitor-renderer.php:272
+msgid "Install and activate FluentCRM to restore partner functionality."
+msgstr "請安裝並啟用 FluentCRM，以恢復合作夥伴功能。"
+
+#: includes/class-health-monitor-renderer.php:275
+msgid ""
+"Install and activate FluentCommunity to restore badges and widget display."
+msgstr "安裝並啟動 FluentCommunity 以恢復徽章和小部件顯示。"
+
+#: includes/class-health-monitor-renderer.php:278
+msgid "Install and activate FluentCart to enable partner contributions."
+msgstr "安裝並啟動 FluentCart 以啟用合作夥伴貢獻。"
+
+#: includes/class-health-monitor-renderer.php:281
+msgid ""
+"The new product may have a different ID. Check your FluentCart product "
+"settings if needed."
+msgstr "新產品可能有不同的 ID。如果需要，請檢查您的 FluentCart 產品設定。"
+
+#: includes/class-health-monitor-renderer.php:284
+msgid ""
+"The fc-partner list was deleted from FluentCRM. Run Sync Now to recreate it."
+msgstr "fc 合作夥伴清單已從 FluentCRM 中刪除。運行“立即同步”來重新創建它。"
+
+#: includes/class-health-monitor-renderer.php:287
+msgid ""
+"Configure a payment method in FluentCart Settings to enable contributions."
+msgstr "在 FluentCart 設定中配置付款方式以啟用貢獻。"
+
+#: includes/class-health-monitor-renderer.php:355
+msgid "Edit Product"
+msgstr "編輯產品"
+
+#: includes/class-health-monitor-renderer.php:358
+msgid "Community Settings"
+msgstr "社群設定"
+
+#: includes/class-health-monitor-renderer.php:361
+msgid "Sync Now"
+msgstr "立即同步"
+
+#: includes/class-health-monitor-renderer.php:364
+msgid "Import Now"
+msgstr "立即導入"
+
+#: includes/class-health-monitor-renderer.php:367
+msgid "Fix Now"
+msgstr "立即修復"
+
+#: includes/class-health-monitor.php:870
+msgid "Missing issue key."
+msgstr "缺少問題密鑰。"
+
+#: includes/class-health-monitor.php:876
+msgid "Issue not found."
+msgstr "未發現問題。"
+
+#. translators: 1: tier slug, 2: contact ID
+#: includes/class-ltv-watcher.php:308
+#, php-format
+msgid ""
+"Tier tag \"%1$s\" not found in FluentCRM. Partner #%2$d qualified but was "
+"not assigned. Run tier sync to create missing tags."
+msgstr "在 FluentCRM 中找不到層標記「%1$s」。合作夥伴 #%2$d 符合資格但未分配。運行層同步以建立缺少的標籤。"
+
+#: includes/class-partners-controller.php:52
+#: includes/class-partners-controller.php:492
+#: includes/class-partners-controller.php:516
+msgid "Our Partners"
+msgstr "我們的合作夥伴"
+
+#: includes/class-partners-controller.php:73
+msgid "Partners page is currently disabled."
+msgstr "合作夥伴頁面目前已停用。"
+
+#: includes/class-partners-controller.php:525
+msgid "Partners page settings saved successfully."
+msgstr "合作夥伴頁面設定已成功儲存。"
+
+#. translators: %d: contact ID
+#: includes/class-payment-handler.php:136
+#, php-format
+msgid "Atomic LTV update failed for contact #%d. Attempting ORM fallback."
+msgstr "聯絡人 #%d 的原子 LTV 更新失敗。嘗試 ORM 回退。"
+
+#. translators: %d: contact ID
+#: includes/class-payment-handler.php:299
+#, php-format
+msgid "Atomic LTV refund failed for contact #%d. Attempting ORM fallback."
+msgstr "聯絡人 #%d 的原子 LTV 退款失敗。嘗試 ORM 回退。"
+
+#: includes/class-perk-manager.php:445
+msgid "there"
+msgstr "那裡"
+
+#: includes/class-perk-manager.php:591
+msgid "Coupon generation failed — tier email skipped"
+msgstr "優惠券生成失敗 - 層級電子電子郵件被跳過"
+
+#: includes/class-perk-manager.php:602
+msgid "Tier upgrade campaign not available — email skipped"
+msgstr "等級升級活動不可用 - 電子電子郵件被跳過"
+
+#: includes/class-perk-manager.php:629
+msgid "Subscriber not found — tier email skipped"
+msgstr "未找到訂閱者 — 層級電子電子郵件已被跳過"
+
+#: includes/class-plugin-updater.php:86
+msgid "Check Update"
+msgstr "檢查更新"
+
+#: includes/class-plugin-updater.php:198
+msgid "No data found for this plugin"
+msgstr "沒有找到該插件的資料"
+
+#: includes/class-portal-pages.php:285
+msgid "You do not have permission to view this page."
+msgstr "您沒有權限查看此頁面。"
+
+#: includes/class-shortcodes.php:48
+msgid "No partner tiers configured."
+msgstr "未配置合作夥伴等級。"
+
+#. translators: %d is the number of activity badges repaired during sync
+#: includes/class-sync-engine.php:220
+#, php-format
+msgid "Repaired %d activity badge"
+msgid_plural "Repaired %d activity badges"
+msgstr[0] "已修復 %d 個活動徽章"
+
+#: includes/class-sync-engine.php:250
+msgid "Sync already in progress. Please wait."
+msgstr "同步已在進行中。請稍等。"
+
+#: includes/class-sync-engine.php:288
+msgid "Everything up to date"
+msgstr "一切都是最新的"
+
+#. translators: %1$s: old tier slug, %2$s: new tier name
+#: includes/class-sync-engine.php:415
+#, php-format
+msgid "Renamed: %1$s → %2$s"
+msgstr "已重新命名：%1$s → %2$s"
+
+#. translators: %s: tier name that messaging gate was promoted to
+#: includes/class-sync-engine.php:457
+#, php-format
+msgid "Messaging gate promoted to %s (deleted tier was gate)"
+msgstr "訊息傳送閘升級為 %s（刪除的圖層是門）"
+
+#. translators: %s: tier name that messaging gate fell back to
+#: includes/class-sync-engine.php:467
+#, php-format
+msgid "Messaging gate moved to %s (deleted tier was gate)"
+msgstr "訊息傳送門已移至 %s（刪除的圖層是門）"
+
+#: includes/class-sync-engine.php:473
+msgid "Messaging gate set to custom (all tiers deleted)"
+msgstr "訊息傳遞閘設定為自訂（所有圖層均已刪除）"
+
+#. translators: %s: comma-separated list of removed tier names
+#: includes/class-sync-engine.php:487
+#, php-format
+msgid "Removed: %s"
+msgstr "已刪除：%s"
+
+#. translators: %s: comma-separated list of new tier names
+#: includes/class-sync-engine.php:497
+#, php-format
+msgid "New: %s"
+msgstr "訊息"
+
+#. translators: %1$s: tier name, %2$s: old threshold, %3$s: new threshold
+#: includes/class-sync-engine.php:519
+#, php-format
+msgid "%1$s threshold: %2$s → %3$s pts"
+msgstr "%1$s 閾值：%2$s → %3$s 分"
+
+#. translators: %1$s: tier name, %2$s: old threshold amount, %3$s: new
+#. threshold amount
+#: includes/class-sync-engine.php:526
+#, php-format
+msgid "%1$s threshold: $%2$s → $%3$s"
+msgstr "%1$s 閾值：$%2$s → $%3$s"
+
+#. translators: %d is the number of repaired issues
+#: includes/class-sync-engine.php:727
+#, php-format
+msgid "Repaired %d issue"
+msgid_plural "Repaired %d issues"
+msgstr[0] "已修復 %d 個問題"
+
+#. translators: %d is the number of repaired missing badges
+#: includes/class-sync-repair.php:180
+#, php-format
+msgid "Repaired %d missing badge"
+msgid_plural "Repaired %d missing badges"
+msgstr[0] "修復了 %d 個遺失的徽章"
+
+#. translators: %d is the number of repaired activity badge issues
+#: includes/class-sync-repair.php:290
+#, php-format
+msgid "Repaired %d activity badge issue"
+msgid_plural "Repaired %d activity badge issues"
+msgstr[0] "修復了 %d 個活動徽章問題"
+
+#. translators: %d: partner count
+#: includes/class-usage-limit.php:68
+#, php-format
+msgid "%d partners (Pro)"
+msgstr "%d 個合作夥伴（專業版）"
+
+#. translators: %1$d: current count, %2$d: limit
+#: includes/class-usage-limit.php:75
+#, php-format
+msgid "%1$d / %2$d partners"
+msgstr "%1$d / %2$d 個合作夥伴"
+
+#: includes/class-widget-renderer.php:200 assets/js/partners-page-router.js:25
+msgid "Loading partners..."
+msgstr "正在載入合作夥伴..."
+
+#: includes/class-widget-renderer.php:282
+msgid "Most Active"
+msgstr "最活躍"
+
+#: includes/class-widget-renderer.php:503
+msgid "Loading..."
+msgstr "載入中..."
+
+#: admin/js/admin-scripts.js:102
+msgid "You have unsaved changes. Leave anyway?"
+msgstr "您有未儲存的變更。還是離開吧？"
+
+#: admin/js/admin-scripts.js:303
+msgid "Failed to load partners. Please try again."
+msgstr "無法載入合作夥伴。請再試一次。"
+
+#: admin/js/admin-scripts.js:411
+msgid "Please enter a license key"
+msgstr "請輸入許可證密鑰"
+
+#: admin/js/admin-scripts.js:415
+msgid "Activating..."
+msgstr "啟用設定..."
+
+#: admin/js/admin-scripts.js:429
+msgid "Activation failed"
+msgstr "啟動失敗"
+
+#: admin/js/admin-scripts.js:434 admin/js/admin-scripts.js:467
+msgid "Network error. Please try again."
+msgstr "網路錯誤。請再試一次。"
+
+#: admin/js/admin-scripts.js:444
+msgid "Deactivate this license? You can reactivate it later."
+msgstr "停用該許可證？您可以稍後重新啟動它。"
+
+#: admin/js/admin-scripts.js:462
+msgid "Deactivation failed"
+msgstr "停用失敗"
+
+#: admin/js/setup.js:113
+msgid "Setting up..."
+msgstr "正在設定..."
+
+#: admin/js/setup.js:114
+msgid "Setting things up..."
+msgstr "設定事情..."
+
+#: admin/js/setup.js:211
+msgid "Great news!"
+msgstr "好消息！"
+
+#: admin/js/setup.js:212
+msgid ""
+"All your WordPress users already have FluentCRM contacts. Nothing to import."
+" Enjoy using Partner!"
+msgstr "您的所有 WordPress 使用者都已經擁有 FluentCRM 聯絡人。沒有什麼可導入的。享受使用合作夥伴的樂趣！"
+
+#: admin/js/setup.js:214
+msgid "All set!"
+msgstr "一切就緒！"
+
+#. translators: %d: number of imported users
+#: admin/js/setup.js:218
+#, js-format
+msgid "%d users imported as FluentCRM contacts. Partner is ready to go."
+msgstr "%d 個使用者匯入為 FluentCRM 聯絡人。夥伴已準備出發。"
+
+#. translators: %d: number of failed imports
+#: admin/js/setup.js:229
+#, js-format
+msgid "%d users could not be imported (invalid email addresses)."
+msgstr "無法匯入 %d 個使用者（電子電子郵件地址無效）。"
+
+#: assets/js/activity-page-router.js:28
+msgid "Loading activity..."
+msgstr "正在載入活動..."
+
+#: assets/js/activity-page-router.js:30
+msgid "Community members ranked by Activity"
+msgstr "社區成員按活動排名"
+
+#: assets/js/activity-page-router.js:31
+msgid "Posts, comments, and reactions — given or received — earn points."
+msgstr "發布或收到的貼文、留言和回應均可賺取積分。"
+
+#: assets/js/activity-page-router.js:32
+msgid "Community Members Strong"
+msgstr "社區成員實力雄厚"
+
+#: assets/js/activity-page-router.js:33
+msgid "Activity Levels"
+msgstr "活動水準"
+
+#: assets/js/activity-page-router.js:36
+msgid "All Time"
+msgstr "所有時間"
+
+#: assets/js/activity-page-router.js:37
+msgid "Last 30 Days"
+msgstr "過去 30 天"
+
+#: assets/js/activity-page-router.js:38
+msgid "Last 7 Days"
+msgstr "過去 7 天"
+
+#: assets/js/activity-page-router.js:39
+msgid "Rank"
+msgstr "秩"
+
+#: assets/js/activity-page-router.js:40
+msgid "Member"
+msgstr "成員"
+
+#: assets/js/activity-page-router.js:41
+msgid "Total"
+msgstr "全部的"
+
+#: assets/js/activity-page-router.js:42
+msgid "Tier"
+msgstr "等級"
+
+#: assets/js/activity-page-router.js:43
+msgid "No activity data yet."
+msgstr "尚無活動資料。"
+
+#: assets/js/activity-page-router.js:44
+msgid "No activity in the last 7 days."
+msgstr "過去 7 天內沒有任何活動。"
+
+#: assets/js/activity-page-router.js:45
+msgid "No activity in the last 30 days."
+msgstr "過去 30 天內沒有任何活動。"
+
+#: assets/js/activity-page-router.js:46
+#, js-format
+msgid "Earn %s points to initiate direct messages and join community chats."
+msgstr "賺取 %s 積分以發起直接訊息並加入社群聊天。"
+
+#: assets/js/activity-page-router.js:286 assets/js/activity-page-router.js:316
+msgid "Failed to load activity data"
+msgstr "無法載入活動資料"
+
+#: assets/js/activity-page-router.js:299
+msgid "Failed to load activity data. Please try again."
+msgstr "無法載入活動資料。請再試一次。"
+
+#: assets/js/activity-page-router.js:343
+msgid "Unable to load activity data."
+msgstr "無法載入活動資料。"
+
+#: assets/js/activity-page-router.js:348
+msgid "Error loading activity page. Please try again."
+msgstr "載入活動頁面時發生錯誤。請再試一次。"
+
+#: assets/js/activity-page-router.js:373
+msgid "Failed to load more activity data"
+msgstr "無法載入更多活動資料"
+
+#: assets/js/partner-widget-inject.js:112
+#: assets/js/partner-widget-inject.js:191
+msgid "Anonymous"
+msgstr "匿名的"
+
+#: assets/js/partner-widget-inject.js:287
+#: assets/js/partner-widget-inject.js:288
+msgid "Close widget"
+msgstr "關閉小工具"
+
+#. translators: %d: number of partners
+#: assets/js/partners-page-router.js:27
+#, js-format
+msgid "%d Partner Strong"
+msgstr "%d 合作夥伴強"
+
+#. translators: %d: number of partners
+#: assets/js/partners-page-router.js:29
+#, js-format
+msgid "%d Partners Strong"
+msgstr "%d 合作夥伴實力雄厚"
+
+#: assets/js/partners-page-router.js:30
+msgid "Become a Partner"
+msgstr "成為合作夥伴"
+
+#: assets/js/partners-page-router.js:31
+msgid "Partners ranked by contribution level."
+msgstr "合作夥伴依貢獻程度排名。"
+
+#: assets/js/partners-page-router.js:257
+msgid "Today"
+msgstr "今天"
+
+#: assets/js/partners-page-router.js:258
+msgid "Yesterday"
+msgstr "昨天"
+
+#: assets/js/partners-page-router.js:259
+#, js-format
+msgid "%d days ago"
+msgstr "%d 天前"
+
+#: assets/js/partners-page-router.js:262
+#, js-format
+msgid "%d week ago"
+msgstr "%d 週前"
+
+#: assets/js/partners-page-router.js:262
+#, js-format
+msgid "%d weeks ago"
+msgstr "%d 週前"
+
+#: assets/js/partners-page-router.js:266
+#, js-format
+msgid "%d month ago"
+msgstr "%d 個月前"
+
+#: assets/js/partners-page-router.js:266
+#, js-format
+msgid "%d months ago"
+msgstr "%d 個月前"
+
+#: assets/js/partners-page-router.js:284
+msgid "Failed to fetch partners data"
+msgstr "取得合作夥伴資料失敗"
+
+#: assets/js/partners-page-router.js:315
+msgid "Unable to load partners data."
+msgstr "無法載入合作夥伴資料。"
+
+#: assets/js/partners-page-router.js:321
+msgid "Error loading partners page. Please try again."
+msgstr "載入合作夥伴頁面時發生錯誤。請再試一次。"
+
+#: assets/js/partners-page-router.js:347
+msgid "Failed to fetch more partners"
+msgstr "無法取得更多合作夥伴"

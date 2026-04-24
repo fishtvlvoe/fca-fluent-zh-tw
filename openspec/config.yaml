@@ -1,20 +1,57 @@
 schema: spec-driven
 
-# Project context (optional)
-# This is shown to AI when creating artifacts.
-# Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+context: |
+  專案性質：WordPress 外掛翻譯包 (fca-fluent-zh-tw)
+  作用：為 FCA / FCE / FCHub / Fluent 系列外掛提供繁體中文 (.mo) 翻譯
 
-# Per-artifact rules (optional)
-# Add custom rules for specific artifacts.
-# Example:
-#   rules:
-#     proposal:
-#       - Keep proposals under 500 words
-#       - Always include a "Non-goals" section
-#     tasks:
-#       - Break tasks into chunks of max 2 hours
+  技術棧：
+    - PHP 7.4+（WordPress 外掛）
+    - GNU gettext (.po / .mo / .pot)
+    - msgfmt CLI（編譯工具）
+    - Bash scripts（scripts/ 目錄：check-coverage.sh、monthly-release.sh、diff-domains.sh）
+
+  檔案結構：
+    - fca-fluent-zh-tw.php — 主外掛檔，$domains 陣列統一管理所有翻譯 domain
+    - languages/{domain}-zh_TW.po — 翻譯來源檔
+    - languages/{domain}-zh_TW.mo — 編譯產物
+    - scripts/version-tracker.json — 各外掛版本追蹤
+    - scripts/check-upstream.sh — 版本比對自動化
+
+  翻譯術語表（強制一致）：
+    - Currency → 幣別（禁用：貨幣）
+    - Checkout → 結帳（禁用：付款）
+    - Save settings → 儲存設定（禁用：保存、存儲）
+    - Email → 電子郵件（禁用：電郵、電子電子郵件）
+    - 技術名詞保留原文：FluentCRM、FluentCart、FluentCommunity、ISO
+    - 格式符原位保留：%s、%1$s、%d 不翻譯
+
+  自動涵蓋範圍（新外掛主動加入）：
+    - fca- / fce- / fchub- 開頭
+    - fluent- / fluentform / fluentcampaign 開頭
+
+  新增 domain SOP：
+    1. 掃描可翻譯字串（PHP __() + JS wp.i18n.__()）或使用官方 POT
+    2. 建 languages/{domain}-zh_TW.po
+    3. msgfmt 編譯 .mo（exit 0 才算成功）
+    4. fca-fluent-zh-tw.php 的 $domains 陣列新增
+    5. scripts/version-tracker.json 記錄版本
+    6. 版本號 patch +0.0.1
+
+  工作流：
+    - Spectra SDD：propose → apply → archive
+    - 派工規則：翻譯大量字串派 Copilot CLI；Shell 自動化派主對話
+
+rules:
+  proposal:
+    - 用繁體中文撰寫
+    - 必須列出 Affected code 的完整相對路徑
+    - 版本號變更要明確寫出（舊 → 新）
+  design:
+    - 只有跨檔重構或新架構決策才需要 design.md；純翻譯新增可略過
+  tasks:
+    - 每個 task 必須標 [Tool: ...]
+    - 翻譯任務標 [Tool: copilot-codex]
+    - 編譯 / shell 執行由主對話做（無 Tool 標記）
+    - 粒度：每 task 可在 30 分鐘內完成
+  specs:
+    - spec 只在本翻譯包本身有可測試行為時才建立（通常不需要）

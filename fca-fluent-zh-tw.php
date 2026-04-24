@@ -2,7 +2,7 @@
 /**
  * Plugin Name: FCA & Fluent 繁體中文翻譯包
  * Description: 提供 FCA 系列與 Fluent 系列外掛的專業繁體中文翻譯，包含 JS DOM 實時翻譯與 PHP Gettext 補強。
- * Version: 1.6.55
+ * Version: 1.6.62
  * Author: Fish
  */
 
@@ -19,7 +19,8 @@ class FCA_Fluent_ZhTW {
         'fca-display-name', 'fca-events', 'fca-events-basic', 'fca-events-spaces', 
         'fca-global-search', 'fca-hub', 'fca-knowledgebase', 'fca-multi-reactions', 
         'fca-pages', 'fca-push-notifications', 'fca-pwa', 'fca-real-time', 
-        'fca-widgets', 'fce-quick-fixes', 'fce-shortcodes', 'fchub-fakturownia', 
+        'fca-widgets', 'fce-quick-fixes', 'fce-shortcodes', 'fc-partner',
+        'fchub-fakturownia', 
         'fchub-memberships', 'fchub-multi-currency', 'fchub-p24', 
         'fchub-portal-extender', 'fchub-wishlist', 'fluent-booking', 
         'fluent-booking-pro', 'fluent-cart', 'fluent-cart-pro', 
@@ -38,6 +39,8 @@ class FCA_Fluent_ZhTW {
 
         // 2. 翻譯載入
         add_action('init', [__CLASS__, 'load_translations'], 10);
+
+        add_filter('fca_hub_addon_metadata', [__CLASS__, 'filter_fca_hub_addon_metadata'], 10, 2);
         
         // 3. JS 翻譯器載入
         add_action('wp_enqueue_scripts', [__CLASS__, 'enqueue_js'], 100);
@@ -75,6 +78,44 @@ class FCA_Fluent_ZhTW {
                 $loaded[$domain] = true;
             }
         }
+    }
+
+    /**
+     * FCA Hub：更新伺服器 registry 的 name/description 僅能由此覆寫（不影響 slug/basename）。
+     */
+    public static function filter_fca_hub_addon_metadata($addon, $slug) {
+        if (!is_array($addon)) {
+            return $addon;
+        }
+
+        if (strpos(determine_locale(), 'zh_TW') === false) {
+            return $addon;
+        }
+
+        if (!empty($addon['target']) && $addon['target'] === 'Coming Soon') {
+            $addon['target'] = '即將推出';
+        }
+
+        $map_file = plugin_dir_path(__FILE__) . 'includes/fca-hub-registry-zh.php';
+        if (!is_readable($map_file)) {
+            return $addon;
+        }
+
+        $map = include $map_file;
+        if (!is_array($map) || empty($map[$slug]) || !is_array($map[$slug])) {
+            return $addon;
+        }
+
+        $row = $map[$slug];
+        if (!empty($row['name'])) {
+            $addon['name'] = $row['name'];
+        }
+
+        if (!empty($row['description'])) {
+            $addon['description'] = $row['description'];
+        }
+
+        return $addon;
     }
 
     public static function enqueue_js() {

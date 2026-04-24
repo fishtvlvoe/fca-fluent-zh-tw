@@ -40,6 +40,7 @@ get_repo_for_domain() {
         fca-widgets) echo "fluentcrm/fca-widgets" ;;
         fce-quick-fixes) echo "fluentcrm/fce-quick-fixes" ;;
         fce-shortcodes) echo "fluentcrm/fce-shortcodes" ;;
+        fc-partner) echo "" ;; # 手動維護（非 GitHub fluentcrm repo）
         # Fluent 系列
         fluent-booking) echo "fluentcrm/fluent-booking" ;;
         fluent-booking-pro) echo "fluentcrm/fluent-booking-pro" ;;
@@ -71,7 +72,7 @@ DOMAINS=(
     fca-display-name fca-events fca-events-basic fca-events-spaces
     fca-global-search fca-hub fca-knowledgebase fca-multi-reactions
     fca-pages fca-push-notifications fca-pwa fca-widgets
-    fce-quick-fixes fce-shortcodes
+    fce-quick-fixes fce-shortcodes fc-partner
     fluent-booking fluent-booking-pro fluent-cart fluent-cart-elementor-blocks
     fluent-cart-pro fluent-community fluent-community-pro fluent-crm
     fluent-messaging fluent-player fluent-player-pro fluent-security

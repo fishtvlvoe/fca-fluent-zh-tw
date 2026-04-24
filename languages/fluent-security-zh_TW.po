@@ -1771,7 +1771,7 @@ msgstr "停用 %s 存取並隱藏管理列的角色"
 
 #: app/Services/TransStrings.php
 msgid "Save"
-msgstr "節省"
+msgstr "儲存"
 
 #: app/Services/TransStrings.php
 msgid "Save Changes"

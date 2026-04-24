@@ -1,105 +1,61 @@
 #!/usr/bin/env python3
 """
-FCA & Fluent 翻譯包 - 全自動維護腳本 (Maintainer Pro)
-整合掃描、提取、補齊、編譯、版本管理。
+FCA & Fluent 繁體中文翻譯包 - 系統守護與維修腳本 (MAINTAINER)
+老魚專屬版：記錄了今天所有的坑與最終解法。
 
-Usage:
-  python3 scripts/maintain.py <plugin-dir-path> <domain>
-
-Example:
-  python3 scripts/maintain.py ../fluent-crm fluent-crm
+踩過的坑 (TRAPS):
+1. jQuery is not defined: 發生在頁面中段 (Line 10000+)，因為 jQuery 被排到頁尾了。
+   解法: 強迫在 wp_head 最頂端 (Priority -1000) echo 出 script 標籤。
+2. JS DOM 遍歷衝突 (codes.forEach): 與瀏覽器外掛 (如沈浸式翻譯) 衝突。
+   解法: 排除 SCRIPT, STYLE, SVG, 且跳過以 / 或 http 開頭的路徑字串。
+3. 503 伺服器過載: 頻繁的 file_exists 與 MutationObserver 導致。
+   解法: PHP 靜態快取 + JS 250ms 防抖。
+4. PWA Scope 錯誤: sw.js 權限不足。
+   解法: 修改 fca-pwa 外掛設定 (關閉靜態服務) 或注入 Service-Worker-Allowed 標頭。
 """
 
-import sys
 import os
-import subprocess
-import datetime
 import re
 
-# 設定路徑
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.join(SCRIPT_DIR, '..')
-AUTO_TRANSLATE = os.path.join(SCRIPT_DIR, 'auto-translate.py')
-EXTRACT_JS = os.path.join(SCRIPT_DIR, 'extract-js-dom.py')
-PHP_FILE = os.path.join(REPO_ROOT, 'fca-fluent-zh-tw.php')
-MSGFMT = '/opt/homebrew/bin/msgfmt'
+PLUGIN_ROOT = os.path.dirname(os.path.abspath(__file__)) + "/.."
+PHP_FILE = PLUGIN_ROOT + "/fca-fluent-zh-tw.php"
+JS_TRANSLATOR = PLUGIN_ROOT + "/js/translator.js"
 
-def run_command(cmd):
-    print(f"🚀 執行: {' '.join(cmd)}")
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    if result.returncode != 0:
-        print(f"❌ 錯誤: {result.stderr}")
-    else:
-        print(result.stdout)
-    return result.returncode == 0
-
-def update_version():
-    """自動增加 Patch 版本號"""
+def check_jquery_fix():
+    print("🔍 檢查 jQuery 暴力加載修復...")
     with open(PHP_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
-    
-    match = re.search(r'Version:\s*(\d+\.\d+\.)(\d+)', content)
-    if match:
-        base = match.group(1)
-        patch = int(match.group(2))
-        new_version = f"{base}{patch + 1}"
-        print(f"📦 版本升級: {match.group(1)}{patch} -> {new_version}")
-        
-        # 更新 PHP 主檔
-        new_content = re.sub(r'Version:\s*\d+\.\d+\.\d+', f'Version: {new_version}', content)
-        new_content = re.sub(r"ZhTW_Updater\(\$file,\s*'\d+\.\d+\.\d+'\)", f"ZhTW_Updater($file, '{new_version}')", new_content)
-        
-        with open(PHP_FILE, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-            
-        # 更新 updater.php (如果有)
-        updater_path = os.path.join(REPO_ROOT, 'updater.php')
-        if os.path.exists(updater_path):
-            with open(updater_path, 'r', encoding='utf-8') as f:
-                u_content = f.read()
-            u_content = re.sub(r"'\d+\.\d+\.\d+'", f"'{new_version}'", u_content)
-            with open(updater_path, 'w', encoding='utf-8') as f:
-                f.write(u_content)
+    if 'add_action(\'wp_head\', [__CLASS__, \'force_jquery_to_top\'], -1000)' in content:
+        print("✅ jQuery 修復已在位 (wp_head 優先權 -1000)")
+    else:
+        print("❌ 警告: jQuery 載入優先權可能不足！")
+
+def check_js_filters():
+    print("🔍 檢查 JS 遍歷過濾清單...")
+    with open(JS_TRANSLATOR, 'r', encoding='utf-8') as f:
+        content = f.read()
+    filters = ['SVG', 'URL', 'http', 'JSON', 'Service-Worker']
+    for ft in filters:
+        if ft in content:
+            print(f"✅ JS 已包含 {ft} 過濾")
+        else:
+            print(f"❌ 警告: JS 遺漏了 {ft} 的安全過濾，可能造成當機！")
+
+def check_performance_debounce():
+    print("🔍 檢查 JS 效能防抖 (Debounce)...")
+    with open(JS_TRANSLATOR, 'r', encoding='utf-8') as f:
+        content = f.read()
+    if '250);' in content or '300);' in content:
+        print("✅ JS 防抖延遲已設定為 250ms+ (效能穩定)")
+    else:
+        print("❌ 警告: JS 防抖延遲過短，可能造成 503 過載！")
 
 def main():
-    if len(sys.argv) < 3:
-        print(__doc__)
-        sys.exit(1)
+    print("--- FCA & Fluent 翻譯包系統診斷 ---")
+    check_jquery_fix()
+    check_js_filters()
+    check_performance_debounce()
+    print("--- 診斷結束 ---")
 
-    plugin_dir = sys.argv[1]
-    domain = sys.argv[2]
-
-    if not os.path.isdir(plugin_dir):
-        print(f"❌ 找不到目錄: {plugin_dir}")
-        sys.exit(1)
-
-    print(f"🛠️ 開始維護 Domain: {domain}")
-    print("=" * 40)
-
-    # 1. 處理 PHP / Gettext 翻譯
-    print("📥 [1/4] 掃描 PHP 字串並更新 .po...")
-    run_command(['python3', AUTO_TRANSLATE, domain, '--scan', plugin_dir])
-
-    # 2. 處理 JS / DOM 翻譯
-    print("📥 [2/4] 掃描 JS 字串並更新 translations.js...")
-    run_command(['python3', EXTRACT_JS, domain, plugin_dir])
-
-    # 3. 編譯 .mo 檔
-    print("⚙️ [3/4] 編譯 .mo 檔...")
-    po_path = os.path.join(REPO_ROOT, 'languages', f'{domain}-zh_TW.po')
-    mo_path = os.path.join(REPO_ROOT, 'languages', f'{domain}-zh_TW.mo')
-    if os.path.exists(po_path):
-        if not run_command([MSGFMT, po_path, '-o', mo_path]):
-            # 嘗試後備路徑
-            run_command(['msgfmt', po_path, '-o', mo_path])
-
-    # 4. 版本更新
-    print("🆙 [4/4] 正在更新外掛版本...")
-    update_version()
-
-    print("=" * 40)
-    print(f"🎉 {domain} 維護完成！")
-    print(f"💡 提醒: 若有新增翻譯，請記得 git commit 並發布新版本。")
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
